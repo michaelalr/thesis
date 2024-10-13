@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose a Container</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        #image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+        .container-bbox {
+            border: 2px solid red;
+            position: absolute;
+            cursor: pointer;
+        }
+        #image-container {
+            position: relative;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Choose the Container for the Object</h1>
+
+    <div id="image-container">
+        <img id="image" src="" alt="Selected Image">
+        <!-- Bounding boxes will be drawn dynamically here -->
+    </div>
+
+    <p id="random-item"></p>
+
+    <button id="no-container">No container for this object</button>
+
+    <script>
+        let csvData;
+        let currentImageIndex = 0;
+        let currentItem = '';
+        let bboxData = [];
+
+        // Load CSV Data
+        function loadCSV() {
+            // AJAX call to fetch CSV data (replace with your path)
+            $.ajax({
+                url: '/load_csv',  // Fetches CSV data from the backend
+                dataType: 'json',
+                success: function(data) {
+                    csvData = data;
+                    loadNextImage();
+                }
+            });
+        }
+
+        // Load next image and random item
+        function loadNextImage() {
+            if (currentImageIndex < csvData.length) {
+                let row = csvData[currentImageIndex];
+                console.log('Current row:', row);  // Log the row data
+                console.log('Image path:', row.image_path);  // Log the image path
+
+                // $('#image').attr('src', row.image_path);  // Load image
+                $('#image').attr('src', '/static/images/14_segmented_sun_aotwhhmzcyiwovbg.jpg');  // Replace with a real image name
+                currentItem = getRandomItem(row.common_items);  // Pick random item
+                $('#random-item').text(`Where would you store: ${currentItem}`);
+                loadBoundingBoxes(row.containers_bbox);
+            } else {
+                alert("You have completed all images.");
+            }
+        }
+
+
+        // Randomly pick an item from common_items
+        function getRandomItem(commonItems) {
+            let items = commonItems.split(',');
+            return items[Math.floor(Math.random() * items.length)];
+        }
+
+        // Draw bounding boxes
+        function loadBoundingBoxes(bboxes) {
+            // Clear old bounding boxes
+            $('.container-bbox').remove();
+
+            // If there are bounding boxes, create them
+            if (bboxes && bboxes.length > 0) {
+                bboxes.forEach((bbox, index) => {
+                    let boxElement = $('<div class="container-bbox"></div>');
+                    boxElement.css({
+                        left: `${bbox[0]}px`,
+                        top: `${bbox[1]}px`,
+                        width: `${bbox[2]}px`,
+                        height: `${bbox[3]}px`
+                    });
+                    boxElement.data('bbox', bbox);
+                    $('#image-container').append(boxElement);
+                });
+            }
+        }
+
+        // Capture container selection (click event)
+        $(document).on('click', '.container-bbox', function() {
+            let bbox = $(this).data('bbox');  // Capture clicked container bbox
+            saveUserAnswer(bbox);
+        });
+
+        // If user chooses "No container"
+        $('#no-container').on('click', function() {
+            saveUserAnswer([]);
+        });
+
+        // Save the user's choice (to backend or CSV file)
+        function saveUserAnswer(bbox) {
+            let row = csvData[currentImageIndex];
+            row.chosen_annotation = bbox;
+            row.random_item = currentItem;
+
+            // Send row data to backend to append to CSV
+            $.post('/save_answer', row, function() {
+                currentImageIndex++;
+                loadNextImage();
+            });
+        }
+
+        // Initial load
+        loadCSV();
+    </script>
+</body>
+</html>
