@@ -4,7 +4,7 @@ let currentIndex = 0;  // Tracks which image we are displaying
 let userAnswers = [];  // Collects user's answers
 
 // Load the CSV data for the user
-fetch('user_1_images.csv')  // Ensure this points to the correct user-specific CSV file
+fetch('csv_files/user_1_images.csv')  // Ensure this points to the correct user-specific CSV file
   .then(response => response.text())
   .then(csv => {
     Papa.parse(csv, {
