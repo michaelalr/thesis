@@ -52,15 +52,36 @@
             });
         }
 
+        // // Load next image and random item
+        // function loadNextImage() {
+        //     if (currentImageIndex < csvData.length) {
+        //         let row = csvData[currentImageIndex];
+        //         console.log('Current row:', row);  // Log the row data
+        //         console.log('Image path:', row.image_path);  // Log the image path
+        //
+        //         // $('#image').attr('src', row.image_path);  // Load image
+        //         $('#image').attr('src', '/static/images/14_segmented_sun_aotwhhmzcyiwovbg.jpg');  // Replace with a real image name
+        //         currentItem = getRandomItem(row.common_items);  // Pick random item
+        //         $('#random-item').text(`Where would you store: ${currentItem}`);
+        //         loadBoundingBoxes(row.containers_bbox);
+        //     } else {
+        //         alert("You have completed all images.");
+        //     }
+        // }
         // Load next image and random item
         function loadNextImage() {
             if (currentImageIndex < csvData.length) {
                 let row = csvData[currentImageIndex];
+                console.log('CSV data received:', csvData);  // Log the full CSV data
                 console.log('Current row:', row);  // Log the row data
                 console.log('Image path:', row.image_path);  // Log the image path
 
-                // $('#image').attr('src', row.image_path);  // Load image
-                $('#image').attr('src', '/static/images/14_segmented_sun_aotwhhmzcyiwovbg.jpg');  // Replace with a real image name
+                if (row.image_path) {
+                    $('#image').attr('src', row.image_path);  // Load image
+                } else {
+                    console.error("Image path is undefined or empty!");
+                }
+
                 currentItem = getRandomItem(row.common_items);  // Pick random item
                 $('#random-item').text(`Where would you store: ${currentItem}`);
                 loadBoundingBoxes(row.containers_bbox);

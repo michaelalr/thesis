@@ -4,8 +4,9 @@ import random
 
 app = Flask(__name__)
 
-# Load CSV data as a DataFrame
-csv_data = pd.read_csv('user_1_images.csv')  # No need to convert it to a list of dictionaries
+# Load CSV data (replace 'user_1_images.csv' with the appropriate user CSV)
+csv_data = pd.read_csv('user_1_images.csv')  # Load CSV into DataFrame
+# csv_data = df.to_dict(orient='records')  # Convert DataFrame to list of dictionaries
 
 
 @app.route('/')
@@ -19,11 +20,19 @@ def index():
     return render_template('index.html', image_path=image_path, random_item=random_item)
 
 
-@app.route('/load_csv')
+# @app.route('/load_csv')
+# def load_csv():
+#     # Adjust the image path to point to static/images
+#     csv_data['image_path'] = csv_data['image_path'].apply(lambda x: f"/static/images/{x.split('/')[-1]}")
+#     return jsonify(csv_data.to_dict(orient='records'))  # Convert the DataFrame to a list of dictionaries for JSON
+
+@app.route('/load_csv', methods=['GET'])
 def load_csv():
-    # Adjust the image path to point to static/images
-    csv_data['image_path'] = csv_data['image_path'].apply(lambda x: f"/static/images/{x.split('/')[-1]}")
-    return jsonify(csv_data.to_dict(orient='records'))  # Convert the DataFrame to a list of dictionaries for JSON
+    csv_list = csv_data.to_dict(orient='records')  # Convert DataFrame to list of dictionaries
+    return jsonify(csv_list)  # Send list of dictionaries to the frontend
+
+
+
 
 
 @app.route('/save_answer', methods=['POST'])
