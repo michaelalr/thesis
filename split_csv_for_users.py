@@ -23,6 +23,6 @@ def split_csv_for_users(csv_file_path, num_users):
 
 
 if __name__ == '__main__':
-    csv_file_path = 'C:\\Users\\miki\\PycharmProjects\\thesis\\use_sun\\image_details_5.csv'
+    csv_file_path = '/csv_files/image_details_5.csv'
     num_users = 3
     split_csv_for_users(csv_file_path=csv_file_path, num_users=num_users)

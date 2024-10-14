@@ -5,7 +5,7 @@ import random
 app = Flask(__name__)
 
 # Load CSV data (replace 'user_1_images.csv' with the appropriate user CSV)
-csv_data = pd.read_csv('user_1_images.csv')  # Load CSV into DataFrame
+csv_data = pd.read_csv('csv_files/user_1_images.csv')  # Load CSV into DataFrame
 # csv_data = df.to_dict(orient='records')  # Convert DataFrame to list of dictionaries
 
 
