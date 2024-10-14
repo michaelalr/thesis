@@ -4,7 +4,7 @@ let currentIndex = 0;  // Tracks which image we are displaying
 let userAnswers = [];  // Collects user's answers
 
 // Load the CSV data for the user
-fetch('user_1_images.csv')  // Replace 'user1.csv' with dynamic user-specific CSV paths
+fetch('user_1_images.csv')  // Ensure this points to the correct user-specific CSV file
   .then(response => response.text())
   .then(csv => {
     Papa.parse(csv, {
@@ -22,15 +22,15 @@ function displayImage() {
   if (!row) return;
 
   let imageElement = document.getElementById('image');
-  imageElement.src = row.image_path;
+  imageElement.src = row.image_path;  // Set image path from CSV
 
   // Display a random item from the common_items list
-  let commonItems = JSON.parse(row.common_items);
+  let commonItems = JSON.parse(row.common_items); // Assuming this is a JSON array in the CSV
   let randomItem = commonItems[Math.floor(Math.random() * commonItems.length)];
   document.getElementById('random-item').querySelector('span').textContent = randomItem;
 
   // Display the bounding boxes (containers_bbox) on the image
-  displayBoundingBoxes(JSON.parse(row.containers_bbox));
+  displayBoundingBoxes(JSON.parse(row.containers_bbox)); // Assuming this is a JSON array in the CSV
 
   // Prepare for the user's selection
   prepareUserSelection(row, randomItem);
@@ -63,7 +63,7 @@ function displayBoundingBoxes(bboxes) {
 // Prepare for user selection (either bbox or "Not in Any Container")
 function prepareUserSelection(row, randomItem) {
   document.getElementById('no-container').onclick = () => {
-    saveUserSelection([]);
+    saveUserSelection([]); // Save empty selection for "Not in Any Container"
   };
 }
 
@@ -82,9 +82,9 @@ function saveUserSelection(chosenBbox) {
   // Move to the next image
   currentIndex++;
   if (currentIndex < csvData.length) {
-    displayImage();
+    displayImage(); // Load the next image
   } else {
-    downloadCSV();
+    downloadCSV(); // All images processed, download results
   }
 }
 
@@ -102,9 +102,9 @@ function downloadCSV() {
 document.getElementById('next').addEventListener('click', () => {
   currentIndex++;
   if (currentIndex < csvData.length) {
-    displayImage();
+    displayImage(); // Display the next image
   } else {
-    alert('All images processed!');
-    downloadCSV();
+    alert('All images processed!'); // Alert when finished
+    downloadCSV(); // Download the CSV of user answers
   }
 });
