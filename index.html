@@ -1,137 +1,90 @@
-<!--<!DOCTYPE html>-->
-<!--<html lang="en">-->
-<!--<head>-->
-<!--    <meta charset="UTF-8">-->
-<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
-<!--    <title>Image Viewer</title>-->
-<!--    <style>-->
-<!--        #image-container {-->
-<!--            text-align: center;-->
-<!--        }-->
-<!--        img {-->
-<!--            max-width: 100%;-->
-<!--            height: auto;-->
-<!--            margin: 20px 0;-->
-<!--        }-->
-<!--        .controls {-->
-<!--            text-align: center;-->
-<!--        }-->
-<!--    </style>-->
-<!--</head>-->
-<!--<body>-->
-<!--    <h1>Image Viewer</h1>-->
-<!--    <div id="image-container">-->
-<!--        <img id="image" src="" alt="Image" />-->
-<!--    </div>-->
-<!--    <div class="controls">-->
-<!--        <button id="previous" disabled>Previous</button>-->
-<!--        <button id="next">Next</button>-->
-<!--    </div>-->
-
-<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>-->
-<!--    <script src="app.js"></script>-->
-<!--&lt;!&ndash;    <script>&ndash;&gt;-->
-<!--&lt;!&ndash;        let csvData = [];&ndash;&gt;-->
-<!--&lt;!&ndash;        let currentIndex = 0;&ndash;&gt;-->
-
-<!--&lt;!&ndash;        // Load the CSV data for the user&ndash;&gt;-->
-<!--&lt;!&ndash;        fetch('csv_files/user_1_images.csv')  // Make sure the path is correct&ndash;&gt;-->
-<!--&lt;!&ndash;          .then(response => response.text())&ndash;&gt;-->
-<!--&lt;!&ndash;          .then(csv => {&ndash;&gt;-->
-<!--&lt;!&ndash;            Papa.parse(csv, {&ndash;&gt;-->
-<!--&lt;!&ndash;              header: true,&ndash;&gt;-->
-<!--&lt;!&ndash;              complete: function(results) {&ndash;&gt;-->
-<!--&lt;!&ndash;                csvData = results.data;&ndash;&gt;-->
-<!--&lt;!&ndash;                displayImage();&ndash;&gt;-->
-<!--&lt;!&ndash;              }&ndash;&gt;-->
-<!--&lt;!&ndash;            });&ndash;&gt;-->
-<!--&lt;!&ndash;          });&ndash;&gt;-->
-
-<!--&lt;!&ndash;        // Display the current image&ndash;&gt;-->
-<!--&lt;!&ndash;        function displayImage() {&ndash;&gt;-->
-<!--&lt;!&ndash;          let row = csvData[currentIndex];&ndash;&gt;-->
-<!--&lt;!&ndash;          if (!row) return;&ndash;&gt;-->
-
-<!--&lt;!&ndash;          let imageElement = document.getElementById('image');&ndash;&gt;-->
-<!--&lt;!&ndash;          imageElement.src = row.image_path;&ndash;&gt;-->
-
-<!--&lt;!&ndash;          // If it's the last image, hide the "Next" button&ndash;&gt;-->
-<!--&lt;!&ndash;          if (currentIndex === csvData.length - 1) {&ndash;&gt;-->
-<!--&lt;!&ndash;            document.getElementById('next').style.display = 'none';&ndash;&gt;-->
-<!--&lt;!&ndash;            alert('You have reached the last image.');&ndash;&gt;-->
-<!--&lt;!&ndash;          } else {&ndash;&gt;-->
-<!--&lt;!&ndash;            document.getElementById('next').style.display = 'block';&ndash;&gt;-->
-<!--&lt;!&ndash;          }&ndash;&gt;-->
-<!--&lt;!&ndash;        }&ndash;&gt;-->
-
-<!--&lt;!&ndash;        // Event listeners for Next and Previous buttons&ndash;&gt;-->
-<!--&lt;!&ndash;        // Move to the next image when "Next" is clicked&ndash;&gt;-->
-<!--&lt;!&ndash;        document.getElementById('next').addEventListener('click', () => {&ndash;&gt;-->
-<!--&lt;!&ndash;          currentIndex++;&ndash;&gt;-->
-<!--&lt;!&ndash;          if (currentIndex < csvData.length) {&ndash;&gt;-->
-<!--&lt;!&ndash;            displayImage();&ndash;&gt;-->
-<!--&lt;!&ndash;          } else {&ndash;&gt;-->
-<!--&lt;!&ndash;            alert('All images processed!');&ndash;&gt;-->
-<!--&lt;!&ndash;            document.getElementById('next').style.display = 'none';  // Optionally hide the button&ndash;&gt;-->
-<!--&lt;!&ndash;          }&ndash;&gt;-->
-<!--&lt;!&ndash;        });&ndash;&gt;-->
-
-<!--&lt;!&ndash;        document.getElementById('previous').addEventListener('click', () => {&ndash;&gt;-->
-<!--&lt;!&ndash;            if (currentIndex > 0) {&ndash;&gt;-->
-<!--&lt;!&ndash;                currentIndex&#45;&#45;;&ndash;&gt;-->
-<!--&lt;!&ndash;                displayImage();&ndash;&gt;-->
-<!--&lt;!&ndash;            }&ndash;&gt;-->
-<!--&lt;!&ndash;        });&ndash;&gt;-->
-<!--&lt;!&ndash;    </script>&ndash;&gt;-->
-<!--</body>-->
-<!--</html>-->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Viewer</title>
+    <title>Image with Bounding Boxes</title>
     <style>
+        /* Container for the image and bounding boxes */
         #image-container {
-            text-align: center;
-            position: relative; /* Positioning context for bounding boxes */
+            position: relative;
+            display: inline-block;
+            margin: auto; /* Center the container */
         }
-        img {
-            max-width: 100%;
-            height: auto;
-            margin: 20px 0;
-            cursor: pointer; /* Indicates the image is clickable */
+        /* The image itself */
+        #image {
+            display: block;
+            width: auto; /* Set to auto to maintain original size */
+            height: auto; /* Maintain aspect ratio */
+            max-width: 100%; /* Prevent overflow on small screens */
         }
+        /* Bounding box styling */
         .bbox {
-            position: absolute; /* Ensure the bounding boxes are positioned correctly */
-            border: 2px solid red; /* Change this to whatever color you want */
-            pointer-events: auto; /* Allow pointer events on bounding boxes */
-            box-sizing: border-box; /* Include padding and border in width/height */
-        }
-
-        .bbox.highlighted {
-            border: 2px solid blue; /* Highlight color for selected bounding box */
-        }
-        .controls {
-            text-align: center;
-            margin-top: 20px;
+            position: absolute;
+            border: 2px solid red;
+            pointer-events: none; /* Prevents interaction with bounding boxes */
+            box-sizing: border-box;
         }
     </style>
 </head>
 <body>
     <h1>Image Viewer</h1>
     <div id="image-container">
-        <img id="image" src="" alt="Image" />
-    </div>
-    <div class="controls">
-        <button id="no-container">Not in Any Container</button>
-        <br>
-        <button id="finish">Finish Image</button>
+        <img id="image" src="C:\Users\user2\PycharmProjects\thesis\images\14_segmented_sun_aotwhhmzcyiwovbg.jpg" alt="Image">
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
-    <script src="app.js"></script>
+    <script>
+        // Given list of bounding boxes with normalized coordinates - [x, y, width, height] as normalized values
+        const bboxData = {
+            "bboxes": [[0.37867581844329834, 0.3195631206035614, 0.029564477503299713, 0.19982002675533295], [0.2636528015136719, 0.8364533185958862, 0.07826945930719376, 0.3243085443973541], [0.2634313702583313, 0.6638262867927551, 0.07762224972248077, 0.12032835930585861], [0.14821192622184753, 0.1160941794514656, 0.09920679032802582, 0.2307286560535431], [0.8078172206878662, 0.7583344578742981, 0.05148912966251373, 0.2868650555610657], [0.2468605488538742, 0.24255049228668213, 0.09910973906517029, 0.34367236495018005], [0.049517013132572174, 0.09085460752248764, 0.09794072061777115, 0.18160657584667206], [0.1613887995481491, 0.7123223543167114, 0.12627756595611572, 0.13244695961475372], [0.22646157443523407, 0.2404497265815735, 0.05790569260716438, 0.33762866258621216], [0.17140887677669525, 0.8654860258102417, 0.10433021187782288, 0.266132116317749], [0.8084924221038818, 0.6118291020393372, 0.053418613970279694, 0.09212833642959595], [0.0585276298224926, 0.9176232218742371, 0.11556769907474518, 0.16312065720558167], [0.27484673261642456, 0.2672334909439087, 0.043749842792749405, 0.2911759912967682], [0.34110262989997864, 0.7507063150405884, 0.07561514526605606, 0.27517569065093994]]
+        };
+
+        const image = document.getElementById('image');
+        const imageContainer = document.getElementById('image-container');
+
+        // Function to draw bounding boxes after the image loads
+        function drawBoundingBoxes() {
+            // Clear existing bounding boxes
+            const existingBoxes = document.querySelectorAll('.bbox');
+            existingBoxes.forEach(box => box.remove());
+
+            // Get the actual dimensions of the displayed image
+            const rect = image.getBoundingClientRect();
+            const displayedWidth = rect.width;
+            const displayedHeight = rect.height;
+
+            bboxData.bboxes.forEach(bbox => {
+                const [x, y, bboxWidth, bboxHeight] = bbox;
+
+                // Convert normalized coordinates to pixel values
+                const left = x * displayedWidth; // Left position of the bounding box
+                const top = y * displayedHeight; // Top position of the bounding box
+                const width = bboxWidth * displayedWidth; // Width of the bounding box
+                const height = bboxHeight * displayedHeight; // Height of the bounding box
+
+                // Log the calculated values for debugging
+                console.log(`Bounding Box: [Left: ${left}, Top: ${top}, Width: ${width}, Height: ${height}]`);
+
+                // Create the bounding box element
+                const bboxDiv = document.createElement('div');
+                bboxDiv.className = 'bbox';
+
+                // Set the bounding box's position and size
+                bboxDiv.style.left = `${left}px`;
+                bboxDiv.style.top = `${top}px`;
+                bboxDiv.style.width = `${width}px`;
+                bboxDiv.style.height = `${height}px`;
+
+                // Add the bounding box div to the image container
+                imageContainer.appendChild(bboxDiv);
+            });
+        }
+
+        // Draw bounding boxes when the image loads
+        image.onload = drawBoundingBoxes;
+
+        // Redraw bounding boxes on window resize
+        window.addEventListener('resize', drawBoundingBoxes);
+    </script>
 </body>
 </html>
-
