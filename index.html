@@ -55,6 +55,8 @@
         let polygons = []; // Polygons for the current image
         let selectedPolygonIndex = -1; // To track which polygon is selected
         let noSelection = false; // To track if the user chooses "no container"
+        let currentImageIndex = 0; // To keep track of the current image being processed
+        let userAnswers = []; // To store all the user responses
         const img = document.getElementById("image");
         const canvas = document.getElementById("overlay");
         const ctx = canvas.getContext("2d");
@@ -72,176 +74,171 @@
 
         async function initialize() {
             const jsonData = await parseJSON(); // Replace with the relative path to your JSON file
+            // Function to load a new image and its polygons
+            function loadNextImage() {
+                if (currentImageIndex < jsonData.length) {
+                    const imageData = jsonData[currentImageIndex];
+                    const imagePath = imageData.image_path_html.replace(/\\/g, '/'); // Replace backslashes with forward slashes
+                    img.src = imagePath; // Set the image source
+                    polygons = JSON.parse(imageData.containers_mask_polygon); // Parse the polygons
+                    selectedPolygonIndex = -1; // Reset the selected polygon
+                    noSelection = false; // Reset "no selection"
+                    noSelectionButton.classList.remove("selected"); // Remove highlight from "no container"
+                    submitButton.disabled = true; // Disable submit button until a choice is made
 
-            jsonData.forEach((row, index) => {
-                console.log(`Row ${index + 1} - image_path_html: ${row.image_path_html}`);
-                console.log(`Row ${index + 1} - containers_bbox:`, row.containers_bbox);
-                console.log(`Row ${index + 1} - containers_mask_polygon:`, row.containers_mask_polygon);
-            });
+                    img.onload = () => {
+                        canvas.width = img.width;
+                        canvas.height = img.height;
+                        drawAllPolygons(polygons); // Draw the polygons for the current image
+                    };
 
-            const firstImageData = jsonData[0]; // Load the first image as an example
-            console.log("jsonData: ", jsonData);
-            console.log("firstImageData: ", firstImageData);
-
-            // Ensure image path is properly formatted
-            const imagePath = firstImageData.image_path_html.replace(/\\/g, '/'); // Replace backslashes with forward slashes
-            img.src = imagePath; // Set the image source
-            console.log("Image Path: ", imagePath);
-            polygons = firstImageData.containers_mask_polygon;
-            polygons = JSON.parse(polygons);
-            console.log("Polygons loaded: ", polygons);
-
-            if (!Array.isArray(polygons)) {
-                console.error("Polygons is not an array:", polygons);
-                return; // Prevent further execution if polygons is not valid
+                    img.onerror = () => {
+                        console.error(`Failed to load image: ${imagePath}`);
+                        alert(`Failed to load image. Check if the path is correct: ${imagePath}`);
+                    };
+                } else {
+                    alert("You have completed all images.");
+                    downloadUserResponses(); // Download all the responses after the last image
+                }
             }
 
-            img.onload = () => {
-                // Set canvas size to match the image
-                canvas.width = img.width;
-                canvas.height = img.height;
-
-                // Draw polygons
-                drawAllPolygons(polygons);
-            };
-
-            img.onerror = () => {
-                console.error(`Failed to load image: ${imagePath}`);
-                alert(`Failed to load image. Check if the path is correct: ${imagePath}`);
-            };
-        }
-
-        function drawPolygon(polygon, fillStyle, strokeStyle) {
-            ctx.beginPath();
-            polygon.forEach(([x, y], index) => {
-                if (index === 0) {
-                    ctx.moveTo(x, y);
-                } else {
-                    ctx.lineTo(x, y);
-                }
-            });
-            ctx.closePath();
-            ctx.fillStyle = fillStyle;
-            ctx.strokeStyle = strokeStyle;
-            ctx.lineWidth = 2;
-            ctx.fill();
-            ctx.stroke();
-        }
-
-        function drawAllPolygons(polygons, highlightIndex = -1) {
-            if (!Array.isArray(polygons)) {
-                console.error("Invalid polygons data:", polygons);
-                return; // Avoid drawing if polygons is not an array
-            }
-
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-            polygons.forEach((polygon, index) => {
-                if (index === selectedPolygonIndex) {
-                    drawPolygon(polygon, "rgba(0, 0, 255, 0.3)", "blue"); // Selected style
-                } else if (index === highlightIndex) {
-                    drawPolygon(polygon, "rgba(0, 255, 0, 0.3)", "green"); // Hover style
-                } else {
-                    drawPolygon(polygon, "rgba(255, 0, 0, 0.3)", "red"); // Default style
-                }
-            });
-        }
-
-        // Event listener for mouse hover
-        canvas.addEventListener("mousemove", (event) => {
-            const rect = canvas.getBoundingClientRect();
-            const mouseX = event.clientX - rect.left;
-            const mouseY = event.clientY - rect.top;
-
-            let hoveredIndex = -1;
-            polygons.forEach((polygon, index) => {
+            function drawPolygon(polygon, fillStyle, strokeStyle) {
                 ctx.beginPath();
-                polygon.forEach(([x, y], i) => {
-                    if (i === 0) {
+                polygon.forEach(([x, y], index) => {
+                    if (index === 0) {
                         ctx.moveTo(x, y);
                     } else {
                         ctx.lineTo(x, y);
                     }
                 });
                 ctx.closePath();
+                ctx.fillStyle = fillStyle;
+                ctx.strokeStyle = strokeStyle;
+                ctx.lineWidth = 2;
+                ctx.fill();
+                ctx.stroke();
+            }
 
-                if (ctx.isPointInPath(mouseX, mouseY)) {
-                    hoveredIndex = index;
+            function drawAllPolygons(polygons, highlightIndex = -1) {
+                if (!Array.isArray(polygons)) {
+                    console.error("Invalid polygons data:", polygons);
+                    return; // Avoid drawing if polygons is not an array
                 }
-            });
 
-            drawAllPolygons(polygons, hoveredIndex);
-        });
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-        // Event listener for polygon click
-        canvas.addEventListener("click", (event) => {
-            const rect = canvas.getBoundingClientRect();
-            const mouseX = event.clientX - rect.left;
-            const mouseY = event.clientY - rect.top;
-
-            let clickedIndex = -1;
-            polygons.forEach((polygon, index) => {
-                ctx.beginPath();
-                polygon.forEach(([x, y], i) => {
-                    if (i === 0) {
-                        ctx.moveTo(x, y);
+                polygons.forEach((polygon, index) => {
+                    if (index === selectedPolygonIndex) {
+                        drawPolygon(polygon, "rgba(0, 0, 255, 0.3)", "blue"); // Selected style
+                    } else if (index === highlightIndex) {
+                        drawPolygon(polygon, "rgba(0, 255, 0, 0.3)", "green"); // Hover style
                     } else {
-                        ctx.lineTo(x, y);
+                        drawPolygon(polygon, "rgba(255, 0, 0, 0.3)", "red"); // Default style
                     }
                 });
-                ctx.closePath();
+            }
 
-                if (ctx.isPointInPath(mouseX, mouseY)) {
-                    clickedIndex = index;
+            // Event listener for mouse hover
+            canvas.addEventListener("mousemove", (event) => {
+                const rect = canvas.getBoundingClientRect();
+                const mouseX = event.clientX - rect.left;
+                const mouseY = event.clientY - rect.top;
+
+                let hoveredIndex = -1;
+                polygons.forEach((polygon, index) => {
+                    ctx.beginPath();
+                    polygon.forEach(([x, y], i) => {
+                        if (i === 0) {
+                            ctx.moveTo(x, y);
+                        } else {
+                            ctx.lineTo(x, y);
+                        }
+                    });
+                    ctx.closePath();
+
+                    if (ctx.isPointInPath(mouseX, mouseY)) {
+                        hoveredIndex = index;
+                    }
+                });
+
+                drawAllPolygons(polygons, hoveredIndex);
+            });
+
+            // Event listener for polygon click
+            canvas.addEventListener("click", (event) => {
+                const rect = canvas.getBoundingClientRect();
+                const mouseX = event.clientX - rect.left;
+                const mouseY = event.clientY - rect.top;
+
+                let clickedIndex = -1;
+                polygons.forEach((polygon, index) => {
+                    ctx.beginPath();
+                    polygon.forEach(([x, y], i) => {
+                        if (i === 0) {
+                            ctx.moveTo(x, y);
+                        } else {
+                            ctx.lineTo(x, y);
+                        }
+                    });
+                    ctx.closePath();
+
+                    if (ctx.isPointInPath(mouseX, mouseY)) {
+                        clickedIndex = index;
+                    }
+                });
+
+                if (clickedIndex !== -1) {
+                    selectedPolygonIndex = clickedIndex; // Update the selected polygon
+                    noSelection = false; // Clear "no container" choice
+                    noSelectionButton.classList.remove("selected"); // Remove highlight from "no container"
+                    drawAllPolygons(polygons); // Redraw all polygons with the selected one highlighted
+                    submitButton.disabled = false; // Enable the submit button
+                    console.log("Selected polygon:", clickedIndex);
                 }
             });
 
-            if (clickedIndex !== -1) {
-                selectedPolygonIndex = clickedIndex; // Update the selected polygon
-                noSelection = false; // Clear "no container" choice
-                noSelectionButton.classList.remove("selected"); // Remove highlight from "no container"
-                drawAllPolygons(polygons); // Redraw all polygons with the selected one highlighted
+            // Event listener for "Item isn't in any container" button
+            noSelectionButton.addEventListener("click", () => {
+                selectedPolygonIndex = -1; // Clear polygon selection
+                noSelection = true; // Mark "no container" choice
+                noSelectionButton.classList.add("selected"); // Highlight "no container" button
+                drawAllPolygons(polygons); // Redraw polygons with no highlight
                 submitButton.disabled = false; // Enable the submit button
-                console.log("Selected polygon:", clickedIndex);
-            }
-        });
+                console.log("No container selected.");
+            });
 
-        // Event listener for "Item isn't in any container" button
-        noSelectionButton.addEventListener("click", () => {
-            selectedPolygonIndex = -1; // Clear polygon selection
-            noSelection = true; // Mark "no container" choice
-            noSelectionButton.classList.add("selected"); // Highlight "no container" button
-            drawAllPolygons(polygons); // Redraw polygons with no highlight
-            submitButton.disabled = false; // Enable the submit button
-            console.log("No container selected.");
-        });
+            // Event listener for submit button
+            submitButton.addEventListener("click", () => {
+                // Modify the image path to start with C:/ instead of file:///
+                const imagePath = img.src.replace('file:///', '');
 
-        // Event listener for submit button
-        submitButton.addEventListener("click", () => {
-            // Modify the image path to start with C:/ instead of file:///
-            const imagePath = img.src.replace('file:///', '');
+                // Prepare data for saving
+                const data = {
+                    user_id: 1, // Example user ID
+                    image_path: imagePath, // The modified path
+                    chosen_polygon: noSelection ? [] : polygons[selectedPolygonIndex], // The selected polygon or empty
+                    room_type: '', // Placeholder (to be filled later)
+                    item: '' // Placeholder (to be filled later)
+                };
 
-            // Prepare data for saving
-            const data = {
-                user_id: 1, // Example user ID
-                image_path: imagePath, // The modified path
-                chosen_polygon: noSelection ? [] : polygons[selectedPolygonIndex], // The selected polygon or empty
-                room_type: '', // Placeholder (to be filled later)
-                item: '' // Placeholder (to be filled later)
-            };
+                // Save user response
+                userAnswers.push(data);
 
-            // Create a downloadable JSON file
-            const blob = new Blob([JSON.stringify(data, null, 4)], { type: 'application/json' });
+                // Move to next image
+                currentImageIndex++;
+                loadNextImage(); // Load the next image
+            });
+            loadNextImage(); // Start by loading the first image
+        }
+
+        // Function to download all responses after the user completes the selection
+        function downloadUserResponses() {
+            const blob = new Blob([JSON.stringify(userAnswers, null, 4)], { type: 'application/json' });
             const link = document.createElement('a');
             link.href = URL.createObjectURL(blob);
-            link.download = 'user_selection.json';
+            link.download = 'user_responses.json';
             link.click();
-
-            // Alert user (optional)
-            alert(noSelection
-                ? "You selected: Item isn't in any container."
-                : `You selected Polygon ${selectedPolygonIndex + 1}`);
-        });
+        }
 
         initialize();
     </script>
