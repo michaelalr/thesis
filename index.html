@@ -102,7 +102,7 @@
 
                     randomItem = imageData.random_item
                     roomType = imageData.room_type
-                    instructionsDiv.innerHTML = `Select a container for a "<strong>${randomItem}</strong>" in the <strong>${roomType}</strong> below.<br>If it's not in any container, choose "Item isn't in any container."`;
+                    instructionsDiv.innerHTML = `Select the most likely container for a "<strong>${randomItem}</strong>" in the <strong>${roomType}</strong> below.<br>If it's not in any container, choose "Item isn't in any container."`;
 
                     img.onload = () => {
                         canvas.width = img.width;
