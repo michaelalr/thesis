@@ -69,7 +69,7 @@
         let currentImageIndex = 0; // To keep track of the current image being processed
         let userAnswers = []; // To store all the user responses
         let roomType = '';
-        let randomItem = '';
+        let chosenItem = '';
         const img = document.getElementById("image");
         const canvas = document.getElementById("overlay");
         const ctx = canvas.getContext("2d");
@@ -100,9 +100,9 @@
                     noSelectionButton.classList.remove("selected"); // Remove highlight from "no container"
                     submitButton.disabled = true; // Disable submit button until a choice is made
 
-                    randomItem = imageData.random_item
+                    chosenItem = imageData.chosen_item
                     roomType = imageData.room_type
-                    instructionsDiv.innerHTML = `Select the most likely container for a "<strong>${randomItem}</strong>" in the <strong>${roomType}</strong> below.<br>If it's not in any container, choose "Item isn't in any container."`;
+                    instructionsDiv.innerHTML = `Select the most likely container for a "<strong>${chosenItem}</strong>" in the <strong>${roomType}</strong> below.<br>If it's not in any container, choose "Item isn't in any container."`;
 
                     img.onload = () => {
                         canvas.width = img.width;
@@ -236,7 +236,7 @@
                     image_path: imagePath, // The modified path
                     chosen_polygon: noSelection ? [] : polygons[selectedPolygonIndex], // The selected polygon or empty
                     room_type: roomType, // Placeholder (to be filled later)
-                    random_item: randomItem // Placeholder (to be filled later)
+                    chosen_item: chosenItem // Placeholder (to be filled later)
                 };
 
                 // Save user response
