@@ -1,0 +1,441 @@
+[
+    {
+        "user_id": 1,
+        "image_path": "http://localhost:8000/images/test/12_segmented_sun_akwygwqxkobglwvv.jpg",
+        "chosen_polygon": [
+            [
+                1427,
+                966
+            ],
+            [
+                855,
+                1038
+            ],
+            [
+                849,
+                1134
+            ],
+            [
+                1416,
+                1027
+            ]
+        ],
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "user_id": 1,
+        "image_path": "http://localhost:8000/images/test/14_segmented_sun_aotwhhmzcyiwovbg.jpg",
+        "chosen_polygon": [
+            [
+                805,
+                420
+            ],
+            [
+                804,
+                551
+            ],
+            [
+                850,
+                627
+            ],
+            [
+                851,
+                470
+            ]
+        ],
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "user_id": 1,
+        "image_path": "http://localhost:8000/images/test/22_segmented_sun_ajaptzzjhpwkytps.jpg",
+        "chosen_polygon": [
+            [
+                161,
+                128
+            ],
+            [
+                161,
+                154
+            ],
+            [
+                185,
+                158
+            ],
+            [
+                185,
+                128
+            ]
+        ],
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "user_id": 1,
+        "image_path": "http://localhost:8000/images/test/10_segmented_sun_afdsoicqiukinrep.jpg",
+        "chosen_polygon": [
+            [
+                117,
+                187
+            ],
+            [
+                53,
+                203
+            ],
+            [
+                53,
+                255
+            ],
+            [
+                117,
+                255
+            ]
+        ],
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "user_id": 1,
+        "image_path": "http://localhost:8000/images/test/36_segmented_sun_apivfqbmmscioozr.jpg",
+        "chosen_polygon": [
+            [
+                2863,
+                1863
+            ],
+            [
+                2852,
+                2021
+            ],
+            [
+                2958,
+                2145
+            ],
+            [
+                2966,
+                1978
+            ]
+        ],
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "user_id": 1,
+        "image_path": "http://localhost:8000/images/test/24_segmented_sun_avgavmxqjvtwbqfp.jpg",
+        "chosen_polygon": [
+            [
+                303,
+                429
+            ],
+            [
+                129,
+                443
+            ],
+            [
+                128,
+                471
+            ],
+            [
+                299,
+                450
+            ]
+        ],
+        "room_type": "kitchen",
+        "chosen_item": "Spoon"
+    },
+    {
+        "user_id": 1,
+        "image_path": "http://localhost:8000/images/test/8_segmented_sun_ajxvejtymbkewxpy.jpg",
+        "chosen_polygon": [
+            [
+                495,
+                99
+            ],
+            [
+                481,
+                113
+            ],
+            [
+                481,
+                215
+            ],
+            [
+                505,
+                230
+            ],
+            [
+                482,
+                242
+            ],
+            [
+                481,
+                270
+            ],
+            [
+                564,
+                272
+            ],
+            [
+                567,
+                104
+            ]
+        ],
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "user_id": 1,
+        "image_path": "http://localhost:8000/images/test/4_segmented_sun_ahonnmlqxaowwfmf.jpg",
+        "chosen_polygon": [
+            [
+                204,
+                158
+            ],
+            [
+                205,
+                185
+            ],
+            [
+                228,
+                193
+            ],
+            [
+                230,
+                159
+            ]
+        ],
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "user_id": 1,
+        "image_path": "http://localhost:8000/images/test/24_segmented_sun_ajhrjzamkghftfaw.jpg",
+        "chosen_polygon": [
+            [
+                174,
+                117
+            ],
+            [
+                174,
+                174
+            ],
+            [
+                201,
+                177
+            ],
+            [
+                204,
+                119
+            ]
+        ],
+        "room_type": "kitchen",
+        "chosen_item": "Pot"
+    },
+    {
+        "user_id": 1,
+        "image_path": "http://localhost:8000/images/test/22_segmented_sun_aphhwoyobvnfgibd.jpg",
+        "chosen_polygon": [
+            [
+                205,
+                142
+            ],
+            [
+                203,
+                185
+            ],
+            [
+                209,
+                192
+            ],
+            [
+                228,
+                199
+            ],
+            [
+                229,
+                153
+            ]
+        ],
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "user_id": 1,
+        "image_path": "http://localhost:8000/images/test/2_segmented_sun_aweljlnoktycguee.jpg",
+        "chosen_polygon": [
+            [
+                277,
+                201
+            ],
+            [
+                277,
+                218
+            ],
+            [
+                295,
+                221
+            ],
+            [
+                296,
+                205
+            ],
+            [
+                290,
+                202
+            ]
+        ],
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "user_id": 1,
+        "image_path": "http://localhost:8000/images/test/11_segmented_sun_aonniutjqiyywsdi.jpg",
+        "chosen_polygon": [],
+        "room_type": "kitchen",
+        "chosen_item": "Cooking oil"
+    },
+    {
+        "user_id": 1,
+        "image_path": "http://localhost:8000/images/test/21_segmented_sun_acwjdupvyjsugpay.jpg",
+        "chosen_polygon": [
+            [
+                666,
+                453
+            ],
+            [
+                562,
+                500
+            ],
+            [
+                560,
+                553
+            ],
+            [
+                663,
+                498
+            ]
+        ],
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "user_id": 1,
+        "image_path": "http://localhost:8000/images/test/12_segmented_sun_afphfxkabyerpwkz.jpg",
+        "chosen_polygon": [
+            [
+                987,
+                540
+            ],
+            [
+                950,
+                561
+            ],
+            [
+                956,
+                703
+            ],
+            [
+                991,
+                663
+            ]
+        ],
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "user_id": 1,
+        "image_path": "http://localhost:8000/images/test/6_segmented_sun_avrjygfofnbaancn.jpg",
+        "chosen_polygon": [
+            [
+                1448,
+                1342
+            ],
+            [
+                1436,
+                1705
+            ],
+            [
+                1789,
+                1704
+            ],
+            [
+                1814,
+                1378
+            ]
+        ],
+        "room_type": "kitchen",
+        "chosen_item": "Dish towels"
+    },
+    {
+        "user_id": 1,
+        "image_path": "http://localhost:8000/images/test/21_segmented_sun_aymtuhmvmnoftepq.jpg",
+        "chosen_polygon": [
+            [
+                852,
+                476
+            ],
+            [
+                841,
+                605
+            ],
+            [
+                898,
+                623
+            ],
+            [
+                900,
+                483
+            ]
+        ],
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "user_id": 1,
+        "image_path": "http://localhost:8000/images/test/8_segmented_sun_ailzodglynlleuim.jpg",
+        "chosen_polygon": [
+            [
+                300,
+                136
+            ],
+            [
+                296,
+                225
+            ],
+            [
+                332,
+                236
+            ],
+            [
+                339,
+                143
+            ]
+        ],
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "user_id": 1,
+        "image_path": "http://localhost:8000/images/test/7_segmented_sun_ambotvfalxtxgzuz.jpg",
+        "chosen_polygon": [
+            [
+                178,
+                211
+            ],
+            [
+                177,
+                299
+            ],
+            [
+                203,
+                299
+            ],
+            [
+                206,
+                230
+            ]
+        ],
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    }
+]
