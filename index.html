@@ -158,13 +158,23 @@
                 });
             }
 
+            function calculatePolygonArea(polygon) {
+                let area = 0;
+                for (let i = 0; i < polygon.length; i++) {
+                    const [x1, y1] = polygon[i];
+                    const [x2, y2] = polygon[(i + 1) % polygon.length];
+                    area += (x1 * y2 - x2 * y1);
+                }
+                return Math.abs(area / 2);
+            }
+
             // Event listener for mouse hover
             canvas.addEventListener("mousemove", (event) => {
                 const rect = canvas.getBoundingClientRect();
                 const mouseX = event.clientX - rect.left;
                 const mouseY = event.clientY - rect.top;
 
-                let hoveredIndex = -1;
+                let hoveredPolygons = [];
                 polygons.forEach((polygon, index) => {
                     ctx.beginPath();
                     polygon.forEach(([x, y], i) => {
@@ -177,12 +187,19 @@
                     ctx.closePath();
 
                     if (ctx.isPointInPath(mouseX, mouseY)) {
-                        hoveredIndex = index;
+                        hoveredPolygons.push({ index, area: calculatePolygonArea(polygon) });
                     }
                 });
 
-                drawAllPolygons(polygons, hoveredIndex);
+                // Sort by area and select the smallest polygon
+                if (hoveredPolygons.length > 0) {
+                    hoveredPolygons.sort((a, b) => a.area - b.area);
+                    drawAllPolygons(polygons, hoveredPolygons[0].index);
+                } else {
+                    drawAllPolygons(polygons, -1);
+                }
             });
+
 
             // Event listener for polygon click
             canvas.addEventListener("click", (event) => {
@@ -190,7 +207,7 @@
                 const mouseX = event.clientX - rect.left;
                 const mouseY = event.clientY - rect.top;
 
-                let clickedIndex = -1;
+                let clickedPolygons = [];
                 polygons.forEach((polygon, index) => {
                     ctx.beginPath();
                     polygon.forEach(([x, y], i) => {
@@ -203,19 +220,22 @@
                     ctx.closePath();
 
                     if (ctx.isPointInPath(mouseX, mouseY)) {
-                        clickedIndex = index;
+                        clickedPolygons.push({ index, area: calculatePolygonArea(polygon) });
                     }
                 });
 
-                if (clickedIndex !== -1) {
-                    selectedPolygonIndex = clickedIndex; // Update the selected polygon
-                    noSelection = false; // Clear "no container" choice
-                    noSelectionButton.classList.remove("selected"); // Remove highlight from "no container"
-                    drawAllPolygons(polygons); // Redraw all polygons with the selected one highlighted
-                    submitButton.disabled = false; // Enable the submit button
-                    console.log("Selected polygon:", clickedIndex);
+                // Sort by area and select the smallest polygon
+                if (clickedPolygons.length > 0) {
+                    clickedPolygons.sort((a, b) => a.area - b.area);
+                    selectedPolygonIndex = clickedPolygons[0].index;
+                    noSelection = false;
+                    noSelectionButton.classList.remove("selected");
+                    drawAllPolygons(polygons);
+                    submitButton.disabled = false;
+                    console.log("Selected polygon:", selectedPolygonIndex);
                 }
             });
+
 
             // Event listener for "Item isn't in any container" button
             noSelectionButton.addEventListener("click", () => {
