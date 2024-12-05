@@ -52,6 +52,10 @@
 <body>
     <!-- Instructions -->
     <div id="instructions"></div>
+    <!-- Progress -->
+    <div id="progress" style="text-align: center; font-size: 18px; margin-top: 10px; font-family: Arial, Helvetica, sans-serif;">
+        Progress: <span id="progress-indicator">1/1</span>
+    </div>
     <!-- Image and Polygons -->
     <div id="canvas-container">
         <img id="image" src="" alt="Base Image">
@@ -76,6 +80,7 @@
         const submitButton = document.getElementById("submit-btn");
         const noSelectionButton = document.getElementById("no-selection-btn");
         const instructionsDiv = document.getElementById("instructions"); // Reference to instructions div
+        const progressIndicator = document.getElementById("progress-indicator"); // Progress indicator element
 
         // Function to parse the JSON file and return data
         async function parseJSON() {
@@ -88,16 +93,20 @@
 
         async function initialize() {
             const jsonData = await parseJSON(); // Replace with the relative path to your JSON file
+            const totalImages = jsonData.length; // Total number of images in the batch
+            function updateProgress() {
+                progressIndicator.textContent = `${currentImageIndex + 1}/${totalImages}`;
+            }
             // Function to load a new image and its polygons
             function loadNextImage() {
-                if (currentImageIndex < jsonData.length) {
+                if (currentImageIndex < totalImages) {
+                    updateProgress(); // Update the progress display
                     const imageData = jsonData[currentImageIndex];
                     const imagePath = imageData.image_path_html.replace(/\\/g, '/'); // Replace backslashes with forward slashes
+
                     img.src = imagePath; // Set the image source
                     polygons = JSON.parse(imageData.containers_mask_polygon); // Parse the polygons
-                    console.log(polygons)
                     polygons.sort((a, b) => calculatePolygonArea(a) - calculatePolygonArea(b));
-                    console.log(polygons)
                     selectedPolygonIndex = -1; // Reset the selected polygon
                     noSelection = false; // Reset "no selection"
                     noSelectionButton.classList.remove("selected"); // Remove highlight from "no container"
