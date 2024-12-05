@@ -93,10 +93,11 @@
                 if (currentImageIndex < jsonData.length) {
                     const imageData = jsonData[currentImageIndex];
                     const imagePath = imageData.image_path_html.replace(/\\/g, '/'); // Replace backslashes with forward slashes
-                    console.log(imageData.image_path_html)
-                    console.log(imagePath)
                     img.src = imagePath; // Set the image source
                     polygons = JSON.parse(imageData.containers_mask_polygon); // Parse the polygons
+                    console.log(polygons)
+                    polygons.sort((a, b) => calculatePolygonArea(a) - calculatePolygonArea(b));
+                    console.log(polygons)
                     selectedPolygonIndex = -1; // Reset the selected polygon
                     noSelection = false; // Reset "no selection"
                     noSelectionButton.classList.remove("selected"); // Remove highlight from "no container"
@@ -122,7 +123,8 @@
                 }
             }
 
-            function drawPolygon(polygon, fillStyle, strokeStyle) {
+            function drawPolygon(polygon, fillStyle, strokeStyle, opacity = 0.3) {
+                ctx.globalAlpha = opacity;
                 ctx.beginPath();
                 polygon.forEach(([x, y], index) => {
                     if (index === 0) {
@@ -137,7 +139,9 @@
                 ctx.lineWidth = 2;
                 ctx.fill();
                 ctx.stroke();
+                ctx.globalAlpha = 1.0; // Reset opacity
             }
+
 
             function drawAllPolygons(polygons, highlightIndex = -1) {
                 if (!Array.isArray(polygons)) {
@@ -174,11 +178,12 @@
                 const mouseX = event.clientX - rect.left;
                 const mouseY = event.clientY - rect.top;
 
-                let hoveredPolygons = [];
-                polygons.forEach((polygon, index) => {
+                let hoveredIndex = -1;
+                for (let i = 0; i < polygons.length; i++) {
+                    const polygon = polygons[i];
                     ctx.beginPath();
-                    polygon.forEach(([x, y], i) => {
-                        if (i === 0) {
+                    polygon.forEach(([x, y], index) => {
+                        if (index === 0) {
                             ctx.moveTo(x, y);
                         } else {
                             ctx.lineTo(x, y);
@@ -187,17 +192,12 @@
                     ctx.closePath();
 
                     if (ctx.isPointInPath(mouseX, mouseY)) {
-                        hoveredPolygons.push({ index, area: calculatePolygonArea(polygon) });
+                        hoveredIndex = i; // Select the first (smallest) polygon that matches
+                        break; // Exit once a match is found
                     }
-                });
-
-                // Sort by area and select the smallest polygon
-                if (hoveredPolygons.length > 0) {
-                    hoveredPolygons.sort((a, b) => a.area - b.area);
-                    drawAllPolygons(polygons, hoveredPolygons[0].index);
-                } else {
-                    drawAllPolygons(polygons, -1);
                 }
+
+                drawAllPolygons(polygons, hoveredIndex);
             });
 
 
@@ -207,11 +207,12 @@
                 const mouseX = event.clientX - rect.left;
                 const mouseY = event.clientY - rect.top;
 
-                let clickedPolygons = [];
-                polygons.forEach((polygon, index) => {
+                let clickedIndex = -1;
+                for (let i = 0; i < polygons.length; i++) {
+                    const polygon = polygons[i];
                     ctx.beginPath();
-                    polygon.forEach(([x, y], i) => {
-                        if (i === 0) {
+                    polygon.forEach(([x, y], index) => {
+                        if (index === 0) {
                             ctx.moveTo(x, y);
                         } else {
                             ctx.lineTo(x, y);
@@ -220,19 +221,18 @@
                     ctx.closePath();
 
                     if (ctx.isPointInPath(mouseX, mouseY)) {
-                        clickedPolygons.push({ index, area: calculatePolygonArea(polygon) });
+                        clickedIndex = i; // Select the first (smallest) polygon that matches
+                        break; // Exit once a match is found
                     }
-                });
+                }
 
-                // Sort by area and select the smallest polygon
-                if (clickedPolygons.length > 0) {
-                    clickedPolygons.sort((a, b) => a.area - b.area);
-                    selectedPolygonIndex = clickedPolygons[0].index;
+                if (clickedIndex !== -1) {
+                    selectedPolygonIndex = clickedIndex; // Update the selected polygon
                     noSelection = false;
                     noSelectionButton.classList.remove("selected");
                     drawAllPolygons(polygons);
                     submitButton.disabled = false;
-                    console.log("Selected polygon:", selectedPolygonIndex);
+                    console.log("Selected polygon:", clickedIndex);
                 }
             });
 
