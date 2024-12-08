@@ -41,6 +41,12 @@
             opacity: 0.5;
             cursor: not-allowed;
         }
+        #progress {
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
         #instructions {
             margin-bottom: 20px;
             font-size: 18px;
@@ -50,12 +56,12 @@
     </style>
 </head>
 <body>
-    <!-- Instructions -->
-    <div id="instructions"></div>
     <!-- Progress -->
-    <div id="progress" style="text-align: center; font-size: 18px; margin-top: 10px; font-family: Arial, Helvetica, sans-serif;">
+    <div id="progress">
         Progress: <span id="progress-indicator">1/1</span>
     </div>
+    <!-- Instructions -->
+    <div id="instructions"></div>
     <!-- Image and Polygons -->
     <div id="canvas-container">
         <img id="image" src="" alt="Base Image">
@@ -84,7 +90,7 @@
 
         // Function to parse the JSON file and return data
         async function parseJSON() {
-            const response = await fetch('image_details_test.json'); // Path to JSON file
+            const response = await fetch('image_details_2.json'); // Path to JSON file
             const jsonData = await response.json();
             console.log('Parsed JSON Data:', jsonData);
             return jsonData;
@@ -114,7 +120,7 @@
 
                     chosenItem = imageData.chosen_item
                     roomType = imageData.room_type
-                    instructionsDiv.innerHTML = `Select the most likely container for a "<strong>${chosenItem}</strong>" in the <strong>${roomType}</strong> below.<br>If it's not in any container, choose "Item isn't in any container."`;
+                    instructionsDiv.innerHTML = `Select the most likely container for the current item in the ${roomType} below.<br>If it's not in any container, choose "Item isn't in any container."<br><br><strong>Current item: ${chosenItem}</strong>`;
 
                     img.onload = () => {
                         canvas.width = img.width;
@@ -132,7 +138,7 @@
                 }
             }
 
-            function drawPolygon(polygon, fillStyle, strokeStyle, opacity = 0.3) {
+            function drawPolygon(polygon, fillStyle, strokeStyle, opacity = 0.5) {
                 ctx.globalAlpha = opacity;
                 ctx.beginPath();
                 polygon.forEach(([x, y], index) => {
@@ -145,7 +151,7 @@
                 ctx.closePath();
                 ctx.fillStyle = fillStyle;
                 ctx.strokeStyle = strokeStyle;
-                ctx.lineWidth = 2;
+                ctx.lineWidth = 4;
                 ctx.fill();
                 ctx.stroke();
                 ctx.globalAlpha = 1.0; // Reset opacity
@@ -162,11 +168,11 @@
 
                 polygons.forEach((polygon, index) => {
                     if (index === selectedPolygonIndex) {
-                        drawPolygon(polygon, "rgba(0, 0, 255, 0.3)", "blue"); // Selected style
+                        drawPolygon(polygon, "rgba(240, 0, 0, 1)", "red", 0.9); // Selected style
                     } else if (index === highlightIndex) {
-                        drawPolygon(polygon, "rgba(0, 255, 0, 0.3)", "green"); // Hover style
+                        drawPolygon(polygon, "rgba(0, 0, 139, 0.7)", "darkblue"); // Hover style
                     } else {
-                        drawPolygon(polygon, "rgba(255, 0, 0, 0.3)", "red"); // Default style
+                        drawPolygon(polygon, "rgba(173, 216, 230, 0.5)", "blue"); // Default style
                     }
                 });
             }
