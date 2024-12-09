@@ -131,7 +131,7 @@
             ctx.closePath();
             ctx.fillStyle = fillStyle;
             ctx.strokeStyle = strokeStyle;
-            ctx.lineWidth = 3;
+            ctx.lineWidth = 2;
             ctx.fill();
             ctx.stroke();
             ctx.globalAlpha = 1.0; // Reset opacity
@@ -147,7 +147,7 @@
 
             polygons.forEach((polygon, index) => {
                 if (index === selectedPolygonIndex) {
-                    drawPolygon(polygon, "rgba(240, 0, 0, 1)", "red", 0.9); // Selected style
+                    drawPolygon(polygon, "rgba(240, 0, 0, 0.8)", "red", 0.9); // Selected style
                 } else if (index === highlightIndex) {
                     drawPolygon(polygon, "rgba(0, 0, 139, 0.7)", "darkblue"); // Hover style
                 } else {
