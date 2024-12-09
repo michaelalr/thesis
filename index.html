@@ -7,14 +7,25 @@
     <style>
         #canvas-container {
             position: relative;
-            display: inline-block;
+            width: 90%; /* Adjust container width for responsiveness */
+            max-width: 800px; /* Set a maximum width */
+            margin: auto; /* Center the container */
+        }
+        img {
+            display: block;
+            width: 100%; /* Scale image to fit container */
+            height: auto; /* Maintain aspect ratio */
         }
         canvas {
             position: absolute;
             top: 0;
             left: 0;
+            width: 100%; /* Match image width */
+            height: auto; /* Match image height */
         }
         #controls {
+            display: flex;
+            justify-content: center; /* Center buttons horizontally */
             margin-top: 20px;
         }
         button {
@@ -30,8 +41,8 @@
             border: 2px solid black;
         }
         #no-selection-btn.selected {
-            background-color: rgba(0, 0, 255, 0.2); /* Highlighted style */
-            border: 2px solid blue;
+            background-color: rgba(240, 0, 0, 0.2); /* Highlighted style */
+            border: 2px solid red;
         }
         #submit-btn {
             background-color: white;
@@ -73,13 +84,6 @@
         <button id="submit-btn" disabled>Submit Selection</button>
     </div>
     <script>
-        let polygons = []; // Polygons for the current image
-        let selectedPolygonIndex = -1; // To track which polygon is selected
-        let noSelection = false; // To track if the user chooses "no container"
-        let currentImageIndex = 0; // To keep track of the current image being processed
-        let userAnswers = []; // To store all the user responses
-        let roomType = '';
-        let chosenItem = '';
         const img = document.getElementById("image");
         const canvas = document.getElementById("overlay");
         const ctx = canvas.getContext("2d");
@@ -87,6 +91,14 @@
         const noSelectionButton = document.getElementById("no-selection-btn");
         const instructionsDiv = document.getElementById("instructions"); // Reference to instructions div
         const progressIndicator = document.getElementById("progress-indicator"); // Progress indicator element
+
+        let polygons = []; // Polygons for the current image
+        let selectedPolygonIndex = -1; // To track which polygon is selected
+        let noSelection = false; // To track if the user chooses "no container"
+        let currentImageIndex = 0; // To keep track of the current image being processed
+        let userAnswers = []; // To store all the user responses
+        let roomType = '';
+        let chosenItem = '';
 
         // Function to parse the JSON file and return data
         async function parseJSON() {
@@ -96,6 +108,59 @@
             return jsonData;
         }
 
+        function calculatePolygonArea(polygon) {
+            let area = 0;
+            for (let i = 0; i < polygon.length; i++) {
+                const [x1, y1] = polygon[i];
+                const [x2, y2] = polygon[(i + 1) % polygon.length];
+                area += (x1 * y2 - x2 * y1);
+            }
+            return Math.abs(area / 2);
+        }
+
+        function drawPolygon(polygon, fillStyle, strokeStyle, opacity = 0.5) {
+            ctx.globalAlpha = opacity;
+            ctx.beginPath();
+            polygon.forEach(([x, y], index) => {
+                if (index === 0) {
+                    ctx.moveTo(x, y);
+                } else {
+                    ctx.lineTo(x, y);
+                }
+            });
+            ctx.closePath();
+            ctx.fillStyle = fillStyle;
+            ctx.strokeStyle = strokeStyle;
+            ctx.lineWidth = 3;
+            ctx.fill();
+            ctx.stroke();
+            ctx.globalAlpha = 1.0; // Reset opacity
+        }
+
+        function drawAllPolygons(polygons, highlightIndex = -1) {
+            if (!Array.isArray(polygons)) {
+                console.error("Invalid polygons data:", polygons);
+                return; // Avoid drawing if polygons is not an array
+            }
+
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            polygons.forEach((polygon, index) => {
+                if (index === selectedPolygonIndex) {
+                    drawPolygon(polygon, "rgba(240, 0, 0, 1)", "red", 0.9); // Selected style
+                } else if (index === highlightIndex) {
+                    drawPolygon(polygon, "rgba(0, 0, 139, 0.7)", "darkblue"); // Hover style
+                } else {
+                    drawPolygon(polygon, "rgba(173, 216, 230, 0.5)", "blue"); // Default style
+                }
+            });
+        }
+
+        function scalePolygons(originalPolygons, scale) {
+            return originalPolygons.map(polygon =>
+                polygon.map(([x, y]) => [x * scale, y * scale])
+            );
+        }
 
         async function initialize() {
             const jsonData = await parseJSON(); // Replace with the relative path to your JSON file
@@ -123,9 +188,18 @@
                     instructionsDiv.innerHTML = `Select the most likely container for the current item in the ${roomType} below.<br>If it's not in any container, choose "Item isn't in any container."<br><br><strong>Current item: ${chosenItem}</strong>`;
 
                     img.onload = () => {
-                        canvas.width = img.width;
-                        canvas.height = img.height;
-                        drawAllPolygons(polygons); // Draw the polygons for the current image
+                        const containerWidth = img.clientWidth;
+                        const containerHeight = img.clientHeight;
+
+                        canvas.width = containerWidth;
+                        canvas.height = containerHeight;
+
+                        // Scale polygons to match the resized image
+                        const scaleX = containerWidth / img.naturalWidth;
+                        const scaleY = containerHeight / img.naturalHeight;
+                        polygons = scalePolygons(polygons, Math.min(scaleX, scaleY));
+
+                        drawAllPolygons(polygons);
                     };
 
                     img.onerror = () => {
@@ -138,54 +212,6 @@
                 }
             }
 
-            function drawPolygon(polygon, fillStyle, strokeStyle, opacity = 0.5) {
-                ctx.globalAlpha = opacity;
-                ctx.beginPath();
-                polygon.forEach(([x, y], index) => {
-                    if (index === 0) {
-                        ctx.moveTo(x, y);
-                    } else {
-                        ctx.lineTo(x, y);
-                    }
-                });
-                ctx.closePath();
-                ctx.fillStyle = fillStyle;
-                ctx.strokeStyle = strokeStyle;
-                ctx.lineWidth = 4;
-                ctx.fill();
-                ctx.stroke();
-                ctx.globalAlpha = 1.0; // Reset opacity
-            }
-
-
-            function drawAllPolygons(polygons, highlightIndex = -1) {
-                if (!Array.isArray(polygons)) {
-                    console.error("Invalid polygons data:", polygons);
-                    return; // Avoid drawing if polygons is not an array
-                }
-
-                ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-                polygons.forEach((polygon, index) => {
-                    if (index === selectedPolygonIndex) {
-                        drawPolygon(polygon, "rgba(240, 0, 0, 1)", "red", 0.9); // Selected style
-                    } else if (index === highlightIndex) {
-                        drawPolygon(polygon, "rgba(0, 0, 139, 0.7)", "darkblue"); // Hover style
-                    } else {
-                        drawPolygon(polygon, "rgba(173, 216, 230, 0.5)", "blue"); // Default style
-                    }
-                });
-            }
-
-            function calculatePolygonArea(polygon) {
-                let area = 0;
-                for (let i = 0; i < polygon.length; i++) {
-                    const [x1, y1] = polygon[i];
-                    const [x2, y2] = polygon[(i + 1) % polygon.length];
-                    area += (x1 * y2 - x2 * y1);
-                }
-                return Math.abs(area / 2);
-            }
 
             // Event listener for mouse hover
             canvas.addEventListener("mousemove", (event) => {
@@ -219,8 +245,10 @@
             // Event listener for polygon click
             canvas.addEventListener("click", (event) => {
                 const rect = canvas.getBoundingClientRect();
-                const mouseX = event.clientX - rect.left;
-                const mouseY = event.clientY - rect.top;
+                const scaleX = canvas.width / rect.width;
+                const scaleY = canvas.height / rect.height;
+                const mouseX = (event.clientX - rect.left) * scaleX;
+                const mouseY = (event.clientY - rect.top) * scaleY;
 
                 let clickedIndex = -1;
                 for (let i = 0; i < polygons.length; i++) {
