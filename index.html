@@ -41,7 +41,7 @@
             border: 2px solid black;
         }
         #no-selection-btn.selected {
-            background-color: rgba(240, 0, 0, 0.2); /* Highlighted style */
+            background-color: rgba(255, 255, 0, 0.7); /* Highlighted style */
             border: 2px solid red;
         }
         #submit-btn {
@@ -118,7 +118,7 @@
             return Math.abs(area / 2);
         }
 
-        function drawPolygon(polygon, fillStyle, strokeStyle, opacity = 0.5) {
+        function drawPolygon(polygon, fillStyle, strokeStyle, lineWidth=2, opacity = 0.5) {
             ctx.globalAlpha = opacity;
             ctx.beginPath();
             polygon.forEach(([x, y], index) => {
@@ -131,7 +131,7 @@
             ctx.closePath();
             ctx.fillStyle = fillStyle;
             ctx.strokeStyle = strokeStyle;
-            ctx.lineWidth = 2;
+            ctx.lineWidth = lineWidth;
             ctx.fill();
             ctx.stroke();
             ctx.globalAlpha = 1.0; // Reset opacity
@@ -147,7 +147,7 @@
 
             polygons.forEach((polygon, index) => {
                 if (index === selectedPolygonIndex) {
-                    drawPolygon(polygon, "rgba(240, 0, 0, 0.8)", "red", 0.9); // Selected style
+                    drawPolygon(polygon, "rgba(255, 255, 0, 0.9)", "red", 5, 0.9); // Selected style
                 } else if (index === highlightIndex) {
                     drawPolygon(polygon, "rgba(0, 0, 139, 0.7)", "darkblue"); // Hover style
                 } else {
