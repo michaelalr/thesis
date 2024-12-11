@@ -74,7 +74,8 @@ for item_index, item in enumerate(kitchen_items):
         # Split into batches
         for batch_num in range(4):
             batch_images = all_batches[batch_num * batch_size:(batch_num + 1) * batch_size]
-            batch_filename = f"{user_folder}/item_{item_index + 1}_batch_{batch_num + 1}.json"
+            item_name = item.replace(" ", "_")  # Replace spaces with underscores for valid filenames
+            batch_filename = f"{user_folder}/usr_{user_id}_{item_name}_batch_{batch_num + 1}.json"
             with open(batch_filename, "w") as batch_file:
                 json.dump(batch_images, batch_file, indent=4)
 
