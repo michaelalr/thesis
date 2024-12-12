@@ -101,11 +101,46 @@
         let chosenItem = '';
 
         // Function to parse the JSON file and return data
-        async function parseJSON() {
-            const response = await fetch('output_batches/user_1/item_1_batch_1.json'); // Path to JSON file
+        async function parseJSON(jsonPath) {
+            const response = await fetch(jsonPath); // Path to JSON file
             const jsonData = await response.json();
             console.log('Parsed JSON Data:', jsonData);
             return jsonData;
+        }
+
+        // Function to extract details from the JSON path
+        function extractDetailsFromPath(jsonPath) {
+            const regex = /usr_(\d+)_(.+?)_batch_(\d+)\.json$/;
+            const match = jsonPath.match(regex);
+            if (match) {
+                return {
+                    user_id: parseInt(match[1], 10),
+                    item_name: match[2],
+                    batch_number: parseInt(match[3], 10)
+                };
+            }
+            return null; // Return null if the path doesn't match the expected format
+        }
+
+        // Function to get the current timestamp
+        function getCurrentTimestamp() {
+            const now = new Date();
+            return {
+                date: now.toISOString().split('T')[0], // Format: YYYY-MM-DD
+                time: now.toTimeString().split(' ')[0] // Format: HH:MM:SS
+            };
+        }
+
+        // Example: Fetch the user's IP address (Optional)
+        async function fetchUserIP() {
+            try {
+                const response = await fetch('https://api.ipify.org?format=json');
+                const data = await response.json();
+                return data.ip;
+            } catch (error) {
+                console.error('Failed to fetch IP address:', error);
+                return 'Unknown'; // Default value if fetching fails
+            }
         }
 
         function calculatePolygonArea(polygon) {
@@ -162,8 +197,30 @@
             );
         }
 
+        async function saveUserResponseToGoogleSheets(data) {
+            const scriptURL = "https://script.google.com/macros/s/AKfycbz7LRBhYk1wlkKQEM9JT_vdP8d1K28K2LnoX2fF_Rv8D0O2Ktmn7XWJ963PpnOU2Xtg/exec"; // Replace with your Web App URL
+            console.log("Sending data to Google Sheets:", data); // Log the data being sent
+            try {
+                const response = await fetch(scriptURL, {
+                    method: "POST",
+                    body: JSON.stringify(data),
+                    headers: { "Content-Type": "application/json" },
+                });
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                const result = await response.text();
+                console.log("Google Sheets Response:", result);
+            } catch (error) {
+                console.error("Error saving data to Google Sheets:", error);
+            }
+        }
+
+
         async function initialize() {
-            const jsonData = await parseJSON(); // Replace with the relative path to your JSON file
+            //const jsonPath = 'output_batches/user_1/usr_1_Bottle_opener_batch_1.json'
+            const jsonPath = './usr_1_Bottle_opener_batch_1.json'
+            const jsonData = await parseJSON(jsonPath); // Replace with the relative path to your JSON file
             const totalImages = jsonData.length; // Total number of images in the batch
             function updateProgress() {
                 progressIndicator.textContent = `${currentImageIndex + 1}/${totalImages}`;
@@ -291,21 +348,37 @@
             });
 
             // Event listener for submit button
-            submitButton.addEventListener("click", () => {
-                // Modify the image path to start with C:/ instead of file:///
-                const imagePath = img.src.replace('file:///', '');
+            submitButton.addEventListener("click", async () => {
+                // Extract details from the JSON path
+                const jsonDetails = extractDetailsFromPath(jsonPath);
+                if (!jsonDetails) {
+                    console.error("Failed to extract details from JSON path.");
+                    return;
+                }
+
+                // Get the current timestamp
+                const timestamp = getCurrentTimestamp();
+
+                // Fetch the user's IP address (Optional, asynchronous)
+                const userIP = await fetchUserIP();
 
                 // Prepare data for saving
                 const data = {
-                    user_id: 1, // Example user ID
-                    image_path: imagePath, // The modified path
+                    user_id: jsonDetails.user_id, // Extracted user ID
+                    chosen_item: jsonDetails.item_name, // Extracted item name
+                    batch_number: jsonDetails.batch_number, // Extracted batch number
+                    image_path: img.src.replace('file:///', ''), // Modify path to start with C:/
                     chosen_polygon: noSelection ? [] : polygons[selectedPolygonIndex], // The selected polygon or empty
                     room_type: roomType, // Placeholder (to be filled later)
-                    chosen_item: chosenItem // Placeholder (to be filled later)
+                    date: timestamp.date, // Add current date
+                    time: timestamp.time, // Add current time
+                    ip_address: userIP // Add user's IP address
                 };
 
                 // Save user response
-                userAnswers.push(data);
+                //userAnswers.push(data);
+                // Save user response to Google Sheets
+                await saveUserResponseToGoogleSheets(data);
 
                 // Move to next image
                 currentImageIndex++;
