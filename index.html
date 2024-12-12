@@ -198,13 +198,14 @@
         }
 
         async function saveUserResponseToGoogleSheets(data) {
-            const scriptURL = "https://script.google.com/macros/s/AKfycbz7LRBhYk1wlkKQEM9JT_vdP8d1K28K2LnoX2fF_Rv8D0O2Ktmn7XWJ963PpnOU2Xtg/exec"; // Replace with your Web App URL
+            const scriptURL = "https://script.google.com/macros/s/AKfycbxVdfqZxkJJKl6H6H3MwUB0vrCZ85Q79Qvq0EqN4CrmpWNLnZffi3TnB9qCOjApFaPi/exec"; // Replace with your Web App URL
             console.log("Sending data to Google Sheets:", data); // Log the data being sent
             try {
                 const response = await fetch(scriptURL, {
                     method: "POST",
                     body: JSON.stringify(data),
                     headers: { "Content-Type": "application/json" },
+                    mode: 'cors', // Enable CORS
                 });
                 if (!response.ok) {
                     throw new Error(`HTTP error! Status: ${response.status}`);
