@@ -114,6 +114,14 @@
             console.error("Error signing in anonymously:", error);
           });
 
+        // Retrieve batch info from the URL query string
+        const urlParams = new URLSearchParams(window.location.search);
+        const jsonPath = urlParams.get("batch"); // Get the batch parameter from the URL
+        if (!jsonPath) {
+            alert("No batch parameter provided.");
+            throw new Error("Missing batch parameter");
+        }
+
         const img = document.getElementById("image");
         const canvas = document.getElementById("overlay");
         const ctx = canvas.getContext("2d");
@@ -240,9 +248,7 @@
         }
 
         async function initialize() {
-            //const jsonPath = 'output_batches/user_1/usr_1_Bottle_opener_batch_1.json'
-            const jsonPath = './usr_1_Bottle_opener_batch_1.json'
-            const jsonData = await parseJSON(jsonPath); // Replace with the relative path to your JSON file
+            const jsonData = await parseJSON(jsonPath);
             const totalImages = jsonData.length; // Total number of images in the batch
             function updateProgress() {
                 progressIndicator.textContent = `${currentImageIndex + 1}/${totalImages}`;
