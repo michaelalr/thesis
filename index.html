@@ -117,14 +117,6 @@
           .catch((error) => {
             console.error("Error signing in anonymously:", error);
           });
-
-        // Retrieve batch info from the URL query string
-        //const urlParams = new URLSearchParams(window.location.search);
-        //const jsonPath = urlParams.get("batch"); // Get the batch parameter from the URL
-        //if (!jsonPath) {
-        //    alert("No batch parameter provided.");
-        //    throw new Error("Missing batch parameter");
-        //}
         const img = document.getElementById("image");
         const canvas = document.getElementById("overlay");
         const ctx = canvas.getContext("2d");
@@ -140,6 +132,7 @@
         let userAnswers = []; // To store all the user responses
         let roomType = '';
         let chosenItem = '';
+        let batchParam = ''
 
         // Function to get the value of a query parameter by name
         function getQueryParam(name) {
@@ -150,7 +143,7 @@
         // Function to parse the JSON file and return data
         async function parseJSON() {
             // Get the batch parameter from the URL
-            const batchParam = getQueryParam('batch');
+            batchParam = getQueryParam('batch');
 
             if (!batchParam) {
                 console.error('No batch parameter provided in the URL.');
@@ -158,7 +151,7 @@
             }
 
             // Construct the full URL for the JSON file based on the batch parameter
-            const jsonFilePath = `https://michaelalr.github.io/thesis/output_batches/user_1/${batchParam}`;
+            const jsonFilePath = `https://michaelalr.github.io/thesis/output_batches/${batchParam}`;
 
             try {
                 const response = await fetch(jsonFilePath); // Fetch the JSON file from the GitHub Pages URL
@@ -175,9 +168,9 @@
         }
 
         // Function to extract details from the JSON path
-        function extractDetailsFromPath(jsonPath) {
+        function extractDetailsFromPath(batch) {
             const regex = /usr_(\d+)_(.+?)_batch_(\d+)\.json$/;
-            const match = jsonPath.match(regex);
+            const match = batch.match(regex);
             if (match) {
                 return {
                     user_id: parseInt(match[1], 10),
@@ -414,7 +407,7 @@
             // Event listener for submit button
             submitButton.addEventListener("click", async () => {
                 // Extract details from the JSON path
-                const jsonDetails = extractDetailsFromPath(jsonPath);
+                const jsonDetails = extractDetailsFromPath(batchParam);
                 if (!jsonDetails) {
                     console.error("Failed to extract details from JSON path.");
                     return;
