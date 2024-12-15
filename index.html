@@ -83,7 +83,37 @@
         <button id="no-selection-btn">Item isn't in any container</button>
         <button id="submit-btn" disabled>Submit Selection</button>
     </div>
-    <script>
+    <script type="module">
+        // Import necessary Firebase modules
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+        import { getFirestore, collection, addDoc } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js";
+        import { getAuth, signInAnonymously } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-auth.js";
+
+        // Initialize Firebase
+        const firebaseConfig = {
+        apiKey: "AIzaSyDs3A9sU9gRpTrVZwKZKivZqy061Zn-yRo",
+        authDomain: "stored-items-containers.firebaseapp.com",
+        projectId: "stored-items-containers",
+        storageBucket: "stored-items-containers.firebasestorage.app",
+        messagingSenderId: "133135495780",
+        appId: "1:133135495780:web:f2862901dd271f9b88a571",
+        measurementId: "G-8QMZCZ4CW8"
+        };
+        // Initialize Firebase app and services
+        const app = initializeApp(firebaseConfig);
+        const db = getFirestore(app);
+        const analytics = getAnalytics(app);
+        // Authenticate Users
+        const auth = getAuth();
+        signInAnonymously(auth)
+          .then(() => {
+            console.log("Signed in anonymously");
+          })
+          .catch((error) => {
+            console.error("Error signing in anonymously:", error);
+          });
+
         const img = document.getElementById("image");
         const canvas = document.getElementById("overlay");
         const ctx = canvas.getContext("2d");
@@ -197,26 +227,17 @@
             );
         }
 
-        async function saveUserResponseToGoogleSheets(data) {
-            const scriptURL = "https://script.google.com/macros/s/AKfycbxVdfqZxkJJKl6H6H3MwUB0vrCZ85Q79Qvq0EqN4CrmpWNLnZffi3TnB9qCOjApFaPi/exec"; // Replace with your Web App URL
-            console.log("Sending data to Google Sheets:", data); // Log the data being sent
+        // Function to save user response to Firebase
+        async function saveUserResponseToFirebase(data) {
+            console.log("Sending data to Firebase:", data); // Log the data being sent
             try {
-                const response = await fetch(scriptURL, {
-                    method: "POST",
-                    body: JSON.stringify(data),
-                    headers: { "Content-Type": "application/json" },
-                    mode: 'cors', // Enable CORS
-                });
-                if (!response.ok) {
-                    throw new Error(`HTTP error! Status: ${response.status}`);
-                }
-                const result = await response.text();
-                console.log("Google Sheets Response:", result);
+                // Reference to Firestore collection
+                const docRef = await addDoc(collection(db, "user_responses"), data);
+                console.log("Response saved to Firebase:", docRef.id);
             } catch (error) {
-                console.error("Error saving data to Google Sheets:", error);
+                console.error("Error saving data to Firebase:", error);
             }
         }
-
 
         async function initialize() {
             //const jsonPath = 'output_batches/user_1/usr_1_Bottle_opener_batch_1.json'
@@ -266,7 +287,7 @@
                     };
                 } else {
                     alert("You have completed all images.");
-                    downloadUserResponses(); // Download all the responses after the last image
+                    //downloadUserResponses(); // Download all the responses after the last image
                 }
             }
 
@@ -369,7 +390,7 @@
                     chosen_item: jsonDetails.item_name, // Extracted item name
                     batch_number: jsonDetails.batch_number, // Extracted batch number
                     image_path: img.src.replace('file:///', ''), // Modify path to start with C:/
-                    chosen_polygon: noSelection ? [] : polygons[selectedPolygonIndex], // The selected polygon or empty
+                    chosen_polygon: noSelection ? JSON.stringify([]) : JSON.stringify(polygons[selectedPolygonIndex]), // The selected polygon or empty
                     room_type: roomType, // Placeholder (to be filled later)
                     date: timestamp.date, // Add current date
                     time: timestamp.time, // Add current time
@@ -377,9 +398,8 @@
                 };
 
                 // Save user response
-                //userAnswers.push(data);
-                // Save user response to Google Sheets
-                await saveUserResponseToGoogleSheets(data);
+                userAnswers.push(data);
+                await saveUserResponseToFirebase(data);
 
                 // Move to next image
                 currentImageIndex++;
