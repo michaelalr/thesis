@@ -44,6 +44,10 @@
             background-color: rgba(255, 255, 0, 0.7); /* Highlighted style */
             border: 2px solid red;
         }
+        #no-selection-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
         #submit-btn {
             background-color: white;
             border: 2px solid black;
@@ -115,13 +119,12 @@
           });
 
         // Retrieve batch info from the URL query string
-        const urlParams = new URLSearchParams(window.location.search);
-        const jsonPath = urlParams.get("batch"); // Get the batch parameter from the URL
-        if (!jsonPath) {
-            alert("No batch parameter provided.");
-            throw new Error("Missing batch parameter");
-        }
-
+        //const urlParams = new URLSearchParams(window.location.search);
+        //const jsonPath = urlParams.get("batch"); // Get the batch parameter from the URL
+        //if (!jsonPath) {
+        //    alert("No batch parameter provided.");
+        //    throw new Error("Missing batch parameter");
+        //}
         const img = document.getElementById("image");
         const canvas = document.getElementById("overlay");
         const ctx = canvas.getContext("2d");
@@ -138,12 +141,37 @@
         let roomType = '';
         let chosenItem = '';
 
+        // Function to get the value of a query parameter by name
+        function getQueryParam(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
         // Function to parse the JSON file and return data
-        async function parseJSON(jsonPath) {
-            const response = await fetch(jsonPath); // Path to JSON file
-            const jsonData = await response.json();
-            console.log('Parsed JSON Data:', jsonData);
-            return jsonData;
+        async function parseJSON() {
+            // Get the batch parameter from the URL
+            const batchParam = getQueryParam('batch');
+
+            if (!batchParam) {
+                console.error('No batch parameter provided in the URL.');
+                return null;
+            }
+
+            // Construct the full URL for the JSON file based on the batch parameter
+            const jsonFilePath = `https://michaelalr.github.io/thesis/output_batches/user_1/${batchParam}`;
+
+            try {
+                const response = await fetch(jsonFilePath); // Fetch the JSON file from the GitHub Pages URL
+                if (!response.ok) {
+                    throw new Error(`Failed to load ${jsonFilePath}`);
+                }
+                const jsonData = await response.json(); // Parse the JSON data
+                console.log('Parsed JSON Data:', jsonData);
+                return jsonData;
+            } catch (error) {
+                console.error('Error loading JSON file:', error);
+                return null;
+            }
         }
 
         // Function to extract details from the JSON path
@@ -293,6 +321,14 @@
                     };
                 } else {
                     alert("You have completed all images.");
+                    // Disable polygon selection interactions
+                    submitButton.disabled = true; // Disable submit button until a choice is made
+                    noSelectionButton.disabled = true; // Disable "no container" button
+                    canvas.style.pointerEvents = "none"; // Disable clicking on canvas
+                    // Optionally, add logic to hide any interaction elements if needed
+                    document.querySelectorAll('.polygon-choice-button').forEach(button => {
+                        button.disabled = true; // Disable any other interactive elements for polygons
+                    });
                     //downloadUserResponses(); // Download all the responses after the last image
                 }
             }
