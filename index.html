@@ -151,7 +151,7 @@
             }
 
             // Construct the full URL for the JSON file based on the batch parameter
-            const jsonFilePath = `https://michaelalr.github.io/thesis/output_batches/${batchParam}`;
+            const jsonFilePath = `https://michaelalr.github.io/thesis/${batchParam}`;
 
             try {
                 const response = await fetch(jsonFilePath); // Fetch the JSON file from the GitHub Pages URL
@@ -322,7 +322,7 @@
                     document.querySelectorAll('.polygon-choice-button').forEach(button => {
                         button.disabled = true; // Disable any other interactive elements for polygons
                     });
-                    //downloadUserResponses(); // Download all the responses after the last image
+                    downloadUserResponses(); // Download all the responses after the last image
                 }
             }
 
@@ -422,7 +422,7 @@
                 // Prepare data for saving
                 const data = {
                     user_id: jsonDetails.user_id, // Extracted user ID
-                    chosen_item: jsonDetails.item_name, // Extracted item name
+                    chosen_item: chosenItem, // Extracted item name
                     batch_number: jsonDetails.batch_number, // Extracted batch number
                     image_path: img.src.replace('file:///', ''), // Modify path to start with C:/
                     chosen_polygon: noSelection ? JSON.stringify([]) : JSON.stringify(polygons[selectedPolygonIndex]), // The selected polygon or empty
