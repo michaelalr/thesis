@@ -126,6 +126,7 @@
         const progressIndicator = document.getElementById("progress-indicator"); // Progress indicator element
 
         let polygons = []; // Polygons for the current image
+        let scaledPolygons = []; // scaled Polygons in image proportions for the current image
         let selectedPolygonIndex = -1; // To track which polygon is selected
         let noSelection = false; // To track if the user chooses "no container"
         let currentImageIndex = 0; // To keep track of the current image being processed
@@ -303,9 +304,9 @@
                         // Scale polygons to match the resized image
                         const scaleX = containerWidth / img.naturalWidth;
                         const scaleY = containerHeight / img.naturalHeight;
-                        polygons = scalePolygons(polygons, Math.min(scaleX, scaleY));
+                        scaledPolygons = scalePolygons(polygons, Math.min(scaleX, scaleY));
 
-                        drawAllPolygons(polygons);
+                        drawAllPolygons(scaledPolygons);
                     };
 
                     img.onerror = () => {
@@ -334,8 +335,8 @@
                 const mouseY = event.clientY - rect.top;
 
                 let hoveredIndex = -1;
-                for (let i = 0; i < polygons.length; i++) {
-                    const polygon = polygons[i];
+                for (let i = 0; i < scaledPolygons.length; i++) {
+                    const polygon = scaledPolygons[i];
                     ctx.beginPath();
                     polygon.forEach(([x, y], index) => {
                         if (index === 0) {
@@ -352,7 +353,7 @@
                     }
                 }
 
-                drawAllPolygons(polygons, hoveredIndex);
+                drawAllPolygons(scaledPolygons, hoveredIndex);
             });
 
 
@@ -365,8 +366,8 @@
                 const mouseY = (event.clientY - rect.top) * scaleY;
 
                 let clickedIndex = -1;
-                for (let i = 0; i < polygons.length; i++) {
-                    const polygon = polygons[i];
+                for (let i = 0; i < scaledPolygons.length; i++) {
+                    const polygon = scaledPolygons[i];
                     ctx.beginPath();
                     polygon.forEach(([x, y], index) => {
                         if (index === 0) {
@@ -387,7 +388,7 @@
                     selectedPolygonIndex = clickedIndex; // Update the selected polygon
                     noSelection = false;
                     noSelectionButton.classList.remove("selected");
-                    drawAllPolygons(polygons);
+                    drawAllPolygons(scaledPolygons);
                     submitButton.disabled = false;
                     console.log("Selected polygon:", clickedIndex);
                 }
@@ -399,7 +400,7 @@
                 selectedPolygonIndex = -1; // Clear polygon selection
                 noSelection = true; // Mark "no container" choice
                 noSelectionButton.classList.add("selected"); // Highlight "no container" button
-                drawAllPolygons(polygons); // Redraw polygons with no highlight
+                drawAllPolygons(scaledPolygons); // Redraw polygons with no highlight
                 submitButton.disabled = false; // Enable the submit button
                 console.log("No container selected.");
             });
@@ -426,6 +427,7 @@
                     batch_number: jsonDetails.batch_number, // Extracted batch number
                     image_path: img.src.replace('file:///', ''), // Modify path to start with C:/
                     chosen_polygon: noSelection ? JSON.stringify([]) : JSON.stringify(polygons[selectedPolygonIndex]), // The selected polygon or empty
+                    chosen_scaled_polygon: noSelection ? JSON.stringify([]) : JSON.stringify(scaledPolygons[selectedPolygonIndex]), // The selected scaled polygon or empty
                     room_type: roomType, // Placeholder (to be filled later)
                     date: timestamp.date, // Add current date
                     time: timestamp.time, // Add current time
