@@ -10,7 +10,6 @@ from PIL import Image
 def clean_image_path(image_path):
     # Use regex to extract the part starting with 'thesis/images/test/...'
     match = re.search(r'images/test/.*', image_path)
-    print(match)
     if match:
         # Replace 'thesis/' with './'
         return "./" + match.group(0).replace("thesis/", "")
