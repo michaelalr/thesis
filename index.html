@@ -292,7 +292,7 @@
 
                     chosenItem = imageData.chosen_item
                     roomType = imageData.room_type
-                    instructionsDiv.innerHTML = `Select the most likely container for the current item in the ${roomType} below.<br>If it's not in any container, choose "Item isn't in any container."<br><br><strong>Current item: ${chosenItem}</strong>`;
+                    instructionsDiv.innerHTML = `Select the most likely container for the current item in the image below.<br>If it's not in any container, choose "Item isn't in any container."<br><br><strong>Current item: ${chosenItem}</strong>`;
 
                     img.onload = () => {
                         const containerWidth = img.clientWidth;
