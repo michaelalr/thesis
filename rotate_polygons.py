@@ -5,7 +5,7 @@ from PIL import Image
 
 def rotate_polygon(polygon, image_width, image_height, rotation_degree):
     if rotation_degree == 90:
-        return [[y, image_width - x] for x, y in polygon]
+        return [[image_height - y, x] for x, y in polygon]
     elif rotation_degree == 180:
         return [[image_width - x, image_height - y] for x, y in polygon]
     else:
