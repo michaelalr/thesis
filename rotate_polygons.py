@@ -32,7 +32,7 @@ def process_images(json_path, image_paths_90, image_paths_180):
         if image_path in image_info_dict:
             save_adjusted_polygons(image_info_dict, image_path, 180)
 
-    save_updated_json(json_path, data)
+    save_updated_json(data)
 
 
 def save_adjusted_polygons(image_info_dict, image_path, rotation_degree):
@@ -44,7 +44,8 @@ def save_adjusted_polygons(image_info_dict, image_path, rotation_degree):
     print(f"Adjusted polygons for {image_path}: {adjusted_polygons}")
 
 
-def save_updated_json(json_path, updated_data):
+def save_updated_json(updated_data):
+    json_path = "image_details_validation_new.json"
     with open(json_path, 'w') as f:
         json.dump(updated_data, f, indent=4)
     print(f"Updated JSON file saved at {json_path}")
