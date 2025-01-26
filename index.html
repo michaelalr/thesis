@@ -323,7 +323,7 @@
                     document.querySelectorAll('.polygon-choice-button').forEach(button => {
                         button.disabled = true; // Disable any other interactive elements for polygons
                     });
-                    // downloadUserResponses(); // Download all the responses after the last image
+                    downloadUserResponses(); // Download all the responses after the last image
                 }
             }
 
@@ -450,7 +450,7 @@
             const blob = new Blob([JSON.stringify(userAnswers, null, 4)], { type: 'application/json' });
             const link = document.createElement('a');
             link.href = URL.createObjectURL(blob);
-            link.download = 'user_responses.json';
+            link.download = 'response_' + batchParam;
             link.click();
         }
 
