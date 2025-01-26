@@ -97,15 +97,19 @@ def plot_images_polygons(responses_by_item_and_user):
     # Ask for the user ID to filter responses
     selected_user_id = input("Enter the user_id to display responses for: ")
 
+    # Ask for the item to filter responses
+    selected_item = input("Enter the item to display responses for: ")
+
     # Check if the selected user_id exists
     if int(selected_user_id) in responses_by_item_and_user:
-        user_responses = responses_by_item_and_user[int(selected_user_id)]
+        if selected_item in responses_by_item_and_user[int(selected_user_id)]:
+            user_responses = responses_by_item_and_user[int(selected_user_id)][selected_item]
 
-        # Plot each image with its polygon one by one for each item
-        for item, item_responses in user_responses.items():
-            print(f"Displaying images for user {selected_user_id}, item: {item}")
+            # Plot each image with its polygon one by one for each item
+            # for item, item_responses in user_responses.items():
+            print(f"Displaying images for user {selected_user_id}, item: {selected_item}")
 
-            for idx, response in enumerate(item_responses):
+            for idx, response in enumerate(user_responses):
                 image_path = response.get('image_path')
                 clean_image = clean_image_path(image_path)
                 chosen_polygon = json.loads(response.get('chosen_polygon'))
@@ -123,13 +127,14 @@ def plot_images_polygons(responses_by_item_and_user):
                     polygon = patches.Polygon(chosen_polygon, closed=True, fill=False, edgecolor='red', linewidth=2)
                     ax.add_patch(polygon)
 
-                ax.set_title(f"User: {selected_user_id}, Item: {item}, Image {idx + 1}")
+                ax.set_title(f"User: {selected_user_id}, Item: {selected_item}, Image {idx + 1}")
 
                 plt.show()  # Show each image separately
 
                 # Pause to allow user to view each image before moving to the next one
                 input("Press Enter to continue to the next image...")
-
+        else:
+            print(f"No responses found for user_id: {selected_user_id} and item: {selected_item}")
     else:
         print(f"No responses found for user_id: {selected_user_id}")
 
@@ -174,14 +179,27 @@ def save_firebase_as_json():
     return json_filename
 
 
-if __name__ == "__main__":
-    json_filename = save_firebase_as_json()
+def check_empty_responses(all_responses, user_id):
+    # Filter responses for user_id
+    user_responses = [response for response in all_responses if response.get('user_id') == user_id]
+    # Count responses with "chosen_polygon": "[]"
+    empty_polygon_count = sum(1 for response in user_responses if response.get('chosen_polygon') == "[]")
+    print(f"User {user_id} has {empty_polygon_count} responses with 'chosen_polygon': '[]' out of {len(user_responses)}.")
 
+
+if __name__ == "__main__":
+    # json_filename = save_firebase_as_json()
+    json_filename = 'upwork_responses.json'
     # Load the JSON file
     with open(json_filename, 'r') as f:
         all_responses = json.load(f)
 
+    check_empty_responses(all_responses, 1)
+    check_empty_responses(all_responses, 2)
+    check_empty_responses(all_responses, 3)
+
     responses_by_item_and_user = get_user_responses(responses=all_responses)
+
     plot_images_polygons(responses_by_item_and_user=responses_by_item_and_user)
 
     # Directory where all JSON response files are stored

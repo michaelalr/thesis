@@ -1,6 +1,7 @@
-import os
 import json
+import os
 import re
+
 
 # Function to clean image_path
 def clean_image_path(image_path):
@@ -11,50 +12,156 @@ def clean_image_path(image_path):
         return match.group(0).replace("thesis/", "")
     return image_path  # Return the original path if no match
 
-def extract_image_paths(json_file, user_id, chosen_item):
-    """
-    Extract all image paths with a specific user_id and chosen_item.
-    """
-    image_paths = set()
 
-    if json_file.endswith('.json'):
-        with open(json_file, 'r') as file:
-            data = json.load(file)
-            for entry in data:
-                if entry.get('user_id') == user_id and entry.get('chosen_item') == chosen_item:
-                    image_paths.add(clean_image_path(entry['image_path']))
-    return image_paths
+def extract_batch_number(file_name):
+    # Regular expression to extract the batch number
+    match = re.search(r'batch_(\d+)', file_name)
+    if match:
+        batch_number = int(match.group(1))  # Convert to integer if needed
+        return batch_number
+    return file_name  # Return the file name if no match
 
 
-def compare_image_paths(image_paths_1, image_paths_2):
-    """
-    Compare two sets of image paths and find missing ones.
-    """
-    missing_paths = image_paths_1 - image_paths_2
-    return missing_paths
+# Function to extract details from a single JSON file
+def extract_details_from_file(file_path):
+    details = set()
+    if file_path.endswith('.json'):
+        try:
+            with open(file_path, 'r') as file:
+                data = json.load(file)
+                for entry in data:
+                    user_id = entry.get('user_id')
+                    chosen_item = entry.get('chosen_item')
+                    image_path = clean_image_path(entry.get('image_path_html', ''))
+                    batch_num = extract_batch_number(file_path)
+                    if user_id and chosen_item and batch_num and image_path:
+                        details.add((user_id, chosen_item, batch_num, image_path))
+        except (json.JSONDecodeError, KeyError) as e:
+            print(f"Error reading file {file_path}: {e}")
+    return details
+
+
+# Function to extract details from a folder or specific files
+def extract_details_from_folder(folder_path, specific_files=None):
+    details = set()
+    files_to_process = (
+        specific_files if specific_files else
+        [os.path.join(folder_path, f) for f in os.listdir(folder_path) if f.endswith('.json')]
+    )
+    for file_path in files_to_process:
+        details.update(extract_details_from_file(folder_path + file_path))
+    return details
+
+
+# Function to extract details from the large JSON file
+def extract_details_from_large_json(large_json_file):
+    details = set()
+    with open(large_json_file, 'r') as file:
+        data = json.load(file)
+        for entry in data:
+            user_id = entry.get('user_id')
+            chosen_item = entry.get('chosen_item')
+            image_path = clean_image_path(entry.get('image_path'))
+            batch_num = entry.get('batch_number')
+            if user_id and chosen_item and batch_num and image_path:
+                details.add((user_id, chosen_item, batch_num, image_path))
+    return details
+
+
+# Function to find missing details
+def find_missing_details(folder_details, large_json_details):
+    return folder_details - large_json_details
 
 
 # Input parameters
-json_file = "upwork_responses.json"
-comparison_file = "output_batches/user_3/usr_3_Pot_batch_1.json"  # Replace with the JSON file path for comparison
-user_id_to_check = 3  # Replace with the desired user_id
-chosen_item_to_check = "Pot"  # Replace with the desired chosen_item
+large_json_file = "upwork_responses.json"
+# comparison_file = "output_batches/user_1/usr_1_Bottle_opener_batch_4.json"  # Replace with the JSON file path for comparison
+# user_id_to_check = 1  # Replace with the desired user_id
+# chosen_item_to_check = "Bottle opener"  # Replace with the desired chosen_item
+folder_path = "output_batches/user_3/"  # Replace with the folder containing JSON files
+# Set to None to process the whole folder or provide a specific list like ["usr_1_Bottle_opener_batch_4.json"]
+specific_files_user_1 = ["usr_1_Bottle_opener_batch_1.json",
+                         "usr_1_Bottle_opener_batch_2.json",
+                         "usr_1_Bottle_opener_batch_3.json",
+                         "usr_1_Bottle_opener_batch_4.json",
+                         "usr_1_Bowl_batch_1.json",
+                         "usr_1_Bowl_batch_2.json",
+                         "usr_1_Bowl_batch_3.json",
+                         "usr_1_Bowl_batch_4.json",
+                         "usr_1_Cooking_oil_batch_1.json",
+                         "usr_1_Cooking_oil_batch_2.json",
+                         "usr_1_Cooking_oil_batch_3.json",
+                         "usr_1_Cooking_oil_batch_4.json",
+                         "usr_1_Cutting_board_batch_1.json",
+                         "usr_1_Cutting_board_batch_2.json",
+                         "usr_1_Cutting_board_batch_3.json",
+                         "usr_1_Cutting_board_batch_4.json",
+                         "usr_1_Cutting_knife_batch_1.json",
+                         "usr_1_Cutting_knife_batch_2.json",
+                         "usr_1_Cutting_knife_batch_3.json",
+                         "usr_1_Cutting_knife_batch_4.json",
+                         "usr_1_Dish_towels_batch_1.json",
+                         "usr_1_Dish_towels_batch_2.json",
+                         "usr_1_Dish_towels_batch_3.json",
+                         "usr_1_Dish_towels_batch_4.json",
+                         "usr_1_Mug_batch_1.json",
+                         "usr_1_Mug_batch_2.json",
+                         "usr_1_Mug_batch_3.json",
+                         "usr_1_Mug_batch_4.json"]
+specific_files_user_3 = ["usr_3_Plate_batch_1.json",
+                         "usr_3_Plate_batch_2.json",
+                         "usr_3_Plate_batch_3.json",
+                         "usr_3_Plate_batch_4.json",
+                         "usr_3_Pot_batch_1.json",
+                         "usr_3_Pot_batch_2.json",
+                         "usr_3_Pot_batch_3.json",
+                         "usr_3_Pot_batch_4.json",
+                         "usr_3_Spices_batch_1.json",
+                         "usr_3_Spices_batch_2.json",
+                         "usr_3_Spices_batch_3.json",
+                         "usr_3_Spices_batch_4.json",
+                         "usr_3_Spoon_batch_1.json",
+                         "usr_3_Spoon_batch_2.json",
+                         "usr_3_Spoon_batch_3.json",
+                         "usr_3_Spoon_batch_4.json",
+                         "usr_3_Tupperware_containers_batch_1.json",
+                         "usr_3_Tupperware_containers_batch_2.json",
+                         "usr_3_Tupperware_containers_batch_3.json",
+                         "usr_3_Tupperware_containers_batch_4.json",
+                         "usr_3_Bottle_opener_batch_1.json",
+                         "usr_3_Bottle_opener_batch_2.json",
+                         "usr_3_Bottle_opener_batch_3.json",
+                         "usr_3_Bottle_opener_batch_4.json",
+                         "usr_3_Bowl_batch_1.json",
+                         "usr_3_Bowl_batch_2.json",
+                         "usr_3_Bowl_batch_3.json",
+                         "usr_3_Bowl_batch_4.json"
+                         ]
+specific_files_user_2 = ["usr_2_Cutting_knife_batch_1.json",
+                         "usr_2_Cutting_knife_batch_2.json",
+                         "usr_2_Cutting_knife_batch_3.json",
+                         "usr_2_Cutting_knife_batch_4.json",
+                         "usr_2_Dish_towels_batch_1.json",
+                         "usr_2_Dish_towels_batch_2.json",
+                         "usr_2_Dish_towels_batch_3.json",
+                         "usr_2_Dish_towels_batch_4.json",
+                         "usr_2_Mug_batch_1.json",
+                         "usr_2_Pan_batch_1.json"
+                         ]
 
-# Extract image paths for the specified user_id and chosen_item
-image_paths_from_dir = extract_image_paths(json_file, user_id_to_check, chosen_item_to_check)
+# Extract details from the folder
+folder_details = extract_details_from_folder(folder_path, specific_files_user_3)
 
-# Load image paths from the comparison JSON file
-with open(comparison_file, 'r') as file:
-    comparison_data = json.load(file)
-    image_paths_from_comparison = {entry['image_path_html'] for entry in comparison_data}
+# Extract details from the large JSON file
+large_json_details = extract_details_from_large_json(large_json_file)
 
-# Find missing image paths
-missing_image_paths = compare_image_paths(image_paths_from_comparison, image_paths_from_dir)
+# Find missing details
+missing_details = find_missing_details(folder_details, large_json_details)
 
 # Output results
-if missing_image_paths:
-    print(f"Missing image paths ({len(missing_image_paths)}):")
-    for path in missing_image_paths:
-        print(path)
+if missing_details:
+    print(f"Missing combinations ({len(missing_details)}):")
+    for user_id, chosen_item, batch_num, image_path in missing_details:
+        print(f"User ID: {user_id}, Chosen Item: {chosen_item}, Batch Number: {batch_num}, Image Path: {image_path}")
 else:
-    print("No missing image paths.")
+    print("No missing combinations.")
