@@ -146,7 +146,25 @@ specific_files_user_2 = ["usr_2_Cutting_knife_batch_1.json",
                          "usr_2_Dish_towels_batch_3.json",
                          "usr_2_Dish_towels_batch_4.json",
                          "usr_2_Mug_batch_1.json",
-                         "usr_2_Pan_batch_1.json"
+                         "usr_2_Mug_batch_2.json",
+                         "usr_2_Mug_batch_3.json",
+                         "usr_2_Mug_batch_4.json",
+                         "usr_2_Pan_batch_1.json",
+                         "usr_2_Pan_batch_2.json",
+                         "usr_2_Pan_batch_3.json",
+                         "usr_2_Pan_batch_4.json",
+                         "usr_2_Plate_batch_1.json",
+                         "usr_2_Plate_batch_2.json",
+                         "usr_2_Plate_batch_3.json",
+                         "usr_2_Plate_batch_4.json",
+                         "usr_2_Pot_batch_1.json",
+                         "usr_2_Pot_batch_2.json",
+                         "usr_2_Pot_batch_3.json",
+                         "usr_2_Pot_batch_4.json",
+                         "usr_2_Spices_batch_1.json",
+                         "usr_2_Spices_batch_2.json",
+                         "usr_2_Spices_batch_3.json",
+                         "usr_2_Spices_batch_4.json"
                          ]
 
 # Extract details from the folder
