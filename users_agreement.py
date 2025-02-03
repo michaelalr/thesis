@@ -1,9 +1,11 @@
 import json
-import numpy as np
-import matplotlib.pyplot as plt
-from shapely.geometry import Polygon
 import os
 from collections import defaultdict
+
+import matplotlib.pyplot as plt
+import numpy as np
+from shapely.geometry import Polygon
+
 
 # Function to load JSON files
 def load_responses(user_files):
@@ -11,9 +13,12 @@ def load_responses(user_files):
     for file in user_files:
         with open(file, 'r') as f:
             user_data = json.load(f)
-            # Extract user_id from the first item of the JSON file (assuming all responses are from the same user)
-            user_id = user_data[0]['user_id'] if user_data else None
-            responses[user_id] = user_data
+            for entry in user_data:
+                user_id = entry.get('user_id')
+                if user_id is not None:
+                    if user_id not in responses:
+                        responses[user_id] = []
+                    responses[user_id].append(entry)
     return responses
 
 
@@ -32,9 +37,11 @@ def compute_iou(polygon1, polygon2):
     union = poly1.union(poly2).area
     return intersection / union
 
+
 # Function to extract the filename from the image_path
 def extract_filename(image_path):
     return os.path.basename(image_path)
+
 
 # Function to compare users' responses for agreement
 def compare_responses(responses):
@@ -67,6 +74,7 @@ def compare_responses(responses):
 
     return results
 
+
 # Function to compute the agreement across different items
 def agreement_by_item(responses):
     item_agreements = defaultdict(list)
@@ -85,16 +93,19 @@ def agreement_by_item(responses):
                     item1 = response1['chosen_item']
                     item2 = response2['chosen_item']
                     if item1 == item2 and filename1 == filename2:
-                        iou = compute_iou(json.loads(response1['chosen_polygon']), json.loads(response2['chosen_polygon']))
+                        iou = compute_iou(json.loads(response1['chosen_polygon']),
+                                          json.loads(response2['chosen_polygon']))
                         if iou > 0.5:  # threshold for considering agreement
                             item_agreements[item1].append(1)
                         else:
                             item_agreements[item1].append(0)
 
     # Calculate average agreement for each item
-    avg_item_agreements = {item: (sum(agreements) / len(agreements)) * 100 for item, agreements in item_agreements.items()}
+    avg_item_agreements = {item: (sum(agreements) / len(agreements)) * 100 for item, agreements in
+                           item_agreements.items()}
 
     return avg_item_agreements
+
 
 # Function to visualize the agreement across different items
 def visualize_item_agreement(item_agreements):
@@ -110,6 +121,7 @@ def visualize_item_agreement(item_agreements):
     plt.tight_layout()
     plt.show()
 
+
 def visualize_agreement(results, user_pairs, agreement_percentages):
     # Create a list of labels with user_id pairs
     # labels = [f"User {user_pair[0]} vs User {user_pair[1]}" for user_pair in user_pairs]
@@ -123,12 +135,14 @@ def visualize_agreement(results, user_pairs, agreement_percentages):
     plt.tight_layout()
     plt.show()
 
+
 def dist_agreement_prcnt(agreement_percentages):
     plt.hist(agreement_percentages, bins=10, edgecolor='black')
     plt.xlabel('Agreement Percentage')
     plt.ylabel('Frequency')
     plt.title('Distribution of Agreement Percentages')
     plt.show()
+
 
 def disagreement_prcnt(agreement_percentages):
     disagreement_percentages = [100 - agreement for agreement in agreement_percentages]
@@ -137,6 +151,7 @@ def disagreement_prcnt(agreement_percentages):
     plt.ylabel('Frequency')
     plt.title('Distribution of Disagreement Percentages')
     plt.show()
+
 
 # Function to visualize the agreement results with user_id on the bars
 def visualize_results(results):
@@ -159,7 +174,7 @@ user_files = [
     'responses/user_responses_test_saggie.json',
     'responses/user_responses_test_shabi.json'
 ]
-
+user_files = ['upwork_responses.json']
 # Load responses from the files
 responses = load_responses(user_files)
 
@@ -170,7 +185,6 @@ item_agreements = agreement_by_item(responses)
 # Sort results for user pair agreement
 sorted_agreement_results = dict(sorted(agreement_results.items(), key=lambda item: item[1], reverse=True))
 sorted_item_agreement_results = dict(sorted(item_agreements.items(), key=lambda item: item[1], reverse=True))
-
 
 # Print the results in a table
 print("User Pair Agreement (%)")
