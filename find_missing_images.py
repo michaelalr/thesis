@@ -110,10 +110,8 @@ def find_missing_details(folder_details, large_json_details):
 
 # Input parameters
 large_json_file = "upwork_responses.json"
-# comparison_file = "output_batches/user_1/usr_1_Bottle_opener_batch_4.json"  # Replace with the JSON file path for comparison
-# user_id_to_check = 1  # Replace with the desired user_id
-# chosen_item_to_check = "Bottle opener"  # Replace with the desired chosen_item
-folder_path = "output_batches/user_2/"  # Replace with the folder containing JSON files
+folder_path = "output_batches/user_1/"  # Replace with the folder containing JSON files
+# Set to None to process the whole folder or provide a specific list like ["usr_1_Bottle_opener_batch_4.json"]
 specific_files_user_1 = ["usr_1_Bottle_opener_batch_1.json",
                          "usr_1_Bottle_opener_batch_2.json",
                          "usr_1_Bottle_opener_batch_3.json",
@@ -171,7 +169,6 @@ specific_files_user_1 = ["usr_1_Bottle_opener_batch_1.json",
                          "usr_1_Val_Random_Ear_toothpick_batch_2.json",
                          "usr_1_Val_Screwdriver_Painkiller_batch_1.json"
                          ]
-# Set to None to process the whole folder or provide a specific list like ["usr_1_Bottle_opener_batch_4.json"]
 specific_files_user_2 = ["usr_2_Cutting_knife_batch_1.json",
                          "usr_2_Cutting_knife_batch_2.json",
                          "usr_2_Cutting_knife_batch_3.json",

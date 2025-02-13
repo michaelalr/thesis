@@ -2,7 +2,8 @@ import os
 import json
 from collections import defaultdict
 
-def find_duplicates_in_directory(is_dir, dir_or_json_path):
+
+def find_duplicates_in_directory(is_dir, dir_or_json_path, fields_list):
     duplicates = []
     all_data = []  # To store all JSON objects
 
@@ -17,7 +18,7 @@ def find_duplicates_in_directory(is_dir, dir_or_json_path):
     else:
         if dir_or_json_path.endswith('.json'):
             with open(dir_or_json_path, 'r') as file:
-                all_data = json.load(file) # Add all objects to the list
+                all_data = json.load(file)  # Add all objects to the list
 
     # Group data by user_id
     user_data = defaultdict(list)
@@ -28,8 +29,11 @@ def find_duplicates_in_directory(is_dir, dir_or_json_path):
     for user_id, entries in user_data.items():
         seen = defaultdict(list)  # Store occurrences of each combination for the user
         for entry in entries:
-            key = (entry['image_path'], entry['chosen_item'])
-            seen[key].append(entry)
+            key = []
+            for field in fields_list:
+                key.append(entry[field])
+            # key = (entry['image_path'], entry["chosen_polygon"], entry["ip_address"], entry['chosen_item'], entry["room_type"], entry["batch_number"])
+            seen[tuple(key)].append(entry)
 
         # Identify keys with more than one occurrence
         for key, occurrences in seen.items():
@@ -38,17 +42,31 @@ def find_duplicates_in_directory(is_dir, dir_or_json_path):
 
     return duplicates
 
-# Specify the directory containing JSON files
-# dir_or_json_path = "output_batches/user_3"
-dir_or_json_path = "upwork_responses.json"
-is_dir = False
-# Find and print duplicates
-duplicates = find_duplicates_in_directory(is_dir, dir_or_json_path)
-if duplicates:
-    print(f"Found {len(duplicates)} duplicate entries:")
-    for user_id, key, occurrences in duplicates:
-        print(f"\nUser ID: {user_id} | Duplicate Key: {key}")
-        for i, entry in enumerate(occurrences, 1):
-            print(f"  Entry {i}: {entry}")
-else:
-    print("No duplicates found.")
+
+def main(is_check_responses):
+    if is_check_responses:
+        dir_or_json_path = "upwork_responses_cleaned.json"
+        is_dir = False
+        fields_list = ["image_path", "chosen_polygon", "ip_address", "user_id", "chosen_item", "room_type",
+                       "batch_number"]
+    else:
+        dir_or_json_path = "output_batches/user_2"
+        is_dir = True
+        fields_list = ["image_path_html", "num_detections", "containers_mask_polygon", "room_type", "chosen_item"]
+
+    # Find and print duplicates
+    duplicates = find_duplicates_in_directory(is_dir=is_dir, dir_or_json_path=dir_or_json_path,
+                                              fields_list=fields_list)
+    if duplicates:
+        print(f"Found {len(duplicates)} duplicate entries:")
+        for user_id, key, occurrences in duplicates:
+            print(f"\nUser ID: {user_id} | Duplicate Key: {key}")
+            for i, entry in enumerate(occurrences, 1):
+                print(f"  Entry {i}: {entry}")
+    else:
+        print("No duplicates found.")
+
+
+if __name__ == '__main__':
+    is_check_responses = False
+    main(is_check_responses=is_check_responses)

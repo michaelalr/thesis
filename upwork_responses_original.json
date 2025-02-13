@@ -12141,7 +12141,7 @@
         "user_id": 3,
         "chosen_item": "Mug",
         "room_type": "kitchen",
-        "batch_number": 1
+        "batch_number": 2
     },
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/13_segmented_sun_asymyduxvrjpcvzg.jpg",
@@ -18021,7 +18021,7 @@
         "user_id": 1,
         "chosen_item": "Bottle opener",
         "room_type": "kitchen",
-        "batch_number": 4
+        "batch_number": 1
     },
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_aojmogpsfirohkai.jpg",
@@ -26457,7 +26457,7 @@
         "user_id": 1,
         "chosen_item": "Bottle opener",
         "room_type": "kitchen",
-        "batch_number": 4
+        "batch_number": 1
     },
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/20_segmented_sun_aawuissohskzaweh.jpg",
@@ -35241,7 +35241,7 @@
         "user_id": 2,
         "chosen_item": "Pot",
         "room_type": "kitchen",
-        "batch_number": 1
+        "batch_number": 3
     },
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_aypcskgepdlkzbsn.jpg",
@@ -38721,7 +38721,7 @@
         "user_id": 2,
         "chosen_item": "Cutting knife",
         "room_type": "kitchen",
-        "batch_number": 4
+        "batch_number": 3
     },
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/7_segmented_sun_aufggmchclraycgm.jpg",
@@ -46449,7 +46449,7 @@
         "user_id": 2,
         "chosen_item": "Plate",
         "room_type": "kitchen",
-        "batch_number": 1
+        "batch_number": 3
     },
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_aqgmupblbcwnragu.jpg",
@@ -49797,7 +49797,7 @@
         "user_id": 1,
         "chosen_item": "Bottle opener",
         "room_type": "kitchen",
-        "batch_number": 4
+        "batch_number": 1
     },
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/20_segmented_sun_arzhwzqbgfuhbfor.jpg",
@@ -103017,7 +103017,7 @@
         "user_id": 2,
         "chosen_item": "Cutting knife",
         "room_type": "kitchen",
-        "batch_number": 1
+        "batch_number": 3
     },
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/3_segmented_sun_abxkzyveixihrdgk.jpg",
@@ -112317,7 +112317,7 @@
         "user_id": 2,
         "chosen_item": "Dish towels",
         "room_type": "kitchen",
-        "batch_number": 1
+        "batch_number": 3
     },
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/18_segmented_sun_abkpqqbuuvmwwwje.jpg",
