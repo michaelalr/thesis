@@ -1,14 +1,11 @@
 import json
 import os
 import re
-from io import BytesIO
 
 import firebase_admin
 import matplotlib.patches as patches
 import matplotlib.pyplot as plt
-import pandas as pd
-import requests
-from PIL import Image, ImageDraw
+from PIL import Image
 from firebase_admin import credentials, firestore
 
 
@@ -191,84 +188,9 @@ def check_empty_responses(all_responses, user_id):
         f"User {user_id} has {empty_polygon_count} responses with 'chosen_polygon': '[]' out of {len(user_responses)}.")
 
 
-def remove_ips(data):
-    # Count occurrences of each IP
-    # ip_counts = Counter(entry["ip_address"] for entry in data)
-
-    # Define the IPs to remove
-    unwanted_ips = {"46.120.86.255", 'Unknown'}  # Set of IPs to remove
-    # Filter out entries with these IPs
-    filtered_ips = [entry for entry in data if entry["ip_address"] not in unwanted_ips]
-    print(f"Removed {len(data) - len(filtered_ips)} entries.")
-    return filtered_ips
-
-
-def find_duplicates(data):
-    # Convert JSON data to a DataFrame
-    df = pd.DataFrame(data)
-    # Define the fields to check for duplicates
-    duplicate_fields = ["image_path", "chosen_polygon", "user_id", "chosen_item", "room_type", "batch_number"]
-    # Find duplicate rows based on the specified fields
-    df_no_duplicates = df.drop_duplicates(subset=duplicate_fields, keep='first')
-    print(f"Removed duplicates. New dataset has {len(df_no_duplicates)} records.")
-
-    # # Find duplicates based on core fields, but keep all occurrences
-    # duplicates = df[df.duplicated(subset=duplicate_fields, keep=False)]
-    # # Sort the duplicates to compare date and time differences
-    # duplicates_sorted = duplicates.sort_values(by=duplicate_fields + ["date", "time"])
-    # # Save duplicates to a CSV file for better comparison
-    # duplicates_sorted.to_csv("duplicates_with_date_time.csv", index=False)
-    return df_no_duplicates
-
-
-def find_different_answers_per_user(df):
-    # Group by key fields and filter groups with multiple distinct polygons
-    polygon_groups = df.groupby(["user_id", "image_path", "chosen_item", "room_type", "batch_number"])
-    filtered_groups = polygon_groups.filter(lambda x: x['chosen_polygon'].nunique() > 1)
-
-    # Iterate over the filtered groups and display the polygons
-    for (user_id, image_path, item, room, batch), group in filtered_groups.groupby(
-            ["user_id", "image_path", "chosen_item", "room_type", "batch_number"]):
-        try:
-            # Load and prepare the image
-            response = requests.get(image_path)
-            img = Image.open(BytesIO(response.content)).convert("RGB")
-            draw = ImageDraw.Draw(img)
-
-            # Draw each polygon with a different color
-            colors = ["red", "green", "blue", "purple", "orange"]
-            for idx, (_, row) in enumerate(group.iterrows()):
-                polygon = json.loads(row['chosen_polygon'])
-                polygon_tuples = [tuple(coord) for coord in polygon]
-                draw.polygon(polygon_tuples, outline=colors[idx % len(colors)], width=3)
-                draw.text(polygon_tuples[0], f"Polygon {idx + 1}", fill=colors[idx % len(colors)])
-
-            # Plot inline in PyCharm
-            plt.figure(figsize=(10, 6))
-            plt.imshow(img)
-            plt.title(f"User: {user_id}, Item: {item}, Room: {room} ,Batch: {batch}")
-            plt.axis("off")
-            plt.show()
-
-        except Exception as e:
-            print(f"Failed to process {image_path}: {e}")
-
-    print("draw all")
-
-
-def clean_data(all_responses):
-    filtered_ips = remove_ips(all_responses)
-    df_no_duplicates = find_duplicates(filtered_ips)
-    find_different_answers_per_user(df_no_duplicates)
-
-    # Save the cleaned JSON back to the file
-    with open("upwork_responses_cleaned.json", "w") as file:
-        json.dump(filtered_ips, file, indent=4)
-
-
 if __name__ == "__main__":
     # json_filename = save_firebase_as_json()
-    json_filename = 'upwork_responses.json'
+    json_filename = 'upwork_responses_rotate.json'
     # Load the JSON file
     with open(json_filename, 'r') as f:
         all_responses = json.load(f)
@@ -276,8 +198,6 @@ if __name__ == "__main__":
     check_empty_responses(all_responses, 1)
     check_empty_responses(all_responses, 2)
     check_empty_responses(all_responses, 3)
-
-    clean_data(all_responses)
 
     responses_by_item_and_user = get_user_responses(responses=all_responses)
 

@@ -159,8 +159,8 @@ def visualize_results(results):
     agreement_percentages = list(results.values())
 
     visualize_agreement(results, user_pairs, agreement_percentages)
-    # dist_agreement_prcnt(agreement_percentages)
-    # disagreement_prcnt(agreement_percentages)
+    dist_agreement_prcnt(agreement_percentages)
+    disagreement_prcnt(agreement_percentages)
 
 
 # List of response files for each user
@@ -174,7 +174,7 @@ user_files = [
     'responses/user_responses_test_saggie.json',
     'responses/user_responses_test_shabi.json'
 ]
-user_files = ['upwork_responses.json']
+user_files = ['cleaned_responses.json']
 # Load responses from the files
 responses = load_responses(user_files)
 
