@@ -4,6 +4,9 @@ from collections import defaultdict
 
 import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
+import seaborn as sns
+from scipy.cluster.hierarchy import linkage, dendrogram
 from shapely.geometry import Polygon
 
 
@@ -66,7 +69,8 @@ def compare_responses(responses):
                         total_comparisons += 1
                         iou = compute_iou(json.loads(response1['chosen_polygon']),
                                           json.loads(response2['chosen_polygon']))
-                        if iou > 0.5:  # threshold for considering agreement
+                        # if iou > 0.5:  # threshold for considering agreement
+                        if iou >= 1:  # threshold for considering agreement
                             agreements += 1
 
             agreement_percentage = (agreements / total_comparisons) * 100 if total_comparisons > 0 else 0
@@ -95,7 +99,8 @@ def agreement_by_item(responses):
                     if item1 == item2 and filename1 == filename2:
                         iou = compute_iou(json.loads(response1['chosen_polygon']),
                                           json.loads(response2['chosen_polygon']))
-                        if iou > 0.5:  # threshold for considering agreement
+                        # if iou > 0.5:  # threshold for considering agreement
+                        if iou >= 1:  # threshold for considering agreement
                             item_agreements[item1].append(1)
                         else:
                             item_agreements[item1].append(0)
@@ -153,51 +158,192 @@ def disagreement_prcnt(agreement_percentages):
     plt.show()
 
 
+def agreement_over_time(df):
+    df['datetime'] = pd.to_datetime(df['datetime'])
+    df_time_grouped = df.groupby(df['datetime'].dt.date).size()
+
+    plt.figure(figsize=(10, 6))
+    plt.plot(df_time_grouped.index, df_time_grouped.values, marker='o', linestyle='-')
+    plt.xlabel("Date")
+    plt.ylabel("Number of Responses")
+    plt.title("User Responses Over Time")
+    plt.xticks(rotation=45)
+    plt.grid()
+    plt.show()
+
+
+def agreement_per_user(agreement_results):
+    user_agreements = {}
+
+    # Compute each user's average agreement across all their comparisons
+    for (user1, user2), agreement in agreement_results.items():
+        user_agreements[user1] = user_agreements.get(user1, []) + [agreement]
+        user_agreements[user2] = user_agreements.get(user2, []) + [agreement]
+
+    # Average the agreement per user
+    user_agreements = {user: sum(agreements) / len(agreements) for user, agreements in user_agreements.items()}
+
+    print("\nAgreement Per User:")
+    for user, agreement in sorted(user_agreements.items(), key=lambda item: item[1], reverse=True):
+        print(f"User {user}: {agreement:.2f}%")
+
+    # Visualize
+    visualize_item_agreement(user_agreements)
+
+
+def users_hierarchical_clustering(agreement_results):
+    user_ids = list(set([user for pair in agreement_results.keys() for user in pair]))
+    user_ids.sort()
+
+    # Create a distance matrix from agreement scores
+    matrix = np.zeros((len(user_ids), len(user_ids)))
+
+    for i, user1 in enumerate(user_ids):
+        for j, user2 in enumerate(user_ids):
+            if i != j:
+                # Convert agreement to distance (higher agreement → lower distance)
+                agreement = agreement_results.get((user1, user2), agreement_results.get((user2, user1), 0))
+                matrix[i, j] = 100 - agreement  # 100% disagreement means max distance
+
+    # Perform hierarchical clustering
+    linkage_matrix = linkage(matrix, method='ward')
+
+    plt.figure(figsize=(10, 5))
+    dendrogram(linkage_matrix, labels=user_ids, leaf_rotation=45)
+    plt.title("User Clustering Based on Agreement")
+    plt.xlabel("User ID")
+    plt.ylabel("Distance")
+    plt.show()
+
+
+def heatmap_user_agreement(agreement_results):
+    # Step 1: Extract unique user IDs
+    user_ids = list(set(user for pair in agreement_results.keys() for user in pair))
+    user_ids.sort()
+
+    # Step 2: Create an empty matrix
+    num_users = len(user_ids)
+    matrix = np.zeros((num_users, num_users))
+
+    # Step 3: Fill the matrix with agreement percentages
+    for i, user1 in enumerate(user_ids):
+        for j, user2 in enumerate(user_ids):
+            if i != j:
+                # Check both (user1, user2) and (user2, user1) before defaulting to 0
+                matrix[i, j] = agreement_results.get((user1, user2), agreement_results.get((user2, user1), 0))
+
+    # Create a heatmap
+    plt.figure(figsize=(8, 6))
+    sns.heatmap(matrix, xticklabels=user_ids, yticklabels=user_ids, annot=True, fmt=".1f", cmap="coolwarm")
+    plt.title("User Agreement Heatmap")
+    plt.xlabel("User ID")
+    plt.ylabel("User ID")
+    plt.show()
+
+
+def distribution_agreement_scores(sorted_agreement_results):
+    scores = list(sorted_agreement_results.values())
+
+    plt.figure(figsize=(8, 5))
+    plt.hist(scores, bins=10, edgecolor='black', alpha=0.7)
+    plt.xlabel("Agreement Percentage")
+    plt.ylabel("Frequency")
+    plt.title("Distribution of Agreement Scores")
+    plt.grid()
+    plt.show()
+
+
+def most_controversial_items(item_agreements):
+    # Sort items by lowest agreement
+    least_agreed_items = dict(sorted(item_agreements.items(), key=lambda item: item[1])[:5])
+
+    print("\nMost Controversial Items (Lowest Agreement):")
+    for item, agreement in least_agreed_items.items():
+        print(f"{item}: {agreement:.2f}%")
+
+    # Visualize the controversial items
+    visualize_item_agreement(least_agreed_items)
+
+
 # Function to visualize the agreement results with user_id on the bars
 def visualize_results(results):
     user_pairs = list(results.keys())
     agreement_percentages = list(results.values())
 
     visualize_agreement(results, user_pairs, agreement_percentages)
-    dist_agreement_prcnt(agreement_percentages)
-    disagreement_prcnt(agreement_percentages)
+    # dist_agreement_prcnt(agreement_percentages)
+    # disagreement_prcnt(agreement_percentages)
 
 
-# List of response files for each user
-user_files = [
-    'responses/user_responses_test_asaf.json',
-    'responses/user_responses_test_lee_or.json',
-    'responses/user_responses_test_lior.json',
-    'responses/user_responses_test_michaela_2.json',
-    'responses/user_responses_test_oren.json',
-    'responses/user_responses_test_ronny.json',
-    'responses/user_responses_test_saggie.json',
-    'responses/user_responses_test_shabi.json'
-]
-user_files = ['cleaned_responses.json']
-# Load responses from the files
-responses = load_responses(user_files)
+def main(user_files, responses_df):
+    # Load responses from the files
+    responses = load_responses(user_files)
 
-# Compare responses and calculate agreement
-agreement_results = compare_responses(responses)
-# Calculate agreement across different items
-item_agreements = agreement_by_item(responses)
-# Sort results for user pair agreement
-sorted_agreement_results = dict(sorted(agreement_results.items(), key=lambda item: item[1], reverse=True))
-sorted_item_agreement_results = dict(sorted(item_agreements.items(), key=lambda item: item[1], reverse=True))
+    # Compare responses and calculate agreement
+    agreement_results = compare_responses(responses)
+    # Calculate agreement across different items
+    item_agreements = agreement_by_item(responses)
+    # Sort results for user pair agreement
+    sorted_agreement_results = dict(sorted(agreement_results.items(), key=lambda item: item[1], reverse=True))
+    sorted_item_agreement_results = dict(sorted(item_agreements.items(), key=lambda item: item[1], reverse=True))
 
-# Print the results in a table
-print("User Pair Agreement (%)")
-for pair, agreement in sorted_agreement_results.items():
-    print(f"User {pair[0]} vs User {pair[1]}: {agreement:.2f}%")
+    # -----------------------------------------------
 
-# Visualize the agreement results
-visualize_results(sorted_agreement_results)
+    # Print the results in a table
+    print("User Pair Agreement (%)")
+    for pair, agreement in sorted_agreement_results.items():
+        print(f"User {pair[0]} vs User {pair[1]}: {agreement:.2f}%")
 
-# Print and visualize agreement across different items
-print("\nAgreement Across Different Items:")
-for item, agreement in sorted_item_agreement_results.items():
-    print(f"{item}: {agreement:.2f}%")
+    # Visualize the agreement results
+    visualize_results(sorted_agreement_results)
 
-# Visualize the agreement across different items
-visualize_item_agreement(sorted_item_agreement_results)
+    # -----------------------------------------------
+
+    # Print and visualize agreement across different items
+    print("\nAgreement Across Different Items:")
+    for item, agreement in sorted_item_agreement_results.items():
+        print(f"{item}: {agreement:.2f}%")
+
+    # Visualize the agreement across different items
+    visualize_item_agreement(sorted_item_agreement_results)
+
+    # -----------------------------------------------
+
+    agreement_over_time(df=responses_df)
+
+    # -----------------------------------------------
+
+    most_controversial_items(item_agreements=item_agreements)
+
+    # -----------------------------------------------
+
+    agreement_per_user(agreement_results=agreement_results)
+
+    # -----------------------------------------------
+
+    users_hierarchical_clustering(agreement_results=agreement_results)
+
+    # -----------------------------------------------
+
+    heatmap_user_agreement(agreement_results=agreement_results)
+
+    # -----------------------------------------------
+
+    distribution_agreement_scores(sorted_agreement_results=sorted_agreement_results)
+
+
+if __name__ == '__main__':
+    # List of response files for each user
+    # user_files = [
+    #     'responses/user_responses_test_asaf.json',
+    #     'responses/user_responses_test_lee_or.json',
+    #     'responses/user_responses_test_lior.json',
+    #     'responses/user_responses_test_michaela_2.json',
+    #     'responses/user_responses_test_oren.json',
+    #     'responses/user_responses_test_ronny.json',
+    #     'responses/user_responses_test_saggie.json',
+    #     'responses/user_responses_test_shabi.json'
+    # ]
+    user_files = ['cleaned_responses.json']
+    responses_df = pd.read_csv("cleaned_responses.csv")
+    main(user_files=user_files, responses_df=responses_df)

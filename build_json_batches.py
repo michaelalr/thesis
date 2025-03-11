@@ -3,14 +3,15 @@ import os
 from itertools import cycle
 
 # Input data
-kitchen_items = ["Bottle opener", "Tupperware containers", "Dish towels", "Cutting board", "Bowl", "Spices", "Spoon", "Mug", "Plate", "Pot", "Pan", "Cutting knife", "Cooking oil"]
+kitchen_items = ["Bottle opener", "Tupperware containers", "Dish towels", "Cutting board", "Bowl", "Spices", "Spoon",
+                 "Mug", "Plate", "Pot", "Pan", "Cutting knife", "Cooking oil"]
 num_users = 3
 images_per_item = 500
 common_images_percentage = 0.16  # 16%
-common_images_per_item = round(common_images_percentage * images_per_item)
-unique_images_per_item = images_per_item - common_images_per_item
-unique_images_per_user = unique_images_per_item // num_users
-batch_size = (unique_images_per_user + common_images_per_item) // 4  # 4 batches
+common_images_per_item = round(common_images_percentage * images_per_item)  # 80
+unique_images_per_item = images_per_item - common_images_per_item  # 420
+unique_images_per_user = unique_images_per_item // num_users  # 140
+batch_size = (unique_images_per_user + common_images_per_item) // 4  # 4 batches, 140
 output_folder = "output_batches"
 
 # Load the input JSON file
