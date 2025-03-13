@@ -2,9 +2,11 @@ import json
 import os
 import re
 
+import cv2
 import firebase_admin
 import matplotlib.patches as patches
 import matplotlib.pyplot as plt
+import numpy as np
 from PIL import Image
 from firebase_admin import credentials, firestore
 
@@ -111,7 +113,7 @@ def plot_images_polygons(responses_by_item_and_user):
 
             for idx, response in enumerate(user_responses):
                 image_path = response.get('image_path')
-                clean_image = clean_image_path(image_path)
+                clean_image = clean_image_path(image_path=image_path)
                 chosen_polygon = json.loads(response.get('chosen_polygon'))
 
                 # Load image
@@ -188,7 +190,54 @@ def check_empty_responses(all_responses, user_id):
         f"User {user_id} has {empty_polygon_count} responses with 'chosen_polygon': '[]' out of {len(user_responses)}.")
 
 
+def save_validation_gt(user_response_json, image_details_json, image_folder, output_folder):
+    # Create output folder if not exists
+    os.makedirs(output_folder, exist_ok=True)
+
+    # Load JSON files
+    with open(user_response_json, "r") as f:
+        user_responses = json.load(f)
+
+    with open(image_details_json, "r") as f:
+        image_details = json.load(f)
+
+    # Function to convert polygon string to list
+    def parse_polygon(polygon_str):
+        return json.loads(polygon_str.replace("'", "\""))
+
+    # Process user responses
+    for response in user_responses:
+        image_url = response["image_path"]  # URL in the JSON
+        image_name = os.path.basename(image_url)  # Extract filename
+        image_path = os.path.join(image_folder, image_name)  # Local path
+
+        chosen_polygon = parse_polygon(response["chosen_polygon"])  # Convert string to list
+
+        if os.path.exists(image_path):
+            # Load image
+            img = cv2.imread(image_path)
+
+            # Draw chosen polygon
+            pts = np.array(chosen_polygon, np.int32)
+            pts = pts.reshape((-1, 1, 2))
+            cv2.polylines(img, [pts], isClosed=True, color=(0, 255, 0), thickness=3)
+
+            # Save marked image
+            output_image_path = os.path.join(output_folder, image_name)
+            cv2.imwrite(output_image_path, img)
+
+    print("Marked images saved successfully.")
+
+
 if __name__ == "__main__":
+    # Define paths
+    user_response_json = "output_jsons/response_output_batches_build_test_set_usr_4_Val_Screwdriver_Painkiller_batch_1.json"
+    image_details_json = "output_batches/build_test_set/usr_4_Val_Screwdriver_Painkiller_batch_1.json"
+    image_folder = "./images/validation/"
+    output_folder = "./validation_images_with_marks/"
+
+    save_validation_gt(user_response_json, image_details_json, image_folder, output_folder)
+
     # json_filename = save_firebase_as_json()
     json_filename = 'upwork_responses_rotate.json'
     # Load the JSON file
