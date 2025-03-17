@@ -94,29 +94,27 @@ def display_different_answers_per_user(df):
     print("draw all")
 
 
-def separate_validation_and_other_data(df):
-    # Filter validation responses
-    validation_df = df[(df['room_type'] == 'validation')]
+def separate_test_and_all_other_data(df):
+    # Filter "validation" responses
+    test_df = df[(df['room_type'] == 'validation')]
 
     # Filter all other responses
-    all_other_df = df.drop(validation_df.index)
+    all_other_df = df.drop(test_df.index)
 
     # Save to JSON files
-    validation_df.to_json('validation_responses.json', orient='records', indent=4)
+    test_df.to_json('test_responses.json', orient='records', indent=4)
     all_other_df.to_json('all_other_responses.json', orient='records', indent=4)
 
-    return validation_df, all_other_df
+    return test_df, all_other_df
 
 
-def remove_extra_rows(df):
+def remove_extra_rows(df, batch_folders, clean_df_name, is_test=False):
     # Collect all valid batch entries
     batch_entries = set()
 
-    batch_folders = ['output_batches/user_1', 'output_batches/user_2', 'output_batches/user_3']
-
     for folder in batch_folders:
         for file_name in os.listdir(folder):
-            if file_name.endswith('.json') and "_Val_" not in file_name:
+            if file_name.endswith('.json') and ("_Val_" in file_name) == is_test:
                 with open(os.path.join(folder, file_name), 'r') as f:
                     batch_number_match = re.search(r"_batch_(\d+)", file_name)
                     if batch_number_match:
@@ -144,14 +142,14 @@ def remove_extra_rows(df):
     # Drop extra rows from the DataFrame
     df_cleaned = df[df['exists_in_batches']].drop(columns=['exists_in_batches'])
     # Save the cleaned DataFrame
-    df_cleaned.to_csv('cleaned_responses.csv', index=False)
+    df_cleaned.to_csv(clean_df_name + '.csv', index=False)
 
     # Convert datetime columns to string
     df_cleaned["datetime"] = df_cleaned["datetime"].astype(str)
     # Convert DataFrame to a list of dictionaries
     cleaned_data = df_cleaned.to_dict(orient="records")
     # Save the JSON file with proper formatting
-    with open("cleaned_responses.json", "w") as f:
+    with open(clean_df_name + ".json", "w") as f:
         json.dump(cleaned_data, f, indent=4)
 
     return df_cleaned
@@ -161,12 +159,24 @@ def clean_data(all_responses):
     filtered_ips_responses = remove_ips(data=all_responses)
     df_no_duplicates = find_duplicates(data=filtered_ips_responses)
     keep_first_response_df = find_different_answers_per_user_keep_first(df=df_no_duplicates)
-    validation_df, all_other_df = separate_validation_and_other_data(df=keep_first_response_df)
-    df_cleaned = remove_extra_rows(df=all_other_df)
-    return df_cleaned
+    test_df, all_other_df = separate_test_and_all_other_data(df=keep_first_response_df)
+
+    batch_folders = ['output_batches/user_1', 'output_batches/user_2', 'output_batches/user_3']
+
+    clean_df_name = "cleaned_responses"
+    is_test = False
+    df_cleaned = remove_extra_rows(df=all_other_df, batch_folders=batch_folders, clean_df_name=clean_df_name,
+                                   is_test=is_test)
+
+    clean_df_name = "test_cleaned_responses"
+    is_test = True
+    test_df['image_path'] = test_df['image_path'].str.replace('%20', ' ', regex=False)
+    test_df_cleaned = remove_extra_rows(df=test_df, batch_folders=batch_folders, clean_df_name=clean_df_name,
+                                        is_test=is_test)
+    return df_cleaned, test_df_cleaned
 
 
-def create_final_df(cleaned_df, image_details_json_path):
+def create_final_train_df(cleaned_df, image_details_json_path):
     # Load the image details JSON
     with open(image_details_json_path, 'r') as f:
         image_details = json.load(f)
@@ -232,11 +242,67 @@ def create_final_df(cleaned_df, image_details_json_path):
     return train_df
 
 
+def create_test_gt(image_details_json_path):
+    # List your JSON files
+    json_files = [
+        "output_jsons/response_output_batches_build_test_set_usr_4_Val_Bottle_opener_batch_4.json",
+        "output_jsons/response_output_batches_build_test_set_usr_4_Val_Iron_Tupperware_containers_batch_3.json",
+        "output_jsons/response_output_batches_build_test_set_usr_4_Val_Random_Ear_toothpick_batch_2.json",
+        "output_jsons/response_output_batches_build_test_set_usr_4_Val_Screwdriver_Painkiller_batch_1.json"
+    ]
+
+    # Read and merge all JSON files into a single DataFrame
+    dfs = [pd.read_json(file) for file in json_files]
+    gt_test_df = pd.concat(dfs, ignore_index=True)
+
+    gt_test_df['image_path'] = gt_test_df['image_path'].str.replace('%20', ' ', regex=False)
+
+    # Load the image details JSON file
+    with open(image_details_json_path, "r") as f:
+        image_details = json.load(f)
+
+    # Build a lookup dictionary for image_path_html -> containers_polygons
+    image_details_lookup = {
+        detail["image_path_html"]: detail["containers_mask_polygon"]
+        for detail in image_details
+    }
+
+    # Prepare the final list of rows
+    test_rows = []
+
+    for _, row in gt_test_df.iterrows():
+        image_path = row["image_path"]
+        chosen_polygon = row["chosen_polygon"]
+        chosen_item = row["chosen_item"]
+
+        # Extract relative path
+        relative_path = "/".join(image_path.split("/")[-3:])
+
+        # Get the containers_polygons from the lookup
+        containers_polygons = image_details_lookup.get(relative_path, [])
+
+        # Add the row to the final list
+        test_rows.append({
+            "image_path": image_path,
+            "containers_polygons": containers_polygons,
+            "chosen_polygon": chosen_polygon,
+            "chosen_item": chosen_item
+        })
+
+    # Convert to DataFrame
+    final_test_df = pd.DataFrame(test_rows)
+
+    # Save to JSON if needed
+    final_test_df.to_json("test_data.json", orient="records", indent=4)
+
+
 if __name__ == "__main__":
     json_filename = 'upwork_responses_rotate.json'
     # Load the JSON file
     with open(json_filename, 'r') as f:
         all_responses = json.load(f)
 
-    df_cleaned = clean_data(all_responses)
-    train_df = create_final_df(cleaned_df=df_cleaned, image_details_json_path="image_details.json")
+    df_cleaned, test_df_cleaned = clean_data(all_responses)
+    train_df = create_final_train_df(cleaned_df=df_cleaned, image_details_json_path="image_details.json")
+
+    create_test_gt(image_details_json_path="image_details_validation_new.json")
