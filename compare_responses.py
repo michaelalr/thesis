@@ -1,12 +1,15 @@
 import json
 import os
 import re
-
+from ast import literal_eval
+import random
 import cv2
 import firebase_admin
 import matplotlib.patches as patches
 import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
+import seaborn as sns
 from PIL import Image
 from firebase_admin import credentials, firestore
 
@@ -181,6 +184,22 @@ def save_firebase_as_json():
     return json_filename
 
 
+def show_annotation_per_user_and_item():
+    # json_filename = save_firebase_as_json()
+    json_filename = 'upwork_responses_rotate.json'
+    # Load the JSON file
+    with open(json_filename, 'r') as f:
+        all_responses = json.load(f)
+
+    responses_by_item_and_user = get_user_responses(responses=all_responses)
+
+    plot_images_polygons(responses_by_item_and_user=responses_by_item_and_user)
+
+    # Directory where all JSON response files are stored
+    # json_files_directory = "responses"  # Change this to your directory name
+    # main(json_files_directory)
+
+
 def check_empty_responses(all_responses, user_id):
     # Filter responses for user_id
     user_responses = [response for response in all_responses if response.get('user_id') == user_id]
@@ -229,29 +248,110 @@ def save_validation_gt(user_response_json, image_details_json, image_folder, out
     print("Marked images saved successfully.")
 
 
+def give_score_on_test_data(test_data_json, users_test_responses_json, is_human=True):
+    # Load correct annotations
+    with open(test_data_json, "r") as f:
+        correct_annotations = json.load(f)
+
+    # Load user responses
+    with open(users_test_responses_json, "r") as f:
+        user_responses = json.load(f)
+
+    # Convert correct annotations to a dictionary for quick lookup
+    correct_lookup = {
+        (entry["image_path"], entry["chosen_item"]): literal_eval(entry["chosen_polygon"])
+        for entry in correct_annotations
+    }
+
+    # Count correct responses per user
+    user_scores = {}
+    total_attempts = {}
+
+    for response in user_responses:
+        user_id = response["user_id"] if is_human else "random"
+        image_path = response["image_path"]
+        chosen_item = response["chosen_item"]
+        chosen_polygon = literal_eval(response["chosen_polygon"])
+
+        # Total attempts per user
+        total_attempts[user_id] = total_attempts.get(user_id, 0) + 1
+
+        # Check if the chosen polygon matches the correct one
+        correct_polygon = correct_lookup.get((image_path, chosen_item))
+        if correct_polygon and chosen_polygon == correct_polygon:
+            user_scores[user_id] = user_scores.get(user_id, 0) + 1
+
+    # Compute percentage scores
+    user_percentages = {
+        user: (user_scores.get(user, 0) / total_attempts[user]) * 100
+        for user in total_attempts
+    }
+
+    # Convert to DataFrame for better visualization
+    df_scores = pd.DataFrame([
+        {"user_id": user, "correct_answers": user_scores.get(user, 0),
+         "total_attempts": total_attempts[user], "accuracy (%)": user_percentages[user]}
+        for user in total_attempts
+    ])
+
+    # Print results
+    print(df_scores)
+
+    # Save to a JSON file if needed
+    df_scores.to_json("user_accuracy_scores_test_data.json", orient="records", indent=4)
+
+    # ---- PLOT ----
+    plt.figure(figsize=(10, 6))
+    sns.barplot(x=df_scores["user_id"], y=df_scores["accuracy (%)"], palette="viridis")
+
+    # Customize plot
+    plt.xlabel("User ID", fontsize=12)
+    plt.ylabel("Accuracy (%)", fontsize=12)
+    plt.title("User Accuracy in Choosing the Correct Annotation", fontsize=14)
+    plt.ylim(0, 100)
+    plt.xticks(rotation=45)
+    plt.grid(axis="y", linestyle="--", alpha=0.7)
+
+    # Show plot
+    plt.show()
+
+def create_random_baseline(train_or_test_data_json, train_or_test="train"):
+    # Load image details
+    with open(train_or_test_data_json, "r") as f:
+        image_details = json.load(f)
+
+    random_responses = []
+
+    # Iterate over image details
+    for entry in image_details:
+        containers = literal_eval(entry["containers_polygons"])  # Convert string to list
+        if containers:  # Ensure there are containers to choose from
+            chosen_polygon = random.choice(containers)  # Select a random container
+
+            # Create response entry
+            if train_or_test == "train":
+                response_entry = {
+                    "image_path": entry["image_path"],
+                    "containers_polygons": entry["containers_polygons"],
+                    "chosen_polygon": str(chosen_polygon),
+                    "chosen_item": entry["chosen_item"],
+                    "room_type": entry["room_type"]
+                }
+            else:
+                response_entry = {
+                    "image_path": entry["image_path"],
+                    "containers_polygons": entry["containers_polygons"],
+                    "chosen_polygon": str(chosen_polygon),
+                    "chosen_item": entry["chosen_item"]
+                }
+            random_responses.append(response_entry)
+
+    # Save to JSON file
+    file_name = "random_" + train_or_test + "_responses.json"
+    with open(file_name, "w") as f:
+        json.dump(random_responses, f, indent=4)
+
+    print("Random " + train_or_test + " responses JSON generated successfully!")
+
 if __name__ == "__main__":
-    # Define paths
-    user_response_json = "output_jsons/response_output_batches_build_test_set_usr_4_Val_Screwdriver_Painkiller_batch_1.json"
-    image_details_json = "output_batches/build_test_set/usr_4_Val_Screwdriver_Painkiller_batch_1.json"
-    image_folder = "./images/validation/"
-    output_folder = "./validation_images_with_marks/"
-
-    save_validation_gt(user_response_json, image_details_json, image_folder, output_folder)
-
-    # json_filename = save_firebase_as_json()
-    json_filename = 'upwork_responses_rotate.json'
-    # Load the JSON file
-    with open(json_filename, 'r') as f:
-        all_responses = json.load(f)
-
-    check_empty_responses(all_responses, 1)
-    check_empty_responses(all_responses, 2)
-    check_empty_responses(all_responses, 3)
-
-    responses_by_item_and_user = get_user_responses(responses=all_responses)
-
-    plot_images_polygons(responses_by_item_and_user=responses_by_item_and_user)
-
-    # Directory where all JSON response files are stored
-    # json_files_directory = "responses"  # Change this to your directory name
-    # main(json_files_directory)
+    give_score_on_test_data(test_data_json="train_data.json", users_test_responses_json="random_train_responses.json", is_human=False)
