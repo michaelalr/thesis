@@ -292,8 +292,14 @@ def create_test_gt(image_details_json_path):
     # Convert to DataFrame
     final_test_df = pd.DataFrame(test_rows)
 
-    # Save to JSON if needed
-    final_test_df.to_json("test_data.json", orient="records", indent=4)
+    # Optional: save to CSV or JSON
+    final_test_df.to_csv("test_data.csv", index=False)
+
+    # Convert DataFrame to a list of dictionaries
+    test_data = final_test_df.to_dict(orient="records")
+    # Save the JSON file with proper formatting
+    with open("test_data.json", "w") as f:
+        json.dump(test_data, f, indent=4)
 
 
 if __name__ == "__main__":
