@@ -10,18 +10,23 @@ from scipy.cluster.hierarchy import linkage, dendrogram
 from shapely.geometry import Polygon
 
 
+def load_json(filepath):
+    """ Load JSON file and return the data """
+    with open(filepath, "r") as f:
+        return json.load(f)
+
+
 # Function to load JSON files
 def load_responses(user_files):
     responses = {}
     for file in user_files:
-        with open(file, 'r') as f:
-            user_data = json.load(f)
-            for entry in user_data:
-                user_id = entry.get('user_id')
-                if user_id is not None:
-                    if user_id not in responses:
-                        responses[user_id] = []
-                    responses[user_id].append(entry)
+        user_data = load_json(file)
+        for entry in user_data:
+            user_id = entry.get('user_id')
+            if user_id is not None:
+                if user_id not in responses:
+                    responses[user_id] = []
+                responses[user_id].append(entry)
     return responses
 
 
@@ -38,7 +43,7 @@ def compute_iou(polygon1, polygon2):
 
     intersection = poly1.intersection(poly2).area
     union = poly1.union(poly2).area
-    return intersection / union
+    return intersection / union if poly1.intersects(poly2) else 0
 
 
 # Function to extract the filename from the image_path
@@ -113,7 +118,7 @@ def agreement_by_item(responses):
 
 
 # Function to visualize the agreement across different items
-def visualize_item_agreement(item_agreements):
+def visualize_item_agreement(item_agreements, user_id=""):
     sorted_items = sorted(item_agreements.items(), key=lambda x: x[1], reverse=True)
     items = [item[0] for item in sorted_items]
     agreement_percentages = [item[1] for item in sorted_items]
@@ -121,7 +126,8 @@ def visualize_item_agreement(item_agreements):
     plt.bar(items, agreement_percentages)
     plt.xlabel('Item')
     plt.ylabel('Average Agreement (%)')
-    plt.title('Agreement Across Different Items')
+    title = f'Agreement Across Different Items - User {user_id}' if user_id != "" else "Agreement Across Different Items"
+    plt.title(title)
     plt.xticks(rotation=45, ha='right')
     plt.tight_layout()
     plt.show()
@@ -138,6 +144,23 @@ def visualize_agreement(results, user_pairs, agreement_percentages):
     plt.title('Agreement between User Responses')
     plt.xticks(rotation=45)
     plt.tight_layout()
+    plt.show()
+
+
+# Function to visualize the mean agreement between human users and random responses
+def visualize_mean_agreement(df):
+    mean_agreement_per_user = df.groupby('human_user_id')['agreement_score'].mean()
+
+    # Print mean agreement for each user
+    print("Mean Agreement Between Each Human User and Random:")
+    print(mean_agreement_per_user)
+
+    # Visualize mean agreement
+    plt.figure(figsize=(12, 6))
+    sns.barplot(x=mean_agreement_per_user.index, y=mean_agreement_per_user.values)
+    plt.title('Mean Agreement Score per Human User')
+    plt.xlabel('User ID')
+    plt.ylabel('Mean Agreement Score (IoU)')
     plt.show()
 
 
@@ -332,6 +355,71 @@ def main(user_files, responses_df):
     distribution_agreement_scores(sorted_agreement_results=sorted_agreement_results)
 
 
+# Convert the polygon string into a list of coordinates
+def parse_polygon(polygon_str):
+    return np.array(json.loads(polygon_str))
+
+
+def compute_human_vs_random_agreement(human_responses, random_responses):
+    # Compare the random responses with human responses on common pairs
+    common_pairs = []
+    for random_response in random_responses:
+        for human_response in human_responses:
+            if random_response['image_path'] == human_response['image_path'] and random_response['chosen_item'] == \
+                    human_response['chosen_item']:
+                random_polygon = parse_polygon(random_response['chosen_polygon'])
+                human_polygon = parse_polygon(human_response['chosen_polygon'])
+
+                # Calculate IoU agreement
+                iou_score = 0.0 if len(random_polygon) < 3 else compute_iou(random_polygon, human_polygon)
+
+                # Store the result for this pair
+                common_pairs.append({
+                    'image_path': random_response['image_path'],
+                    'chosen_item': random_response['chosen_item'],
+                    'human_user_id': human_response['user_id'],
+                    'agreement_score': iou_score
+                })
+
+    df = pd.DataFrame(common_pairs)
+    return df
+
+
+def stat_and_plot_human_random(df):
+    # Visualize the mean agreement between human users and random responses
+    visualize_mean_agreement(df)
+
+    # Calculate and visualize agreement across items for each user
+    users = df['human_user_id'].unique()
+    for user in users:
+        user_data = df[df['human_user_id'] == user]
+        item_agreements = user_data.groupby('chosen_item')['agreement_score'].mean().to_dict()
+
+        print(f"\nAgreement Across Items for User {user}:")
+        print(sorted(item_agreements.items(), key=lambda x: x[1], reverse=True))
+
+        visualize_item_agreement(item_agreements=item_agreements, user_id=str(user))
+
+
+    # Boxplot to show the distritem_agreement_per_user[item_agreement_per_user["human_user_id"] == user]ibution of agreement scores for each user
+    plt.figure(figsize=(12, 8))
+    sns.boxplot(x='human_user_id', y='agreement_score', data=df)
+    plt.title('Agreement Score Distribution per Human User')
+    plt.xlabel('User ID')
+    plt.ylabel('Agreement Score (IoU)')
+    plt.show()
+
+
+def agreement_human_random(human_responses_json, random_responses_json):
+    # Load data
+    human_responses = load_json(human_responses_json)
+    random_responses = load_json(random_responses_json)
+
+    # Compute agreements
+    df = compute_human_vs_random_agreement(human_responses, random_responses)
+    stat_and_plot_human_random(df=df)
+
+
 if __name__ == '__main__':
     # List of response files for each user
     # user_files = [
@@ -344,6 +432,10 @@ if __name__ == '__main__':
     #     'responses/user_responses_test_saggie.json',
     #     'responses/user_responses_test_shabi.json'
     # ]
-    user_files = ['cleaned_responses.json']
-    responses_df = pd.read_csv("cleaned_responses.csv")
-    main(user_files=user_files, responses_df=responses_df)
+
+    # user_files = ['cleaned_responses.json']
+    # responses_df = pd.read_csv("cleaned_responses.csv")
+    # main(user_files=user_files, responses_df=responses_df)
+
+    agreement_human_random(human_responses_json='cleaned_responses.json',
+                           random_responses_json="random_train_responses.json")
