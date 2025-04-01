@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 from scipy.cluster.hierarchy import linkage, dendrogram
-from shapely.geometry import Polygon
+from shapely.geometry import Polygon, Point, LineString
 
 
 def load_json(filepath):
@@ -30,20 +30,71 @@ def load_responses(user_files):
     return responses
 
 
-# Function to compute the IoU (Intersection over Union) for polygons
 def compute_iou(polygon1, polygon2):
-    poly1 = Polygon(np.array(polygon1))
-    poly2 = Polygon(np.array(polygon2))
+    """Compute the IoU (Intersection over Union) between two geometries."""
 
+    # Convert input lists to Shapely geometries based on their length
+    def to_geometry(coords):
+        if len(coords) == 1:  # Single point
+            return Point(coords[0])
+        elif len(coords) == 2:  # Line (2 points)
+            return LineString(coords)
+        else:  # Polygon (3 or more points)
+            return Polygon(coords)
+
+    poly1 = to_geometry(np.array(polygon1))
+    poly2 = to_geometry(np.array(polygon2))
+
+    # Handle invalid cases
     if not poly1.is_valid or not poly2.is_valid:
         return 0.0
 
+    # If both are empty, consider them fully overlapping
     if poly1.is_empty and poly2.is_empty:
-        return 1
+        return 1.0
 
+    # === Handle Point vs. Point ===
+    if isinstance(poly1, Point) and isinstance(poly2, Point):
+        return 1.0 if poly1.equals(poly2) else 0.0
+
+    # === Handle LineString vs. LineString ===
+    if isinstance(poly1, LineString) and isinstance(poly2, LineString):
+        if poly1.equals(poly2):  # Identical lines
+            return 1.0
+        intersection_length = poly1.intersection(poly2).length
+        total_length = poly1.length + poly2.length - intersection_length
+        return intersection_length / total_length if total_length > 0 else 0.0
+
+    # === Handle Point vs. LineString ===
+    if isinstance(poly1, Point) and isinstance(poly2, LineString):
+        return 1.0 if poly2.contains(poly1) else 0.0
+    if isinstance(poly2, Point) and isinstance(poly1, LineString):
+        return 1.0 if poly1.contains(poly2) else 0.0
+
+    # === Handle Polygon vs. Point ===
+    if isinstance(poly1, Polygon) and isinstance(poly2, Point):
+        return 1.0 if poly1.contains(poly2) else 0.0
+    if isinstance(poly2, Polygon) and isinstance(poly1, Point):
+        return 1.0 if poly2.contains(poly1) else 0.0
+
+    # === Handle Polygon vs. LineString ===
+    if isinstance(poly1, Polygon) and isinstance(poly2, LineString):
+        if poly1.contains(poly2):  # Line fully inside polygon
+            return 1.0
+        intersection_length = poly1.intersection(poly2).length
+        return intersection_length / poly2.length if poly2.length > 0 else 0.0
+
+    if isinstance(poly2, Polygon) and isinstance(poly1, LineString):
+        if poly2.contains(poly1):
+            return 1.0
+        intersection_length = poly1.intersection(poly2).length
+        return intersection_length / poly1.length if poly1.length > 0 else 0.0
+
+    # === Handle Polygon vs. Polygon (Default IoU Calculation) ===
     intersection = poly1.intersection(poly2).area
     union = poly1.union(poly2).area
-    return intersection / union if poly1.intersects(poly2) else 0
+    # return intersection / union if poly1.intersects(poly2) else 0
+    return intersection / union if union > 0 else 0.0
 
 
 # Function to extract the filename from the image_path
@@ -371,7 +422,7 @@ def compute_human_vs_random_agreement(human_responses, random_responses):
                 human_polygon = parse_polygon(human_response['chosen_polygon'])
 
                 # Calculate IoU agreement
-                iou_score = 0.0 if len(random_polygon) < 3 else compute_iou(random_polygon, human_polygon)
+                iou_score = compute_iou(random_polygon, human_polygon)
 
                 # Store the result for this pair
                 common_pairs.append({
