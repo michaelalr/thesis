@@ -12,6 +12,7 @@ import pandas as pd
 import seaborn as sns
 from PIL import Image
 from firebase_admin import credentials, firestore
+from users_agreement import compute_iou
 
 
 # Function to clean image_path
@@ -248,13 +249,13 @@ def save_validation_gt(user_response_json, image_details_json, image_folder, out
     print("Marked images saved successfully.")
 
 
-def give_score_on_test_data(test_data_json, users_test_responses_json, is_human=True):
+def give_score_on_data(data_json, users_responses_json, scores_json, is_human=True):
     # Load correct annotations
-    with open(test_data_json, "r") as f:
+    with open(data_json, "r") as f:
         correct_annotations = json.load(f)
 
     # Load user responses
-    with open(users_test_responses_json, "r") as f:
+    with open(users_responses_json, "r") as f:
         user_responses = json.load(f)
 
     # Convert correct annotations to a dictionary for quick lookup
@@ -266,6 +267,7 @@ def give_score_on_test_data(test_data_json, users_test_responses_json, is_human=
     # Count correct responses per user
     user_scores = {}
     total_attempts = {}
+    iou_scores = {}
 
     for response in user_responses:
         user_id = response["user_id"] if is_human else "random"
@@ -278,8 +280,14 @@ def give_score_on_test_data(test_data_json, users_test_responses_json, is_human=
 
         # Check if the chosen polygon matches the correct one
         correct_polygon = correct_lookup.get((image_path, chosen_item))
-        if correct_polygon and chosen_polygon == correct_polygon:
-            user_scores[user_id] = user_scores.get(user_id, 0) + 1
+        if correct_polygon:
+            # Compute IoU score
+            iou = compute_iou(correct_polygon, chosen_polygon)
+            iou_scores[user_id] = iou_scores.get(user_id, []) + [iou]
+
+            # If IoU is 1, count it as a correct response
+            if iou == 1.0:
+                user_scores[user_id] = user_scores.get(user_id, 0) + 1
 
     # Compute percentage scores
     user_percentages = {
@@ -287,10 +295,17 @@ def give_score_on_test_data(test_data_json, users_test_responses_json, is_human=
         for user in total_attempts
     }
 
+    # Compute average IoU per user
+    user_iou_avg = {
+        user: sum(iou_scores[user]) / len(iou_scores[user]) if user in iou_scores else 0.0
+        for user in total_attempts
+    }
+
     # Convert to DataFrame for better visualization
     df_scores = pd.DataFrame([
         {"user_id": user, "correct_answers": user_scores.get(user, 0),
-         "total_attempts": total_attempts[user], "accuracy (%)": user_percentages[user]}
+         "total_attempts": total_attempts[user], "accuracy (%)": user_percentages[user],
+         "average_IoU": user_iou_avg[user]}
         for user in total_attempts
     ])
 
@@ -298,7 +313,7 @@ def give_score_on_test_data(test_data_json, users_test_responses_json, is_human=
     print(df_scores)
 
     # Save to a JSON file if needed
-    df_scores.to_json("user_accuracy_scores_test_data.json", orient="records", indent=4)
+    df_scores.to_json(scores_json, orient="records", indent=4)
 
     # ---- PLOT ----
     plt.figure(figsize=(10, 6))
@@ -354,4 +369,5 @@ def create_random_baseline(train_or_test_data_json, train_or_test="train"):
     print("Random " + train_or_test + " responses JSON generated successfully!")
 
 if __name__ == "__main__":
-    give_score_on_test_data(test_data_json="train_data.json", users_test_responses_json="random_train_responses.json", is_human=False)
+    give_score_on_data(data_json="train_data.json", users_responses_json="random_train_responses.json",
+                       scores_json="scores_random_train_data.json", is_human=False)
