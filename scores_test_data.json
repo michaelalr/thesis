@@ -1,0 +1,23 @@
+[
+    {
+        "user_id":1,
+        "correct_answers":64,
+        "total_attempts":190,
+        "accuracy (%)":33.6842105263,
+        "average_IoU":0.3942725218
+    },
+    {
+        "user_id":2,
+        "correct_answers":58,
+        "total_attempts":190,
+        "accuracy (%)":30.5263157895,
+        "average_IoU":0.3511884869
+    },
+    {
+        "user_id":3,
+        "correct_answers":64,
+        "total_attempts":190,
+        "accuracy (%)":33.6842105263,
+        "average_IoU":0.3865378502
+    }
+]

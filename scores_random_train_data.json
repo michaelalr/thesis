@@ -1,0 +1,9 @@
+[
+    {
+        "user_id":"random",
+        "correct_answers":451,
+        "total_attempts":6500,
+        "accuracy (%)":6.9384615385,
+        "average_IoU":0.0891545859
+    }
+]
