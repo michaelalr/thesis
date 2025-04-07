@@ -16,9 +16,9 @@ from users_agreement import compute_iou
 
 
 # Function to clean image_path
-def clean_image_path(image_path):
+def clean_image_path(image_path, is_test=False):
     # Use regex to extract the part starting with 'thesis/images/test/...'
-    match = re.search(r'images/kitchen/.*', image_path)
+    match = re.search(r'images/validation/.*', image_path) if is_test else re.search(r'images/kitchen/.*', image_path)
     if match:
         # Replace 'thesis/' with './'
         return "./" + match.group(0).replace("thesis/", "")
@@ -249,7 +249,27 @@ def save_validation_gt(user_response_json, image_details_json, image_folder, out
     print("Marked images saved successfully.")
 
 
-def give_score_on_data(data_json, users_responses_json, scores_json, is_human=True):
+def denormalize_bbox_to_polygon(bbox_norm, image_path):
+    """Convert normalized bbox to pixel polygon [(x1,y1), (x2,y2), (x3,y3), (x4,y4)]"""
+    try:
+        # Load image to get its dimensions
+        if not os.path.exists(image_path):
+            return None
+        with Image.open(image_path) as img:
+            width, height = img.size
+    except:
+        return None
+
+    x_min = int(bbox_norm[0] * width)
+    y_min = int(bbox_norm[1] * height)
+    x_max = int(bbox_norm[2] * width)
+    y_max = int(bbox_norm[3] * height)
+
+    # Return as rectangle polygon: top-left, bottom-left, bottom-right, top-right
+    return [[x_min, y_min], [x_min, y_max], [x_max, y_max], [x_max, y_min]]
+
+
+def give_score_on_data(data_json, users_responses_json, scores_json, response_type="human"):
     # Load correct annotations
     with open(data_json, "r") as f:
         correct_annotations = json.load(f)
@@ -270,10 +290,25 @@ def give_score_on_data(data_json, users_responses_json, scores_json, is_human=Tr
     iou_scores = {}
 
     for response in user_responses:
-        user_id = response["user_id"] if is_human else "random"
+        if response_type == "human":
+            user_id = response["user_id"]
+        elif response_type == "kosmos":
+            user_id = "kosmos"
+        else:
+            user_id = "random"
         image_path = response["image_path"]
         chosen_item = response["chosen_item"]
-        chosen_polygon = literal_eval(response["chosen_polygon"])
+
+        if response_type == "kosmos":
+            entities = literal_eval(response["entities"])
+            if len(entities) > 0:
+                chosen_bbox = entities[0][2][0]  # Assuming you only want the first bbox
+                suffix_image_path = clean_image_path(image_path=response["image_path"], is_test=True)
+                chosen_polygon = denormalize_bbox_to_polygon(chosen_bbox, suffix_image_path)
+            else:
+                chosen_polygon = []  # or None if no bbox was found
+        else:
+            chosen_polygon = literal_eval(response["chosen_polygon"])
 
         # Total attempts per user
         total_attempts[user_id] = total_attempts.get(user_id, 0) + 1
@@ -368,6 +403,31 @@ def create_random_baseline(train_or_test_data_json, train_or_test="train"):
 
     print("Random " + train_or_test + " responses JSON generated successfully!")
 
+
+def check_gemini_bbox():
+    # Example data
+    image_path = "C:\\Users\\user2\\OneDrive - Bar-Ilan University - Students\\Documents\\miki\\biu\\thesis\\images\\14a.jpg"
+    # bbox = [x_min, y_min, width, height]  # Replace with your bbox coordinates
+    bbox = [635, 583, 702, 724]  # Replace with your bbox coordinates
+
+    # Load image
+    image = Image.open(image_path)
+
+    # Create figure and axis
+    fig, ax = plt.subplots(1)
+    ax.imshow(image)
+
+    # Create a rectangle patch
+    rect = patches.Rectangle((bbox[0], bbox[1]), bbox[2], bbox[3], linewidth=2, edgecolor='red', facecolor='none')
+
+    # Add the rectangle to the plot
+    ax.add_patch(rect)
+
+    # Show the image with bbox
+    plt.show()
+
+
 if __name__ == "__main__":
-    give_score_on_data(data_json="train_data.json", users_responses_json="random_train_responses.json",
-                       scores_json="scores_random_train_data.json", is_human=False)
+    give_score_on_data(data_json="test_data.json", users_responses_json="kosmos_2_test_responses.json",
+                       scores_json="scores_kosmos_test_data.json", response_type="kosmos")
+    # check_gemini_bbox()
