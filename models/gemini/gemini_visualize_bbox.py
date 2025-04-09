@@ -10,7 +10,7 @@ import sys # To exit gracefully
 JSON_INPUT_PATH = "train_data_with_gemini_bboxes_as_strings.json"
 
 # 2. Base directory for local images
-LOCAL_IMAGE_BASE_DIR = "./images"
+LOCAL_IMAGE_BASE_DIR = "../../images"
 
 # 3. Drawing settings
 RECTANGLE_OUTLINE_COLOR = "red" # For the simple list string "[x,y,x,y]"

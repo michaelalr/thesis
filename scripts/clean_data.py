@@ -234,7 +234,7 @@ def create_final_train_df(cleaned_df, image_details_json_path):
     # Convert DataFrame to a list of dictionaries
     trained_data = train_df.to_dict(orient="records")
     # Save the JSON file with proper formatting
-    with open("train_data.json", "w") as f:
+    with open("../data/train_data/train_data.json", "w") as f:
         json.dump(trained_data, f, indent=4)
 
     print(f"Final DataFrame created with {len(train_df)} rows.")
@@ -298,17 +298,17 @@ def create_test_gt(image_details_json_path):
     # Convert DataFrame to a list of dictionaries
     test_data = final_test_df.to_dict(orient="records")
     # Save the JSON file with proper formatting
-    with open("test_data.json", "w") as f:
+    with open("../data/test_data/test_data.json", "w") as f:
         json.dump(test_data, f, indent=4)
 
 
 if __name__ == "__main__":
-    json_filename = 'upwork_responses_rotate.json'
+    json_filename = '../data/upwork/upwork_responses_rotate.json'
     # Load the JSON file
     with open(json_filename, 'r') as f:
         all_responses = json.load(f)
 
     df_cleaned, test_df_cleaned = clean_data(all_responses)
-    train_df = create_final_train_df(cleaned_df=df_cleaned, image_details_json_path="image_details.json")
+    train_df = create_final_train_df(cleaned_df=df_cleaned, image_details_json_path="../image_details/image_details.json")
 
-    create_test_gt(image_details_json_path="image_details_validation_new.json")
+    create_test_gt(image_details_json_path="../image_details/image_details_validation_new.json")

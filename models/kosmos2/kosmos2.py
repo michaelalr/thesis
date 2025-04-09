@@ -8,7 +8,7 @@ from PIL import Image
 from PIL import ImageDraw
 from transformers import AutoProcessor, Kosmos2ForConditionalGeneration
 
-from compare_responses import clean_image_path
+from scripts.compare_responses import clean_image_path
 
 
 def plot_image_with_bbox(entities, image, image_path, chosen_item, output_folder):

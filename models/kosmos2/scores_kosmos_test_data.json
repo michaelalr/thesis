@@ -1,9 +1,9 @@
 [
     {
         "user_id":"kosmos",
-        "correct_answers":0,
+        "correct_answers":5,
         "total_attempts":190,
-        "accuracy (%)":0.0,
+        "accuracy (%)":2.6315789474,
         "average_IoU":0.0405138578
     }
 ]

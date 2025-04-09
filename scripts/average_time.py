@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 from collections import defaultdict
 
 # Load the JSON file
-with open("upwork_responses.json", "r") as file:
+with open("../data/upwork/upwork_responses.json", "r") as file:
     data = json.load(file)
 
 # Dictionary to store user-wise timestamps

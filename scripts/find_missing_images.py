@@ -109,8 +109,8 @@ def find_missing_details(folder_details, large_json_details):
 
 
 # Input parameters
-large_json_file = "upwork_responses.json"
-folder_path = "output_batches/user_1/"  # Replace with the folder containing JSON files
+large_json_file = "../data/upwork/upwork_responses.json"
+folder_path = "../output_batches/user_1/"  # Replace with the folder containing JSON files
 # Set to None to process the whole folder or provide a specific list like ["usr_1_Bottle_opener_batch_4.json"]
 specific_files_user_1 = ["usr_1_Bottle_opener_batch_1.json",
                          "usr_1_Bottle_opener_batch_2.json",

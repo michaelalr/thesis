@@ -488,5 +488,5 @@ if __name__ == '__main__':
     # responses_df = pd.read_csv("cleaned_responses.csv")
     # main(user_files=user_files, responses_df=responses_df)
 
-    agreement_human_random(human_responses_json='cleaned_responses.json',
-                           random_responses_json="random_train_responses.json")
+    agreement_human_random(human_responses_json='../baselines/human/cleaned_responses.json',
+                           random_responses_json="../baselines/random/random_train_responses.json")

@@ -47,9 +47,9 @@ except Exception as e:
     exit()
 
 # 4. File Paths
-INPUT_JSON_PATH = "train_data.json"
+INPUT_JSON_PATH = "../../data/train_data/train_data.json"
 OUTPUT_JSON_PATH = "train_data_with_gemini_bboxes_as_strings.json"  # Output file
-LOCAL_IMAGE_BASE_DIR = "./images"  # Base directory for local images
+LOCAL_IMAGE_BASE_DIR = "../../images"  # Base directory for local images
 
 # 5. Processing & Reliability Settings
 PROCESS_LIMIT = None  # Set to None to process all 6500+ entries

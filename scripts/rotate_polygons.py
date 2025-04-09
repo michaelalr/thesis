@@ -83,15 +83,15 @@ def main(is_check_responses):
                        "images/validation/16_segmented_Screwdriver_7_a.jpg"]
 
     if is_check_responses:
-        json_file_path = "upwork_responses.json"
+        json_file_path = "../data/upwork/upwork_responses.json"
         image_path_field = "image_path"
         polygon_field_to_rotate = "chosen_polygon"
-        update_json_path = "upwork_responses_rotate.json"
+        update_json_path = "../data/upwork/upwork_responses_rotate.json"
     else:
-        json_file_path = "image_details_validation.json"
+        json_file_path = "../image_details/image_details_validation.json"
         image_path_field = 'image_path_html'
         polygon_field_to_rotate = 'containers_mask_polygon'
-        update_json_path = "image_details_validation_new.json"
+        update_json_path = "../image_details/image_details_validation_new.json"
 
     process_images(json_file_path, image_path_field, polygon_field_to_rotate, update_json_path, image_paths_90,
                    image_paths_180)

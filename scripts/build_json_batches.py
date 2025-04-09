@@ -15,7 +15,7 @@ batch_size = (unique_images_per_user + common_images_per_item) // 4  # 4 batches
 output_folder = "output_batches"
 
 # Load the input JSON file
-with open("image_details.json", "r") as f:
+with open("../image_details/image_details.json", "r") as f:
     all_images = json.load(f)
 
 # Filter images with num_detections >= 3

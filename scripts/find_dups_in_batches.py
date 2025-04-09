@@ -45,12 +45,12 @@ def find_duplicates_in_directory(is_dir, dir_or_json_path, fields_list):
 
 def main(is_check_responses):
     if is_check_responses:
-        dir_or_json_path = "upwork_responses_cleaned.json"
+        dir_or_json_path = "../data/upwork/upwork_responses_cleaned.json"
         is_dir = False
         fields_list = ["image_path", "chosen_polygon", "ip_address", "user_id", "chosen_item", "room_type",
                        "batch_number"]
     else:
-        dir_or_json_path = "output_batches/user_2"
+        dir_or_json_path = "../output_batches/user_2"
         is_dir = True
         fields_list = ["image_path_html", "num_detections", "containers_mask_polygon", "room_type", "chosen_item"]
 

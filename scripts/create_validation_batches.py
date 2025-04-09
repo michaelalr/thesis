@@ -74,7 +74,7 @@ def create_batches(json_file, reorder_json=True):
     batch_4 = bottle_opener_images
 
     # Ensure output directory exists
-    output_dir = "output_batches/build_test_set"
+    output_dir = "../output_batches/build_test_set"
     os.makedirs(output_dir, exist_ok=True)
 
     # Save the batches into separate JSON files
@@ -89,4 +89,4 @@ def create_batches(json_file, reorder_json=True):
 
 
 # Example usage: Set reorder_json=True to enable reordering
-create_batches('image_details_validation_new.json', reorder_json=True)
+create_batches('../image_details/image_details_validation_new.json', reorder_json=True)

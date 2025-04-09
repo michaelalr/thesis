@@ -12,7 +12,7 @@ import pandas as pd
 import seaborn as sns
 from PIL import Image
 from firebase_admin import credentials, firestore
-from users_agreement import compute_iou
+from scripts.users_agreement import compute_iou
 
 
 # Function to clean image_path
@@ -21,7 +21,7 @@ def clean_image_path(image_path, is_test=False):
     match = re.search(r'images/validation/.*', image_path) if is_test else re.search(r'images/kitchen/.*', image_path)
     if match:
         # Replace 'thesis/' with './'
-        return "./" + match.group(0).replace("thesis/", "")
+        return "../" + match.group(0).replace("thesis/", "")
     return image_path  # Return the original path if no match
 
 
@@ -176,7 +176,7 @@ def save_firebase_as_json():
     all_responses = [response.to_dict() for response in responses]
 
     # Save the responses to a JSON file
-    json_filename = 'upwork_responses.json'
+    json_filename = '../data/upwork/upwork_responses.json'
     with open(json_filename, 'w') as f:
         json.dump(all_responses, f, indent=4)
 
@@ -187,7 +187,7 @@ def save_firebase_as_json():
 
 def show_annotation_per_user_and_item():
     # json_filename = save_firebase_as_json()
-    json_filename = 'upwork_responses_rotate.json'
+    json_filename = '../data/upwork/upwork_responses_rotate.json'
     # Load the JSON file
     with open(json_filename, 'r') as f:
         all_responses = json.load(f)
@@ -303,7 +303,7 @@ def give_score_on_data(data_json, users_responses_json, scores_json, response_ty
             entities = literal_eval(response["entities"])
             if len(entities) > 0:
                 chosen_bbox = entities[0][2][0]  # Assuming you only want the first bbox
-                suffix_image_path = clean_image_path(image_path=response["image_path"], is_test=True)
+                suffix_image_path = clean_image_path(image_path=response["image_path"], is_test=("test" in data_json))
                 chosen_polygon = denormalize_bbox_to_polygon(chosen_bbox, suffix_image_path)
             else:
                 chosen_polygon = []  # or None if no bbox was found
@@ -320,9 +320,14 @@ def give_score_on_data(data_json, users_responses_json, scores_json, response_ty
             iou = compute_iou(correct_polygon, chosen_polygon)
             iou_scores[user_id] = iou_scores.get(user_id, []) + [iou]
 
-            # If IoU is 1, count it as a correct response
-            if iou == 1.0:
-                user_scores[user_id] = user_scores.get(user_id, 0) + 1
+            # In Random or human cases - if IoU is 1, count it as a correct response
+            if response_type == "human" or response_type == "random":
+                if iou == 1.0:
+                    user_scores[user_id] = user_scores.get(user_id, 0) + 1
+            # In other models like kosmos - if IoU >= 0.5, count it as a correct response
+            elif response_type == "kosmos":
+                if iou >= 0.5:
+                    user_scores[user_id] = user_scores.get(user_id, 0) + 1
 
     # Compute percentage scores
     user_percentages = {
@@ -428,6 +433,6 @@ def check_gemini_bbox():
 
 
 if __name__ == "__main__":
-    give_score_on_data(data_json="test_data.json", users_responses_json="kosmos_2_test_responses.json",
-                       scores_json="scores_kosmos_test_data.json", response_type="kosmos")
+    give_score_on_data(data_json="../data/test_data/test_data.json", users_responses_json="../models/kosmos2/kosmos_2_test_responses.json",
+                       scores_json="../models/kosmos2/scores_kosmos_test_data.json", response_type="kosmos")
     # check_gemini_bbox()
