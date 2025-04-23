@@ -384,6 +384,66 @@ def plot_above_below_polygons(csv_path, image_base_dir, num_images=30):
         plt.show()
         shown_images += 1
 
+def add_height_width_ratio(csv_path, output_csv_path):
+    df = pd.read_csv(csv_path)
+
+    def compute_ratio(polygon_str):
+        try:
+            coords = ast.literal_eval(polygon_str)
+
+            if not isinstance(coords, list) or len(coords) < 1:
+                return 0.0
+
+            if len(coords) == 1:
+                return 0.0  # A single point has no height or width
+
+            xs = [pt[0] for pt in coords]
+            ys = [pt[1] for pt in coords]
+
+            width = max(xs) - min(xs)
+            height = max(ys) - min(ys)
+
+            if width == 0:
+                return float('inf') if height > 0 else 0.0
+
+            return round(height / width, 3)
+
+        except Exception as e:
+            print(f"Failed to compute ratio for polygon: {polygon_str} – {e}")
+            return 0.0
+
+    df["height_width_ratio"] = df["polygon"].apply(compute_ratio)
+    df.to_csv(output_csv_path, index=False)
+    print(f"Saved CSV with height_width_ratio to {output_csv_path}")
+
+
+def add_ids_to_csv(csv_path, output_path):
+    df = pd.read_csv(csv_path)
+    df.insert(0, "id", range(1, len(df) + 1))  # ID starts at 1
+    df.to_csv(output_path, index=False)
+    print(f"Saved CSV with IDs to {output_path}")
+
+
+def describe_csv_row(row):
+    id = row["id"]
+    label = row["label"]
+    position = row["above_or_below_countertop"]
+    ratio = row["height_width_ratio"]
+
+    description = (
+        f'The container id "{id}" has a label of "{label}" from a detection model, '
+        f'it is {position} the countertop, and the ratio between its height and width is {ratio}.'
+    )
+    return description
+
+def add_descriptions_to_csv(csv_path, output_path):
+    df = pd.read_csv(csv_path)
+    df["description"] = df.apply(describe_csv_row, axis=1)
+    df.to_csv(output_path, index=False)
+    print(f"Saved CSV with descriptions to {output_path}")
+
+
+
 if __name__ == '__main__':
     image_details_json_path = "../image_details/image_details.json"
     image_details_with_labels = "../image_details/image_details_with_labels.json"
@@ -404,4 +464,13 @@ if __name__ == '__main__':
     csv_with_countertop = "../labeled_containers_with_countertop.csv"
     # add_above_or_below_countertop(csv_path=csv_filename, countertop_json_path=image_details_countertop_output,
     #                               output_csv_path=csv_with_countertop)
-    plot_above_below_polygons(csv_with_countertop, "../")
+    # plot_above_below_polygons(csv_with_countertop, "../")
+
+    csv_with_ratio = "../labeled_containers_with_ratio.csv"
+    # add_height_width_ratio(csv_path=csv_with_countertop, output_csv_path=csv_with_ratio)
+
+    csv_with_ids = "../labeled_containers_with_ids.csv"
+    # add_ids_to_csv(csv_path=csv_with_ratio, output_path=csv_with_ids)
+
+    csv_with_description = "../labeled_containers_with_description.csv"
+    add_descriptions_to_csv(csv_path=csv_with_ids, output_path=csv_with_description)

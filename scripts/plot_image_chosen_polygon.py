@@ -6,7 +6,7 @@ from urllib.request import urlopen
 from PIL import Image
 import io
 
-def show_polygon_for_image(json_path, image_filename, item):
+def show_polygon_for_image(json_path, image_filename, item, check_model_answer_polygon):
     # Load the data
     with open(json_path, 'r') as f:
         data = json.load(f)
@@ -30,10 +30,15 @@ def show_polygon_for_image(json_path, image_filename, item):
     fig, ax = plt.subplots()
     ax.imshow(image)
 
+    answer_polygon = literal_eval(check_model_answer_polygon)
+    answer_polygon = [(x, y) for x, y in answer_polygon]
+    answer_patch = patches.Polygon(answer_polygon, closed=True, edgecolor='blue', fill=False, linewidth=2)
+    ax.add_patch(answer_patch)
+
     # If polygon is not empty, draw it
     if chosen_polygon:
         polygon = [(x, y) for x, y in chosen_polygon]
-        patch = patches.Polygon(polygon, closed=True, edgecolor='red', fill=False, linewidth=2)
+        patch = patches.Polygon(polygon, closed=True, edgecolor='red', fill=False, linewidth=1)
         ax.add_patch(patch)
         subtitle = ""
     else:
@@ -47,4 +52,8 @@ def show_polygon_for_image(json_path, image_filename, item):
 
 if __name__ == '__main__':
     # Example usage:
-    show_polygon_for_image("../data/train_data/train_data.json", "8_segmented_sun_aczownhxhsefytxm.jpg", "Plate")
+    json_path = "../data/train_data/train_data.json"
+    image_filename = "15_segmented_sun_afxjcqelwocpxiyf.jpg"
+    item = "Pan"
+    check_model_answer_polygon = "[[429, 408], [392, 420], [394, 562], [431, 529]]"
+    show_polygon_for_image(json_path=json_path, image_filename=image_filename, item=item, check_model_answer_polygon=check_model_answer_polygon)
