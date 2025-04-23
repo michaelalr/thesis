@@ -294,6 +294,8 @@ def give_score_on_data(data_json, users_responses_json, scores_json, response_ty
             user_id = response["user_id"]
         elif response_type == "kosmos":
             user_id = "kosmos"
+        elif response_type == "chatgpt":
+            user_id = "chatgpt"
         else:
             user_id = "random"
         image_path = response["image_path"]
@@ -321,7 +323,7 @@ def give_score_on_data(data_json, users_responses_json, scores_json, response_ty
             iou_scores[user_id] = iou_scores.get(user_id, []) + [iou]
 
             # In Random or human cases - if IoU is 1, count it as a correct response
-            if response_type == "human" or response_type == "random":
+            if response_type == "human" or response_type == "random" or response_type == "chatgpt":
                 if iou == 1.0:
                     user_scores[user_id] = user_scores.get(user_id, 0) + 1
             # In other models like kosmos - if IoU >= 0.5, count it as a correct response
@@ -433,6 +435,6 @@ def check_gemini_bbox():
 
 
 if __name__ == "__main__":
-    give_score_on_data(data_json="../data/test_data/test_data.json", users_responses_json="../models/kosmos2/kosmos_2_test_responses.json",
-                       scores_json="../models/kosmos2/scores_kosmos_test_data.json", response_type="kosmos")
+    give_score_on_data(data_json="../data/train_data/train_data.json", users_responses_json="../models/chat_gpt/chatgpt_train_responses_1.json",
+                       scores_json="../models/chat_gpt/scores_chatgpt_train_data_1.json", response_type="chatgpt")
     # check_gemini_bbox()
