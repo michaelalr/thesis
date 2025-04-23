@@ -2,7 +2,7 @@ import ast
 import json
 import math
 import os
-
+import numpy as np
 import matplotlib.patches as patches
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -493,26 +493,44 @@ def add_score_column_to_csv(csv_path, json_path, output_csv_path):
     print(f"Updated CSV saved to: {output_csv_path}")
 
 
-def polygon_center(poly):
-    """Placeholder for your polygon center calculation function"""
-    if not poly or not isinstance(poly, list) or len(poly) == 0:
-        # Handle invalid or empty polygon input gracefully
-        print(f"Warning: Invalid polygon data encountered: {poly}. Returning (0,0).")
-        return (0, 0)
-    try:
-        # Example: Calculate centroid for a simple list of points [(x1,y1), (x2,y2), ...]
-        x_coords = [p[0] for p in poly]
-        y_coords = [p[1] for p in poly]
-        _len = len(poly)
-        if _len == 0:
-            return (0, 0)
-        centroid_x = sum(x_coords) / _len
-        centroid_y = sum(y_coords) / _len
-        return (centroid_x, centroid_y)
-    except (TypeError, IndexError, ZeroDivisionError) as e:
-        print(f"Warning: Error calculating center for polygon {poly}: {e}. Returning (0,0).")
-        return (0, 0)
+def polygon_center(polygon):
+    """Return center (x, y) of a polygon."""
+    polygon = np.array(polygon)
+    x_coords = polygon[:, 0]
+    y_coords = polygon[:, 1]
+    return np.mean(x_coords), np.mean(y_coords)
 
+
+def is_neighbor_within_gap(poly1, poly2, ratio_threshold=0.25):
+    # Ensure both polygons are valid (at least 3 unique points)
+    if len(poly1) < 3 or len(poly2) < 3:
+        return False  # Skip invalid polygons
+
+    try:
+        shapely1 = Polygon(poly1)
+        shapely2 = Polygon(poly2)
+    except ValueError:
+        return False  # Skip invalid polygon shapes
+
+    gap = shapely1.distance(shapely2)
+
+    # Compute bounding box sizes
+    min_x1 = min(pt[0] for pt in poly1)
+    max_x1 = max(pt[0] for pt in poly1)
+    min_y1 = min(pt[1] for pt in poly1)
+    max_y1 = max(pt[1] for pt in poly1)
+    width1 = max_x1 - min_x1
+    height1 = max_y1 - min_y1
+
+    min_x2 = min(pt[0] for pt in poly2)
+    max_x2 = max(pt[0] for pt in poly2)
+    min_y2 = min(pt[1] for pt in poly2)
+    max_y2 = max(pt[1] for pt in poly2)
+    width2 = max_x2 - min_x2
+    height2 = max_y2 - min_y2
+
+    avg_dim = (width1 + width2 + height1 + height2) / 4
+    return gap <= avg_dim * ratio_threshold
 
 def parse_polygon_string(polygon_str):
     """Convert string like '[[1,2],[3,4]]' to list of lists."""
@@ -520,151 +538,108 @@ def parse_polygon_string(polygon_str):
 
 
 def determine_neighbors_for_image(image_df):
-    """
-    Given one image's DataFrame, return a dict of container id -> neighbor dict.
-    Uses per-container thresholds and prioritizes smaller containers if distances are very similar.
-    """
+    """Given one image's DataFrame, return a dict of container id -> neighbor dict."""
     centers = {}
     polygons = {}
-    areas = {}
-    widths = {}  # <-- Store container widths
-    heights = {}  # <-- Store container heights
     ids = list(image_df["id"])
 
-    valid_ids_processing = []
     for _, row in image_df.iterrows():
         pid = row["id"]
         poly = row["polygon"]
-        width = row["container_width"]
-        height = row["container_height"]
-
-        if not isinstance(width, (int, float)) or not isinstance(height, (int, float)) or width <= 0 or height <= 0:
-            print(f"Warning: Skipping container {pid} due to invalid dimensions (width={width}, height={height}).")
-            continue
-
-        center = polygon_center(poly)
-        if center is None or not isinstance(center, tuple) or len(center) != 2:
-            print(f"Warning: Skipping container {pid} due to invalid center calculation.")
-            continue
-
         polygons[pid] = poly
-        centers[pid] = center
-        areas[pid] = width * height
-        widths[pid] = width  # <-- Store width
-        heights[pid] = height  # <-- Store height
-        valid_ids_processing.append(pid)
+        centers[pid] = polygon_center(poly)
 
-    valid_ids = valid_ids_processing
-    if not valid_ids:
-        print("Warning: No valid containers found after initial processing.")
-        return {}
-
-    # --- Global Settings (Ratios/Factors) ---
-    # These factors determine *how much* of the container's size to use for thresholds
-    alignment_factor = 0.7  # Increased slightly, adjust as needed (0.6-0.8 often reasonable)
-    max_dist_factor = 1.6  # Increased slightly, adjust as needed (1.5-2.0 often reasonable)
-    similarity_factor = 0.15  # Increased slightly, adjust as needed (0.1-0.2 often reasonable)
     dominance_ratio = 1.5
-
-    directions = ["above", "below", "left", "right",
-                  "top_left", "top_right", "bottom_left", "bottom_right"]
+    directions = ["above", "below", "left", "right", "top_left", "top_right", "bottom_left", "bottom_right"]
     relations = {}
 
-    for id1 in valid_ids:
+    for id1 in ids:
         cx1, cy1 = centers[id1]
-        width1 = widths[id1]  # <-- Get width of current container
-        height1 = heights[id1]  # <-- Get height of current container
-        dim1 = (width1 + height1) / 2  # Average dimension of current container
-        # Ensure dim1 is not zero before using for thresholds
-        if dim1 < 1e-6: dim1 = 1  # Use a minimum dimension of 1 pixel
+        poly1 = polygons[id1]
+        width1 = image_df.loc[image_df["id"] == id1, "container_width"].values[0]
+        height1 = image_df.loc[image_df["id"] == id1, "container_height"].values[0]
 
-        # --- DYNAMIC THRESHOLDS PER CONTAINER (id1) ---
-        # Alignment threshold depends on the *perpendicular* dimension of id1
-        horizontal_align_threshold = height1 * alignment_factor  # Max dy allowed for left/right neighbors
-        vertical_align_threshold = width1 * alignment_factor  # Max dx allowed for above/below neighbors
-
-        # Max distance based on the size of id1
-        max_neighbor_dist = dim1 * max_dist_factor
-
-        # Distance similarity threshold based on the size of id1
-        distance_similarity_threshold = dim1 * similarity_factor
-        # --- End of Per-Container Thresholds ---
+        horizontal_align_threshold = height1 * 0.6
+        vertical_align_threshold = width1 * 0.6
+        max_neighbor_dist = ((width1 + height1) / 2) * 2.0
 
         relations[id1] = {dir: None for dir in directions}
         closest_dist = {dir: float("inf") for dir in directions}
 
-        for id2 in valid_ids:
+        for id2 in ids:
             if id1 == id2:
                 continue
 
             cx2, cy2 = centers[id2]
-            area2 = areas[id2]  # Still need area of id2 for size comparison
-
+            poly2 = polygons[id2]
             dx = cx2 - cx1
             dy = cy2 - cy1
-            center_dist = math.hypot(dx, dy)
+            center_dist = (dx ** 2 + dy ** 2) ** 0.5
 
-            # --- Filters using the PER-CONTAINER thresholds calculated above ---
-            if center_dist > max_neighbor_dist or center_dist < 1e-6:  # Filter using id1's max_neighbor_dist
+            # Skip if they’re too far apart
+            if not is_neighbor_within_gap(poly1, poly2):
+                continue
+
+            # Skip if too far
+            if center_dist > max_neighbor_dist:
                 continue
 
             abs_dx = abs(dx)
             abs_dy = abs(dy)
 
-            # Helper function remains the same internally, but uses the thresholds calculated above
-            def update_neighbor_if_better(direction, potential_neighbor_id, dist, area):
-                current_best_dist = closest_dist[direction]
-                current_neighbor_id = relations[id1][direction]
+            # Prefer smaller containers if one contains the other
+            def is_valid_polygon(poly):
+                return isinstance(poly, list) and len(poly) >= 3
 
-                # Use distance_similarity_threshold calculated for id1
-                if dist < current_best_dist - distance_similarity_threshold:
-                    relations[id1][direction] = potential_neighbor_id
-                    closest_dist[direction] = dist
-                    return
-
-                if abs(dist - current_best_dist) <= distance_similarity_threshold:
-                    if current_neighbor_id is not None:
-                        current_area = areas[current_neighbor_id]
-                        if area < current_area:  # Compare area of id2 with current neighbor's area
-                            relations[id1][direction] = potential_neighbor_id
-                            closest_dist[direction] = dist
-                            return
-                        else:
-                            return  # Keep current smaller/equal size neighbor
-                    else:
-                        relations[id1][direction] = potential_neighbor_id
-                        closest_dist[direction] = dist
-                        return
-
-            # --- Apply Update Logic using PER-CONTAINER alignment thresholds ---
-            # Horizontal dominant: Check dy against id1's horizontal_align_threshold
-            if abs_dx > abs_dy * dominance_ratio and abs_dy < horizontal_align_threshold:
-                if dx > 0:
-                    update_neighbor_if_better("right", id2, center_dist, area2)
-                elif dx < 0:
-                    update_neighbor_if_better("left", id2, center_dist, area2)
-
-            # Vertical dominant: Check dx against id1's vertical_align_threshold
-            elif abs_dy > abs_dx * dominance_ratio and abs_dx < vertical_align_threshold:
-                if dy > 0:
-                    update_neighbor_if_better("below", id2, center_dist, area2)
-                elif dy < 0:
-                    update_neighbor_if_better("above", id2, center_dist, area2)
-
-            # Diagonal
+            if is_valid_polygon(poly1) and is_valid_polygon(poly2):
+                shapely1 = Polygon(poly1)
+                shapely2 = Polygon(poly2)
+                contains = shapely1.contains(shapely2) or shapely2.contains(shapely1)
+                area1 = shapely1.area
+                area2 = shapely2.area
             else:
-                # Check alignment thresholds: diagonal only if *not* aligned vertically or horizontally
-                is_aligned_horizontally = abs_dy < horizontal_align_threshold
-                is_aligned_vertically = abs_dx < vertical_align_threshold
-                if not is_aligned_horizontally and not is_aligned_vertically:
-                    if dx < 0 and dy < 0:
-                        update_neighbor_if_better("top_left", id2, center_dist, area2)
-                    elif dx > 0 and dy < 0:
-                        update_neighbor_if_better("top_right", id2, center_dist, area2)
-                    elif dx < 0 and dy > 0:
-                        update_neighbor_if_better("bottom_left", id2, center_dist, area2)
-                    elif dx > 0 and dy > 0:
-                        update_neighbor_if_better("bottom_right", id2, center_dist, area2)
+                contains = False
+                area1 = area2 = float("inf")  # Set area high so no preference
+
+            def should_replace(direction, dist, id2):
+                if contains:
+                    # Prefer smaller container
+                    return (area2 < area1) and (dist < closest_dist[direction])
+                else:
+                    return dist < closest_dist[direction]
+
+            # Horizontal dominant
+            if abs_dx > abs_dy * dominance_ratio and abs_dy < horizontal_align_threshold:
+                if dx > 0 and should_replace("right", center_dist, id2):
+                    relations[id1]["right"] = id2
+                    closest_dist["right"] = center_dist
+                elif dx < 0 and should_replace("left", center_dist, id2):
+                    relations[id1]["left"] = id2
+                    closest_dist["left"] = center_dist
+
+            # Vertical dominant
+            elif abs_dy > abs_dx * dominance_ratio and abs_dx < vertical_align_threshold:
+                if dy > 0 and should_replace("below", center_dist, id2):
+                    relations[id1]["below"] = id2
+                    closest_dist["below"] = center_dist
+                elif dy < 0 and should_replace("above", center_dist, id2):
+                    relations[id1]["above"] = id2
+                    closest_dist["above"] = center_dist
+
+            else:
+                # Diagonal directions (no dominant)
+                if dx < 0 and dy < 0 and should_replace("top_left", center_dist, id2):
+                    relations[id1]["top_left"] = id2
+                    closest_dist["top_left"] = center_dist
+                elif dx > 0 and dy < 0 and should_replace("top_right", center_dist, id2):
+                    relations[id1]["top_right"] = id2
+                    closest_dist["top_right"] = center_dist
+                elif dx < 0 and dy > 0 and should_replace("bottom_left", center_dist, id2):
+                    relations[id1]["bottom_left"] = id2
+                    closest_dist["bottom_left"] = center_dist
+                elif dx > 0 and dy > 0 and should_replace("bottom_right", center_dist, id2):
+                    relations[id1]["bottom_right"] = id2
+                    closest_dist["bottom_right"] = center_dist
 
     return relations
 
@@ -785,8 +760,8 @@ if __name__ == '__main__':
         output_csv_path=csv_with_neighbors
     )
 
-    plot_image_with_polygons(
-        df=pd.read_csv(csv_with_neighbors),
-        image_folder="..",  # adjust to match your local path
-        n=5
-    )
+    # plot_image_with_polygons(
+    #     df=pd.read_csv(csv_with_neighbors),
+    #     image_folder="..",  # adjust to match your local path
+    #     n=5
+    # )
