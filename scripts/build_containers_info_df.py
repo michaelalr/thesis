@@ -301,6 +301,7 @@ def add_above_or_below_countertop(csv_path, countertop_json_path, output_csv_pat
 
     return df
 
+
 def plot_above_below_polygons(csv_path, image_base_dir, num_images=30):
     df = pd.read_csv(csv_path)
     shown_images = 0
@@ -372,7 +373,8 @@ def plot_above_below_polygons(csv_path, image_base_dir, num_images=30):
                     xs, ys = zip(*coords)
                     ax.plot(xs, ys, "-", color=color)
                 else:  # Polygon
-                    polygon = patches.Polygon(coords, closed=True, fill=True, edgecolor='black', facecolor=color, alpha=0.8)
+                    polygon = patches.Polygon(coords, closed=True, fill=True, edgecolor='black', facecolor=color,
+                                              alpha=0.8)
                     ax.add_patch(polygon)
 
             except Exception as e:
@@ -383,6 +385,7 @@ def plot_above_below_polygons(csv_path, image_base_dir, num_images=30):
         plt.tight_layout()
         plt.show()
         shown_images += 1
+
 
 def add_height_width_ratio(csv_path, output_csv_path):
     df = pd.read_csv(csv_path)
@@ -427,14 +430,16 @@ def add_ids_to_csv(csv_path, output_path):
 def describe_csv_row(row):
     id = row["id"]
     label = row["label"]
+    score = row["score"]
     position = row["above_or_below_countertop"]
     ratio = row["height_width_ratio"]
 
     description = (
-        f'The container id "{id}" has a label of "{label}" from a detection model, '
+        f'The container id {id} has a label of "{label}" with probability of {score} from a detection model, '
         f'it is {position} the countertop, and the ratio between its height and width is {ratio}.'
     )
     return description
+
 
 def add_descriptions_to_csv(csv_path, output_path):
     df = pd.read_csv(csv_path)
@@ -442,6 +447,43 @@ def add_descriptions_to_csv(csv_path, output_path):
     df.to_csv(output_path, index=False)
     print(f"Saved CSV with descriptions to {output_path}")
 
+
+def add_score_column_to_csv(csv_path, json_path, output_csv_path):
+    # Load the CSV
+    df = pd.read_csv(csv_path)
+
+    # Load the JSON
+    with open(json_path, 'r') as f:
+        json_data = json.load(f)
+
+    # Normalize JSON data into a dict indexed by image_path_html
+    json_dict = {entry['image_path_html']: entry for entry in json_data}
+
+    # List to collect scores
+    scores = []
+
+    for idx, row in df.iterrows():
+        image_path = row['image_path_html']
+        csv_polygon = ast.literal_eval(row['polygon'])  # parse polygon list safely
+        score_found = None
+
+        json_entry = json_dict.get(image_path)
+        if json_entry:
+            containers_with_labels = ast.literal_eval(json_entry['containers_mask_polygon_with_labels'])
+            for label, score, poly in containers_with_labels:
+                if poly == csv_polygon:
+                    score_found = score
+                    break
+
+        scores.append(score_found)
+
+    # Insert score column after 'label'
+    label_index = df.columns.get_loc('label')
+    df.insert(label_index + 1, 'score', scores)
+
+    # Save updated CSV
+    df.to_csv(output_csv_path, index=False)
+    print(f"Updated CSV saved to: {output_csv_path}")
 
 
 if __name__ == '__main__':
@@ -473,4 +515,9 @@ if __name__ == '__main__':
     # add_ids_to_csv(csv_path=csv_with_ratio, output_path=csv_with_ids)
 
     csv_with_description = "../labeled_containers_with_description.csv"
-    add_descriptions_to_csv(csv_path=csv_with_ids, output_path=csv_with_description)
+    # add_descriptions_to_csv(csv_path=csv_with_ids, output_path=csv_with_description)
+
+    image_details_with_labels_score = "../image_details/image_details_with_labels_score.json"
+    csv_with_scores = "../labeled_containers_with_scores.csv"
+    # add_score_column_to_csv(csv_path=csv_with_description, json_path=image_details_with_labels_score,
+    #                         output_csv_path=csv_with_scores)
