@@ -1,11 +1,13 @@
 import ast
 import json
+import math
 import os
 
 import matplotlib.patches as patches
 import matplotlib.pyplot as plt
 import pandas as pd
 from PIL import Image
+from matplotlib.patheffects import withStroke
 from shapely.geometry import Polygon, LineString, Point
 
 
@@ -389,16 +391,18 @@ def plot_above_below_polygons(csv_path, image_base_dir, num_images=30):
 
 def add_height_width_ratio(csv_path, output_csv_path):
     df = pd.read_csv(csv_path)
+    columns_to_drop = ["height_width_ratio", "description", "neighbors"]
+    df = df.drop(columns=columns_to_drop)
 
-    def compute_ratio(polygon_str):
+    def compute_dimensions(polygon_str):
         try:
             coords = ast.literal_eval(polygon_str)
 
             if not isinstance(coords, list) or len(coords) < 1:
-                return 0.0
+                return 0.0, 0.0, 0.0
 
             if len(coords) == 1:
-                return 0.0  # A single point has no height or width
+                return 0.0, 0.0, 0.0  # A single point has no height or width
 
             xs = [pt[0] for pt in coords]
             ys = [pt[1] for pt in coords]
@@ -407,15 +411,18 @@ def add_height_width_ratio(csv_path, output_csv_path):
             height = max(ys) - min(ys)
 
             if width == 0:
-                return float('inf') if height > 0 else 0.0
+                ratio = float('inf') if height > 0 else 0.0
+            else:
+                ratio = round(height / width, 3)
 
-            return round(height / width, 3)
+            return ratio, height, width
 
         except Exception as e:
             print(f"Failed to compute ratio for polygon: {polygon_str} – {e}")
-            return 0.0
+            return 0.0, 0.0, 0.0
 
-    df["height_width_ratio"] = df["polygon"].apply(compute_ratio)
+    df[["height_width_ratio", "container_height", "container_width"]] = df["polygon"].apply(
+        lambda p: pd.Series(compute_dimensions(p)))
     df.to_csv(output_csv_path, index=False)
     print(f"Saved CSV with height_width_ratio to {output_csv_path}")
 
@@ -435,7 +442,7 @@ def describe_csv_row(row):
     ratio = row["height_width_ratio"]
 
     description = (
-        f'The container id {id} has a label of "{label}" with probability of {score} from a detection model, '
+        f'The container id {id} has a label of "{label}" with confidence of {score} from a detection model, '
         f'it is {position} the countertop, and the ratio between its height and width is {ratio}.'
     )
     return description
@@ -486,6 +493,253 @@ def add_score_column_to_csv(csv_path, json_path, output_csv_path):
     print(f"Updated CSV saved to: {output_csv_path}")
 
 
+def polygon_center(poly):
+    """Placeholder for your polygon center calculation function"""
+    if not poly or not isinstance(poly, list) or len(poly) == 0:
+        # Handle invalid or empty polygon input gracefully
+        print(f"Warning: Invalid polygon data encountered: {poly}. Returning (0,0).")
+        return (0, 0)
+    try:
+        # Example: Calculate centroid for a simple list of points [(x1,y1), (x2,y2), ...]
+        x_coords = [p[0] for p in poly]
+        y_coords = [p[1] for p in poly]
+        _len = len(poly)
+        if _len == 0:
+            return (0, 0)
+        centroid_x = sum(x_coords) / _len
+        centroid_y = sum(y_coords) / _len
+        return (centroid_x, centroid_y)
+    except (TypeError, IndexError, ZeroDivisionError) as e:
+        print(f"Warning: Error calculating center for polygon {poly}: {e}. Returning (0,0).")
+        return (0, 0)
+
+
+def parse_polygon_string(polygon_str):
+    """Convert string like '[[1,2],[3,4]]' to list of lists."""
+    return ast.literal_eval(polygon_str)
+
+
+def determine_neighbors_for_image(image_df):
+    """
+    Given one image's DataFrame, return a dict of container id -> neighbor dict.
+    Uses per-container thresholds and prioritizes smaller containers if distances are very similar.
+    """
+    centers = {}
+    polygons = {}
+    areas = {}
+    widths = {}  # <-- Store container widths
+    heights = {}  # <-- Store container heights
+    ids = list(image_df["id"])
+
+    valid_ids_processing = []
+    for _, row in image_df.iterrows():
+        pid = row["id"]
+        poly = row["polygon"]
+        width = row["container_width"]
+        height = row["container_height"]
+
+        if not isinstance(width, (int, float)) or not isinstance(height, (int, float)) or width <= 0 or height <= 0:
+            print(f"Warning: Skipping container {pid} due to invalid dimensions (width={width}, height={height}).")
+            continue
+
+        center = polygon_center(poly)
+        if center is None or not isinstance(center, tuple) or len(center) != 2:
+            print(f"Warning: Skipping container {pid} due to invalid center calculation.")
+            continue
+
+        polygons[pid] = poly
+        centers[pid] = center
+        areas[pid] = width * height
+        widths[pid] = width  # <-- Store width
+        heights[pid] = height  # <-- Store height
+        valid_ids_processing.append(pid)
+
+    valid_ids = valid_ids_processing
+    if not valid_ids:
+        print("Warning: No valid containers found after initial processing.")
+        return {}
+
+    # --- Global Settings (Ratios/Factors) ---
+    # These factors determine *how much* of the container's size to use for thresholds
+    alignment_factor = 0.7  # Increased slightly, adjust as needed (0.6-0.8 often reasonable)
+    max_dist_factor = 1.6  # Increased slightly, adjust as needed (1.5-2.0 often reasonable)
+    similarity_factor = 0.15  # Increased slightly, adjust as needed (0.1-0.2 often reasonable)
+    dominance_ratio = 1.5
+
+    directions = ["above", "below", "left", "right",
+                  "top_left", "top_right", "bottom_left", "bottom_right"]
+    relations = {}
+
+    for id1 in valid_ids:
+        cx1, cy1 = centers[id1]
+        width1 = widths[id1]  # <-- Get width of current container
+        height1 = heights[id1]  # <-- Get height of current container
+        dim1 = (width1 + height1) / 2  # Average dimension of current container
+        # Ensure dim1 is not zero before using for thresholds
+        if dim1 < 1e-6: dim1 = 1  # Use a minimum dimension of 1 pixel
+
+        # --- DYNAMIC THRESHOLDS PER CONTAINER (id1) ---
+        # Alignment threshold depends on the *perpendicular* dimension of id1
+        horizontal_align_threshold = height1 * alignment_factor  # Max dy allowed for left/right neighbors
+        vertical_align_threshold = width1 * alignment_factor  # Max dx allowed for above/below neighbors
+
+        # Max distance based on the size of id1
+        max_neighbor_dist = dim1 * max_dist_factor
+
+        # Distance similarity threshold based on the size of id1
+        distance_similarity_threshold = dim1 * similarity_factor
+        # --- End of Per-Container Thresholds ---
+
+        relations[id1] = {dir: None for dir in directions}
+        closest_dist = {dir: float("inf") for dir in directions}
+
+        for id2 in valid_ids:
+            if id1 == id2:
+                continue
+
+            cx2, cy2 = centers[id2]
+            area2 = areas[id2]  # Still need area of id2 for size comparison
+
+            dx = cx2 - cx1
+            dy = cy2 - cy1
+            center_dist = math.hypot(dx, dy)
+
+            # --- Filters using the PER-CONTAINER thresholds calculated above ---
+            if center_dist > max_neighbor_dist or center_dist < 1e-6:  # Filter using id1's max_neighbor_dist
+                continue
+
+            abs_dx = abs(dx)
+            abs_dy = abs(dy)
+
+            # Helper function remains the same internally, but uses the thresholds calculated above
+            def update_neighbor_if_better(direction, potential_neighbor_id, dist, area):
+                current_best_dist = closest_dist[direction]
+                current_neighbor_id = relations[id1][direction]
+
+                # Use distance_similarity_threshold calculated for id1
+                if dist < current_best_dist - distance_similarity_threshold:
+                    relations[id1][direction] = potential_neighbor_id
+                    closest_dist[direction] = dist
+                    return
+
+                if abs(dist - current_best_dist) <= distance_similarity_threshold:
+                    if current_neighbor_id is not None:
+                        current_area = areas[current_neighbor_id]
+                        if area < current_area:  # Compare area of id2 with current neighbor's area
+                            relations[id1][direction] = potential_neighbor_id
+                            closest_dist[direction] = dist
+                            return
+                        else:
+                            return  # Keep current smaller/equal size neighbor
+                    else:
+                        relations[id1][direction] = potential_neighbor_id
+                        closest_dist[direction] = dist
+                        return
+
+            # --- Apply Update Logic using PER-CONTAINER alignment thresholds ---
+            # Horizontal dominant: Check dy against id1's horizontal_align_threshold
+            if abs_dx > abs_dy * dominance_ratio and abs_dy < horizontal_align_threshold:
+                if dx > 0:
+                    update_neighbor_if_better("right", id2, center_dist, area2)
+                elif dx < 0:
+                    update_neighbor_if_better("left", id2, center_dist, area2)
+
+            # Vertical dominant: Check dx against id1's vertical_align_threshold
+            elif abs_dy > abs_dx * dominance_ratio and abs_dx < vertical_align_threshold:
+                if dy > 0:
+                    update_neighbor_if_better("below", id2, center_dist, area2)
+                elif dy < 0:
+                    update_neighbor_if_better("above", id2, center_dist, area2)
+
+            # Diagonal
+            else:
+                # Check alignment thresholds: diagonal only if *not* aligned vertically or horizontally
+                is_aligned_horizontally = abs_dy < horizontal_align_threshold
+                is_aligned_vertically = abs_dx < vertical_align_threshold
+                if not is_aligned_horizontally and not is_aligned_vertically:
+                    if dx < 0 and dy < 0:
+                        update_neighbor_if_better("top_left", id2, center_dist, area2)
+                    elif dx > 0 and dy < 0:
+                        update_neighbor_if_better("top_right", id2, center_dist, area2)
+                    elif dx < 0 and dy > 0:
+                        update_neighbor_if_better("bottom_left", id2, center_dist, area2)
+                    elif dx > 0 and dy > 0:
+                        update_neighbor_if_better("bottom_right", id2, center_dist, area2)
+
+    return relations
+
+
+def add_neighbor_column_to_csv(info_csv_path, output_csv_path):
+    df = pd.read_csv(info_csv_path)
+
+    # Ensure polygon and id are parsed correctly
+    df["polygon"] = df["polygon"].apply(parse_polygon_string)
+    df["id"] = df["id"].astype(int)
+
+    df["neighbors"] = ""
+    # Define the default neighbor structure (all None) for skipped containers
+    # This is needed for the .get() method's default value
+    directions = ["above", "below", "left", "right",
+                  "top_left", "top_right", "bottom_left", "bottom_right"]
+    default_neighbors = {direction: None for direction in directions}
+
+    for image_path, group in df.groupby("image_path_html"):
+        relations = determine_neighbors_for_image(group)
+        for idx, row in group.iterrows():
+            container_id = row["id"]
+
+            # --- FIX: Use dict.get() to avoid KeyError ---
+            # If container_id exists in relations, get its value.
+            # Otherwise, return the default_neighbors dictionary.
+            neighbors_dict = relations.get(container_id, default_neighbors)
+
+            # Convert the resulting dictionary to a JSON string
+            neighbors_json = json.dumps(neighbors_dict)
+
+            # Assign the JSON string to the correct row in the main DataFrame
+            # using the index 'idx' from the group iteration.
+            df.loc[idx, "neighbors"] = neighbors_json
+
+    df.to_csv(output_csv_path, index=False)
+    print(f"Updated CSV saved to: {output_csv_path}")
+
+
+# --- Visualization Function ---
+def plot_image_with_polygons(df, image_folder, n=5):
+    sampled_images = df["image_path_html"].drop_duplicates().sample(n)
+
+    for img_path in sampled_images:
+        subset = df[df["image_path_html"] == img_path]
+
+        img_full_path = os.path.normpath(os.path.join("..", img_path))
+        if not os.path.exists(img_full_path):
+            print(f"Image not found: {img_full_path}")
+            continue
+
+        img = plt.imread(img_full_path)
+        fig, ax = plt.subplots(figsize=(10, 8))
+        ax.imshow(img)
+        ax.set_title(f"Image: {os.path.basename(img_path)}", fontsize=14)
+
+        for _, row in subset.iterrows():
+            # poly = np.array(row["polygon"])
+            poly = ast.literal_eval(row["polygon"])
+            container_id = row["id"]
+
+            patch = patches.Polygon(poly, closed=True, edgecolor='lime', facecolor='none', linewidth=2)
+            ax.add_patch(patch)
+
+            # Label in center
+            cx, cy = polygon_center(poly)
+            ax.text(cx, cy, str(container_id),
+                    fontsize=10, weight='bold', color='white',
+                    path_effects=[withStroke(linewidth=2, foreground='black')],
+                    ha='center', va='center')
+
+        plt.axis('off')
+        plt.show()
+
+
 if __name__ == '__main__':
     image_details_json_path = "../image_details/image_details.json"
     image_details_with_labels = "../image_details/image_details_with_labels.json"
@@ -521,3 +775,18 @@ if __name__ == '__main__':
     csv_with_scores = "../labeled_containers_with_scores.csv"
     # add_score_column_to_csv(csv_path=csv_with_description, json_path=image_details_with_labels_score,
     #                         output_csv_path=csv_with_scores)
+
+    csv_with_height_width = "../labeled_containers_with_height_width.csv"
+    # add_height_width_ratio(csv_path=csv_with_description, output_csv_path=csv_with_height_width)
+
+    csv_with_neighbors = "../labeled_containers_with_neighbors.csv"
+    add_neighbor_column_to_csv(
+        info_csv_path=csv_with_height_width,
+        output_csv_path=csv_with_neighbors
+    )
+
+    plot_image_with_polygons(
+        df=pd.read_csv(csv_with_neighbors),
+        image_folder="..",  # adjust to match your local path
+        n=5
+    )
