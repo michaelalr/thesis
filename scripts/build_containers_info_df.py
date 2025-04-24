@@ -440,11 +440,42 @@ def describe_csv_row(row):
     score = row["score"]
     position = row["above_or_below_countertop"]
     ratio = row["height_width_ratio"]
+    neighbors = row.get("neighbors", None)
 
     description = (
         f'The container id {id} has a label of "{label}" with confidence of {score} from a detection model, '
         f'it is {position} the countertop, and the ratio between its height and width is {ratio}.'
     )
+
+    # Handle neighbors if valid
+    try:
+        if isinstance(neighbors, str):
+            neighbors = json.loads(neighbors)  # use JSON instead of ast
+
+        if isinstance(neighbors, dict):
+            direction_map = {
+                "above": "above",
+                "below": "below",
+                "left": "to the left of",
+                "right": "to the right of",
+                "top_left": "at the top-left of",
+                "top_right": "at the top-right of",
+                "bottom_left": "at the bottom-left of",
+                "bottom_right": "at the bottom-right of",
+            }
+
+            phrases = [
+                f"{direction_map[d]} it there is the container id {n}"
+                for d, n in neighbors.items() if n is not None
+            ]
+
+            if phrases:
+                description += " " + ", ".join(phrases) + "."
+
+    except Exception as e:
+        print(e)
+        pass  # In case of malformed JSON or any error, skip neighbor info
+
     return description
 
 
@@ -755,13 +786,15 @@ if __name__ == '__main__':
     # add_height_width_ratio(csv_path=csv_with_description, output_csv_path=csv_with_height_width)
 
     csv_with_neighbors = "../labeled_containers_with_neighbors.csv"
-    add_neighbor_column_to_csv(
-        info_csv_path=csv_with_height_width,
-        output_csv_path=csv_with_neighbors
-    )
+    # add_neighbor_column_to_csv(
+    #     info_csv_path=csv_with_height_width,
+    #     output_csv_path=csv_with_neighbors
+    # )
 
     # plot_image_with_polygons(
     #     df=pd.read_csv(csv_with_neighbors),
     #     image_folder="..",  # adjust to match your local path
     #     n=5
     # )
+
+    add_descriptions_to_csv(csv_path=csv_with_neighbors, output_path=csv_with_description)
