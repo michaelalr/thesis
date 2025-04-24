@@ -441,29 +441,30 @@ def describe_csv_row(row):
     position = row["above_or_below_countertop"]
     ratio = row["height_width_ratio"]
     neighbors = row.get("neighbors", None)
+    anchor_neighbors = row.get("anchor_neighbors", None)
 
     description = (
         f'The container id {id} has a label of "{label}" with confidence of {score} from a detection model, '
         f'it is {position} the countertop, and the ratio between its height and width is {ratio}.'
     )
 
-    # Handle neighbors if valid
+    direction_map = {
+        "above": "above",
+        "below": "below",
+        "left": "to the left of",
+        "right": "to the right of",
+        "top_left": "at the top-left of",
+        "top_right": "at the top-right of",
+        "bottom_left": "at the bottom-left of",
+        "bottom_right": "at the bottom-right of",
+    }
+
+    # Handle container neighbors if valid
     try:
         if isinstance(neighbors, str):
-            neighbors = json.loads(neighbors)  # use JSON instead of ast
+            neighbors = json.loads(neighbors)
 
         if isinstance(neighbors, dict):
-            direction_map = {
-                "above": "above",
-                "below": "below",
-                "left": "to the left of",
-                "right": "to the right of",
-                "top_left": "at the top-left of",
-                "top_right": "at the top-right of",
-                "bottom_left": "at the bottom-left of",
-                "bottom_right": "at the bottom-right of",
-            }
-
             phrases = [
                 f"{direction_map[d]} it there is the container id {n}"
                 for d, n in neighbors.items() if n is not None
@@ -473,8 +474,23 @@ def describe_csv_row(row):
                 description += " " + ", ".join(phrases) + "."
 
     except Exception as e:
-        print(e)
+        print(f"Error parsing neighbors: {e}")
         pass  # In case of malformed JSON or any error, skip neighbor info
+
+    # Handle anchor neighbors if valid
+    try:
+        if isinstance(anchor_neighbors, str):
+            anchor_neighbors = json.loads(anchor_neighbors)
+
+        if isinstance(anchor_neighbors, dict):
+            anchor_phrases = [
+                f"{direction_map[d]} it there is a {anchor}"
+                for d, anchor in anchor_neighbors.items() if anchor is not None
+            ]
+            if anchor_phrases:
+                description += " " + ", ".join(anchor_phrases) + "."
+    except Exception as e:
+        print(f"Error parsing anchor_neighbors: {e}")
 
     return description
 
@@ -709,6 +725,144 @@ def add_neighbor_column_to_csv(info_csv_path, output_csv_path):
     df.to_csv(output_csv_path, index=False)
     print(f"Updated CSV saved to: {output_csv_path}")
 
+def load_anchor_json(json_path):
+    with open(json_path, 'r') as f:
+        data = json.load(f)
+    anchors_by_filename = {}
+    for entry in data:
+        img_path = entry['image_path_html']
+        fname_key = os.path.basename(img_path).split('_segmented_')[-1]
+        anchors = []
+        try:
+            labeled_polygons = ast.literal_eval(entry['containers_mask_polygon_with_labels'])
+            for label, score, poly in labeled_polygons:
+                # if len(poly) >= 3:
+                # Keep even if poly has < 3 points
+                anchors.append({'label': label, 'polygon': poly})
+        except:
+            continue
+        anchors_by_filename[fname_key] = anchors
+    return anchors_by_filename
+
+def is_anchor_neighbor_within_gap(poly1, poly2, ratio_threshold=0.5):
+    def to_geometry(poly):
+        if len(poly) == 1:
+            return Point(poly[0])
+        elif len(poly) == 2:
+            return LineString(poly)
+        elif len(poly) >= 3:
+            return Polygon(poly)
+        return None
+
+    geom1 = to_geometry(poly1)
+    geom2 = to_geometry(poly2)
+
+    if geom1 is None or geom2 is None:
+        return False
+
+    # Slightly buffer point and line geometries to avoid degenerate cases
+    if isinstance(geom1, (Point, LineString)):
+        geom1 = geom1.buffer(1)
+    if isinstance(geom2, (Point, LineString)):
+        geom2 = geom2.buffer(1)
+
+    try:
+        gap_centroid = geom1.centroid.distance(geom2.centroid)
+        gap_edge = geom1.distance(geom2)
+    except Exception:
+        return False
+
+    # Use the largest dimension of both bounding boxes as a scale reference
+    all_x = [pt[0] for pt in poly1 + poly2]
+    all_y = [pt[1] for pt in poly1 + poly2]
+    max_dim = max(max(all_x) - min(all_x), max(all_y) - min(all_y))
+
+    # Slightly more lenient on edge distances
+    gap_centroid_cond = gap_centroid <= max_dim * ratio_threshold
+    gap_edge_cond = gap_edge <= max_dim * ratio_threshold * 0.5
+
+    return gap_centroid_cond or gap_edge_cond
+
+def determine_anchor_neighbors_for_image(image_df, anchors):
+    directions = ["above", "below", "left", "right", "top_left", "top_right", "bottom_left", "bottom_right"]
+    results = {}
+
+    for _, row in image_df.iterrows():
+        cid = row['id']
+        poly1 = row['polygon']
+        cx1, cy1 = polygon_center(poly1)
+        width1 = row['container_width']
+        height1 = row['container_height']
+
+        horizontal_align_threshold = height1 * 0.6
+        vertical_align_threshold = width1 * 0.6
+        max_neighbor_dist = ((width1 + height1) / 2) * 2.0
+
+        closest = {dir: (None, float("inf")) for dir in directions}
+        for anchor in anchors:
+            poly2 = anchor['polygon']
+            cx2, cy2 = polygon_center(poly2)
+            dx = cx2 - cx1
+            dy = cy2 - cy1
+            center_dist = (dx ** 2 + dy ** 2) ** 0.5
+
+            if not is_anchor_neighbor_within_gap(poly1, poly2) or center_dist > max_neighbor_dist:
+                continue
+
+            abs_dx = abs(dx)
+            abs_dy = abs(dy)
+            label = anchor['label']
+
+            def update_dir(direction):
+                if center_dist < closest[direction][1]:
+                    closest[direction] = (label, center_dist)
+
+            if abs_dx > abs_dy * 1.5 and abs_dy < horizontal_align_threshold:
+                if dx > 0:
+                    update_dir("right")
+                else:
+                    update_dir("left")
+            elif abs_dy > abs_dx * 1.5 and abs_dx < vertical_align_threshold:
+                if dy > 0:
+                    update_dir("below")
+                else:
+                    update_dir("above")
+            else:
+                if dx < 0 and dy < 0:
+                    update_dir("top_left")
+                elif dx > 0 and dy < 0:
+                    update_dir("top_right")
+                elif dx < 0 and dy > 0:
+                    update_dir("bottom_left")
+                elif dx > 0 and dy > 0:
+                    update_dir("bottom_right")
+
+        results[cid] = {dir: closest[dir][0] for dir in directions}
+    return results
+
+
+def add_anchor_neighbors_column_to_csv(info_csv_path, json_path, output_csv_path):
+    df = pd.read_csv(info_csv_path)
+    df["polygon"] = df["polygon"].apply(parse_polygon_string)
+    df["id"] = df["id"].astype(int)
+
+    anchors_by_file = load_anchor_json(json_path)
+    df["anchor_neighbors"] = ""
+
+    for image_path, group in df.groupby("image_path_html"):
+        key = os.path.basename(image_path).split('_segmented_')[-1]
+        anchors = anchors_by_file.get(key, [])
+        anchor_neighbors = determine_anchor_neighbors_for_image(group, anchors)
+        for idx, row in group.iterrows():
+            cid = row['id']
+            neighbors = anchor_neighbors.get(cid, {d: None for d in [
+                "above", "below", "left", "right",
+                "top_left", "top_right", "bottom_left", "bottom_right"
+            ]})
+            df.loc[idx, "anchor_neighbors"] = json.dumps(neighbors)
+
+    df.to_csv(output_csv_path, index=False)
+    print(f"Updated CSV with anchor neighbors saved to: {output_csv_path}")
 
 # --- Visualization Function ---
 def plot_image_with_polygons(df, image_folder, n=5):
@@ -797,4 +951,12 @@ if __name__ == '__main__':
     #     n=5
     # )
 
-    add_descriptions_to_csv(csv_path=csv_with_neighbors, output_path=csv_with_description)
+    image_details_with_anchors = "../image_details/image_details_with_anchors.json"
+    csv_with_anchors = "../labeled_containers_with_anchors.csv"
+    # add_anchor_neighbors_column_to_csv(
+    #     info_csv_path=csv_with_neighbors,
+    #     json_path=image_details_with_anchors,
+    #     output_csv_path=csv_with_anchors
+    # )
+
+    add_descriptions_to_csv(csv_path=csv_with_anchors, output_path=csv_with_description)
