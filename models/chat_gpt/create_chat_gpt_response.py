@@ -81,7 +81,7 @@ def create_json_from_csvs(info_csv_path, response_csv_path, output_json_path):
 
 if __name__ == '__main__':
     info_csv_path = "../../labeled_containers_with_description.csv"
-    response_csv_path = "./chatgpt_reasoning_results.csv"
+    response_csv_path = "chatgpt_reasoning_results_1.csv"
     output_json_path = "./chatgpt_train_responses_1.json"
     create_json_from_csvs(
         info_csv_path=info_csv_path,

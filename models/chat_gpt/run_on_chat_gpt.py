@@ -38,7 +38,7 @@ Reasoning: [Your explanation]
     return response.choices[0].message.content
 
 
-def run_queries_in_chat_gpt(csv_path, json_path):
+def run_queries_in_chat_gpt(csv_path, json_path, chatgpt_output):
     df = pd.read_csv(csv_path)
 
     with open(json_path, 'r') as f:
@@ -79,13 +79,13 @@ def run_queries_in_chat_gpt(csv_path, json_path):
 
     # Save results to a file
     output_df = pd.DataFrame(results)
-    output_df.to_csv("./chatgpt_reasoning_results.csv", index=False)
-    print("Done! Results saved to chatgpt_reasoning_results.csv")
+    output_df.to_csv(chatgpt_output, index=False)
+    print(f"Done! Results saved to {chatgpt_output}")
 
 
 if __name__ == '__main__':
     # Load data
     csv_path = "../../labeled_containers_with_description.csv"
     json_path = "../../image_details/image_to_items_dict.json"
-
-    run_queries_in_chat_gpt(csv_path=csv_path, json_path=json_path)
+    chatgpt_output = "./chatgpt_reasoning_results_2.csv"
+    run_queries_in_chat_gpt(csv_path=csv_path, json_path=json_path, chatgpt_output=chatgpt_output)
