@@ -1,0 +1,9 @@
+[
+    {
+        "user_id":"chatgpt",
+        "correct_answers":1026,
+        "total_attempts":6500,
+        "accuracy (%)":15.7846153846,
+        "average_IoU":0.1919646508
+    }
+]

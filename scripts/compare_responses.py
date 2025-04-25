@@ -435,6 +435,6 @@ def check_gemini_bbox():
 
 
 if __name__ == "__main__":
-    give_score_on_data(data_json="../data/train_data/train_data.json", users_responses_json="../models/chat_gpt/chatgpt_train_responses_1.json",
-                       scores_json="../models/chat_gpt/scores_chatgpt_train_data_1.json", response_type="chatgpt")
+    give_score_on_data(data_json="../data/train_data/train_data.json", users_responses_json="../models/chat_gpt/chatgpt_train_responses_2.json",
+                       scores_json="../models/chat_gpt/scores_chatgpt_train_data_2.json", response_type="chatgpt")
     # check_gemini_bbox()
