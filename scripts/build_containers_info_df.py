@@ -444,8 +444,7 @@ def describe_csv_row(row):
     anchor_neighbors = row.get("anchor_neighbors", None)
 
     description = (
-        f'The container id {id} has a label of "{label}" with confidence of {score} from a detection model, '
-        f'it is {position} the countertop, and the ratio between its height and width is {ratio}.'
+        f'Container id {id}, is a "{label}", it is {position} the countertop, and the ratio between its height and width is {ratio}.'
     )
 
     direction_map = {
@@ -471,7 +470,7 @@ def describe_csv_row(row):
             ]
 
             if phrases:
-                description += " " + ", ".join(phrases) + "."
+                description += " Moreover, the order relation between this container and the others is: " + ", ".join(phrases) + "."
 
     except Exception as e:
         print(f"Error parsing neighbors: {e}")
@@ -488,7 +487,7 @@ def describe_csv_row(row):
                 for d, anchor in anchor_neighbors.items() if anchor is not None
             ]
             if anchor_phrases:
-                description += " " + ", ".join(anchor_phrases) + "."
+                description += " Also, here is the order relation between this container and the anchors in the kitchen: " + ", ".join(anchor_phrases) + "."
     except Exception as e:
         print(f"Error parsing anchor_neighbors: {e}")
 

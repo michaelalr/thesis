@@ -14,7 +14,7 @@ def parse_best_container_line(line):
     ids = re.findall(r'\d+', container_str)
     return [int(i) for i in ids] if ids else []
 
-def create_json_from_csvs(info_csv_path, response_csv_path, output_json_path):
+def create_json_from_csvs(info_csv_path, response_csv_path, output_json_path, columns_in_description):
     # Load the CSVs
     info_df = pd.read_csv(info_csv_path)
     response_df = pd.read_csv(response_csv_path)
@@ -68,7 +68,7 @@ def create_json_from_csvs(info_csv_path, response_csv_path, output_json_path):
                 "image_path": full_image_url,
                 "chosen_item": item,
                 "chosen_polygon": chosen_polygon if isinstance(chosen_polygon, str) else json.dumps(chosen_polygon),
-                "info_columns": ["label", "above_or_below_countertop", "height_width_ratio"],
+                "info_columns": columns_in_description,
                 "room_type": "kitchen"
             }
             results.append(result)
@@ -83,8 +83,12 @@ if __name__ == '__main__':
     info_csv_path = "../../labeled_containers_with_description.csv"
     response_csv_path = "chatgpt_reasoning_results_2.csv"
     output_json_path = "./chatgpt_train_responses_2.json"
+    columns_in_description_1 = ["label", "above_or_below_countertop", "height_width_ratio"]
+    columns_in_description_2 = ["label", "score", "above_or_below_countertop", "height_width_ratio", "neighbors", "anchor_neighbors"]
+
     create_json_from_csvs(
         info_csv_path=info_csv_path,
         response_csv_path=response_csv_path,
-        output_json_path=output_json_path
+        output_json_path=output_json_path,
+        columns_in_description=columns_in_description_2
     )
