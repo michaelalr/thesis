@@ -1,0 +1,22 @@
+{
+  "https://raw.githubusercontent.com/michaelalr/thesis/app/images/kitchen/10_segmented_sun_aduyhjidfuvieylx.jpg": {
+    "items": [
+      "Bottle opener",
+      "Cutting board",
+      "Pan",
+      "Spoon"
+    ],
+    "bboxes": null,
+    "error": "Error code: 404 - {'error': {'message': 'The model `gpt-4-vision` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}"
+  },
+  "https://raw.githubusercontent.com/michaelalr/thesis/app/images/kitchen/10_segmented_sun_adwbdnqzwgqtryez.jpg": {
+    "items": [
+      "Cooking oil",
+      "Dish towels",
+      "Pot",
+      "Spoon"
+    ],
+    "bboxes": null,
+    "error": "Error code: 404 - {'error': {'message': 'The model `gpt-4-vision` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}"
+  }
+}
