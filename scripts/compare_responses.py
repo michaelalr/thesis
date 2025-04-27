@@ -296,6 +296,8 @@ def give_score_on_data(data_json, users_responses_json, scores_json, response_ty
             user_id = "kosmos"
         elif response_type == "chatgpt":
             user_id = "chatgpt"
+        elif response_type == "gemini":
+            user_id = "gemini"
         else:
             user_id = "random"
         image_path = response["image_path"]
@@ -309,6 +311,11 @@ def give_score_on_data(data_json, users_responses_json, scores_json, response_ty
                 chosen_polygon = denormalize_bbox_to_polygon(chosen_bbox, suffix_image_path)
             else:
                 chosen_polygon = []  # or None if no bbox was found
+        elif response_type == "gemini":
+            if response["gemini_bbox_polygon_string"] == "[[0, 0], [0, 0], [0, 0], [0, 0]]":
+                chosen_polygon = []
+            else:
+                chosen_polygon = literal_eval(response["gemini_bbox_polygon_string"])
         else:
             chosen_polygon = literal_eval(response["chosen_polygon"])
 
@@ -328,6 +335,9 @@ def give_score_on_data(data_json, users_responses_json, scores_json, response_ty
                     user_scores[user_id] = user_scores.get(user_id, 0) + 1
             # In other models like kosmos - if IoU >= 0.5, count it as a correct response
             elif response_type == "kosmos":
+                if iou >= 0.5:
+                    user_scores[user_id] = user_scores.get(user_id, 0) + 1
+            elif response_type == "gemini":
                 if iou >= 0.5:
                     user_scores[user_id] = user_scores.get(user_id, 0) + 1
 
