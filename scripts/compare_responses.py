@@ -13,7 +13,7 @@ import seaborn as sns
 from PIL import Image
 from firebase_admin import credentials, firestore
 from scripts.users_agreement import compute_iou
-
+from collections import defaultdict
 
 # Function to clean image_path
 def clean_image_path(image_path, is_test=False):
@@ -278,6 +278,8 @@ def give_score_on_data(data_json, users_responses_json, scores_json, response_ty
     with open(users_responses_json, "r") as f:
         user_responses = json.load(f)
 
+    print(len(user_responses))
+
     # Convert correct annotations to a dictionary for quick lookup
     correct_lookup = {
         (entry["image_path"], entry["chosen_item"]): literal_eval(entry["chosen_polygon"])
@@ -444,7 +446,74 @@ def check_gemini_bbox():
     plt.show()
 
 
+def calculate_user_accuracy(train_data_json, user_responses_json):
+    # Load your JSON files
+    with open(train_data_json, 'r') as f:
+        train_data = json.load(f)
+
+    with open(user_responses_json, 'r') as f:
+        user_responses = json.load(f)
+
+    # Step 1: Build a mapping from (image_path, chosen_item) -> chosen_polygon
+    train_lookup = {}
+    for entry in train_data:
+        key = (entry['image_path'], entry['chosen_item'])
+        train_lookup[key] = entry['chosen_polygon']
+
+    # Step 2: Find all shared image-item pairs (appeared multiple times in user responses)
+    pair_to_users = defaultdict(set)
+
+    for entry in user_responses:
+        key = (entry['image_path'], entry['chosen_item'])
+        user_id = entry['user_id']
+        pair_to_users[key].add(user_id)
+
+    # Shared pairs = pairs with 2 or more different users
+    shared_pairs = {key for key, users in pair_to_users.items() if len(users) >= 2}
+
+    print(f"Total shared (image_path, item) pairs: {len(shared_pairs)}")
+
+    # Step 3: Group responses by user
+    user_to_responses = defaultdict(list)
+
+    for entry in user_responses:
+        user_id = entry['user_id']
+        key = (entry['image_path'], entry['chosen_item'])
+        if key in shared_pairs:
+            user_to_responses[user_id].append(entry)
+
+    # Step 4: Calculate unbiased accuracy per user
+    for user_id, responses in user_to_responses.items():
+        correct = 0
+        total = 0
+
+        print(f"\nEvaluating User {user_id} (only on shared images):")
+
+        for response in responses:
+            key = (response['image_path'], response['chosen_item'])
+
+            if key not in train_lookup:
+                print(f"Skipping (no train label): {key}")
+                continue
+
+            train_polygon = train_lookup[key]
+            user_polygon = response['chosen_polygon']
+
+            total += 1
+
+            if user_polygon == train_polygon:
+                correct += 1
+
+        if total > 0:
+            accuracy = correct / total
+        else:
+            accuracy = 0
+
+        print(f"User {user_id} - Unbiased Accuracy (shared images only): {accuracy:.2%} ({correct}/{total})")
+
+
 if __name__ == "__main__":
-    give_score_on_data(data_json="../data/train_data/train_data.json", users_responses_json="../models/chat_gpt/chatgpt_train_responses_2.json",
-                       scores_json="../models/chat_gpt/scores_chatgpt_train_data_2.json", response_type="chatgpt")
+    give_score_on_data(data_json="../data/train_data/train_data.json", users_responses_json="../models/chat_gpt/chatgpt_train_long_id_ratio.json",
+                       scores_json="../models/chat_gpt/scores_chatgpt_train_long_id_ration.json", response_type="chatgpt")
     # check_gemini_bbox()
+    # calculate_user_accuracy(train_data_json="../data/train_data/train_data.json", user_responses_json="../baselines/human/cleaned_responses.json")
