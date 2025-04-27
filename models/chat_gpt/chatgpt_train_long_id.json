@@ -1,0 +1,3332 @@
+[
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_afwaivvfezladsbj.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[683, 506], [408, 506], [407, 543], [682, 545]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_afwaivvfezladsbj.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[222, 576], [85, 591], [97, 779], [241, 745]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_afwaivvfezladsbj.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[683, 550], [411, 551], [414, 703], [682, 640]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_afwaivvfezladsbj.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[232, 528], [83, 541], [82, 586], [232, 569]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_avdeakyjwzxtynyf.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[474, 17], [420, 22], [416, 73], [470, 72]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_avdeakyjwzxtynyf.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[[167, 15], [170, 120], [202, 121], [200, 22]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_avdeakyjwzxtynyf.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[332, 120], [333, 120]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_avdeakyjwzxtynyf.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[368, 27], [333, 30], [333, 113], [336, 77], [366, 74]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_afstlyyibsjscpbm.jpg",
+        "chosen_item": "Cooking oil",
+        "chosen_polygon": "[[4, 48], [4, 120], [41, 120], [41, 57]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_afstlyyibsjscpbm.jpg",
+        "chosen_item": "Dish towels",
+        "chosen_polygon": "[[144, 176], [143, 222], [176, 234], [175, 182]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_afstlyyibsjscpbm.jpg",
+        "chosen_item": "Pot",
+        "chosen_polygon": "[[0, 46], [1, 122]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_afstlyyibsjscpbm.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[43, 57], [43, 120], [76, 120], [76, 58]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_aopqdojqibxivqgu.jpg",
+        "chosen_item": "Cooking oil",
+        "chosen_polygon": "[[0, 82], [0, 292], [90, 296], [96, 107]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_aopqdojqibxivqgu.jpg",
+        "chosen_item": "Dish towels",
+        "chosen_polygon": "[[364, 169], [376, 244], [355, 254], [355, 308], [440, 313], [442, 185]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_aopqdojqibxivqgu.jpg",
+        "chosen_item": "Pot",
+        "chosen_polygon": "[[366, 170], [376, 244], [357, 253], [357, 306], [391, 312], [403, 181]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_aopqdojqibxivqgu.jpg",
+        "chosen_item": "Spoon",
+        "chosen_polygon": "[[263, 405], [152, 413], [153, 652], [265, 613]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_ayzwrfmejwnjncpp.jpg",
+        "chosen_item": "Cooking oil",
+        "chosen_polygon": "[[396, 152], [395, 237], [476, 240], [477, 158]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_ayzwrfmejwnjncpp.jpg",
+        "chosen_item": "Dish towels",
+        "chosen_polygon": "[[201, 398], [28, 449], [28, 488], [201, 426]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_ayzwrfmejwnjncpp.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[170, 11], [169, 146], [207, 153], [215, 39]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_ayzwrfmejwnjncpp.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[397, 152], [395, 236], [429, 238], [436, 225], [435, 156]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/16_segmented_sun_amtngujfdqlygigl.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[956, 74], [869, 86], [870, 335], [949, 334]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/16_segmented_sun_amtngujfdqlygigl.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[[449, 406], [450, 429], [500, 432], [499, 408]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/16_segmented_sun_amtngujfdqlygigl.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[845, 143], [786, 162], [786, 330], [843, 329]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/16_segmented_sun_amtngujfdqlygigl.jpg",
+        "chosen_item": "Spoon",
+        "chosen_polygon": "[[701, 157], [701, 330], [778, 330], [783, 160]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/22_segmented_sun_augjvuygusrwlxqz.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[283, 1270], [283, 1350], [386, 1361], [383, 1270]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/22_segmented_sun_augjvuygusrwlxqz.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/22_segmented_sun_augjvuygusrwlxqz.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[1160, 882], [1161, 883], [1166, 883], [1167, 882], [1170, 882], [1171, 881], [1170, 880], [1163, 880], [1162, 881], [1160, 881]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/22_segmented_sun_augjvuygusrwlxqz.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[1440, 823], [1440, 826], [1445, 826], [1446, 825], [1446, 824], [1445, 823]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_apuaydbvdodzgqrh.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[[175, 146], [173, 194], [193, 194], [192, 147]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_apuaydbvdodzgqrh.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[244, 23], [254, 23], [255, 24], [255, 23]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_apuaydbvdodzgqrh.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[237, 31], [235, 111], [255, 113], [255, 31]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_apuaydbvdodzgqrh.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[30, 168], [0, 169], [0, 234], [34, 233]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/3_segmented_sun_aobtqmsjotgsxppu.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[697, 100], [632, 115], [630, 228], [693, 228]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/3_segmented_sun_aobtqmsjotgsxppu.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[741, 90], [700, 100], [697, 230], [738, 230]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/3_segmented_sun_aobtqmsjotgsxppu.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[741, 90], [700, 100], [697, 230], [738, 230]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/3_segmented_sun_aobtqmsjotgsxppu.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[748, 88], [741, 231], [799, 235], [799, 92]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/16_segmented_sun_alqafgyfzsctxwtt.jpg",
+        "chosen_item": "Cooking oil",
+        "chosen_polygon": "[[699, 162], [660, 173], [665, 257], [700, 253]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/16_segmented_sun_alqafgyfzsctxwtt.jpg",
+        "chosen_item": "Dish towels",
+        "chosen_polygon": "[[822, 168], [773, 177], [775, 295], [825, 291]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/16_segmented_sun_alqafgyfzsctxwtt.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[1023, 90], [948, 108], [950, 208], [1023, 200]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/16_segmented_sun_alqafgyfzsctxwtt.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[945, 109], [872, 126], [874, 216], [945, 208]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aawsixgpgwqanatu.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[68, 94], [0, 98], [0, 122], [68, 117]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aawsixgpgwqanatu.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[[255, 81], [172, 85], [169, 108], [255, 101]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aawsixgpgwqanatu.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[67, 124], [1, 125], [1, 254], [67, 245]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aawsixgpgwqanatu.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[234, 109], [169, 114], [169, 219], [233, 208]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_aglwoufpxbtxqecp.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[[1058, 645], [1039, 667], [1036, 691], [1068, 700], [1074, 649]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_aglwoufpxbtxqecp.jpg",
+        "chosen_item": "Dish towels",
+        "chosen_polygon": "[[955, 509], [957, 555], [1076, 572], [1075, 523]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_aglwoufpxbtxqecp.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[832, 82], [753, 97], [753, 256], [832, 248]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_aglwoufpxbtxqecp.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[442, 491], [330, 498], [326, 540], [440, 533]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_andzglcqubvbzfhz.jpg",
+        "chosen_item": "Cooking oil",
+        "chosen_polygon": "[[429, 352], [427, 455], [456, 462], [457, 367]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_andzglcqubvbzfhz.jpg",
+        "chosen_item": "Dish towels",
+        "chosen_polygon": "[[391, 302], [395, 419], [432, 461], [497, 461], [497, 340]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_andzglcqubvbzfhz.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[467, 95], [447, 110], [451, 221], [470, 214]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_andzglcqubvbzfhz.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[462, 370], [460, 460], [497, 462], [497, 389]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_axzmxlymdvjqqfpk.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[88, 158], [31, 161], [38, 173], [30, 185], [33, 260], [92, 254]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_axzmxlymdvjqqfpk.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[[233, 154], [233, 155]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_axzmxlymdvjqqfpk.jpg",
+        "chosen_item": "Pot",
+        "chosen_polygon": "[[187, 155], [142, 157], [146, 250], [190, 246]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_axzmxlymdvjqqfpk.jpg",
+        "chosen_item": "Spoon",
+        "chosen_polygon": "[[138, 156], [91, 159], [94, 254], [143, 249]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_aojmogpsfirohkai.jpg",
+        "chosen_item": "Cooking oil",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_aojmogpsfirohkai.jpg",
+        "chosen_item": "Dish towels",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_aojmogpsfirohkai.jpg",
+        "chosen_item": "Pot",
+        "chosen_polygon": "[[0, 244], [0, 289], [11, 290], [14, 287], [14, 247]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_aojmogpsfirohkai.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[170, 430], [168, 577], [194, 595], [191, 436]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_advwcwduhfypopki.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[198, 1924], [193, 1922], [192, 1923], [188, 1923], [183, 1926], [186, 1928], [194, 1929], [198, 1926]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_advwcwduhfypopki.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[[1062, 1406], [1057, 1536], [1133, 1574], [1121, 1534], [1155, 1455], [1138, 1432]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_advwcwduhfypopki.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[560, 2049], [468, 1918], [103, 1961], [103, 2206], [553, 2153]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_advwcwduhfypopki.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[1917, 0], [1787, 12], [1782, 442], [1917, 424]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_ayeksgxvkxbdgqil.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[222, 31], [184, 37], [185, 112], [221, 113]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_ayeksgxvkxbdgqil.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[[96, 44], [94, 86], [119, 87], [118, 47], [114, 43]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_ayeksgxvkxbdgqil.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[145, 60]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_ayeksgxvkxbdgqil.jpg",
+        "chosen_item": "Spoon",
+        "chosen_polygon": "[[73, 47], [72, 87], [91, 87], [92, 48]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_awmwrrktzbyokpcr.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[544, 3], [551, 145], [760, 134], [756, 0]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_awmwrrktzbyokpcr.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[147, 0], [158, 144], [363, 146], [354, 4]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_awmwrrktzbyokpcr.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[784, 0], [786, 133], [916, 128], [902, 111], [917, 84], [916, 0]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_awmwrrktzbyokpcr.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[14, 0], [24, 138], [149, 142], [140, 0]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_amvpxkryxaldzmdv.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[151, 197], [147, 255], [175, 255], [178, 205]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_amvpxkryxaldzmdv.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[[210, 45], [181, 51], [178, 111], [185, 110], [188, 90], [208, 88]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_amvpxkryxaldzmdv.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[132, 190], [128, 244], [145, 253], [149, 196]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_amvpxkryxaldzmdv.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[147, 54], [143, 58], [141, 108], [154, 110], [158, 54]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/13_segmented_sun_aehkkaenyyjnewst.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[720, 35], [708, 442], [871, 449], [884, 40]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/13_segmented_sun_aehkkaenyyjnewst.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[[563, 759], [556, 1001], [731, 1012], [741, 769]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/13_segmented_sun_aehkkaenyyjnewst.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[355, 31], [344, 436], [504, 441], [514, 35]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/13_segmented_sun_aehkkaenyyjnewst.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[439, 753], [432, 994], [533, 1002], [542, 760]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/18_segmented_sun_agfmsmojwptjoava.jpg",
+        "chosen_item": "Cooking oil",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/18_segmented_sun_agfmsmojwptjoava.jpg",
+        "chosen_item": "Dish towels",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/18_segmented_sun_agfmsmojwptjoava.jpg",
+        "chosen_item": "Pot",
+        "chosen_polygon": "[[465, 86], [460, 238], [526, 239], [529, 98]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/18_segmented_sun_agfmsmojwptjoava.jpg",
+        "chosen_item": "Spoon",
+        "chosen_polygon": "[[286, 62], [281, 243], [373, 242], [378, 75]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_aqzschgwftpwisen.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[128, 148], [128, 194], [156, 194], [157, 148]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_aqzschgwftpwisen.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_aqzschgwftpwisen.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[128, 148], [128, 194], [156, 194], [157, 148]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_aqzschgwftpwisen.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[160, 148], [160, 193], [191, 194], [190, 148]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_awuawixsfaurzuaa.jpg",
+        "chosen_item": "Cooking oil",
+        "chosen_polygon": "[[118, 200], [13, 208], [15, 233], [118, 228]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_awuawixsfaurzuaa.jpg",
+        "chosen_item": "Dish towels",
+        "chosen_polygon": "[[120, 232], [31, 237], [34, 309], [120, 310]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_awuawixsfaurzuaa.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[106, 1], [108, 78], [195, 77], [196, 1]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_awuawixsfaurzuaa.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[3, 1], [6, 80], [103, 78], [101, 1]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/21_segmented_sun_aklijrkocvkcmsfg.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[[446, 90], [369, 113], [371, 262], [447, 262]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/21_segmented_sun_aklijrkocvkcmsfg.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[710, 527], [710, 528]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/21_segmented_sun_aklijrkocvkcmsfg.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[450, 89], [449, 263], [493, 264], [495, 97]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/21_segmented_sun_aklijrkocvkcmsfg.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[280, 372], [279, 413], [308, 426], [308, 382]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_akgdlzofsznnznzs.jpg",
+        "chosen_item": "Cooking oil",
+        "chosen_polygon": "[[164, 167], [163, 234], [224, 234], [224, 176]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_akgdlzofsznnznzs.jpg",
+        "chosen_item": "Dish towels",
+        "chosen_polygon": "[[164, 129], [164, 146], [224, 152], [224, 131]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_akgdlzofsznnznzs.jpg",
+        "chosen_item": "Pot",
+        "chosen_polygon": "[[212, 173], [218, 173], [219, 174], [223, 174], [223, 173], [222, 174], [221, 173]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_akgdlzofsznnznzs.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[163, 1], [164, 66], [223, 55], [222, 0]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_afdefsrtlbtfdhxq.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[338, 463], [238, 472], [240, 635], [340, 611]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_afdefsrtlbtfdhxq.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[[456, 482], [454, 587], [527, 644], [528, 511]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_afdefsrtlbtfdhxq.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[456, 457], [453, 585], [542, 657], [545, 485]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_afdefsrtlbtfdhxq.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[54, 490], [19, 518], [24, 746], [57, 679]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_alqlmxgzxpeuaciw.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[202, 48], [202, 105], [214, 105], [215, 49]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_alqlmxgzxpeuaciw.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[[151, 52], [150, 104], [168, 105], [167, 52]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_alqlmxgzxpeuaciw.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[196, 48], [195, 104], [214, 105], [215, 49]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_alqlmxgzxpeuaciw.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[34, 50], [34, 81], [57, 81], [59, 51]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_axuroipjldepebje.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[54, 158], [54, 161]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_axuroipjldepebje.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[[54, 153], [54, 156]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_axuroipjldepebje.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[118, 167], [89, 173], [89, 213], [117, 202]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_axuroipjldepebje.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[50, 152]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_adwiyvylmsqaomcb.jpg",
+        "chosen_item": "Cooking oil",
+        "chosen_polygon": "[[152, 143], [150, 238], [206, 238], [211, 147]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_adwiyvylmsqaomcb.jpg",
+        "chosen_item": "Dish towels",
+        "chosen_polygon": "[[222, 1], [218, 59], [275, 62], [281, 3]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_adwiyvylmsqaomcb.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[160, 2], [159, 57], [213, 59], [216, 2]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_adwiyvylmsqaomcb.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[214, 147], [208, 238], [266, 238], [275, 152]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_avfsqwoiantddppx.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[103, 147], [74, 155], [79, 229], [104, 215]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_avfsqwoiantddppx.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[197, 160], [152, 162], [155, 214], [197, 212]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_avfsqwoiantddppx.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[163, 10], [139, 11], [140, 71], [163, 70]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_avfsqwoiantddppx.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[98, 196], [78, 202], [79, 225], [93, 222], [100, 215]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_apnxsgbjjdleuhdu.jpg",
+        "chosen_item": "Cooking oil",
+        "chosen_polygon": "[[63, 80], [61, 265], [118, 266], [130, 251], [131, 96]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_apnxsgbjjdleuhdu.jpg",
+        "chosen_item": "Dish towels",
+        "chosen_polygon": "[[148, 438], [147, 400], [76, 413]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_apnxsgbjjdleuhdu.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[389, 155], [389, 263], [429, 264], [429, 166]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_apnxsgbjjdleuhdu.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[237, 459], [235, 411], [168, 428], [171, 438]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/7_segmented_sun_aufggmchclraycgm.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[175, 74], [177, 323], [218, 252], [331, 312], [332, 77]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/7_segmented_sun_aufggmchclraycgm.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[[941, 41], [739, 53], [745, 257], [945, 254]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/7_segmented_sun_aufggmchclraycgm.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[358, 319], [0, 327], [0, 760], [210, 762], [342, 684]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/7_segmented_sun_aufggmchclraycgm.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[829, 49], [740, 54], [745, 257], [831, 257]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_aawzwijpmowksmpn.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[593, 213], [550, 221], [551, 358], [594, 357]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_aawzwijpmowksmpn.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[[984, 163], [904, 176], [922, 216], [905, 226], [905, 298], [971, 297], [973, 212], [959, 204]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_aawzwijpmowksmpn.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[906, 284], [906, 285], [907, 285]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_aawzwijpmowksmpn.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[910, 359], [905, 456], [946, 459], [950, 397], [937, 376], [947, 367], [939, 359]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_axdfhsszzzqksxnx.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[182, 93], [182, 124], [202, 124], [203, 94]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_axdfhsszzzqksxnx.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[[102, 191], [101, 241], [137, 245], [137, 193]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_axdfhsszzzqksxnx.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[36, 159], [15, 166], [16, 200], [36, 190]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_axdfhsszzzqksxnx.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[16, 86], [16, 128], [30, 126], [30, 87]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_afjofbpiualrfwlz.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[682, 1165], [674, 1267], [783, 1382], [797, 1268]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_afjofbpiualrfwlz.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[[684, 1166], [653, 1595], [770, 1581], [797, 1286]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_afjofbpiualrfwlz.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[675, 1277], [667, 1386], [771, 1510], [786, 1388]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_afjofbpiualrfwlz.jpg",
+        "chosen_item": "Spoon",
+        "chosen_polygon": "[[1204, 88], [971, 199], [936, 767], [1148, 802]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_adkmgnqaiypcnhqy.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[243, 77], [242, 122], [255, 123], [255, 77]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_adkmgnqaiypcnhqy.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[[124, 171], [124, 183], [134, 185], [138, 197], [155, 196], [157, 190], [173, 190], [173, 174]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_adkmgnqaiypcnhqy.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[243, 77], [242, 122], [255, 123], [255, 77]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_adkmgnqaiypcnhqy.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[124, 171], [125, 183], [173, 186], [173, 174]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_anfzulzazofakfhm.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[240, 41], [232, 97], [255, 107], [258, 56], [242, 52], [240, 44], [246, 41]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_anfzulzazofakfhm.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[[160, 161], [158, 205], [169, 223], [171, 173]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_anfzulzazofakfhm.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[134, 17], [136, 81], [169, 81], [173, 18]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_anfzulzazofakfhm.jpg",
+        "chosen_item": "Spoon",
+        "chosen_polygon": "[[151, 136], [129, 137], [128, 195], [151, 190]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_amcseadaqamjvkpr.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[1277, 0], [1271, 379], [1497, 381], [1504, 7]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_amcseadaqamjvkpr.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[[163, 947], [167, 1063], [481, 1059], [479, 944]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_amcseadaqamjvkpr.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[1038, 0], [1032, 380], [1264, 381], [1265, 0]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_amcseadaqamjvkpr.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[162, 831], [169, 935], [477, 928], [472, 830]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/19_segmented_sun_alyqyulcvigwjdyc.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[28, 239]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/19_segmented_sun_alyqyulcvigwjdyc.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[[71, 168], [30, 177], [31, 255], [75, 255]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/19_segmented_sun_alyqyulcvigwjdyc.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[28, 237]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/19_segmented_sun_alyqyulcvigwjdyc.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[28, 223]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/13_segmented_sun_asymyduxvrjpcvzg.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[1445, 1224], [1082, 1388], [1142, 2267], [1448, 2084]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/13_segmented_sun_asymyduxvrjpcvzg.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[[1365, 172], [1359, 174], [1360, 189], [1363, 193], [1364, 180], [1368, 175]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/13_segmented_sun_asymyduxvrjpcvzg.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[1376, 172], [1377, 175], [1385, 179], [1395, 175], [1394, 172], [1390, 170], [1387, 166], [1384, 166]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/13_segmented_sun_asymyduxvrjpcvzg.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[1138, 0], [1147, 268], [1893, 294], [1911, 0], [1815, 233], [1510, 187], [1723, 166], [1790, 0], [1294, 0], [1287, 145], [1574, 159], [1228, 209]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aunbvudubwlyozvt.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[573, 525], [572, 524], [569, 528], [564, 529], [562, 532], [568, 532], [570, 530], [573, 530]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aunbvudubwlyozvt.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[[470, 345], [469, 479], [514, 529], [512, 360]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aunbvudubwlyozvt.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[533, 15], [494, 64], [497, 218], [536, 201]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aunbvudubwlyozvt.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[519, 362], [518, 532], [603, 520], [605, 390]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/13_segmented_sun_arerafgvufvljolx.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[[59, 86], [56, 155], [79, 153], [79, 89]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/13_segmented_sun_arerafgvufvljolx.jpg",
+        "chosen_item": "Pot",
+        "chosen_polygon": "[[49, 173], [0, 178], [0, 209], [47, 201]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/13_segmented_sun_arerafgvufvljolx.jpg",
+        "chosen_item": "Spoon",
+        "chosen_polygon": "[[0, 57], [2, 164], [15, 155], [15, 61]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_apdjgezcekdmxeow.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[[255, 25], [253, 25], [254, 26], [254, 27], [254, 26]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_apdjgezcekdmxeow.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[142, 111], [130, 112], [127, 120], [128, 188], [142, 174]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_apdjgezcekdmxeow.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[221, 15], [210, 142], [245, 144], [254, 32], [222, 24]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_apdjgezcekdmxeow.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[250, 42], [250, 45]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_abqsxcyxnovlihxy.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[230, 110], [230, 166], [299, 167], [299, 97], [255, 94], [264, 101], [260, 110]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_abqsxcyxnovlihxy.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[[42, 192], [45, 212], [134, 210], [132, 192]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_abqsxcyxnovlihxy.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[230, 91], [230, 92], [233, 95], [236, 94], [236, 93], [237, 92], [235, 90], [231, 90]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_abqsxcyxnovlihxy.jpg",
+        "chosen_item": "Spoon",
+        "chosen_polygon": "[[151, 74], [161, 96], [146, 106], [145, 251], [226, 248], [227, 84]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aqtnebfegavdqvzg.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[307, 463], [251, 471], [250, 502], [270, 500], [264, 505], [306, 498]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aqtnebfegavdqvzg.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[[101, 40], [98, 101], [118, 116], [99, 119], [98, 136], [219, 168], [221, 92]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aqtnebfegavdqvzg.jpg",
+        "chosen_item": "Pot",
+        "chosen_polygon": "[[73, 27], [70, 127], [94, 137], [97, 114], [87, 108], [96, 100], [96, 39]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aqtnebfegavdqvzg.jpg",
+        "chosen_item": "Spoon",
+        "chosen_polygon": "[[253, 509], [254, 509]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_amstpwyljnixuvqh.jpg",
+        "chosen_item": "Cooking oil",
+        "chosen_polygon": "[[157, 76], [157, 102], [182, 102], [182, 76]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_amstpwyljnixuvqh.jpg",
+        "chosen_item": "Dish towels",
+        "chosen_polygon": "[[146, 73], [147, 73], [148, 74], [148, 73]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_amstpwyljnixuvqh.jpg",
+        "chosen_item": "Pot",
+        "chosen_polygon": "[[106, 179], [106, 217], [166, 215], [166, 179]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_amstpwyljnixuvqh.jpg",
+        "chosen_item": "Spoon",
+        "chosen_polygon": "[[172, 175], [171, 213], [199, 213], [200, 175]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_axwfwkibvzamixmp.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_axwfwkibvzamixmp.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[152, 48], [155, 50], [150, 87], [183, 88], [184, 49]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_axwfwkibvzamixmp.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[88, 46], [87, 80], [90, 83], [105, 83], [107, 48]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_axwfwkibvzamixmp.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_agdxrnaqlzlannbk.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_agdxrnaqlzlannbk.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[47, 122], [8, 125], [11, 186], [49, 180]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_agdxrnaqlzlannbk.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[43, 21], [42, 67], [76, 67], [77, 25]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_agdxrnaqlzlannbk.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[122, 29], [121, 68], [146, 69], [147, 31]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_acyvmyzypyuwnann.jpg",
+        "chosen_item": "Cooking oil",
+        "chosen_polygon": "[[473, 294], [474, 303], [500, 310], [492, 318], [493, 351], [516, 358], [517, 303]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_acyvmyzypyuwnann.jpg",
+        "chosen_item": "Dish towels",
+        "chosen_polygon": "[[584, 221], [584, 223]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_acyvmyzypyuwnann.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[519, 288], [521, 302], [575, 311], [574, 295]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_acyvmyzypyuwnann.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[584, 181], [584, 217]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_akjjfxpidxgkthco.jpg",
+        "chosen_item": "Cooking oil",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_akjjfxpidxgkthco.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_akjjfxpidxgkthco.jpg",
+        "chosen_item": "Pot",
+        "chosen_polygon": "[[274, 48], [263, 51], [263, 79], [274, 79], [275, 77]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_akjjfxpidxgkthco.jpg",
+        "chosen_item": "Spoon",
+        "chosen_polygon": "[[230, 74], [229, 111], [239, 112], [239, 74]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_aaslbwtcdcwjukuo.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[[1705, 0], [1700, 229], [2004, 233], [2013, 0]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_aaslbwtcdcwjukuo.jpg",
+        "chosen_item": "Pot",
+        "chosen_polygon": "[[812, 0], [808, 524], [1075, 535], [1086, 0]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_aaslbwtcdcwjukuo.jpg",
+        "chosen_item": "Spoon",
+        "chosen_polygon": "[[1720, 1141], [1695, 1636], [2012, 1642], [2043, 1149]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_anleedlurkiswrjv.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[117, 230], [118, 231], [120, 231], [120, 230], [119, 229], [118, 229]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_anleedlurkiswrjv.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[[374, 75], [319, 84], [320, 231], [375, 231]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_anleedlurkiswrjv.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[64, 74], [65, 196], [120, 206], [118, 84]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_anleedlurkiswrjv.jpg",
+        "chosen_item": "Spoon",
+        "chosen_polygon": "[[228, 375], [228, 478], [278, 496], [279, 386]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_althuptvuaxvjman.jpg",
+        "chosen_item": "Cooking oil",
+        "chosen_polygon": "[[337, 0], [334, 87], [410, 86], [415, 1]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_althuptvuaxvjman.jpg",
+        "chosen_item": "Dish towels",
+        "chosen_polygon": "[[212, 2], [217, 91], [332, 89], [333, 0]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_althuptvuaxvjman.jpg",
+        "chosen_item": "Pot",
+        "chosen_polygon": "[[110, 4], [121, 94], [212, 91], [208, 0]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_althuptvuaxvjman.jpg",
+        "chosen_item": "Spoon",
+        "chosen_polygon": "[[481, 0], [418, 0], [412, 85], [425, 44], [459, 37], [474, 59]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_afphfxkabyerpwkz.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[1072, 519], [1072, 611], [1171, 630], [1170, 525]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_afphfxkabyerpwkz.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[[987, 505], [950, 518], [952, 552], [988, 536]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_afphfxkabyerpwkz.jpg",
+        "chosen_item": "Pot",
+        "chosen_polygon": "[[987, 505], [896, 534], [894, 578], [988, 537]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_afphfxkabyerpwkz.jpg",
+        "chosen_item": "Spoon",
+        "chosen_polygon": "[[947, 562], [895, 588], [901, 764], [952, 708]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/26_segmented_sun_apslowdohuttdlkk.jpg",
+        "chosen_item": "Cooking oil",
+        "chosen_polygon": "[[335, 321], [334, 374], [384, 375], [384, 321]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/26_segmented_sun_apslowdohuttdlkk.jpg",
+        "chosen_item": "Dish towels",
+        "chosen_polygon": "[[212, 129], [212, 229], [236, 229], [237, 135]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/26_segmented_sun_apslowdohuttdlkk.jpg",
+        "chosen_item": "Pot",
+        "chosen_polygon": "[[179, 306], [148, 321], [148, 376], [181, 373]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/26_segmented_sun_apslowdohuttdlkk.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[184, 125], [185, 229], [209, 229], [209, 129]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_abnipsthatveonrh.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[[246, 47], [214, 51], [211, 116], [242, 116], [242, 90], [248, 86]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_abnipsthatveonrh.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[165, 55], [150, 56], [136, 72], [130, 64], [132, 119], [167, 117]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_abnipsthatveonrh.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[169, 56], [169, 117], [208, 117], [208, 56]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_abnipsthatveonrh.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[142, 195], [91, 217], [91, 233], [105, 232], [142, 213]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/20_segmented_sun_aasmevtpkslccptd.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[1314, 594], [1314, 642], [1386, 652], [1386, 608]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/20_segmented_sun_aasmevtpkslccptd.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/20_segmented_sun_aasmevtpkslccptd.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[1291, 105], [1215, 117], [1211, 284], [1290, 274]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/20_segmented_sun_aasmevtpkslccptd.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[1003, 118], [992, 407], [1071, 412], [1085, 134]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/16_segmented_sun_abwmjfnrmqjdltxn.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[[160, 392], [166, 414], [235, 411], [232, 389]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/16_segmented_sun_abwmjfnrmqjdltxn.jpg",
+        "chosen_item": "Dish towels",
+        "chosen_polygon": "[[350, 454], [357, 653], [469, 657], [463, 455]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/16_segmented_sun_abwmjfnrmqjdltxn.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[278, 454], [287, 648], [347, 655], [341, 456]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/16_segmented_sun_abwmjfnrmqjdltxn.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[844, 384], [682, 383], [678, 411], [771, 413], [798, 401], [837, 410]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_aitjzvdsvqtarrmr.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[215, 456], [61, 488], [91, 704], [118, 740], [243, 703]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_aitjzvdsvqtarrmr.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[196, 239], [33, 249], [117, 298], [40, 328], [118, 742], [243, 703]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_aitjzvdsvqtarrmr.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[600, 341], [594, 459], [649, 486], [682, 477], [686, 364]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_aitjzvdsvqtarrmr.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[471, 334], [472, 455], [528, 460], [530, 337]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_ajpanclprxjlugfr.jpg",
+        "chosen_item": "Cooking oil",
+        "chosen_polygon": "[[229, 111], [228, 173], [255, 183], [255, 114]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_ajpanclprxjlugfr.jpg",
+        "chosen_item": "Dish towels",
+        "chosen_polygon": "[[184, 22], [171, 24], [172, 69], [185, 69]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_ajpanclprxjlugfr.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[193, 105], [192, 138], [218, 147], [220, 153], [207, 166], [226, 172], [226, 112]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_ajpanclprxjlugfr.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[229, 111], [228, 173], [255, 183], [255, 114]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_arddicicgsnredyc.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[[128, 1], [129, 47], [234, 45], [235, 0]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_arddicicgsnredyc.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[187, 0], [189, 37], [222, 40], [229, 34], [227, 41], [212, 45], [232, 46], [235, 1]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_arddicicgsnredyc.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[238, 1], [235, 48], [299, 50], [299, 0]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_arddicicgsnredyc.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[110, 161], [112, 223], [236, 222], [238, 172]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_avaaxiemmqbibywj.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[0, 166], [0, 180], [35, 174], [35, 164], [3, 165], [3, 168]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_avaaxiemmqbibywj.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[[178, 207]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_avaaxiemmqbibywj.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[66, 158], [40, 161], [39, 173], [67, 170]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_avaaxiemmqbibywj.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[192, 122], [192, 133], [196, 136], [196, 139], [206, 140], [206, 122]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/17_segmented_sun_ahqykyyouxkgmdnq.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[[1656, 967], [1474, 978], [1476, 1344], [1660, 1331]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/17_segmented_sun_ahqykyyouxkgmdnq.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[2544, 154], [2357, 146], [2168, 217], [2178, 725], [2528, 725]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/17_segmented_sun_ahqykyyouxkgmdnq.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[2160, 242], [1982, 279], [1954, 313], [1961, 487], [2165, 449]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/17_segmented_sun_ahqykyyouxkgmdnq.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[2008, 1098], [1988, 1555], [2109, 1642], [2127, 1139]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_afnyuyhhwgifatsk.jpg",
+        "chosen_item": "Cooking oil",
+        "chosen_polygon": "[[15, 165], [16, 221], [58, 221], [58, 165]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_afnyuyhhwgifatsk.jpg",
+        "chosen_item": "Dish towels",
+        "chosen_polygon": "[[89, 160], [60, 166], [61, 220], [89, 207]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_afnyuyhhwgifatsk.jpg",
+        "chosen_item": "Pot",
+        "chosen_polygon": "[[88, 171], [61, 177], [61, 220], [89, 207]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_afnyuyhhwgifatsk.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[88, 160], [61, 165], [61, 175], [88, 169]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_ahhrhzkyvzaqeark.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[34, 139], [31, 237], [42, 246], [45, 146]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_ahhrhzkyvzaqeark.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[[27, 140], [0, 140], [0, 244], [29, 238]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_ahhrhzkyvzaqeark.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[19, 147], [0, 147], [0, 243], [23, 239]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_ahhrhzkyvzaqeark.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[18, 0], [17, 83], [62, 82], [65, 1]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_avtqpxlipvlcrsge.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[283, 497]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_avtqpxlipvlcrsge.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[[289, 500], [290, 501], [293, 501], [294, 502], [295, 501], [294, 500]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_avtqpxlipvlcrsge.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[240, 434], [239, 511], [307, 511], [308, 483]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_avtqpxlipvlcrsge.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[190, 396], [190, 442], [235, 480], [237, 429]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_adglbgauiayicwkm.jpg",
+        "chosen_item": "Cooking oil",
+        "chosen_polygon": "[[96, 140], [96, 211], [105, 207], [107, 177], [122, 179], [130, 206], [155, 207], [169, 193], [168, 138]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_adglbgauiayicwkm.jpg",
+        "chosen_item": "Dish towels",
+        "chosen_polygon": "[[6, 144], [5, 165], [1, 167], [1, 204], [13, 205], [13, 145]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_adglbgauiayicwkm.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[117, 188], [114, 188], [110, 191], [109, 195], [112, 200], [119, 194]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_adglbgauiayicwkm.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[100, 145], [100, 154], [130, 154], [130, 146]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/25_segmented_sun_aaxxjlsuzvqlgylf.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[689, 121], [658, 120], [627, 139], [629, 258], [694, 255], [662, 240], [694, 231]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/25_segmented_sun_aaxxjlsuzvqlgylf.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[[899, 33], [791, 68], [795, 337], [899, 346], [840, 322], [899, 319]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/25_segmented_sun_aaxxjlsuzvqlgylf.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[229, 227], [228, 352], [247, 382], [286, 382], [294, 230]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/25_segmented_sun_aaxxjlsuzvqlgylf.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[490, 442], [489, 557], [512, 575], [513, 455]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/34_segmented_sun_axpesxgsnxrsdqtr.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[824, 441], [820, 601], [854, 630], [855, 450]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/34_segmented_sun_axpesxgsnxrsdqtr.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[[149, 142], [149, 353], [202, 334], [202, 169]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/34_segmented_sun_axpesxgsnxrsdqtr.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[605, 395], [605, 413], [650, 413], [649, 395]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/34_segmented_sun_axpesxgsnxrsdqtr.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[561, 186], [432, 186], [433, 274], [547, 276]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/22_segmented_sun_aofyuejouqtbyooo.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[1088, 338], [1080, 337], [1079, 338], [1071, 339], [1087, 340]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/22_segmented_sun_aofyuejouqtbyooo.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[[420, 502], [344, 526], [344, 593], [425, 560]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/22_segmented_sun_aofyuejouqtbyooo.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[194, 103], [194, 336], [268, 333], [271, 119]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/22_segmented_sun_aofyuejouqtbyooo.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[754, 789], [762, 790], [763, 791], [768, 791], [769, 789], [766, 788]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_ajkrefpvgtunjiyi.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[370, 925], [392, 1079], [704, 1098], [700, 937]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_ajkrefpvgtunjiyi.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[[1213, 815], [1210, 821], [1212, 822], [1219, 822], [1221, 820], [1221, 814], [1215, 814]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_ajkrefpvgtunjiyi.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[798, 822], [797, 822], [796, 821], [795, 822], [792, 822], [793, 822], [794, 823], [797, 823]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_ajkrefpvgtunjiyi.jpg",
+        "chosen_item": "Spoon",
+        "chosen_polygon": "[[1209, 852], [1208, 852], [1208, 853]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/24_segmented_sun_aczchqarcsdhjfsg.jpg",
+        "chosen_item": "Cooking oil",
+        "chosen_polygon": "[[299, 421], [211, 433], [211, 541], [299, 516]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/24_segmented_sun_aczchqarcsdhjfsg.jpg",
+        "chosen_item": "Dish towels",
+        "chosen_polygon": "[[380, 424], [382, 469], [478, 502], [479, 446]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/24_segmented_sun_aczchqarcsdhjfsg.jpg",
+        "chosen_item": "Pot",
+        "chosen_polygon": "[[381, 475], [379, 632], [432, 672], [478, 673], [479, 513]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/24_segmented_sun_aczchqarcsdhjfsg.jpg",
+        "chosen_item": "Spoon",
+        "chosen_polygon": "[[27, 412], [0, 414], [0, 590], [29, 582]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_ajuqshhjcubjzedh.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[1240, 182], [1105, 201], [1109, 353], [1242, 347]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_ajuqshhjcubjzedh.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[[628, 494], [563, 505], [564, 546], [627, 531]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_ajuqshhjcubjzedh.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[472, 599], [468, 534], [370, 556], [392, 578]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_ajuqshhjcubjzedh.jpg",
+        "chosen_item": "Spoon",
+        "chosen_polygon": "[[957, 498], [955, 645], [1087, 674], [1086, 508]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/19_segmented_sun_anrbnligfknyblpd.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[785, 704], [778, 926], [899, 947], [907, 719]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/19_segmented_sun_anrbnligfknyblpd.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[[126, 739], [0, 759], [0, 1023], [37, 1014], [43, 987], [132, 982]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/19_segmented_sun_anrbnligfknyblpd.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[523, 613], [458, 625], [458, 902], [522, 885]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/19_segmented_sun_anrbnligfknyblpd.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[453, 95], [449, 368], [586, 372], [592, 101]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_awspbtmcoxakihbx.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[223, 227], [225, 235], [299, 254], [297, 241]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_awspbtmcoxakihbx.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[[223, 244], [223, 299], [299, 299], [299, 262]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_awspbtmcoxakihbx.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[104, 206], [109, 299], [151, 299], [147, 215]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_awspbtmcoxakihbx.jpg",
+        "chosen_item": "Spoon",
+        "chosen_polygon": "[[156, 211], [149, 218], [154, 299], [220, 299], [220, 225]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/22_segmented_sun_afkwbtipaeipuaer.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[94, 87], [94, 138], [122, 140], [122, 87]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/22_segmented_sun_afkwbtipaeipuaer.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[[39, 199], [39, 246], [62, 248], [64, 199]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/22_segmented_sun_afkwbtipaeipuaer.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[127, 87], [126, 108], [160, 108], [160, 88]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/22_segmented_sun_afkwbtipaeipuaer.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[205, 183], [205, 191], [227, 191], [227, 183]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/7_segmented_sun_auatsxdwxjotzqjr.jpg",
+        "chosen_item": "Cooking oil",
+        "chosen_polygon": "[[784, 177], [737, 182], [736, 224], [781, 221]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/7_segmented_sun_auatsxdwxjotzqjr.jpg",
+        "chosen_item": "Dish towels",
+        "chosen_polygon": "[[560, 188], [559, 267], [607, 267], [608, 214], [596, 210], [594, 194]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/7_segmented_sun_auatsxdwxjotzqjr.jpg",
+        "chosen_item": "Pot",
+        "chosen_polygon": "[[478, 173], [477, 232], [500, 243], [495, 267], [556, 267], [558, 188], [527, 182], [542, 217], [511, 221], [505, 197], [521, 181]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/7_segmented_sun_auatsxdwxjotzqjr.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[734, 183], [699, 188], [703, 269], [715, 266], [715, 234], [734, 231]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/18_segmented_sun_auhdmjbjkxwrixim.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[712, 442], [713, 488], [822, 490], [822, 443]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/18_segmented_sun_auhdmjbjkxwrixim.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[[483, 388], [480, 570], [561, 577], [565, 392]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/18_segmented_sun_auhdmjbjkxwrixim.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[382, 64], [378, 241], [443, 249], [447, 95]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/18_segmented_sun_auhdmjbjkxwrixim.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[512, 93], [450, 98], [451, 251], [513, 247]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/33_segmented_sun_awbppqusbpubsfeq.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[294, 157], [293, 266], [339, 270], [340, 158]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/33_segmented_sun_awbppqusbpubsfeq.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/33_segmented_sun_awbppqusbpubsfeq.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[294, 157], [293, 266], [339, 270], [340, 158]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/33_segmented_sun_awbppqusbpubsfeq.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[632, 367], [628, 449], [658, 477], [660, 381]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/17_segmented_sun_aiolecljpamcnixg.jpg",
+        "chosen_item": "Cooking oil",
+        "chosen_polygon": "[[276, 72], [280, 160], [255, 170], [255, 253], [316, 255], [314, 82]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/17_segmented_sun_aiolecljpamcnixg.jpg",
+        "chosen_item": "Dish towels",
+        "chosen_polygon": "[[739, 353], [672, 351], [671, 373], [735, 376]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/17_segmented_sun_aiolecljpamcnixg.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[577, 408], [510, 408], [509, 439], [574, 440]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/17_segmented_sun_aiolecljpamcnixg.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[591, 354], [594, 377], [658, 375], [658, 353]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/19_segmented_sun_ahljzhgcdpomplvg.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[698, 115], [634, 128], [638, 289], [700, 284]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/19_segmented_sun_ahljzhgcdpomplvg.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[[908, 78], [813, 96], [814, 247], [911, 238]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/19_segmented_sun_ahljzhgcdpomplvg.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[497, 150], [453, 157], [454, 221], [498, 216]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/19_segmented_sun_ahljzhgcdpomplvg.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[554, 142], [506, 149], [506, 215], [554, 210]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_aohalqjxiodeyhwm.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[538, 129], [530, 295], [701, 340], [710, 198]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_aohalqjxiodeyhwm.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[313, 39], [306, 248], [379, 321], [302, 338], [299, 463], [508, 462], [521, 131]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_aohalqjxiodeyhwm.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[313, 39], [306, 248], [379, 321], [302, 338], [299, 463], [508, 462], [521, 131]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_aohalqjxiodeyhwm.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[87, 0], [115, 40], [202, 71], [156, 213], [287, 238], [291, 24]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_abdzsryntppucwqi.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_abdzsryntppucwqi.jpg",
+        "chosen_item": "Dish towels",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_abdzsryntppucwqi.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[286, 37], [251, 43], [253, 110], [287, 109]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_abdzsryntppucwqi.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[444, 8], [381, 17], [379, 80], [442, 76]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/17_segmented_sun_agorklincwxrdtga.jpg",
+        "chosen_item": "Cooking oil",
+        "chosen_polygon": "[[1165, 884], [1136, 1389], [1394, 1389], [1396, 906]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/17_segmented_sun_agorklincwxrdtga.jpg",
+        "chosen_item": "Dish towels",
+        "chosen_polygon": "[[2018, 1737], [1805, 1757], [1801, 1863], [2016, 1836]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/17_segmented_sun_agorklincwxrdtga.jpg",
+        "chosen_item": "Pot",
+        "chosen_polygon": "[[1693, 933], [1700, 1380], [1893, 1401], [1902, 962]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/17_segmented_sun_agorklincwxrdtga.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[2845, 1626], [2814, 1614], [2630, 1639], [2625, 1722], [2840, 1697]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_afkaeizmulcsokfj.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[25, 225], [3, 242], [10, 326], [31, 289]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_afkaeizmulcsokfj.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[153, 31], [154, 80], [187, 80], [188, 32]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_afkaeizmulcsokfj.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[145, 30], [101, 35], [103, 116], [147, 113]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_afkaeizmulcsokfj.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[198, 29], [197, 79], [232, 82], [232, 28]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_adswmdfkombffqhi.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[256, 311], [217, 321], [224, 496], [267, 500]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_adswmdfkombffqhi.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[[615, 55], [545, 81], [549, 334], [627, 323]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_adswmdfkombffqhi.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[510, 482], [513, 682], [593, 698], [593, 485]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_adswmdfkombffqhi.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[598, 483], [599, 698], [698, 720], [695, 486]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_aoqkmjxwlivgbkhq.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[0, 787], [0, 878], [281, 872], [276, 789]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_aoqkmjxwlivgbkhq.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[[0, 0], [0, 453], [270, 445], [267, 3]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_aoqkmjxwlivgbkhq.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[1185, 783], [914, 786], [910, 876], [1185, 878]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_aoqkmjxwlivgbkhq.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[897, 792], [303, 790], [301, 873], [891, 877]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_axlhgujigbdqvdzl.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[68, 72], [47, 75], [48, 125], [69, 124]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_axlhgujigbdqvdzl.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[[77, 177], [77, 230], [102, 237], [102, 181]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_axlhgujigbdqvdzl.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[33, 168], [33, 176], [51, 180], [54, 179], [53, 169]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_axlhgujigbdqvdzl.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[208, 49], [156, 58], [158, 125], [210, 123]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_aucefajtdpoipkjt.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[[954, 208], [960, 407], [940, 442], [1097, 445], [1098, 214]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_aucefajtdpoipkjt.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[702, 618], [535, 626], [542, 883], [709, 872]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_aucefajtdpoipkjt.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[1108, 211], [1102, 443], [1227, 449], [1229, 216]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_aucefajtdpoipkjt.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[1167, 679], [1156, 872], [1206, 883], [1215, 699]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_atdfrsodpyskmywe.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[267, 228], [264, 365], [296, 371], [298, 233]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_atdfrsodpyskmywe.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_atdfrsodpyskmywe.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[725, 405], [545, 411], [543, 443], [725, 427]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_atdfrsodpyskmywe.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[344, 231], [337, 338], [394, 340], [394, 233]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_avtqdvhwdfzykzby.jpg",
+        "chosen_item": "Cooking oil",
+        "chosen_polygon": "[[954, 744], [954, 915], [1092, 937], [1092, 756]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_avtqdvhwdfzykzby.jpg",
+        "chosen_item": "Dish towels",
+        "chosen_polygon": "[[541, 289], [458, 302], [463, 400], [545, 391]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_avtqdvhwdfzykzby.jpg",
+        "chosen_item": "Plate",
+        "chosen_polygon": "[[1213, 704], [1211, 956], [1295, 958], [1294, 711]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_avtqdvhwdfzykzby.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[828, 734], [829, 895], [950, 915], [950, 745]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/21_segmented_sun_abvefvntluoxopow.jpg",
+        "chosen_item": "Bowl",
+        "chosen_polygon": "[[192, 128], [191, 157], [207, 161], [209, 130]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/21_segmented_sun_abvefvntluoxopow.jpg",
+        "chosen_item": "Cutting knife",
+        "chosen_polygon": "[[92, 149], [61, 158], [63, 199], [89, 190]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/21_segmented_sun_abvefvntluoxopow.jpg",
+        "chosen_item": "Mug",
+        "chosen_polygon": "[[0, 5], [0, 37], [32, 39], [31, 12]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/21_segmented_sun_abvefvntluoxopow.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[58, 159], [16, 171], [18, 198], [59, 199]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aamjqvjnuxklyagf.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[143, 166], [113, 170], [112, 184], [143, 181]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aamjqvjnuxklyagf.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[[118, 11], [115, 110], [138, 111], [143, 19]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aamjqvjnuxklyagf.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[20, 0], [20, 68], [89, 73], [91, 0]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aamjqvjnuxklyagf.jpg",
+        "chosen_item": "Spoon",
+        "chosen_polygon": "[[143, 166], [112, 171], [111, 246], [144, 232]]",
+        "info_columns": [
+            "id"
+        ],
+        "room_type": "kitchen"
+    }
+]
