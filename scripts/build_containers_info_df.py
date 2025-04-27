@@ -448,12 +448,18 @@ def describe_csv_row(row):
 
     unclear_labels = ['drawer cabinet', 'drawer cabinet door', 'drawer door']
 
-    description = f'Container id {id}, has height and width ratio of {ratio}'
+    # description = f'Container id {id}, has height and width ratio of {ratio}'
     # if label not in unclear_labels:
     #     description += f'is a "{label}" {position} the countertop.'
     # else:
     #     description += f'is {position} the countertop.'
     # description += f'it is {position} the countertop, and the ratio between its height and width is {ratio}.'
+
+    description = f'Container id {id},'
+    if label not in unclear_labels:
+        description += f'is a "{label}" {position} the countertop, with height and width ratio of {ratio}.'
+    else:
+        description += f'is {position} the countertop, with height and width ratio of {ratio}.'
 
     '''
     direction_map = {
@@ -1318,5 +1324,5 @@ if __name__ == '__main__':
     # create_random_image_subset(csv_path=csv_with_similar_neighbors_unclear_label, json_path=random_image_subset)
 
     subset_df = filter_csv_by_image_subset(csv_path=csv_with_similar_neighbors_unclear_label, json_path=random_image_subset)
-    csv_long_id = "../long_id_ratio_with_description.csv"
+    csv_long_id = "../long_id_pos_lab_ratio_with_description.csv"
     add_descriptions_to_csv(csv_path=csv_with_similar_neighbors_unclear_label, output_path=csv_long_id, subset_df=subset_df)
