@@ -76,6 +76,9 @@ def run_queries_in_chat_gpt(csv_path, json_path, chatgpt_output):
             })
         except Exception as e:
             print(f"Error for {image_path}: {e}")
+            if "Error code: 429" in e:
+                print("break running...")
+                break
 
     # Save results to a file
     output_df = pd.DataFrame(results)
