@@ -28,16 +28,15 @@ def build_chatgpt_baseline(json_path, chatgpt_output):
                 f"The items to store are:\n"
                 + "\n".join(f"- {item}" for item in items) +
                 "\n\nFor each item, determine the most likely storage location among visible drawers and cabinet doors only."
-                "\nReturn 4 bounding box coordinates per item in this format: [[xmin,ymin],[xmin,ymax],[xmax,ymax],[xmax,ymin]]."
+                "\nReturn 4 bounding box coordinates per item in this format: [[117,290],[117,348],[167,348],[168,320]]."
                 "\nIf you cannot determine a suitable location, output []."
-                "\nOnly output the list of bounding boxes in the same order as the input items."
-                "\nDo not output anything else."
+                "\nOnly output the list of bounding boxes per item."
         )
 
         try:
             # Send the prompt to the ChatGPT API
             response = client.chat.completions.create(
-                model="gpt-4-vision",  # Use GPT-4 with vision capabilities
+                model="gpt-4o",  # Use GPT-4 with vision capabilities
                 messages=[{"role": "user", "content": prompt}],
                 temperature=0  # for deterministic output
             )
