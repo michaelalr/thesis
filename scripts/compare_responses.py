@@ -268,6 +268,33 @@ def denormalize_bbox_to_polygon(bbox_norm, image_path):
     # Return as rectangle polygon: top-left, bottom-left, bottom-right, top-right
     return [[x_min, y_min], [x_min, y_max], [x_max, y_max], [x_max, y_min]]
 
+def simplify_bbox(complex_polygon):
+    """
+    Simplify a complex polygon (with multiple points) to a bounding box
+    defined by min_x, min_y, max_x, max_y coordinates.
+    """
+    all_points = []
+
+    # Flatten the polygon if it's a list of lists (complex polygons)
+    if isinstance(complex_polygon, list):
+        for sublist in complex_polygon:
+            if isinstance(sublist, list):
+                all_points.extend(sublist)
+
+    # Extract all x and y coordinates
+    x_coords = [point[0] for point in all_points]
+    y_coords = [point[1] for point in all_points]
+
+    # Calculate the min and max values of x and y
+    min_x = min(x_coords)
+    max_x = max(x_coords)
+    min_y = min(y_coords)
+    max_y = max(y_coords)
+
+    # Return the simplified bounding box as a list of coordinates
+    simplified_bbox = [[min_x, min_y], [min_x, max_y], [max_x, max_y], [max_x, min_y]]
+
+    return simplified_bbox
 
 def give_score_on_data(data_json, users_responses_json, scores_json, response_type="human"):
     # Load correct annotations
@@ -300,6 +327,8 @@ def give_score_on_data(data_json, users_responses_json, scores_json, response_ty
             user_id = "chatgpt"
         elif response_type == "gemini":
             user_id = "gemini"
+        elif response_type == "dino":
+            user_id = "dino"
         else:
             user_id = "random"
         image_path = response["image_path"]
@@ -318,6 +347,15 @@ def give_score_on_data(data_json, users_responses_json, scores_json, response_ty
                 chosen_polygon = []
             else:
                 chosen_polygon = literal_eval(response["gemini_bbox_polygon_string"])
+        elif response_type == "dino":
+            containers_mask_polygon = json.loads(response['containers_mask_polygon'])
+            # chosen_polygon = literal_eval(response["containers_mask_polygon"])
+            if isinstance(containers_mask_polygon, list) and len(containers_mask_polygon) > 1:
+                chosen_polygon = simplify_bbox(containers_mask_polygon)
+            elif isinstance(containers_mask_polygon, list) and len(containers_mask_polygon) == 1:
+                chosen_polygon = containers_mask_polygon[0]
+            else:
+                print(f"Unexpected containers_mask_polygon format in {image_path}")
         else:
             chosen_polygon = literal_eval(response["chosen_polygon"])
 
@@ -328,7 +366,11 @@ def give_score_on_data(data_json, users_responses_json, scores_json, response_ty
         correct_polygon = correct_lookup.get((image_path, chosen_item))
         if correct_polygon:
             # Compute IoU score
-            iou = compute_iou(correct_polygon, chosen_polygon)
+            try:
+                iou = compute_iou(correct_polygon, chosen_polygon)
+            except Exception as e:
+                print(f"Error compute iou: {e}")
+
             iou_scores[user_id] = iou_scores.get(user_id, []) + [iou]
 
             # In Random or human cases - if IoU is 1, count it as a correct response
@@ -341,6 +383,9 @@ def give_score_on_data(data_json, users_responses_json, scores_json, response_ty
                     user_scores[user_id] = user_scores.get(user_id, 0) + 1
             elif response_type == "gemini":
                 if iou >= 0.5:
+                    user_scores[user_id] = user_scores.get(user_id, 0) + 1
+            elif response_type == "dino":
+                if iou == 1:
                     user_scores[user_id] = user_scores.get(user_id, 0) + 1
 
     # Compute percentage scores
@@ -513,7 +558,9 @@ def calculate_user_accuracy(train_data_json, user_responses_json):
 
 
 if __name__ == "__main__":
-    give_score_on_data(data_json="../data/train_data/train_data.json", users_responses_json="../models/chat_gpt/chatgpt_train_long_id_ratio.json",
-                       scores_json="../models/chat_gpt/scores_chatgpt_train_long_id_ration.json", response_type="chatgpt")
+    # give_score_on_data(data_json="../data/train_data/train_data.json", users_responses_json="../models/chat_gpt/chatgpt_train_long_id_pos_lab_neighbors.json",
+    #                    scores_json="../models/chat_gpt/scores_chatgpt_train_long_id_pos_lab_neighbors.json", response_type="chatgpt")
+    give_score_on_data(data_json="../data/test_data/test_data.json", users_responses_json="../models/gemini/test_data_with_gemini_bboxes_as_strings.json",
+                       scores_json="../models/gemini/scores_gemini_test_data.json", response_type="gemini")
     # check_gemini_bbox()
     # calculate_user_accuracy(train_data_json="../data/train_data/train_data.json", user_responses_json="../baselines/human/cleaned_responses.json")

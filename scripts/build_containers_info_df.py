@@ -455,13 +455,13 @@ def describe_csv_row(row):
     #     description += f'is {position} the countertop.'
     # description += f'it is {position} the countertop, and the ratio between its height and width is {ratio}.'
 
-    description = f'Container id {id},'
+    description = f'Container id {id}'
     if label not in unclear_labels:
-        description += f'is a "{label}" {position} the countertop, with height and width ratio of {ratio}.'
+        description += f', is a "{label}" {position} the countertop.'
     else:
-        description += f'is {position} the countertop, with height and width ratio of {ratio}.'
+        description += f', is {position} the countertop.'
 
-    '''
+
     direction_map = {
         "above": "above",
         "below": "below",
@@ -472,6 +472,18 @@ def describe_csv_row(row):
         "bottom_left": "at the bottom-left of",
         "bottom_right": "at the bottom-right of",
     }
+
+    # Mapping to switch directions
+    direction_switch = {
+        "above": "below",
+        "below": "above",
+        "left": "to the right of",
+        "right": "to the left of",
+        "top_left": "at the bottom-right of",
+        "top_right": "at the bottom-left of",
+        "bottom_left": "at the top-right of",
+        "bottom_right": "at the top-left of",
+    }
     
     # Handle container neighbors if valid
     try:
@@ -480,34 +492,41 @@ def describe_csv_row(row):
 
         if isinstance(neighbors, dict):
             phrases = [
-                f"{direction_map[d]} it there is the container id {n}"
+                f"{direction_switch[d]} container id {n}"
                 for d, n in neighbors.items() if n is not None
             ]
 
             if phrases:
-                description += " Moreover, the order relation between this container and the others is: " + ", ".join(
-                    phrases) + "."
+                if len(phrases) == 1:
+                    description += " Additionally, it is located " + phrases[0] + "."
+                else:
+                    description += " Additionally, it is located " + ", ".join(phrases[:-1]) + ", and " + phrases[-1] + "."
+                # description += " Moreover, the order relation between this container and the others is: " + ", ".join(
+                #     phrases) + "."
+                # description += " Additionally, it is located " + ", ".join(
+                #     phrases) + "."
 
     except Exception as e:
         print(f"Error parsing neighbors: {e}")
         pass  # In case of malformed JSON or any error, skip neighbor info
 
     # Handle anchor neighbors if valid
-    try:
-        if isinstance(anchor_neighbors, str):
-            anchor_neighbors = json.loads(anchor_neighbors)
+    # try:
+    #     if isinstance(anchor_neighbors, str):
+    #         anchor_neighbors = json.loads(anchor_neighbors)
+    #
+    #     if isinstance(anchor_neighbors, dict):
+    #         anchor_phrases = [
+    #             f"{direction_switch[d]} the {anchor.lower()}"
+    #             for d, anchor in anchor_neighbors.items() if anchor is not None
+    #         ]
+    #         if anchor_phrases:
+    #             # description += " Also, here is the order relation between this container and the anchors in the kitchen: " + ", ".join(
+    #             description += " Additionally, it is located " + ", ".join(
+    #                 anchor_phrases) + "."
+    # except Exception as e:
+    #     print(f"Error parsing anchor_neighbors: {e}")
 
-        if isinstance(anchor_neighbors, dict):
-            anchor_phrases = [
-                f"{direction_map[d]} it there is a {anchor}"
-                for d, anchor in anchor_neighbors.items() if anchor is not None
-            ]
-            if anchor_phrases:
-                description += " Also, here is the order relation between this container and the anchors in the kitchen: " + ", ".join(
-                    anchor_phrases) + "."
-    except Exception as e:
-        print(f"Error parsing anchor_neighbors: {e}")
-    '''
     return description
 
 
@@ -1324,5 +1343,5 @@ if __name__ == '__main__':
     # create_random_image_subset(csv_path=csv_with_similar_neighbors_unclear_label, json_path=random_image_subset)
 
     subset_df = filter_csv_by_image_subset(csv_path=csv_with_similar_neighbors_unclear_label, json_path=random_image_subset)
-    csv_long_id = "../long_id_pos_lab_ratio_with_description.csv"
+    csv_long_id = "../long_id_pos_lab_neighbors_with_description.csv"
     add_descriptions_to_csv(csv_path=csv_with_similar_neighbors_unclear_label, output_path=csv_long_id, subset_df=subset_df)

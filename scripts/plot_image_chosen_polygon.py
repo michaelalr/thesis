@@ -5,6 +5,7 @@ from ast import literal_eval
 from urllib.request import urlopen
 from PIL import Image
 import io
+from compare_responses import simplify_bbox
 
 def show_polygon_for_image(json_path, image_filename, item, check_model_answer_polygon):
     # Load the data
@@ -31,9 +32,18 @@ def show_polygon_for_image(json_path, image_filename, item, check_model_answer_p
     ax.imshow(image)
 
     answer_polygon = literal_eval(check_model_answer_polygon)
-    answer_polygon = [(x, y) for x, y in answer_polygon]
-    answer_patch = patches.Polygon(answer_polygon, closed=True, edgecolor='blue', fill=False, linewidth=2)
-    ax.add_patch(answer_patch)
+    if len(answer_polygon) > 1:
+        for pol in answer_polygon:
+            poly = [(x, y) for x, y in pol]
+            poly_patch = patches.Polygon(poly, closed=True, edgecolor='blue', fill=False, linewidth=2)
+            ax.add_patch(poly_patch)
+        simplified_bbox = simplify_bbox(answer_polygon)
+        answer_patch = patches.Polygon(simplified_bbox, closed=True, edgecolor='pink', fill=False, linewidth=2)
+        ax.add_patch(answer_patch)
+    else:
+        answer_polygon = [(x, y) for x, y in answer_polygon]
+        answer_patch = patches.Polygon(answer_polygon, closed=True, edgecolor='blue', fill=False, linewidth=2)
+        ax.add_patch(answer_patch)
 
     # If polygon is not empty, draw it
     if chosen_polygon:
@@ -53,7 +63,7 @@ def show_polygon_for_image(json_path, image_filename, item, check_model_answer_p
 if __name__ == '__main__':
     # Example usage:
     json_path = "../data/train_data/train_data.json"
-    image_filename = "15_segmented_sun_afxjcqelwocpxiyf.jpg"
-    item = "Pan"
-    check_model_answer_polygon = "[[429, 408], [392, 420], [394, 562], [431, 529]]"
+    image_filename = "10_segmented_sun_aazqqvqrigwzykdp.jpg"
+    item = "Pot"
+    check_model_answer_polygon = "[[[47, 29], [47, 30]], [[31, 22]], [[47, 12], [47, 26]], [[47, 8], [47, 10]], [[14, 1], [15, 66], [98, 61], [98, 0], [84, 0], [76, 56], [27, 56], [25, 1]]]"
     show_polygon_for_image(json_path=json_path, image_filename=image_filename, item=item, check_model_answer_polygon=check_model_answer_polygon)

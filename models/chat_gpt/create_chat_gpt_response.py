@@ -80,15 +80,26 @@ def create_json_from_csvs(info_csv_path, response_csv_path, output_json_path, co
     print(f"Saved {len(results)} entries to {output_json_path}")
 
 if __name__ == '__main__':
-    info_csv_path = "../../labeled_containers_with_description.csv"
-    response_csv_path = "chatgpt_reasoning_results_2.csv"
-    output_json_path = "./chatgpt_train_responses_2.json"
+    info_csv_path = "../../long_id_pos_lab_neighbors_with_description.csv"
+    response_csv_path = "chatgpt_results_long_id_pos_lab_neighbors.csv"
+    output_json_path = "./chatgpt_train_long_id_pos_lab_neighbors.json"
     columns_in_description_1 = ["label", "above_or_below_countertop", "height_width_ratio"]
     columns_in_description_2 = ["label", "score", "above_or_below_countertop", "height_width_ratio", "neighbors", "anchor_neighbors"]
+    columns_in_description_3 = ["label", "above_or_below_countertop", "height_width_ratio", "neighbors", "anchor_neighbors"]
+    columns_in_description_4 = ["id"]
+    columns_in_description_5 = ["id", "label"]
+    columns_in_description_6 = ["id", "above_or_below_countertop"]
+    columns_in_description_7 = ["id", "above_or_below_countertop", "label"]
+    columns_in_description_8 = ["id", "height_width_ratio"]
+    columns_in_description_9 = ["id", "above_or_below_countertop", "label", "height_width_ratio"]
+    columns_in_description_10 = ["id", "neighbors"]
+    columns_in_description_11 = ["id", "anchor_neighbors"]
+    columns_in_description_12 = ["id", "above_or_below_countertop", "label", "anchor_neighbors"]
+    columns_in_description_13 = ["id", "above_or_below_countertop", "label", "neighbors"]
 
     create_json_from_csvs(
         info_csv_path=info_csv_path,
         response_csv_path=response_csv_path,
         output_json_path=output_json_path,
-        columns_in_description=columns_in_description_2
+        columns_in_description=columns_in_description_13
     )

@@ -88,7 +88,7 @@ def run_queries_in_chat_gpt(csv_path, json_path, chatgpt_output):
 
 if __name__ == '__main__':
     # Load data
-    csv_path = "../../labeled_containers_with_description.csv"
+    csv_path = "../../long_id_pos_lab_neighbors_with_description.csv"
     json_path = "../../image_details/image_to_items_dict.json"
-    chatgpt_output = "./chatgpt_reasoning_results_2.csv"
+    chatgpt_output = "./chatgpt_results_long_id_pos_lab_neighbors.csv"
     run_queries_in_chat_gpt(csv_path=csv_path, json_path=json_path, chatgpt_output=chatgpt_output)
