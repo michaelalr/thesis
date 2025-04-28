@@ -1,21 +1,27 @@
 {
-  "https://raw.githubusercontent.com/michaelalr/thesis/app/images/kitchen/10_segmented_sun_aduyhjidfuvieylx.jpg": {
-    "items": [
-      "Bottle opener",
-      "Cutting board",
-      "Pan",
-      "Spoon"
-    ],
-    "bboxes": []
-  },
-  "https://raw.githubusercontent.com/michaelalr/thesis/app/images/kitchen/10_segmented_sun_adwbdnqzwgqtryez.jpg": {
-    "items": [
-      "Cooking oil",
-      "Dish towels",
-      "Pot",
-      "Spoon"
-    ],
-    "bboxes": null,
-    "error": "Extra data: line 1 column 3 (char 2)"
-  }
+  "../images/kitchen/10_segmented_sun_aaslbwtcdcwjukuo.jpg": [
+    {
+      "Cutting board": "[]"
+    },
+    {
+      "Pot": "[[169,351],[169,386],[229,386],[229,351]]"
+    },
+    {
+      "Spoon": "[[518,320],[518,370],[576,370],[576,320]]"
+    }
+  ],
+  "../images/kitchen/10_segmented_sun_aaszvkbutanmxnsb.jpg": [
+    {
+      "Cooking oil": "[[402, 174], [470, 174], [470, 274], [402, 274]]"
+    },
+    {
+      "Dish towels": "[[83, 355], [171, 355], [171, 523], [83, 523]]"
+    },
+    {
+      "Plate": "[[287, 355], [366, 355], [366, 523], [287, 523]]"
+    },
+    {
+      "Spices": "[[471, 174], [540, 174], [540, 274], [471, 274]]"
+    }
+  ]
 }
