@@ -9,7 +9,7 @@ def create_image_to_items_dict(input_json_path, output_json_path):
     image_to_items = defaultdict(list)
 
     for entry in data:
-        image_path = clean_image_path(entry["image_path"])
+        image_path = clean_image_path(entry["image_path"], is_test=True)
         chosen_item = entry["chosen_item"]
         image_to_items[image_path].append(chosen_item)
 
@@ -20,6 +20,6 @@ def create_image_to_items_dict(input_json_path, output_json_path):
     print(f"Created mapping of image_path to chosen_items at: {output_json_path}")
 
 if __name__ == '__main__':
-    input_json_path = "../data/train_data/train_data.json"
-    output_json_path = "../image_details/image_to_items_dict.json"
+    input_json_path = "../data/test_data/test_data.json"
+    output_json_path = "../image_details/image_to_items_dict_test.json"
     create_image_to_items_dict(input_json_path=input_json_path, output_json_path=output_json_path)

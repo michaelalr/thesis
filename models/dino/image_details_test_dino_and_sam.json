@@ -1,0 +1,1522 @@
+[
+    {
+        "image_path_html": "images/validation/5_segmented_Bottle_opener_19_a.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[874, 921], [638, 953], [635, 1285], [868, 1213]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.438, [[[874, 921], [638, 953], [635, 1285], [868, 1213]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/8_segmented_Food_containers__4_a.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[340, 153], [162, 183], [176, 666], [350, 664]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.418, [[[340, 153], [162, 183], [176, 666], [350, 664]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Ear_toothpick_21_a.jpeg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[2293, 357], [1647, 368], [1618, 1367], [2203, 1380]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.425, [[[2293, 357], [1647, 368], [1618, 1367], [2203, 1380]]]]",
+        "room_type": "validation",
+        "chosen_item": "Ear_toothpick"
+    },
+    {
+        "image_path_html": "images/validation/7_segmented_Painkiller_23_a.jpeg",
+        "num_detections": 7,
+        "containers_mask_polygon": "[[[1712, 1945], [1720, 2400], [2102, 2547], [2104, 2041]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.392, [[[1712, 1945], [1720, 2400], [2102, 2547], [2104, 2041]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Random_8 - Camera_a.jpg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[2657, 1784], [2652, 1778], [2644, 1777], [2611, 1785], [2650, 1790]], [[2530, 1769], [2524, 1766], [2523, 1767], [2521, 1767], [2518, 1770], [2521, 1773], [2527, 1773]], [[1834, 444], [1667, 1723], [2664, 1763], [2615, 560]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer cabinet door\", 0.348, [[[2657, 1784], [2652, 1778], [2644, 1777], [2611, 1785], [2650, 1790]], [[2530, 1769], [2524, 1766], [2523, 1767], [2521, 1767], [2518, 1770], [2521, 1773], [2527, 1773]], [[1834, 444], [1667, 1723], [2664, 1763], [2615, 560]]]]",
+        "room_type": "validation",
+        "chosen_item": "Camera"
+    },
+    {
+        "image_path_html": "images/validation/7_segmented_Painkiller_1_a.jpg",
+        "num_detections": 7,
+        "containers_mask_polygon": "[[[874, 1335], [541, 1381], [542, 1541], [870, 1482]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.419, [[[874, 1335], [541, 1381], [542, 1541], [870, 1482]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/7_segmented_Bottle_opener_1_a.jpg",
+        "num_detections": 7,
+        "containers_mask_polygon": "[[[1076, 668], [931, 711], [935, 819], [1077, 767]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.402, [[[1076, 668], [931, 711], [935, 819], [1077, 767]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/7_segmented_Food_containers__34_a.jpg",
+        "num_detections": 7,
+        "containers_mask_polygon": "[[[845, 635], [841, 997], [1147, 998], [1155, 636]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.424, [[[845, 635], [841, 997], [1147, 998], [1155, 636]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Food_containers__24_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[1060, 1215], [1016, 1662], [1073, 1741], [1102, 1593], [1314, 1547], [1337, 1386]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.387, [[[1060, 1215], [1016, 1662], [1073, 1741], [1102, 1593], [1314, 1547], [1337, 1386]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Food_containers__41_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[516, 530], [345, 567], [361, 817], [521, 749]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.407, [[[516, 530], [345, 567], [361, 817], [521, 749]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Painkiller_30_a.jpg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[1721, 496], [1723, 496], [1724, 497], [1732, 497], [1734, 496], [1734, 495], [1733, 494], [1725, 494]], [[1800, 481], [1810, 482], [1820, 481], [1822, 479], [1807, 478], [1802, 479]], [[1999, 475], [1450, 571], [1448, 999], [1999, 1066]], [[1970, 450], [1979, 450], [1980, 449], [1979, 448], [1971, 448], [1970, 449]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.568, [[[1721, 496], [1723, 496], [1724, 497], [1732, 497], [1734, 496], [1734, 495], [1733, 494], [1725, 494]], [[1800, 481], [1810, 482], [1820, 481], [1822, 479], [1807, 478], [1802, 479]], [[1999, 475], [1450, 571], [1448, 999], [1999, 1066]], [[1970, 450], [1979, 450], [1980, 449], [1979, 448], [1971, 448], [1970, 449]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/10_segmented_Bottle_opener_14_a.jpg",
+        "num_detections": 10,
+        "containers_mask_polygon": "[[[570, 377], [572, 429], [650, 453], [651, 395]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.397, [[[570, 377], [572, 429], [650, 453], [651, 395]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Food_containers__3_a.jpg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[1068, 833], [692, 1139], [714, 1490], [1029, 1155]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.404, [[[1068, 833], [692, 1139], [714, 1490], [1029, 1155]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/8_segmented_Food_containers__25_a.jpeg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[241, 446], [253, 1367], [405, 1338], [411, 472]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.364, [[[241, 446], [253, 1367], [405, 1338], [411, 472]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/4_segmented_Ear_toothpick_24_a.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[2513, 797], [2512, 813], [2513, 817], [2514, 817], [2514, 798]], [[2520, 578], [2557, 1374], [2938, 1342], [2862, 619]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.332, [[[2513, 797], [2512, 813], [2513, 817], [2514, 817], [2514, 798]], [[2520, 578], [2557, 1374], [2938, 1342], [2862, 619]]]]",
+        "room_type": "validation",
+        "chosen_item": "Ear_toothpick"
+    },
+    {
+        "image_path_html": "images/validation/7_segmented_Bottle_opener_35_a.jpg",
+        "num_detections": 7,
+        "containers_mask_polygon": "[[[1563, 1679], [956, 1688], [962, 1853], [1559, 1852]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.566, [[[1563, 1679], [956, 1688], [962, 1853], [1559, 1852]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Painkiller_17_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[806, 373], [103, 559], [159, 665], [798, 429]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.435, [[[806, 373], [103, 559], [159, 665], [798, 429]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/10_segmented_Bottle_opener_26_a.jpg",
+        "num_detections": 10,
+        "containers_mask_polygon": "[[[449, 139], [453, 474], [641, 481], [641, 173]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.415, [[[449, 139], [453, 474], [641, 481], [641, 173]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/5_segmented_Screwdriver_13_a.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[1206, 2468], [1215, 3275], [1459, 3619], [1478, 2725]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.408, [[[1206, 2468], [1215, 3275], [1459, 3619], [1478, 2725]]]]",
+        "room_type": "validation",
+        "chosen_item": "Screwdriver"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Ear_toothpick_9_a.jpg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[1042, 614], [429, 870], [480, 1120], [1042, 800]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.628, [[[1042, 614], [429, 870], [480, 1120], [1042, 800]]]]",
+        "room_type": "validation",
+        "chosen_item": "Ear_toothpick"
+    },
+    {
+        "image_path_html": "images/validation/11_segmented_Food_containers__8_a.jpg",
+        "num_detections": 11,
+        "containers_mask_polygon": "[[[688, 335], [537, 345], [553, 755], [697, 751]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.387, [[[688, 335], [537, 345], [553, 755], [697, 751]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Ear_toothpick_7_a.jpg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[816, 403], [721, 475], [705, 734], [879, 813], [989, 456]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer cabinet door\", 0.412, [[[816, 403], [721, 475], [705, 734], [879, 813], [989, 456]]]]",
+        "room_type": "validation",
+        "chosen_item": "Ear_toothpick"
+    },
+    {
+        "image_path_html": "images/validation/4_segmented_Random_20 - Toilet paper_a.jpeg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[2293, 357], [1647, 368], [1618, 1367], [2203, 1380]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.385, [[[2293, 357], [1647, 368], [1618, 1367], [2203, 1380]]]]",
+        "room_type": "validation",
+        "chosen_item": "Toilet paper"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Bottle_opener_47_a.jpeg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[538, 612], [577, 838], [809, 964], [782, 693]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.383, [[[538, 612], [577, 838], [809, 964], [782, 693]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/4_segmented_Food_containers__28_a.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[2602, 0], [1586, 65], [1575, 1059], [2528, 1129]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.408, [[[2602, 0], [1586, 65], [1575, 1059], [2528, 1129]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/5_segmented_Bottle_opener_15_a.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[634, 143], [630, 443], [802, 450], [805, 154]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.444, [[[634, 143], [630, 443], [802, 450], [805, 154]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/12_segmented_Random_15 - Cereals_a.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[435, 740], [335, 771], [339, 1109], [431, 1046]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.415, [[[435, 740], [335, 771], [339, 1109], [431, 1046]]]]",
+        "room_type": "validation",
+        "chosen_item": "Cereals"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Food_containers__26_a.jpeg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[1435, 1065], [0, 1082], [0, 2062], [1438, 2012]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer cabinet door\", 0.33, [[[1435, 1065], [0, 1082], [0, 2062], [1438, 2012]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/13_segmented_Bottle_opener_27_a.jpg",
+        "num_detections": 13,
+        "containers_mask_polygon": "[[[622, 712], [431, 772], [431, 856], [622, 785]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.483, [[[622, 712], [431, 772], [431, 856], [622, 785]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/5_segmented_Food_containers__10_a.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[991, 516], [1015, 848], [1241, 871], [1222, 517]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.406, [[[991, 516], [1015, 848], [1241, 871], [1222, 517]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Painkiller_11_a.jpg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[826, 383], [686, 345], [498, 387], [502, 659], [642, 732], [803, 648]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer cabinet door\", 0.374, [[[826, 383], [686, 345], [498, 387], [502, 659], [642, 732], [803, 648]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/1_segmented_Random_3 - Plates_a.jpeg",
+        "num_detections": 1,
+        "containers_mask_polygon": "[[[1086, 1422], [371, 1426], [526, 2178], [1155, 2149]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer cabinet\", 0.393, [[[1086, 1422], [371, 1426], [526, 2178], [1155, 2149]]]]",
+        "room_type": "validation",
+        "chosen_item": "Plates"
+    },
+    {
+        "image_path_html": "images/validation/5_segmented_Painkiller_22_a.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[1599, 1336], [1177, 1341], [1099, 2244], [1538, 2143]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.378, [[[1599, 1336], [1177, 1341], [1099, 2244], [1538, 2143]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Painkiller_25_a.jpeg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[121, 97], [275, 1137], [451, 1073], [334, 147]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.328, [[[121, 97], [275, 1137], [451, 1073], [334, 147]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Ear_toothpick_16_a.jpeg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[281, 1147], [289, 1488], [610, 1774], [629, 1357]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.58, [[[281, 1147], [289, 1488], [610, 1774], [629, 1357]]]]",
+        "room_type": "validation",
+        "chosen_item": "Ear_toothpick"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Painkiller_14_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[607, 1350], [405, 1359], [403, 1489], [600, 1478]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.622, [[[607, 1350], [405, 1359], [403, 1489], [600, 1478]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/14_segmented_Iron_1_a.jpg",
+        "num_detections": 14,
+        "containers_mask_polygon": "[[[626, 366], [604, 978], [746, 1007], [789, 371]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.502, [[[626, 366], [604, 978], [746, 1007], [789, 371]]]]",
+        "room_type": "validation",
+        "chosen_item": "Iron"
+    },
+    {
+        "image_path_html": "images/validation/8_segmented_Random_19 - Football ball_a.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[786, 614], [263, 788], [330, 1186], [794, 895]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.432, [[[786, 614], [263, 788], [330, 1186], [794, 895]]]]",
+        "room_type": "validation",
+        "chosen_item": "Football ball"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Screwdriver_2_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[725, 1193], [705, 1608], [1146, 1950], [1147, 1388]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.41, [[[725, 1193], [705, 1608], [1146, 1950], [1147, 1388]]]]",
+        "room_type": "validation",
+        "chosen_item": "Screwdriver"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Painkiller_12_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[816, 403], [721, 475], [705, 734], [879, 813], [989, 456]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.554, [[[816, 403], [721, 475], [705, 734], [879, 813], [989, 456]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Ear_toothpick_4_a.jpg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[97, 1297]], [[148, 1272], [146, 1272], [146, 1273], [147, 1274], [148, 1273]], [[189, 1253], [189, 1254], [190, 1255], [191, 1255], [192, 1254], [193, 1254], [193, 1253]], [[243, 1228], [242, 1228], [241, 1227], [240, 1228], [239, 1228], [239, 1229], [242, 1229]], [[261, 1220], [257, 1220], [256, 1221], [254, 1221], [252, 1222], [254, 1223], [256, 1223], [257, 1224], [260, 1224], [261, 1223]], [[379, 1163], [96, 1328], [122, 1599], [315, 1599], [385, 1543]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer cabinet door\", 0.382, [[[97, 1297]], [[148, 1272], [146, 1272], [146, 1273], [147, 1274], [148, 1273]], [[189, 1253], [189, 1254], [190, 1255], [191, 1255], [192, 1254], [193, 1254], [193, 1253]], [[243, 1228], [242, 1228], [241, 1227], [240, 1228], [239, 1228], [239, 1229], [242, 1229]], [[261, 1220], [257, 1220], [256, 1221], [254, 1221], [252, 1222], [254, 1223], [256, 1223], [257, 1224], [260, 1224], [261, 1223]], [[379, 1163], [96, 1328], [122, 1599], [315, 1599], [385, 1543]]]]",
+        "room_type": "validation",
+        "chosen_item": "Ear_toothpick"
+    },
+    {
+        "image_path_html": "images/validation/1_segmented_Painkiller_26_a.jpg",
+        "num_detections": 1,
+        "containers_mask_polygon": "[[[1832, 1965], [1826, 1971], [1826, 1990], [1832, 2001], [1836, 1981], [1836, 1972]], [[559, 1184], [562, 1192], [584, 1197], [609, 1194], [620, 1187], [578, 1170], [564, 1175]], [[676, 1171], [664, 1162], [649, 1160], [641, 1164], [637, 1178], [627, 1187], [652, 1191], [665, 1176]], [[327, 1163], [566, 2005], [1818, 2023], [1838, 1418]], [[534, 1131], [533, 1127], [525, 1124], [509, 1128], [524, 1140], [529, 1140]], [[333, 1125], [333, 1128], [338, 1132], [343, 1132], [352, 1128], [349, 1124], [340, 1121], [336, 1122]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.424, [[[1832, 1965], [1826, 1971], [1826, 1990], [1832, 2001], [1836, 1981], [1836, 1972]], [[559, 1184], [562, 1192], [584, 1197], [609, 1194], [620, 1187], [578, 1170], [564, 1175]], [[676, 1171], [664, 1162], [649, 1160], [641, 1164], [637, 1178], [627, 1187], [652, 1191], [665, 1176]], [[327, 1163], [566, 2005], [1818, 2023], [1838, 1418]], [[534, 1131], [533, 1127], [525, 1124], [509, 1128], [524, 1140], [529, 1140]], [[333, 1125], [333, 1128], [338, 1132], [343, 1132], [352, 1128], [349, 1124], [340, 1121], [336, 1122]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/6_segmented_Bottle_opener_8_a.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[837, 841], [687, 887], [699, 1195], [845, 1110]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.41, [[[837, 841], [687, 887], [699, 1195], [845, 1110]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/6_segmented_Bottle_opener_34_a.jpeg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[1714, 1944], [1720, 2400], [2102, 2547], [2104, 2041]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.403, [[[1714, 1944], [1720, 2400], [2102, 2547], [2104, 2041]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Ear_toothpick_13_a.jpeg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[777, 822], [780, 822], [780, 821], [778, 821]], [[545, 779], [549, 786], [558, 790], [577, 786], [587, 790], [585, 785], [550, 783]], [[518, 777], [518, 779], [520, 780], [536, 780], [537, 779], [536, 778]], [[503, 776], [503, 779], [505, 781], [510, 781], [513, 778], [511, 776], [505, 776], [504, 775]], [[494, 772], [495, 773], [499, 773], [500, 774], [501, 774], [502, 773], [500, 773], [499, 772]], [[477, 771], [477, 774], [478, 775], [479, 775], [479, 772], [478, 771]], [[391, 775], [408, 882], [795, 966], [785, 836]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.328, [[[777, 822], [780, 822], [780, 821], [778, 821]], [[545, 779], [549, 786], [558, 790], [577, 786], [587, 790], [585, 785], [550, 783]], [[518, 777], [518, 779], [520, 780], [536, 780], [537, 779], [536, 778]], [[503, 776], [503, 779], [505, 781], [510, 781], [513, 778], [511, 776], [505, 776], [504, 775]], [[494, 772], [495, 773], [499, 773], [500, 774], [501, 774], [502, 773], [500, 773], [499, 772]], [[477, 771], [477, 774], [478, 775], [479, 775], [479, 772], [478, 771]], [[391, 775], [408, 882], [795, 966], [785, 836]]]]",
+        "room_type": "validation",
+        "chosen_item": "Ear_toothpick"
+    },
+    {
+        "image_path_html": "images/validation/11_segmented_Bottle_opener_29_a.jpg",
+        "num_detections": 11,
+        "containers_mask_polygon": "[[[907, 653], [739, 672], [765, 949], [928, 921]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.424, [[[907, 653], [739, 672], [765, 949], [928, 921]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Ear_toothpick_20_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[535, 1238], [94, 1419], [103, 1594], [529, 1369]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.533, [[[535, 1238], [94, 1419], [103, 1594], [529, 1369]]]]",
+        "room_type": "validation",
+        "chosen_item": "Ear_toothpick"
+    },
+    {
+        "image_path_html": "images/validation/4_segmented_Bottle_opener_5_a.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[600, 950], [0, 989], [0, 1084], [594, 1031]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.361, [[[600, 950], [0, 989], [0, 1084], [594, 1031]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Painkiller_8_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[614, 432], [477, 495], [505, 1122], [635, 1146], [699, 1101], [711, 489]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.608, [[[614, 432], [477, 495], [505, 1122], [635, 1146], [699, 1101], [711, 489]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/5_segmented_Food_containers__11_a.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[491, 0], [487, 217], [653, 229], [661, 0]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.423, [[[491, 0], [487, 217], [653, 229], [661, 0]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/6_segmented_Food_containers__15_a.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[785, 453], [789, 771], [935, 797], [938, 466]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.398, [[[785, 453], [789, 771], [935, 797], [938, 466]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Painkiller_24_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[2868, 2228], [3096, 3113], [4623, 3111], [4463, 2346]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.336, [[[2868, 2228], [3096, 3113], [4623, 3111], [4463, 2346]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/6_segmented_Food_containers__20_a.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[760, 505], [661, 510], [652, 575], [661, 599], [760, 595]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.395, [[[760, 505], [661, 510], [652, 575], [661, 599], [760, 595]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/4_segmented_Bottle_opener_24_a.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[813, 433], [604, 461], [634, 1003], [841, 889]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.369, [[[813, 433], [604, 461], [634, 1003], [841, 889]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/5_segmented_Bottle_opener_48_a.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[516, 530], [345, 567], [361, 817], [521, 749]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.47, [[[516, 530], [345, 567], [361, 817], [521, 749]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Painkiller_2_a.jpg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[797, 0], [456, 40], [444, 492], [343, 174], [325, 1495], [569, 1833], [1046, 1664], [1064, 144]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.621, [[[797, 0], [456, 40], [444, 492], [343, 174], [325, 1495], [569, 1833], [1046, 1664], [1064, 144]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/5_segmented_Food_containers__13_a.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[378, 954], [376, 956], [376, 959], [378, 959]], [[354, 752], [300, 803], [306, 1108], [369, 978]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.36, [[[378, 954], [376, 956], [376, 959], [378, 959]], [[354, 752], [300, 803], [306, 1108], [369, 978]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/4_segmented_Food_containers__5_a.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[874, 921], [638, 953], [635, 1285], [868, 1213]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.431, [[[874, 921], [638, 953], [635, 1285], [868, 1213]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/8_segmented_Screwdriver_1_a.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[326, 896], [100, 920], [121, 1327], [343, 1269]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.401, [[[326, 896], [100, 920], [121, 1327], [343, 1269]]]]",
+        "room_type": "validation",
+        "chosen_item": "Screwdriver"
+    },
+    {
+        "image_path_html": "images/validation/5_segmented_Food_containers__32_a.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[1360, 1900], [770, 1977], [809, 2739], [1465, 2600]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.367, [[[1360, 1900], [770, 1977], [809, 2739], [1465, 2600]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Ear_toothpick_18_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[219, 746], [154, 711], [85, 746], [0, 726], [0, 955], [27, 989], [230, 937]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.416, [[[219, 746], [154, 711], [85, 746], [0, 726], [0, 955], [27, 989], [230, 937]]]]",
+        "room_type": "validation",
+        "chosen_item": "Ear_toothpick"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Ear_toothpick_5_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[857, 1087], [162, 1364], [178, 1583], [835, 1255]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.477, [[[857, 1087], [162, 1364], [178, 1583], [835, 1255]]]]",
+        "room_type": "validation",
+        "chosen_item": "Ear_toothpick"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Food_containers__38_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[1159, 1831], [970, 2689], [2328, 2785], [2333, 1900]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.456, [[[1159, 1831], [970, 2689], [2328, 2785], [2333, 1900]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Food_containers__16_a.jpg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[603, 838], [603, 1035], [732, 1067], [737, 853]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.408, [[[603, 838], [603, 1035], [732, 1067], [737, 853]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Ear_toothpick_3_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[461, 579], [0, 608], [166, 996], [526, 959]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.665, [[[461, 579], [0, 608], [166, 996], [526, 959]]]]",
+        "room_type": "validation",
+        "chosen_item": "Ear_toothpick"
+    },
+    {
+        "image_path_html": "images/validation/1_segmented_Bottle_opener_10_a.jpg",
+        "num_detections": 1,
+        "containers_mask_polygon": "[[[547, 676], [535, 899], [649, 908], [664, 680]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.355, [[[547, 676], [535, 899], [649, 908], [664, 680]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/5_segmented_Bottle_opener_43_a.jpeg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[2380, 1935], [2375, 2252], [3075, 2587], [3094, 2174]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.388, [[[2380, 1935], [2375, 2252], [3075, 2587], [3094, 2174]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/4_segmented_Bottle_opener_16_a.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[277, 461], [278, 523], [294, 470], [410, 474], [383, 583], [279, 550], [282, 695], [428, 700], [428, 466]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.362, [[[277, 461], [278, 523], [294, 470], [410, 474], [383, 583], [279, 550], [282, 695], [428, 700], [428, 466]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Bottle_opener_12_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[1053, 436], [879, 435], [870, 634], [1040, 646]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.421, [[[1053, 436], [879, 435], [870, 634], [1040, 646]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Screwdriver_6_a.jpeg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[1391, 44], [1000, 86], [989, 740], [1332, 783]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.56, [[[1391, 44], [1000, 86], [989, 740], [1332, 783]]]]",
+        "room_type": "validation",
+        "chosen_item": "Screwdriver"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Random_6 - Toothpaste_a.jpg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[1213, 448], [1270, 746], [1659, 763], [1565, 477]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.336, [[[1213, 448], [1270, 746], [1659, 763], [1565, 477]]]]",
+        "room_type": "validation",
+        "chosen_item": "Toothpaste"
+    },
+    {
+        "image_path_html": "images/validation/9_segmented_Screwdriver_11_a.jpg",
+        "num_detections": 9,
+        "containers_mask_polygon": "[[[330, 770], [200, 808], [205, 904], [332, 854]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.388, [[[330, 770], [200, 808], [205, 904], [332, 854]]]]",
+        "room_type": "validation",
+        "chosen_item": "Screwdriver"
+    },
+    {
+        "image_path_html": "images/validation/5_segmented_Bottle_opener_38_a.jpeg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[610, 1161], [376, 1179], [362, 1484], [592, 1449]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer cabinet door\", 0.374, [[[610, 1161], [376, 1179], [362, 1484], [592, 1449]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/6_segmented_Random_17 - Spices_a.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[896, 430], [860, 712], [1106, 726], [1183, 437]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.404, [[[896, 430], [860, 712], [1106, 726], [1183, 437]]]]",
+        "room_type": "validation",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/validation/6_segmented_Bottle_opener_31_a.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[2492, 1955], [2473, 2183], [3073, 2592], [3131, 2288]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.376, [[[2492, 1955], [2473, 2183], [3073, 2592], [3131, 2288]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/9_segmented_Random_14 - Pot_a.jpg",
+        "num_detections": 9,
+        "containers_mask_polygon": "[[[306, 401], [293, 573], [462, 573], [469, 402]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.452, [[[306, 401], [293, 573], [462, 573], [469, 402]]]]",
+        "room_type": "validation",
+        "chosen_item": "Pot"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Bottle_opener_36_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[120, 200], [395, 1482], [965, 1481], [837, 249]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.473, [[[120, 200], [395, 1482], [965, 1481], [837, 249]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/4_segmented_Painkiller_7_a.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[275, 753], [276, 753], [277, 754], [278, 753]], [[236, 741], [241, 744], [243, 744], [245, 747], [247, 747], [243, 741], [241, 740]], [[157, 716], [159, 800], [326, 852], [325, 783]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.381, [[[275, 753], [276, 753], [277, 754], [278, 753]], [[236, 741], [241, 744], [243, 744], [245, 747], [247, 747], [243, 741], [241, 740]], [[157, 716], [159, 800], [326, 852], [325, 783]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/5_segmented_Food_containers__1_a.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[1097, 941], [837, 989], [791, 1682], [1037, 1531]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.397, [[[1097, 941], [837, 989], [791, 1682], [1037, 1531]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Random_10 - Fork_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[2726, 1373], [2712, 1369], [2701, 1382], [2689, 1413], [2696, 1428], [2725, 1414], [2739, 1385]], [[2584, 1601], [3246, 1596], [3512, 1305], [2760, 1281], [2796, 1355]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer cabinet door\", 0.389, [[[2726, 1373], [2712, 1369], [2701, 1382], [2689, 1413], [2696, 1428], [2725, 1414], [2739, 1385]], [[2584, 1601], [3246, 1596], [3512, 1305], [2760, 1281], [2796, 1355]]]]",
+        "room_type": "validation",
+        "chosen_item": "Fork"
+    },
+    {
+        "image_path_html": "images/validation/11_segmented_Bottle_opener_30_a.jpg",
+        "num_detections": 11,
+        "containers_mask_polygon": "[[[584, 481], [460, 529], [470, 620], [588, 560]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.444, [[[584, 481], [460, 529], [470, 620], [588, 560]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/4_segmented_Food_containers__17_a.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[669, 497], [667, 497], [666, 498], [666, 502], [667, 503], [668, 503], [670, 501], [670, 498]], [[666, 464], [663, 469], [657, 472], [655, 475], [657, 478], [660, 478], [668, 483], [670, 478], [669, 466]], [[423, 363], [434, 513], [647, 514], [632, 381], [656, 372]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.332, [[[669, 497], [667, 497], [666, 498], [666, 502], [667, 503], [668, 503], [670, 501], [670, 498]], [[666, 464], [663, 469], [657, 472], [655, 475], [657, 478], [660, 478], [668, 483], [670, 478], [669, 466]], [[423, 363], [434, 513], [647, 514], [632, 381], [656, 372]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Screwdriver_10_a.jpeg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[475, 1313], [476, 1313], [477, 1314], [479, 1312], [480, 1312], [475, 1312]], [[689, 1311], [208, 1314], [205, 1367], [677, 1366]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.437, [[[475, 1313], [476, 1313], [477, 1314], [479, 1312], [480, 1312], [475, 1312]], [[689, 1311], [208, 1314], [205, 1367], [677, 1366]]]]",
+        "room_type": "validation",
+        "chosen_item": "Screwdriver"
+    },
+    {
+        "image_path_html": "images/validation/10_segmented_Food_containers__21_a.jpg",
+        "num_detections": 10,
+        "containers_mask_polygon": "[[[791, 1130], [525, 1268], [523, 1375], [787, 1210]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.417, [[[791, 1130], [525, 1268], [523, 1375], [787, 1210]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Bottle_opener_9_a.jpg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[302, 1229], [301, 1232], [301, 1242], [302, 1244], [304, 1244], [305, 1242], [305, 1232], [304, 1229]], [[303, 1195], [302, 1196], [303, 1197], [304, 1196]], [[303, 1166], [303, 1167]], [[302, 1131], [301, 1138], [303, 1144], [303, 1150], [304, 1149], [304, 1138], [305, 1136], [304, 1132]], [[303, 1104], [301, 1112], [302, 1125], [304, 1125], [305, 1121], [305, 1111]], [[302, 1072], [301, 1092], [303, 1095], [305, 1092], [305, 1077], [304, 1073]], [[276, 1038], [221, 1113], [234, 1521], [306, 1302]], [[305, 1019], [300, 1022], [302, 1065], [306, 1053]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer cabinet door\", 0.39, [[[302, 1229], [301, 1232], [301, 1242], [302, 1244], [304, 1244], [305, 1242], [305, 1232], [304, 1229]], [[303, 1195], [302, 1196], [303, 1197], [304, 1196]], [[303, 1166], [303, 1167]], [[302, 1131], [301, 1138], [303, 1144], [303, 1150], [304, 1149], [304, 1138], [305, 1136], [304, 1132]], [[303, 1104], [301, 1112], [302, 1125], [304, 1125], [305, 1121], [305, 1111]], [[302, 1072], [301, 1092], [303, 1095], [305, 1092], [305, 1077], [304, 1073]], [[276, 1038], [221, 1113], [234, 1521], [306, 1302]], [[305, 1019], [300, 1022], [302, 1065], [306, 1053]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/4_segmented_Bottle_opener_4_a.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[1141, 863], [924, 882], [889, 994], [1108, 960]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.393, [[[1141, 863], [924, 882], [889, 994], [1108, 960]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/5_segmented_Random_11 - Lemon glass_a.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[120, 200], [395, 1482], [964, 1482], [837, 249]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.504, [[[120, 200], [395, 1482], [964, 1482], [837, 249]]]]",
+        "room_type": "validation",
+        "chosen_item": "Lemon glass"
+    },
+    {
+        "image_path_html": "images/validation/4_segmented_Ear_toothpick_14_a.jpeg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[624, 1106], [617, 1108], [617, 1111], [616, 1112], [620, 1116], [624, 1116], [628, 1112], [628, 1109]], [[550, 1112], [557, 1117], [561, 1117], [571, 1112], [573, 1108], [567, 1104], [557, 1103], [550, 1108]], [[1416, 967], [14, 1123], [226, 1724], [1465, 1515]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.462, [[[624, 1106], [617, 1108], [617, 1111], [616, 1112], [620, 1116], [624, 1116], [628, 1112], [628, 1109]], [[550, 1112], [557, 1117], [561, 1117], [571, 1112], [573, 1108], [567, 1104], [557, 1103], [550, 1108]], [[1416, 967], [14, 1123], [226, 1724], [1465, 1515]]]]",
+        "room_type": "validation",
+        "chosen_item": "Ear_toothpick"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Random_9 - Flash drive_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[3225, 529], [3103, 945], [3178, 1028], [3610, 941], [4079, 1060], [4079, 538], [3755, 533], [3706, 625], [3655, 536]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.36, [[[3225, 529], [3103, 945], [3178, 1028], [3610, 941], [4079, 1060], [4079, 538], [3755, 533], [3706, 625], [3655, 536]]]]",
+        "room_type": "validation",
+        "chosen_item": "Flash drive"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Ear_toothpick_6_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[614, 432], [477, 495], [505, 1121], [635, 1146], [699, 1101], [711, 490]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.63, [[[614, 432], [477, 495], [505, 1121], [635, 1146], [699, 1101], [711, 490]]]]",
+        "room_type": "validation",
+        "chosen_item": "Ear_toothpick"
+    },
+    {
+        "image_path_html": "images/validation/1_segmented_Screwdriver_4_a.jpg",
+        "num_detections": 1,
+        "containers_mask_polygon": "[[[357, 255], [4, 246], [11, 1551], [433, 1452]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.396, [[[357, 255], [4, 246], [11, 1551], [433, 1452]]]]",
+        "room_type": "validation",
+        "chosen_item": "Screwdriver"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Random_2 - Kippa_a.jpg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[804, 2353], [838, 2664], [2366, 3093], [2400, 2729]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer cabinet door\", 0.495, [[[804, 2353], [838, 2664], [2366, 3093], [2400, 2729]]]]",
+        "room_type": "validation",
+        "chosen_item": "Kippa"
+    },
+    {
+        "image_path_html": "images/validation/12_segmented_Screwdriver_9_a.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[4125, 2702], [4080, 2938], [4623, 3319], [4623, 2647]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.8, [[[4125, 2702], [4080, 2938], [4623, 3319], [4623, 2647]]]]",
+        "room_type": "validation",
+        "chosen_item": "Screwdriver"
+    },
+    {
+        "image_path_html": "images/validation/4_segmented_Random_5 - Candles_a.jpeg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[839, 591], [615, 609], [627, 823], [842, 797]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.376, [[[839, 591], [615, 609], [627, 823], [842, 797]]]]",
+        "room_type": "validation",
+        "chosen_item": "Candles"
+    },
+    {
+        "image_path_html": "images/validation/9_segmented_Food_containers__33_a.jpg",
+        "num_detections": 9,
+        "containers_mask_polygon": "[[[937, 1460], [978, 2437], [1565, 2413], [1571, 1461]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.435, [[[937, 1460], [978, 2437], [1565, 2413], [1571, 1461]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/5_segmented_Painkiller_9_a.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[700, 176], [727, 842], [859, 871], [836, 171]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.388, [[[700, 176], [727, 842], [859, 871], [836, 171]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Food_containers__9_a.jpg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[1370, 258], [1340, 226], [865, 289], [857, 462], [1376, 453]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.484, [[[1370, 258], [1340, 226], [865, 289], [857, 462], [1376, 453]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/6_segmented_Bottle_opener_2_a.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[331, 454], [195, 500], [209, 598], [341, 539]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.42, [[[331, 454], [195, 500], [209, 598], [341, 539]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/7_segmented_Bottle_opener_44_a.jpg",
+        "num_detections": 7,
+        "containers_mask_polygon": "[[[1135, 739], [1137, 1086], [1441, 1171], [1449, 768]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.384, [[[1135, 739], [1137, 1086], [1441, 1171], [1449, 768]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/5_segmented_Food_containers__35_a.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[663, 439], [645, 777], [922, 782], [1002, 445]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.426, [[[663, 439], [645, 777], [922, 782], [1002, 445]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/8_segmented_Food_containers__2_a.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[326, 896], [100, 920], [121, 1327], [343, 1269]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.406, [[[326, 896], [100, 920], [121, 1327], [343, 1269]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/8_segmented_Food_containers__14_a.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[550, 96], [572, 425], [708, 417], [699, 114]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.381, [[[550, 96], [572, 425], [708, 417], [699, 114]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Ear_toothpick_1_a.jpg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[521, 1444], [551, 1689], [1259, 2047], [1283, 1706]], [[1235, 1436], [1237, 1436]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer cabinet door\", 0.458, [[[521, 1444], [551, 1689], [1259, 2047], [1283, 1706]], [[1235, 1436], [1237, 1436]]]]",
+        "room_type": "validation",
+        "chosen_item": "Ear_toothpick"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Bottle_opener_28_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[935, 1134], [698, 1136], [696, 1353], [921, 1340]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.395, [[[935, 1134], [698, 1136], [696, 1353], [921, 1340]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/4_segmented_Bottle_opener_21_a.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[3349, 1993], [3340, 2259], [3959, 2490], [3977, 2161]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.387, [[[3349, 1993], [3340, 2259], [3959, 2490], [3977, 2161]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/5_segmented_Bottle_opener_33_a.jpeg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[816, 503], [696, 514], [741, 529], [692, 685], [680, 514], [587, 518], [602, 734], [819, 711]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.441, [[[816, 503], [696, 514], [741, 529], [692, 685], [680, 514], [587, 518], [602, 734], [819, 711]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/11_segmented_Food_containers__6_a.jpg",
+        "num_detections": 11,
+        "containers_mask_polygon": "[[[1039, 846], [855, 906], [869, 1268], [1046, 1162]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.416, [[[1039, 846], [855, 906], [869, 1268], [1046, 1162]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Ear_toothpick_10_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[356, 1899], [357, 1900], [358, 1900], [359, 1901], [361, 1901], [362, 1902], [365, 1901], [365, 1900], [362, 1898], [357, 1898]], [[71, 1804], [73, 2047], [432, 2047], [433, 1942], [133, 1767]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.542, [[[356, 1899], [357, 1900], [358, 1900], [359, 1901], [361, 1901], [362, 1902], [365, 1901], [365, 1900], [362, 1898], [357, 1898]], [[71, 1804], [73, 2047], [432, 2047], [433, 1942], [133, 1767]]]]",
+        "room_type": "validation",
+        "chosen_item": "Ear_toothpick"
+    },
+    {
+        "image_path_html": "images/validation/9_segmented_Food_containers__12_a.jpg",
+        "num_detections": 9,
+        "containers_mask_polygon": "[[[323, 1059], [313, 1064], [310, 1078], [317, 1130], [325, 1148], [328, 1064]], [[326, 946], [24, 960], [26, 1148], [244, 1151], [270, 979], [296, 965], [325, 1017]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.438, [[[323, 1059], [313, 1064], [310, 1078], [317, 1130], [325, 1148], [328, 1064]], [[326, 946], [24, 960], [26, 1148], [244, 1151], [270, 979], [296, 965], [325, 1017]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/5_segmented_Painkiller_29_a.jpeg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[2380, 1935], [2375, 2252], [3075, 2587], [3094, 2174]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.36, [[[2380, 1935], [2375, 2252], [3075, 2587], [3094, 2174]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/4_segmented_Food_containers__29_a.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[1763, 1820], [1743, 2008], [1777, 2025], [1785, 1954]], [[1759, 1556], [1744, 1602], [1746, 1670], [1763, 1663], [1768, 1652], [1769, 1599]], [[2241, 1301], [2103, 1372], [1807, 1332], [1841, 2049], [2154, 2062], [2233, 1908]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.454, [[[1763, 1820], [1743, 2008], [1777, 2025], [1785, 1954]], [[1759, 1556], [1744, 1602], [1746, 1670], [1763, 1663], [1768, 1652], [1769, 1599]], [[2241, 1301], [2103, 1372], [1807, 1332], [1841, 2049], [2154, 2062], [2233, 1908]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Random_16 - Bathrobe_a.jpg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[2573, 2148], [2576, 2148], [2577, 2147], [2573, 2147]], [[2651, 2132], [2655, 2132]], [[2605, 2128], [2602, 2131], [2602, 2135], [2604, 2137], [2608, 2137], [2610, 2136], [2611, 2131], [2608, 2128]], [[2415, 2120], [2405, 2128], [2403, 2149], [2420, 2153], [2428, 2148], [2434, 2135], [2426, 2123]], [[2388, 2047], [2386, 2052], [2386, 2056], [2388, 2061], [2391, 2057], [2391, 2051]], [[2620, 1925], [2617, 1928], [2616, 1932], [2618, 1937], [2623, 1937], [2630, 1931], [2627, 1926]], [[2352, 1883], [2394, 2031], [2578, 1996], [2446, 2148], [2895, 2018], [2771, 2246], [3096, 2374], [2838, 2450], [2939, 2616], [3131, 2390], [2960, 1884]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer cabinet door\", 0.359, [[[2573, 2148], [2576, 2148], [2577, 2147], [2573, 2147]], [[2651, 2132], [2655, 2132]], [[2605, 2128], [2602, 2131], [2602, 2135], [2604, 2137], [2608, 2137], [2610, 2136], [2611, 2131], [2608, 2128]], [[2415, 2120], [2405, 2128], [2403, 2149], [2420, 2153], [2428, 2148], [2434, 2135], [2426, 2123]], [[2388, 2047], [2386, 2052], [2386, 2056], [2388, 2061], [2391, 2057], [2391, 2051]], [[2620, 1925], [2617, 1928], [2616, 1932], [2618, 1937], [2623, 1937], [2630, 1931], [2627, 1926]], [[2352, 1883], [2394, 2031], [2578, 1996], [2446, 2148], [2895, 2018], [2771, 2246], [3096, 2374], [2838, 2450], [2939, 2616], [3131, 2390], [2960, 1884]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bathrobe"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Bottle_opener_46_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[2249, 92], [2215, 884], [2541, 891], [2591, 123]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.417, [[[2249, 92], [2215, 884], [2541, 891], [2591, 123]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Ear_toothpick_12_a.jpg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[806, 373], [103, 559], [159, 665], [798, 429]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.456, [[[806, 373], [103, 559], [159, 665], [798, 429]]]]",
+        "room_type": "validation",
+        "chosen_item": "Ear_toothpick"
+    },
+    {
+        "image_path_html": "images/validation/6_segmented_Bottle_opener_20_a.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[1194, 778], [1197, 778]], [[1300, 312], [1089, 384], [1079, 781], [1282, 781]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.452, [[[1194, 778], [1197, 778]], [[1300, 312], [1089, 384], [1079, 781], [1282, 781]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Bottle_opener_13_a.jpg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[533, 689], [68, 795], [83, 1005], [521, 870]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.557, [[[533, 689], [68, 795], [83, 1005], [521, 870]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/7_segmented_Screwdriver_7_a.jpg",
+        "num_detections": 7,
+        "containers_mask_polygon": "[[[1882, 1440], [1601, 1452], [1580, 2161], [1876, 2079]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.39, [[[1882, 1440], [1601, 1452], [1580, 2161], [1876, 2079]]]]",
+        "room_type": "validation",
+        "chosen_item": "Screwdriver"
+    },
+    {
+        "image_path_html": "images/validation/8_segmented_Bottle_opener_7_a.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[644, 973], [403, 1043], [438, 1531], [523, 1530], [668, 1435]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.427, [[[644, 973], [403, 1043], [438, 1531], [523, 1530], [668, 1435]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Painkiller_20_a.jpeg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[505, 943], [525, 1048], [883, 1186], [871, 1055]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.35, [[[505, 943], [525, 1048], [883, 1186], [871, 1055]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/11_segmented_Random_21 - Rolling pin_a.jpg",
+        "num_detections": 11,
+        "containers_mask_polygon": "[[[1706, 1524], [1233, 1539], [1257, 2310], [1717, 2279]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.409, [[[1706, 1524], [1233, 1539], [1257, 2310], [1717, 2279]]]]",
+        "room_type": "validation",
+        "chosen_item": "Rolling pin"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Ear_toothpick_17_a.jpg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[352, 670], [323, 1055], [554, 1069], [570, 685]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer cabinet door\", 0.447, [[[352, 670], [323, 1055], [554, 1069], [570, 685]]]]",
+        "room_type": "validation",
+        "chosen_item": "Ear_toothpick"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Ear_toothpick_23_a.jpg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[775, 2921], [781, 3295], [1164, 3636], [1163, 3193]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer cabinet door\", 0.464, [[[775, 2921], [781, 3295], [1164, 3636], [1163, 3193]]]]",
+        "room_type": "validation",
+        "chosen_item": "Ear_toothpick"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Bottle_opener_37_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[1320, 815], [1318, 816], [1318, 823], [1322, 828], [1323, 817], [1322, 815]], [[1918, 696], [1929, 704], [1932, 704], [1942, 696]], [[1264, 597], [1346, 855], [2338, 1121], [2365, 786]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.497, [[[1320, 815], [1318, 816], [1318, 823], [1322, 828], [1323, 817], [1322, 815]], [[1918, 696], [1929, 704], [1932, 704], [1942, 696]], [[1264, 597], [1346, 855], [2338, 1121], [2365, 786]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/4_segmented_Food_containers__31_a.jpeg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[291, 478], [5, 529], [48, 681], [186, 779], [356, 770]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.373, [[[291, 478], [5, 529], [48, 681], [186, 779], [356, 770]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Ear_toothpick_8_a.jpg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[827, 1238], [823, 1241], [826, 1244], [826, 1245], [828, 1246], [831, 1244], [832, 1240], [831, 1239]], [[916, 1171]], [[896, 1144], [895, 1145], [895, 1147], [898, 1147], [899, 1146], [898, 1145], [898, 1144]], [[788, 905], [788, 1183], [816, 1217], [827, 1124], [913, 1140], [929, 1236], [836, 1241], [935, 1314], [950, 918]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.341, [[[827, 1238], [823, 1241], [826, 1244], [826, 1245], [828, 1246], [831, 1244], [832, 1240], [831, 1239]], [[916, 1171]], [[896, 1144], [895, 1145], [895, 1147], [898, 1147], [899, 1146], [898, 1145], [898, 1144]], [[788, 905], [788, 1183], [816, 1217], [827, 1124], [913, 1140], [929, 1236], [836, 1241], [935, 1314], [950, 918]]]]",
+        "room_type": "validation",
+        "chosen_item": "Ear_toothpick"
+    },
+    {
+        "image_path_html": "images/validation/1_segmented_Painkiller_19_a.jpg",
+        "num_detections": 1,
+        "containers_mask_polygon": "[[[873, 1266], [873, 1269], [874, 1270], [874, 1271], [875, 1271], [875, 1267], [874, 1266]], [[818, 1168], [812, 1220], [887, 1409], [889, 1298], [858, 1284], [845, 1235], [868, 1259]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.307, [[[873, 1266], [873, 1269], [874, 1270], [874, 1271], [875, 1271], [875, 1267], [874, 1266]], [[818, 1168], [812, 1220], [887, 1409], [889, 1298], [858, 1284], [845, 1235], [868, 1259]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Ear_toothpick_22_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[238, 0], [277, 465], [367, 458], [347, 0]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.334, [[[238, 0], [277, 465], [367, 458], [347, 0]]]]",
+        "room_type": "validation",
+        "chosen_item": "Ear_toothpick"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Food_containers__37_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[2301, 1222], [2300, 1223], [2299, 1223], [2299, 1225], [2301, 1227], [2302, 1227], [2302, 1222]], [[2285, 1093], [1920, 1135], [1877, 1663], [2250, 1538]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.418, [[[2301, 1222], [2300, 1223], [2299, 1223], [2299, 1225], [2301, 1227], [2302, 1227], [2302, 1222]], [[2285, 1093], [1920, 1135], [1877, 1663], [2250, 1538]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/9_segmented_Food_containers__19_a.jpg",
+        "num_detections": 9,
+        "containers_mask_polygon": "[[[759, 887], [759, 1145], [1014, 1150], [1017, 926]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.373, [[[759, 887], [759, 1145], [1014, 1150], [1017, 926]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Bottle_opener_22_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[1147, 451], [992, 458], [986, 573], [1138, 561]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.488, [[[1147, 451], [992, 458], [986, 573], [1138, 561]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/8_segmented_Food_containers__27_a.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[2136, 1132], [1660, 1203], [1648, 2244], [2111, 2222]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.426, [[[2136, 1132], [1660, 1203], [1648, 2244], [2111, 2222]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/5_segmented_Iron_2_a.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[357, 1054], [346, 964], [267, 999], [197, 985], [179, 995], [212, 1018]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.402, [[[357, 1054], [346, 964], [267, 999], [197, 985], [179, 995], [212, 1018]]]]",
+        "room_type": "validation",
+        "chosen_item": "Iron"
+    },
+    {
+        "image_path_html": "images/validation/4_segmented_Ear_toothpick_2_a.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[610, 1273], [230, 1358], [282, 1808], [614, 1693]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.512, [[[610, 1273], [230, 1358], [282, 1808], [614, 1693]]]]",
+        "room_type": "validation",
+        "chosen_item": "Ear_toothpick"
+    },
+    {
+        "image_path_html": "images/validation/7_segmented_Painkiller_16_a.jpg",
+        "num_detections": 7,
+        "containers_mask_polygon": "[[[280, 795], [284, 991], [550, 984], [548, 796]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.381, [[[280, 795], [284, 991], [550, 984], [548, 796]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/1_segmented_Screwdriver_3_a.jpg",
+        "num_detections": 1,
+        "containers_mask_polygon": "[[[603, 838], [603, 1035], [732, 1067], [737, 853]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.411, [[[603, 838], [603, 1035], [732, 1067], [737, 853]]]]",
+        "room_type": "validation",
+        "chosen_item": "Screwdriver"
+    },
+    {
+        "image_path_html": "images/validation/1_segmented_Painkiller_28_a.jpg",
+        "num_detections": 1,
+        "containers_mask_polygon": "[[[359, 348], [359, 350], [358, 351], [359, 355], [360, 356], [365, 356], [365, 353], [360, 348]], [[297, 0], [378, 460], [553, 440], [532, 0]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.404, [[[359, 348], [359, 350], [358, 351], [359, 355], [360, 356], [365, 356], [365, 353], [360, 348]], [[297, 0], [378, 460], [553, 440], [532, 0]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/5_segmented_Bottle_opener_41_a.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[3630, 481], [3625, 489], [3625, 493], [3629, 498], [3633, 494], [3634, 490], [3632, 483]], [[3103, 124], [3094, 174], [3099, 187], [3105, 181], [3108, 167]], [[3120, 68], [3119, 68], [3119, 74], [3119, 72], [3120, 71]], [[3170, 0], [2974, 785], [3482, 924], [3761, 20]], [[3140, 0], [3125, 0], [3121, 42], [3130, 59]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.395, [[[3630, 481], [3625, 489], [3625, 493], [3629, 498], [3633, 494], [3634, 490], [3632, 483]], [[3103, 124], [3094, 174], [3099, 187], [3105, 181], [3108, 167]], [[3120, 68], [3119, 68], [3119, 74], [3119, 72], [3120, 71]], [[3170, 0], [2974, 785], [3482, 924], [3761, 20]], [[3140, 0], [3125, 0], [3121, 42], [3130, 59]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/5_segmented_Painkiller_18_a.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[654, 541], [410, 623], [439, 861], [665, 758]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.359, [[[654, 541], [410, 623], [439, 861], [665, 758]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/9_segmented_Random_1 - Fork_a.jpg",
+        "num_detections": 9,
+        "containers_mask_polygon": "[[[2377, 2212], [2370, 2449], [3037, 2632], [3056, 2373]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.401, [[[2377, 2212], [2370, 2449], [3037, 2632], [3056, 2373]]]]",
+        "room_type": "validation",
+        "chosen_item": "Fork"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Bottle_opener_6_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[224, 796], [231, 828], [355, 824], [352, 791]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.422, [[[224, 796], [231, 828], [355, 824], [352, 791]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Bottle_opener_17_a.jpg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[678, 761], [434, 786], [449, 1035], [684, 992]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.388, [[[678, 761], [434, 786], [449, 1035], [684, 992]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Ear_toothpick_26_a.jpeg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[1129, 1321], [451, 1331], [446, 2032], [1151, 2011]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.447, [[[1129, 1321], [451, 1331], [446, 2032], [1151, 2011]]]]",
+        "room_type": "validation",
+        "chosen_item": "Ear_toothpick"
+    },
+    {
+        "image_path_html": "images/validation/1_segmented_Painkiller_27_a.jpg",
+        "num_detections": 1,
+        "containers_mask_polygon": "[[[2586, 1395], [2622, 2104], [3863, 2100], [3739, 1455]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.312, [[[2586, 1395], [2622, 2104], [3863, 2100], [3739, 1455]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/5_segmented_Screwdriver_12_a.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[3489, 1961], [3265, 1974], [3375, 2725], [3616, 2679]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.357, [[[3489, 1961], [3265, 1974], [3375, 2725], [3616, 2679]]]]",
+        "room_type": "validation",
+        "chosen_item": "Screwdriver"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Screwdriver_8_a.jpg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[1753, 1301], [1755, 1305], [1762, 1305], [1766, 1301], [1760, 1296], [1756, 1296]], [[1840, 1283], [1821, 1276], [1787, 1279], [1785, 1289], [1789, 1293], [1836, 1289]], [[1990, 1237], [1940, 1235], [1887, 1263], [1866, 1254], [1842, 1276], [1892, 1274]], [[1755, 1223], [1754, 1228], [1755, 1229], [1755, 1231], [1756, 1231], [1758, 1228], [1758, 1225], [1756, 1223]], [[1930, 1217], [1927, 1220], [1927, 1227], [1932, 1232], [1934, 1230], [1935, 1226], [1932, 1218]], [[1927, 1157], [1921, 1172], [1916, 1176], [1926, 1184], [1928, 1189], [1931, 1187], [1933, 1179], [1933, 1163]], [[1791, 1146], [1784, 1166], [1795, 1180], [1776, 1197], [1793, 1227], [1791, 1240], [1803, 1246], [1809, 1240], [1811, 1163], [1804, 1148]], [[1910, 1117], [1910, 1118], [1914, 1121], [1917, 1121], [1921, 1118], [1921, 1117], [1918, 1114], [1912, 1114]], [[1993, 943], [1993, 946]], [[2052, 941], [2052, 948], [2054, 946], [2054, 945], [2053, 944], [2053, 942]], [[1886, 929], [1852, 944], [1845, 978], [1858, 994], [1833, 1005], [1853, 1056], [1867, 1054], [1873, 973], [1858, 956], [1881, 946]], [[1868, 911], [1868, 917], [1869, 917], [1869, 912]], [[1814, 911], [1814, 915], [1816, 917], [1818, 922], [1821, 922], [1823, 916], [1822, 911], [1821, 910]], [[1900, 908], [1896, 908], [1894, 911], [1893, 926], [1900, 925], [1902, 916]], [[1881, 876], [1880, 877], [1880, 881], [1881, 882], [1884, 882], [1884, 878], [1883, 878]], [[2053, 818], [2053, 821], [2056, 821], [2056, 819], [2054, 819]], [[1821, 808], [1812, 851], [1834, 890], [1847, 863], [1826, 851], [1825, 836], [1834, 830], [1849, 842], [1861, 820]], [[2115, 751], [2115, 753], [2114, 754], [2114, 757], [2115, 758], [2115, 760], [2116, 759], [2116, 757], [2117, 756]], [[1931, 745], [1924, 770], [1909, 782], [1896, 848], [1916, 873], [1935, 840], [1932, 774], [1948, 759]], [[1994, 721], [1989, 724], [1985, 740], [1990, 758], [1994, 756], [1997, 727]], [[1962, 719], [1957, 719], [1951, 724], [1957, 740], [1957, 755], [1962, 753], [1970, 743], [1966, 723]], [[1850, 717], [1845, 746], [1818, 740], [1808, 754], [1818, 796], [1827, 786], [1826, 771], [1850, 763]], [[1946, 692], [1943, 692], [1943, 694], [1942, 695], [1943, 698], [1946, 696]], [[2118, 686], [2115, 686], [2113, 689], [2113, 701], [2115, 705], [2119, 702], [2120, 698], [2120, 690]], [[1881, 647], [1877, 661], [1880, 677], [1900, 688], [1904, 679], [1886, 670]], [[2177, 625], [2177, 627], [2176, 628], [2176, 634], [2177, 635], [2177, 637], [2179, 634], [2179, 628]], [[2178, 596], [2178, 599], [2179, 598], [2178, 597]], [[2256, 568], [2254, 568], [2251, 571], [2251, 572], [2255, 577], [2256, 575], [2256, 573], [2257, 572], [2256, 570]], [[1901, 568], [1884, 563], [1881, 564], [1877, 571], [1881, 584], [1884, 584], [1886, 579], [1892, 574], [1901, 571]], [[2179, 557], [2175, 559], [2173, 564], [2173, 577], [2177, 589], [2183, 573], [2183, 564]], [[1912, 536], [1912, 539], [1911, 540], [1912, 540]], [[2177, 527], [2177, 546], [2181, 547], [2182, 533], [2181, 529]], [[1884, 504], [1883, 505], [1881, 505], [1880, 506], [1880, 511], [1881, 512], [1884, 510]], [[2240, 501], [2239, 502], [2239, 509], [2240, 510], [2240, 509], [2241, 508], [2241, 504], [2240, 503]], [[2146, 471], [2126, 486], [2122, 498], [2110, 504], [2115, 516], [2131, 501], [2147, 505]], [[2208, 442], [2208, 444], [2209, 445], [2210, 445], [2211, 444], [2211, 443], [2210, 443], [2209, 442]], [[1947, 442], [1943, 447], [1943, 478], [1946, 473], [1948, 452], [1954, 446]], [[1881, 436], [1878, 448], [1880, 476], [1884, 478], [1884, 457], [1888, 443]], [[1939, 383], [1946, 401], [1958, 387], [1974, 387], [1975, 380], [1974, 377], [1958, 379], [1946, 374]], [[1974, 349], [1974, 353], [1975, 353], [1975, 350]], [[2021, 321], [2020, 334], [2021, 337], [2022, 337], [2024, 334], [2024, 327], [2023, 323]], [[2140, 318], [2140, 321], [2144, 324], [2151, 324], [2155, 321], [2156, 318], [2151, 313], [2146, 313]], [[1947, 312], [1943, 312], [1941, 320], [1943, 338], [1946, 337], [1949, 326], [1953, 321]], [[2302, 309], [2296, 316], [2296, 324], [2302, 333], [2307, 323], [2306, 313]], [[2264, 259], [2273, 261], [2274, 260], [2276, 260], [2277, 258], [2274, 255], [2268, 255]], [[2380, 254], [2379, 255], [2378, 255], [2378, 256], [2379, 257], [2379, 259], [2380, 259], [2380, 257], [2381, 256], [2381, 255]], [[2008, 252], [2003, 259], [2001, 290], [2005, 306], [2010, 308], [2013, 305], [2011, 272], [2025, 258]], [[2301, 249], [2294, 257], [2293, 270], [2303, 292], [2306, 290], [2309, 257], [2306, 250]], [[2240, 246], [2225, 263], [2240, 484], [2257, 259]], [[2002, 200], [2005, 209], [2009, 211], [2020, 200], [2036, 197], [2036, 193], [2006, 190]], [[2244, 187], [2240, 187], [2234, 194], [2234, 197], [2240, 208], [2244, 206], [2249, 196], [2248, 191]], [[2302, 184], [2301, 198], [2302, 201], [2303, 201], [2306, 198], [2306, 188]], [[2369, 165], [2371, 165]], [[2250, 165], [2256, 165]], [[2244, 162], [2244, 163]], [[2381, 165], [2387, 167], [2396, 175], [2399, 175], [2402, 170], [2402, 164], [2397, 161], [2388, 162]], [[2329, 150], [2331, 150], [2332, 151], [2338, 151], [2340, 150], [2336, 148], [2333, 148]], [[2302, 142], [2299, 145], [2299, 155], [2301, 160], [2306, 163], [2313, 157], [2317, 150], [2313, 145], [2307, 142]], [[2240, 144], [2254, 138], [2274, 142], [2285, 134], [2274, 130], [2243, 129], [2239, 131]], [[2083, 123], [2080, 128], [2081, 148], [2084, 152], [2088, 149], [2088, 133]], [[2215, 114], [1979, 697], [2036, 563], [2121, 636], [2084, 406], [2184, 514], [2125, 270], [2220, 320], [2140, 244]], [[1912, 86], [1926, 95], [1931, 95], [1940, 89], [1942, 84], [1920, 82]], [[2064, 87], [2068, 93], [2072, 94], [2075, 91], [2084, 88], [2087, 84], [2084, 81], [2069, 81], [2065, 83]], [[1923, 53], [1923, 56], [1926, 59], [1930, 60], [1938, 59], [1944, 56], [1939, 52], [1933, 50], [1927, 50]], [[1844, 39], [1850, 51], [1896, 47], [1904, 42], [1897, 36], [1871, 34]], [[1815, 20], [1358, 1414], [1681, 1324], [1807, 975], [1764, 584], [1818, 733], [1963, 134]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer cabinet door\", 0.404, [[[1753, 1301], [1755, 1305], [1762, 1305], [1766, 1301], [1760, 1296], [1756, 1296]], [[1840, 1283], [1821, 1276], [1787, 1279], [1785, 1289], [1789, 1293], [1836, 1289]], [[1990, 1237], [1940, 1235], [1887, 1263], [1866, 1254], [1842, 1276], [1892, 1274]], [[1755, 1223], [1754, 1228], [1755, 1229], [1755, 1231], [1756, 1231], [1758, 1228], [1758, 1225], [1756, 1223]], [[1930, 1217], [1927, 1220], [1927, 1227], [1932, 1232], [1934, 1230], [1935, 1226], [1932, 1218]], [[1927, 1157], [1921, 1172], [1916, 1176], [1926, 1184], [1928, 1189], [1931, 1187], [1933, 1179], [1933, 1163]], [[1791, 1146], [1784, 1166], [1795, 1180], [1776, 1197], [1793, 1227], [1791, 1240], [1803, 1246], [1809, 1240], [1811, 1163], [1804, 1148]], [[1910, 1117], [1910, 1118], [1914, 1121], [1917, 1121], [1921, 1118], [1921, 1117], [1918, 1114], [1912, 1114]], [[1993, 943], [1993, 946]], [[2052, 941], [2052, 948], [2054, 946], [2054, 945], [2053, 944], [2053, 942]], [[1886, 929], [1852, 944], [1845, 978], [1858, 994], [1833, 1005], [1853, 1056], [1867, 1054], [1873, 973], [1858, 956], [1881, 946]], [[1868, 911], [1868, 917], [1869, 917], [1869, 912]], [[1814, 911], [1814, 915], [1816, 917], [1818, 922], [1821, 922], [1823, 916], [1822, 911], [1821, 910]], [[1900, 908], [1896, 908], [1894, 911], [1893, 926], [1900, 925], [1902, 916]], [[1881, 876], [1880, 877], [1880, 881], [1881, 882], [1884, 882], [1884, 878], [1883, 878]], [[2053, 818], [2053, 821], [2056, 821], [2056, 819], [2054, 819]], [[1821, 808], [1812, 851], [1834, 890], [1847, 863], [1826, 851], [1825, 836], [1834, 830], [1849, 842], [1861, 820]], [[2115, 751], [2115, 753], [2114, 754], [2114, 757], [2115, 758], [2115, 760], [2116, 759], [2116, 757], [2117, 756]], [[1931, 745], [1924, 770], [1909, 782], [1896, 848], [1916, 873], [1935, 840], [1932, 774], [1948, 759]], [[1994, 721], [1989, 724], [1985, 740], [1990, 758], [1994, 756], [1997, 727]], [[1962, 719], [1957, 719], [1951, 724], [1957, 740], [1957, 755], [1962, 753], [1970, 743], [1966, 723]], [[1850, 717], [1845, 746], [1818, 740], [1808, 754], [1818, 796], [1827, 786], [1826, 771], [1850, 763]], [[1946, 692], [1943, 692], [1943, 694], [1942, 695], [1943, 698], [1946, 696]], [[2118, 686], [2115, 686], [2113, 689], [2113, 701], [2115, 705], [2119, 702], [2120, 698], [2120, 690]], [[1881, 647], [1877, 661], [1880, 677], [1900, 688], [1904, 679], [1886, 670]], [[2177, 625], [2177, 627], [2176, 628], [2176, 634], [2177, 635], [2177, 637], [2179, 634], [2179, 628]], [[2178, 596], [2178, 599], [2179, 598], [2178, 597]], [[2256, 568], [2254, 568], [2251, 571], [2251, 572], [2255, 577], [2256, 575], [2256, 573], [2257, 572], [2256, 570]], [[1901, 568], [1884, 563], [1881, 564], [1877, 571], [1881, 584], [1884, 584], [1886, 579], [1892, 574], [1901, 571]], [[2179, 557], [2175, 559], [2173, 564], [2173, 577], [2177, 589], [2183, 573], [2183, 564]], [[1912, 536], [1912, 539], [1911, 540], [1912, 540]], [[2177, 527], [2177, 546], [2181, 547], [2182, 533], [2181, 529]], [[1884, 504], [1883, 505], [1881, 505], [1880, 506], [1880, 511], [1881, 512], [1884, 510]], [[2240, 501], [2239, 502], [2239, 509], [2240, 510], [2240, 509], [2241, 508], [2241, 504], [2240, 503]], [[2146, 471], [2126, 486], [2122, 498], [2110, 504], [2115, 516], [2131, 501], [2147, 505]], [[2208, 442], [2208, 444], [2209, 445], [2210, 445], [2211, 444], [2211, 443], [2210, 443], [2209, 442]], [[1947, 442], [1943, 447], [1943, 478], [1946, 473], [1948, 452], [1954, 446]], [[1881, 436], [1878, 448], [1880, 476], [1884, 478], [1884, 457], [1888, 443]], [[1939, 383], [1946, 401], [1958, 387], [1974, 387], [1975, 380], [1974, 377], [1958, 379], [1946, 374]], [[1974, 349], [1974, 353], [1975, 353], [1975, 350]], [[2021, 321], [2020, 334], [2021, 337], [2022, 337], [2024, 334], [2024, 327], [2023, 323]], [[2140, 318], [2140, 321], [2144, 324], [2151, 324], [2155, 321], [2156, 318], [2151, 313], [2146, 313]], [[1947, 312], [1943, 312], [1941, 320], [1943, 338], [1946, 337], [1949, 326], [1953, 321]], [[2302, 309], [2296, 316], [2296, 324], [2302, 333], [2307, 323], [2306, 313]], [[2264, 259], [2273, 261], [2274, 260], [2276, 260], [2277, 258], [2274, 255], [2268, 255]], [[2380, 254], [2379, 255], [2378, 255], [2378, 256], [2379, 257], [2379, 259], [2380, 259], [2380, 257], [2381, 256], [2381, 255]], [[2008, 252], [2003, 259], [2001, 290], [2005, 306], [2010, 308], [2013, 305], [2011, 272], [2025, 258]], [[2301, 249], [2294, 257], [2293, 270], [2303, 292], [2306, 290], [2309, 257], [2306, 250]], [[2240, 246], [2225, 263], [2240, 484], [2257, 259]], [[2002, 200], [2005, 209], [2009, 211], [2020, 200], [2036, 197], [2036, 193], [2006, 190]], [[2244, 187], [2240, 187], [2234, 194], [2234, 197], [2240, 208], [2244, 206], [2249, 196], [2248, 191]], [[2302, 184], [2301, 198], [2302, 201], [2303, 201], [2306, 198], [2306, 188]], [[2369, 165], [2371, 165]], [[2250, 165], [2256, 165]], [[2244, 162], [2244, 163]], [[2381, 165], [2387, 167], [2396, 175], [2399, 175], [2402, 170], [2402, 164], [2397, 161], [2388, 162]], [[2329, 150], [2331, 150], [2332, 151], [2338, 151], [2340, 150], [2336, 148], [2333, 148]], [[2302, 142], [2299, 145], [2299, 155], [2301, 160], [2306, 163], [2313, 157], [2317, 150], [2313, 145], [2307, 142]], [[2240, 144], [2254, 138], [2274, 142], [2285, 134], [2274, 130], [2243, 129], [2239, 131]], [[2083, 123], [2080, 128], [2081, 148], [2084, 152], [2088, 149], [2088, 133]], [[2215, 114], [1979, 697], [2036, 563], [2121, 636], [2084, 406], [2184, 514], [2125, 270], [2220, 320], [2140, 244]], [[1912, 86], [1926, 95], [1931, 95], [1940, 89], [1942, 84], [1920, 82]], [[2064, 87], [2068, 93], [2072, 94], [2075, 91], [2084, 88], [2087, 84], [2084, 81], [2069, 81], [2065, 83]], [[1923, 53], [1923, 56], [1926, 59], [1930, 60], [1938, 59], [1944, 56], [1939, 52], [1933, 50], [1927, 50]], [[1844, 39], [1850, 51], [1896, 47], [1904, 42], [1897, 36], [1871, 34]], [[1815, 20], [1358, 1414], [1681, 1324], [1807, 975], [1764, 584], [1818, 733], [1963, 134]]]]",
+        "room_type": "validation",
+        "chosen_item": "Screwdriver"
+    },
+    {
+        "image_path_html": "images/validation/4_segmented_Painkiller_4_a.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[874, 921], [638, 953], [635, 1285], [868, 1213]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.441, [[[874, 921], [638, 953], [635, 1285], [868, 1213]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/5_segmented_Bottle_opener_42_a.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[546, 613], [245, 670], [251, 759], [542, 692]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.385, [[[546, 613], [245, 670], [251, 759], [542, 692]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/5_segmented_Painkiller_33_a.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[658, 692], [658, 694], [657, 695], [657, 702], [658, 704], [660, 700], [663, 697], [660, 695]], [[872, 620], [871, 621], [871, 625], [872, 626], [872, 624], [873, 623], [873, 621]], [[883, 536], [882, 536], [882, 537]], [[882, 525], [882, 529], [883, 529], [883, 525]], [[882, 513], [882, 515], [881, 516], [881, 517], [883, 520], [883, 519], [884, 518], [884, 515], [883, 514], [883, 513]], [[891, 422], [679, 477], [658, 829], [861, 702]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.479, [[[658, 692], [658, 694], [657, 695], [657, 702], [658, 704], [660, 700], [663, 697], [660, 695]], [[872, 620], [871, 621], [871, 625], [872, 626], [872, 624], [873, 623], [873, 621]], [[883, 536], [882, 536], [882, 537]], [[882, 525], [882, 529], [883, 529], [883, 525]], [[882, 513], [882, 515], [881, 516], [881, 517], [883, 520], [883, 519], [884, 518], [884, 515], [883, 514], [883, 513]], [[891, 422], [679, 477], [658, 829], [861, 702]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Random_22 - Pot_a.jpeg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[807, 700], [833, 974], [1058, 1094], [1046, 783]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.403, [[[807, 700], [833, 974], [1058, 1094], [1046, 783]]]]",
+        "room_type": "validation",
+        "chosen_item": "Pot"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Painkiller_34_a.jpg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[424, 319], [634, 3867], [1170, 2818], [1103, 984]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.364, [[[424, 319], [634, 3867], [1170, 2818], [1103, 984]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Ear_toothpick_25_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[1470, 2631], [1467, 2634], [1467, 2636], [1469, 2636], [1470, 2637], [1471, 2636], [1473, 2636], [1474, 2635]], [[1745, 2131], [1745, 2135], [1752, 2139], [1756, 2139], [1760, 2135], [1759, 2130], [1755, 2127]], [[1753, 2061], [1744, 2068], [1744, 2073], [1754, 2078], [1757, 2077], [1760, 2073], [1760, 2068], [1758, 2064]], [[1692, 1343], [1690, 1343], [1690, 1347], [1691, 1348], [1693, 1346], [1693, 1345], [1694, 1344], [1693, 1344]], [[1773, 1330], [1770, 1331], [1769, 1335], [1769, 1349], [1772, 1352], [1774, 1350]], [[1663, 1165], [1663, 1167], [1662, 1168], [1662, 1173], [1663, 1174], [1663, 1176]], [[1691, 1155], [1691, 1157]], [[1675, 1138], [1674, 1139], [1674, 1143], [1675, 1144], [1680, 1144], [1681, 1143], [1681, 1139], [1679, 1138]], [[852, 1094], [854, 1097], [868, 1100], [880, 1100], [882, 1098], [878, 1089], [865, 1086], [860, 1081]], [[964, 1028], [1029, 1041], [1122, 1031], [1076, 1028], [1061, 1009], [1003, 1005]], [[1563, 982], [1564, 983], [1566, 983], [1567, 982], [1568, 982], [1566, 982], [1565, 981], [1564, 982]], [[1443, 981], [1441, 981], [1440, 980], [1439, 980], [1436, 982], [1439, 985], [1440, 984], [1442, 984], [1443, 983]], [[1679, 974], [1672, 983], [1673, 993], [1681, 1006], [1691, 1009], [1700, 998], [1693, 981]], [[841, 956], [835, 968], [838, 1005], [854, 1009], [881, 1004], [881, 980], [860, 970], [853, 956]], [[903, 950], [906, 2672], [1712, 2576], [1255, 2241], [1418, 1459], [1192, 1421], [1250, 998]], [[1340, 907], [1342, 907], [1343, 908], [1348, 908], [1350, 907], [1348, 904], [1342, 904]], [[1310, 906], [1310, 907], [1313, 909], [1317, 909], [1320, 907], [1322, 907], [1319, 903], [1312, 903]], [[1265, 903], [1268, 907], [1277, 909], [1285, 909], [1288, 907], [1286, 903], [1282, 902]], [[1375, 907], [1655, 908]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.392, [[[1470, 2631], [1467, 2634], [1467, 2636], [1469, 2636], [1470, 2637], [1471, 2636], [1473, 2636], [1474, 2635]], [[1745, 2131], [1745, 2135], [1752, 2139], [1756, 2139], [1760, 2135], [1759, 2130], [1755, 2127]], [[1753, 2061], [1744, 2068], [1744, 2073], [1754, 2078], [1757, 2077], [1760, 2073], [1760, 2068], [1758, 2064]], [[1692, 1343], [1690, 1343], [1690, 1347], [1691, 1348], [1693, 1346], [1693, 1345], [1694, 1344], [1693, 1344]], [[1773, 1330], [1770, 1331], [1769, 1335], [1769, 1349], [1772, 1352], [1774, 1350]], [[1663, 1165], [1663, 1167], [1662, 1168], [1662, 1173], [1663, 1174], [1663, 1176]], [[1691, 1155], [1691, 1157]], [[1675, 1138], [1674, 1139], [1674, 1143], [1675, 1144], [1680, 1144], [1681, 1143], [1681, 1139], [1679, 1138]], [[852, 1094], [854, 1097], [868, 1100], [880, 1100], [882, 1098], [878, 1089], [865, 1086], [860, 1081]], [[964, 1028], [1029, 1041], [1122, 1031], [1076, 1028], [1061, 1009], [1003, 1005]], [[1563, 982], [1564, 983], [1566, 983], [1567, 982], [1568, 982], [1566, 982], [1565, 981], [1564, 982]], [[1443, 981], [1441, 981], [1440, 980], [1439, 980], [1436, 982], [1439, 985], [1440, 984], [1442, 984], [1443, 983]], [[1679, 974], [1672, 983], [1673, 993], [1681, 1006], [1691, 1009], [1700, 998], [1693, 981]], [[841, 956], [835, 968], [838, 1005], [854, 1009], [881, 1004], [881, 980], [860, 970], [853, 956]], [[903, 950], [906, 2672], [1712, 2576], [1255, 2241], [1418, 1459], [1192, 1421], [1250, 998]], [[1340, 907], [1342, 907], [1343, 908], [1348, 908], [1350, 907], [1348, 904], [1342, 904]], [[1310, 906], [1310, 907], [1313, 909], [1317, 909], [1320, 907], [1322, 907], [1319, 903], [1312, 903]], [[1265, 903], [1268, 907], [1277, 909], [1285, 909], [1288, 907], [1286, 903], [1282, 902]], [[1375, 907], [1655, 908]]]]",
+        "room_type": "validation",
+        "chosen_item": "Ear_toothpick"
+    },
+    {
+        "image_path_html": "images/validation/4_segmented_Screwdriver_14_a.jpeg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[2380, 1935], [2375, 2252], [3075, 2587], [3094, 2174]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.363, [[[2380, 1935], [2375, 2252], [3075, 2587], [3094, 2174]]]]",
+        "room_type": "validation",
+        "chosen_item": "Screwdriver"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Random_18 - Converter_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[2103, 1386], [1547, 1396], [1553, 1725], [2100, 1716]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer cabinet door\", 0.399, [[[2103, 1386], [1547, 1396], [1553, 1725], [2100, 1716]]]]",
+        "room_type": "validation",
+        "chosen_item": "Converter"
+    },
+    {
+        "image_path_html": "images/validation/8_segmented_Food_containers__30_a.jpeg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[1053, 1340], [797, 1372], [795, 1533], [1050, 1495]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.39, [[[1053, 1340], [797, 1372], [795, 1533], [1050, 1495]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/1_segmented_Painkiller_21_a.jpg",
+        "num_detections": 1,
+        "containers_mask_polygon": "[[[295, 1266], [0, 2850], [3474, 2909], [3377, 1577]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.578, [[[295, 1266], [0, 2850], [3474, 2909], [3377, 1577]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/4_segmented_Bottle_opener_18_a.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[1418, 1096], [1416, 1227], [1854, 1351], [1859, 1192]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.374, [[[1418, 1096], [1416, 1227], [1854, 1351], [1859, 1192]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Painkiller_3_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[699, 501], [687, 759], [729, 876], [754, 589]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.435, [[[699, 501], [687, 759], [729, 876], [754, 589]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/14_segmented_Food_containers__22_a.jpg",
+        "num_detections": 14,
+        "containers_mask_polygon": "[[[619, 450], [618, 737], [725, 750], [732, 458]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.419, [[[619, 450], [618, 737], [725, 750], [732, 458]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/4_segmented_Painkiller_5_a.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[1039, 846], [855, 906], [869, 1268], [1046, 1162]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.385, [[[1039, 846], [855, 906], [869, 1268], [1046, 1162]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Painkiller_15_a.jpg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[431, 783], [431, 1210], [605, 1255], [632, 810]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.418, [[[431, 783], [431, 1210], [605, 1255], [632, 810]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Random_23 - Deodorant_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[2081, 1154], [2448, 2042], [3512, 1883], [3065, 1176]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer cabinet door\", 0.419, [[[2081, 1154], [2448, 2042], [3512, 1883], [3065, 1176]]]]",
+        "room_type": "validation",
+        "chosen_item": "Deodorant"
+    },
+    {
+        "image_path_html": "images/validation/8_segmented_Bottle_opener_3_a.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[1033, 784], [890, 796], [891, 1097], [1037, 1076]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.427, [[[1033, 784], [890, 796], [891, 1097], [1037, 1076]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Screwdriver_5_a.jpg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[2317, 1599], [2504, 1881], [2958, 1874], [2670, 1603]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer cabinet\", 0.349, [[[2317, 1599], [2504, 1881], [2958, 1874], [2670, 1603]]]]",
+        "room_type": "validation",
+        "chosen_item": "Screwdriver"
+    },
+    {
+        "image_path_html": "images/validation/7_segmented_Random_7 - Peeler_a.jpeg",
+        "num_detections": 7,
+        "containers_mask_polygon": "[[[1714, 1944], [1720, 2400], [2103, 2546], [2104, 2041]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.416, [[[1714, 1944], [1720, 2400], [2103, 2546], [2104, 2041]]]]",
+        "room_type": "validation",
+        "chosen_item": "Peeler"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Painkiller_31_a.jpg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[384, 994], [242, 1073], [242, 1220], [380, 1126]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.549, [[[384, 994], [242, 1073], [242, 1220], [380, 1126]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/1_segmented_Ear_toothpick_19_a.jpg",
+        "num_detections": 1,
+        "containers_mask_polygon": "[[[1789, 2983], [1789, 2984], [1788, 2985], [1788, 2987], [1789, 2988], [1789, 2989]], [[1663, 2966], [1659, 2969], [1656, 2982], [1656, 2989], [1659, 2993], [1664, 2990], [1667, 2983], [1667, 2970]], [[2991, 3001], [3382, 2997], [3360, 2936], [3063, 2903]], [[700, 2902], [666, 2941], [663, 2969], [644, 2997], [653, 3013], [703, 3013], [710, 2944]], [[1474, 2946], [1410, 2837], [1189, 3013], [1458, 3014], [1479, 2998]], [[1549, 2812], [1577, 2931], [2844, 3011], [2918, 2908]], [[624, 2606], [609, 2636], [611, 2641], [620, 2645], [629, 2641], [631, 2637]], [[682, 2541], [679, 2546], [683, 2554], [687, 2555], [689, 2545], [687, 2541]], [[693, 2872], [1079, 3010], [1436, 2663], [3339, 2799], [833, 2536]], [[794, 2430], [792, 2430], [791, 2431], [790, 2431], [790, 2435], [793, 2436], [796, 2434], [796, 2431], [795, 2431]], [[793, 2306], [791, 2308], [791, 2310], [793, 2312], [796, 2309]], [[749, 2274], [711, 2388], [739, 2396], [745, 2432], [767, 2437], [751, 2404], [764, 2316], [760, 2278]], [[780, 2241], [765, 2249], [761, 2262], [763, 2270], [771, 2272], [781, 2270], [783, 2254]], [[856, 2179]], [[834, 2132], [836, 2135], [838, 2136], [844, 2136], [845, 2135], [845, 2131], [844, 2129], [839, 2128]], [[815, 2110], [800, 2131], [808, 2152], [784, 2195], [800, 2214], [796, 2228], [810, 2228], [826, 2202], [843, 2196], [816, 2152], [827, 2126]], [[887, 2099], [887, 2102], [886, 2103], [887, 2105], [887, 2109], [888, 2111], [891, 2111], [891, 2103], [890, 2101]], [[845, 2066], [843, 2066], [840, 2069], [840, 2073], [844, 2076], [847, 2073], [847, 2069]], [[891, 2025], [885, 2038], [885, 2077], [891, 2080], [906, 2072], [921, 2076], [927, 2061], [925, 2048], [904, 2042]], [[919, 2014], [912, 2021], [912, 2025], [917, 2029], [921, 2029], [926, 2025], [925, 2020]], [[919, 1984], [918, 1985], [918, 1996], [919, 1999], [919, 1997], [921, 1994], [921, 1990]], [[875, 1965], [867, 1978], [867, 1993], [856, 2010], [881, 2017], [886, 2010], [882, 1995], [886, 1977]], [[919, 1959], [917, 1962], [917, 1965], [919, 1970], [919, 1969], [923, 1965], [923, 1961]], [[954, 1947], [954, 1955], [952, 1959], [954, 1969]], [[967, 1772], [963, 1783], [963, 1790], [966, 1793], [970, 1792], [971, 1790], [970, 1775]], [[970, 1752], [967, 1752], [965, 1754], [966, 1767], [970, 1766], [970, 1763], [973, 1758], [973, 1755]], [[923, 1751], [919, 1751], [915, 1754], [915, 1758], [919, 1760], [922, 1759], [924, 1755]], [[966, 1724], [966, 1725], [965, 1726], [966, 1727], [967, 1726], [966, 1725]], [[677, 2446], [3300, 2655], [3066, 1803], [997, 1691]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer cabinet door\", 0.308, [[[1789, 2983], [1789, 2984], [1788, 2985], [1788, 2987], [1789, 2988], [1789, 2989]], [[1663, 2966], [1659, 2969], [1656, 2982], [1656, 2989], [1659, 2993], [1664, 2990], [1667, 2983], [1667, 2970]], [[2991, 3001], [3382, 2997], [3360, 2936], [3063, 2903]], [[700, 2902], [666, 2941], [663, 2969], [644, 2997], [653, 3013], [703, 3013], [710, 2944]], [[1474, 2946], [1410, 2837], [1189, 3013], [1458, 3014], [1479, 2998]], [[1549, 2812], [1577, 2931], [2844, 3011], [2918, 2908]], [[624, 2606], [609, 2636], [611, 2641], [620, 2645], [629, 2641], [631, 2637]], [[682, 2541], [679, 2546], [683, 2554], [687, 2555], [689, 2545], [687, 2541]], [[693, 2872], [1079, 3010], [1436, 2663], [3339, 2799], [833, 2536]], [[794, 2430], [792, 2430], [791, 2431], [790, 2431], [790, 2435], [793, 2436], [796, 2434], [796, 2431], [795, 2431]], [[793, 2306], [791, 2308], [791, 2310], [793, 2312], [796, 2309]], [[749, 2274], [711, 2388], [739, 2396], [745, 2432], [767, 2437], [751, 2404], [764, 2316], [760, 2278]], [[780, 2241], [765, 2249], [761, 2262], [763, 2270], [771, 2272], [781, 2270], [783, 2254]], [[856, 2179]], [[834, 2132], [836, 2135], [838, 2136], [844, 2136], [845, 2135], [845, 2131], [844, 2129], [839, 2128]], [[815, 2110], [800, 2131], [808, 2152], [784, 2195], [800, 2214], [796, 2228], [810, 2228], [826, 2202], [843, 2196], [816, 2152], [827, 2126]], [[887, 2099], [887, 2102], [886, 2103], [887, 2105], [887, 2109], [888, 2111], [891, 2111], [891, 2103], [890, 2101]], [[845, 2066], [843, 2066], [840, 2069], [840, 2073], [844, 2076], [847, 2073], [847, 2069]], [[891, 2025], [885, 2038], [885, 2077], [891, 2080], [906, 2072], [921, 2076], [927, 2061], [925, 2048], [904, 2042]], [[919, 2014], [912, 2021], [912, 2025], [917, 2029], [921, 2029], [926, 2025], [925, 2020]], [[919, 1984], [918, 1985], [918, 1996], [919, 1999], [919, 1997], [921, 1994], [921, 1990]], [[875, 1965], [867, 1978], [867, 1993], [856, 2010], [881, 2017], [886, 2010], [882, 1995], [886, 1977]], [[919, 1959], [917, 1962], [917, 1965], [919, 1970], [919, 1969], [923, 1965], [923, 1961]], [[954, 1947], [954, 1955], [952, 1959], [954, 1969]], [[967, 1772], [963, 1783], [963, 1790], [966, 1793], [970, 1792], [971, 1790], [970, 1775]], [[970, 1752], [967, 1752], [965, 1754], [966, 1767], [970, 1766], [970, 1763], [973, 1758], [973, 1755]], [[923, 1751], [919, 1751], [915, 1754], [915, 1758], [919, 1760], [922, 1759], [924, 1755]], [[966, 1724], [966, 1725], [965, 1726], [966, 1727], [967, 1726], [966, 1725]], [[677, 2446], [3300, 2655], [3066, 1803], [997, 1691]]]]",
+        "room_type": "validation",
+        "chosen_item": "Ear_toothpick"
+    },
+    {
+        "image_path_html": "images/validation/10_segmented_Food_containers__39_a.jpg",
+        "num_detections": 10,
+        "containers_mask_polygon": "[[[435, 740], [335, 771], [339, 1109], [431, 1047]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.362, [[[435, 740], [335, 771], [339, 1109], [431, 1047]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/5_segmented_Food_containers__36_a.jpeg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[2381, 1933], [2375, 2252], [3075, 2587], [3094, 2174]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.376, [[[2381, 1933], [2375, 2252], [3075, 2587], [3094, 2174]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/4_segmented_Food_containers__23_a.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[429, 899], [99, 966], [185, 1441], [486, 1335], [443, 994], [372, 971], [376, 1185], [286, 1169], [261, 995], [158, 1005], [438, 961]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.402, [[[429, 899], [99, 966], [185, 1441], [486, 1335], [443, 994], [372, 971], [376, 1185], [286, 1169], [261, 995], [158, 1005], [438, 961]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/6_segmented_Bottle_opener_25_a.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[415, 454], [187, 617], [209, 763], [422, 560]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.476, [[[415, 454], [187, 617], [209, 763], [422, 560]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Screwdriver_15_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[485, 706], [494, 788], [684, 924], [688, 832]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.433, [[[485, 706], [494, 788], [684, 924], [688, 832]]]]",
+        "room_type": "validation",
+        "chosen_item": "Screwdriver"
+    },
+    {
+        "image_path_html": "images/validation/5_segmented_Bottle_opener_11_a.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[744, 829], [749, 867], [782, 877], [847, 878], [844, 830]], [[841, 820], [834, 818], [805, 821], [808, 824]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.418, [[[744, 829], [749, 867], [782, 877], [847, 878], [844, 830]], [[841, 820], [834, 818], [805, 821], [808, 824]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Painkiller_13_a.jpg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[714, 1139], [9, 1437], [0, 1763], [705, 1363]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.429, [[[714, 1139], [9, 1437], [0, 1763], [705, 1363]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Random_4 - Air freshener _a.jpeg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[0, 520], [0, 1713], [2195, 1742], [2229, 546]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.409, [[[0, 520], [0, 1713], [2195, 1742], [2229, 546]]]]",
+        "room_type": "validation",
+        "chosen_item": "Air freshener "
+    },
+    {
+        "image_path_html": "images/validation/10_segmented_Food_containers__40_a.jpg",
+        "num_detections": 10,
+        "containers_mask_polygon": "[[[649, 49], [648, 257], [752, 260], [750, 56]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.415, [[[649, 49], [648, 257], [752, 260], [750, 56]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/4_segmented_Random_13 - Towel_a.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[658, 677], [658, 683], [659, 682], [659, 679], [658, 678]], [[661, 658]], [[663, 638], [662, 638], [662, 639], [661, 640], [661, 645], [662, 646], [662, 647], [664, 644], [664, 641], [663, 640]], [[662, 621], [662, 623], [663, 624], [663, 621]], [[668, 540], [666, 542], [667, 546], [666, 560], [667, 561], [670, 554], [668, 549]], [[890, 422], [680, 477], [657, 828], [855, 707]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.458, [[[658, 677], [658, 683], [659, 682], [659, 679], [658, 678]], [[661, 658]], [[663, 638], [662, 638], [662, 639], [661, 640], [661, 645], [662, 646], [662, 647], [664, 644], [664, 641], [663, 640]], [[662, 621], [662, 623], [663, 624], [663, 621]], [[668, 540], [666, 542], [667, 546], [666, 560], [667, 561], [670, 554], [668, 549]], [[890, 422], [680, 477], [657, 828], [855, 707]]]]",
+        "room_type": "validation",
+        "chosen_item": "Towel"
+    },
+    {
+        "image_path_html": "images/validation/7_segmented_Random_12 - Fork_a.jpeg",
+        "num_detections": 7,
+        "containers_mask_polygon": "[[[302, 976], [302, 1100], [520, 1212], [526, 1065]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.43, [[[302, 976], [302, 1100], [520, 1212], [526, 1065]]]]",
+        "room_type": "validation",
+        "chosen_item": "Fork"
+    },
+    {
+        "image_path_html": "images/validation/4_segmented_Screwdriver_17_a.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[3049, 1958], [2394, 2037], [2238, 2256], [2353, 2674], [2656, 2752], [3304, 2512]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.457, [[[3049, 1958], [2394, 2037], [2238, 2256], [2353, 2674], [2656, 2752], [3304, 2512]]]]",
+        "room_type": "validation",
+        "chosen_item": "Screwdriver"
+    },
+    {
+        "image_path_html": "images/validation/5_segmented_Bottle_opener_23_a.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[559, 719], [353, 735], [356, 978], [563, 947]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.443, [[[559, 719], [353, 735], [356, 978], [563, 947]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Painkiller_10_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[1129, 360], [1097, 761], [1214, 889], [1254, 375]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer cabinet door\", 0.451, [[[1129, 360], [1097, 761], [1214, 889], [1254, 375]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/10_segmented_Bottle_opener_39_a.jpg",
+        "num_detections": 10,
+        "containers_mask_polygon": "[[[330, 770], [200, 808], [205, 904], [332, 854]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.388, [[[330, 770], [200, 808], [205, 904], [332, 854]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/8_segmented_Bottle_opener_40_a.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[306, 401], [293, 573], [462, 573], [469, 402]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.39, [[[306, 401], [293, 573], [462, 573], [469, 402]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/4_segmented_Painkiller_6_a.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[97, 1297]], [[148, 1272], [146, 1272], [146, 1274], [147, 1275], [148, 1274]], [[188, 1254], [191, 1256], [192, 1255], [195, 1254], [195, 1252], [191, 1252]], [[198, 1247], [197, 1247], [197, 1249], [198, 1248]], [[229, 1235], [234, 1235], [234, 1234], [230, 1234]], [[244, 1227], [241, 1227], [238, 1229], [239, 1230], [241, 1230], [242, 1229], [243, 1229], [244, 1228]], [[262, 1220], [259, 1219], [256, 1221], [251, 1222], [256, 1224], [261, 1224]], [[265, 1216], [266, 1216]], [[379, 1163], [96, 1328], [122, 1599], [315, 1599], [385, 1543]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.355, [[[97, 1297]], [[148, 1272], [146, 1272], [146, 1274], [147, 1275], [148, 1274]], [[188, 1254], [191, 1256], [192, 1255], [195, 1254], [195, 1252], [191, 1252]], [[198, 1247], [197, 1247], [197, 1249], [198, 1248]], [[229, 1235], [234, 1235], [234, 1234], [230, 1234]], [[244, 1227], [241, 1227], [238, 1229], [239, 1230], [241, 1230], [242, 1229], [243, 1229], [244, 1228]], [[262, 1220], [259, 1219], [256, 1221], [251, 1222], [256, 1224], [261, 1224]], [[265, 1216], [266, 1216]], [[379, 1163], [96, 1328], [122, 1599], [315, 1599], [385, 1543]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/4_segmented_Painkiller_32_a.jpeg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[573, 1021], [374, 1040], [367, 1309], [564, 1271]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.368, [[[573, 1021], [374, 1040], [367, 1309], [564, 1271]]]]",
+        "room_type": "validation",
+        "chosen_item": "Painkiller"
+    },
+    {
+        "image_path_html": "images/validation/2_segmented_Ear_toothpick_15_a.jpg",
+        "num_detections": 2,
+        "containers_mask_polygon": "[[[693, 1011], [690, 1018], [690, 1024], [693, 1028], [697, 1028], [702, 1023], [702, 1019], [697, 1011]], [[681, 989]], [[693, 909], [678, 943], [665, 945], [662, 962], [678, 971], [701, 970], [710, 962]], [[661, 863], [659, 867], [661, 883], [656, 896], [661, 901], [667, 901], [672, 895], [665, 883], [665, 865]], [[611, 832], [610, 833], [610, 835], [612, 837], [616, 838], [619, 836], [619, 833], [618, 832], [616, 832], [615, 831]], [[561, 743], [585, 743], [582, 742]], [[428, 519], [427, 520], [427, 521], [428, 522], [429, 521], [429, 520]], [[424, 479], [423, 493], [425, 498], [428, 500], [431, 496], [431, 488], [427, 479]], [[400, 456], [400, 457], [399, 458], [399, 461], [400, 462], [404, 462], [404, 458], [403, 458]], [[427, 455], [420, 458], [413, 471], [414, 475], [417, 476], [427, 470]], [[474, 454], [472, 458], [472, 463], [474, 467], [478, 465], [479, 463], [479, 457], [478, 455]], [[365, 364], [365, 365]], [[443, 348], [435, 366], [439, 374], [449, 376], [453, 373], [455, 364], [447, 350]], [[337, 301], [333, 304], [329, 318], [329, 339], [333, 347], [343, 348]], [[302, 269], [301, 270], [301, 275], [302, 277], [305, 277], [306, 278], [308, 275], [308, 271], [306, 269]], [[400, 263], [399, 271], [409, 285], [411, 307], [426, 306], [416, 268]], [[287, 255], [286, 256], [286, 258], [285, 259], [290, 259], [289, 258], [289, 257]], [[379, 199], [372, 208], [376, 230], [398, 254], [400, 239], [391, 230], [389, 207]], [[300, 161], [295, 166], [297, 167], [302, 180], [303, 163], [302, 161]], [[348, 131], [341, 139], [340, 149], [360, 184], [369, 189], [372, 175], [358, 141]], [[333, 102], [330, 108], [329, 118], [334, 125], [339, 126], [344, 123], [345, 118], [338, 106]], [[281, 0], [264, 16], [265, 29], [291, 40], [308, 94], [333, 97], [306, 20], [291, 0]], [[0, 0], [0, 1146], [383, 1450], [667, 1409], [699, 1097], [280, 71]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.334, [[[693, 1011], [690, 1018], [690, 1024], [693, 1028], [697, 1028], [702, 1023], [702, 1019], [697, 1011]], [[681, 989]], [[693, 909], [678, 943], [665, 945], [662, 962], [678, 971], [701, 970], [710, 962]], [[661, 863], [659, 867], [661, 883], [656, 896], [661, 901], [667, 901], [672, 895], [665, 883], [665, 865]], [[611, 832], [610, 833], [610, 835], [612, 837], [616, 838], [619, 836], [619, 833], [618, 832], [616, 832], [615, 831]], [[561, 743], [585, 743], [582, 742]], [[428, 519], [427, 520], [427, 521], [428, 522], [429, 521], [429, 520]], [[424, 479], [423, 493], [425, 498], [428, 500], [431, 496], [431, 488], [427, 479]], [[400, 456], [400, 457], [399, 458], [399, 461], [400, 462], [404, 462], [404, 458], [403, 458]], [[427, 455], [420, 458], [413, 471], [414, 475], [417, 476], [427, 470]], [[474, 454], [472, 458], [472, 463], [474, 467], [478, 465], [479, 463], [479, 457], [478, 455]], [[365, 364], [365, 365]], [[443, 348], [435, 366], [439, 374], [449, 376], [453, 373], [455, 364], [447, 350]], [[337, 301], [333, 304], [329, 318], [329, 339], [333, 347], [343, 348]], [[302, 269], [301, 270], [301, 275], [302, 277], [305, 277], [306, 278], [308, 275], [308, 271], [306, 269]], [[400, 263], [399, 271], [409, 285], [411, 307], [426, 306], [416, 268]], [[287, 255], [286, 256], [286, 258], [285, 259], [290, 259], [289, 258], [289, 257]], [[379, 199], [372, 208], [376, 230], [398, 254], [400, 239], [391, 230], [389, 207]], [[300, 161], [295, 166], [297, 167], [302, 180], [303, 163], [302, 161]], [[348, 131], [341, 139], [340, 149], [360, 184], [369, 189], [372, 175], [358, 141]], [[333, 102], [330, 108], [329, 118], [334, 125], [339, 126], [344, 123], [345, 118], [338, 106]], [[281, 0], [264, 16], [265, 29], [291, 40], [308, 94], [333, 97], [306, 20], [291, 0]], [[0, 0], [0, 1146], [383, 1450], [667, 1409], [699, 1097], [280, 71]]]]",
+        "room_type": "validation",
+        "chosen_item": "Ear_toothpick"
+    },
+    {
+        "image_path_html": "images/validation/6_segmented_Food_containers__18_a.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[1270, 618], [1065, 643], [1077, 964], [1273, 924]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.403, [[[1270, 618], [1065, 643], [1077, 964], [1273, 924]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/10_segmented_Bottle_opener_45_a.jpg",
+        "num_detections": 10,
+        "containers_mask_polygon": "[[[1706, 1524], [1233, 1539], [1257, 2310], [1717, 2279]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.395, [[[1706, 1524], [1233, 1539], [1257, 2310], [1717, 2279]]]]",
+        "room_type": "validation",
+        "chosen_item": "Bottle_opener"
+    },
+    {
+        "image_path_html": "images/validation/7_segmented_Food_containers__7_a.jpg",
+        "num_detections": 7,
+        "containers_mask_polygon": "[[[460, 873], [316, 901], [322, 962], [362, 991], [349, 1212], [488, 1162]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.386, [[[460, 873], [316, 901], [322, 962], [362, 991], [349, 1212], [488, 1162]]]]",
+        "room_type": "validation",
+        "chosen_item": "Food_containers"
+    },
+    {
+        "image_path_html": "images/validation/3_segmented_Ear_toothpick_11_a.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[279, 888], [102, 979], [141, 1292], [290, 1183]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.546, [[[279, 888], [102, 979], [141, 1292], [290, 1183]]]]",
+        "room_type": "validation",
+        "chosen_item": "Ear_toothpick"
+    },
+    {
+        "image_path_html": "images/validation/5_segmented_Screwdriver_16_a.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[2183, 1454], [1589, 1461], [1592, 2411], [2145, 2380]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.425, [[[2183, 1454], [1589, 1461], [1592, 2411], [2145, 2380]]]]",
+        "room_type": "validation",
+        "chosen_item": "Screwdriver"
+    }
+]
