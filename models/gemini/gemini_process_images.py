@@ -47,8 +47,8 @@ except Exception as e:
     exit()
 
 # 4. File Paths
-INPUT_JSON_PATH = "../../data/train_data/train_data.json"
-OUTPUT_JSON_PATH = "train_data_with_gemini_bboxes_as_strings.json"  # Output file
+INPUT_JSON_PATH = "../../data/test_data/test_data.json"
+OUTPUT_JSON_PATH = "test_data_with_gemini_bboxes_as_strings.json"  # Output file
 LOCAL_IMAGE_BASE_DIR = "../../images"  # Base directory for local images
 
 # 5. Processing & Reliability Settings
@@ -184,7 +184,7 @@ def main():
 
         image_url_from_json = entry.get("image_path")
         chosen_item = entry.get("chosen_item")
-        room_type = entry.get("room_type", "unknown_room")
+        room_type = entry.get("room_type", "validation")
 
         current_entry_log_prefix = f"Entry {i + 1}/{total_input_items} (URL: {image_url_from_json})"
 
