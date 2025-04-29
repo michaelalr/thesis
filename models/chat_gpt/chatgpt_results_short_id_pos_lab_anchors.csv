@@ -1,379 +1,1111 @@
 image_path,item,response
-images/kitchen/12_segmented_sun_afwaivvfezladsbj.jpg,Bowl,"...Container id 1, a ""cabinet door"" below the countertop. This seemed the most likely place to find a bowl, as they are typically stored in a cabinet."
-images/kitchen/12_segmented_sun_afwaivvfezladsbj.jpg,Mug,"...Container id 1, a ""cabinet door"" below the countertop. It was common for mugs to be stored in such a place, and they were hopeful they would find what they were looking for there."
-images/kitchen/12_segmented_sun_afwaivvfezladsbj.jpg,Pan,"...Container id 1, the ""cabinet door"" below the countertop. It was common in many kitchens for pans to be stored in such a location, and they hoped it would be the same here."
-images/kitchen/12_segmented_sun_afwaivvfezladsbj.jpg,Tupperware containers,"...Container id 1, a ""cabinet door"" below the countertop. As their fingers wrapped around the handle, they hoped they would find the tupperware containers they were looking for inside."
-images/kitchen/15_segmented_sun_avdeakyjwzxtynyf.jpg,Bottle opener,"...container id 1, the ""cabinet door"" below the countertop. It was conveniently located below the microwave and at the bottom-left of the sink, a typical place for storing a bottle opener in many households."
-images/kitchen/15_segmented_sun_avdeakyjwzxtynyf.jpg,Cutting board,"...Container id 1, the ""cabinet door"" located below the countertop, underneath the microwave, and at the bottom-left of the sink."
-images/kitchen/15_segmented_sun_avdeakyjwzxtynyf.jpg,Mug,"...Container id 1, the ""cabinet door"" below the countertop. Mugs are often stored in lower cabinets for easy access, and the location below the microwave and to the left of the sink seemed convenient."
-images/kitchen/15_segmented_sun_avdeakyjwzxtynyf.jpg,Pan,"...Container id 1, the cabinet door located below the countertop, situated under the microwave and to the bottom-left of the sink. This seemed the most likely location to find a pan."
-images/kitchen/6_segmented_sun_afstlyyibsjscpbm.jpg,Cooking oil,"...Container id 2, the ""cabinet door"" above the countertop. It seemed like a likely place for cooking oil to be stored, within easy reach but not too close to heat sources like the oven. They opened it and were greeted by an array of bottles and jars, among which they found the cooking oil they were looking for."
-images/kitchen/6_segmented_sun_afstlyyibsjscpbm.jpg,Dish towels,"...Container id 2, the ""cabinet door"" above the countertop. This seemed the most likely place for the dish towels to be stored, easily accessible and not too close to any heat or water sources."
-images/kitchen/6_segmented_sun_afstlyyibsjscpbm.jpg,Pot,"...Container id 2, a ""cabinet door"" above the countertop. It seemed the most likely place for a pot to be stored."
-images/kitchen/6_segmented_sun_afstlyyibsjscpbm.jpg,Spices,"...Container id 2, a ""cabinet door"" above the countertop. It seemed the most suitable place for the spices they were searching for."
-images/kitchen/12_segmented_sun_aopqdojqibxivqgu.jpg,Cooking oil,"...Container id 2, the ""cabinet door"" below the countertop located at the bottom-left of the stove. This location is typically where many people keep their cooking oils for easy access while cooking."
-images/kitchen/12_segmented_sun_aopqdojqibxivqgu.jpg,Dish towels,"...Container id 2, a ""cabinet door"" located below the countertop and at the bottom-left of the stove. It was a typical place for dish towels to be stored, making it the most likely location for their search."
-images/kitchen/12_segmented_sun_aopqdojqibxivqgu.jpg,Pot,"...Container id 2, which is a ""cabinet door"" below the countertop and located at the bottom-left of the stove. This seemed like the most likely place to find a pot."
-images/kitchen/12_segmented_sun_aopqdojqibxivqgu.jpg,Spoon,"...Container id 5, the ""drawer"" located below the countertop, at the bottom-right of the coffee machine, bottom-left of the sink, and top-left of the dishwasher. It seemed like the most likely spot for a spoon to be kept."
-images/kitchen/10_segmented_sun_ayzwrfmejwnjncpp.jpg,Cooking oil,"...Container id 2, a ""cabinet door"" above the countertop. It was a common place for cooking oil to be stored, away from heat and within easy reach."
-images/kitchen/10_segmented_sun_ayzwrfmejwnjncpp.jpg,Dish towels,"...Container id 6, is a ""drawer"" below the countertop. Additionally, it is located to the left of the oven, and at the bottom-left of the stove. This seemed like a logical storage place for dish towels, as they are often kept in lower drawers for easy access while cooking or cleaning."
-images/kitchen/10_segmented_sun_ayzwrfmejwnjncpp.jpg,Plate,"...Container id 2, a ""cabinet door"" above the countertop. This seemed like a logical place for plates to be stored, easily accessible for everyday use."
-images/kitchen/10_segmented_sun_ayzwrfmejwnjncpp.jpg,Spices,"...Container id 2, a ""cabinet door"" above the countertop. It was at the perfect height for them to easily reach and seemed like the most likely place where spices might be kept."
-images/kitchen/16_segmented_sun_amtngujfdqlygigl.jpg,Bottle opener,"...Container id 2, a ""cabinet door"" above the countertop, located at the top-right of the toaster."
-images/kitchen/16_segmented_sun_amtngujfdqlygigl.jpg,Cutting board,"...Container id 9, a ""drawer"" below the countertop. Based on the typical kitchen layout, a cutting board would most likely be stored in a drawer under the countertop for easy access while preparing meals."
-images/kitchen/16_segmented_sun_amtngujfdqlygigl.jpg,Pan,"...Container id 4, the ""cabinet door"" below the countertop, located to the right of the oven and at the bottom-right of the stove. They figured it was the most likely place to find pans, given its proximity to the cooking appliances."
-images/kitchen/16_segmented_sun_amtngujfdqlygigl.jpg,Spoon,"...Container id 5, the ""drawer"" below the countertop. This would be a logical place to store spoons and other utensils for easy access during cooking and cleaning."
-images/kitchen/22_segmented_sun_augjvuygusrwlxqz.jpg,Bowl,"...Container id 3, the ""drawer"" located below the countertop. It seemed the most likely place to find a bowl."
-images/kitchen/22_segmented_sun_augjvuygusrwlxqz.jpg,Cutting knife,"...Container id 3, which is a ""drawer"" below the countertop. This seemed like the most likely place for a cutting knife to be stored in a typical kitchen layout."
-images/kitchen/22_segmented_sun_augjvuygusrwlxqz.jpg,Plate,"...Container id 1, a ""cabinet door"" above the countertop. It was the most likely place to find a plate. Plates were generally kept in higher cabinets for easy access, and this one was conveniently located."
-images/kitchen/22_segmented_sun_augjvuygusrwlxqz.jpg,Tupperware containers,"...Container id 2, the ""cabinet door"" below the countertop. It was a common place to store tupperware containers, easily accessible yet out of the way."
-images/kitchen/15_segmented_sun_apuaydbvdodzgqrh.jpg,Cutting knife,"Container id 10, is a ""drawer"" below the countertop."
-images/kitchen/15_segmented_sun_apuaydbvdodzgqrh.jpg,Plate,"...Container id 5, a ""cabinet door"" below the countertop, located conveniently below the dish drying rack and the microwave. Their intuition told them this could be the place where the plates are usually stored."
-images/kitchen/15_segmented_sun_apuaydbvdodzgqrh.jpg,Spices,"...Container id 1, the ""cabinet door"" below the countertop and located at the bottom-left of the coffee machine. This location is often where spices are kept for easy access during cooking."
-images/kitchen/15_segmented_sun_apuaydbvdodzgqrh.jpg,Tupperware containers,"...Container id 1, a ""cabinet door"" located below the countertop and at the bottom-left of the coffee machine. This seemed like a typical spot for storing tupperware containers."
-images/kitchen/3_segmented_sun_aobtqmsjotgsxppu.jpg,Bottle opener,"Container id 1, is a ""cabinet door"" above the countertop."
-images/kitchen/3_segmented_sun_aobtqmsjotgsxppu.jpg,Bowl,"...Container id 1, which is a ""cabinet door"" above the countertop."
-images/kitchen/3_segmented_sun_aobtqmsjotgsxppu.jpg,Mug,"Container id 1, is a ""cabinet door"" above the countertop."
-images/kitchen/3_segmented_sun_aobtqmsjotgsxppu.jpg,Pan,"...Container id 1, is a ""cabinet door"" above the countertop."
-images/kitchen/16_segmented_sun_alqafgyfzsctxwtt.jpg,Cooking oil,"...Container id 9, as it was a ""cabinet door"" below the countertop. This was usually where cooking oils were stored in most kitchens, away from heat and light sources."
-images/kitchen/16_segmented_sun_alqafgyfzsctxwtt.jpg,Dish towels,"...Container id 15, is a ""drawer"" below the countertop. Additionally, it is located at the bottom-left of the stove. The location was ideal as dish towels are often kept close to the stove for easy access while cooking."
-images/kitchen/16_segmented_sun_alqafgyfzsctxwtt.jpg,Plate,"...Container id 9, which is a ""cabinet door"" below the countertop. Typically, plates are stored in lower cabinets for easy access."
-images/kitchen/16_segmented_sun_alqafgyfzsctxwtt.jpg,Spices,"...Container id 15, a ""drawer"" below the countertop. Additionally, it was located at the bottom-left of the stove, a place where spices were often stored for easy access while cooking."
-images/kitchen/5_segmented_sun_aawsixgpgwqanatu.jpg,Bowl,"- Container id 1, is a ""cabinet door"" below the countertop. Additionally, it is located to the right of the oven."
-images/kitchen/5_segmented_sun_aawsixgpgwqanatu.jpg,Cutting knife,"Container id 3, is a ""drawer"" below the countertop. Additionally, it is located below the sink."
-images/kitchen/5_segmented_sun_aawsixgpgwqanatu.jpg,Mug,"Container id 1, is a ""cabinet door"" below the countertop. Additionally, it is located to the right of the oven."
-images/kitchen/5_segmented_sun_aawsixgpgwqanatu.jpg,Tupperware containers,"...Container id 1, the ""cabinet door"" below the countertop and to the right of the oven. This seemed like a likely place for tupperware to be stored."
-images/kitchen/12_segmented_sun_aglwoufpxbtxqecp.jpg,Cutting knife,"...Container id 5, a ""drawer"" below the countertop. Additionally, it is located at the bottom-right of the coffee machine. This seemed like a logical place where a cutting knife might be stored."
-images/kitchen/12_segmented_sun_aglwoufpxbtxqecp.jpg,Dish towels,"...Container id 5, a ""drawer"" below the countertop, located at the bottom-right of the coffee machine. This location seemed most probable for storing dish towels, easy to reach while working within the kitchen."
-images/kitchen/12_segmented_sun_aglwoufpxbtxqecp.jpg,Plate,"...Container id 2, the ""cabinet door"" above the countertop. Plates are usually stored in an easily accessible place, but not often in drawers. This cabinet seemed to be an ideal place for plates to be stored."
-images/kitchen/12_segmented_sun_aglwoufpxbtxqecp.jpg,Spices,"...Container id 1, the ""cabinet door"" above the countertop and to the top-right of the coffee machine. It seemed the most likely place for spices to be stored."
-images/kitchen/11_segmented_sun_andzglcqubvbzfhz.jpg,Cooking oil,"...Container id 3, is a ""cabinet door"" below the countertop. Additionally, it is located to the left of the dishwasher. They had a hunch that cooking oil would be stored in a lower cabinet, near the dishwasher for easy access when cleaning up after cooking."
-images/kitchen/11_segmented_sun_andzglcqubvbzfhz.jpg,Dish towels,"...container id 8, a drawer below the countertop, where dish towels are most commonly stored."
-images/kitchen/11_segmented_sun_andzglcqubvbzfhz.jpg,Plate,"...Container id 8, a ""drawer"" below the countertop. It seemed like a practical place to store plates for easy access."
-images/kitchen/11_segmented_sun_andzglcqubvbzfhz.jpg,Spices,"...Container id 3, the ""cabinet door"" below the countertop and to the left of the dishwasher. It seemed like a place someone might store spices for easy access while cooking."
-images/kitchen/4_segmented_sun_axzmxlymdvjqqfpk.jpg,Bottle opener,"Additionally, it is located at the bottom-right of the sink. 
-
-...the ""cabinet door"" below the countertop, located at the bottom-left of the sink, Container id 1. It seemed the most plausible place to find a bottle opener."
-images/kitchen/4_segmented_sun_axzmxlymdvjqqfpk.jpg,Cutting board,"Additionally, it is located at the bottom-right of the sink. 
-
-...the cabinet door below the countertop—Container id 1. It was located at the bottom-left of the sink, a place where cutting boards were often stored in many kitchens. Their fingers closed around the cool handle, pulling it open to reveal the desired item."
-images/kitchen/4_segmented_sun_axzmxlymdvjqqfpk.jpg,Pot,"Additionally, it is located to the right of the stove. 
-
-...Container id 4. It is below the countertop and located to the right of the stove, a common place for pots to be stored. As they opened the door, they found a variety of pots and pans, neatly stacked and ready for use."
-images/kitchen/4_segmented_sun_axzmxlymdvjqqfpk.jpg,Spoon,"Additionally, it is located at the bottom-right of the sink. 
-
-They reached towards Container id 1, a ""cabinet door"" located at the bottom-left of the sink. This was typically where spoons and other utensils were stored in most kitchens."
-images/kitchen/8_segmented_sun_aojmogpsfirohkai.jpg,Cooking oil,"...Container id 5, is a ""cabinet door"" above the countertop. It is a common place to store cooking oil, as it's easily accessible when standing and cooking."
-images/kitchen/8_segmented_sun_aojmogpsfirohkai.jpg,Dish towels,"...Container id 1, a ""cabinet door"" below the countertop. It was a common place for dish towels to be stored, easily accessible but out of sight."
-images/kitchen/8_segmented_sun_aojmogpsfirohkai.jpg,Pot,"...Container id 1, is a ""cabinet door"" below the countertop."
-images/kitchen/8_segmented_sun_aojmogpsfirohkai.jpg,Spices,"...Container id 5, a ""cabinet door"" above the countertop. This seemed the most likely place where spices would be kept, easily accessible while cooking."
-images/kitchen/6_segmented_sun_advwcwduhfypopki.jpg,Bottle opener,"Container id 2, is a ""drawer"" nan the countertop."
-images/kitchen/6_segmented_sun_advwcwduhfypopki.jpg,Cutting board,"...Container id 1, a ""cabinet door"" near the countertop located above the dish drying rack. The location made it an ideal spot for storing a cutting board, easily accessible and close to the sink for easy cleaning."
-images/kitchen/6_segmented_sun_advwcwduhfypopki.jpg,Mug,"Container id 1, is a ""cabinet door"" nan the countertop. Additionally, it is located above the dish drying rack."
-images/kitchen/6_segmented_sun_advwcwduhfypopki.jpg,Pan,"...Container id 4, is a ""drawer"" nan the countertop. Additionally, it is located to the left of the stove, and at the bottom-left of the microwave."
-images/kitchen/8_segmented_sun_ayeksgxvkxbdgqil.jpg,Bottle opener,"Container id 5, is a ""cabinet door"" below the countertop. Additionally, it is located below the microwave, to the left of the sink, at the bottom-right of the refrigerator, and at the bottom-left of the electronic kettle."
-images/kitchen/8_segmented_sun_ayeksgxvkxbdgqil.jpg,Cutting board,"...Container id 5, as it was most common to store cutting boards below the countertop for easy accessibility and it was safely away from the heat of the oven."
-images/kitchen/8_segmented_sun_ayeksgxvkxbdgqil.jpg,Pan,"...Container id 5. It seemed the most likely place for a pan to be stored, being located below the countertop and close to other cooking appliances. They opened the cabinet door and there it was, the pan they were looking for."
-images/kitchen/8_segmented_sun_ayeksgxvkxbdgqil.jpg,Spoon,"the ""cabinet door"" below the countertop, Container id 5. This location is typically where utensils like spoons are often stored in a kitchen."
-images/kitchen/11_segmented_sun_awmwrrktzbyokpcr.jpg,Bottle opener,"...Container id 1, the ""drawer"" above the countertop."
-images/kitchen/11_segmented_sun_awmwrrktzbyokpcr.jpg,Bowl,"...Container id 2, the ""cabinet door"" above the countertop located at the top-left of the stove. It seemed like a logical place for bowls to be stored, within easy reach of the cooking area."
-images/kitchen/11_segmented_sun_awmwrrktzbyokpcr.jpg,Mug,"...Container id 1, the ""drawer"" above the countertop. This seemed the most likely place to find a mug."
-images/kitchen/11_segmented_sun_awmwrrktzbyokpcr.jpg,Pan,"- Container id 2, is a ""cabinet door"" above the countertop. Additionally, it is located at the top-left of the stove."
-images/kitchen/8_segmented_sun_amvpxkryxaldzmdv.jpg,Bowl,"...Container id 1, the ""cabinet door"" below the countertop at the bottom-left of the refrigerator. This location seemed like a logical place to store bowls and other similar kitchenware."
-images/kitchen/8_segmented_sun_amvpxkryxaldzmdv.jpg,Cutting knife,"...Container id 7, the ""drawer"" below the countertop. Additionally, it is located below the electronic kettle, to the right of the coffee machine, and at the bottom-right of the dish rack. They knew that most households keep their cutting knives in a drawer for safety and easy access, and this seemed like the most likely location."
-images/kitchen/8_segmented_sun_amvpxkryxaldzmdv.jpg,Mug,"...Container id 1, a cabinet door below the countertop. It was located at the bottom-left of the refrigerator, a common place for mugs to be stored in many households."
-images/kitchen/8_segmented_sun_amvpxkryxaldzmdv.jpg,Tupperware containers,"- Container id 1, is a ""cabinet door"" below the countertop. Additionally, it is located at the bottom-left of the refrigerator."
-images/kitchen/13_segmented_sun_aehkkaenyyjnewst.jpg,Bowl,"...container id 2, a ""cabinet door"" above the countertop and located at the top-right of the oven. Given its location, the container seemed likely to hold kitchenware such as bowls."
-images/kitchen/13_segmented_sun_aehkkaenyyjnewst.jpg,Cutting knife,"...Container id 7, the ""drawer"" below the countertop. This is typically where most households store their cutting knives for easy access while preparing meals."
-images/kitchen/13_segmented_sun_aehkkaenyyjnewst.jpg,Plate,"...Container id 2, which is a ""cabinet door"" above the countertop and located at the top-right of the oven. This seemed the most suitable place to find a plate."
-images/kitchen/13_segmented_sun_aehkkaenyyjnewst.jpg,Tupperware containers,"...Container id 2, a ""cabinet door"" above the countertop, located at the top-right of the oven. This seemed like a logical place for tupperware containers used in meal preparation."
-images/kitchen/18_segmented_sun_agfmsmojwptjoava.jpg,Cooking oil,"...Container id 1, a ""cabinet door"" located above the countertop. This seemed the most likely place where cooking oil might be stored."
-images/kitchen/18_segmented_sun_agfmsmojwptjoava.jpg,Dish towels,"...Container id 9, the ""drawer"" located below the countertop and at the bottom-left of the sink. Dish towels are often kept in drawers near the sink for easy access when washing dishes."
-images/kitchen/18_segmented_sun_agfmsmojwptjoava.jpg,Pot,"...Container id 12, is a ""cabinet door"" below the countertop. Additionally, it is located to the right of the oven. Pots are typically stored in lower cabinets near the oven for easy access while cooking."
-images/kitchen/18_segmented_sun_agfmsmojwptjoava.jpg,Spoon,"...Container id 9, is a ""drawer"" below the countertop. Additionally, it is located at the bottom-left of the sink. This seemed like a typical spot for cutlery to be stored in many kitchens. They opened the drawer with anticipation, and there it was, the spoon they had been searching for."
-images/kitchen/6_segmented_sun_aqzschgwftpwisen.jpg,Bowl,"...Container id 1, the ""cabinet door"" located at the bottom-right of the sink. This was a typical spot for storing bowls in many kitchens."
-images/kitchen/6_segmented_sun_aqzschgwftpwisen.jpg,Cutting knife,"...Container id 6, is a ""drawer"" below the countertop. Additionally, it is located at the bottom-right of the sink, and at the top-right of the oven. They opened the drawer and found a variety of cutting knives, just what they had been searching for."
-images/kitchen/6_segmented_sun_aqzschgwftpwisen.jpg,Plate,"...Container id 1, a ""cabinet door"" below the countertop, located at the bottom-right of the sink. This seemed like the most likely place to find a plate."
-images/kitchen/6_segmented_sun_aqzschgwftpwisen.jpg,Tupperware containers,"...Container id 1, a ""cabinet door"" located at the bottom-right of the sink. It was just below the countertop, a common and convenient place for storing tupperware containers."
-images/kitchen/8_segmented_sun_awuawixsfaurzuaa.jpg,Cooking oil,"...Container id 2, a ""cabinet door"" below the countertop. This location seemed to fit the typical storage area for cooking oils in many kitchens."
-images/kitchen/8_segmented_sun_awuawixsfaurzuaa.jpg,Dish towels,"- Container id 6, is a ""drawer"" below the countertop. Additionally, it is located below the sink, and at the bottom-left of the dish rack."
-images/kitchen/8_segmented_sun_awuawixsfaurzuaa.jpg,Plate,"...Container id 2, a ""cabinet door"" below the countertop. It was a common place for plates to be stored, easily accessible and less likely to cause an accident by reaching up high."
-images/kitchen/8_segmented_sun_awuawixsfaurzuaa.jpg,Spices,"...Container id 1, a ""cabinet door"" above the countertop. This seemed the most likely place to store spices as it would be easy to reach and close to where food preparation would take place."
-images/kitchen/21_segmented_sun_aklijrkocvkcmsfg.jpg,Cutting knife,"...Container id 3, a ""drawer"" below the countertop. This seemed like a logical place to find a cutting knife in a kitchen."
-images/kitchen/21_segmented_sun_aklijrkocvkcmsfg.jpg,Plate,"...Container id 1, the ""cabinet door"" above the countertop located to the right of the microwave. This was a common location for plates in many kitchens, making it the most logical choice."
-images/kitchen/21_segmented_sun_aklijrkocvkcmsfg.jpg,Spices,"...Container id 1, a ""cabinet door"" above the countertop, located to the right of the microwave. It seemed like the most logical place for spices to be stored, within easy reach while cooking."
-images/kitchen/21_segmented_sun_aklijrkocvkcmsfg.jpg,Tupperware containers,"...Container id 1, a cabinet door located above the countertop and to the right of the microwave. This seemed like a common place for tupperware storage in many kitchens."
-images/kitchen/5_segmented_sun_akgdlzofsznnznzs.jpg,Cooking oil,"- Container id 1, is a ""cabinet door"" below the countertop. Additionally, it is located to the right of the oven, and at the bottom-right of the stove."
-images/kitchen/5_segmented_sun_akgdlzofsznnznzs.jpg,Dish towels,"Container id 1, is a ""cabinet door"" below the countertop. Additionally, it is located to the right of the oven, and at the bottom-right of the stove."
-images/kitchen/5_segmented_sun_akgdlzofsznnznzs.jpg,Pot,"...Container id 1, the ""cabinet door"" below the countertop. It was conveniently located to the right of the oven, and at the bottom-right of the stove, making it the most likely spot for a pot."
-images/kitchen/5_segmented_sun_akgdlzofsznnznzs.jpg,Spices,"Container id 1, is a ""cabinet door"" below the countertop. Additionally, it is located to the right of the oven, and at the bottom-right of the stove."
-images/kitchen/9_segmented_sun_afdefsrtlbtfdhxq.jpg,Bottle opener,"...Container id 3, is a ""cabinet door"" below the countertop. Additionally, it is located at the bottom-left of the dishwasher."
-images/kitchen/9_segmented_sun_afdefsrtlbtfdhxq.jpg,Cutting board,"...Container id 1, a ""cabinet door"" below the countertop. It seemed the most likely place to find a cutting board, as they are typically stored in easy-to-reach locations."
-images/kitchen/9_segmented_sun_afdefsrtlbtfdhxq.jpg,Mug,"...Container id 1, a ""cabinet door"" below the countertop. It seemed like the most common place for mugs to be stored in a kitchen setting."
-images/kitchen/9_segmented_sun_afdefsrtlbtfdhxq.jpg,Pan,"...Container id 3. The ""cabinet door"" below the countertop and located at the bottom-left of the dishwasher seemed the most likely place for a pan to be stored."
-images/kitchen/12_segmented_sun_alqlmxgzxpeuaciw.jpg,Bottle opener,"...Container id 7, is a ""cabinet door"" above the countertop. Additionally, it is located above the microwave, and at the top-left of the refrigerator."
-images/kitchen/12_segmented_sun_alqlmxgzxpeuaciw.jpg,Cutting board,"...Container id 7, as it was located above the microwave and at the top-left of the refrigerator. This seemed like a reasonable place where a cutting board might be stored in a well-organized kitchen."
-images/kitchen/12_segmented_sun_alqlmxgzxpeuaciw.jpg,Mug,"...Container id 7. This seemed the most likely spot to store a mug, being conveniently located above the microwave and at the top-left of the refrigerator."
-images/kitchen/12_segmented_sun_alqlmxgzxpeuaciw.jpg,Pan,"...Container id 7, as it is a ""cabinet door"" located above the microwave and at the top-left of the refrigerator, making it a likely place for the pan to be stored."
-images/kitchen/8_segmented_sun_axuroipjldepebje.jpg,Bottle opener,"Container id 1, is a ""cabinet door"" below the countertop. Additionally, it is located at the bottom-right of the sink, and at the bottom-left of the refrigerator."
-images/kitchen/8_segmented_sun_axuroipjldepebje.jpg,Cutting board,"...Container id 1, the ""cabinet door"" below the countertop. It was conveniently located at the bottom-right of the sink, and at the bottom-left of the refrigerator, an ideal place where a cutting board might be stored."
-images/kitchen/8_segmented_sun_axuroipjldepebje.jpg,Mug,"...Container id 1, is a ""cabinet door"" below the countertop. Additionally, it is located at the bottom-right of the sink, and at the bottom-left of the refrigerator. This location seemed most probable for a kitchen mug to be stored."
-images/kitchen/8_segmented_sun_axuroipjldepebje.jpg,Pan,"...Container id 1, is a ""cabinet door"" below the countertop. Additionally, it is located at the bottom-right of the sink, and at the bottom-left of the refrigerator. This seemed like a probable spot for a pan."
-images/kitchen/8_segmented_sun_adwiyvylmsqaomcb.jpg,Cooking oil,"...Container id 1, the ""cabinet door"" below the countertop. It was the most likely place to find cooking oil, as it was located in a practical spot for everyday cooking, right below the sink and next to the dishwasher and kettle toaster."
-images/kitchen/8_segmented_sun_adwiyvylmsqaomcb.jpg,Dish towels,"- Container id 1, is a ""cabinet door"" below the countertop. Additionally, it is located below the sink, to the right of the dishwasher, and at the bottom-right of the electronic kettle toaster."
-images/kitchen/8_segmented_sun_adwiyvylmsqaomcb.jpg,Plate,"...Container id 1, the ""cabinet door"" below the countertop. It was conveniently located right below the sink, to the right of the dishwasher, and at the bottom-right of the electronic kettle toaster. They hoped this would be the perfect place to find a plate."
-images/kitchen/8_segmented_sun_adwiyvylmsqaomcb.jpg,Spices,...Container id 1. It seemed like the most likely place to find the spices they were looking for.
-images/kitchen/10_segmented_sun_avfsqwoiantddppx.jpg,Bowl,"...Container id 1, the cabinet door near the countertop located at the bottom-left of the refrigerator. It seemed like a logical place to store bowls for ease of access during meal preparations."
-images/kitchen/10_segmented_sun_avfsqwoiantddppx.jpg,Mug,"...Container id 1, a ""cabinet door"" near the countertop and located at the bottom-left of the refrigerator. This spot seemed to be an ideal place where a mug could be stored."
-images/kitchen/10_segmented_sun_avfsqwoiantddppx.jpg,Pan,"...Container id 3, a ""cabinet door"" near the countertop. It was located to the right of the oven, a common place for pans to be stored for easy access while cooking."
-images/kitchen/10_segmented_sun_avfsqwoiantddppx.jpg,Tupperware containers,"...Container id 1, the ""cabinet door"" near the countertop located at the bottom-left of the refrigerator. It seemed like a suitable place to store Tupperware containers."
-images/kitchen/15_segmented_sun_apnxsgbjjdleuhdu.jpg,Cooking oil,"- Container id 1, is a ""cabinet door"" above the countertop."
-images/kitchen/15_segmented_sun_apnxsgbjjdleuhdu.jpg,Dish towels,"...Container id 2, the ""drawer"" below the countertop. It was conveniently located to the right of the stove, a prime location for storing dish towels for quick and easy access during cooking."
-images/kitchen/15_segmented_sun_apnxsgbjjdleuhdu.jpg,Plate,"...Container id 1, a ""cabinet door"" above the countertop. It was conveniently located and seemed like a place where plates could potentially be stored."
-images/kitchen/15_segmented_sun_apnxsgbjjdleuhdu.jpg,Spices,"...Container id 2, a ""drawer"" below the countertop, located to the right of the stove. It seemed like an ideal place for spices to be stored, easily accessible when cooking."
-images/kitchen/7_segmented_sun_aufggmchclraycgm.jpg,Bottle opener,"...Container id 4, a ""drawer"" below the countertop."
-images/kitchen/7_segmented_sun_aufggmchclraycgm.jpg,Cutting board,"...Container id 4, a ""drawer"" below the countertop."
-images/kitchen/7_segmented_sun_aufggmchclraycgm.jpg,Mug,"...Container id 2, which is a ""cabinet door"" above the countertop. Typically, mugs are stored in an easily accessible place, but not so low that they could be easily broken. This seemed like the best place to find a mug."
-images/kitchen/7_segmented_sun_aufggmchclraycgm.jpg,Pan,"...Container id 4, is a ""drawer"" below the countertop."
-images/kitchen/9_segmented_sun_aawzwijpmowksmpn.jpg,Bottle opener,"Container id 9, is a ""drawer"" below the countertop."
-images/kitchen/9_segmented_sun_aawzwijpmowksmpn.jpg,Cutting board,"the ""Container id 2"", a cabinet door below the countertop. It seemed like a practical place to keep a cutting board."
-images/kitchen/9_segmented_sun_aawzwijpmowksmpn.jpg,Mug,"...Container id 1, a ""cabinet door"" above the countertop. It was a common place for mugs to be stored."
-images/kitchen/9_segmented_sun_aawzwijpmowksmpn.jpg,Pan,"...Container id 2, the ""cabinet door"" below the countertop. Given that pans are typically stored in lower cabinets for easier access, it made the most sense to check there first."
-images/kitchen/11_segmented_sun_axdfhsszzzqksxnx.jpg,Bowl,"...Container id 1, a ""cabinet door"" below the countertop. This seemed the most likely place to find a bowl in a typical kitchen setup. They opened it to reveal an array of kitchenware, their eyes landing on a perfect, large, ceramic bowl. With a triumphant smile, they reached in to retrieve it."
-images/kitchen/11_segmented_sun_axdfhsszzzqksxnx.jpg,Cutting knife,"- Container id 6, is a ""drawer"" below the countertop."
-images/kitchen/11_segmented_sun_axdfhsszzzqksxnx.jpg,Mug,"...Container id 3, a ""cabinet door"" above the countertop."
-images/kitchen/11_segmented_sun_axdfhsszzzqksxnx.jpg,Tupperware containers,"...Container id 10, a ""drawer"" below the countertop. It was a common place to store tupperware containers in many homes."
-images/kitchen/10_segmented_sun_afjofbpiualrfwlz.jpg,Bottle opener,"...Container id 1, a cabinet door located at the top-right of the microwave. This seemed the most likely spot for a bottle opener to be kept."
-images/kitchen/10_segmented_sun_afjofbpiualrfwlz.jpg,Cutting board,"...Container id 6, is a ""drawer"" below the countertop. Additionally, it is located below the coffee machine, to the left of the dishwasher, and at the bottom-right of the oven. This seemed like a logical space for a cutting board to be stored, given its location near multiple cooking appliances. They opened the drawer and found what they were looking for."
-images/kitchen/10_segmented_sun_afjofbpiualrfwlz.jpg,Pan,"...Container id 10, a ""cabinet door"" below the countertop. It seemed like a reasonable place where a pan might be stored."
-images/kitchen/10_segmented_sun_afjofbpiualrfwlz.jpg,Spoon,"...Container id 3, the ""drawer"" below the countertop. This seemed the most likely place to find a spoon, being a common location for cutlery in many kitchens. They opened the drawer and there, nestled among forks and knives, was the spoon they had been searching for."
-images/kitchen/5_segmented_sun_adkmgnqaiypcnhqy.jpg,Bowl,"...Container id 1, is a ""cabinet door"" above the countertop. Additionally, it is located at the top-right of the coffee machine."
-images/kitchen/5_segmented_sun_adkmgnqaiypcnhqy.jpg,Cutting knife,"Container id 4, is a ""drawer"" below the countertop. Additionally, it is located at the bottom-left of the sink."
-images/kitchen/5_segmented_sun_adkmgnqaiypcnhqy.jpg,Plate,"...Container id 1, the ""cabinet door"" above the countertop. Conveniently located at the top-right of the coffee machine, this seemed like the most likely place where plates would be stored."
-images/kitchen/5_segmented_sun_adkmgnqaiypcnhqy.jpg,Tupperware containers,"...Container id 1, the ""cabinet door"" above the countertop. The location seemed perfect for storing tupperware containers, being at the top-right of the coffee machine."
-images/kitchen/12_segmented_sun_anfzulzazofakfhm.jpg,Bottle opener,"Container id 1, is a ""cabinet door"" below the countertop. Additionally, it is located to the left of the coffee machine, and at the bottom-left of the dishwasher."
-images/kitchen/12_segmented_sun_anfzulzazofakfhm.jpg,Cutting board,"...Container id 1, the ""cabinet door"" located below the countertop. It was to the left of the coffee machine and at the bottom-left of the dishwasher, an ideal location for storing a cutting board."
-images/kitchen/12_segmented_sun_anfzulzazofakfhm.jpg,Pan,"...Container id 1, the ""cabinet door"" below the countertop. It was conveniently located to the left of the coffee machine, and at the bottom-left of the dishwasher. This seemed like a reasonable place to keep a pan."
-images/kitchen/12_segmented_sun_anfzulzazofakfhm.jpg,Spoon,"...Container id 7, the ""drawer"" below the countertop. It was located to the right of the oven and at the bottom-right of the dish drying rack. It seemed the most likely place where a spoon might be stored in a typical kitchen layout."
-images/kitchen/14_segmented_sun_amcseadaqamjvkpr.jpg,Bowl,"...container id 1, the ""drawer"" below the countertop. It seemed the most likely place for a bowl to be stored in a typical kitchen."
-images/kitchen/14_segmented_sun_amcseadaqamjvkpr.jpg,Cutting knife,"...Container id 1, a ""drawer"" located below the countertop. This seemed the most likely place for a cutting knife to be stored."
-images/kitchen/14_segmented_sun_amcseadaqamjvkpr.jpg,Mug,"...container id 1, a drawer below the countertop. It seemed like the most likely place to find a mug."
-images/kitchen/14_segmented_sun_amcseadaqamjvkpr.jpg,Tupperware containers,"...Container id 1, a ""drawer"" below the countertop. It seemed the most likely location for tupperware containers, as they are often stored in lower areas for easy access."
-images/kitchen/19_segmented_sun_alyqyulcvigwjdyc.jpg,Bowl,"...Container id 1, the ""cabinet door"" below the countertop located to the left of the dishwasher. This spot seemed suitable for a bowl's storage."
-images/kitchen/19_segmented_sun_alyqyulcvigwjdyc.jpg,Cutting knife,"...Container id 8, a ""drawer"" below the countertop. This seemed to be the most typical place for a cutting knife to be stored."
-images/kitchen/19_segmented_sun_alyqyulcvigwjdyc.jpg,Plate,"...Container id 1, which is a ""cabinet door"" located below the countertop and to the left of the dishwasher. They believed this to be the most likely location for plates in this particular kitchen layout."
-images/kitchen/19_segmented_sun_alyqyulcvigwjdyc.jpg,Tupperware containers,"...Container id 1, a ""cabinet door"" located below the countertop and to the left of the dishwasher. This seemed to be the most suitable place to find a tupperware container."
-images/kitchen/13_segmented_sun_asymyduxvrjpcvzg.jpg,Bowl,"...Container id 1, a ""cabinet door"" below the countertop. This seemed the most likely place to find a bowl."
-images/kitchen/13_segmented_sun_asymyduxvrjpcvzg.jpg,Cutting knife,"...Container id 1, a ""cabinet door"" below the countertop. It seemed the most logical place for a cutting knife to be stored in a kitchen."
-images/kitchen/13_segmented_sun_asymyduxvrjpcvzg.jpg,Mug,"...Container id 1, a ""cabinet door"" below the countertop. This is typically where mugs are stored in most household kitchens."
-images/kitchen/13_segmented_sun_asymyduxvrjpcvzg.jpg,Tupperware containers,"...Container id 1, which is a ""cabinet door"" below the countertop. Tupperware containers are often stored in lower cabinets for easy access."
-images/kitchen/5_segmented_sun_aunbvudubwlyozvt.jpg,Bowl,"...Container id 1. It seemed to be the most likely place where bowls would be kept, being right below the countertop and conveniently positioned near the dishwasher for easy clean-up."
-images/kitchen/5_segmented_sun_aunbvudubwlyozvt.jpg,Cutting knife,"...Container id 1, a cabinet door below the countertop, located to the right of the dishwasher and at the bottom-right of the microwave toaster. It seemed like the most likely place where a cutting knife might be stored."
-images/kitchen/5_segmented_sun_aunbvudubwlyozvt.jpg,Mug,"...Container id 1, as it is a ""cabinet door"" below the countertop, located conveniently next to the dishwasher and microwave toaster, a likely place for mugs to be stored for easy access."
-images/kitchen/5_segmented_sun_aunbvudubwlyozvt.jpg,Tupperware containers,"...Container id 1, a ""cabinet door"" below the countertop. It was conveniently located to the right of the dishwasher, and at the bottom-right of the microwave toaster, a place where tupperware containers were commonly stored."
-images/kitchen/13_segmented_sun_arerafgvufvljolx.jpg,Cutting board,"...Container id 1, a ""cabinet door"" below the countertop. It seemed a logical place for a cutting board to be stored."
-images/kitchen/13_segmented_sun_arerafgvufvljolx.jpg,Pot,"...Container id 1, a ""cabinet door"" below the countertop. Pots are usually stored in lower cabinets due to their size and weight."
-images/kitchen/13_segmented_sun_arerafgvufvljolx.jpg,Spoon,"...Container id 5, a ""drawer"" below the countertop. It seemed the most fitting place for a spoon to be stored in a kitchen."
-images/kitchen/11_segmented_sun_apdjgezcekdmxeow.jpg,Cutting knife,"...Container id 10, the ""drawer"" below the countertop. They figured it would be the most likely place to find a cutting knife."
-images/kitchen/11_segmented_sun_apdjgezcekdmxeow.jpg,Plate,"...Container id 1, a ""cabinet door"" above the countertop. Plates are usually stored in an easily accessible area, and a cabinet above the countertop seemed like a logical place."
-images/kitchen/11_segmented_sun_apdjgezcekdmxeow.jpg,Spices,"...Container id 3, the ""cabinet door"" above the countertop, located above the microwave. This was a common place for storing spices in many kitchens, making it a likely spot for their search."
-images/kitchen/11_segmented_sun_apdjgezcekdmxeow.jpg,Tupperware containers,"...Container id 4, is a ""cabinet door"" below the countertop. Additionally, it is located to the right of the sink. They figured this spot would be the most practical place to keep tupperware for easy access while cooking or cleaning up after meals."
-images/kitchen/4_segmented_sun_abqsxcyxnovlihxy.jpg,Bottle opener,"...Container id 3, the ""drawer"" above the countertop."
-images/kitchen/4_segmented_sun_abqsxcyxnovlihxy.jpg,Cutting board,"...Container id 3, the ""drawer"" above the countertop. It seemed the most likely place for a cutting board to be stored."
-images/kitchen/4_segmented_sun_abqsxcyxnovlihxy.jpg,Pan,"...Container id 1, is a ""cabinet door"" above the countertop."
-images/kitchen/4_segmented_sun_abqsxcyxnovlihxy.jpg,Spoon,"...Container id 3, the ""drawer"" above the countertop."
-images/kitchen/5_segmented_sun_aqtnebfegavdqvzg.jpg,Bottle opener,"Container id 1, is a ""cabinet door"" below the countertop. Additionally, it is located at the bottom-right of the refrigerator."
-images/kitchen/5_segmented_sun_aqtnebfegavdqvzg.jpg,Cutting board,"...Container id 1, is a ""cabinet door"" below the countertop. Additionally, it is located at the bottom-right of the refrigerator. This seemed like a common place to store a cutting board, making it the most likely choice."
-images/kitchen/5_segmented_sun_aqtnebfegavdqvzg.jpg,Pot,"Container id 1, is a ""cabinet door"" below the countertop. Additionally, it is located at the bottom-right of the refrigerator."
-images/kitchen/5_segmented_sun_aqtnebfegavdqvzg.jpg,Spoon,"Container id 2, is a ""drawer"" below the countertop."
-images/kitchen/15_segmented_sun_amstpwyljnixuvqh.jpg,Cooking oil,"...Container id 1, the ""cabinet door"" below the countertop, located to the left of the oven. It seemed like a logical place where cooking oil might be stored."
-images/kitchen/15_segmented_sun_amstpwyljnixuvqh.jpg,Dish towels,"...Container id 1, is a ""cabinet door"" below the countertop. Additionally, it is located to the left of the oven."
-images/kitchen/15_segmented_sun_amstpwyljnixuvqh.jpg,Pot,"...Container id 1, the ""cabinet door"" below the countertop, located to the left of the oven. It was the perfect spot where a pot could be stored."
-images/kitchen/15_segmented_sun_amstpwyljnixuvqh.jpg,Spoon,"...Container id 7, a ""drawer"" below the countertop located to the right of the dishwasher. This seemed like a plausible place for a household to store their cutlery, including spoons."
-images/kitchen/5_segmented_sun_axwfwkibvzamixmp.jpg,Cutting knife,"Container id 3, is a ""cabinet door"" below the countertop."
-images/kitchen/5_segmented_sun_axwfwkibvzamixmp.jpg,Plate,"...Container id 3, is a ""cabinet door"" below the countertop. This location seemed the most ideal for storing plates, as it was easily accessible and at a convenient height. As they pulled the door open, they were greeted by a neat stack of plates just waiting to be used."
-images/kitchen/5_segmented_sun_axwfwkibvzamixmp.jpg,Spices,"...Container id 1, is a ""cabinet door"" above the countertop. They carefully opened the door and were greeted by an array of spices, neatly arranged and ready for their use."
-images/kitchen/5_segmented_sun_axwfwkibvzamixmp.jpg,Tupperware containers,"...Container id 3, is a ""cabinet door"" below the countertop. This is where tupperware containers are typically stored, due to their stackable nature and the need for easy access."
-images/kitchen/12_segmented_sun_agdxrnaqlzlannbk.jpg,Bottle opener,"...Container id 1, a ""cabinet door"" below the countertop. The location seemed just right for a bottle opener, being below the sink and adjacent to the oven and stove."
-images/kitchen/12_segmented_sun_agdxrnaqlzlannbk.jpg,Bowl,"...container id 1. The cabinet door below the countertop, located next to the oven and underneath the sink, seemed the most likely place to find a bowl."
-images/kitchen/12_segmented_sun_agdxrnaqlzlannbk.jpg,Mug,"Container id 3, is a ""cabinet door"" above the countertop."
-images/kitchen/12_segmented_sun_agdxrnaqlzlannbk.jpg,Pan,"...Container id 5, a ""cabinet door"" below the countertop, located below the oven. This was typically where pans were stored."
-images/kitchen/12_segmented_sun_acyvmyzypyuwnann.jpg,Cooking oil,"...Container id 9, a ""cabinet door"" below the countertop. In many kitchens, cooking oils are often stored in a cool, dark place away from heat sources, and a lower cabinet would provide such a condition."
-images/kitchen/12_segmented_sun_acyvmyzypyuwnann.jpg,Dish towels,"...Container id 7, a ""drawer"" below the countertop. This seemed the most likely place to find a dish towel, as they are often stored within easy reach in a kitchen."
-images/kitchen/12_segmented_sun_acyvmyzypyuwnann.jpg,Plate,"...Container id 9, a ""cabinet door"" below the countertop. Plates are typically stored in lower cabinets for easy access."
-images/kitchen/12_segmented_sun_acyvmyzypyuwnann.jpg,Spices,"...Container id 9, a ""cabinet door"" below the countertop."
-images/kitchen/6_segmented_sun_akjjfxpidxgkthco.jpg,Cooking oil,"...Container id 1, the ""cabinet door"" below the countertop located at the bottom-right of the microwave. It seemed like an ideal spot for storing cooking oils."
-images/kitchen/6_segmented_sun_akjjfxpidxgkthco.jpg,Cutting board,"Container id 1, is a ""cabinet door"" below the countertop. Additionally, it is located at the bottom-right of the microwave."
-images/kitchen/6_segmented_sun_akjjfxpidxgkthco.jpg,Pot,"Container id 1, is a ""cabinet door"" below the countertop. Additionally, it is located at the bottom-right of the microwave."
-images/kitchen/6_segmented_sun_akjjfxpidxgkthco.jpg,Spoon,"...Container id 1, the ""cabinet door"" below the countertop and located at the bottom-right of the microwave. This seemed the most likely place for a spoon to be stored."
-images/kitchen/10_segmented_sun_aaslbwtcdcwjukuo.jpg,Cutting board,"...Container id 1, is a ""cabinet door"" below the countertop. Additionally, it is located below the dish drying rack, and at the bottom-left of the refrigerator."
-images/kitchen/10_segmented_sun_aaslbwtcdcwjukuo.jpg,Pot,"Container id 1, is a ""cabinet door"" below the countertop. Additionally, it is located below the dish drying rack, and at the bottom-left of the refrigerator."
-images/kitchen/10_segmented_sun_aaslbwtcdcwjukuo.jpg,Spoon,"...Container id 10, the ""drawer"" below the countertop. It was located at the bottom-left of the oven, a likely place for utensils such as spoons to be kept."
-images/kitchen/15_segmented_sun_anleedlurkiswrjv.jpg,Bottle opener,"...Container id 14, a ""drawer"" below the countertop. It seemed the most likely place to find a bottle opener, typically stored in a kitchen drawer for easy access."
-images/kitchen/15_segmented_sun_anleedlurkiswrjv.jpg,Cutting board,"...Container id 14, a ""drawer"" below the countertop. It was located to the right of the refrigerator, at the bottom-right of the sink, and at the bottom-left of the microwave. In most kitchens, the cutting board is stored in a drawer rather than a cabinet, making this the most likely location."
-images/kitchen/15_segmented_sun_anleedlurkiswrjv.jpg,Pan,"...Container id 1, that seemed to be the most logical place to find a pan in a kitchen. Often, pans are stored in cabinets near appliances used for cooking. The proximity to the microwave suggested that it might be the right place to look."
-images/kitchen/15_segmented_sun_anleedlurkiswrjv.jpg,Spoon,"...Container id 14, a ""drawer"" located below the countertop, to the right of the refrigerator, at the bottom-right of the sink, and at the bottom-left of the microwave. Drawers are typically where utensils like spoons are stored in a kitchen."
-images/kitchen/6_segmented_sun_althuptvuaxvjman.jpg,Cooking oil,"...Container id 2, a ""cabinet door"" above the countertop. This location is typically where cooking oil would be stored in a kitchen setup."
-images/kitchen/6_segmented_sun_althuptvuaxvjman.jpg,Dish towels,...Container id 1. The cabinet door above the countertop at the top-left of the refrigerator seemed like a likely spot for dish towels.
-images/kitchen/6_segmented_sun_althuptvuaxvjman.jpg,Pot,"...Container id 1, the ""cabinet door"" above the countertop and at the top-left of the refrigerator. This seemed like a typical place where a pot could be stored in a domestic kitchen."
-images/kitchen/6_segmented_sun_althuptvuaxvjman.jpg,Spoon,"...Container id 5, the ""drawer"" below the countertop. This seemed the most likely place to find a spoon. As they pulled open the drawer, the silverware gleamed back at them, neatly arranged with forks, knives, and yes, spoons. They exhaled a breath of relief, grasping the spoon and continuing with their task."
-images/kitchen/12_segmented_sun_afphfxkabyerpwkz.jpg,Bottle opener,"...Container id 3, is a ""drawer"" below the countertop."
-images/kitchen/12_segmented_sun_afphfxkabyerpwkz.jpg,Cutting board,"...Container id 3, is a ""drawer"" below the countertop."
-images/kitchen/12_segmented_sun_afphfxkabyerpwkz.jpg,Pot,"...Container id 1, a ""cabinet door"" below the countertop. Pots are typically stored in this type of container due to their size and shape."
-images/kitchen/12_segmented_sun_afphfxkabyerpwkz.jpg,Spoon,"...Container id 3, is a ""drawer"" below the countertop."
-images/kitchen/26_segmented_sun_apslowdohuttdlkk.jpg,Cooking oil,"...Container id 1, a ""cabinet door"" located above the countertop which is a common place to store cooking oil."
-images/kitchen/26_segmented_sun_apslowdohuttdlkk.jpg,Dish towels,"...Container id 12, a ""drawer"" below the countertop. Typically, kitchen towels are kept in easily accessible drawers rather than in cabinets."
-images/kitchen/26_segmented_sun_apslowdohuttdlkk.jpg,Pot,"...Container id 1, a ""cabinet door"" above the countertop."
-images/kitchen/26_segmented_sun_apslowdohuttdlkk.jpg,Spices,"...Container id 2, which was a ""cabinet door"" above the countertop. Positioned conveniently above the coffee machine and at the top-left of the oven, it was the perfect spot to keep frequently used spices."
-images/kitchen/8_segmented_sun_abnipsthatveonrh.jpg,Cutting knife,"...Container id 6, is a ""drawer"" below the countertop. Additionally, it is located below the coffee machine. As this seemed like a likely place for a cutting knife, they decided to check there first."
-images/kitchen/8_segmented_sun_abnipsthatveonrh.jpg,Plate,"...Container id 3, is a ""cabinet door"" above the countertop. Additionally, it is located at the top-left of the refrigerator. Plates are usually stored in cabinets and this location near the refrigerator would be a practical place to keep them for easy access while cooking and preparing meals."
-images/kitchen/8_segmented_sun_abnipsthatveonrh.jpg,Spices,"...Container id 3, the ""cabinet door"" located at the top-left of the refrigerator. This seemed the most likely place where spices might be stored for easy access while cooking."
-images/kitchen/8_segmented_sun_abnipsthatveonrh.jpg,Tupperware containers,"...the ""cabinet door"" above the countertop, specifically, Container id 3, which was conveniently located at the top-left of the refrigerator. This location was often used for storing tupperware containers in many households."
-images/kitchen/20_segmented_sun_aasmevtpkslccptd.jpg,Bowl,"...Container id 7, a ""cabinet door"" above the countertop and located above the stove. It seemed the most likely place for a bowl to be stored."
-images/kitchen/20_segmented_sun_aasmevtpkslccptd.jpg,Cutting knife,"...Container id 7, the ""cabinet door"" above the countertop and located above the stove. This position is a common place for storing a cutting knife in many households."
-images/kitchen/20_segmented_sun_aasmevtpkslccptd.jpg,Plate,"...Container id 7, the ""cabinet door"" above the countertop and located directly above the stove. This seemed like a likely place for plates to be stored in this particular kitchen layout."
-images/kitchen/20_segmented_sun_aasmevtpkslccptd.jpg,Tupperware containers,"...Container id 7, the ""cabinet door"" above the countertop and located above the stove. This seemed to be a common place for Tupperware storage in many households."
-images/kitchen/16_segmented_sun_abwmjfnrmqjdltxn.jpg,Cutting knife,"...Container id 2. The ""cabinet door"" below the countertop and located next to both the coffee machine and the stove sounded like a plausible place for a cutting knife, as it was convenient to both cooking and brewing areas."
-images/kitchen/16_segmented_sun_abwmjfnrmqjdltxn.jpg,Dish towels,"...Container id 2, the ""cabinet door"" below the countertop. It was conveniently located at the bottom-right of the coffee machine, and at the bottom-left of the stove, making it a likely spot for the dish towels they were searching for."
-images/kitchen/16_segmented_sun_abwmjfnrmqjdltxn.jpg,Plate,"...Container id 2, the ""cabinet door"" below the countertop. It was located at the bottom-right of the coffee machine, and at the bottom-left of the stove, which seemed like a logical location for plates. They opened the cabinet, hopeful to find what they were searching for."
-images/kitchen/16_segmented_sun_abwmjfnrmqjdltxn.jpg,Spices,"...Container id 2, the ""cabinet door"" located below the countertop, conveniently positioned at the bottom-right of the coffee machine and at the bottom-left of the stove. This spot was commonly used to store a variety of spices, making it the ideal place to start their search."
-images/kitchen/4_segmented_sun_aitjzvdsvqtarrmr.jpg,Bottle opener,"...Container id 2, the ""drawer"" below the countertop, located to the left of the oven. It seemed like the most logical place to keep a bottle opener."
-images/kitchen/4_segmented_sun_aitjzvdsvqtarrmr.jpg,Bowl,"...Container id 1, the ""cabinet door"" below the countertop located at the bottom-left of the oven. This seemed like a fitting place to find a bowl, and as their fingers curled around the handle, they hoped their search would be successful."
-images/kitchen/4_segmented_sun_aitjzvdsvqtarrmr.jpg,Mug,"...Container id 4. It was a ""cabinet door"" located below the countertop, to the right of the stove, and at the bottom-right of the electronic kettle; a likely spot for mugs to be stored for convenient access during tea or coffee making."
-images/kitchen/4_segmented_sun_aitjzvdsvqtarrmr.jpg,Pan,"Container id 1, is a ""cabinet door"" below the countertop. Additionally, it is located at the bottom-left of the oven."
-images/kitchen/5_segmented_sun_ajpanclprxjlugfr.jpg,Cooking oil,"...Container id 3, is a ""cabinet door"" below the countertop. Additionally, it is located to the right of the oven."
-images/kitchen/5_segmented_sun_ajpanclprxjlugfr.jpg,Dish towels,"...Container id 1, the ""cabinet door"" below the countertop. Dish towels are often stored in easy-to-reach areas below the countertop, making this the most likely spot to find one."
-images/kitchen/5_segmented_sun_ajpanclprxjlugfr.jpg,Plate,"...Container id 1, is a ""cabinet door"" below the countertop. It was the most accessible and likely place to find a plate."
-images/kitchen/5_segmented_sun_ajpanclprxjlugfr.jpg,Spices,"...Container id 3, is a ""cabinet door"" below the countertop. Additionally, it is located to the right of the oven. Typically, spices are stored in a convenient place near the cooking area, making this the most suitable option."
-images/kitchen/6_segmented_sun_arddicicgsnredyc.jpg,Cutting knife,"...Container id 5, a ""drawer"" below the countertop. This seemed the most likely location for a cutting knife, given its convenient location next to the stove and oven. They gently pulled open the drawer, the metal runners giving a small squeak as they did so."
-images/kitchen/6_segmented_sun_arddicicgsnredyc.jpg,Plate,"...container id 1, a cabinet door above the countertop, where plates are usually stored in most households. They opened it and found a stack of plates neatly arranged."
-images/kitchen/6_segmented_sun_arddicicgsnredyc.jpg,Spices,"...Container id 5, a ""drawer"" below the countertop. It was conveniently located to the right of the oven, at the bottom-right of the stove, and at the bottom-left of the oven, making it a likely place for spices to be stored for easy access while cooking."
-images/kitchen/6_segmented_sun_arddicicgsnredyc.jpg,Tupperware containers,"...Container id 5, a drawer located below the countertop, to the right of the oven. This seemed like the most likely place to find a tupperware container."
-images/kitchen/5_segmented_sun_avaaxiemmqbibywj.jpg,Bottle opener,"...Container id 1, which is a ""drawer"" below the countertop."
-images/kitchen/5_segmented_sun_avaaxiemmqbibywj.jpg,Cutting board,"Container id 1, is a ""drawer"" below the countertop."
-images/kitchen/5_segmented_sun_avaaxiemmqbibywj.jpg,Mug,"...container id 3, which is a ""cabinet door"" below the countertop. The mug was neatly placed on a shelf inside, waiting to be filled with hot coffee."
-images/kitchen/5_segmented_sun_avaaxiemmqbibywj.jpg,Pan,"the ""cabinet door"" below the countertop, container id 3, as it seemed the most likely place for a pan to be stored."
-images/kitchen/17_segmented_sun_ahqykyyouxkgmdnq.jpg,Cutting knife,"- Container id 16, is a ""drawer"" below the countertop. Additionally, it is located at the bottom-right of the oven."
-images/kitchen/17_segmented_sun_ahqykyyouxkgmdnq.jpg,Plate,"...Container id 2, the ""cabinet door"" located below the countertop and to the left of the oven."
-images/kitchen/17_segmented_sun_ahqykyyouxkgmdnq.jpg,Spices,"...Container id 2, a ""cabinet door"" below the countertop. Additionally, it is located to the left of the oven. This seemed to be the most likely spot for storing spices as it's conveniently located near the oven for easy access while cooking."
-images/kitchen/17_segmented_sun_ahqykyyouxkgmdnq.jpg,Tupperware containers,"- Container id 2, is a ""cabinet door"" below the countertop. Additionally, it is located to the left of the oven."
-images/kitchen/4_segmented_sun_afnyuyhhwgifatsk.jpg,Cooking oil,"Container id 1, is a ""cabinet door"" below the countertop."
-images/kitchen/4_segmented_sun_afnyuyhhwgifatsk.jpg,Dish towels,"Container id 3, is a ""drawer"" below the countertop."
-images/kitchen/4_segmented_sun_afnyuyhhwgifatsk.jpg,Pot,"Container id 1, is a ""cabinet door"" below the countertop."
-images/kitchen/4_segmented_sun_afnyuyhhwgifatsk.jpg,Spices,"Container id 1, is a ""cabinet door"" below the countertop."
-images/kitchen/8_segmented_sun_ahhrhzkyvzaqeark.jpg,Bowl,"...Container id 4, which is a ""cabinet door"" on the countertop. It's located above the coffee machine, and to the left of the microwave. The location seemed ideal for kitchenware storage, and they hoped to find a bowl there."
-images/kitchen/8_segmented_sun_ahhrhzkyvzaqeark.jpg,Cutting knife,"...Container id 8, is a ""drawer"" nan the countertop. Additionally, it is located below the coffee machine, and to the left of the oven. This seemed the most likely place to find a cutting knife."
-images/kitchen/8_segmented_sun_ahhrhzkyvzaqeark.jpg,Mug,"...Container id 4, is a ""cabinet door"" nan the countertop. Additionally, it is located above the coffee machine, and to the left of the microwave. This location seemed likely to contain the mugs, being conveniently placed for easy access while making a cup of coffee."
-images/kitchen/8_segmented_sun_ahhrhzkyvzaqeark.jpg,Tupperware containers,"...Container id 4, the ""cabinet door"" above the countertop. The location above the coffee machine and to the left of the microwave seemed ideal for storing tupperware containers."
-images/kitchen/5_segmented_sun_avtqpxlipvlcrsge.jpg,Bowl,"the cabinet door - Container id 1. As bowls are often stored in cabinets rather than drawers, this seemed like the most likely place to find what they were looking for."
-images/kitchen/5_segmented_sun_avtqpxlipvlcrsge.jpg,Cutting knife,"...container id 2, the drawer located at the bottom-right of the stove. This is often where cutting knives are kept in many households, for easy access while cooking."
-images/kitchen/5_segmented_sun_avtqpxlipvlcrsge.jpg,Mug,"...container id 1, the ""cabinet door"" below the countertop. It was common for mugs to be stored in a cabinet rather than a drawer. Their fingers brushed against the cool surface of the cabinet door before pulling it open, revealing a neat array of mugs waiting inside."
-images/kitchen/5_segmented_sun_avtqpxlipvlcrsge.jpg,Tupperware containers,"...Container id 1, is a ""cabinet door"" below the countertop. Typically, larger items such as tupperware containers would be stored in a cabinet rather than a drawer. They opened the cabinet door and there they were, neatly stacked tupperware containers."
-images/kitchen/5_segmented_sun_adglbgauiayicwkm.jpg,Cooking oil,"Container id 4, is a ""cabinet door"" below the countertop."
-images/kitchen/5_segmented_sun_adglbgauiayicwkm.jpg,Dish towels,"...Container id 1, a ""drawer"" below the countertop. This was a common place for dish towels to be stored, making it the most likely container for them to find what they were searching for."
-images/kitchen/5_segmented_sun_adglbgauiayicwkm.jpg,Plate,"...Container id 4, which is a ""cabinet door"" below the countertop. This seemed like the most likely place to find a plate."
-images/kitchen/5_segmented_sun_adglbgauiayicwkm.jpg,Spices,"...Container id 4, a ""cabinet door"" below the countertop. After a slight hesitation, they opened it and to their delight, they found the spices they were looking for, neatly arranged and waiting to be used."
-images/kitchen/25_segmented_sun_aaxxjlsuzvqlgylf.jpg,Bowl,"...Container id 4, the ""cabinet door"" above the countertop and located at the top-left of the refrigerator."
-images/kitchen/25_segmented_sun_aaxxjlsuzvqlgylf.jpg,Cutting knife,"...Container id 10, the ""drawer"" below the countertop. This would be a logical place for a cutting knife to be stored in a typical kitchen."
-images/kitchen/25_segmented_sun_aaxxjlsuzvqlgylf.jpg,Plate,"...Container id 4, the ""cabinet door"" above the countertop located at the top-left of the refrigerator. It seemed like the most likely place where a plate could be stored."
-images/kitchen/25_segmented_sun_aaxxjlsuzvqlgylf.jpg,Tupperware containers,"...Container id 4, which is a ""cabinet door"" above the countertop and is conveniently located at the top-left of the refrigerator. This seemed like a logical place for tupperware containers to be stored for easy access while storing away leftovers."
-images/kitchen/34_segmented_sun_axpesxgsnxrsdqtr.jpg,Bottle opener,"...container id 4, the ""drawer"" below the countertop. Located conveniently between the coffee machine and the dishwasher, it seemed like the perfect place for a bottle opener. This was a kitchen after all, where coffee and washing up were daily routines, and where a bottle opener would be a handy tool to keep close."
-images/kitchen/34_segmented_sun_axpesxgsnxrsdqtr.jpg,Cutting board,"...Container id 13, which is a ""drawer"" below the countertop. This location is a common place for storing cutting boards in many kitchens."
-images/kitchen/34_segmented_sun_axpesxgsnxrsdqtr.jpg,Mug,"...container id 1, the ""cabinet door"" located below the coffee machine, which seemed the most likely place for a mug to be stored."
-images/kitchen/34_segmented_sun_axpesxgsnxrsdqtr.jpg,Pan,"...Container id 4, the drawer located below the countertop. It was positioned conveniently below the coffee machine, to the right of the oven, and to the left of the dishwasher. This seemed like a likely spot for the pan they were searching for."
-images/kitchen/22_segmented_sun_aofyuejouqtbyooo.jpg,Bowl,"...Container id 12, a ""cabinet door"" below the countertop."
-images/kitchen/22_segmented_sun_aofyuejouqtbyooo.jpg,Cutting knife,"...Container id 11, is a ""drawer"" below the countertop. This was a common place for kitchen knives to be stored."
-images/kitchen/22_segmented_sun_aofyuejouqtbyooo.jpg,Plate,"...Container id 12, a cabinet door below the countertop. This seemed like a reasonable place to store plates, which are often kept in lower cabinets for easy access."
-images/kitchen/22_segmented_sun_aofyuejouqtbyooo.jpg,Tupperware containers,"...Container id 11, a drawer located conveniently below the countertop. It seemed like a typical place to find tupperware, making it the most suitable choice."
-images/kitchen/5_segmented_sun_ajkrefpvgtunjiyi.jpg,Bottle opener,"Container id 1, is a ""cabinet door"" below the countertop. Additionally, it is located at the bottom-left of the sink."
-images/kitchen/5_segmented_sun_ajkrefpvgtunjiyi.jpg,Cutting board,"Container id 1, is a ""cabinet door"" below the countertop. Additionally, it is located at the bottom-left of the sink."
-images/kitchen/5_segmented_sun_ajkrefpvgtunjiyi.jpg,Pan,"...Container id 1, which is a ""cabinet door"" below the countertop and located at the bottom-left of the sink. This seemed the most appropriate place for a pan to be stored."
-images/kitchen/5_segmented_sun_ajkrefpvgtunjiyi.jpg,Spoon,"Container id 2, is a ""drawer"" below the countertop."
-images/kitchen/24_segmented_sun_aczchqarcsdhjfsg.jpg,Cooking oil,"...Container id 3, is a ""cabinet door"" below the countertop."
-images/kitchen/24_segmented_sun_aczchqarcsdhjfsg.jpg,Dish towels,"...Container id 6, the ""drawer"" located below the countertop and at the bottom-right of the stove. It seemed a logical place for a kitchen towel to be stored, within easy reach while cooking or cleaning."
-images/kitchen/24_segmented_sun_aczchqarcsdhjfsg.jpg,Pot,"... Container id 4, a ""cabinet door"" below the countertop, located at the bottom-right of the stove, where pots are commonly stored."
-images/kitchen/24_segmented_sun_aczchqarcsdhjfsg.jpg,Spoon,"...Container id 6, a ""drawer"" below the countertop. It was common in many households to keep utensils like spoons in similar drawers, and its location at the bottom-right of the stove made it an easily accessible spot."
-images/kitchen/12_segmented_sun_ajuqshhjcubjzedh.jpg,Bottle opener,"...Container id 4, the ""drawer"" below the countertop. Given that bottle openers are usually small, they are often stored in drawers for easy access."
-images/kitchen/12_segmented_sun_ajuqshhjcubjzedh.jpg,Cutting board,"...Container id 1, a ""cabinet door"" below the countertop. It was conveniently located to the right of the oven, and at the bottom-left of the microwave toaster, a place where a cutting board could reasonably be stored."
-images/kitchen/12_segmented_sun_ajuqshhjcubjzedh.jpg,Pan,"...Container id 1, which was a ""cabinet door"" below the countertop, to the right of the oven, and at the bottom-left of the microwave toaster."
-images/kitchen/12_segmented_sun_ajuqshhjcubjzedh.jpg,Spoon,"...Container id 4, a ""drawer"" below the countertop. This seemed the most common place for spoons to be stored in a kitchen."
-images/kitchen/19_segmented_sun_anrbnligfknyblpd.jpg,Bottle opener,"...Container id 1, a ""drawer"" below the countertop and located at the bottom-left of the coffee machine. This seemed to be a practical spot for a bottle opener, near a frequently used kitchen appliance."
-images/kitchen/19_segmented_sun_anrbnligfknyblpd.jpg,Cutting board,"...Container id 1, the ""drawer"" below the countertop, located at the bottom-left of the coffee machine, hoping to find the cutting board they were looking for."
-images/kitchen/19_segmented_sun_anrbnligfknyblpd.jpg,Mug,"...Container id 1, the ""drawer"" located at the bottom-left of the coffee machine, which seemed the most logical place for a mug to be stored."
-images/kitchen/19_segmented_sun_anrbnligfknyblpd.jpg,Pan,"...Container id 2, a ""drawer"" below the countertop. It was a common place for pans to be stored and seemed the most likely location. They pulled open the drawer, their hopeful eyes landing on the pan they had been searching for."
-images/kitchen/9_segmented_sun_awspbtmcoxakihbx.jpg,Bottle opener,"Container id 1, is a ""cabinet door"" below the countertop. Additionally, it is located at the bottom-right of the stove."
-images/kitchen/9_segmented_sun_awspbtmcoxakihbx.jpg,Cutting board,"...the handle of Container id 1, the ""cabinet door"" located below the countertop at the bottom-right of the stove. This seemed the most likely spot for a cutting board to be stored, given its convenient location near the stove."
-images/kitchen/9_segmented_sun_awspbtmcoxakihbx.jpg,Pan,"...Container id 1, the ""cabinet door"" located at the bottom-right of the stove. It seemed like the most logical place to find a pan."
-images/kitchen/9_segmented_sun_awspbtmcoxakihbx.jpg,Spoon,"...Container id 9, the drawer above the countertop. This was the most likely place to find a spoon, as most households store their cutlery in such a spot. They slid the drawer open, hoping to find what they were looking for."
-images/kitchen/22_segmented_sun_afkwbtipaeipuaer.jpg,Bottle opener,"...Container id 12, a ""drawer"" below the countertop. It seemed a logical place for a bottle opener to be stored, within easy reach when needed in the midst of food preparation."
-images/kitchen/22_segmented_sun_afkwbtipaeipuaer.jpg,Cutting board,"...Container id 12, a ""drawer"" below the countertop. This seemed the most likely place to find a cutting board."
-images/kitchen/22_segmented_sun_afkwbtipaeipuaer.jpg,Mug,"...Container id 3, the ""cabinet door"" above the countertop and located at the top-left of the microwave. It seemed like a sensible place to store mugs for easy reach when making a hot drink."
-images/kitchen/22_segmented_sun_afkwbtipaeipuaer.jpg,Pan,"...Container id 12, which is a ""drawer"" below the countertop."
-images/kitchen/7_segmented_sun_auatsxdwxjotzqjr.jpg,Cooking oil,"...Container id 2. It was a cabinet door above the countertop, conveniently located to the right of the microwave, which was a common place for people to store cooking oils. They hoped they would find what they were looking for there."
-images/kitchen/7_segmented_sun_auatsxdwxjotzqjr.jpg,Dish towels,"...Container id 1, a ""cabinet door"" above the countertop."
-images/kitchen/7_segmented_sun_auatsxdwxjotzqjr.jpg,Pot,"...Container id 2, is a ""cabinet door"" above the countertop. Additionally, it is located to the right of the microwave."
-images/kitchen/7_segmented_sun_auatsxdwxjotzqjr.jpg,Spices,"...Container id 2, is a ""cabinet door"" above the countertop. Additionally, it is located to the right of the microwave."
-images/kitchen/18_segmented_sun_auhdmjbjkxwrixim.jpg,Bowl,"...Container id 2, the ""cabinet door"" below the countertop. Located to the left of the sink and at the bottom-right of the stove, it seemed a likely spot for a bowl."
-images/kitchen/18_segmented_sun_auhdmjbjkxwrixim.jpg,Cutting knife,"...Container id 4, the ""drawer"" below the countertop. Additionally, it is located at the top-right of the sink. This was a common place for kitchen utensils, including cutting knives, to be stored."
-images/kitchen/18_segmented_sun_auhdmjbjkxwrixim.jpg,Mug,"...Container id 1, a ""cabinet door"" located above the countertop. It seemed the most logical place to store a mug."
-images/kitchen/18_segmented_sun_auhdmjbjkxwrixim.jpg,Tupperware containers,"...Container id 2, a ""cabinet door"" below the countertop located to the left of the sink, and at the bottom-right of the stove. This seemed a sensible place to store tupperware containers for easy access while preparing meals."
-images/kitchen/33_segmented_sun_awbppqusbpubsfeq.jpg,Bowl,"...Container id 2, a ""cabinet door"" above the countertop. It seemed the most likely place for a bowl to be stored."
-images/kitchen/33_segmented_sun_awbppqusbpubsfeq.jpg,Cutting knife,"- Container id 2, is a ""cabinet door"" above the countertop."
-images/kitchen/33_segmented_sun_awbppqusbpubsfeq.jpg,Plate,"...Container id 2, a ""cabinet door"" above the countertop. This seemed like the most logical place for a plate to be stored - easily accessible and within reach. They opened the cabinet door, their eyes scanning the space within for the desired item."
-images/kitchen/33_segmented_sun_awbppqusbpubsfeq.jpg,Tupperware containers,"...container id 5. Being above the countertop, to the right of the microwave, and at the top-right of the toaster, it seemed the most likely place to find a tupperware container in a kitchen setup."
-images/kitchen/17_segmented_sun_aiolecljpamcnixg.jpg,Cooking oil,"...Container id 4, a ""cabinet door"" below the countertop. This was a common place for families to store cooking oils, keeping them easy to reach during meal preparations."
-images/kitchen/17_segmented_sun_aiolecljpamcnixg.jpg,Dish towels,"...Container id 2, a ""drawer"" below the countertop, as it is a common place for kitchen towels to be stored."
-images/kitchen/17_segmented_sun_aiolecljpamcnixg.jpg,Plate,"...Container id 2, a ""drawer"" below the countertop. It seemed the most likely place for a plate to be stored."
-images/kitchen/17_segmented_sun_aiolecljpamcnixg.jpg,Spices,"...Container id 2, a ""drawer"" located below the countertop."
-images/kitchen/19_segmented_sun_ahljzhgcdpomplvg.jpg,Bowl,"...Container id 4, a ""cabinet door"" located above the countertop and to the right of the microwave. This seemed like the most suitable place where a bowl might be stored in a typical kitchen."
-images/kitchen/19_segmented_sun_ahljzhgcdpomplvg.jpg,Cutting knife,"...Container id 15, which is a ""drawer"" below the countertop. This is a common place for cutting knives to be stored in a kitchen setup."
-images/kitchen/19_segmented_sun_ahljzhgcdpomplvg.jpg,Mug,"...Container id 4, the ""cabinet door"" above the countertop that was located to the right of the microwave. This was a typical place for mugs to be stored in many households."
-images/kitchen/19_segmented_sun_ahljzhgcdpomplvg.jpg,Tupperware containers,"- Container id 4, is a ""cabinet door"" above the countertop. Additionally, it is located to the right of the microwave."
-images/kitchen/4_segmented_sun_aohalqjxiodeyhwm.jpg,Bottle opener,"Container id 2, is a ""cabinet door"" above the countertop. Additionally, it is located at the top-left of the refrigerator."
-images/kitchen/4_segmented_sun_aohalqjxiodeyhwm.jpg,Bowl,"...Container id 2, is a ""cabinet door"" above the countertop. Additionally, it is located at the top-left of the refrigerator. This location was ideal for storing bowls and other kitchen essentials. They carefully opened the cabinet door and found a bowl, perfect for what they needed."
-images/kitchen/4_segmented_sun_aohalqjxiodeyhwm.jpg,Mug,"...Container id 1, a ""cabinet door"" above the countertop. It was the most accessible and seemed the likeliest place for a mug to be stored. As they opened the door, they were greeted by neatly arranged mugs of different sizes and colors. They picked one, a blue earthenware with a touch of rustic charm, perfect for their morning coffee."
-images/kitchen/4_segmented_sun_aohalqjxiodeyhwm.jpg,Pan,"Container id 1, is a ""cabinet door"" above the countertop."
-images/kitchen/9_segmented_sun_abdzsryntppucwqi.jpg,Cutting knife,"...container id 1, the ""drawer"" below the countertop. It was the most likely place to find a cutting knife in a typical kitchen setup."
-images/kitchen/9_segmented_sun_abdzsryntppucwqi.jpg,Dish towels,"...Container id 1, the ""drawer"" below the countertop. This seemed the most likely place to find dish towels in a typical kitchen setup."
-images/kitchen/9_segmented_sun_abdzsryntppucwqi.jpg,Plate,"...Container id 1, the drawer below the countertop. Given its location, it seemed like the most likely place to store plates in this kitchen."
-images/kitchen/9_segmented_sun_abdzsryntppucwqi.jpg,Spices,"...Container id 1, the ""drawer"" below the countertop. This location seemed most likely to hold a selection of spices, as it was conveniently positioned for easy access during cooking."
-images/kitchen/17_segmented_sun_agorklincwxrdtga.jpg,Cooking oil,"...Container id 3, the ""cabinet door"" below the countertop, located at the bottom-right of the stove. This seemed like the most logical place to find cooking oil, as it was in close proximity to the area where the cooking would be done."
-images/kitchen/17_segmented_sun_agorklincwxrdtga.jpg,Dish towels,"...Container id 2, the ""drawer"" below the countertop. This is a common place for dish towels to be stored."
-images/kitchen/17_segmented_sun_agorklincwxrdtga.jpg,Pot,"...Container id 3, the ""cabinet door"" below the countertop and located at the bottom-right of the stove. This seemed to be the most likely place to find a pot in a kitchen."
-images/kitchen/17_segmented_sun_agorklincwxrdtga.jpg,Spices,"...Container id 3, is a ""cabinet door"" below the countertop. Additionally, it is located at the bottom-right of the stove."
-images/kitchen/8_segmented_sun_afkaeizmulcsokfj.jpg,Bottle opener,"...Container id 8, the ""drawer"" below the countertop. Given its location below the oven and at the bottom-right of the dishwasher, it was a typical spot for kitchen tools like a bottle opener to be stored."
-images/kitchen/8_segmented_sun_afkaeizmulcsokfj.jpg,Bowl,"...Container id 1, the ""cabinet door"" above the countertop. It seemed like the most logical and accessible place for a bowl to be stored."
-images/kitchen/8_segmented_sun_afkaeizmulcsokfj.jpg,Mug,"...Container id 3, the ""cabinet door"" above the countertop and the microwave. It was the most common place to store mugs, close to the coffee maker for easy access during morning routines. They opened the door and there, neatly stacked, were the mugs they had been searching for."
-images/kitchen/8_segmented_sun_afkaeizmulcsokfj.jpg,Pan,"...Container id 8, the ""drawer"" below the countertop. It was located below the oven and at the bottom-right of the dishwasher, a common place for pots and pans to be stored."
-images/kitchen/14_segmented_sun_adswmdfkombffqhi.jpg,Bottle opener,"...Container id 2, is a ""cabinet door"" below the countertop. Additionally, it is located at the bottom-right of the sink. This seemed the most fitting place for a bottle opener, easy to grab while still standing at the sink."
-images/kitchen/14_segmented_sun_adswmdfkombffqhi.jpg,Cutting board,"...Container id 2, the ""cabinet door"" below the countertop, located at the bottom-right of the sink. This seemed like a logical place for a cutting board to be stored."
-images/kitchen/14_segmented_sun_adswmdfkombffqhi.jpg,Mug,"Container id 1, is a ""cabinet door"" above the countertop."
-images/kitchen/14_segmented_sun_adswmdfkombffqhi.jpg,Pan,"...Container id 2, the ""cabinet door"" below the countertop that was located at the bottom-right of the sink. It was a common place for pans to be stored, making it the most likely candidate."
-images/kitchen/6_segmented_sun_aoqkmjxwlivgbkhq.jpg,Bowl,"...Container id 1, the ""cabinet door"" above the countertop."
-images/kitchen/6_segmented_sun_aoqkmjxwlivgbkhq.jpg,Cutting knife,"Container id 4, is a ""drawer"" below the countertop."
-images/kitchen/6_segmented_sun_aoqkmjxwlivgbkhq.jpg,Plate,"Container id 1, is a ""cabinet door"" above the countertop."
-images/kitchen/6_segmented_sun_aoqkmjxwlivgbkhq.jpg,Tupperware containers,"Container id 1, is a ""cabinet door"" above the countertop."
-images/kitchen/14_segmented_sun_axlhgujigbdqvdzl.jpg,Bowl,"...Container id 1, a ""cabinet door"" above the countertop. This seemed the most likely place for bowls to be stored, convenient to reach and away from the potential dampness of being located below the sink."
-images/kitchen/14_segmented_sun_axlhgujigbdqvdzl.jpg,Cutting knife,"Container id 6, is a ""drawer"" below the countertop."
-images/kitchen/14_segmented_sun_axlhgujigbdqvdzl.jpg,Mug,"...Container id 1, a ""cabinet door"" above the countertop. It was the most typical place to store mugs in a kitchen."
-images/kitchen/14_segmented_sun_axlhgujigbdqvdzl.jpg,Tupperware containers,"...Container id 1, a ""cabinet door"" above the countertop. This seemed the most appropriate place to store tupperware containers. Tupperware is typically kept in cabinets above the countertop to avoid any potential water damage that could occur if they were stored under the sink."
-images/kitchen/14_segmented_sun_aucefajtdpoipkjt.jpg,Cutting knife,"...Container id 6, is a ""drawer"" below the countertop. Additionally, it is located to the left of the oven. It was the most likely place for a cutting knife to be stored."
-images/kitchen/14_segmented_sun_aucefajtdpoipkjt.jpg,Plate,"...Container id 6, the ""drawer"" below the countertop, located to the left of the oven. It seemed like a reasonable spot for plates to be stored, easily accessible while preparing a meal."
-images/kitchen/14_segmented_sun_aucefajtdpoipkjt.jpg,Spices,"...Container id 6, a ""drawer"" below the countertop. Additionally, it was located to the left of the oven. This seemed like the most logical place to store spices for easy access while cooking."
-images/kitchen/14_segmented_sun_aucefajtdpoipkjt.jpg,Tupperware containers,"...Container id 6, a ""drawer"" below the countertop, located to the left of the oven. The drawer seemed like the most likely place to find the needed tupperware containers."
-images/kitchen/6_segmented_sun_atdfrsodpyskmywe.jpg,Bottle opener,"...Container id 1, the ""drawer"" below the countertop. It was located at the bottom-right of the sink, a place where many households typically store their bottle openers."
-images/kitchen/6_segmented_sun_atdfrsodpyskmywe.jpg,Cutting board,"...Container id 1, the drawer located at the bottom-right of the sink."
-images/kitchen/6_segmented_sun_atdfrsodpyskmywe.jpg,Mug,"Container id 6, a ""drawer"" above the countertop. This placement is often where mugs are stored for easy access."
-images/kitchen/6_segmented_sun_atdfrsodpyskmywe.jpg,Pan,"...Container id 1, the ""drawer"" below the countertop. Located at the bottom-right of the sink, it was a likely place for a pan."
-images/kitchen/15_segmented_sun_avtqdvhwdfzykzby.jpg,Cooking oil,"...Container id 1, a ""cabinet door"" below the countertop, located to the right of the dishwasher, and at the bottom-left of the sink. This seemed the most likely place to find cooking oil in a kitchen setup."
-images/kitchen/15_segmented_sun_avtqdvhwdfzykzby.jpg,Dish towels,"- Container id 1, is a ""cabinet door"" below the countertop. Additionally, it is located to the right of the dishwasher, and at the bottom-left of the sink."
-images/kitchen/15_segmented_sun_avtqdvhwdfzykzby.jpg,Plate,"...Container id 1, is a ""cabinet door"" below the countertop. Additionally, it is located to the right of the dishwasher, and at the bottom-left of the sink. As it is common to keep plates in a cabinet near the sink and dishwasher for easy access after cleaning."
-images/kitchen/15_segmented_sun_avtqdvhwdfzykzby.jpg,Spices,"...Container id 1, a cabinet door below the countertop, located to the right of the dishwasher and at the bottom-left of the sink. This seemed to be the most likely location to find the spices they were looking for."
-images/kitchen/21_segmented_sun_abvefvntluoxopow.jpg,Bowl,"...Container id 1, a ""cabinet door"" located below the countertop. They found it to be the most suitable place to store bowls where they could easily be accessed."
-images/kitchen/21_segmented_sun_abvefvntluoxopow.jpg,Cutting knife,"...Container id 14, a drawer located below the countertop and at the bottom-right of the sink. It seemed like the most logical place for a cutting knife to be stored."
-images/kitchen/21_segmented_sun_abvefvntluoxopow.jpg,Mug,"...Container id 9, a ""cabinet door"" above the countertop. This location seemed most ideal as it was situated at the top-right of the coffee machine, a logical place for mugs to be stored for easy access when making coffee."
-images/kitchen/21_segmented_sun_abvefvntluoxopow.jpg,Tupperware containers,"...Container id 11, the ""drawer"" located below the countertop and directly under the microwave. It seemed like the most common place to store tupperware containers. They gently pulled the drawer open, hoping to find what they were looking for."
-images/kitchen/5_segmented_sun_aamjqvjnuxklyagf.jpg,Bottle opener,"Container id 5, is a ""drawer"" below the countertop."
-images/kitchen/5_segmented_sun_aamjqvjnuxklyagf.jpg,Cutting board,"Container id 1, is a ""cabinet door"" above the countertop."
-images/kitchen/5_segmented_sun_aamjqvjnuxklyagf.jpg,Pan,"Container id 1, is a ""cabinet door"" above the countertop."
-images/kitchen/5_segmented_sun_aamjqvjnuxklyagf.jpg,Spoon,"Container id 5, is a ""drawer"" below the countertop."
+images/kitchen/12_segmented_sun_afwaivvfezladsbj.jpg,Bowl,"Item: Bowl
+Best container: 1
+Reasoning: Bowls are typically stored in cabinets for easy access and to prevent them from being damaged. They are not usually stored in drawers because of their size and shape."
+images/kitchen/12_segmented_sun_afwaivvfezladsbj.jpg,Mug,"Item: Mug
+Best container: 1
+Reasoning: Mugs are usually stored in a cabinet for easy access and to prevent them from being damaged. The other containers are all similar, but the first one is conventionally used for storing mugs."
+images/kitchen/12_segmented_sun_afwaivvfezladsbj.jpg,Pan,"Item: Pan
+Best container: 1
+Reasoning: Pans are typically stored in a cabinet below the countertop for easy access while cooking."
+images/kitchen/12_segmented_sun_afwaivvfezladsbj.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 1
+Reasoning: Tupperware containers are typically stored in a cabinet below the countertop for easy accessibility."
+images/kitchen/15_segmented_sun_avdeakyjwzxtynyf.jpg,Bottle opener,"Item: Bottle opener
+Best container: 7
+Reasoning: Bottle openers are small and typically stored in drawers for easy access. The drawer below the countertop is the most convenient location."
+images/kitchen/15_segmented_sun_avdeakyjwzxtynyf.jpg,Cutting board,"Item: Cutting board
+Best container: 1
+Reasoning: Cutting boards are often heavy and bulky, so they are best stored in a cabinet below the countertop for easy access. Container id 1, being below the countertop and near both the sink and microwave, is the most suitable."
+images/kitchen/15_segmented_sun_avdeakyjwzxtynyf.jpg,Mug,"Item: Mug
+Best container: 2
+Reasoning: Mugs are typically stored in cabinets above the countertop for easy access. Given that it's located above the stove and near the sink, it would be a convenient spot for storing mugs."
+images/kitchen/15_segmented_sun_avdeakyjwzxtynyf.jpg,Pan,"Item: Pan
+Best container: 1
+Reasoning: Pans are typically stored in lower cabinets for easy access and due to their size and shape. Container 1, being a ""cabinet door"" below the countertop, is suitable for this."
+images/kitchen/6_segmented_sun_afstlyyibsjscpbm.jpg,Cooking oil,"Item: Cooking oil
+Best container: 2
+Reasoning: Cooking oil is best stored in a cool, dark place, away from heat and light, so a cabinet above the countertop would be suitable. Containers 1 and 6 are also above the countertop, but container 1 is above the oven, which might be warm, and container 6 was not specified to be away from heat sources."
+images/kitchen/6_segmented_sun_afstlyyibsjscpbm.jpg,Dish towels,"Item: Dish towels
+Best container: 5
+Reasoning: Dish towels are often stored near the sink area for easy access when washing dishes. Therefore, a cabinet below the countertop and near the sink would be the most appropriate."
+images/kitchen/6_segmented_sun_afstlyyibsjscpbm.jpg,Pot,"Item: Pot
+Best container: 5
+Reasoning: Pots are typically stored in cabinets below the countertop for easier access and better use of space. This cabinet is also conveniently located near the oven, where pots are most often used."
+images/kitchen/6_segmented_sun_afstlyyibsjscpbm.jpg,Spices,"Item: Spices
+Best container: 2
+Reasoning: Spices are typically stored in a cabinet above the countertop for easy access while cooking. It's better not to store them above the oven (container 1) because the heat can affect their quality. Similarly, storing them below the countertop (containers 4 and 5) might make them less accessible."
+images/kitchen/12_segmented_sun_aopqdojqibxivqgu.jpg,Cooking oil,"Item: Cooking oil
+Best container: 3
+Reasoning: Cooking oil is typically stored in a cabinet that is easily accessible while using the stove. The container above the countertop and near the stove (container id 3) would be the most suitable."
+images/kitchen/12_segmented_sun_aopqdojqibxivqgu.jpg,Dish towels,"Item: Dish towels
+Best container: 5
+Reasoning: Dish towels are often kept in a drawer for easy access when needed. The location of container 5 is also ideal because it is near both the sink and the dishwasher, where dish towels are most frequently used."
+images/kitchen/12_segmented_sun_aopqdojqibxivqgu.jpg,Pot,"Item: Pot
+Best container: 1
+Reasoning: Pots are usually stored in a cabinet door below the countertop for easy access and because they are too large for most drawers. The location of this cabinet, being near the oven, is ideal for storing pots."
+images/kitchen/12_segmented_sun_aopqdojqibxivqgu.jpg,Spoon,"Item: Spoon
+Best container: 5
+Reasoning: Typically, cutlery like spoons are stored in a drawer for easy access and organization. Container 5, being a drawer located centrally in the kitchen (between the coffee machine, sink, and dishwasher), would be the most suitable choice."
+images/kitchen/10_segmented_sun_ayzwrfmejwnjncpp.jpg,Cooking oil,"Item: Cooking oil
+Best container: 5
+Reasoning: Cooking oil is often stored in a cabinet close to the oven for easy access during cooking. Container 5 is below the countertop and to the left of the oven, making it a convenient location."
+images/kitchen/10_segmented_sun_ayzwrfmejwnjncpp.jpg,Dish towels,"Item: Dish towels
+Best container: 6
+Reasoning: Dish towels are commonly stored in a drawer near the stove or oven for easy access while cooking or cleaning."
+images/kitchen/10_segmented_sun_ayzwrfmejwnjncpp.jpg,Plate,"Item: Plate
+Best container: 1
+Reasoning: Plates are usually stored in cabinets above the countertop for easy access. This specific cabinet is also located above the microwave, making it a convenient location for plates which are frequently used with the microwave."
+images/kitchen/10_segmented_sun_ayzwrfmejwnjncpp.jpg,Spices,"Item: Spices
+Best container: 2
+Reasoning: Spices are usually stored in a cabinet above the countertop for easy accessibility while cooking. Container 2 fits this description and does not have the microwave beneath it, which could cause the spices to heat up and lose their flavor."
+images/kitchen/16_segmented_sun_amtngujfdqlygigl.jpg,Bottle opener,"Item: Bottle opener
+Best container: 5
+Reasoning: A bottle opener is a small utensil that is typically stored in a drawer for easy access, so the drawer below the countertop located at the top-left of the sink is the most suitable."
+images/kitchen/16_segmented_sun_amtngujfdqlygigl.jpg,Cutting board,"Item: Cutting board
+Best container: 5
+Reasoning: Cutting boards are typically stored in a drawer or cabinet close to the sink for ease of washing and use. Here, container id 5 fits the description best as it is a drawer located near the sink."
+images/kitchen/16_segmented_sun_amtngujfdqlygigl.jpg,Pan,"Item: Pan
+Best container: 4
+Reasoning: Pans are usually stored in cabinets below the countertop for ease of access while cooking. The location of this container, right of the oven and bottom-right of the stove, further makes it the most suitable choice for storing a pan."
+images/kitchen/16_segmented_sun_amtngujfdqlygigl.jpg,Spoon,"Item: Spoon
+Best container: 5
+Reasoning: Spoons are commonly stored in kitchen drawers for easy access and to keep them organized. The drawer located near the sink is a convenient location for utensils as they can be put away easily after washing."
+images/kitchen/22_segmented_sun_augjvuygusrwlxqz.jpg,Bowl,"Item: Bowl
+Best container: 1
+Reasoning: Bowls are typically stored in a cabinet above the countertop for easy access and to save space on the countertop."
+images/kitchen/22_segmented_sun_augjvuygusrwlxqz.jpg,Cutting knife,"Item: Cutting knife
+Best container: 3
+Reasoning: Knives are typically stored in drawers below the countertop for safety and easy access."
+images/kitchen/22_segmented_sun_augjvuygusrwlxqz.jpg,Plate,"Item: Plate
+Best container: 1
+Reasoning: Plates are typically stored in a cabinet above the countertop for easy access when serving food."
+images/kitchen/22_segmented_sun_augjvuygusrwlxqz.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 2
+Reasoning: Tupperware containers are best stored in a cabinet below the countertop for easy access and to save the above countertop cabinets for items that need to be kept out of reach of children."
+images/kitchen/15_segmented_sun_apuaydbvdodzgqrh.jpg,Cutting knife,"Item: Cutting knife
+Best container: 10
+Reasoning: Cutting knives are usually stored in drawers below the countertop for easy access and safety."
+images/kitchen/15_segmented_sun_apuaydbvdodzgqrh.jpg,Plate,"Item: Plate
+Best container: 2
+Reasoning: Plates are typically stored in a cabinet above the countertop for easy accessibility when serving food."
+images/kitchen/15_segmented_sun_apuaydbvdodzgqrh.jpg,Spices,"Item: Spices
+Best container: 2
+Reasoning: Spices are often stored in a cabinet above the countertop for easy access while cooking. Here, it is also located near the coffee machine which could add convenience if spices are used in coffee."
+images/kitchen/15_segmented_sun_apuaydbvdodzgqrh.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 1
+Reasoning: Tupperware is often stored in lower cabinets for easy access. The location at the bottom-left of the coffee machine is likely a convenient and accessible spot."
+images/kitchen/3_segmented_sun_aobtqmsjotgsxppu.jpg,Bottle opener,"Item: Bottle opener
+Best container: 1
+Reasoning: All the containers are the same, so any of them could be used. Typically, a bottle opener would be stored in a cabinet above the countertop for easy accessibility."
+images/kitchen/3_segmented_sun_aobtqmsjotgsxppu.jpg,Bowl,"Item: Bowl
+Best container: 1
+Reasoning: Bowls are typically stored in cabinets above the countertop for easy accessibility. Any of the cabinets listed could work, but without more specifics, we'll default to the first one."
+images/kitchen/3_segmented_sun_aobtqmsjotgsxppu.jpg,Mug,"Item: Mug
+Best container: 1
+Reasoning: Mugs are typically stored in cabinets above the countertop for easy accessibility. Any of the containers could be suitable, but we'll pick the first one as the item doesn't specify a special requirement."
+images/kitchen/3_segmented_sun_aobtqmsjotgsxppu.jpg,Pan,"Item: Pan
+Best container: 1
+Reasoning: Pans can be stored in any cabinet door above the countertop. Since all options are the same, any of them can be chosen. In this case, container id 1 is selected."
+images/kitchen/16_segmented_sun_alqafgyfzsctxwtt.jpg,Cooking oil,"Item: Cooking oil
+Best container: 15
+Reasoning: Cooking oil is frequently used and should be easily accessible. A drawer close to the stove, like container 15, is the most convenient and practical place."
+images/kitchen/16_segmented_sun_alqafgyfzsctxwtt.jpg,Dish towels,"Item: Dish towels
+Best container: 15
+Reasoning: Dish towels are typically stored in a drawer for easy access, especially near the stove or sink. In this case, container 15 is a drawer located near the stove, making it the best choice."
+images/kitchen/16_segmented_sun_alqafgyfzsctxwtt.jpg,Plate,"Item: Plate
+Best container: 1
+Reasoning: Plates are usually stored in cabinets above the countertop for easy access and to avoid breakage. Since all the containers above the countertop (1-8, 10-14, 16) are described similarly, any of these would be suitable, but container id 1 was chosen arbitrarily."
+images/kitchen/16_segmented_sun_alqafgyfzsctxwtt.jpg,Spices,"Item: Spices
+Best container: 15
+Reasoning: Spices are usually stored close to the stove for easy access while cooking. The drawer below the countertop, especially being at the bottom-left of the stove, is the most convenient location."
+images/kitchen/5_segmented_sun_aawsixgpgwqanatu.jpg,Bowl,"Item: Bowl
+Best container: 1
+Reasoning: Bowls are typically stored in cabinets for easy access and to prevent damage. The specific location doesn't matter too much, but a cabinet door below the countertop, such as container 1, would be ideal."
+images/kitchen/5_segmented_sun_aawsixgpgwqanatu.jpg,Cutting knife,"Item: Cutting knife
+Best container: 3
+Reasoning: Knives are typically stored in drawers for safety and accessibility. The drawer beneath the sink is often used for cutlery and kitchen tools."
+images/kitchen/5_segmented_sun_aawsixgpgwqanatu.jpg,Mug,"Item: Mug
+Best container: 1  
+Reasoning: Mugs are typically stored in cabinets for easy access. The position of the cabinet to the right of the oven is often used for storing mugs and other glassware."
+images/kitchen/5_segmented_sun_aawsixgpgwqanatu.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 1
+Reasoning: Tupperware containers are usually stored in cabinets below the countertop for easy access. The specific location, to the right or left of the oven, doesn't make a significant difference in this case."
+images/kitchen/12_segmented_sun_aglwoufpxbtxqecp.jpg,Cutting knife,"Item: Cutting knife
+Best container: 5
+Reasoning: A cutting knife is typically stored in a drawer for safety and ease of access. The drawer located below the countertop and near the coffee machine would likely be most convenient."
+images/kitchen/12_segmented_sun_aglwoufpxbtxqecp.jpg,Dish towels,"Item: Dish towels
+Best container: 5  
+Reasoning: Dish towels are often stored in drawers for easy access, especially near the coffee machine for any spills or quick clean-ups."
+images/kitchen/12_segmented_sun_aglwoufpxbtxqecp.jpg,Plate,"Item: Plate
+Best container: 1
+Reasoning: Plates are typically stored in cabinets above the countertop for easy access. The location near the coffee machine suggests that this cabinet may be used for dishes and other frequently used kitchen items."
+images/kitchen/12_segmented_sun_aglwoufpxbtxqecp.jpg,Spices,"Item: Spices
+Best container: 1
+Reasoning: Spices are typically stored in a location that is easily accessible when cooking, such as a cabinet above the countertop. The proximity to the coffee machine might suggest this is an area where food and drink preparation takes place."
+images/kitchen/11_segmented_sun_andzglcqubvbzfhz.jpg,Cooking oil,"Item: Cooking oil
+Best container: 1
+Reasoning: Cooking oils are typically stored in a cabinet above the countertop for easy access while cooking and to prevent any potential fire hazards."
+images/kitchen/11_segmented_sun_andzglcqubvbzfhz.jpg,Dish towels,"Item: Dish towels
+Best container: 9
+Reasoning: Drawers are typically used for storing items like towels as they allow for easy access and organization. The proximity to the dishwasher makes it even more convenient for storing dish towels."
+images/kitchen/11_segmented_sun_andzglcqubvbzfhz.jpg,Plate,"Item: Plate
+Best container: 1
+Reasoning: Plates are commonly stored in cabinets above the countertop for easy access when needed."
+images/kitchen/11_segmented_sun_andzglcqubvbzfhz.jpg,Spices,"Item: Spices
+Best container: 1
+Reasoning: Spices are typically stored in a cabinet above the countertop for easy access while cooking."
+images/kitchen/4_segmented_sun_axzmxlymdvjqqfpk.jpg,Bottle opener,"Item: Bottle opener
+Best container: 1  
+Reasoning: Bottle openers are typically stored in cabinets below the countertop for easy accessibility. The location at the bottom-left of the sink is typically where kitchen utensils are stored."
+images/kitchen/4_segmented_sun_axzmxlymdvjqqfpk.jpg,Cutting board,"Item: Cutting board
+Best container: 1
+Reasoning: Cutting boards are often stored in cabinets below the countertop and near the sink for ease of washing before and after use."
+images/kitchen/4_segmented_sun_axzmxlymdvjqqfpk.jpg,Pot,"Item: Pot
+Best container: 1
+Reasoning: Pots are commonly stored in cabinets below the countertop for easy access while cooking. The location at the bottom-left of the sink seems most convenient for washing and usage."
+images/kitchen/4_segmented_sun_axzmxlymdvjqqfpk.jpg,Spoon,"Item: Spoon
+Best container: None
+Reasoning: Spoons are typically stored in a drawer for easy access, none of the given containers are suitable for storing spoons."
+images/kitchen/8_segmented_sun_aojmogpsfirohkai.jpg,Cooking oil,"Item: Cooking oil
+Best container: 5
+Reasoning: Cooking oil is commonly stored in a cabinet above the countertop for easy access when cooking."
+images/kitchen/8_segmented_sun_aojmogpsfirohkai.jpg,Dish towels,"Item: Dish towels
+Best container: 1
+Reasoning: Dish towels are typically stored in a cabinet below the countertop for easy access while cleaning or cooking. Any of the lower cabinets would work, but we can choose the first one for simplicity as no further details are given."
+images/kitchen/8_segmented_sun_aojmogpsfirohkai.jpg,Pot,"Item: Pot
+Best container: 1
+Reasoning: Pots are typically stored in lower cabinets under the countertop for easy access and due to their size. Any of the lower cabinets would work, but we'll choose container 1 for the sake of choosing one."
+images/kitchen/8_segmented_sun_aojmogpsfirohkai.jpg,Spices,"Item: Spices
+Best container: 5
+Reasoning: Spices are commonly stored in a cabinet above the countertop for easy access while cooking."
+images/kitchen/6_segmented_sun_advwcwduhfypopki.jpg,Bottle opener,"Item: Bottle opener
+Best container: 2
+Reasoning: Bottle openers are usually small and fit conveniently in a kitchen drawer for easy access."
+images/kitchen/6_segmented_sun_advwcwduhfypopki.jpg,Cutting board,"Item: Cutting board
+Best container: 2
+Reasoning: A drawer below the countertop is a common place to store cutting boards as it keeps them accessible and tidy."
+images/kitchen/6_segmented_sun_advwcwduhfypopki.jpg,Mug,"Item: Mug
+Best container: 1
+Reasoning: Mugs are typically stored in a cabinet above the countertop for easy access, especially after washing. This cabinet is also above the dish drying rack which makes it convenient for putting away mugs after they have dried."
+images/kitchen/6_segmented_sun_advwcwduhfypopki.jpg,Pan,"Item: Pan
+Best container: 1
+Reasoning: Pans are usually stored in a cabinet near the countertop for easy access while cooking and also for safety purposes. The location of container 1, above the dish drying rack, indicates it is likely used for storing dishes and cookware."
+images/kitchen/8_segmented_sun_ayeksgxvkxbdgqil.jpg,Bottle opener,"Item: Bottle opener
+Best container: 5  
+Reasoning: A bottle opener is a small tool that is typically stored in a cabinet below the countertop for easy access. The location of container 5 is ideal as it is near several appliances where a bottle opener might be needed."
+images/kitchen/8_segmented_sun_ayeksgxvkxbdgqil.jpg,Cutting board,"Item: Cutting board
+Best container: 5
+Reasoning: Cutting boards are typically stored in cabinets below the countertop for easy access when preparing food. Container 5 is also conveniently located near the sink for easy cleaning and the microwave, fridge, and kettle which are commonly used in food preparation."
+images/kitchen/8_segmented_sun_ayeksgxvkxbdgqil.jpg,Pan,"Item: Pan
+Best container: 8
+Reasoning: Pans are typically stored in lower cabinets for easy access when cooking. The location below the oven and near the stove makes it the most convenient."
+images/kitchen/8_segmented_sun_ayeksgxvkxbdgqil.jpg,Spoon,"Item: Spoon
+Best container: None
+Reasoning: Spoons are typically stored in a kitchen drawer for easy access, not in a cabinet. None of the provided containers are suitable for storing spoons."
+images/kitchen/11_segmented_sun_awmwrrktzbyokpcr.jpg,Bottle opener,"Item: Bottle opener
+Best container: 1
+Reasoning: Bottle openers are small utensils that are typically stored in drawers for easy access and to prevent them from getting lost among larger items in a cabinet."
+images/kitchen/11_segmented_sun_awmwrrktzbyokpcr.jpg,Bowl,"Item: Bowl
+Best container: 2
+Reasoning: Bowls are typically stored in cabinets for protection and ease of access. Container 2 is a cabinet above the countertop, which is a convenient location for accessing kitchenware."
+images/kitchen/11_segmented_sun_awmwrrktzbyokpcr.jpg,Mug,"Item: Mug
+Best container: 2
+Reasoning: Mugs are usually stored in cabinets above the countertop for easy access. Container 2 is near the stove which is convenient for making hot beverages."
+images/kitchen/11_segmented_sun_awmwrrktzbyokpcr.jpg,Pan,"Item: Pan
+Best container: 3
+Reasoning: Pans are typically stored near the stove for easy access while cooking. The container above the stove and to the left of the oven is the most convenient location."
+images/kitchen/8_segmented_sun_amvpxkryxaldzmdv.jpg,Bowl,"Item: Bowl
+Best container: 2
+Reasoning: Bowls are typically stored in upper cabinets for easy access and to keep them clean and dust-free."
+images/kitchen/8_segmented_sun_amvpxkryxaldzmdv.jpg,Cutting knife,"Item: Cutting knife
+Best container: 7
+Reasoning: Knives are best stored in drawers for safety and accessibility."
+images/kitchen/8_segmented_sun_amvpxkryxaldzmdv.jpg,Mug,"Item: Mug
+Best container: 2
+Reasoning: Mugs are typically stored in cabinets above the countertop for easy access and to avoid breakage."
+images/kitchen/8_segmented_sun_amvpxkryxaldzmdv.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 1
+Reasoning: Tupperware containers are often stored in lower cabinets for easy access, and being near the refrigerator can be convenient for storing leftovers."
+images/kitchen/13_segmented_sun_aehkkaenyyjnewst.jpg,Bowl,"Item: Bowl
+Best container: 6
+Reasoning: Bowls are typically stored in a cabinet that is easily accessible, such as a cabinet below the countertop."
+images/kitchen/13_segmented_sun_aehkkaenyyjnewst.jpg,Cutting knife,"Item: Cutting knife
+Best container: 7
+Reasoning: Cutting knives are typically stored in drawers for safety and accessibility."
+images/kitchen/13_segmented_sun_aehkkaenyyjnewst.jpg,Plate,"Item: Plate
+Best container: 2  
+Reasoning: Plates are typically stored in cabinets above the countertop for easy access when serving food. This location near the oven is convenient for serving hot meals."
+images/kitchen/13_segmented_sun_aehkkaenyyjnewst.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 4
+Reasoning: Tupperware containers are usually stored in lower cabinets for easy access, and the location at the bottom-right of the refrigerator is convenient."
+images/kitchen/18_segmented_sun_agfmsmojwptjoava.jpg,Cooking oil,"Item: Cooking oil
+Best container: 1
+Reasoning: Cooking oil is typically stored in a cabinet above the countertop for easy access while cooking. Since all of the above countertop cabinets described are similar, any of them could serve the purpose. However, without specific information to differentiate them, we can select the first one (Container id 1)."
+images/kitchen/18_segmented_sun_agfmsmojwptjoava.jpg,Dish towels,"Item: Dish towels
+Best container: 9
+Reasoning: Dish towels are typically stored in a drawer near the sink for easy access when washing dishes."
+images/kitchen/18_segmented_sun_agfmsmojwptjoava.jpg,Pot,"Item: Pot
+Best container: 11
+Reasoning: Pots are typically stored in cabinets below the countertop for easy access. Container 11 is also located close to both the microwave and dishwasher, which makes it a convenient location for storing a pot."
+images/kitchen/18_segmented_sun_agfmsmojwptjoava.jpg,Spoon,"Item: Spoon
+Best container: 9
+Reasoning: Spoons are typically stored in drawers for easy accessibility and organization. The drawer below the countertop and to the left of the sink is a common place for cutlery storage in many kitchens."
+images/kitchen/6_segmented_sun_aqzschgwftpwisen.jpg,Bowl,"Item: Bowl
+Best container: 1
+Reasoning: Bowls are typically stored in cabinets for easy access and to avoid damage, and the cabinet below the countertop next to the sink is a common location in many kitchens."
+images/kitchen/6_segmented_sun_aqzschgwftpwisen.jpg,Cutting knife,"Item: Cutting knife
+Best container: 3
+Reasoning: Cutting knives are usually stored in drawers for safety and easy access. The location of this drawer, below the coffee machine, should not interfere with the safety and accessibility of the knife."
+images/kitchen/6_segmented_sun_aqzschgwftpwisen.jpg,Plate,"Item: Plate
+Best container: 1
+Reasoning: Plates are typically stored in cabinets for protection and easy access. The cabinet to the bottom-right of the sink is a convenient location for washing and drying dishes."
+images/kitchen/6_segmented_sun_aqzschgwftpwisen.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 1
+Reasoning: Tupperware containers are typically stored in cabinets below the countertop for easy access. The first container is located conveniently near the sink, which is useful for putting away containers after washing."
+images/kitchen/8_segmented_sun_awuawixsfaurzuaa.jpg,Cooking oil,"Item: Cooking oil
+Best container: 1
+Reasoning: Cooking oil is typically stored in a cabinet above the countertop for convenience while cooking and to keep it away from heat sources like the oven or dishwasher."
+images/kitchen/8_segmented_sun_awuawixsfaurzuaa.jpg,Dish towels,"Item: Dish towels
+Best container: 6  
+Reasoning: Dish towels are often stored in a drawer for easy access, particularly near the sink or dish rack where they are most frequently used."
+images/kitchen/8_segmented_sun_awuawixsfaurzuaa.jpg,Plate,"Item: Plate
+Best container: 1
+Reasoning: Plates are commonly stored in a cabinet above the countertop for easy access when serving meals."
+images/kitchen/8_segmented_sun_awuawixsfaurzuaa.jpg,Spices,"Item: Spices
+Best container: 1
+Reasoning: Spices are typically stored in a cabinet above the countertop for easy access while cooking."
+images/kitchen/21_segmented_sun_aklijrkocvkcmsfg.jpg,Cutting knife,"Item: Cutting knife
+Best container: 3
+Reasoning: Cutting knives are best stored in a drawer for safety reasons. It is typically more secure and accessible."
+images/kitchen/21_segmented_sun_aklijrkocvkcmsfg.jpg,Plate,"Item: Plate
+Best container: 1
+Reasoning: Plates are typically stored in a cabinet above the countertop for easy access when serving food. The location next to the microwave in Container 1 also provides easy access when heating food."
+images/kitchen/21_segmented_sun_aklijrkocvkcmsfg.jpg,Spices,"Item: Spices
+Best container: 1
+Reasoning: Spices are typically stored in a cabinet above the countertop for easy access while cooking. The location next to the microwave is ideal as it is likely near the cooking area."
+images/kitchen/21_segmented_sun_aklijrkocvkcmsfg.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 4  
+Reasoning: Tupperware containers are typically stored in cabinets below the countertop for easy access."
+images/kitchen/5_segmented_sun_akgdlzofsznnznzs.jpg,Cooking oil,"Item: Cooking oil
+Best container: 1
+Reasoning: Cooking oil is typically stored in a cool and dark place, such as a cabinet. It's also convenient to have it near the stove for easy access while cooking. Therefore, a cabinet door below the countertop and to the right of the oven would be the most suitable."
+images/kitchen/5_segmented_sun_akgdlzofsznnznzs.jpg,Dish towels,"Item: Dish towels
+Best container: 3
+Reasoning: Dish towels are usually stored in a drawer for easy access, and this one is conveniently located close to the stove and oven where they are often used."
+images/kitchen/5_segmented_sun_akgdlzofsznnznzs.jpg,Pot,"Item: Pot
+Best container: 1
+Reasoning: Pots are typically stored in lower cabinets for easy access. The location of container 1 next to the oven and stove makes it easily accessible while cooking."
+images/kitchen/5_segmented_sun_akgdlzofsznnznzs.jpg,Spices,"Item: Spices
+Best container: 2
+Reasoning: Spices are typically stored in a cabinet above the countertop for easy access while cooking. The location above the microwave is likely close to the cooking area."
+images/kitchen/9_segmented_sun_afdefsrtlbtfdhxq.jpg,Bottle opener,"Item: Bottle opener
+Best container: 4
+Reasoning: Bottle openers are typically small handheld utensils that are easily stored in a drawer for easy access."
+images/kitchen/9_segmented_sun_afdefsrtlbtfdhxq.jpg,Cutting board,"Item: Cutting board
+Best container: 1
+Reasoning: Cutting boards are typically stored in cabinets below the countertop for easy access. The specific location (e.g., near the dishwasher or toaster) is not crucial for storing a cutting board."
+images/kitchen/9_segmented_sun_afdefsrtlbtfdhxq.jpg,Mug,"Item: Mug
+Best container: 1
+Reasoning: Mugs are typically stored in cabinets for easy reach and to protect them from damage. Any of the cabinet doors below the countertop would work, but since no specific features are described that would make one more suitable than the others, the first one (Container id 1) can be selected."
+images/kitchen/9_segmented_sun_afdefsrtlbtfdhxq.jpg,Pan,"Item: Pan
+Best container: 1
+Reasoning: Pans are typically stored in cabinets below the countertop for easy access while cooking. The specific location of the cabinet (like being close to the dishwasher or toaster) doesn't significantly influence the decision in this case."
+images/kitchen/12_segmented_sun_alqlmxgzxpeuaciw.jpg,Bottle opener,"Item: Bottle opener
+Best container: 7
+Reasoning: The bottle opener is a small tool that is commonly used in the kitchen. It is best stored in a cabinet above the countertop for easy access. Container 7 is the best choice as it is located above the microwave and at the top-left of the refrigerator, which are areas where one might frequently use a bottle opener."
+images/kitchen/12_segmented_sun_alqlmxgzxpeuaciw.jpg,Cutting board,"Item: Cutting board
+Best container: 7
+Reasoning: Cutting boards are usually stored close to where food preparation takes place. The cabinet above the microwave and refrigerator is likely to be near the kitchen's main work area."
+images/kitchen/12_segmented_sun_alqlmxgzxpeuaciw.jpg,Mug,"Item: Mug
+Best container: 7
+Reasoning: Mugs are usually stored in a cabinet above the countertop for easy access, and positioning it above the microwave and near the refrigerator could be convenient for making drinks."
+images/kitchen/12_segmented_sun_alqlmxgzxpeuaciw.jpg,Pan,"Item: Pan
+Best container: None
+Reasoning: Pans are typically stored in cabinets below the countertop for easy access and to avoid potential injury from falling when retrieved from above. None of the given containers are suitable."
+images/kitchen/8_segmented_sun_axuroipjldepebje.jpg,Bottle opener,"Item: Bottle opener
+Best container: 3
+Reasoning: A bottle opener is a small tool that is commonly stored in a kitchen drawer for easy access."
+images/kitchen/8_segmented_sun_axuroipjldepebje.jpg,Cutting board,"Item: Cutting board
+Best container: 1
+Reasoning: Cutting boards are typically stored in cabinets for easy access, especially when they are located near both the sink for washing and the refrigerator for accessing ingredients."
+images/kitchen/8_segmented_sun_axuroipjldepebje.jpg,Mug,"Item: Mug
+Best container: 1
+Reasoning: Mugs are typically stored in cabinets rather than drawers for easy access and to prevent damage. Container 1 is a cabinet door located conveniently near both the sink and the refrigerator."
+images/kitchen/8_segmented_sun_axuroipjldepebje.jpg,Pan,"Item: Pan
+Best container: 1
+Reasoning: Pans are typically stored in cabinets below the countertop for easy access and because they typically do not fit in drawers. The location next to the refrigerator and sink also suggests a convenient place for cookware."
+images/kitchen/8_segmented_sun_adwiyvylmsqaomcb.jpg,Cooking oil,"Item: Cooking oil
+Best container: 3
+Reasoning: Cooking oil is typically stored in a cabinet above the countertop for easy access while cooking. This location also keeps it away from heat and moisture which can degrade its quality. Container id 3 is located above the countertop and near the refrigerator, making it a convenient place to store cooking oil."
+images/kitchen/8_segmented_sun_adwiyvylmsqaomcb.jpg,Dish towels,"Item: Dish towels
+Best container: 7
+Reasoning: Dish towels are typically stored in a drawer for easy access, especially near the sink or dishwasher. This makes Container 7 the most suitable."
+images/kitchen/8_segmented_sun_adwiyvylmsqaomcb.jpg,Plate,"Item: Plate
+Best container: 4
+Reasoning: Plates are usually stored in a cabinet above the countertop for easy access. Among the available options, container 4 is the most suitable as it doesn't have any specific location that might interfere with its accessibility or usage."
+images/kitchen/8_segmented_sun_adwiyvylmsqaomcb.jpg,Spices,"Item: Spices
+Best container: 3
+Reasoning: Spices are typically kept in a cabinet above the countertop for easy access while cooking. The location of container 3 at the top-left of the refrigerator makes it the most likely place for spice storage."
+images/kitchen/10_segmented_sun_avfsqwoiantddppx.jpg,Bowl,"Item: Bowl
+Best container: 1
+Reasoning: Bowls are typically stored in cabinets for easy access and to keep them clean and safe. The bottom-left of the refrigerator is a convenient location for storing such frequently used items."
+images/kitchen/10_segmented_sun_avfsqwoiantddppx.jpg,Mug,"Item: Mug
+Best container: 1
+Reasoning: Mugs are usually stored in cabinets for easy access and to protect from breakage. The location next to the refrigerator is also convenient for use."
+images/kitchen/10_segmented_sun_avfsqwoiantddppx.jpg,Pan,"Item: Pan
+Best container: 3
+Reasoning: Pans are typically stored in cabinets near the oven for easy access while cooking."
+images/kitchen/10_segmented_sun_avfsqwoiantddppx.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 2
+Reasoning: Tupperware containers are commonly stored in cabinets for easy accessibility and organization. Container 2 is a ""cabinet door"" at the countertop level, which makes it a suitable choice. Other containers might have obstructions due to their proximity to other appliances."
+images/kitchen/15_segmented_sun_apnxsgbjjdleuhdu.jpg,Cooking oil,"Item: Cooking oil
+Best container: 2
+Reasoning: Cooking oil is usually stored near the stove for easy access while cooking. The drawer below the countertop and to the right of the stove (container id 2) would be the most suitable."
+images/kitchen/15_segmented_sun_apnxsgbjjdleuhdu.jpg,Dish towels,"Item: Dish towels
+Best container: 2
+Reasoning: Dish towels are often stored in a drawer near the cooking area, for quick access when cooking or cleaning. In this case, container 2 is a drawer located to the right of the stove, making it the most suitable choice."
+images/kitchen/15_segmented_sun_apnxsgbjjdleuhdu.jpg,Plate,"Item: Plate
+Best container: 1
+Reasoning: Plates are usually stored in a cabinet above the countertop for easy access."
+images/kitchen/15_segmented_sun_apnxsgbjjdleuhdu.jpg,Spices,"Item: Spices
+Best container: 2
+Reasoning: Spices are often stored near the stove for easy access while cooking. A drawer below the countertop to the right of the stove would be a convenient location."
+images/kitchen/7_segmented_sun_aufggmchclraycgm.jpg,Bottle opener,"Item: Bottle opener
+Best container: 4
+Reasoning: Bottle openers are small and are usually kept in a drawer for easy access and to avoid getting lost."
+images/kitchen/7_segmented_sun_aufggmchclraycgm.jpg,Cutting board,"Item: Cutting board
+Best container: 1
+Reasoning: Cutting boards are typically stored in lower cabinets for easy access and to avoid lifting heavy items from above."
+images/kitchen/7_segmented_sun_aufggmchclraycgm.jpg,Mug,"Item: Mug
+Best container: 2
+Reasoning: Mugs are typically stored in cabinets above the countertop for easy access when making drinks."
+images/kitchen/7_segmented_sun_aufggmchclraycgm.jpg,Pan,"Item: Pan
+Best container: 1
+Reasoning: Pans are typically stored in cabinets below the countertop for easy access and to save space on the countertop."
+images/kitchen/9_segmented_sun_aawzwijpmowksmpn.jpg,Bottle opener,"Item: Bottle opener
+Best container: 9
+Reasoning: Bottle openers are small tools that are typically stored in a drawer for easy access and to prevent them from getting lost."
+images/kitchen/9_segmented_sun_aawzwijpmowksmpn.jpg,Cutting board,"Item: Cutting board
+Best container: 2
+Reasoning: Cutting boards are usually stored in cabinets below the countertop for easy access while preparing food."
+images/kitchen/9_segmented_sun_aawzwijpmowksmpn.jpg,Mug,"Item: Mug
+Best container: 1
+Reasoning: Mugs are usually stored in a cabinet above the countertop for easy access and to save space on the countertop."
+images/kitchen/9_segmented_sun_aawzwijpmowksmpn.jpg,Pan,"Item: Pan
+Best container: 5
+Reasoning: Pans are typically stored in lower cabinets for easy access. Being located next to the oven and dishwasher, this location is convenient for cooking and cleaning."
+images/kitchen/11_segmented_sun_axdfhsszzzqksxnx.jpg,Bowl,"Item: Bowl
+Best container: 4
+Reasoning: Bowls are usually stored in a cabinet above the countertop for easy accessibility. Container 4 is also located above the dishwasher, which makes it convenient for unloading clean dishes."
+images/kitchen/11_segmented_sun_axdfhsszzzqksxnx.jpg,Cutting knife,"Item: Cutting knife
+Best container: 10
+Reasoning: Knives are typically stored in drawers for safety and easy access."
+images/kitchen/11_segmented_sun_axdfhsszzzqksxnx.jpg,Mug,"Item: Mug
+Best container: 4
+Reasoning: Mugs are typically stored in cabinets above the countertop for easy access. Container 4 is not only above the countertop but also located above the dishwasher, making it a convenient spot to store mugs after washing."
+images/kitchen/11_segmented_sun_axdfhsszzzqksxnx.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 1
+Reasoning: Tupperware containers are commonly stored in a cabinet below the countertop for easy access."
+images/kitchen/10_segmented_sun_afjofbpiualrfwlz.jpg,Bottle opener,"Item: Bottle opener
+Best container: 3
+Reasoning: Bottle openers are small utensils that are typically stored in a drawer for easy access. This drawer is also conveniently located near the dishwasher."
+images/kitchen/10_segmented_sun_afjofbpiualrfwlz.jpg,Cutting board,"Item: Cutting board
+Best container: 3
+Reasoning: Cutting boards are typically stored in drawers for easy access and to keep them clean. The drawer below the countertop and at the top-left of the dishwasher is a suitable location."
+images/kitchen/10_segmented_sun_afjofbpiualrfwlz.jpg,Pan,"Item: Pan
+Best container: 10
+Reasoning: Pans are typically stored in cabinets below the countertop for easy access while cooking."
+images/kitchen/10_segmented_sun_afjofbpiualrfwlz.jpg,Spoon,"Item: Spoon
+Best container: 3
+Reasoning: Spoons are typically stored in drawers for easy access and organization. Container id 3 is a drawer below the countertop which is a standard location for cutlery like spoons."
+images/kitchen/5_segmented_sun_adkmgnqaiypcnhqy.jpg,Bowl,"Item: Bowl
+Best container: 1
+Reasoning: Bowls are typically stored in a cabinet above the countertop for easy access when preparing food or drink. This one is conveniently located close to the coffee machine."
+images/kitchen/5_segmented_sun_adkmgnqaiypcnhqy.jpg,Cutting knife,"Item: Cutting knife
+Best container: 4
+Reasoning: A cutting knife is best stored in a drawer for safety and easy access. Among the options, container 4 is a drawer and is conveniently located below the countertop, making it the most suitable choice."
+images/kitchen/5_segmented_sun_adkmgnqaiypcnhqy.jpg,Plate,"Item: Plate
+Best container: 1
+Reasoning: Plates are typically stored in cabinets above the countertop for easy access. The container 1 is in such a location and additionally, it's close to the coffee machine, which suggests it's in a frequently used part of the kitchen."
+images/kitchen/5_segmented_sun_adkmgnqaiypcnhqy.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 1
+Reasoning: Tupperware containers are usually stored in cabinets above the countertop for easy access. The cabinet above the coffee machine (id 1) would be a suitable place as it might be used frequently for food storage."
+images/kitchen/12_segmented_sun_anfzulzazofakfhm.jpg,Bottle opener,"Item: Bottle opener
+Best container: 7
+Reasoning: Bottle openers are typically stored in drawers for easy access and organization. This drawer is conveniently located near the oven and dish drying rack."
+images/kitchen/12_segmented_sun_anfzulzazofakfhm.jpg,Cutting board,"Item: Cutting board
+Best container: 1
+Reasoning: Cutting boards are often stored in lower cabinets for easy access while preparing food. The location of this cabinet, below the countertop and close to both the coffee machine and dishwasher, suggests a central location in the kitchen which would be convenient for a cutting board."
+images/kitchen/12_segmented_sun_anfzulzazofakfhm.jpg,Pan,"Item: Pan
+Best container: 1
+Reasoning: Pans are usually stored in cabinets below the countertop for easy access and to save space. Container 1 is in such a location and seems to be in a convenient location near both the coffee machine and dishwasher."
+images/kitchen/12_segmented_sun_anfzulzazofakfhm.jpg,Spoon,"Item: Spoon
+Best container: 7
+Reasoning: Spoons are typically stored in drawers below the countertop for easy access when cooking or preparing food."
+images/kitchen/14_segmented_sun_amcseadaqamjvkpr.jpg,Bowl,"Item: Bowl
+Best container: 2
+Reasoning: Bowls are typically stored in upper cabinets for easy access when needed. Container 2 is a cabinet door above the countertop, making it a suitable choice."
+images/kitchen/14_segmented_sun_amcseadaqamjvkpr.jpg,Cutting knife,"Item: Cutting knife
+Best container: 1
+Reasoning: Knives are typically stored in drawers below the countertop for safety and accessibility. Container id 1 fits this description."
+images/kitchen/14_segmented_sun_amcseadaqamjvkpr.jpg,Mug,"Item: Mug
+Best container: 2
+Reasoning: Mugs are typically stored in upper cabinets for easy access when making coffee or tea. The location of container 2, to the left of the stove and top-left of the sink, makes it a convenient option."
+images/kitchen/14_segmented_sun_amcseadaqamjvkpr.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 1
+Reasoning: Tupperware containers are usually stored in drawers for easy access and to keep them organized. Container id 1, being a drawer below the countertop, is the ideal storage."
+images/kitchen/19_segmented_sun_alyqyulcvigwjdyc.jpg,Bowl,"Item: Bowl
+Best container: 3
+Reasoning: Bowls are typically stored in cabinets above the countertop for easy access and to save space in lower cabinets for larger items."
+images/kitchen/19_segmented_sun_alyqyulcvigwjdyc.jpg,Cutting knife,"Item: Cutting knife
+Best container: 8
+Reasoning: Knives are typically stored in drawers for safety and easy access."
+images/kitchen/19_segmented_sun_alyqyulcvigwjdyc.jpg,Plate,"Item: Plate
+Best container: 3
+Reasoning: Plates are typically stored in a cabinet door above the countertop for easy access and to prevent damage."
+images/kitchen/19_segmented_sun_alyqyulcvigwjdyc.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 1
+Reasoning: Tupperware containers are generally stored in a cabinet below the countertop for easy access. The one to the left of the dishwasher would be a good choice because it's away from heat sources and water."
+images/kitchen/13_segmented_sun_asymyduxvrjpcvzg.jpg,Bowl,"Item: Bowl
+Best container: 2
+Reasoning: Bowls are typically stored in cabinets above the countertop for easy access when needed."
+images/kitchen/13_segmented_sun_asymyduxvrjpcvzg.jpg,Cutting knife,"Item: Cutting knife
+Best container: 6  
+Reasoning: Knives are typically stored in a drawer for safety and accessibility. The position of the drawer above the countertop makes it easy to reach when needed."
+images/kitchen/13_segmented_sun_asymyduxvrjpcvzg.jpg,Mug,"Item: Mug
+Best container: 2
+Reasoning: Mugs are typically stored in a cabinet door above the countertop for easy access and to avoid damage."
+images/kitchen/13_segmented_sun_asymyduxvrjpcvzg.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 1
+Reasoning: Tupperware containers are typically stored in lower cabinets for easy access and to prevent them from falling when the cabinet door is opened."
+images/kitchen/5_segmented_sun_aunbvudubwlyozvt.jpg,Bowl,"Item: Bowl
+Best container: 2
+Reasoning: Bowls are typically stored in cabinets above the countertop for easy access and organization."
+images/kitchen/5_segmented_sun_aunbvudubwlyozvt.jpg,Cutting knife,"Item: Cutting knife
+Best container: None
+Reasoning: None of these containers are suitable for a cutting knife. Knives should be stored in a drawer for safety, but none of these options are drawers."
+images/kitchen/5_segmented_sun_aunbvudubwlyozvt.jpg,Mug,"Item: Mug
+Best container: 2
+Reasoning: Mugs are usually stored in cabinets above the countertop for easy reach and to prevent breakage."
+images/kitchen/5_segmented_sun_aunbvudubwlyozvt.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 1
+Reasoning: Tupperware containers are often stored in lower cabinets for easy access. The location next to the dishwasher and microwave suggests that this area is used for food storage and preparation, making it a suitable place for Tupperware containers."
+images/kitchen/13_segmented_sun_arerafgvufvljolx.jpg,Cutting board,"Item: Cutting board
+Best container: 1
+Reasoning: Cutting boards are commonly stored in cabinets below the countertop for easy access while preparing food."
+images/kitchen/13_segmented_sun_arerafgvufvljolx.jpg,Pot,"Item: Pot
+Best container: 1
+Reasoning: Pots are typically stored in cabinets below the countertop for easy access and to save space."
+images/kitchen/13_segmented_sun_arerafgvufvljolx.jpg,Spoon,"Item: Spoon
+Best container: 5
+Reasoning: Spoons are commonly stored in drawers below the countertop for easy access and organization."
+images/kitchen/11_segmented_sun_apdjgezcekdmxeow.jpg,Cutting knife,"Item: Cutting knife
+Best container: 10
+Reasoning: Cutting knives are typically stored in drawers for safety and easy accessibility, making the location of the drawer less significant."
+images/kitchen/11_segmented_sun_apdjgezcekdmxeow.jpg,Plate,"Item: Plate
+Best container: 1
+Reasoning: Plates are typically stored in a cabinet above the countertop for easy access while preparing and serving food."
+images/kitchen/11_segmented_sun_apdjgezcekdmxeow.jpg,Spices,"Item: Spices
+Best container: 1
+Reasoning: Spices are often stored in a cabinet above the countertop for easy access while cooking."
+images/kitchen/11_segmented_sun_apdjgezcekdmxeow.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 2
+Reasoning: Tupperware containers are often stored in a cabinet below the countertop for easy access. Container 2, being located at the top-left of the refrigerator, provides a convenient location for storing these containers."
+images/kitchen/4_segmented_sun_abqsxcyxnovlihxy.jpg,Bottle opener,"Item: Bottle opener
+Best container: 3
+Reasoning: Bottle openers are usually small and can be stored easily in a drawer for quick access."
+images/kitchen/4_segmented_sun_abqsxcyxnovlihxy.jpg,Cutting board,"Item: Cutting board
+Best container: 3
+Reasoning: A drawer above the countertop is the most suitable for storing cutting boards as they can be flatly stored and easily accessed while preparing food."
+images/kitchen/4_segmented_sun_abqsxcyxnovlihxy.jpg,Pan,"Item: Pan
+Best container: None
+Reasoning: Pans are typically stored in cabinets or drawers below the countertop for easy access and to prevent the risk of dropping them. None of the listed containers are suitable."
+images/kitchen/4_segmented_sun_abqsxcyxnovlihxy.jpg,Spoon,"Item: Spoon
+Best container: 3
+Reasoning: Spoons are typically stored in a drawer for easy accessibility and organization."
+images/kitchen/5_segmented_sun_aqtnebfegavdqvzg.jpg,Bottle opener,"Item: Bottle opener
+Best container: 2
+Reasoning: Bottle openers are typically small items that are best kept in a drawer for easy access and to prevent them from getting lost among larger items in a cabinet."
+images/kitchen/5_segmented_sun_aqtnebfegavdqvzg.jpg,Cutting board,"Item: Cutting board
+Best container: 1
+Reasoning: Cutting boards are typically stored in a cabinet near the area where food prep occurs, and being near the refrigerator suggests a convenient location for food prep."
+images/kitchen/5_segmented_sun_aqtnebfegavdqvzg.jpg,Pot,"Item: Pot
+Best container: 1
+Reasoning: Pots are typically stored in cabinets below the countertop for easy access. The additional detail that this container is located at the bottom-right of the refrigerator suggests that it might be a larger space suitable for storing pots."
+images/kitchen/5_segmented_sun_aqtnebfegavdqvzg.jpg,Spoon,"Item: Spoon
+Best container: 2
+Reasoning: Spoons are typically stored in drawers for easy access and organization."
+images/kitchen/15_segmented_sun_amstpwyljnixuvqh.jpg,Cooking oil,"Item: Cooking oil
+Best container: 1
+Reasoning: Cooking oil is commonly stored in a cabinet near the oven for easy access while cooking. Therefore, a ""cabinet door"" below the countertop and located to the left of the oven is the most suitable."
+images/kitchen/15_segmented_sun_amstpwyljnixuvqh.jpg,Dish towels,"Item: Dish towels
+Best container: 7
+Reasoning: Dish towels are usually stored in a drawer for easy access, especially when it's close to the dishwasher, as in the case with container 7."
+images/kitchen/15_segmented_sun_amstpwyljnixuvqh.jpg,Pot,"Item: Pot
+Best container: 1
+Reasoning: Pots are typically stored in lower cabinets for easy access, especially near the oven for cooking convenience. Therefore, the cabinet below the countertop, next to the oven, is the most suitable."
+images/kitchen/15_segmented_sun_amstpwyljnixuvqh.jpg,Spoon,"Item: Spoon
+Best container: 7
+Reasoning: Spoons are usually stored in a drawer for easy accessibility and organization. This drawer is conveniently located below the countertop, making it easy to reach while cooking or setting the table."
+images/kitchen/5_segmented_sun_axwfwkibvzamixmp.jpg,Cutting knife,"Item: Cutting knife
+Best container: None
+Reasoning: None of the containers described are suitable for storing a cutting knife. It is generally safer to store knives in a drawer or a knife block, not in a cabinet."
+images/kitchen/5_segmented_sun_axwfwkibvzamixmp.jpg,Plate,"Item: Plate
+Best container: 1
+Reasoning: Plates are typically stored in a cabinet above the countertop for easy accessibility while preparing and serving meals. Any of the containers above the countertop could work, but without additional distinguishing features, we can just choose the first one."
+images/kitchen/5_segmented_sun_axwfwkibvzamixmp.jpg,Spices,"Item: Spices
+Best container: 1
+Reasoning: Spices are often stored in a cabinet above the countertop for easy access while cooking. Any of the cabinets above the countertop would work, but without further details, we can choose the first one."
+images/kitchen/5_segmented_sun_axwfwkibvzamixmp.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 1
+Reasoning: Tupperware containers are typically stored in a cabinet above the countertop for easy access. Any of the cabinets above the countertop would work, but I selected the first one for convenience."
+images/kitchen/12_segmented_sun_agdxrnaqlzlannbk.jpg,Bottle opener,"Item: Bottle opener
+Best container: 7
+Reasoning: Bottle openers are typically stored in kitchen drawers for ease of access and to keep them out of sight when not in use. The location of this drawer, below the microwave and to the right of the oven, makes it a convenient spot."
+images/kitchen/12_segmented_sun_agdxrnaqlzlannbk.jpg,Bowl,"Item: Bowl
+Best container: 3
+Reasoning: Bowls are usually stored in cabinets above the countertop for easy access."
+images/kitchen/12_segmented_sun_agdxrnaqlzlannbk.jpg,Mug,"Item: Mug
+Best container: 3
+Reasoning: Mugs are typically stored in a cabinet above the countertop for easy access."
+images/kitchen/12_segmented_sun_agdxrnaqlzlannbk.jpg,Pan,"Item: Pan
+Best container: 1
+Reasoning: Pans are commonly stored in lower cabinets for easy access, especially near the oven or stove. Container id 1 is below the countertop and near the stove, making it a suitable location."
+images/kitchen/12_segmented_sun_acyvmyzypyuwnann.jpg,Cooking oil,"Item: Cooking oil
+Best container: 1
+Reasoning: Cooking oil is typically stored in a cabinet above the countertop for easy access while cooking. Any of the ""cabinet door"" above the countertop would work, but we can choose the first one listed."
+images/kitchen/12_segmented_sun_acyvmyzypyuwnann.jpg,Dish towels,"Item: Dish towels
+Best container: 7
+Reasoning: Dish towels are typically stored in drawers below the countertop for easy access while cleaning or drying dishes."
+images/kitchen/12_segmented_sun_acyvmyzypyuwnann.jpg,Plate,"Item: Plate
+Best container: 1
+Reasoning: Plates are typically stored in a cabinet above the countertop for easy access and safe storage."
+images/kitchen/12_segmented_sun_acyvmyzypyuwnann.jpg,Spices,"Item: Spices
+Best container: 1
+Reasoning: Spices are typically stored in cabinets above the countertop for easy access while cooking. Any of the cabinet above the countertop could be suitable, but container 1 was selected arbitrarily as the description does not provide any distinctive feature to choose one over the other."
+images/kitchen/6_segmented_sun_akjjfxpidxgkthco.jpg,Cooking oil,"Item: Cooking oil
+Best container: 3
+Reasoning: Cooking oil is typically stored in a cabinet above the countertop for easy access while cooking."
+images/kitchen/6_segmented_sun_akjjfxpidxgkthco.jpg,Cutting board,"Item: Cutting board
+Best container: 1
+Reasoning: Cutting boards can be quite heavy and large, so it's safer and more convenient to store them in a lower cabinet, particularly one near the microwave for ease of access during food preparation."
+images/kitchen/6_segmented_sun_akjjfxpidxgkthco.jpg,Pot,"Item: Pot
+Best container: 1  
+Reasoning: Pots are typically stored in lower cabinets for easy access and heavy lifting. The location of container 1 is ideal as it is close to the microwave, making it convenient when cooking."
+images/kitchen/6_segmented_sun_akjjfxpidxgkthco.jpg,Spoon,"Item: Spoon
+Best container: None
+Reasoning: Typically, spoons are stored in drawers for easy access and organization, not in a cabinet. None of the available containers are suitable in this case."
+images/kitchen/10_segmented_sun_aaslbwtcdcwjukuo.jpg,Cutting board,"Item: Cutting board
+Best container: 1
+Reasoning: Cutting boards are often stored in cabinets below the countertop for easy access while preparing food. Container 1 is not only below the countertop but also near the refrigerator and dish drying rack, making it an ideal location for a cutting board."
+images/kitchen/10_segmented_sun_aaslbwtcdcwjukuo.jpg,Pot,"Item: Pot
+Best container: 1
+Reasoning: Pots are usually stored in lower cabinets for easy access and because they can be quite heavy. The location below the countertop and near the refrigerator and drying rack is convenient for cooking and cleaning."
+images/kitchen/10_segmented_sun_aaslbwtcdcwjukuo.jpg,Spoon,"Item: Spoon
+Best container: 10
+Reasoning: Spoons are usually stored in drawers below the countertop for easy accessibility. The location near the oven also makes it convenient for cooking."
+images/kitchen/15_segmented_sun_anleedlurkiswrjv.jpg,Bottle opener,"Item: Bottle opener
+Best container: 14
+Reasoning: Bottle openers are typically stored in drawers for easy access and organization."
+images/kitchen/15_segmented_sun_anleedlurkiswrjv.jpg,Cutting board,"Item: Cutting board
+Best container: 6
+Reasoning: Cutting boards are typically stored in cabinets below the countertop for easy access and to keep the countertop clutter-free. The location below the microwave is also close to the cooking area, which is convenient."
+images/kitchen/15_segmented_sun_anleedlurkiswrjv.jpg,Pan,"Item: Pan
+Best container: 6
+Reasoning: Pans are typically stored in cabinets below the countertop for easy access while cooking. The location below the microwave can be convenient for quick transfers."
+images/kitchen/15_segmented_sun_anleedlurkiswrjv.jpg,Spoon,"Item: Spoon
+Best container: 15
+Reasoning: Spoons are usually stored in a kitchen drawer for easy access and organization."
+images/kitchen/6_segmented_sun_althuptvuaxvjman.jpg,Cooking oil,"Item: Cooking oil
+Best container: 1
+Reasoning: Cooking oil is typically stored in a cabinet above the countertop for easy access while cooking. The cabinet located at the top-left of the refrigerator would be a good place as it is near the cooking area."
+images/kitchen/6_segmented_sun_althuptvuaxvjman.jpg,Dish towels,"Item: Dish towels
+Best container: 5
+Reasoning: Dish towels are usually stored in a drawer for easy accessibility, especially near cooking areas such as the stove. Container 5 is a drawer below the countertop and located near the stove, which makes it the most suitable option."
+images/kitchen/6_segmented_sun_althuptvuaxvjman.jpg,Pot,"Item: Pot
+Best container: 6
+Reasoning: Pots are typically stored in lower cabinets or drawers for easy access and because of their size and weight. The drawer below the countertop (container 6), which is conveniently located near the stove and sink, would be the best choice."
+images/kitchen/6_segmented_sun_althuptvuaxvjman.jpg,Spoon,"Item: Spoon
+Best container: 5  
+Reasoning: Spoons are usually stored in drawers below the countertop for easy access while cooking or preparing food."
+images/kitchen/12_segmented_sun_afphfxkabyerpwkz.jpg,Bottle opener,"Item: Bottle opener
+Best container: 3
+Reasoning: Bottle openers are typically small and best kept in drawers for easy access and to avoid cluttering the countertop."
+images/kitchen/12_segmented_sun_afphfxkabyerpwkz.jpg,Cutting board,"Item: Cutting board
+Best container: 1
+Reasoning: Cabinets below the countertop are usually spacious enough to accommodate a cutting board."
+images/kitchen/12_segmented_sun_afphfxkabyerpwkz.jpg,Pot,"Item: Pot
+Best container: 1
+Reasoning: Pots are usually stored in a cabinet below the countertop due to their size and for easy accessibility."
+images/kitchen/12_segmented_sun_afphfxkabyerpwkz.jpg,Spoon,"Item: Spoon
+Best container: 3
+Reasoning: Spoons are typically stored in drawers for easy access and organization."
+images/kitchen/26_segmented_sun_apslowdohuttdlkk.jpg,Cooking oil,"Item: Cooking oil
+Best container: 1  
+Reasoning: Cooking oil is often stored in a cabinet above the countertop for easy access while cooking."
+images/kitchen/26_segmented_sun_apslowdohuttdlkk.jpg,Dish towels,"Item: Dish towels
+Best container: 12
+Reasoning: Dish towels are typically stored in drawers for easy access and to keep them tidy. The drawer below the countertop (container id 12) provides a suitable location."
+images/kitchen/26_segmented_sun_apslowdohuttdlkk.jpg,Pot,"Item: Pot
+Best container: 3
+Reasoning: Pots are typically stored in lower cabinets for easy access and because they are often too large for drawers or upper cabinets."
+images/kitchen/26_segmented_sun_apslowdohuttdlkk.jpg,Spices,"Item: Spices
+Best container: 1
+Reasoning: Spices are often stored in a cabinet above the countertop for easy access while cooking."
+images/kitchen/8_segmented_sun_abnipsthatveonrh.jpg,Cutting knife,"Item: Cutting knife
+Best container: 7
+Reasoning: Knives are typically stored in drawers below the countertop for easy access and safety."
+images/kitchen/8_segmented_sun_abnipsthatveonrh.jpg,Plate,"Item: Plate
+Best container: 1
+Reasoning: Plates are typically stored in cabinets above the countertop for easy accessibility. Any of the cabinet doors above the countertop could work, but without additional information, any one can be chosen."
+images/kitchen/8_segmented_sun_abnipsthatveonrh.jpg,Spices,"Item: Spices
+Best container: 3
+Reasoning: Spices are usually stored in a cool, dry place. The cabinet above the countertop, and at the top-left of the refrigerator, is an ideal location because it's away from heat and moisture sources like the stove and sink."
+images/kitchen/8_segmented_sun_abnipsthatveonrh.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 3
+Reasoning: Tupperware is typically stored in higher cabinets, and being near the refrigerator might be convenient for storing leftover food."
+images/kitchen/20_segmented_sun_aasmevtpkslccptd.jpg,Bowl,"Item: Bowl
+Best container: 1  
+Reasoning: Bowls are typically stored in a cabinet above the countertop for easy access. The location above the oven is convenient as it is typically close to the cooking area."
+images/kitchen/20_segmented_sun_aasmevtpkslccptd.jpg,Cutting knife,"Item: Cutting knife
+Best container: 14
+Reasoning: Knives are typically stored in drawers for safety and easy accessibility."
+images/kitchen/20_segmented_sun_aasmevtpkslccptd.jpg,Plate,"Item: Plate
+Best container: 1
+Reasoning: Plates are commonly stored in cabinet doors above the countertop for easy access, and the location of this cabinet, above the oven, is often designated for dishes and plates."
+images/kitchen/20_segmented_sun_aasmevtpkslccptd.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 1
+Reasoning: Tupperware containers are commonly stored in cabinets above the countertop for easy access. Cabinet id 1, located above the oven, is the best choice as it is easily accessible and away from heat sources like the stove."
+images/kitchen/16_segmented_sun_abwmjfnrmqjdltxn.jpg,Cutting knife,"Item: Cutting knife
+Best container: 4
+Reasoning: Cutting knives are typically stored in drawers for safety and easy access. Container 4 is a drawer and it's above the countertop which makes it easily accessible."
+images/kitchen/16_segmented_sun_abwmjfnrmqjdltxn.jpg,Dish towels,"Item: Dish towels
+Best container: 4
+Reasoning: Drawers above the countertop are commonly used for storing dish towels as they are easily accessible during cooking or cleaning activities."
+images/kitchen/16_segmented_sun_abwmjfnrmqjdltxn.jpg,Plate,"Item: Plate
+Best container: 9
+Reasoning: Plates are usually stored in cabinets above the countertop for easy access and to avoid accidental breakage. This cabinet is also located near the coffee machine, which makes it convenient for setting up for meals."
+images/kitchen/16_segmented_sun_abwmjfnrmqjdltxn.jpg,Spices,"Item: Spices
+Best container: 2
+Reasoning: Spices are typically stored near the stove for easy access while cooking. Container 2 is the closest to the stove."
+images/kitchen/4_segmented_sun_aitjzvdsvqtarrmr.jpg,Bottle opener,"Item: Bottle opener
+Best container: 2
+Reasoning: Bottle openers are typically small and are commonly stored in kitchen drawers for easy access."
+images/kitchen/4_segmented_sun_aitjzvdsvqtarrmr.jpg,Bowl,"Item: Bowl
+Best container: 1  
+Reasoning: Bowls are often stored in cabinets below the countertop for easy access. The bottom-left location near the oven makes it convenient for cooking or reheating food."
+images/kitchen/4_segmented_sun_aitjzvdsvqtarrmr.jpg,Mug,"Item: Mug
+Best container: 4
+Reasoning: Mugs are commonly stored in cabinets near the kettle for convenience while making tea or coffee. Therefore, the cabinet to the right of the stove and at the bottom-right of the electronic kettle would be the most suitable."
+images/kitchen/4_segmented_sun_aitjzvdsvqtarrmr.jpg,Pan,"Item: Pan
+Best container: 1
+Reasoning: A pan is typically stored in a cabinet near the oven for easy access while cooking."
+images/kitchen/5_segmented_sun_ajpanclprxjlugfr.jpg,Cooking oil,"Item: Cooking oil
+Best container: 3  
+Reasoning: Cooking oil is usually stored near the cooking area for easy access. The cabinet below the countertop and to the right of the oven would be most convenient."
+images/kitchen/5_segmented_sun_ajpanclprxjlugfr.jpg,Dish towels,"Item: Dish towels
+Best container: 1 
+Reasoning: Dish towels are usually stored in a cabinet below the countertop for easy access while washing dishes or cleaning the kitchen."
+images/kitchen/5_segmented_sun_ajpanclprxjlugfr.jpg,Plate,"Item: Plate
+Best container: 2
+Reasoning: Plates are typically stored in a cabinet above the countertop for easy access when setting the table or serving food."
+images/kitchen/5_segmented_sun_ajpanclprxjlugfr.jpg,Spices,"Item: Spices
+Best container: 2
+Reasoning: Spices are commonly stored in a cabinet above the countertop for easy access while cooking."
+images/kitchen/6_segmented_sun_arddicicgsnredyc.jpg,Cutting knife,"Item: Cutting knife
+Best container: 5
+Reasoning: Cutting knives are usually stored in a drawer below the countertop for easy accessibility and safety."
+images/kitchen/6_segmented_sun_arddicicgsnredyc.jpg,Plate,"Item: Plate
+Best container: 1
+Reasoning: Plates are usually stored in a cabinet above the countertop for easy accessibility when setting the table or serving food. Any of the cabinet doors above the countertop would work; the specific choice depends on other considerations not specified here."
+images/kitchen/6_segmented_sun_arddicicgsnredyc.jpg,Spices,"Item: Spices
+Best container: 1  
+Reasoning: Spices are typically stored in a cabinet above the countertop for easy access when cooking. Since all the given cabinet options are the same, any of them can be selected."
+images/kitchen/6_segmented_sun_arddicicgsnredyc.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 1
+Reasoning: Tupperware containers are typically stored in a cabinet. Any of the available cabinet doors above the countertop would be suitable. Container id 1 is selected arbitrarily as all the cabinet options provided are similar."
+images/kitchen/5_segmented_sun_avaaxiemmqbibywj.jpg,Bottle opener,"Item: Bottle opener
+Best container: 1  
+Reasoning: Bottle openers are small and typically stored in a kitchen drawer for easy accessibility."
+images/kitchen/5_segmented_sun_avaaxiemmqbibywj.jpg,Cutting board,"Item: Cutting board
+Best container: 3
+Reasoning: Cutting boards are typically stored in cabinets for easy access and because they can be quite large, which might not fit in a drawer."
+images/kitchen/5_segmented_sun_avaaxiemmqbibywj.jpg,Mug,"Item: Mug
+Best container: 3  
+Reasoning: Mugs are typically stored in cabinets for easy access and to keep them from breaking."
+images/kitchen/5_segmented_sun_avaaxiemmqbibywj.jpg,Pan,"Item: Pan
+Best container: 3
+Reasoning: Pans are usually stored in cabinets below the countertop for easy access and to save space."
+images/kitchen/17_segmented_sun_ahqykyyouxkgmdnq.jpg,Cutting knife,"Item: Cutting knife
+Best container: 16
+Reasoning: Knives are generally stored in drawers below the countertop for safety and accessibility. The location near the oven also allows for easy access while cooking."
+images/kitchen/17_segmented_sun_ahqykyyouxkgmdnq.jpg,Plate,"Item: Plate
+Best container: 1
+Reasoning: Plates are typically stored in a cabinet above the countertop for easy access when serving food."
+images/kitchen/17_segmented_sun_ahqykyyouxkgmdnq.jpg,Spices,"Item: Spices
+Best container: 1
+Reasoning: Spices are typically stored in a cabinet above the countertop for easy access when cooking."
+images/kitchen/17_segmented_sun_ahqykyyouxkgmdnq.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 2
+Reasoning: Tupperware containers are typically stored in a cabinet below the countertop for easy access and to save space in upper cabinets for other items. This location next to the oven may also be convenient for storing leftovers."
+images/kitchen/4_segmented_sun_afnyuyhhwgifatsk.jpg,Cooking oil,"Item: Cooking oil
+Best container: 1
+Reasoning: Cooking oil is typically stored in a cabinet near the cooking area for easy access while cooking. A cabinet door below the countertop is suitable for this."
+images/kitchen/4_segmented_sun_afnyuyhhwgifatsk.jpg,Dish towels,"Item: Dish towels
+Best container: 3
+Reasoning: Dish towels are typically stored in a drawer for easy access when needed."
+images/kitchen/4_segmented_sun_afnyuyhhwgifatsk.jpg,Pot,"Item: Pot
+Best container: 1
+Reasoning: Pots are usually stored in cabinets below the countertop for easy access and to save space."
+images/kitchen/4_segmented_sun_afnyuyhhwgifatsk.jpg,Spices,"Item: Spices
+Best container: 1
+Reasoning: Spices are typically stored in a cabinet for easy access while cooking and to keep them away from heat and light which could degrade their quality."
+images/kitchen/8_segmented_sun_ahhrhzkyvzaqeark.jpg,Bowl,"Item: Bowl
+Best container: 1
+Reasoning: Bowls are typically stored in cabinets near the countertop for easy access. Without specific information about the contents or size of the other cabinets, Container id 1 is the most suitable as it is a cabinet near the countertop."
+images/kitchen/8_segmented_sun_ahhrhzkyvzaqeark.jpg,Cutting knife,"Item: Cutting knife
+Best container: 8
+Reasoning: Knives are typically stored in drawers for safety and accessibility. The location of the drawer, below the coffee machine and left of the oven, is also convenient for cooking prep."
+images/kitchen/8_segmented_sun_ahhrhzkyvzaqeark.jpg,Mug,"Item: Mug
+Best container: 3
+Reasoning: Mugs are typically stored in cabinets. The cabinet that is closest to the coffee machine (Container id 3) would be the most convenient place to store a mug for easy access when making coffee."
+images/kitchen/8_segmented_sun_ahhrhzkyvzaqeark.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 1
+Reasoning: Tupperware containers are typically stored in cabinets, and the specific location doesn't matter much as long as they are easily accessible. Since the container descriptions do not provide detailed information about the interior space, we can choose the first one as the most suitable."
+images/kitchen/5_segmented_sun_avtqpxlipvlcrsge.jpg,Bowl,"Item: Bowl
+Best container: 1
+Reasoning: Bowls are typically stored in cabinets for easy access and to prevent them from potential damage which could occur if kept in a drawer."
+images/kitchen/5_segmented_sun_avtqpxlipvlcrsge.jpg,Cutting knife,"Item: Cutting knife
+Best container: 2
+Reasoning: Knives are typically stored in drawers for safety and easy reach. The drawer located at the bottom-right of the stove is the most convenient for grabbing a knife while cooking."
+images/kitchen/5_segmented_sun_avtqpxlipvlcrsge.jpg,Mug,"Item: Mug
+Best container: 1
+Reasoning: Mugs are typically stored in cabinets above the countertop for easy access, but container 1 is the closest alternative as mugs might not fit well or be easily accessible in drawers."
+images/kitchen/5_segmented_sun_avtqpxlipvlcrsge.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 1
+Reasoning: Tupperware containers are usually stored in cabinets below the countertop as they can be bulky and cabinets provide more space."
+images/kitchen/5_segmented_sun_adglbgauiayicwkm.jpg,Cooking oil,"Item: Cooking oil
+Best container: 3
+Reasoning: Cooking oil is typically stored in a cabinet above the countertop for easy accessibility while cooking."
+images/kitchen/5_segmented_sun_adglbgauiayicwkm.jpg,Dish towels,"Item: Dish towels
+Best container: 1
+Reasoning: Dish towels are typically stored in a drawer below the countertop for easy access while washing dishes."
+images/kitchen/5_segmented_sun_adglbgauiayicwkm.jpg,Plate,"Item: Plate
+Best container: 3
+Reasoning: Plates are typically stored in a cabinet above the countertop for easy access."
+images/kitchen/5_segmented_sun_adglbgauiayicwkm.jpg,Spices,"Item: Spices
+Best container: 3
+Reasoning: Spices are usually kept in a cabinet above the countertop for easy access while cooking."
+images/kitchen/25_segmented_sun_aaxxjlsuzvqlgylf.jpg,Bowl,"Item: Bowl
+Best container: 1
+Reasoning: Bowls are typically stored in an upper cabinet for easy access and to keep them clean and dry. All the containers are similar, so container id 1 was selected arbitrarily."
+images/kitchen/25_segmented_sun_aaxxjlsuzvqlgylf.jpg,Cutting knife,"Item: Cutting knife
+Best container: 10
+Reasoning: Knives are typically stored in drawers under the countertop for safety and easy access."
+images/kitchen/25_segmented_sun_aaxxjlsuzvqlgylf.jpg,Plate,"Item: Plate
+Best container: 1
+Reasoning: Plates are commonly stored in a cabinet door above the countertop for easy access while preparing and serving food."
+images/kitchen/25_segmented_sun_aaxxjlsuzvqlgylf.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 10
+Reasoning: Tupperware containers are most conveniently stored in drawers for easy access and organization. A drawer below the countertop, like container 10, is a suitable choice."
+images/kitchen/34_segmented_sun_axpesxgsnxrsdqtr.jpg,Bottle opener,"Item: Bottle opener
+Best container: 4
+Reasoning: Bottle openers are typically small items that are best stored in a drawer for easy access. Container 4, being a drawer located conveniently below the countertop and near the coffee machine and oven, seems to be the most appropriate storage for a bottle opener."
+images/kitchen/34_segmented_sun_axpesxgsnxrsdqtr.jpg,Cutting board,"Item: Cutting board
+Best container: 1
+Reasoning: Cutting boards are typically stored in cabinets below the countertop for easy access while preparing food. The specific location under the coffee machine and next to the dishwasher does not hinder its storage."
+images/kitchen/34_segmented_sun_axpesxgsnxrsdqtr.jpg,Mug,"Item: Mug
+Best container: 8
+Reasoning: Mugs are usually stored in a cabinet above the countertop for easy access, and this one is conveniently located above the coffee machine."
+images/kitchen/34_segmented_sun_axpesxgsnxrsdqtr.jpg,Pan,"Item: Pan
+Best container: 3
+Reasoning: Pans are typically stored in a cabinet below the countertop for easy access while cooking, and since this container is located to the left of the stove, it would be an ideal location."
+images/kitchen/22_segmented_sun_aofyuejouqtbyooo.jpg,Bowl,"Item: Bowl
+Best container: 1
+Reasoning: Bowls are typically stored in cabinet doors above the countertop for easy access and to save space in the kitchen. Any cabinet door above the countertop can be used, so container 1 is chosen as it was listed first."
+images/kitchen/22_segmented_sun_aofyuejouqtbyooo.jpg,Cutting knife,"Item: Cutting knife
+Best container: 11
+Reasoning: Cutting knives are typically stored in drawers for safety and easy access. Among the available drawer options, a drawer below the countertop (like container 11) is often preferred."
+images/kitchen/22_segmented_sun_aofyuejouqtbyooo.jpg,Plate,"Item: Plate
+Best container: 1
+Reasoning: Plates are typically stored in a cabinet above the countertop for easy access when setting the table or serving food."
+images/kitchen/22_segmented_sun_aofyuejouqtbyooo.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 11
+Reasoning: Tupperware containers are typically stored in drawers for easy access and organization."
+images/kitchen/5_segmented_sun_ajkrefpvgtunjiyi.jpg,Bottle opener,"Item: Bottle opener
+Best container: 2
+Reasoning: Bottle openers are usually small and can get lost in a cabinet. They're typically stored in drawers for easy accessibility and to prevent them from getting misplaced."
+images/kitchen/5_segmented_sun_ajkrefpvgtunjiyi.jpg,Cutting board,"Item: Cutting board
+Best container: 1
+Reasoning: Cutting boards are commonly stored in cabinets near the sink for easy access when washing and preparing food."
+images/kitchen/5_segmented_sun_ajkrefpvgtunjiyi.jpg,Pan,"Item: Pan
+Best container: 1
+Reasoning: Pans are usually stored in cabinets below the countertop for easy access. The location of this cabinet (bottom-left of the sink) is typical for storing pans and pots."
+images/kitchen/5_segmented_sun_ajkrefpvgtunjiyi.jpg,Spoon,"Item: Spoon
+Best container: 2
+Reasoning: Spoons are usually stored in a kitchen drawer for easy access and organization."
+images/kitchen/24_segmented_sun_aczchqarcsdhjfsg.jpg,Cooking oil,"Item: Cooking oil
+Best container: 1
+Reasoning: Cooking oil is commonly kept in a cabinet near the stove for easy access while cooking. Thus, the cabinet below the countertop and below the stove would be the most convenient."
+images/kitchen/24_segmented_sun_aczchqarcsdhjfsg.jpg,Dish towels,"Item: Dish towels
+Best container: 13
+Reasoning: Dish towels are usually stored in a drawer for easy access when needed, and being near the stove makes it convenient for cooking needs."
+images/kitchen/24_segmented_sun_aczchqarcsdhjfsg.jpg,Pot,"Item: Pot
+Best container: 1
+Reasoning: Pots are typically stored in a cabinet below the countertop for easy access, and being located below the stove makes it even more convenient when cooking."
+images/kitchen/24_segmented_sun_aczchqarcsdhjfsg.jpg,Spoon,"Item: Spoon
+Best container: 6
+Reasoning: Spoons are typically stored in drawers below the countertop for easy access when cooking or preparing food."
+images/kitchen/12_segmented_sun_ajuqshhjcubjzedh.jpg,Bottle opener,"Item: Bottle opener
+Best container: 4  
+Reasoning: Bottle openers are typically small and are most conveniently stored in a drawer for easy access."
+images/kitchen/12_segmented_sun_ajuqshhjcubjzedh.jpg,Cutting board,"Item: Cutting board
+Best container: 1
+Reasoning: Cutting boards are typically stored in a cabinet near the oven for ease of access while cooking. Container 1, located below the countertop and near the oven and microwave toaster, would be the most suitable."
+images/kitchen/12_segmented_sun_ajuqshhjcubjzedh.jpg,Pan,"Item: Pan
+Best container: 1
+Reasoning: Pans are typically stored in cabinets below the countertop for easy accessibility. Container 1, being next to the oven, makes it the most convenient option for storing a pan."
+images/kitchen/12_segmented_sun_ajuqshhjcubjzedh.jpg,Spoon,"Item: Spoon
+Best container: 4
+Reasoning: Spoons are typically stored in drawers for easy access and organization."
+images/kitchen/19_segmented_sun_anrbnligfknyblpd.jpg,Bottle opener,"Item: Bottle opener
+Best container: 1
+Reasoning: Bottle openers are small and commonly used items that are typically stored in a drawer for easy access. The drawer below the countertop and located at the bottom-left of the coffee machine would be a convenient location."
+images/kitchen/19_segmented_sun_anrbnligfknyblpd.jpg,Cutting board,"Item: Cutting board
+Best container: 2
+Reasoning: Cutting boards are typically stored in drawers below the countertop for easy access and to keep them clean. The specific location in the kitchen isn't as important as the type of storage, which is why container id 2 is chosen over other drawer options."
+images/kitchen/19_segmented_sun_anrbnligfknyblpd.jpg,Mug,"Item: Mug
+Best container: 5
+Reasoning: Mugs are often stored in cabinet doors above the countertop for ease of access and to prevent breakage. This container is also conveniently located at the top-right of the coffee machine, making it an ideal place for mug storage."
+images/kitchen/19_segmented_sun_anrbnligfknyblpd.jpg,Pan,"Item: Pan
+Best container: 1
+Reasoning: Pans are usually stored in drawers below the countertop for easy access and organization. Container 1 is a drawer below the countertop and its location, bottom-left of the coffee machine, seems convenient."
+images/kitchen/9_segmented_sun_awspbtmcoxakihbx.jpg,Bottle opener,"Item: Bottle opener
+Best container: 9
+Reasoning: Bottle openers are typically stored in drawers for easy access and to keep the kitchen countertop or cabinet uncluttered."
+images/kitchen/9_segmented_sun_awspbtmcoxakihbx.jpg,Cutting board,"Item: Cutting board
+Best container: 1
+Reasoning: Cutting boards are commonly stored in a cabinet below the countertop for easy access while preparing food. The location next to the stove is also convenient for transferring chopped ingredients to the cooking pan."
+images/kitchen/9_segmented_sun_awspbtmcoxakihbx.jpg,Pan,"Item: Pan
+Best container: 1
+Reasoning: Pans are typically stored in cabinets below the countertop for easy access when cooking. The location next to the stove makes it even more convenient."
+images/kitchen/9_segmented_sun_awspbtmcoxakihbx.jpg,Spoon,"Item: Spoon
+Best container: 9
+Reasoning: A spoon is typically stored in a drawer for easy accessibility. The drawer above the countertop is most suitable for this."
+images/kitchen/22_segmented_sun_afkwbtipaeipuaer.jpg,Bottle opener,"Item: Bottle opener
+Best container: 12
+Reasoning: Bottle openers are small and commonly used tools, so they are usually stored in a drawer for easy access and organization."
+images/kitchen/22_segmented_sun_afkwbtipaeipuaer.jpg,Cutting board,"Item: Cutting board
+Best container: 13
+Reasoning: Cutting boards are commonly stored in lower cabinets for easy access, especially near the oven or cooking range. Cabinet 13 is below the countertop and to the right of the oven, which makes it a suitable place for a cutting board."
+images/kitchen/22_segmented_sun_afkwbtipaeipuaer.jpg,Mug,"Item: Mug
+Best container: 1
+Reasoning: Mugs are typically stored in cabinets above the countertop for easy accessibility. All options are similar so the first one is chosen."
+images/kitchen/22_segmented_sun_afkwbtipaeipuaer.jpg,Pan,"Item: Pan
+Best container: 13
+Reasoning: Pans are commonly stored in cabinets below the countertop, particularly near the oven for easy accessibility when cooking."
+images/kitchen/7_segmented_sun_auatsxdwxjotzqjr.jpg,Cooking oil,"Item: Cooking oil
+Best container: 3
+Reasoning: Cooking oil is typically stored in a cabinet above the countertop and near the stove for easy accessibility while cooking. Container 3 is the closest to these specifications, being located to the left of the microwave, and at the top-right of the sink."
+images/kitchen/7_segmented_sun_auatsxdwxjotzqjr.jpg,Dish towels,"Item: Dish towels
+Best container: 3
+Reasoning: Dish towels are generally stored close to the sink for easy access after washing dishes. Therefore, the cabinet that is located to the left of the microwave and at the top-right of the sink is the most suitable."
+images/kitchen/7_segmented_sun_auatsxdwxjotzqjr.jpg,Pot,"Item: Pot
+Best container: 5
+Reasoning: Pots are typically stored in cabinets below the countertop for easy access and to save space on the countertop. It is also close to the stove which is convenient for cooking."
+images/kitchen/7_segmented_sun_auatsxdwxjotzqjr.jpg,Spices,"Item: Spices
+Best container: 3  
+Reasoning: Spices are usually stored in a cabinet above the countertop for easy access while cooking. The location to the left of the microwave and top-right of the sink makes it convenient to reach while cooking."
+images/kitchen/18_segmented_sun_auhdmjbjkxwrixim.jpg,Bowl,"Item: Bowl
+Best container: 1
+Reasoning: Bowls are typically stored in an upper cabinet for easy accessibility and to avoid damage."
+images/kitchen/18_segmented_sun_auhdmjbjkxwrixim.jpg,Cutting knife,"Item: Cutting knife
+Best container: 4  
+Reasoning: Cutting knives are typically stored in drawers below the countertop for safety and easy access while cooking. The location of this drawer, top-right of the sink, is convenient for washing and using the knife."
+images/kitchen/18_segmented_sun_auhdmjbjkxwrixim.jpg,Mug,"Item: Mug
+Best container: 1
+Reasoning: Mugs are typically stored in cabinets above the countertop for easy access and to avoid risk of breakage."
+images/kitchen/18_segmented_sun_auhdmjbjkxwrixim.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 2
+Reasoning: Tupperware containers are best stored in a cabinet below the countertop for easy access. Container 2 is conveniently located near both the sink and the stove, which is practical for food storage and preparation."
+images/kitchen/33_segmented_sun_awbppqusbpubsfeq.jpg,Bowl,"Item: Bowl
+Best container: 1
+Reasoning: Bowls are typically stored in a cabinet above the countertop for easy access. The extra details about the location do not significantly influence the suitability of the container."
+images/kitchen/33_segmented_sun_awbppqusbpubsfeq.jpg,Cutting knife,"Item: Cutting knife
+Best container: 33
+Reasoning: Knives are typically stored in drawers below the countertop for safety and accessibility. Container 33 is a drawer located below the countertop which makes it suitable for storing a cutting knife."
+images/kitchen/33_segmented_sun_awbppqusbpubsfeq.jpg,Plate,"Item: Plate
+Best container: 1
+Reasoning: Plates are typically stored in cabinets above the countertop for easy accessibility. This cabinet is also located above the microwave, a common area for plate storage."
+images/kitchen/33_segmented_sun_awbppqusbpubsfeq.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 10
+Reasoning: Tupperware containers are typically stored in cabinets below the countertop for easy access. This cabinet is also conveniently located near the dishwasher and the refrigerator, where leftovers might be stored or cleaned."
+images/kitchen/17_segmented_sun_aiolecljpamcnixg.jpg,Cooking oil,"Item: Cooking oil
+Best container: 3
+Reasoning: Cooking oil is typically stored in cabinets above the countertop for easy access while cooking."
+images/kitchen/17_segmented_sun_aiolecljpamcnixg.jpg,Dish towels,"Item: Dish towels
+Best container: 1
+Reasoning: Dish towels are typically stored in a drawer near the sink for easy access when washing dishes."
+images/kitchen/17_segmented_sun_aiolecljpamcnixg.jpg,Plate,"Item: Plate
+Best container: 3  
+Reasoning: Plates are usually stored in cabinets above the countertop for easy access when setting the table."
+images/kitchen/17_segmented_sun_aiolecljpamcnixg.jpg,Spices,"Item: Spices
+Best container: 3
+Reasoning: Spices are best stored in a cabinet door above the countertop for easy access while cooking."
+images/kitchen/19_segmented_sun_ahljzhgcdpomplvg.jpg,Bowl,"Item: Bowl
+Best container: 1
+Reasoning: Bowls are typically stored in cabinets above the countertop for easy access. Any of the described cabinets would be suitable, but without further distinguishing features, the first one is chosen."
+images/kitchen/19_segmented_sun_ahljzhgcdpomplvg.jpg,Cutting knife,"Item: Cutting knife
+Best container: 16
+Reasoning: Knives are typically stored in drawers below the countertop for safety and accessibility."
+images/kitchen/19_segmented_sun_ahljzhgcdpomplvg.jpg,Mug,"Item: Mug
+Best container: 1
+Reasoning: Mugs are typically stored in a cabinet above the countertop for easy accessibility when making coffee or tea. Since all the cabinets above the countertop are mostly the same, container 1 is chosen arbitrarily."
+images/kitchen/19_segmented_sun_ahljzhgcdpomplvg.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 9
+Reasoning: Tupperware containers are usually stored in cabinets below the countertop for easy access. They're typically not heavy, so a lower location is suitable and convenient."
+images/kitchen/4_segmented_sun_aohalqjxiodeyhwm.jpg,Bottle opener,"Item: Bottle opener
+Best container: 2
+Reasoning: The container at the top-left of the refrigerator would be convenient for storing a bottle opener, as it's typically used with bottled beverages that are stored in the refrigerator."
+images/kitchen/4_segmented_sun_aohalqjxiodeyhwm.jpg,Bowl,"Item: Bowl
+Best container: 1
+Reasoning: Bowls are typically stored in cabinets above the countertop for easy access. All containers are suitable but container 1 is chosen as there is no additional specification that makes others more convenient."
+images/kitchen/4_segmented_sun_aohalqjxiodeyhwm.jpg,Mug,"Item: Mug
+Best container: 1
+Reasoning: Mugs are typically stored in cabinets above the countertop for easy access. Any of the containers listed could work, but without any distinguishing features, the first one listed is as good a choice as any."
+images/kitchen/4_segmented_sun_aohalqjxiodeyhwm.jpg,Pan,"Item: Pan
+Best container: None
+Reasoning: Pans are typically stored in cabinets below the countertop for easy access. None of these options are suitable for storing a pan."
+images/kitchen/9_segmented_sun_abdzsryntppucwqi.jpg,Cutting knife,"Item: Cutting knife
+Best container: 1
+Reasoning: Knives are typically stored in drawers for easy access and safety reasons. The drawer below the countertop is an ideal place for this item."
+images/kitchen/9_segmented_sun_abdzsryntppucwqi.jpg,Dish towels,"Item: Dish towels
+Best container: 1
+Reasoning: Dish towels are commonly stored in drawers for easy access, making the drawer below the countertop the ideal storage location."
+images/kitchen/9_segmented_sun_abdzsryntppucwqi.jpg,Plate,"Item: Plate
+Best container: 3
+Reasoning: Plates are typically stored in cabinets above the countertop for easy access and to avoid breakages."
+images/kitchen/9_segmented_sun_abdzsryntppucwqi.jpg,Spices,"Item: Spices
+Best container: 4
+Reasoning: Spices are typically kept in a cabinet above the countertop for easy access while cooking. The fact this one is specifically located above the coffee machine further makes it a suitable choice as spices are sometimes used in coffee making."
+images/kitchen/17_segmented_sun_agorklincwxrdtga.jpg,Cooking oil,"Item: Cooking oil
+Best container: 3
+Reasoning: Cooking oil is usually stored in a cabinet near the stove for easy access while cooking. Container 3 is described as being located at the bottom-right of the stove which makes it the most suitable for storing cooking oil."
+images/kitchen/17_segmented_sun_agorklincwxrdtga.jpg,Dish towels,"Item: Dish towels
+Best container: 2
+Reasoning: Dish towels are typically stored in kitchen drawers for easy access and tidiness."
+images/kitchen/17_segmented_sun_agorklincwxrdtga.jpg,Pot,"Item: Pot
+Best container: 3
+Reasoning: Pots are large and typically stored in a cabinet below the countertop. The third container is not only a cabinet below the countertop, but it's also conveniently located at the bottom-right of the stove, making it easily accessible while cooking."
+images/kitchen/17_segmented_sun_agorklincwxrdtga.jpg,Spices,"Item: Spices
+Best container: 3
+Reasoning: Spices are typically stored near the stove for easy access during cooking. The cabinet door below the countertop and located at the bottom-right of the stove (Container id 3) would be the most suitable."
+images/kitchen/8_segmented_sun_afkaeizmulcsokfj.jpg,Bottle opener,"Item: Bottle opener
+Best container: 8
+Reasoning: Bottle openers are small, frequently used utensils that are typically stored in a drawer for easy access. A drawer below the countertop, like Container 8, is an ideal location."
+images/kitchen/8_segmented_sun_afkaeizmulcsokfj.jpg,Bowl,"Item: Bowl
+Best container: 1
+Reasoning: Bowls are typically stored in cabinets above the countertop for easy access, and there is no specific location requirement for them in relation to other appliances."
+images/kitchen/8_segmented_sun_afkaeizmulcsokfj.jpg,Mug,"Item: Mug
+Best container: 1
+Reasoning: Mugs are often stored in a cabinet door above the countertop, making it accessible and at eye level for ease of selection in the morning. All the cabinet doors above the countertop are suitable, but without additional distinguishing features, the first one is as good a choice as any."
+images/kitchen/8_segmented_sun_afkaeizmulcsokfj.jpg,Pan,"Item: Pan
+Best container: 6
+Reasoning: Pans are typically stored in lower cabinets for easy access and due to their size and shape. The cabinet to the left of the dishwasher (id 6) would be a suitable place."
+images/kitchen/14_segmented_sun_adswmdfkombffqhi.jpg,Bottle opener,"Item: Bottle opener
+Best container: 14
+Reasoning: Bottle openers are small, often-used items in the kitchen. They are typically stored in a drawer that's easily accessible, like the one above the countertop and near the stove for quick access while cooking."
+images/kitchen/14_segmented_sun_adswmdfkombffqhi.jpg,Cutting board,"Item: Cutting board
+Best container: 2
+Reasoning: Cutting boards are usually stored in cabinets below the countertop for easy access when preparing food. The location of this cabinet, being near the sink, makes it convenient for washing the cutting board before and after use."
+images/kitchen/14_segmented_sun_adswmdfkombffqhi.jpg,Mug,"Item: Mug
+Best container: 1  
+Reasoning: Mugs are usually stored in an easily accessible place, such as a cabinet above the countertop."
+images/kitchen/14_segmented_sun_adswmdfkombffqhi.jpg,Pan,"Item: Pan
+Best container: 3
+Reasoning: Pans are typically stored in cabinets below the countertop for easy access, and being close to the stove makes it even more convenient when cooking."
+images/kitchen/6_segmented_sun_aoqkmjxwlivgbkhq.jpg,Bowl,"Item: Bowl
+Best container: 1
+Reasoning: Bowls are commonly stored in a cabinet above the countertop for easy reach and accessibility."
+images/kitchen/6_segmented_sun_aoqkmjxwlivgbkhq.jpg,Cutting knife,"Item: Cutting knife
+Best container: 4
+Reasoning: Cutting knives are typically stored in drawers below the countertop for both safety and accessibility."
+images/kitchen/6_segmented_sun_aoqkmjxwlivgbkhq.jpg,Plate,"Item: Plate
+Best container: 1
+Reasoning: Plates are typically stored in upper cabinets for easy access when setting the table or serving food."
+images/kitchen/6_segmented_sun_aoqkmjxwlivgbkhq.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 1
+Reasoning: Tupperware containers are typically stored in a cabinet above the countertop for easy access."
+images/kitchen/14_segmented_sun_axlhgujigbdqvdzl.jpg,Bowl,"Item: Bowl
+Best container: 1
+Reasoning: Bowls are typically stored in cabinets above the countertop for easy accessibility."
+images/kitchen/14_segmented_sun_axlhgujigbdqvdzl.jpg,Cutting knife,"Item: Cutting knife
+Best container: 6
+Reasoning: A cutting knife is usually stored in a drawer below the countertop for easy access and safety reasons."
+images/kitchen/14_segmented_sun_axlhgujigbdqvdzl.jpg,Mug,"Item: Mug
+Best container: 1
+Reasoning: Mugs are typically stored in cabinets above the countertop for easy access."
+images/kitchen/14_segmented_sun_axlhgujigbdqvdzl.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 6
+Reasoning: Tupperware containers are typically stored in drawers for easy access and organization."
+images/kitchen/14_segmented_sun_aucefajtdpoipkjt.jpg,Cutting knife,"Item: Cutting knife
+Best container: 6
+Reasoning: Knives are typically stored in drawers below the countertop for safety and easy access."
+images/kitchen/14_segmented_sun_aucefajtdpoipkjt.jpg,Plate,"Item: Plate
+Best container: 1
+Reasoning: Plates are usually stored in cabinets above the countertop for easy access."
+images/kitchen/14_segmented_sun_aucefajtdpoipkjt.jpg,Spices,"Item: Spices
+Best container: 1
+Reasoning: Spices are usually stored in a cabinet above the countertop for easy access while cooking."
+images/kitchen/14_segmented_sun_aucefajtdpoipkjt.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 4
+Reasoning: Tupperware containers are typically stored in cabinets below the countertop for easy access and to free up space in upper cabinets for other items. The location next to the oven is not a problem, unless the oven's heat could reach the Tupperware, which is unlikely."
+images/kitchen/6_segmented_sun_atdfrsodpyskmywe.jpg,Bottle opener,"Item: Bottle opener
+Best container: 1
+Reasoning: A bottle opener is a tool that is commonly stored in a kitchen drawer for easy access. The drawer below the countertop and near the sink would be a convenient location."
+images/kitchen/6_segmented_sun_atdfrsodpyskmywe.jpg,Cutting board,"Item: Cutting board
+Best container: 1
+Reasoning: Cutting boards are usually stored in drawers or cabinets below the countertop for easy access during food preparation. Container 1, being a drawer below the countertop and near the sink, is the most suitable."
+images/kitchen/6_segmented_sun_atdfrsodpyskmywe.jpg,Mug,"Item: Mug
+Best container: 2
+Reasoning: Mugs are typically stored in cabinets above the countertop for easy access and to prevent damage."
+images/kitchen/6_segmented_sun_atdfrsodpyskmywe.jpg,Pan,"Item: Pan
+Best container: 1
+Reasoning: Pans are usually stored in drawers below the countertop for easy access when cooking. The location at the bottom-right of the sink is ideal for washing and cooking convenience."
+images/kitchen/15_segmented_sun_avtqdvhwdfzykzby.jpg,Cooking oil,"Item: Cooking oil
+Best container: 1  
+Reasoning: Cooking oil is often kept on a lower shelf for easy access and because it's heavy. The container 1, a ""cabinet door"" below the countertop and right of the dishwasher, seems to be a convenient place to store it."
+images/kitchen/15_segmented_sun_avtqdvhwdfzykzby.jpg,Dish towels,"Item: Dish towels
+Best container: 7
+Reasoning: Dish towels are usually stored in drawers for easy access, and being close to the dishwasher makes it convenient for drying hands or dishes."
+images/kitchen/15_segmented_sun_avtqdvhwdfzykzby.jpg,Plate,"Item: Plate
+Best container: 3
+Reasoning: Plates are usually stored in cabinets above the countertop for easy access. This container is also located above the coffee machine and at the top-right of the oven, which are common places for dishes to be stored."
+images/kitchen/15_segmented_sun_avtqdvhwdfzykzby.jpg,Spices,"Item: Spices
+Best container: 3
+Reasoning: Spices are commonly stored in an easily accessible location, preferably above the countertop. Container 3 is near both the coffee machine and the oven, which are areas where spices are commonly used."
+images/kitchen/21_segmented_sun_abvefvntluoxopow.jpg,Bowl,"Item: Bowl
+Best container: 2
+Reasoning: Bowls are typically stored in cabinets above the countertop for easy access and to save counter space."
+images/kitchen/21_segmented_sun_abvefvntluoxopow.jpg,Cutting knife,"Item: Cutting knife
+Best container: 11
+Reasoning: Knives are usually stored in drawers for safety and easy access. This drawer is conveniently located under the microwave and toaster, near where food preparation might take place."
+images/kitchen/21_segmented_sun_abvefvntluoxopow.jpg,Mug,"Item: Mug
+Best container: 9
+Reasoning: Mugs are typically stored in cabinets above the countertop for easy access. Since this container is also located at the top-right of the coffee machine, it would be very convenient to reach for when making coffee."
+images/kitchen/21_segmented_sun_abvefvntluoxopow.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 1
+Reasoning: Tupperware containers are typically stored in a cabinet below the countertop for easy access and to save the upper cabinets for smaller items or food storage."
+images/kitchen/5_segmented_sun_aamjqvjnuxklyagf.jpg,Bottle opener,"Item: Bottle opener
+Best container: 5
+Reasoning: Bottle openers are typically small and easily stored in a drawer for quick accessibility and organization."
+images/kitchen/5_segmented_sun_aamjqvjnuxklyagf.jpg,Cutting board,"Item: Cutting board
+Best container: 5
+Reasoning: Cutting boards are typically stored in drawers or cabinets below the countertop for easy access when preparing food. In this case, the drawer (container 5) is the most suitable."
+images/kitchen/5_segmented_sun_aamjqvjnuxklyagf.jpg,Pan,"Item: Pan
+Best container: 4
+Reasoning: Pans are typically stored in lower cabinets for easy access when cooking, and they are often too large for a drawer."
+images/kitchen/5_segmented_sun_aamjqvjnuxklyagf.jpg,Spoon,"Item: Spoon
+Best container: 5
+Reasoning: Utensils like spoons are typically stored in drawers for easy accessibility and organization."

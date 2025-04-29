@@ -14,17 +14,57 @@ client = OpenAI(
 
 # Prepare and call ChatGPT API
 def ask_chatgpt(containers, item):
-    prompt = (
-        f"As they stepped into the kitchen, they began searching for a {item.lower()}, scanning the scene for storage areas—known as containers, like drawers, cabinets, or pantry doors where household items are typically kept.\n"
-        "Based on the descriptions of the detected containers, they paused in front of one that seemed just right and reached toward...\n"
-        "\n"
-        "Finish the story by selecting the most suitable container from the list below, or say the item isn’t in any container if none of them are appropriate:\n"
-        f"{chr(10).join(f"- {desc}" for desc in containers)}"
-    )
+    system_prompt = """
+    You are a helpful assistant that determines the most likely storage container for household items in a kitchen.
+    Containers are described in natural language. Given a specific item, select the most appropriate container, or say that none are suitable.
+    
+    Format:
+    Item: [Name]
+    Best container: [just container id or "None"]
+    Reasoning: [short explanation]
+    
+    ### Example 1
+    Item: Knife  
+    Containers:
+    - Container id 1, is a "cabinet door" below the countertop.  
+    - Container id 2, is a "drawer" below the countertop.  
+    - Container id 3, is a "cabinet door" above the countertop.
+    
+    Item: Knife
+    Best container: 2  
+    Reasoning: Knives are typically stored in drawers for safety and accessibility.
+    
+    ### Example 2
+    Item: Trash Bag  
+    Containers:
+    - Container id 1, is a "cabinet door" under the sink.  
+    - Container id 2, is a "cabinet door" above the stove.
+    
+    Item: Trash Bag
+    Best container: 1  
+    Reasoning: Trash bags are commonly stored under the sink where the trash can is.
+    
+    ### Example 3  
+    Item: Winter Coat  
+    Containers:
+    - Container id 1, is a "drawer" below the countertop.  
+    - Container id 2, is a "cabinet door" below the sink.
+    
+    Item: Winter Coat
+    Best container: None  
+    Reasoning: A winter coat would not be stored in kitchen storage like drawers or cabinets.
+
+    Now do the same for the following item and containers.
+    """.strip()
+
+    user_prompt = f"Item: {item}\nContainers:\n" + "\n".join(f"- {desc}" for desc in containers)
 
     response = client.chat.completions.create(
-        model="gpt-4",  # or "gpt-4-turbo"
-        messages=[{"role": "user", "content": prompt}],
+        model="gpt-4",
+        messages=[
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt}
+        ],
         temperature=0.7
     )
     return response.choices[0].message.content

@@ -563,8 +563,8 @@ def calculate_user_accuracy(train_data_json, user_responses_json):
 
 
 if __name__ == "__main__":
-    give_score_on_data(data_json="../data/train_data/train_data.json", users_responses_json="../models/chat_gpt/chatgpt_train_short_id_pos_lab_anchors_story.json",
-                       scores_json="../models/chat_gpt/scores_chatgpt_train_short_id_pos_lab_anchors_story.json", response_type="chatgpt")
+    give_score_on_data(data_json="../data/train_data/train_data.json", users_responses_json="../models/chat_gpt/chatgpt_train_short_id_pos_lab_anchors_sys_prmpt.json",
+                       scores_json="../models/chat_gpt/scores_chatgpt_train_short_id_pos_lab_anchors_sys_prmpt.json", response_type="chatgpt")
     # give_score_on_data(data_json="../data/train_data/train_data.json", users_responses_json="../models/chat_gpt/chatgpt_baseline_parse.json",
     #                    scores_json="../models/chat_gpt/scores_chatgpt_baseline_parse.json", response_type="gpt-4o")
     # check_gemini_bbox()

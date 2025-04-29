@@ -56,7 +56,8 @@ def create_json_from_csvs(info_csv_path, response_csv_path, output_json_path, co
         response_text = row["response"]
 
         if not story_prompt:
-            items = eval(row["items"]) if isinstance(row["items"], str) else row["items"]
+            # items = eval(row["item"]) if isinstance(row["item"], str) else row["item"]
+            items = [row["item"]]
             # Split the response by items
             response_sections = response_text.split("Item:")
             response_data = {}
@@ -76,7 +77,8 @@ def create_json_from_csvs(info_csv_path, response_csv_path, output_json_path, co
                     chosen_polygon = "[]"
                     info_columns = {}
                 else:
-                    chosen_id = random.choice(container_ids)
+                    # chosen_id = random.choice(container_ids)
+                    chosen_id = container_ids[0]
                     # Find corresponding row in info_df
                     matched_row = info_df[(info_df["image_path"] == image_path) & (info_df["short_id"] == chosen_id)]
                     if not matched_row.empty:
@@ -128,7 +130,7 @@ def create_json_from_csvs(info_csv_path, response_csv_path, output_json_path, co
 if __name__ == '__main__':
     info_csv_path = "../../short_id_pos_lab_anchors_with_description.csv"
     response_csv_path = "chatgpt_results_short_id_pos_lab_anchors.csv"
-    output_json_path = "./chatgpt_train_short_id_pos_lab_anchors_story.json"
+    output_json_path = "./chatgpt_train_short_id_pos_lab_anchors_sys_prmpt.json"
     columns_in_description_1 = ["label", "above_or_below_countertop", "height_width_ratio"]
     columns_in_description_2 = ["label", "score", "above_or_below_countertop", "height_width_ratio", "neighbors", "anchor_neighbors"]
     columns_in_description_3 = ["label", "above_or_below_countertop", "height_width_ratio", "neighbors", "anchor_neighbors"]
@@ -150,5 +152,5 @@ if __name__ == '__main__':
         response_csv_path=response_csv_path,
         output_json_path=output_json_path,
         columns_in_description=columns_in_description_15,
-        story_prompt=True
+        # story_prompt=True
     )
