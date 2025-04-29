@@ -451,7 +451,6 @@ def stat_and_plot_human_random(df):
 
         visualize_item_agreement(item_agreements=item_agreements, user_id=str(user))
 
-
     # Boxplot to show the distritem_agreement_per_user[item_agreement_per_user["human_user_id"] == user]ibution of agreement scores for each user
     plt.figure(figsize=(12, 8))
     sns.boxplot(x='human_user_id', y='agreement_score', data=df)
@@ -471,6 +470,28 @@ def agreement_human_random(human_responses_json, random_responses_json):
     stat_and_plot_human_random(df=df)
 
 
+def full_human_agreement(cleaned_response_csv, agreement_pairs_csv):
+    # Load the cleaned responses
+    df = pd.read_csv(cleaned_response_csv)
+
+    # Group by image_path and chosen_item
+    grouped = df.groupby(['image_path', 'chosen_item'])
+
+    # Function to check 100% agreement among users
+    def all_users_agree(group):
+        users = set(group['user_id'])
+        # Check if all 3 users are present and all chose the same polygon
+        return len(users) == 3 and group['chosen_polygon'].nunique() == 1
+
+    # Filter groups with 100% agreement from all 3 users
+    agreed_groups = grouped.filter(all_users_agree)
+
+    # Get unique image_path–chosen_item pairs with agreement
+    agreed_pairs = agreed_groups[['image_path', 'chosen_item']].drop_duplicates()
+    agreed_pairs.to_csv(agreement_pairs_csv, index=False)
+    print(agreed_pairs)
+
+
 if __name__ == '__main__':
     # List of response files for each user
     # user_files = [
@@ -484,9 +505,11 @@ if __name__ == '__main__':
     #     'responses/user_responses_test_shabi.json'
     # ]
 
-    # user_files = ['cleaned_responses.json']
-    # responses_df = pd.read_csv("cleaned_responses.csv")
+    # user_files = ['../baselines/human/cleaned_responses.json']
+    # responses_df = pd.read_csv("../baselines/human/cleaned_responses.csv")
     # main(user_files=user_files, responses_df=responses_df)
 
-    agreement_human_random(human_responses_json='../baselines/human/cleaned_responses.json',
-                           random_responses_json="../baselines/random/random_train_responses.json")
+    # agreement_human_random(human_responses_json='../baselines/human/cleaned_responses.json',
+    #                        random_responses_json="../baselines/random/random_train_responses.json")
+
+    full_human_agreement(cleaned_response_csv='../baselines/human/cleaned_responses.csv', agreement_pairs_csv='../baselines/human/agreement_pairs.csv')
