@@ -13,22 +13,14 @@ client = OpenAI(
 )
 
 # Prepare and call ChatGPT API
-def ask_chatgpt(image_path, containers, items):
-    prompt = f"""You are a service robot in a domestic environment. You are now looking at a kitchen scene.
-
-The containers (drawers, cabinet doors etc.) detected in the image are:
-{chr(10).join(f"- {desc}" for desc in containers)}
-
-For each of the following items:
-{', '.join(items)}
-
-Please determine in which container each item is most likely to be stored. If no container is suitable, say so. Provide reasoning for each item.
-
-Format:
-Item: [Name]
-Best container: [just container id or "None"]
-Reasoning: [Your explanation]
-"""
+def ask_chatgpt(containers, item):
+    prompt = (
+        f"As they stepped into the kitchen, they began searching for a {item.lower()}, scanning the scene for storage areas—known as containers, like drawers, cabinets, or pantry doors where household items are typically kept.\n"
+        "Based on the descriptions of the detected containers, they paused in front of one that seemed just right and reached toward...\n"
+        "\n"
+        "Finish the story by selecting the most suitable container from the list below, or say the item isn’t in any container if none of them are appropriate:\n"
+        f"{chr(10).join(f"- {desc}" for desc in containers)}"
+    )
 
     response = client.chat.completions.create(
         model="gpt-4",  # or "gpt-4-turbo"
@@ -64,21 +56,20 @@ def run_queries_in_chat_gpt(csv_path, json_path, chatgpt_output):
         items = normalized_items_dict.get(image_path, [])
         if not items:
             continue  # Skip if no items mapped
-
-        print(f"Processing {image_path}...")
-
-        try:
-            result = ask_chatgpt(image_path, containers, items)
-            results.append({
-                "image_path": image_path,
-                "items": items,
-                "response": result
-            })
-        except Exception as e:
-            print(f"Error for {image_path}: {e}")
-            if "Error code: 429" in e:
-                print("break running...")
-                break
+        for item in items:
+            print(f"Processing {image_path} - {item}")
+            try:
+                result = ask_chatgpt(containers, item)
+                results.append({
+                    "image_path": image_path,
+                    "item": item,
+                    "response": result
+                })
+            except Exception as e:
+                print(f"Error for {image_path}: {e}")
+                if "Error code: 429" in e:
+                    print("break running...")
+                    break
 
     # Save results to a file
     output_df = pd.DataFrame(results)
