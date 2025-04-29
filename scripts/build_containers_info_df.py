@@ -504,60 +504,80 @@ def describe_csv_row(row):
     # except Exception as e:
     #     print(f"Error parsing anchor_neighbors: {e}")
 
-    # Handle anchor neighbors if valid
+    # Handle most_close_to_anchors safely
     try:
-        if isinstance(anchor_neighbors, str):
-            anchor_neighbors = json.loads(anchor_neighbors)
         if isinstance(most_close_to_anchors, str):
             most_close_to_anchors = ast.literal_eval(most_close_to_anchors)
-
-        if not isinstance(anchor_neighbors, dict):
-            anchor_neighbors = {}
-        if not isinstance(most_close_to_anchors, dict):
-            most_close_to_anchors = {}
-
-        used_anchors = set()
-        anchor_phrases = []
-
-        for direction, anchor in anchor_neighbors.items():
-            if anchor is not None:
-                proximity_note = ""
-                if anchor in most_close_to_anchors:
-                    rank = most_close_to_anchors[anchor]
-                    proximity_note = f" ({'closest' if rank == 1 else '2nd closest'})"
-                    used_anchors.add(anchor)
-
-                anchor_phrases.append(f"{direction_switch[direction]} the {anchor.lower()}{proximity_note}")
-
-        if anchor_phrases:
-            if len(anchor_phrases) == 1:
-                description += " Additionally, it is located " + anchor_phrases[0] + "."
-            else:
-                description += " Additionally, it is located " + ", ".join(anchor_phrases[:-1]) + ", and " + anchor_phrases[-1] + "."
-
-        # Describe additional proximity anchors not in spatial neighbors
-        extra_proximity = {
-            anchor: rank for anchor, rank in most_close_to_anchors.items()
-            if anchor not in used_anchors
-        }
-
-        if extra_proximity:
-            proximity_phrases = []
-            for anchor, rank in extra_proximity.items():
-                if rank == 1:
-                    proximity_phrases.append(f"the closest to the {anchor.lower()}")
-                elif rank == 2:
-                    proximity_phrases.append(f"the 2nd closest to the {anchor.lower()}")
-
-            if proximity_phrases:
-                if len(proximity_phrases) == 1:
-                    description += f" It is also {proximity_phrases[0]}."
-                else:
-                    description += " It is also " + ", ".join(proximity_phrases[:-1]) + ", and " + proximity_phrases[
-                        -1] + "."
-
     except Exception as e:
-        print(f"Error parsing anchor fields: {e}")
+        print(f"Error parsing most_close_to_anchors: {e}")
+        most_close_to_anchors = {}
+
+    # Add proximity info
+    if most_close_to_anchors:
+        proximity_list = [
+            f"{'the closest' if rank == 1 else 'the 2nd closest'} to the {anchor.lower()}"
+            for anchor, rank in most_close_to_anchors.items()
+        ]
+        if len(proximity_list) == 1:
+            description += f" Additionally, it is {proximity_list[0]}."
+        else:
+            description += " Additionally, it is " + ", ".join(proximity_list[:-1]) + ", and " + proximity_list[-1] + "."
+
+
+    # Handle anchor neighbors and most_close_to_anchors together if valid
+    # try:
+    #     if isinstance(anchor_neighbors, str):
+    #         anchor_neighbors = json.loads(anchor_neighbors)
+    #     if isinstance(most_close_to_anchors, str):
+    #         most_close_to_anchors = ast.literal_eval(most_close_to_anchors)
+    #
+    #     if not isinstance(anchor_neighbors, dict):
+    #         anchor_neighbors = {}
+    #     if not isinstance(most_close_to_anchors, dict):
+    #         most_close_to_anchors = {}
+    #
+    #     used_anchors = set()
+    #     anchor_phrases = []
+    #
+    #     for direction, anchor in anchor_neighbors.items():
+    #         if anchor is not None:
+    #             proximity_note = ""
+    #             if anchor in most_close_to_anchors:
+    #                 rank = most_close_to_anchors[anchor]
+    #                 proximity_note = f" ({'closest' if rank == 1 else '2nd closest'})"
+    #                 used_anchors.add(anchor)
+    #
+    #             anchor_phrases.append(f"{direction_switch[direction]} the {anchor.lower()}{proximity_note}")
+    #
+    #     if anchor_phrases:
+    #         if len(anchor_phrases) == 1:
+    #             description += " Additionally, it is located " + anchor_phrases[0] + "."
+    #         else:
+    #             description += " Additionally, it is located " + ", ".join(anchor_phrases[:-1]) + ", and " + anchor_phrases[-1] + "."
+    #
+    #     # Describe additional proximity anchors not in spatial neighbors
+    #     extra_proximity = {
+    #         anchor: rank for anchor, rank in most_close_to_anchors.items()
+    #         if anchor not in used_anchors
+    #     }
+    #
+    #     if extra_proximity:
+    #         proximity_phrases = []
+    #         for anchor, rank in extra_proximity.items():
+    #             if rank == 1:
+    #                 proximity_phrases.append(f"the closest to the {anchor.lower()}")
+    #             elif rank == 2:
+    #                 proximity_phrases.append(f"the 2nd closest to the {anchor.lower()}")
+    #
+    #         if proximity_phrases:
+    #             if len(proximity_phrases) == 1:
+    #                 description += f" It is also {proximity_phrases[0]}."
+    #             else:
+    #                 description += " It is also " + ", ".join(proximity_phrases[:-1]) + ", and " + proximity_phrases[
+    #                     -1] + "."
+    #
+    # except Exception as e:
+    #     print(f"Error parsing anchor fields: {e}")
 
     # Handle container neighbors if valid
     # try:
@@ -1463,7 +1483,7 @@ if __name__ == '__main__':
     # add_most_close_to_anchors_column(input_csv=csv_with_similar_neighbors_unclear_label, output_csv=csv_with_most_close_to_anchors)
 
     subset_df = filter_csv_by_image_subset(csv_path=csv_with_most_close_to_anchors, json_path=random_image_subset)
-    csv_id = "../short_id_pos_lab_anchors_closest_with_description.csv"
+    csv_id = "../short_id_pos_lab_closest_with_description.csv"
     add_descriptions_to_csv(csv_path=csv_with_most_close_to_anchors, output_path=csv_id, subset_df=subset_df)
 
     # create_subset_image_to_items(keep_images_json_path=random_image_subset,
