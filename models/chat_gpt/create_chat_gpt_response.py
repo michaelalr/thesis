@@ -52,7 +52,7 @@ def create_json_from_csvs(info_csv_path, response_csv_path, output_json_path, co
             else:
                 chosen_id = random.choice(container_ids)
                 # Find corresponding row in info_df
-                matched_row = info_df[(info_df["image_path"] == image_path) & (info_df["id"] == chosen_id)]
+                matched_row = info_df[(info_df["image_path"] == image_path) & (info_df["short_id"] == chosen_id)]
                 if not matched_row.empty:
                     chosen_polygon = matched_row.iloc[0]["polygon"]
                     info_columns = {
@@ -80,9 +80,9 @@ def create_json_from_csvs(info_csv_path, response_csv_path, output_json_path, co
     print(f"Saved {len(results)} entries to {output_json_path}")
 
 if __name__ == '__main__':
-    info_csv_path = "../../long_id_pos_lab_neighbors_with_description.csv"
-    response_csv_path = "chatgpt_results_long_id_pos_lab_neighbors.csv"
-    output_json_path = "./chatgpt_train_long_id_pos_lab_neighbors.json"
+    info_csv_path = "../../short_id_pos_lab_anchors_with_description.csv"
+    response_csv_path = "chatgpt_results_short_id_pos_lab_anchors.csv"
+    output_json_path = "./chatgpt_train_short_id_pos_lab_anchors.json"
     columns_in_description_1 = ["label", "above_or_below_countertop", "height_width_ratio"]
     columns_in_description_2 = ["label", "score", "above_or_below_countertop", "height_width_ratio", "neighbors", "anchor_neighbors"]
     columns_in_description_3 = ["label", "above_or_below_countertop", "height_width_ratio", "neighbors", "anchor_neighbors"]
@@ -96,10 +96,12 @@ if __name__ == '__main__':
     columns_in_description_11 = ["id", "anchor_neighbors"]
     columns_in_description_12 = ["id", "above_or_below_countertop", "label", "anchor_neighbors"]
     columns_in_description_13 = ["id", "above_or_below_countertop", "label", "neighbors"]
+    columns_in_description_14 = ["id", "above_or_below_countertop", "label", "anchor_neighbors", "neighbors"]
+    columns_in_description_15 = ["short_id", "above_or_below_countertop", "label", "anchor_neighbors"]
 
     create_json_from_csvs(
         info_csv_path=info_csv_path,
         response_csv_path=response_csv_path,
         output_json_path=output_json_path,
-        columns_in_description=columns_in_description_13
+        columns_in_description=columns_in_description_15
     )

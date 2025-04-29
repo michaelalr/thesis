@@ -563,9 +563,9 @@ def calculate_user_accuracy(train_data_json, user_responses_json):
 
 
 if __name__ == "__main__":
-    # give_score_on_data(data_json="../data/train_data/train_data.json", users_responses_json="../models/chat_gpt/chatgpt_train_long_id_pos_lab_neighbors.json",
-    #                    scores_json="../models/chat_gpt/scores_chatgpt_train_long_id_pos_lab_neighbors.json", response_type="chatgpt")
-    give_score_on_data(data_json="../data/train_data/train_data.json", users_responses_json="../models/chat_gpt/chatgpt_baseline_parse.json",
-                       scores_json="../models/chat_gpt/scores_chatgpt_baseline_parse.json", response_type="gpt-4o")
+    give_score_on_data(data_json="../data/train_data/train_data.json", users_responses_json="../models/chat_gpt/chatgpt_train_short_id_pos_lab_anchors.json",
+                       scores_json="../models/chat_gpt/scores_chatgpt_train_short_id_pos_lab_anchors.json", response_type="chatgpt")
+    # give_score_on_data(data_json="../data/train_data/train_data.json", users_responses_json="../models/chat_gpt/chatgpt_baseline_parse.json",
+    #                    scores_json="../models/chat_gpt/scores_chatgpt_baseline_parse.json", response_type="gpt-4o")
     # check_gemini_bbox()
     # calculate_user_accuracy(train_data_json="../data/train_data/train_data.json", user_responses_json="../baselines/human/cleaned_responses.json")
