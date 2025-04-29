@@ -325,6 +325,8 @@ def give_score_on_data(data_json, users_responses_json, scores_json, response_ty
             user_id = "kosmos"
         elif response_type == "chatgpt":
             user_id = "chatgpt"
+        elif response_type == "gpt-4o":
+            user_id = "gpt-4o"
         elif response_type == "gemini":
             user_id = "gemini"
         elif response_type == "dino":
@@ -386,6 +388,9 @@ def give_score_on_data(data_json, users_responses_json, scores_json, response_ty
                     user_scores[user_id] = user_scores.get(user_id, 0) + 1
             elif response_type == "dino":
                 if iou == 1:
+                    user_scores[user_id] = user_scores.get(user_id, 0) + 1
+            elif response_type == "gpt-4o":
+                if iou >= 0.5:
                     user_scores[user_id] = user_scores.get(user_id, 0) + 1
 
     # Compute percentage scores
@@ -560,7 +565,7 @@ def calculate_user_accuracy(train_data_json, user_responses_json):
 if __name__ == "__main__":
     # give_score_on_data(data_json="../data/train_data/train_data.json", users_responses_json="../models/chat_gpt/chatgpt_train_long_id_pos_lab_neighbors.json",
     #                    scores_json="../models/chat_gpt/scores_chatgpt_train_long_id_pos_lab_neighbors.json", response_type="chatgpt")
-    give_score_on_data(data_json="../data/test_data/test_data.json", users_responses_json="../models/gemini/test_data_with_gemini_bboxes_as_strings.json",
-                       scores_json="../models/gemini/scores_gemini_test_data.json", response_type="gemini")
+    give_score_on_data(data_json="../data/train_data/train_data.json", users_responses_json="../models/chat_gpt/chatgpt_baseline_parse.json",
+                       scores_json="../models/chat_gpt/scores_chatgpt_baseline_parse.json", response_type="gpt-4o")
     # check_gemini_bbox()
     # calculate_user_accuracy(train_data_json="../data/train_data/train_data.json", user_responses_json="../baselines/human/cleaned_responses.json")

@@ -1,0 +1,1852 @@
+[
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/34_segmented_sun_axpesxgsnxrsdqtr.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[200, 400], [200, 450], [300, 450], [300, 400]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/34_segmented_sun_axpesxgsnxrsdqtr.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/34_segmented_sun_axpesxgsnxrsdqtr.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/34_segmented_sun_axpesxgsnxrsdqtr.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_advwcwduhfypopki.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[185, 442], [185, 486], [264, 486], [264, 442]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_advwcwduhfypopki.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[512, 222], [512, 319], [585, 319], [585, 222]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_advwcwduhfypopki.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[667, 24], [667, 112], [805, 112], [805, 24]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_advwcwduhfypopki.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_avdeakyjwzxtynyf.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_avdeakyjwzxtynyf.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_avdeakyjwzxtynyf.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[360, 160], [360, 270], [450, 270], [450, 160]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_avdeakyjwzxtynyf.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/17_segmented_sun_agorklincwxrdtga.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[196, 416], [404, 416], [404, 574], [196, 574]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/17_segmented_sun_agorklincwxrdtga.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[380, 500], [380, 550], [450, 550], [450, 500]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/17_segmented_sun_agorklincwxrdtga.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[[239, 430], [444, 430], [444, 633], [239, 633]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/17_segmented_sun_agorklincwxrdtga.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[525, 255], [525, 355], [655, 355], [655, 255]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_afjofbpiualrfwlz.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[648, 849], [753, 849], [753, 915], [648, 915]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_afjofbpiualrfwlz.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[722, 933], [722, 1073], [790, 1073], [790, 933]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_afjofbpiualrfwlz.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_afjofbpiualrfwlz.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[355, 772], [355, 926], [496, 926], [496, 772]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_aawzwijpmowksmpn.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[379, 379], [379, 479], [479, 479], [479, 379]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_aawzwijpmowksmpn.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[640, 560], [750, 560], [750, 780], [640, 780]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_aawzwijpmowksmpn.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[498, 101], [498, 226], [617, 226], [617, 101]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_aawzwijpmowksmpn.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_avfsqwoiantddppx.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[98, 183], [170, 183], [170, 263], [98, 263]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_avfsqwoiantddppx.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[105, 145], [105, 222], [174, 222], [174, 145]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_avfsqwoiantddppx.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[98, 227], [98, 303], [177, 303], [177, 227]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_avfsqwoiantddppx.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[83, 171], [83, 282], [148, 282], [148, 171]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_awmwrrktzbyokpcr.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_awmwrrktzbyokpcr.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_awmwrrktzbyokpcr.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_awmwrrktzbyokpcr.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_aohalqjxiodeyhwm.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_aohalqjxiodeyhwm.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[147, 0], [147, 251], [344, 251], [344, 0]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_aohalqjxiodeyhwm.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[405, 57], [405, 232], [579, 232], [579, 57]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_aohalqjxiodeyhwm.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_aojmogpsfirohkai.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[277, 583], [339, 583], [339, 737], [277, 737]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_aojmogpsfirohkai.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[178, 419], [294, 419], [294, 809], [178, 809]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_aojmogpsfirohkai.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[[188, 491], [188, 612], [221, 612], [221, 491]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_aojmogpsfirohkai.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[275, 330], [355, 330], [355, 505], [275, 505]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/19_segmented_sun_anrbnligfknyblpd.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[328, 431], [328, 476], [387, 476], [387, 431]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/19_segmented_sun_anrbnligfknyblpd.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[530, 364], [530, 570], [622, 570], [622, 364]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/19_segmented_sun_anrbnligfknyblpd.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/19_segmented_sun_anrbnligfknyblpd.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[378, 515], [378, 703], [438, 703], [438, 515]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_abdzsryntppucwqi.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_abdzsryntppucwqi.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[250, 350], [250, 500], [300, 500], [300, 350]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_abdzsryntppucwqi.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[446, 66], [512, 66], [512, 168], [446, 168]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_abdzsryntppucwqi.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[345, 235], [345, 535], [395, 535], [395, 235]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/20_segmented_sun_aasmevtpkslccptd.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[632, 172], [632, 518], [741, 518], [741, 172]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/20_segmented_sun_aasmevtpkslccptd.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/20_segmented_sun_aasmevtpkslccptd.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/20_segmented_sun_aasmevtpkslccptd.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aawsixgpgwqanatu.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[189, 98], [189, 160], [242, 160], [242, 98]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aawsixgpgwqanatu.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aawsixgpgwqanatu.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[242, 99], [242, 297], [359, 297], [359, 99]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aawsixgpgwqanatu.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_avaaxiemmqbibywj.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[59, 246], [182, 246], [182, 349], [59, 349]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_avaaxiemmqbibywj.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[20, 180], [20, 280], [120, 280], [120, 180]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_avaaxiemmqbibywj.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_avaaxiemmqbibywj.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[160, 55]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_agdxrnaqlzlannbk.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[56, 232], [56, 301], [78, 301], [78, 232]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_agdxrnaqlzlannbk.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[13, 129], [329, 129], [329, 286], [13, 286]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_agdxrnaqlzlannbk.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[184, 30], [184, 110], [264, 110], [264, 30]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_agdxrnaqlzlannbk.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[114, 203], [163, 203], [163, 257], [114, 257]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_ayzwrfmejwnjncpp.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[15, 250], [15, 400], [220, 400], [220, 250]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_ayzwrfmejwnjncpp.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_ayzwrfmejwnjncpp.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[446, 51], [646, 51], [646, 228], [446, 228]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_ayzwrfmejwnjncpp.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[275, 220], [275, 340], [475, 340], [475, 220]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_aopqdojqibxivqgu.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[113, 488], [320, 488], [320, 756], [113, 756]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_aopqdojqibxivqgu.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[328, 601], [328, 778], [527, 778], [527, 601]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_aopqdojqibxivqgu.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[[4, 344], [4, 691], [223, 691], [223, 344]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_aopqdojqibxivqgu.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[270, 515], [435, 515], [435, 695], [270, 695]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_aglwoufpxbtxqecp.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[280, 330], [280, 400], [360, 400], [360, 330]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_aglwoufpxbtxqecp.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[180, 340], [180, 520], [300, 520], [300, 340]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_aglwoufpxbtxqecp.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[497, 118], [497, 300], [573, 300], [573, 118]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_aglwoufpxbtxqecp.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_axuroipjldepebje.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_axuroipjldepebje.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_axuroipjldepebje.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_axuroipjldepebje.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/7_segmented_sun_aufggmchclraycgm.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/7_segmented_sun_aufggmchclraycgm.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/7_segmented_sun_aufggmchclraycgm.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[550, 180], [550, 380], [720, 380], [720, 180]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/7_segmented_sun_aufggmchclraycgm.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[26, 325], [26, 621], [214, 621], [214, 325]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_afphfxkabyerpwkz.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[556, 537], [556, 665], [689, 665], [689, 537]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_afphfxkabyerpwkz.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[507, 370], [507, 460], [597, 460], [597, 370]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_afphfxkabyerpwkz.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[[345, 432], [345, 604], [457, 604], [457, 432]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_afphfxkabyerpwkz.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[643, 470], [643, 540], [720, 540], [720, 470]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/17_segmented_sun_ahqykyyouxkgmdnq.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[805, 737], [805, 784], [936, 784], [936, 737]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/17_segmented_sun_ahqykyyouxkgmdnq.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[403, 170], [403, 358], [502, 358], [502, 170]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/17_segmented_sun_ahqykyyouxkgmdnq.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[558, 187], [558, 269], [605, 269], [605, 187]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/17_segmented_sun_ahqykyyouxkgmdnq.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[418, 286], [418, 498], [662, 498], [662, 286]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_afstlyyibsjscpbm.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[292, 283], [435, 283], [435, 442], [292, 442]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_afstlyyibsjscpbm.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[184, 178], [184, 255], [255, 255], [255, 178]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_afstlyyibsjscpbm.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_afstlyyibsjscpbm.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[102, 20], [102, 106], [186, 106], [186, 20]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_aitjzvdsvqtarrmr.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[655, 566], [771, 566], [771, 678], [655, 678]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_aitjzvdsvqtarrmr.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_aitjzvdsvqtarrmr.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_aitjzvdsvqtarrmr.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[484, 427], [632, 427], [632, 670], [484, 670]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_akgdlzofsznnznzs.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_akgdlzofsznnznzs.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_akgdlzofsznnznzs.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_akgdlzofsznnznzs.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/33_segmented_sun_awbppqusbpubsfeq.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[433, 245], [433, 406], [470, 406], [470, 245]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/33_segmented_sun_awbppqusbpubsfeq.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/33_segmented_sun_awbppqusbpubsfeq.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[521, 64], [521, 177], [587, 177], [587, 64]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/33_segmented_sun_awbppqusbpubsfeq.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[12, 387], [12, 525], [129, 525], [129, 387]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_ajkrefpvgtunjiyi.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[34, 479], [320, 479], [320, 771], [34, 771]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_ajkrefpvgtunjiyi.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[282, 395], [282, 661], [448, 661], [448, 395]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_ajkrefpvgtunjiyi.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[301, 426], [301, 623], [511, 623], [511, 426]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_ajkrefpvgtunjiyi.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[23, 503], [203, 503], [203, 639], [23, 639]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_axwfwkibvzamixmp.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[27, 105], [27, 207], [92, 207], [92, 105]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_axwfwkibvzamixmp.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_axwfwkibvzamixmp.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[90, 110], [90, 150], [130, 150], [130, 110]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_axwfwkibvzamixmp.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[60, 85], [60, 135], [110, 135], [110, 85]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_adwiyvylmsqaomcb.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_adwiyvylmsqaomcb.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_adwiyvylmsqaomcb.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[120, 140], [120, 260], [240, 260], [240, 140]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_adwiyvylmsqaomcb.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_akjjfxpidxgkthco.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_akjjfxpidxgkthco.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_akjjfxpidxgkthco.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_akjjfxpidxgkthco.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_arddicicgsnredyc.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_arddicicgsnredyc.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_arddicicgsnredyc.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_arddicicgsnredyc.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_adkmgnqaiypcnhqy.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_adkmgnqaiypcnhqy.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_adkmgnqaiypcnhqy.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_adkmgnqaiypcnhqy.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_atdfrsodpyskmywe.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[452, 541], [452, 659], [572, 659], [572, 541]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_atdfrsodpyskmywe.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[425, 683], [591, 683], [591, 765], [425, 765]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_atdfrsodpyskmywe.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[411, 80], [411, 302], [487, 302], [487, 80]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_atdfrsodpyskmywe.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[461, 433], [753, 433], [753, 538], [461, 538]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_afwaivvfezladsbj.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[377, 213], [377, 361], [482, 361], [482, 213]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_afwaivvfezladsbj.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[370, 370], [370, 525], [490, 525], [490, 370]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_afwaivvfezladsbj.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_afwaivvfezladsbj.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_afkaeizmulcsokfj.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[23, 233], [102, 233], [102, 340], [23, 340]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_afkaeizmulcsokfj.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[10, 10], [10, 160], [140, 160], [140, 10]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_afkaeizmulcsokfj.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[115, 10], [115, 110], [215, 110], [215, 10]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_afkaeizmulcsokfj.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_axlhgujigbdqvdzl.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_axlhgujigbdqvdzl.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_axlhgujigbdqvdzl.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_axlhgujigbdqvdzl.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/13_segmented_sun_aehkkaenyyjnewst.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[622, 290], [622, 638], [733, 638], [733, 290]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/13_segmented_sun_aehkkaenyyjnewst.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[245, 280], [245, 320], [340, 320], [340, 280]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/13_segmented_sun_aehkkaenyyjnewst.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/13_segmented_sun_aehkkaenyyjnewst.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[414, 374], [414, 635], [514, 635], [514, 374]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/22_segmented_sun_afkwbtipaeipuaer.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/22_segmented_sun_afkwbtipaeipuaer.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[67, 85], [67, 151], [134, 151], [134, 85]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/22_segmented_sun_afkwbtipaeipuaer.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/22_segmented_sun_afkwbtipaeipuaer.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[19, 76], [157, 76], [157, 280], [19, 280]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_acyvmyzypyuwnann.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[365, 276], [515, 276], [515, 476], [365, 476]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_acyvmyzypyuwnann.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[435, 330], [435, 379], [565, 379], [565, 330]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_acyvmyzypyuwnann.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_acyvmyzypyuwnann.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/13_segmented_sun_asymyduxvrjpcvzg.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[100, 400], [300, 400], [300, 600], [100, 600]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/13_segmented_sun_asymyduxvrjpcvzg.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[830, 370], [905, 370], [905, 495], [830, 495]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/13_segmented_sun_asymyduxvrjpcvzg.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[781, 1053], [919, 1053], [919, 1238], [781, 1238]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/13_segmented_sun_asymyduxvrjpcvzg.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[624, 478], [710, 478], [710, 640], [624, 640]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_amvpxkryxaldzmdv.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[74, 156], [155, 156], [155, 255], [74, 255]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_amvpxkryxaldzmdv.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_amvpxkryxaldzmdv.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[31, 90], [117, 90], [117, 211], [31, 211]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_amvpxkryxaldzmdv.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[26, 129], [63, 129], [63, 184], [26, 184]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_alqlmxgzxpeuaciw.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_alqlmxgzxpeuaciw.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_alqlmxgzxpeuaciw.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_alqlmxgzxpeuaciw.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_adswmdfkombffqhi.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_adswmdfkombffqhi.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[400, 550], [400, 700], [600, 700], [600, 550]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_adswmdfkombffqhi.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[435, 304], [435, 583], [491, 583], [491, 304]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_adswmdfkombffqhi.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/19_segmented_sun_alyqyulcvigwjdyc.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[13, 113], [103, 113], [103, 237], [13, 237]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/19_segmented_sun_alyqyulcvigwjdyc.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/19_segmented_sun_alyqyulcvigwjdyc.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[113, 34], [113, 115], [168, 115], [168, 34]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/19_segmented_sun_alyqyulcvigwjdyc.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_amstpwyljnixuvqh.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[161, 212], [161, 278], [219, 278], [219, 212]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_amstpwyljnixuvqh.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[105, 157], [105, 201], [148, 201], [148, 157]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_amstpwyljnixuvqh.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[[328, 318], [328, 525], [435, 525], [435, 318]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_amstpwyljnixuvqh.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[30, 180], [30, 230], [80, 230], [80, 180]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_andzglcqubvbzfhz.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[285, 187], [285, 367], [335, 367], [335, 187]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_andzglcqubvbzfhz.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[280, 370], [340, 370], [340, 410], [280, 410]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_andzglcqubvbzfhz.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_andzglcqubvbzfhz.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[329, 193], [329, 346], [382, 346], [382, 193]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_apdjgezcekdmxeow.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[270, 450], [270, 550], [310, 550], [310, 450]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_apdjgezcekdmxeow.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[42, 69], [42, 167], [83, 167], [83, 69]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_apdjgezcekdmxeow.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[94, 230], [155, 230], [155, 329], [94, 329]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_apdjgezcekdmxeow.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aamjqvjnuxklyagf.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aamjqvjnuxklyagf.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aamjqvjnuxklyagf.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aamjqvjnuxklyagf.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aunbvudubwlyozvt.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[449, 305], [570, 305], [570, 535], [449, 535]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aunbvudubwlyozvt.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[434, 327], [548, 327], [548, 650], [434, 650]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aunbvudubwlyozvt.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[600, 50], [750, 50], [750, 250], [600, 250]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aunbvudubwlyozvt.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[295, 325], [477, 325], [477, 544], [295, 544]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_afnyuyhhwgifatsk.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[36, 134], [36, 277], [117, 277], [117, 134]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_afnyuyhhwgifatsk.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_afnyuyhhwgifatsk.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[[39, 164], [159, 164], [159, 376], [39, 376]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_afnyuyhhwgifatsk.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_axdfhsszzzqksxnx.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_axdfhsszzzqksxnx.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_axdfhsszzzqksxnx.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_axdfhsszzzqksxnx.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_aucefajtdpoipkjt.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_aucefajtdpoipkjt.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[48, 14], [48, 209], [229, 209], [229, 14]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_aucefajtdpoipkjt.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[580, 209], [580, 335], [629, 335], [629, 209]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_aucefajtdpoipkjt.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[115, 180], [115, 380], [175, 380], [175, 180]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/16_segmented_sun_amtngujfdqlygigl.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[431, 378], [431, 411], [503, 411], [503, 378]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/16_segmented_sun_amtngujfdqlygigl.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[114, 459], [114, 592], [224, 592], [224, 459]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/16_segmented_sun_amtngujfdqlygigl.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[654, 374], [654, 579], [746, 579], [746, 374]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/16_segmented_sun_amtngujfdqlygigl.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[130, 370], [130, 440], [220, 440], [220, 370]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/19_segmented_sun_ahljzhgcdpomplvg.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/19_segmented_sun_ahljzhgcdpomplvg.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/19_segmented_sun_ahljzhgcdpomplvg.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[273, 119], [273, 160], [353, 160], [353, 119]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/19_segmented_sun_ahljzhgcdpomplvg.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_anleedlurkiswrjv.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_anleedlurkiswrjv.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_anleedlurkiswrjv.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_anleedlurkiswrjv.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[10, 250], [10, 320], [120, 320], [120, 250]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_abnipsthatveonrh.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_abnipsthatveonrh.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_abnipsthatveonrh.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[3, 21], [3, 115], [62, 115], [62, 21]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_abnipsthatveonrh.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_ayeksgxvkxbdgqil.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[20, 120], [20, 160], [60, 160], [60, 120]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_ayeksgxvkxbdgqil.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[92, 171], [92, 275], [128, 275], [128, 171]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_ayeksgxvkxbdgqil.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_ayeksgxvkxbdgqil.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aqtnebfegavdqvzg.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[450, 300], [450, 400], [550, 400], [550, 300]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aqtnebfegavdqvzg.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[233, 452], [233, 570], [339, 570], [339, 452]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aqtnebfegavdqvzg.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aqtnebfegavdqvzg.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[150, 510], [150, 580], [270, 580], [270, 510]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/3_segmented_sun_aobtqmsjotgsxppu.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[531, 70], [624, 70], [624, 147], [531, 147]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/3_segmented_sun_aobtqmsjotgsxppu.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[549, 97], [654, 97], [654, 197], [549, 197]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/3_segmented_sun_aobtqmsjotgsxppu.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/3_segmented_sun_aobtqmsjotgsxppu.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[478, 48], [478, 130], [526, 130], [526, 48]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/16_segmented_sun_abwmjfnrmqjdltxn.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[321, 328], [321, 383], [406, 383], [406, 328]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/16_segmented_sun_abwmjfnrmqjdltxn.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[84, 331], [84, 572], [278, 572], [278, 331]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/16_segmented_sun_abwmjfnrmqjdltxn.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[246, 298], [246, 433], [328, 433], [328, 298]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/16_segmented_sun_abwmjfnrmqjdltxn.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_amcseadaqamjvkpr.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[195, 370], [195, 501], [441, 501], [441, 370]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_amcseadaqamjvkpr.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[334, 408], [434, 408], [434, 468], [334, 468]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_amcseadaqamjvkpr.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[729, 123], [729, 303], [844, 303], [844, 123]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_amcseadaqamjvkpr.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[263, 378], [437, 378], [437, 514], [263, 514]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_avtqdvhwdfzykzby.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[589, 679], [589, 886], [754, 886], [754, 679]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_avtqdvhwdfzykzby.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[263, 510], [263, 637], [335, 637], [335, 510]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_avtqdvhwdfzykzby.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[64, 285], [64, 464], [217, 464], [217, 285]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_avtqdvhwdfzykzby.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[702, 718], [702, 874], [819, 874], [819, 718]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_adglbgauiayicwkm.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_adglbgauiayicwkm.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_adglbgauiayicwkm.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_adglbgauiayicwkm.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_avtqpxlipvlcrsge.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[53, 159], [53, 288], [160, 288], [160, 159]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_avtqpxlipvlcrsge.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[50, 180], [50, 350], [110, 350], [110, 180]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_avtqpxlipvlcrsge.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[293, 187], [293, 320], [390, 320], [390, 187]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_avtqpxlipvlcrsge.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[140, 280], [240, 280], [240, 520], [140, 520]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_ajpanclprxjlugfr.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[39, 157], [39, 256], [119, 256], [119, 157]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_ajpanclprxjlugfr.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_ajpanclprxjlugfr.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[155, 69], [155, 142], [205, 142], [205, 69]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_ajpanclprxjlugfr.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/21_segmented_sun_aklijrkocvkcmsfg.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[375, 467], [375, 505], [424, 505], [424, 467]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/21_segmented_sun_aklijrkocvkcmsfg.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[662, 123], [662, 325], [790, 325], [790, 123]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/21_segmented_sun_aklijrkocvkcmsfg.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[299, 350], [299, 418], [353, 418], [353, 350]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/21_segmented_sun_aklijrkocvkcmsfg.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[542, 278], [542, 396], [663, 396], [663, 278]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/18_segmented_sun_auhdmjbjkxwrixim.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[596, 384], [596, 534], [696, 534], [696, 384]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/18_segmented_sun_auhdmjbjkxwrixim.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/18_segmented_sun_auhdmjbjkxwrixim.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[198, 72], [198, 134], [264, 134], [264, 72]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/18_segmented_sun_auhdmjbjkxwrixim.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/22_segmented_sun_augjvuygusrwlxqz.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/22_segmented_sun_augjvuygusrwlxqz.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/22_segmented_sun_augjvuygusrwlxqz.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[305, 120], [305, 420], [405, 420], [405, 120]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/22_segmented_sun_augjvuygusrwlxqz.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[94, 511], [94, 612], [156, 612], [156, 511]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/24_segmented_sun_aczchqarcsdhjfsg.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[484, 467], [484, 541], [604, 541], [604, 467]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/24_segmented_sun_aczchqarcsdhjfsg.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[330, 600], [330, 700], [480, 700], [480, 600]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/24_segmented_sun_aczchqarcsdhjfsg.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[[75, 350], [75, 475], [200, 475], [200, 350]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/24_segmented_sun_aczchqarcsdhjfsg.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[440, 510], [440, 590], [510, 590], [510, 510]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_apnxsgbjjdleuhdu.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_apnxsgbjjdleuhdu.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[383, 337], [383, 444], [512, 444], [512, 337]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_apnxsgbjjdleuhdu.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[430, 210], [430, 260], [480, 260], [480, 210]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_apnxsgbjjdleuhdu.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[475, 285], [475, 415], [545, 415], [545, 285]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_aoqkmjxwlivgbkhq.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[0, 0]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_aoqkmjxwlivgbkhq.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[320, 465], [320, 510], [565, 510], [565, 465]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_aoqkmjxwlivgbkhq.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_aoqkmjxwlivgbkhq.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_anfzulzazofakfhm.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[55, 140], [55, 180], [80, 180], [80, 140]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_anfzulzazofakfhm.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[69, 142], [69, 221], [110, 221], [110, 142]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_anfzulzazofakfhm.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[105, 171], [105, 278], [142, 278], [142, 171]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_anfzulzazofakfhm.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[105, 172], [105, 230], [136, 230], [136, 172]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/16_segmented_sun_alqafgyfzsctxwtt.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/16_segmented_sun_alqafgyfzsctxwtt.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/16_segmented_sun_alqafgyfzsctxwtt.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[184, 107], [184, 286], [377, 286], [377, 107]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/16_segmented_sun_alqafgyfzsctxwtt.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[262, 154], [262, 217], [346, 217], [346, 154]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_axzmxlymdvjqqfpk.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[130, 250], [270, 250], [270, 450], [130, 450]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_axzmxlymdvjqqfpk.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_axzmxlymdvjqqfpk.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[[41, 185], [41, 379], [82, 379], [82, 185]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_axzmxlymdvjqqfpk.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[160, 225], [285, 225], [285, 420], [160, 420]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_aaslbwtcdcwjukuo.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[365, 523], [365, 673], [535, 673], [535, 523]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_aaslbwtcdcwjukuo.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[[420, 580], [420, 745], [580, 745], [580, 580]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_aaslbwtcdcwjukuo.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/21_segmented_sun_abvefvntluoxopow.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[60, 100], [60, 180], [120, 180], [120, 100]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/21_segmented_sun_abvefvntluoxopow.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/21_segmented_sun_abvefvntluoxopow.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/21_segmented_sun_abvefvntluoxopow.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[60, 160], [60, 260], [160, 260], [160, 160]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_abqsxcyxnovlihxy.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_abqsxcyxnovlihxy.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_abqsxcyxnovlihxy.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[370, 290], [370, 580], [770, 580], [770, 290]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_abqsxcyxnovlihxy.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/18_segmented_sun_agfmsmojwptjoava.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[865, 504], [984, 504], [984, 631], [865, 631]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/18_segmented_sun_agfmsmojwptjoava.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[518, 795], [518, 946], [691, 946], [691, 795]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/18_segmented_sun_agfmsmojwptjoava.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/18_segmented_sun_agfmsmojwptjoava.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[24, 142], [24, 232], [128, 232], [128, 142]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/13_segmented_sun_arerafgvufvljolx.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/13_segmented_sun_arerafgvufvljolx.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/13_segmented_sun_arerafgvufvljolx.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[44, 178], [44, 250], [82, 250], [82, 178]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_afdefsrtlbtfdhxq.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[675, 380], [675, 410], [760, 410], [760, 380]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_afdefsrtlbtfdhxq.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[44, 537], [44, 680], [195, 680], [195, 537]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_afdefsrtlbtfdhxq.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[491, 394], [491, 586], [583, 586], [583, 394]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_afdefsrtlbtfdhxq.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_ajuqshhjcubjzedh.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[399, 303], [399, 462], [467, 462], [467, 303]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_ajuqshhjcubjzedh.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_ajuqshhjcubjzedh.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[518, 470], [518, 656], [672, 656], [672, 470]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_ajuqshhjcubjzedh.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[380, 360], [380, 410], [470, 410], [470, 360]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/7_segmented_sun_auatsxdwxjotzqjr.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[207, 144], [207, 276], [234, 276], [234, 144]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/7_segmented_sun_auatsxdwxjotzqjr.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[424, 215], [424, 284], [500, 284], [500, 215]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/7_segmented_sun_auatsxdwxjotzqjr.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/7_segmented_sun_auatsxdwxjotzqjr.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[607, 176], [607, 235], [682, 235], [682, 176]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_awspbtmcoxakihbx.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_awspbtmcoxakihbx.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_awspbtmcoxakihbx.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_awspbtmcoxakihbx.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/22_segmented_sun_aofyuejouqtbyooo.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/22_segmented_sun_aofyuejouqtbyooo.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[347, 530], [347, 595], [471, 595], [471, 530]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/22_segmented_sun_aofyuejouqtbyooo.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[567, 322], [567, 454], [705, 454], [705, 322]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/22_segmented_sun_aofyuejouqtbyooo.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[365, 505], [365, 668], [557, 668], [557, 505]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_apuaydbvdodzgqrh.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_apuaydbvdodzgqrh.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[515, 141], [515, 236], [612, 236], [612, 141]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_apuaydbvdodzgqrh.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[497, 172], [603, 172], [603, 315], [497, 315]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_apuaydbvdodzgqrh.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[335, 330], [335, 594], [453, 594], [453, 330]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_ahhrhzkyvzaqeark.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_ahhrhzkyvzaqeark.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_ahhrhzkyvzaqeark.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[0, 0], [0, 148], [149, 148], [149, 0]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_ahhrhzkyvzaqeark.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/25_segmented_sun_aaxxjlsuzvqlgylf.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[408, 400], [408, 455], [505, 455], [505, 400]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/25_segmented_sun_aaxxjlsuzvqlgylf.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[526, 468], [641, 468], [641, 538], [526, 538]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/25_segmented_sun_aaxxjlsuzvqlgylf.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[370, 415], [370, 475], [470, 475], [470, 415]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/25_segmented_sun_aaxxjlsuzvqlgylf.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[340, 380], [340, 440], [420, 440], [420, 380]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_awuawixsfaurzuaa.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_awuawixsfaurzuaa.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_awuawixsfaurzuaa.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_awuawixsfaurzuaa.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/26_segmented_sun_apslowdohuttdlkk.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/26_segmented_sun_apslowdohuttdlkk.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[408, 472], [464, 472], [464, 536], [408, 536]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/26_segmented_sun_apslowdohuttdlkk.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[[166, 448], [166, 600], [226, 600], [226, 448]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/26_segmented_sun_apslowdohuttdlkk.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[157, 394], [373, 394], [373, 644], [157, 644]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/17_segmented_sun_aiolecljpamcnixg.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/17_segmented_sun_aiolecljpamcnixg.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[626, 417], [626, 498], [692, 498], [692, 417]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/17_segmented_sun_aiolecljpamcnixg.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[362, 98], [362, 280], [468, 280], [468, 98]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/17_segmented_sun_aiolecljpamcnixg.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[301, 286], [301, 323], [373, 323], [373, 286]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_aqzschgwftpwisen.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[242, 158], [242, 176], [292, 176], [292, 158]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_aqzschgwftpwisen.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[59, 169], [131, 169], [131, 204], [59, 204]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_aqzschgwftpwisen.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[167, 146], [167, 199], [221, 199], [221, 146]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_aqzschgwftpwisen.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[89, 108], [89, 147], [127, 147], [127, 108]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_althuptvuaxvjman.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_althuptvuaxvjman.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_althuptvuaxvjman.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[[7, 423], [7, 599], [112, 599], [112, 423]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_althuptvuaxvjman.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[]"
+  }
+]

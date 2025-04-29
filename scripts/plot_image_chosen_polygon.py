@@ -32,7 +32,7 @@ def show_polygon_for_image(json_path, image_filename, item, check_model_answer_p
     ax.imshow(image)
 
     answer_polygon = literal_eval(check_model_answer_polygon)
-    if len(answer_polygon) > 1:
+    if len(answer_polygon) > 4:
         for pol in answer_polygon:
             poly = [(x, y) for x, y in pol]
             poly_patch = patches.Polygon(poly, closed=True, edgecolor='blue', fill=False, linewidth=2)
@@ -63,7 +63,12 @@ def show_polygon_for_image(json_path, image_filename, item, check_model_answer_p
 if __name__ == '__main__':
     # Example usage:
     json_path = "../data/train_data/train_data.json"
-    image_filename = "10_segmented_sun_aazqqvqrigwzykdp.jpg"
-    item = "Pot"
-    check_model_answer_polygon = "[[[47, 29], [47, 30]], [[31, 22]], [[47, 12], [47, 26]], [[47, 8], [47, 10]], [[14, 1], [15, 66], [98, 61], [98, 0], [84, 0], [76, 56], [27, 56], [25, 1]]]"
+    image_filename = "17_segmented_sun_agorklincwxrdtga.jpg"
+    item = "Dish towels"
+    check_model_answer_polygon = "[[450, 550], [450, 500], [380, 500], [380, 550]]"
     show_polygon_for_image(json_path=json_path, image_filename=image_filename, item=item, check_model_answer_polygon=check_model_answer_polygon)
+
+    # [x_min, y_min],
+    # [x_min, y_max],
+    # [x_max, y_max],
+    # [x_max, y_min]

@@ -1266,6 +1266,34 @@ def filter_csv_by_image_subset(csv_path, json_path):
     print(f"Filtered CSV to {len(filtered_df)} rows based on image subset.")
     return filtered_df
 
+def create_subset_image_to_items(keep_images_json_path, full_mapping_json_path, output_json_path):
+    # Load the list of images you want to keep
+    with open(keep_images_json_path, 'r') as f:
+        keep_images = json.load(f)
+
+    # Load the full image_to_items_dict
+    with open(full_mapping_json_path, 'r') as f:
+        full_mapping = json.load(f)
+
+    # Normalize paths if needed (remove leading "../" from keys in full_mapping)
+    normalized_mapping = {}
+    for key, value in full_mapping.items():
+        clean_key = key.lstrip("../")  # Remove ../ if it exists
+        normalized_mapping[clean_key] = value
+
+    # Create the subset
+    subset_mapping = {}
+    for img_path in keep_images:
+        if img_path in normalized_mapping:
+            subset_mapping[img_path] = normalized_mapping[img_path]
+        else:
+            print(f"Warning: {img_path} not found in the full mapping.")
+
+    # Save the subset
+    with open(output_json_path, 'w') as f:
+        json.dump(subset_mapping, f, indent=2)
+
+    print(f"Subset saved to {output_json_path}")
 
 if __name__ == '__main__':
     image_details_json_path = "../image_details/image_details.json"
@@ -1342,6 +1370,10 @@ if __name__ == '__main__':
     random_image_subset = "../image_details/100_images.json"
     # create_random_image_subset(csv_path=csv_with_similar_neighbors_unclear_label, json_path=random_image_subset)
 
-    subset_df = filter_csv_by_image_subset(csv_path=csv_with_similar_neighbors_unclear_label, json_path=random_image_subset)
+    # subset_df = filter_csv_by_image_subset(csv_path=csv_with_similar_neighbors_unclear_label, json_path=random_image_subset)
     csv_long_id = "../long_id_pos_lab_neighbors_with_description.csv"
-    add_descriptions_to_csv(csv_path=csv_with_similar_neighbors_unclear_label, output_path=csv_long_id, subset_df=subset_df)
+    # add_descriptions_to_csv(csv_path=csv_with_similar_neighbors_unclear_label, output_path=csv_long_id, subset_df=subset_df)
+
+    # create_subset_image_to_items(keep_images_json_path=random_image_subset,
+    #                              full_mapping_json_path="../image_details/image_to_items_dict.json",
+    #                              output_json_path="../image_details/image_to_items_dict_subset.json")

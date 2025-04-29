@@ -1,27 +1,1668 @@
 {
-  "../images/kitchen/10_segmented_sun_aaslbwtcdcwjukuo.jpg": [
+  "../images/kitchen/34_segmented_sun_axpesxgsnxrsdqtr.jpg": [
     {
-      "Cutting board": "[]"
+      "item": "Bottle opener",
+      "bbox": "[[200, 400, 300, 450]]"
     },
     {
-      "Pot": "[[169,351],[169,386],[229,386],[229,351]]"
+      "item": "Cutting board",
+      "bbox": "[]"
     },
     {
-      "Spoon": "[[518,320],[518,370],[576,370],[576,320]]"
+      "item": "Mug",
+      "bbox": "[]"
+    },
+    {
+      "item": "Pan",
+      "bbox": "[]"
     }
   ],
-  "../images/kitchen/10_segmented_sun_aaszvkbutanmxnsb.jpg": [
+  "../images/kitchen/6_segmented_sun_advwcwduhfypopki.jpg": [
     {
-      "Cooking oil": "[[402, 174], [470, 174], [470, 274], [402, 274]]"
+      "item": "Bottle opener",
+      "bbox": "[[185, 442, 264, 486]]"
     },
     {
-      "Dish towels": "[[83, 355], [171, 355], [171, 523], [83, 523]]"
+      "item": "Cutting board",
+      "bbox": "[[512, 222, 585, 319]]"
     },
     {
-      "Plate": "[[287, 355], [366, 355], [366, 523], [287, 523]]"
+      "item": "Mug",
+      "bbox": "[[667, 24, 805, 112]]"
     },
     {
-      "Spices": "[[471, 174], [540, 174], [540, 274], [471, 274]]"
+      "item": "Pan",
+      "bbox": "[]\n\n"
+    }
+  ],
+  "../images/kitchen/15_segmented_sun_avdeakyjwzxtynyf.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    },
+    {
+      "item": "Cutting board",
+      "bbox": "[]"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[[360, 160, 450, 270]]"
+    },
+    {
+      "item": "Pan",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/17_segmented_sun_agorklincwxrdtga.jpg": [
+    {
+      "item": "Cooking oil",
+      "bbox": "[[196, 416], [404, 416], [404, 574], [196, 574]]"
+    },
+    {
+      "item": "Dish towels",
+      "bbox": "[[380, 500, 450, 550]]"
+    },
+    {
+      "item": "Pot",
+      "bbox": "[[239, 430], [444, 430], [444, 633], [239, 633]]"
+    },
+    {
+      "item": "Spices",
+      "bbox": "[[525, 255, 655, 355]]"
+    }
+  ],
+  "../images/kitchen/10_segmented_sun_afjofbpiualrfwlz.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "```json\n[[648, 849], [753, 849], [753, 915], [648, 915]]\n```"
+    },
+    {
+      "item": "Cutting board",
+      "bbox": "[[722, 933, 790, 1073]]"
+    },
+    {
+      "item": "Pan",
+      "bbox": ""
+    },
+    {
+      "item": "Spoon",
+      "bbox": "[[355, 772, 496, 926]]"
+    }
+  ],
+  "../images/kitchen/9_segmented_sun_aawzwijpmowksmpn.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[379, 379, 479, 479]]"
+    },
+    {
+      "item": "Cutting board",
+      "bbox": "[[640, 560], [750, 560], [750, 780], [640, 780]]"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[[498, 101, 617, 226]]"
+    },
+    {
+      "item": "Pan",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/10_segmented_sun_avfsqwoiantddppx.jpg": [
+    {
+      "item": "Bowl",
+      "bbox": "[[98, 183], [170, 183], [170, 263], [98, 263]]"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[[105, 145, 174, 222]]"
+    },
+    {
+      "item": "Pan",
+      "bbox": "[[98, 227, 177, 303]]"
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[83, 171, 148, 282]]"
+    }
+  ],
+  "../images/kitchen/11_segmented_sun_awmwrrktzbyokpcr.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    },
+    {
+      "item": "Bowl",
+      "bbox": "[]"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[]"
+    },
+    {
+      "item": "Pan",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/4_segmented_sun_aohalqjxiodeyhwm.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    },
+    {
+      "item": "Bowl",
+      "bbox": "[147, 0, 344, 251]"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[[405, 57, 579, 232]]"
+    },
+    {
+      "item": "Pan",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/8_segmented_sun_aojmogpsfirohkai.jpg": [
+    {
+      "item": "Cooking oil",
+      "bbox": "[[277, 583], [339, 583], [339, 737], [277, 737]]"
+    },
+    {
+      "item": "Dish towels",
+      "bbox": "[[178, 419], [294, 419], [294, 809], [178, 809]]"
+    },
+    {
+      "item": "Pot",
+      "bbox": "[[188, 491, 221, 612]]"
+    },
+    {
+      "item": "Spices",
+      "bbox": "[[275, 330], [355, 330], [355, 505], [275, 505]]"
+    }
+  ],
+  "../images/kitchen/19_segmented_sun_anrbnligfknyblpd.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[328, 431, 387, 476]]"
+    },
+    {
+      "item": "Cutting board",
+      "bbox": "[[530, 364, 622, 570]]"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[]\n"
+    },
+    {
+      "item": "Pan",
+      "bbox": "[[378, 515, 438, 703]]"
+    }
+  ],
+  "../images/kitchen/9_segmented_sun_abdzsryntppucwqi.jpg": [
+    {
+      "item": "Cutting knife",
+      "bbox": "[]"
+    },
+    {
+      "item": "Dish towels",
+      "bbox": "[[250, 350, 300, 500]]"
+    },
+    {
+      "item": "Plate",
+      "bbox": "[[446, 66], [512, 66], [512, 168], [446, 168]]"
+    },
+    {
+      "item": "Spices",
+      "bbox": "[[345, 235, 395, 535]]"
+    }
+  ],
+  "../images/kitchen/20_segmented_sun_aasmevtpkslccptd.jpg": [
+    {
+      "item": "Bowl",
+      "bbox": "[632, 172, 741, 518]"
+    },
+    {
+      "item": "Cutting knife",
+      "bbox": "[]"
+    },
+    {
+      "item": "Plate",
+      "bbox": ""
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/5_segmented_sun_aawsixgpgwqanatu.jpg": [
+    {
+      "item": "Bowl",
+      "bbox": "[[189, 98, 242, 160]]"
+    },
+    {
+      "item": "Cutting knife",
+      "bbox": ""
+    },
+    {
+      "item": "Mug",
+      "bbox": "[[242, 99, 359, 297]]"
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/5_segmented_sun_avaaxiemmqbibywj.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[59, 246], [182, 246], [182, 349], [59, 349]]"
+    },
+    {
+      "item": "Cutting board",
+      "bbox": "[[20, 180, 120, 280]]"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[]"
+    },
+    {
+      "item": "Pan",
+      "bbox": "[(5, 160, 55, 210)]"
+    }
+  ],
+  "../images/kitchen/12_segmented_sun_agdxrnaqlzlannbk.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[56, 232], [56, 301], [78, 301], [78, 232]]"
+    },
+    {
+      "item": "Bowl",
+      "bbox": "[[13, 129], [329, 129], [329, 286], [13, 286]]"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[[184, 30, 264, 110]]"
+    },
+    {
+      "item": "Pan",
+      "bbox": "```\n[[114, 203], [163, 203], [163, 257], [114, 257]]\n```"
+    }
+  ],
+  "../images/kitchen/10_segmented_sun_ayzwrfmejwnjncpp.jpg": [
+    {
+      "item": "Cooking oil",
+      "bbox": "[15, 250, 220, 400]"
+    },
+    {
+      "item": "Dish towels",
+      "bbox": "[]"
+    },
+    {
+      "item": "Plate",
+      "bbox": "[[446, 51], [646, 51], [646, 228], [446, 228]]"
+    },
+    {
+      "item": "Spices",
+      "bbox": "[[275, 220, 475, 340]]"
+    }
+  ],
+  "../images/kitchen/12_segmented_sun_aopqdojqibxivqgu.jpg": [
+    {
+      "item": "Cooking oil",
+      "bbox": "[[113, 488], [320, 488], [320, 756], [113, 756]]"
+    },
+    {
+      "item": "Dish towels",
+      "bbox": "[[328, 601, 527, 778]]"
+    },
+    {
+      "item": "Pot",
+      "bbox": "[[4, 344, 223, 691]]"
+    },
+    {
+      "item": "Spoon",
+      "bbox": "[[270, 515], [435, 515], [435, 695], [270, 695]]"
+    }
+  ],
+  "../images/kitchen/12_segmented_sun_aglwoufpxbtxqecp.jpg": [
+    {
+      "item": "Cutting knife",
+      "bbox": "[[280, 330, 360, 400]]"
+    },
+    {
+      "item": "Dish towels",
+      "bbox": "[[180, 340, 300, 520]]"
+    },
+    {
+      "item": "Plate",
+      "bbox": "[[497, 118, 573, 300]]"
+    },
+    {
+      "item": "Spices",
+      "bbox": ""
+    }
+  ],
+  "../images/kitchen/8_segmented_sun_axuroipjldepebje.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[(34, 145), (98, 145), (98, 187), (34, 187)]"
+    },
+    {
+      "item": "Cutting board",
+      "bbox": "[(92, 124), (150, 124), (150, 175), (92, 175)]"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[(95, 122), (155, 122), (155, 170), (95, 170)]"
+    },
+    {
+      "item": "Pan",
+      "bbox": "[(33, 105), (100, 105), (100, 190), (33, 190)]"
+    }
+  ],
+  "../images/kitchen/7_segmented_sun_aufggmchclraycgm.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    },
+    {
+      "item": "Cutting board",
+      "bbox": "[]"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[[550, 180, 720, 380]]"
+    },
+    {
+      "item": "Pan",
+      "bbox": "```json\n[\n    [26, 325, 214, 621]\n]\n```"
+    }
+  ],
+  "../images/kitchen/12_segmented_sun_afphfxkabyerpwkz.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[556, 537, 689, 665]]"
+    },
+    {
+      "item": "Cutting board",
+      "bbox": "[[507, 370, 597, 460]]"
+    },
+    {
+      "item": "Pot",
+      "bbox": "[[345, 432, 457, 604]]"
+    },
+    {
+      "item": "Spoon",
+      "bbox": "[[643, 470, 720, 540]]"
+    }
+  ],
+  "../images/kitchen/17_segmented_sun_ahqykyyouxkgmdnq.jpg": [
+    {
+      "item": "Cutting knife",
+      "bbox": "[[805, 737, 936, 784]]"
+    },
+    {
+      "item": "Plate",
+      "bbox": "[[403, 170, 502, 358]]"
+    },
+    {
+      "item": "Spices",
+      "bbox": "[[558, 187, 605, 269]]"
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[418, 286, 662, 498]]"
+    }
+  ],
+  "../images/kitchen/6_segmented_sun_afstlyyibsjscpbm.jpg": [
+    {
+      "item": "Cooking oil",
+      "bbox": "[[292, 283], [435, 283], [435, 442], [292, 442]]"
+    },
+    {
+      "item": "Dish towels",
+      "bbox": "[[184, 178, 255, 255]]"
+    },
+    {
+      "item": "Pot",
+      "bbox": "[(130, 165), (195, 165), (195, 265), (130, 265)]"
+    },
+    {
+      "item": "Spices",
+      "bbox": "```\n[102, 20, 186, 106]\n```"
+    }
+  ],
+  "../images/kitchen/4_segmented_sun_aitjzvdsvqtarrmr.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[655, 566], [771, 566], [771, 678], [655, 678]]"
+    },
+    {
+      "item": "Bowl",
+      "bbox": "[]"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[]"
+    },
+    {
+      "item": "Pan",
+      "bbox": "[[484, 427], [632, 427], [632, 670], [484, 670]]"
+    }
+  ],
+  "../images/kitchen/5_segmented_sun_akgdlzofsznnznzs.jpg": [
+    {
+      "item": "Cooking oil",
+      "bbox": "[]"
+    },
+    {
+      "item": "Dish towels",
+      "bbox": "[]"
+    },
+    {
+      "item": "Pot",
+      "bbox": "[]"
+    },
+    {
+      "item": "Spices",
+      "bbox": ""
+    }
+  ],
+  "../images/kitchen/33_segmented_sun_awbppqusbpubsfeq.jpg": [
+    {
+      "item": "Bowl",
+      "bbox": "[[433, 245, 470, 406]]"
+    },
+    {
+      "item": "Cutting knife",
+      "bbox": "[]"
+    },
+    {
+      "item": "Plate",
+      "bbox": "[[521, 64, 587, 177]]"
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[12, 387, 129, 525]]"
+    }
+  ],
+  "../images/kitchen/5_segmented_sun_ajkrefpvgtunjiyi.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[34, 479], [320, 479], [320, 771], [34, 771]]"
+    },
+    {
+      "item": "Cutting board",
+      "bbox": "[[282, 395, 448, 661]]"
+    },
+    {
+      "item": "Pan",
+      "bbox": "[[301, 426, 511, 623]]"
+    },
+    {
+      "item": "Spoon",
+      "bbox": "[[23, 503], [203, 503], [203, 639], [23, 639]]"
+    }
+  ],
+  "../images/kitchen/5_segmented_sun_axwfwkibvzamixmp.jpg": [
+    {
+      "item": "Cutting knife",
+      "bbox": "[[27, 105, 92, 207]]"
+    },
+    {
+      "item": "Plate",
+      "bbox": "[]"
+    },
+    {
+      "item": "Spices",
+      "bbox": "[[90, 110, 130, 150]]"
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[60, 85, 110, 135]]"
+    }
+  ],
+  "../images/kitchen/8_segmented_sun_adwiyvylmsqaomcb.jpg": [
+    {
+      "item": "Cooking oil",
+      "bbox": "[]"
+    },
+    {
+      "item": "Dish towels",
+      "bbox": "[]"
+    },
+    {
+      "item": "Plate",
+      "bbox": "[[120, 140, 240, 260]]"
+    },
+    {
+      "item": "Spices",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/6_segmented_sun_akjjfxpidxgkthco.jpg": [
+    {
+      "item": "Cooking oil",
+      "bbox": "[]"
+    },
+    {
+      "item": "Cutting board",
+      "bbox": "[]"
+    },
+    {
+      "item": "Pot",
+      "bbox": "[]"
+    },
+    {
+      "item": "Spoon",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/6_segmented_sun_arddicicgsnredyc.jpg": [
+    {
+      "item": "Cutting knife",
+      "bbox": "[]"
+    },
+    {
+      "item": "Plate",
+      "bbox": "[]"
+    },
+    {
+      "item": "Spices",
+      "bbox": "[]"
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/5_segmented_sun_adkmgnqaiypcnhqy.jpg": [
+    {
+      "item": "Bowl",
+      "bbox": "[]"
+    },
+    {
+      "item": "Cutting knife",
+      "bbox": "[]"
+    },
+    {
+      "item": "Plate",
+      "bbox": "[]"
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/6_segmented_sun_atdfrsodpyskmywe.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[452, 541, 572, 659]]"
+    },
+    {
+      "item": "Cutting board",
+      "bbox": "[[425, 683], [591, 683], [591, 765], [425, 765]]"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[[411, 80, 487, 302]]"
+    },
+    {
+      "item": "Pan",
+      "bbox": "[[461, 433], [753, 433], [753, 538], [461, 538]]"
+    }
+  ],
+  "../images/kitchen/12_segmented_sun_afwaivvfezladsbj.jpg": [
+    {
+      "item": "Bowl",
+      "bbox": "[\n    [377, 213, 482, 361]\n]"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[[370, 370, 490, 525]]"
+    },
+    {
+      "item": "Pan",
+      "bbox": ""
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": ""
+    }
+  ],
+  "../images/kitchen/8_segmented_sun_afkaeizmulcsokfj.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[23, 233], [102, 233], [102, 340], [23, 340]]"
+    },
+    {
+      "item": "Bowl",
+      "bbox": "[[10, 10, 140, 160]]"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[115, 10, 215, 110]"
+    },
+    {
+      "item": "Pan",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/14_segmented_sun_axlhgujigbdqvdzl.jpg": [
+    {
+      "item": "Bowl",
+      "bbox": "[]"
+    },
+    {
+      "item": "Cutting knife",
+      "bbox": "[]"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[]"
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/13_segmented_sun_aehkkaenyyjnewst.jpg": [
+    {
+      "item": "Bowl",
+      "bbox": "[[622, 290, 733, 638]]"
+    },
+    {
+      "item": "Cutting knife",
+      "bbox": "[245, 280, 340, 320]"
+    },
+    {
+      "item": "Plate",
+      "bbox": "[]"
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[414, 374, 514, 635]]"
+    }
+  ],
+  "../images/kitchen/22_segmented_sun_afkwbtipaeipuaer.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    },
+    {
+      "item": "Cutting board",
+      "bbox": "```plaintext\n[67, 85, 134, 151]\n```"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[]"
+    },
+    {
+      "item": "Pan",
+      "bbox": "[[19, 76], [157, 76], [157, 280], [19, 280]]"
+    }
+  ],
+  "../images/kitchen/12_segmented_sun_acyvmyzypyuwnann.jpg": [
+    {
+      "item": "Cooking oil",
+      "bbox": "[[365, 276], [515, 276], [515, 476], [365, 476]]"
+    },
+    {
+      "item": "Dish towels",
+      "bbox": "[[435, 330, 565, 379]]"
+    },
+    {
+      "item": "Plate",
+      "bbox": "[]"
+    },
+    {
+      "item": "Spices",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/13_segmented_sun_asymyduxvrjpcvzg.jpg": [
+    {
+      "item": "Bowl",
+      "bbox": "[[100, 400], [300, 400], [300, 600], [100, 600]]"
+    },
+    {
+      "item": "Cutting knife",
+      "bbox": "[[830, 370], [905, 370], [905, 495], [830, 495]]"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[[781, 1053], [919, 1053], [919, 1238], [781, 1238]]"
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[624, 478], [710, 478], [710, 640], [624, 640]]"
+    }
+  ],
+  "../images/kitchen/8_segmented_sun_amvpxkryxaldzmdv.jpg": [
+    {
+      "item": "Bowl",
+      "bbox": "[[74, 156], [155, 156], [155, 255], [74, 255]]"
+    },
+    {
+      "item": "Cutting knife",
+      "bbox": "[]"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[[31, 90], [117, 90], [117, 211], [31, 211]]"
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[26, 129], [63, 129], [63, 184], [26, 184]]"
+    }
+  ],
+  "../images/kitchen/12_segmented_sun_alqlmxgzxpeuaciw.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    },
+    {
+      "item": "Cutting board",
+      "bbox": "[]"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[]"
+    },
+    {
+      "item": "Pan",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/14_segmented_sun_adswmdfkombffqhi.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    },
+    {
+      "item": "Cutting board",
+      "bbox": "[[400, 550, 600, 700]]"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[[435, 304, 491, 583]]"
+    },
+    {
+      "item": "Pan",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/19_segmented_sun_alyqyulcvigwjdyc.jpg": [
+    {
+      "item": "Bowl",
+      "bbox": "[[13, 113], [103, 113], [103, 237], [13, 237]]"
+    },
+    {
+      "item": "Cutting knife",
+      "bbox": ""
+    },
+    {
+      "item": "Plate",
+      "bbox": "[[113, 34, 168, 115]]"
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/15_segmented_sun_amstpwyljnixuvqh.jpg": [
+    {
+      "item": "Cooking oil",
+      "bbox": "[[161, 212, 219, 278]]"
+    },
+    {
+      "item": "Dish towels",
+      "bbox": "[[105, 157, 148, 201]]"
+    },
+    {
+      "item": "Pot",
+      "bbox": "[328, 318, 435, 525]"
+    },
+    {
+      "item": "Spoon",
+      "bbox": "[[30, 180, 80, 230]]"
+    }
+  ],
+  "../images/kitchen/11_segmented_sun_andzglcqubvbzfhz.jpg": [
+    {
+      "item": "Cooking oil",
+      "bbox": "[[285, 187, 335, 367]]"
+    },
+    {
+      "item": "Dish towels",
+      "bbox": "[[280, 370], [340, 370], [340, 410], [280, 410]]"
+    },
+    {
+      "item": "Plate",
+      "bbox": "[(408, 210), (479, 210), (479, 260), (408, 260)]"
+    },
+    {
+      "item": "Spices",
+      "bbox": "\\[ [329, 193, 382, 346] \\]"
+    }
+  ],
+  "../images/kitchen/11_segmented_sun_apdjgezcekdmxeow.jpg": [
+    {
+      "item": "Cutting knife",
+      "bbox": "[[270, 450, 310, 550]]"
+    },
+    {
+      "item": "Plate",
+      "bbox": "[[42, 69, 83, 167]]"
+    },
+    {
+      "item": "Spices",
+      "bbox": "[[94, 230], [155, 230], [155, 329], [94, 329]]"
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[(85, 185), (175, 185), (175, 270), (85, 270)]"
+    }
+  ],
+  "../images/kitchen/5_segmented_sun_aamjqvjnuxklyagf.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    },
+    {
+      "item": "Cutting board",
+      "bbox": "[]\n"
+    },
+    {
+      "item": "Pan",
+      "bbox": "[]"
+    },
+    {
+      "item": "Spoon",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/5_segmented_sun_aunbvudubwlyozvt.jpg": [
+    {
+      "item": "Bowl",
+      "bbox": "[[449, 305], [570, 305], [570, 535], [449, 535]]"
+    },
+    {
+      "item": "Cutting knife",
+      "bbox": "[[434, 327], [548, 327], [548, 650], [434, 650]]"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[[600, 50], [750, 50], [750, 250], [600, 250]]"
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[295, 325], [477, 325], [477, 544], [295, 544]]"
+    }
+  ],
+  "../images/kitchen/4_segmented_sun_afnyuyhhwgifatsk.jpg": [
+    {
+      "item": "Cooking oil",
+      "bbox": "```json\n[[36, 134, 117, 277]]\n```"
+    },
+    {
+      "item": "Dish towels",
+      "bbox": "[]"
+    },
+    {
+      "item": "Pot",
+      "bbox": "```json\n[\n    [39, 164, 159, 164, 159, 376, 39, 376]\n]\n```"
+    },
+    {
+      "item": "Spices",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/11_segmented_sun_axdfhsszzzqksxnx.jpg": [
+    {
+      "item": "Bowl",
+      "bbox": "[]"
+    },
+    {
+      "item": "Cutting knife",
+      "bbox": "[]"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[]"
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/14_segmented_sun_aucefajtdpoipkjt.jpg": [
+    {
+      "item": "Cutting knife",
+      "bbox": "[]"
+    },
+    {
+      "item": "Plate",
+      "bbox": "[48, 14, 229, 209]"
+    },
+    {
+      "item": "Spices",
+      "bbox": "[[580, 209, 629, 335]]"
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[115, 180, 175, 380]]"
+    }
+  ],
+  "../images/kitchen/16_segmented_sun_amtngujfdqlygigl.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[431, 378, 503, 411]]"
+    },
+    {
+      "item": "Cutting board",
+      "bbox": "[[114, 459, 224, 592]]"
+    },
+    {
+      "item": "Pan",
+      "bbox": "[[654, 374, 746, 579]]"
+    },
+    {
+      "item": "Spoon",
+      "bbox": "[[130, 370, 220, 440]]"
+    }
+  ],
+  "../images/kitchen/19_segmented_sun_ahljzhgcdpomplvg.jpg": [
+    {
+      "item": "Bowl",
+      "bbox": "[]"
+    },
+    {
+      "item": "Cutting knife",
+      "bbox": "[]\n"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[[273, 119, 353, 160]]"
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/15_segmented_sun_anleedlurkiswrjv.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    },
+    {
+      "item": "Cutting board",
+      "bbox": "[]"
+    },
+    {
+      "item": "Pan",
+      "bbox": "[]"
+    },
+    {
+      "item": "Spoon",
+      "bbox": "[[10, 250, 120, 320]]"
+    }
+  ],
+  "../images/kitchen/8_segmented_sun_abnipsthatveonrh.jpg": [
+    {
+      "item": "Cutting knife",
+      "bbox": "[]"
+    },
+    {
+      "item": "Plate",
+      "bbox": "[]"
+    },
+    {
+      "item": "Spices",
+      "bbox": "[[3, 21, 62, 115]]"
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/8_segmented_sun_ayeksgxvkxbdgqil.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[20, 120, 60, 160]"
+    },
+    {
+      "item": "Cutting board",
+      "bbox": "[[92, 171, 128, 275]]"
+    },
+    {
+      "item": "Pan",
+      "bbox": "[]"
+    },
+    {
+      "item": "Spoon",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/5_segmented_sun_aqtnebfegavdqvzg.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "```json\n[[450, 300, 550, 400]]\n```"
+    },
+    {
+      "item": "Cutting board",
+      "bbox": "[[233, 452, 339, 570]]"
+    },
+    {
+      "item": "Pot",
+      "bbox": "[]"
+    },
+    {
+      "item": "Spoon",
+      "bbox": "[[150, 510, 270, 580]]"
+    }
+  ],
+  "../images/kitchen/3_segmented_sun_aobtqmsjotgsxppu.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[531, 70], [624, 70], [624, 147], [531, 147]]"
+    },
+    {
+      "item": "Bowl",
+      "bbox": "[[549, 97], [654, 97], [654, 197], [549, 197]]"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[]\n"
+    },
+    {
+      "item": "Pan",
+      "bbox": "[[478, 48, 526, 130]]"
+    }
+  ],
+  "../images/kitchen/16_segmented_sun_abwmjfnrmqjdltxn.jpg": [
+    {
+      "item": "Cutting knife",
+      "bbox": "[[321, 328, 406, 383]]"
+    },
+    {
+      "item": "Dish towels",
+      "bbox": "[[84, 331, 278, 572]]"
+    },
+    {
+      "item": "Plate",
+      "bbox": "[[246, 298, 328, 433]]"
+    },
+    {
+      "item": "Spices",
+      "bbox": "[]\n"
+    }
+  ],
+  "../images/kitchen/14_segmented_sun_amcseadaqamjvkpr.jpg": [
+    {
+      "item": "Bowl",
+      "bbox": "[[195, 370, 441, 501]]"
+    },
+    {
+      "item": "Cutting knife",
+      "bbox": "[[334, 408], [434, 408], [434, 468], [334, 468]]"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[729, 123, 844, 303]"
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[263, 378], [437, 378], [437, 514], [263, 514]]"
+    }
+  ],
+  "../images/kitchen/15_segmented_sun_avtqdvhwdfzykzby.jpg": [
+    {
+      "item": "Cooking oil",
+      "bbox": "[[589, 679, 754, 886]]"
+    },
+    {
+      "item": "Dish towels",
+      "bbox": "[[263, 510, 335, 637]]"
+    },
+    {
+      "item": "Plate",
+      "bbox": "[[64, 285, 217, 464]]"
+    },
+    {
+      "item": "Spices",
+      "bbox": "[[702, 718, 819, 874]]"
+    }
+  ],
+  "../images/kitchen/5_segmented_sun_adglbgauiayicwkm.jpg": [
+    {
+      "item": "Cooking oil",
+      "bbox": "[]"
+    },
+    {
+      "item": "Dish towels",
+      "bbox": "[]"
+    },
+    {
+      "item": "Plate",
+      "bbox": "[]"
+    },
+    {
+      "item": "Spices",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/5_segmented_sun_avtqpxlipvlcrsge.jpg": [
+    {
+      "item": "Bowl",
+      "bbox": "[[53, 159, 160, 288]]"
+    },
+    {
+      "item": "Cutting knife",
+      "bbox": "[[50, 180, 110, 350]]"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[[293, 187, 390, 320]]"
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[140, 280], [240, 280], [240, 520], [140, 520]]"
+    }
+  ],
+  "../images/kitchen/5_segmented_sun_ajpanclprxjlugfr.jpg": [
+    {
+      "item": "Cooking oil",
+      "bbox": "[[39, 157, 119, 256]]"
+    },
+    {
+      "item": "Dish towels",
+      "bbox": "[]"
+    },
+    {
+      "item": "Plate",
+      "bbox": "[[155, 69, 205, 142]]"
+    },
+    {
+      "item": "Spices",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/21_segmented_sun_aklijrkocvkcmsfg.jpg": [
+    {
+      "item": "Cutting knife",
+      "bbox": "```plaintext\n[375, 467, 424, 505]\n```"
+    },
+    {
+      "item": "Plate",
+      "bbox": "[[662, 123, 790, 325]]"
+    },
+    {
+      "item": "Spices",
+      "bbox": "[[299, 350, 353, 418]]"
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[542, 278, 663, 396]]"
+    }
+  ],
+  "../images/kitchen/18_segmented_sun_auhdmjbjkxwrixim.jpg": [
+    {
+      "item": "Bowl",
+      "bbox": "[\n    [596, 384, 696, 534]\n]"
+    },
+    {
+      "item": "Cutting knife",
+      "bbox": "[]"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[[198, 72, 264, 134]]"
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/22_segmented_sun_augjvuygusrwlxqz.jpg": [
+    {
+      "item": "Bowl",
+      "bbox": "[]"
+    },
+    {
+      "item": "Cutting knife",
+      "bbox": "[]"
+    },
+    {
+      "item": "Plate",
+      "bbox": "[[305, 120, 405, 420]]"
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[94, 511, 156, 612]]"
+    }
+  ],
+  "../images/kitchen/24_segmented_sun_aczchqarcsdhjfsg.jpg": [
+    {
+      "item": "Cooking oil",
+      "bbox": "[[484, 467, 604, 541]]"
+    },
+    {
+      "item": "Dish towels",
+      "bbox": "[[330, 600, 480, 700]]"
+    },
+    {
+      "item": "Pot",
+      "bbox": "[[75, 350, 200, 475]]"
+    },
+    {
+      "item": "Spoon",
+      "bbox": "[\n    [440, 510, 510, 590]\n]"
+    }
+  ],
+  "../images/kitchen/15_segmented_sun_apnxsgbjjdleuhdu.jpg": [
+    {
+      "item": "Cooking oil",
+      "bbox": "[]"
+    },
+    {
+      "item": "Dish towels",
+      "bbox": "[[383, 337, 512, 444]]"
+    },
+    {
+      "item": "Plate",
+      "bbox": "[\n    [430, 210, 480, 260]\n]"
+    },
+    {
+      "item": "Spices",
+      "bbox": "[[475, 285, 545, 415]]"
+    }
+  ],
+  "../images/kitchen/6_segmented_sun_aoqkmjxwlivgbkhq.jpg": [
+    {
+      "item": "Bowl",
+      "bbox": "[(0, 0, 0, 0)]"
+    },
+    {
+      "item": "Cutting knife",
+      "bbox": "[[320, 465, 565, 510]]"
+    },
+    {
+      "item": "Plate",
+      "bbox": ""
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": ""
+    }
+  ],
+  "../images/kitchen/12_segmented_sun_anfzulzazofakfhm.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[55, 140, 80, 180]]"
+    },
+    {
+      "item": "Cutting board",
+      "bbox": "[[69, 142, 110, 221]]"
+    },
+    {
+      "item": "Pan",
+      "bbox": "[[105, 171, 142, 278]]"
+    },
+    {
+      "item": "Spoon",
+      "bbox": "[[105, 172, 136, 230]]"
+    }
+  ],
+  "../images/kitchen/16_segmented_sun_alqafgyfzsctxwtt.jpg": [
+    {
+      "item": "Cooking oil",
+      "bbox": "[]\n"
+    },
+    {
+      "item": "Dish towels",
+      "bbox": ""
+    },
+    {
+      "item": "Plate",
+      "bbox": "[[184, 107, 377, 286]]"
+    },
+    {
+      "item": "Spices",
+      "bbox": "[[262, 154, 346, 217]]"
+    }
+  ],
+  "../images/kitchen/4_segmented_sun_axzmxlymdvjqqfpk.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[130, 250], [270, 250], [270, 450], [130, 450]]"
+    },
+    {
+      "item": "Cutting board",
+      "bbox": "[]"
+    },
+    {
+      "item": "Pot",
+      "bbox": "[[41, 185, 82, 379]]"
+    },
+    {
+      "item": "Spoon",
+      "bbox": "[[160, 225], [285, 225], [285, 420], [160, 420]]"
+    }
+  ],
+  "../images/kitchen/10_segmented_sun_aaslbwtcdcwjukuo.jpg": [
+    {
+      "item": "Cutting board",
+      "bbox": "[[365, 523, 535, 673]]"
+    },
+    {
+      "item": "Pot",
+      "bbox": "[[420, 580, 580, 745]]"
+    },
+    {
+      "item": "Spoon",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/21_segmented_sun_abvefvntluoxopow.jpg": [
+    {
+      "item": "Bowl",
+      "bbox": "[[60, 100, 120, 180]]"
+    },
+    {
+      "item": "Cutting knife",
+      "bbox": "[]"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[]"
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[60, 160, 160, 260]]"
+    }
+  ],
+  "../images/kitchen/4_segmented_sun_abqsxcyxnovlihxy.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    },
+    {
+      "item": "Cutting board",
+      "bbox": "[]"
+    },
+    {
+      "item": "Pan",
+      "bbox": "[[370, 290, 770, 580]]"
+    },
+    {
+      "item": "Spoon",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/18_segmented_sun_agfmsmojwptjoava.jpg": [
+    {
+      "item": "Cooking oil",
+      "bbox": "[[865, 504], [984, 504], [984, 631], [865, 631]]"
+    },
+    {
+      "item": "Dish towels",
+      "bbox": "[[518, 795, 691, 946]]"
+    },
+    {
+      "item": "Pot",
+      "bbox": ""
+    },
+    {
+      "item": "Spoon",
+      "bbox": "[[24, 142, 128, 232]]"
+    }
+  ],
+  "../images/kitchen/13_segmented_sun_arerafgvufvljolx.jpg": [
+    {
+      "item": "Cutting board",
+      "bbox": "[]"
+    },
+    {
+      "item": "Pot",
+      "bbox": "[]"
+    },
+    {
+      "item": "Spoon",
+      "bbox": "[[44, 178, 82, 250]]"
+    }
+  ],
+  "../images/kitchen/9_segmented_sun_afdefsrtlbtfdhxq.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[675, 380, 760, 410]"
+    },
+    {
+      "item": "Cutting board",
+      "bbox": "[[44, 537, 195, 680]]"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[[491, 394, 583, 586]]"
+    },
+    {
+      "item": "Pan",
+      "bbox": "[(282, 338), (393, 338), (393, 563), (282, 563)]"
+    }
+  ],
+  "../images/kitchen/12_segmented_sun_ajuqshhjcubjzedh.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[399, 303, 467, 462]]"
+    },
+    {
+      "item": "Cutting board",
+      "bbox": "[]"
+    },
+    {
+      "item": "Pan",
+      "bbox": "[[518, 470, 672, 656]]"
+    },
+    {
+      "item": "Spoon",
+      "bbox": "[[380, 360, 470, 410]]"
+    }
+  ],
+  "../images/kitchen/7_segmented_sun_auatsxdwxjotzqjr.jpg": [
+    {
+      "item": "Cooking oil",
+      "bbox": "```json\n[[207, 144, 234, 276]]\n```"
+    },
+    {
+      "item": "Dish towels",
+      "bbox": "[[424, 215, 500, 284]]"
+    },
+    {
+      "item": "Pot",
+      "bbox": "[]"
+    },
+    {
+      "item": "Spices",
+      "bbox": "[[607, 176, 682, 235]]"
+    }
+  ],
+  "../images/kitchen/9_segmented_sun_awspbtmcoxakihbx.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    },
+    {
+      "item": "Cutting board",
+      "bbox": ""
+    },
+    {
+      "item": "Pan",
+      "bbox": "[]"
+    },
+    {
+      "item": "Spoon",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/22_segmented_sun_aofyuejouqtbyooo.jpg": [
+    {
+      "item": "Bowl",
+      "bbox": "[]"
+    },
+    {
+      "item": "Cutting knife",
+      "bbox": "[[347, 530, 471, 595]]"
+    },
+    {
+      "item": "Plate",
+      "bbox": "[\n    [567, 322, 705, 454]\n]"
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[365, 505, 557, 668]]"
+    }
+  ],
+  "../images/kitchen/15_segmented_sun_apuaydbvdodzgqrh.jpg": [
+    {
+      "item": "Cutting knife",
+      "bbox": "[]"
+    },
+    {
+      "item": "Plate",
+      "bbox": "[[515, 141, 612, 236]]"
+    },
+    {
+      "item": "Spices",
+      "bbox": "[[497, 172], [603, 172], [603, 315], [497, 315]]"
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[335, 330, 453, 594]]"
+    }
+  ],
+  "../images/kitchen/8_segmented_sun_ahhrhzkyvzaqeark.jpg": [
+    {
+      "item": "Bowl",
+      "bbox": "[]"
+    },
+    {
+      "item": "Cutting knife",
+      "bbox": "[]"
+    },
+    {
+      "item": "Mug",
+      "bbox": "[[0, 0, 149, 148]]"
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/25_segmented_sun_aaxxjlsuzvqlgylf.jpg": [
+    {
+      "item": "Bowl",
+      "bbox": "[[408, 400, 505, 455]]"
+    },
+    {
+      "item": "Cutting knife",
+      "bbox": "```json\n[[526, 468], [641, 468], [641, 538], [526, 538]]\n```"
+    },
+    {
+      "item": "Plate",
+      "bbox": "[[370, 415, 470, 475]]"
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[340, 380, 420, 440]]"
+    }
+  ],
+  "../images/kitchen/8_segmented_sun_awuawixsfaurzuaa.jpg": [
+    {
+      "item": "Cooking oil",
+      "bbox": "[]"
+    },
+    {
+      "item": "Dish towels",
+      "bbox": "[]"
+    },
+    {
+      "item": "Plate",
+      "bbox": "[]"
+    },
+    {
+      "item": "Spices",
+      "bbox": "[]"
+    }
+  ],
+  "../images/kitchen/26_segmented_sun_apslowdohuttdlkk.jpg": [
+    {
+      "item": "Cooking oil",
+      "bbox": "[]"
+    },
+    {
+      "item": "Dish towels",
+      "bbox": "```\n[[408, 472], [464, 472], [464, 536], [408, 536]]\n```"
+    },
+    {
+      "item": "Pot",
+      "bbox": "[[166, 448, 226, 600]]"
+    },
+    {
+      "item": "Spices",
+      "bbox": "[[157, 394], [373, 394], [373, 644], [157, 644]]"
+    }
+  ],
+  "../images/kitchen/17_segmented_sun_aiolecljpamcnixg.jpg": [
+    {
+      "item": "Cooking oil",
+      "bbox": ""
+    },
+    {
+      "item": "Dish towels",
+      "bbox": "[[626, 417, 692, 498]]"
+    },
+    {
+      "item": "Plate",
+      "bbox": "[[362, 98, 468, 280]]"
+    },
+    {
+      "item": "Spices",
+      "bbox": "[[301, 286, 373, 323]]"
+    }
+  ],
+  "../images/kitchen/6_segmented_sun_aqzschgwftpwisen.jpg": [
+    {
+      "item": "Bowl",
+      "bbox": "[[242, 158, 292, 176]]"
+    },
+    {
+      "item": "Cutting knife",
+      "bbox": "[[59, 169], [131, 169], [131, 204], [59, 204]]"
+    },
+    {
+      "item": "Plate",
+      "bbox": "[[167, 146, 221, 199]]"
+    },
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[89, 108, 127, 147]]"
+    }
+  ],
+  "../images/kitchen/6_segmented_sun_althuptvuaxvjman.jpg": [
+    {
+      "item": "Cooking oil",
+      "bbox": "[]"
+    },
+    {
+      "item": "Dish towels",
+      "bbox": "[]"
+    },
+    {
+      "item": "Pot",
+      "bbox": "[[7, 423, 112, 599]]"
+    },
+    {
+      "item": "Spoon",
+      "bbox": "[]"
     }
   ]
 }
