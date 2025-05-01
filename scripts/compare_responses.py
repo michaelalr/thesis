@@ -443,7 +443,33 @@ def give_score_on_data(data_json, users_responses_json, scores_json, response_ty
     plt.show()
 
 
-def give_score_on_data_fixed(data_json, users_responses_json, scores_json, response_type="human"):
+def extract_chosen_polygon(response, image_path, response_type, data_json):
+    if response_type == "kosmos":
+        entities = literal_eval(response.get("entities", "[]"))
+        if len(entities) > 0:
+            chosen_bbox = entities[0][2][0]  # Only first bbox
+            suffix_image_path = clean_image_path(image_path=image_path, is_test=("test" in data_json))
+            return denormalize_bbox_to_polygon(chosen_bbox, suffix_image_path)
+        return []
+
+    elif response_type == "gemini":
+        if response.get("gemini_bbox_polygon_string") == "[[0, 0], [0, 0], [0, 0], [0, 0]]":
+            return []
+        return literal_eval(response.get("gemini_bbox_polygon_string", "[]"))
+
+    elif response_type == "dino":
+        containers_mask_polygon = json.loads(response.get("containers_mask_polygon", "[]"))
+        if isinstance(containers_mask_polygon, list) and len(containers_mask_polygon) > 1:
+            return simplify_bbox(containers_mask_polygon)
+        elif isinstance(containers_mask_polygon, list) and len(containers_mask_polygon) == 1:
+            return containers_mask_polygon[0]
+        return []
+
+    else:
+        return literal_eval(response.get("chosen_polygon", "[]"))
+
+
+def give_score_on_data_fixed(data_json, users_responses_json, scores_json, response_type="human", mode="partial"):
     # Load correct annotations
     with open(data_json, "r") as f:
         correct_annotations = json.load(f)
@@ -452,91 +478,104 @@ def give_score_on_data_fixed(data_json, users_responses_json, scores_json, respo
     with open(users_responses_json, "r") as f:
         user_responses = json.load(f)
 
-    print(f"Loaded {len(user_responses)} responses.")
+    print(f"Loaded {len(user_responses)} user responses.")
 
-    # Create a quick-lookup map from (image_path, item) to response
+    # ---------------------
+    correct_keys = set((entry["image_path"], entry["chosen_item"]) for entry in correct_annotations)
+
+    missing = []
+    for r in user_responses:
+        key = (r["image_path"], r["chosen_item"])
+        if key not in correct_keys:
+            missing.append(key)
+
+    print(f"Missing {len(missing)} response keys in correct data:")
+    for key in missing[:10]:  # Show first 10
+        print(key)
+    # ---------------------
+
+    # Create quick lookup dictionaries
+    correct_lookup = {
+        (entry["image_path"], entry["chosen_item"]): literal_eval(entry["chosen_polygon"])
+        for entry in correct_annotations
+    }
     response_lookup = {
-        (resp["image_path"], resp["chosen_item"]): resp
-        for resp in user_responses
+        (r["image_path"], r["chosen_item"]): r
+        for r in user_responses
     }
 
     user_scores = {}
     total_attempts = {}
     iou_scores = {}
 
-    for entry in correct_annotations:
+    # Evaluate
+    data_to_iterate = (
+        user_responses if mode == "partial" else correct_annotations
+    )
+
+    for entry in data_to_iterate:
         image_path = entry["image_path"]
         chosen_item = entry["chosen_item"]
-        key = (image_path, chosen_item)
-        correct_polygon = literal_eval(entry["chosen_polygon"])
+        if mode == "partial":
+            key = (image_path, chosen_item)
+            if key not in correct_lookup:
+                continue
+            correct_polygon = correct_lookup[key]
+            response = entry
+        else:  # full
+            correct_polygon = literal_eval(entry["chosen_polygon"])
+            response = response_lookup.get((image_path, chosen_item), None)
 
-        response = response_lookup.get(key)
-        user_id = response.get("user_id") if response_type == "human" and response else response_type
+        user_id = (
+            response["user_id"]
+            if response_type == "human" and response and "user_id" in response
+            else response_type
+        )
 
-        if not user_id:
-            user_id = "unknown"
-
-        # Count total attempts from ground truth
+        # Track total attempts
         total_attempts[user_id] = total_attempts.get(user_id, 0) + 1
 
-        # Get chosen polygon
-        if not response:
-            chosen_polygon = []  # Assume empty response
-        else:
+        # Determine chosen polygon
+        if response:
             try:
-                if response_type == "kosmos":
-                    entities = literal_eval(response["entities"])
-                    if len(entities) > 0:
-                        bbox = entities[0][2][0]
-                        suffix_image_path = clean_image_path(image_path=image_path, is_test=("test" in data_json))
-                        chosen_polygon = denormalize_bbox_to_polygon(bbox, suffix_image_path)
-                    else:
-                        chosen_polygon = []
-                elif response_type == "gemini":
-                    chosen_polygon = [] if response["gemini_bbox_polygon_string"] == "[[0, 0], [0, 0], [0, 0], [0, 0]]" \
-                        else literal_eval(response["gemini_bbox_polygon_string"])
-                elif response_type == "dino":
-                    containers = json.loads(response["containers_mask_polygon"])
-                    if not containers:
-                        chosen_polygon = []
-                    elif len(containers) == 1:
-                        chosen_polygon = containers[0]
-                    else:
-                        chosen_polygon = simplify_bbox(containers)
-                else:
-                    chosen_polygon = literal_eval(response["chosen_polygon"])
+                chosen_polygon = extract_chosen_polygon(response, image_path, response_type, data_json)
             except Exception as e:
-                print(f"Error processing response for {key}: {e}")
+                print(f"Error extracting polygon for {image_path}, {chosen_item}: {e}")
                 chosen_polygon = []
+        else:
+            chosen_polygon = []
 
         # Compute IoU
         try:
             iou = compute_iou(correct_polygon, chosen_polygon)
         except Exception as e:
-            print(f"IoU error on {key}: {e}")
+            print(f"Error computing IoU for {image_path}, {chosen_item}: {e}")
             iou = 0.0
 
+        # Record IoU
         iou_scores[user_id] = iou_scores.get(user_id, []) + [iou]
 
-        # Apply scoring thresholds
-        if response_type in ["human", "chatgpt", "random"]:
-            if iou == 1.0:
-                user_scores[user_id] = user_scores.get(user_id, 0) + 1
-        elif response_type in ["kosmos", "gemini", "gpt-4o"]:
-            if iou >= 0.2:
-                user_scores[user_id] = user_scores.get(user_id, 0) + 1
-        elif response_type == "dino":
-            if iou == 1.0:
-                user_scores[user_id] = user_scores.get(user_id, 0) + 1
+        # Count correct answers based on IoU thresholds
+        threshold = {
+            "human": 1.0,
+            "random": 1.0,
+            "chatgpt": 1.0,
+            "gpt-4o": 0.5,
+            "kosmos": 0.5,
+            "gemini": 0.5,
+            "dino": 1.0,
+        }.get(response_type, 1.0)
 
-    # Calculate metrics
+        if iou >= threshold:
+            user_scores[user_id] = user_scores.get(user_id, 0) + 1
+
+    # Compute summary metrics
     user_percentages = {
         user: (user_scores.get(user, 0) / total_attempts[user]) * 100
         for user in total_attempts
     }
-
     user_iou_avg = {
-        user: sum(iou_scores.get(user, [])) / len(iou_scores.get(user, [])) if iou_scores.get(user) else 0.0
+        user: sum(iou_scores[user]) / len(iou_scores[user]) if user in iou_scores else 0.0
         for user in total_attempts
     }
 
@@ -545,16 +584,17 @@ def give_score_on_data_fixed(data_json, users_responses_json, scores_json, respo
             "user_id": user,
             "correct_answers": user_scores.get(user, 0),
             "total_attempts": total_attempts[user],
-            "accuracy (%)": user_percentages[user],
-            "average_IoU": user_iou_avg[user]
+            "accuracy (%)": round(user_percentages[user], 2),
+            "average_IoU": round(user_iou_avg[user], 3)
         }
         for user in total_attempts
     ])
 
     print(df_scores)
 
-    # Save to a JSON file if needed
-    df_scores.to_json(scores_json, orient="records", indent=4)
+    # Optional: save results to file
+    if scores_json:
+        df_scores.to_json(scores_json, orient="records", indent=2)
 
 
 def create_random_baseline(train_or_test_data_json, train_or_test="train"):
@@ -687,9 +727,10 @@ def calculate_user_accuracy(train_data_json, user_responses_json):
 
 
 if __name__ == "__main__":
-    give_score_on_data(data_json="../data/train_data/train_data.json",
-                             users_responses_json="../baselines/random/random_train_responses.json",
-                             scores_json="../baselines/random/scores_random_train_data.json", response_type="random")
+    give_score_on_data_fixed(data_json="../data/train_data/train_data.json",
+                             users_responses_json="../models/chat_gpt/chatgpt_train_short_id_pos_lab_anchrs_ratio_most.json",
+                             scores_json="../models/chat_gpt/scores_chatgpt_train_short_id_pos_lab_anchrs_ratio_most.json",
+                             response_type="chatgpt", mode="partial")
     # give_score_on_data_fixed(data_json="../data/train_data/train_data.json", users_responses_json="../models/chat_gpt/chatgpt_baseline_parse.json",
     #                    scores_json="../models/chat_gpt/scores_chatgpt_baseline_parse.json", response_type="gpt-4o")
     # check_gemini_bbox()

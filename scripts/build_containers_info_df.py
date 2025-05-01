@@ -444,6 +444,45 @@ def add_ids_to_csv(csv_path, output_path):
     print(f"Saved CSV with IDs to {output_path}")
     return df
 
+def ratio_to_shape_description(ratio):
+    try:
+        ratio = float(ratio)
+    except (ValueError, TypeError):
+        return None
+
+    if ratio < 0.5:
+        return "wide and short"
+    elif 0.5 <= ratio < 0.8:
+        return "wider than tall"
+    elif 0.8 <= ratio <= 1.2:
+        return "square-like"
+    elif 1.2 < ratio <= 1.5:
+        return "taller than wide"
+    else:
+        return "narrow and tall"
+
+def angle_to_direction(deg):
+    if deg is None:
+        return "near"
+    # Normalize to 0–360
+    deg = deg % 360
+
+    if 337.5 <= deg or deg < 22.5:
+        return "above"
+    elif 22.5 <= deg < 67.5:
+        return "top-right"
+    elif 67.5 <= deg < 112.5:
+        return "to the right of"
+    elif 112.5 <= deg < 157.5:
+        return "bottom-right"
+    elif 157.5 <= deg < 202.5:
+        return "below"
+    elif 202.5 <= deg < 247.5:
+        return "bottom-left"
+    elif 247.5 <= deg < 292.5:
+        return "to the left of"
+    elif 292.5 <= deg < 337.5:
+        return "top-left"
 
 def describe_csv_row(row):
     id = row["short_id"]
@@ -454,6 +493,8 @@ def describe_csv_row(row):
     neighbors = row.get("neighbors", None)
     anchor_neighbors = row.get("anchor_neighbors", None)
     most_close_to_anchors = row.get("most_close_to_anchors", None)
+    angle_from_anchors = row.get("angle_from_anchors", None)
+    has_anchor_neighbors_in_image = row.get("has_anchor_neighbors_in_image", False)
 
     unclear_labels = ['drawer cabinet', 'drawer cabinet door', 'drawer door']
 
@@ -471,6 +512,11 @@ def describe_csv_row(row):
         description += f'{label}'
     else:
         description += f'{position} the countertop'
+
+    # Add ratio description
+    shape_desc = ratio_to_shape_description(ratio)
+    if shape_desc:
+        description += f", {shape_desc}"
 
     direction_map = {
         "above": "above",
@@ -510,8 +556,30 @@ def describe_csv_row(row):
                     description += ", located " + anchor_phrases[0] + "."
                 else:
                     description += ", located " + ", ".join(anchor_phrases[:-1]) + ", and " + anchor_phrases[-1] + "."
+
     except Exception as e:
         print(f"Error parsing anchor_neighbors: {e}")
+
+    if not has_anchor_neighbors_in_image:
+        try:
+            if isinstance(most_close_to_anchors, str):
+                most_close_to_anchors = ast.literal_eval(most_close_to_anchors)
+            if isinstance(angle_from_anchors, str):
+                angle_from_anchors = ast.literal_eval(angle_from_anchors)
+
+            close_phrases = []
+            for anchor, rank in most_close_to_anchors.items():
+                if rank in [1, 2]:
+                    direction_deg = angle_from_anchors.get(anchor)
+                    direction = angle_to_direction(direction_deg)
+                    phrase = f"{'Closest' if rank == 1 else 'Second closest'} to the {anchor} ({direction})"
+                    close_phrases.append(phrase)
+
+            if close_phrases:
+                description += ". " + "; ".join(close_phrases) + "."
+
+        except Exception as e:
+            print(f"Error parsing most_close_to_anchors or angle: {e}")
 
     # Handle most_close_to_anchors safely
     # try:
@@ -612,11 +680,14 @@ def describe_csv_row(row):
     #     print(f"Error parsing neighbors: {e}")
     #     pass  # In case of malformed JSON or any error, skip neighbor info
 
+    if not description.strip().endswith("."):
+        description += "."
     return description
 
 
 def add_descriptions_to_csv(csv_path, output_path, subset_df=pd.DataFrame({})):
     df = pd.read_csv(csv_path) if subset_df.empty else subset_df
+    df = add_anchor_neighbor_flags(df)
     df["description"] = df.apply(describe_csv_row, axis=1)
     df.to_csv(output_path, index=False)
     print(f"Saved CSV with descriptions to {output_path}")
@@ -1352,6 +1423,20 @@ def add_most_close_to_anchors_column(input_csv, output_csv):
     df.to_csv(output_csv, index=False)
     print(f"Saved updated CSV with ranked proximity to anchors at: {output_csv}")
 
+def add_anchor_neighbor_flags(df):
+    df['has_anchor_neighbors_in_image'] = False
+    for image_path, group in df.groupby('image_path_html'):
+        has_anchors = False
+        for anchor_str in group['anchor_neighbors'].dropna():
+            try:
+                anchor_dict = json.loads(anchor_str)
+                if any(v is not None for v in anchor_dict.values()):
+                    has_anchors = True
+                    break
+            except Exception:
+                continue
+        df.loc[group.index, 'has_anchor_neighbors_in_image'] = has_anchors
+    return df
 
 def create_random_image_subset(csv_path, json_path, sample_size=100, seed=42):
     # Load the full CSV
@@ -1581,12 +1666,6 @@ def build_train_df_from_start():
     # add_anchor_distances_and_angles(containers_csv_path=csv_with_anchors, anchors_json_path=image_details_with_anchors,
     #                                 output_csv_path=csv_with_distance_angle_from_anchors)
 
-    # plot_image_with_polygons(
-    #     df=pd.read_csv(csv_with_neighbors),
-    #     image_path_html="images/kitchen/15_segmented_sun_afxjcqelwocpxiyf.jpg",  # adjust to match your local path
-    #     n=5
-    # )
-
     csv_with_short_ids = "../labeled_containers_with_short_ids.csv"
     # add_short_ids(csv_path=csv_with_distance_angle_from_anchors, output_csv_path=csv_with_short_ids)
 
@@ -1603,13 +1682,18 @@ def build_train_df_from_start():
     # add_most_close_to_anchors_column(input_csv=csv_with_similar_neighbors_unclear_label, output_csv=csv_with_most_close_to_anchors)
 
     subset_df = filter_csv_by_image_subset(csv_path=csv_with_most_close_to_anchors, json_path=random_image_subset)
-    csv_id = "../short_id_pos_lab_closest_with_description.csv"
+    csv_id = "../short_id_pos_lab_anchrs_ratio_most_with_description.csv"
     add_descriptions_to_csv(csv_path=csv_with_most_close_to_anchors, output_path=csv_id, subset_df=subset_df)
 
+    # plot_image_with_polygons(
+    #     df=pd.read_csv(csv_id),
+    #     image_path_html="images/kitchen/12_segmented_sun_afwaivvfezladsbj.jpg",  # adjust to match your local path
+    #     n=5
+    # )
 
 if __name__ == '__main__':
-    build_test_df_from_start()
-    # build_train_df_from_start()
+    # build_test_df_from_start()
+    build_train_df_from_start()
 
     # create_subset_image_to_items(keep_images_json_path=random_image_subset,
     #                              full_mapping_json_path="../image_details/image_to_items_dict.json",
