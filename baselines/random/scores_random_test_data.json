@@ -1,9 +1,9 @@
 [
     {
         "user_id":"random",
-        "correct_answers":20,
-        "total_attempts":190,
-        "accuracy (%)":10.5263157895,
-        "average_IoU":0.1325119488
+        "correct_answers":7,
+        "total_attempts":111,
+        "accuracy (%)":6.3063063063,
+        "average_IoU":0.064899013
     }
 ]

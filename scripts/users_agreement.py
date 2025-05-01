@@ -470,7 +470,7 @@ def agreement_human_random(human_responses_json, random_responses_json):
     stat_and_plot_human_random(df=df)
 
 
-def full_human_agreement(cleaned_response_csv, agreement_pairs_csv):
+def full_human_agreement(cleaned_response_csv, agreement_pairs_json):
     # Load the cleaned responses
     df = pd.read_csv(cleaned_response_csv)
 
@@ -488,8 +488,19 @@ def full_human_agreement(cleaned_response_csv, agreement_pairs_csv):
 
     # Get unique image_path–chosen_item pairs with agreement
     agreed_pairs = agreed_groups[['image_path', 'chosen_item']].drop_duplicates()
-    agreed_pairs.to_csv(agreement_pairs_csv, index=False)
-    print(agreed_pairs)
+    # Convert to desired dict format
+    result_dict = agreed_pairs.groupby('image_path')['chosen_item'].apply(list).to_dict()
+
+    # Also create a list of all image paths with agreement
+    agreed_image_paths = list(result_dict.keys())
+    with open("../image_details/agreed_images.json", 'w') as f:
+        json.dump(agreed_image_paths, f, indent=2)
+
+    # Save as JSON
+    with open(agreement_pairs_json, 'w') as f:
+        json.dump(result_dict, f, indent=2)
+
+    print(f"Saved agreed pairs to {agreement_pairs_json}")
 
 
 if __name__ == '__main__':
@@ -512,4 +523,4 @@ if __name__ == '__main__':
     # agreement_human_random(human_responses_json='../baselines/human/cleaned_responses.json',
     #                        random_responses_json="../baselines/random/random_train_responses.json")
 
-    full_human_agreement(cleaned_response_csv='../baselines/human/cleaned_responses.csv', agreement_pairs_csv='../baselines/human/agreement_pairs.csv')
+    full_human_agreement(cleaned_response_csv='../baselines/human/cleaned_responses.csv', agreement_pairs_json='../baselines/human/agreement_pairs.json')

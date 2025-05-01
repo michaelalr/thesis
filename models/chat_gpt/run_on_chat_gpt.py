@@ -15,46 +15,66 @@ client = OpenAI(
 # Prepare and call ChatGPT API
 def ask_chatgpt(containers, item):
     system_prompt = """
-    You are a helpful assistant that determines the most likely storage container for household items in a kitchen.
-    Containers are described in natural language. Given a specific item, select the most appropriate container, or say that none are suitable.
-    
-    Format:
-    Item: [Name]
-    Best container: [just container id or "None"]
-    Reasoning: [short explanation]
-    
+    You are helping locate a household item in a kitchen.
+    The item is stored in one of several visible containers (e.g., drawers, cabinets), but I don't know which.
+    I’ll provide a list of container descriptions and the item name.
+    Your task is to identify the most likely container based on typical kitchen organization. If none are suitable, return "None".
+
+    Response format:
+    Item: [Name]  
+    Best container: [Container ID or "None"]  
+    Reasoning: [Short explanation]
+
     ### Example 1
-    Item: Knife  
-    Containers:
-    - Container id 1, is a "cabinet door" below the countertop.  
-    - Container id 2, is a "drawer" below the countertop.  
-    - Container id 3, is a "cabinet door" above the countertop.
-    
-    Item: Knife
-    Best container: 2  
-    Reasoning: Knives are typically stored in drawers for safety and accessibility.
-    
+    Item: Fork  
+    Containers:  
+    - Container 1: cabinet door below the countertop, located to the right of the dishwasher.  
+    - Container 2: below the countertop, located to the left of the dishwasher.  
+    - Container 3: cabinet door above the countertop, located above the coffee machine.  
+    - Container 4: drawer below the countertop.  
+    - Container 5: cabinet door above the countertop.  
+    - Container 6: cabinet door above the countertop.  
+
+    Item: Fork  
+    Best container: 4  
+    Reasoning: Forks are usually stored in drawers below the countertop for easy access.
+
     ### Example 2
     Item: Trash Bag  
-    Containers:
-    - Container id 1, is a "cabinet door" under the sink.  
-    - Container id 2, is a "cabinet door" above the stove.
-    
-    Item: Trash Bag
-    Best container: 1  
-    Reasoning: Trash bags are commonly stored under the sink where the trash can is.
-    
-    ### Example 3  
-    Item: Winter Coat  
-    Containers:
-    - Container id 1, is a "drawer" below the countertop.  
-    - Container id 2, is a "cabinet door" below the sink.
-    
-    Item: Winter Coat
-    Best container: None  
-    Reasoning: A winter coat would not be stored in kitchen storage like drawers or cabinets.
+    Containers:  
+    - Container 1: cabinet door above the countertop.  
+    - Container 2: drawer below the countertop.  
+    - Container 3: cabinet door below the countertop, located below the sink.  
 
-    Now do the same for the following item and containers.
+    Item: Trash Bag  
+    Best container: 3  
+    Reasoning: Trash bags are commonly stored under the sink near the trash can.
+
+    ### Example 3
+    Item: Knife  
+    Containers:  
+    - Container 1: cabinet door.  
+    - Container 2: drawer, located below the electronic kettle, above the oven, at the bottom-right of the refrigerator, and at the bottom-left of the dish drying rack.  
+    - Container 3: cabinet door, located below the dishwasher.  
+
+    Item: Knife  
+    Best container: 2  
+    Reasoning: Knives are typically stored in drawers for safety and accessibility.
+
+    ### Example 4
+    Item: Baking pan  
+    Containers:  
+    - Container 1: drawer below the countertop, located at the bottom-right of the oven, and at the top-right of the electronic kettle.  
+    - Container 2: cabinet door below the countertop, located to the right of the electronic kettle, and at the bottom-right of the oven.  
+    - Container 3: cabinet door below the countertop, located below the stove.  
+    - Container 4: below the countertop.  
+    - Container 5: cabinet door below the countertop, located to the left of the electronic kettle, and at the bottom-left of the oven.  
+
+    Item: Baking pan  
+    Best container: 5  
+    Reasoning: Baking pans are stored in cabinets below the countertop near the oven.
+
+    Now respond to the following:
     """.strip()
 
     user_prompt = f"Item: {item}\nContainers:\n" + "\n".join(f"- {desc}" for desc in containers)
@@ -121,5 +141,5 @@ if __name__ == '__main__':
     # Load data
     csv_path = "../../short_id_pos_lab_anchors_with_description.csv"
     json_path = "../../image_details/image_to_items_dict.json"
-    chatgpt_output = "./chatgpt_results_short_id_pos_lab_anchors.csv"
+    chatgpt_output = "./chatgpt_results_short_id_pos_lab_anchors_sys_prompt.csv"
     run_queries_in_chat_gpt(csv_path=csv_path, json_path=json_path, chatgpt_output=chatgpt_output)

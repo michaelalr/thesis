@@ -1,0 +1,9 @@
+[
+    {
+        "user_id":"dino",
+        "correct_answers":13,
+        "total_attempts":111,
+        "accuracy (%)":11.7117117117,
+        "average_IoU":0.1748541313
+    }
+]

@@ -128,9 +128,9 @@ def create_json_from_csvs(info_csv_path, response_csv_path, output_json_path, co
     print(f"Saved {len(results)} entries to {output_json_path}")
 
 if __name__ == '__main__':
-    info_csv_path = "../../short_id_pos_lab_closest_with_description.csv"
-    response_csv_path = "chatgpt_results_short_id_pos_lab_closest.csv"
-    output_json_path = "./chatgpt_train_short_id_pos_lab_closest.json"
+    info_csv_path = "../../short_id_pos_lab_anchors_with_description.csv"
+    response_csv_path = "chatgpt_results_short_id_pos_lab_anchors_sys_prompt.csv"
+    output_json_path = "./chatgpt_train_short_id_pos_lab_anchors_sys_prompt.json"
     columns_in_description_1 = ["label", "above_or_below_countertop", "height_width_ratio"]
     columns_in_description_2 = ["label", "score", "above_or_below_countertop", "height_width_ratio", "neighbors", "anchor_neighbors"]
     columns_in_description_3 = ["label", "above_or_below_countertop", "height_width_ratio", "neighbors", "anchor_neighbors"]
@@ -153,6 +153,6 @@ if __name__ == '__main__':
         info_csv_path=info_csv_path,
         response_csv_path=response_csv_path,
         output_json_path=output_json_path,
-        columns_in_description=columns_in_description_17,
+        columns_in_description=columns_in_description_15,
         # story_prompt=True
     )

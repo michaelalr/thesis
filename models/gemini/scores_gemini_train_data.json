@@ -1,9 +1,9 @@
 [
     {
         "user_id":"gemini",
-        "correct_answers":1,
-        "total_attempts":4755,
-        "accuracy (%)":0.0210304942,
-        "average_IoU":0.0033894474
+        "correct_answers":0,
+        "total_attempts":165,
+        "accuracy (%)":0.0,
+        "average_IoU":0.0029058949
     }
 ]

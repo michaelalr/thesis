@@ -47,6 +47,7 @@ def build_chatgpt_baseline(json_path, chatgpt_output):
                 "If a suitable location cannot be determined, return an empty list [].\n"
                 "Only return the bounding box list, nothing else."
             )
+            prompt_2 = (f"In which cabinet or drawer am I likely to find a {item}? Give only one option")
 
             try:
                 # Send the prompt to the ChatGPT API
@@ -56,7 +57,7 @@ def build_chatgpt_baseline(json_path, chatgpt_output):
                         {
                             "role": "user",
                             "content": [
-                                {"type": "input_text", "text": prompt},
+                                {"type": "input_text", "text": prompt_2},
                                 {
                                     "type": "input_image",
                                     "image_url": f"data:image/jpeg;base64,{base64_image}",
@@ -96,6 +97,6 @@ def build_chatgpt_baseline(json_path, chatgpt_output):
 
 if __name__ == '__main__':
     # Load data
-    json_path = "../../image_details/image_to_items_dict_subset.json"
-    chatgpt_output = "./chatgpt_baseline.json"
+    json_path = "../../image_details/image_to_items_dict_2.json"
+    chatgpt_output = "./chatgpt_baseline_2.json"
     build_chatgpt_baseline(json_path=json_path, chatgpt_output=chatgpt_output)

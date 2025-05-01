@@ -1,0 +1,56 @@
+{
+  "../images/kitchen/34_segmented_sun_axpesxgsnxrsdqtr.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "You are likely to find a bottle opener in the purple drawer on the island."
+    },
+    {
+      "item": "Cutting board",
+      "bbox": "You are likely to find a cutting board in the purple drawer or cabinet."
+    },
+    {
+      "item": "Mug",
+      "bbox": "You are likely to find a mug in the light blue cabinet above the countertop, near the microwave."
+    },
+    {
+      "item": "Pan",
+      "bbox": "You are likely to find a pan in the light blue cabinet above the oven."
+    }
+  ],
+  "../images/kitchen/6_segmented_sun_advwcwduhfypopki.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "The top wicker basket drawer on the left."
+    },
+    {
+      "item": "Cutting board",
+      "bbox": "The cutting board is likely to be in the blue cabinet."
+    },
+    {
+      "item": "Mug",
+      "bbox": "You are likely to find a mug in the yellow cabinet above the microwave."
+    },
+    {
+      "item": "Pan",
+      "bbox": "The blue cabinet is a likely place to find a pan."
+    }
+  ],
+  "../images/kitchen/15_segmented_sun_avdeakyjwzxtynyf.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "I'm not sure where it might be, but you could check the mint green drawer under the counter to the right of the sink."
+    },
+    {
+      "item": "Cutting board",
+      "bbox": "You are likely to find a cutting board in the green cabinet below the countertop."
+    },
+    {
+      "item": "Mug",
+      "bbox": "You are likely to find a mug in the pink cabinet above the counter and sink."
+    },
+    {
+      "item": "Pan",
+      "bbox": "The green cabinet below the sink is a likely place to find a pan."
+    }
+  ]
+}
