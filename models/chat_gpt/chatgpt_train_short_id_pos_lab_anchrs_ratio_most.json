@@ -2,7 +2,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_afwaivvfezladsbj.jpg",
         "chosen_item": "Bowl",
-        "chosen_polygon": "[[368, 553], [245, 583], [248, 745], [373, 716]]",
+        "chosen_polygon": "[[709, 506], [712, 546], [799, 558], [802, 516]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -44,7 +44,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_afwaivvfezladsbj.jpg",
         "chosen_item": "Tupperware containers",
-        "chosen_polygon": "[[709, 506], [712, 546], [799, 558], [802, 516]]",
+        "chosen_polygon": "[[368, 553], [245, 583], [248, 745], [373, 716]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -170,7 +170,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_aopqdojqibxivqgu.jpg",
         "chosen_item": "Cooking oil",
-        "chosen_polygon": "[[101, 108], [97, 293], [172, 300], [176, 126]]",
+        "chosen_polygon": "[[148, 413], [0, 423], [0, 686], [149, 653]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -226,7 +226,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_ayzwrfmejwnjncpp.jpg",
         "chosen_item": "Cooking oil",
-        "chosen_polygon": "[[201, 431], [131, 458], [139, 467], [133, 534], [202, 532]]",
+        "chosen_polygon": "[[391, 363], [369, 376], [370, 435], [392, 425]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -492,7 +492,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/3_segmented_sun_aobtqmsjotgsxppu.jpg",
         "chosen_item": "Pan",
-        "chosen_polygon": "[]",
+        "chosen_polygon": "[[748, 88], [741, 231], [799, 235], [799, 92]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -534,7 +534,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/16_segmented_sun_alqafgyfzsctxwtt.jpg",
         "chosen_item": "Plate",
-        "chosen_polygon": "[[743, 152], [657, 165], [665, 256], [746, 249]]",
+        "chosen_polygon": "[[945, 109], [872, 126], [874, 216], [945, 208]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -548,7 +548,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/16_segmented_sun_alqafgyfzsctxwtt.jpg",
         "chosen_item": "Spices",
-        "chosen_polygon": "[[214, 128], [213, 294], [279, 294], [280, 137]]",
+        "chosen_polygon": "[[945, 109], [872, 126], [874, 216], [945, 208]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -590,7 +590,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aawsixgpgwqanatu.jpg",
         "chosen_item": "Mug",
-        "chosen_polygon": "[[234, 109], [169, 114], [169, 219], [233, 208]]",
+        "chosen_polygon": "[]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -604,7 +604,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_aawsixgpgwqanatu.jpg",
         "chosen_item": "Tupperware containers",
-        "chosen_polygon": "[[255, 81], [172, 85], [169, 108], [255, 101]]",
+        "chosen_polygon": "[[68, 94], [0, 98], [0, 122], [68, 117]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -996,7 +996,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/11_segmented_sun_awmwrrktzbyokpcr.jpg",
         "chosen_item": "Pan",
-        "chosen_polygon": "[[544, 3], [551, 145], [760, 134], [756, 0]]",
+        "chosen_polygon": "[[367, 4], [374, 147], [536, 136], [532, 0]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -1108,7 +1108,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/13_segmented_sun_aehkkaenyyjnewst.jpg",
         "chosen_item": "Tupperware containers",
-        "chosen_polygon": "[[355, 31], [344, 436], [504, 441], [514, 35]]",
+        "chosen_polygon": "[[439, 753], [432, 994], [533, 1002], [542, 760]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -1248,7 +1248,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_awuawixsfaurzuaa.jpg",
         "chosen_item": "Dish towels",
-        "chosen_polygon": "[[118, 200], [13, 208], [15, 233], [118, 228]]",
+        "chosen_polygon": "[[194, 198], [121, 199], [120, 226], [192, 221]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -1332,7 +1332,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/21_segmented_sun_aklijrkocvkcmsfg.jpg",
         "chosen_item": "Tupperware containers",
-        "chosen_polygon": "[[685, 449], [686, 500], [795, 528], [794, 475]]",
+        "chosen_polygon": "[[686, 529], [690, 529]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -1612,7 +1612,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_adwiyvylmsqaomcb.jpg",
         "chosen_item": "Spices",
-        "chosen_polygon": "[[222, 1], [218, 59], [275, 62], [281, 3]]",
+        "chosen_polygon": "[[160, 2], [159, 57], [213, 59], [216, 2]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -1640,7 +1640,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_avfsqwoiantddppx.jpg",
         "chosen_item": "Mug",
-        "chosen_polygon": "[[196, 158], [197, 158]]",
+        "chosen_polygon": "[[197, 160], [152, 162], [155, 214], [197, 212]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -1738,7 +1738,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/7_segmented_sun_aufggmchclraycgm.jpg",
         "chosen_item": "Bottle opener",
-        "chosen_polygon": "[[358, 319], [0, 327], [0, 760], [210, 762], [342, 684]]",
+        "chosen_polygon": "[[917, 541], [917, 542], [918, 542], [918, 541]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -1752,7 +1752,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/7_segmented_sun_aufggmchclraycgm.jpg",
         "chosen_item": "Cutting board",
-        "chosen_polygon": "[[358, 319], [0, 327], [0, 760], [210, 762], [342, 684]]",
+        "chosen_polygon": "[[175, 74], [177, 323], [218, 252], [331, 312], [332, 77]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -1795,6 +1795,20 @@
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_aawzwijpmowksmpn.jpg",
         "chosen_item": "Bottle opener",
         "chosen_polygon": "[[748, 362], [717, 360], [716, 371], [704, 378], [706, 435], [740, 433]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio",
+            "most_close_to_anchors"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_aawzwijpmowksmpn.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[[593, 213], [550, 221], [551, 358], [594, 357]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -1892,7 +1906,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/10_segmented_sun_afjofbpiualrfwlz.jpg",
         "chosen_item": "Bottle opener",
-        "chosen_polygon": "[[652, 1584], [654, 1595], [674, 1594], [679, 1590], [677, 1586], [671, 1583], [663, 1585], [657, 1577]]",
+        "chosen_polygon": "[[684, 1166], [653, 1595], [770, 1581], [797, 1286]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -1962,7 +1976,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_adkmgnqaiypcnhqy.jpg",
         "chosen_item": "Cutting knife",
-        "chosen_polygon": "[[124, 171], [125, 183], [173, 186], [173, 174]]",
+        "chosen_polygon": "[[124, 171], [124, 183], [134, 185], [138, 197], [155, 196], [157, 190], [173, 190], [173, 174]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -2116,7 +2130,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/19_segmented_sun_alyqyulcvigwjdyc.jpg",
         "chosen_item": "Bowl",
-        "chosen_polygon": "[[28, 253]]",
+        "chosen_polygon": "[[135, 49], [134, 110], [149, 110], [149, 53]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -2186,7 +2200,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/13_segmented_sun_asymyduxvrjpcvzg.jpg",
         "chosen_item": "Cutting knife",
-        "chosen_polygon": "[[1696, 128], [1693, 130], [1689, 130], [1684, 134], [1684, 145], [1698, 137]]",
+        "chosen_polygon": "[[1270, 158], [1268, 154], [1264, 152], [1255, 155], [1252, 158], [1252, 162], [1255, 164], [1267, 165], [1270, 162]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -2284,7 +2298,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/13_segmented_sun_arerafgvufvljolx.jpg",
         "chosen_item": "Cutting board",
-        "chosen_polygon": "[[1, 175], [2, 175]]",
+        "chosen_polygon": "[[49, 173], [0, 178], [0, 209], [47, 201]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -2396,7 +2410,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_abqsxcyxnovlihxy.jpg",
         "chosen_item": "Cutting board",
-        "chosen_polygon": "[[230, 91], [230, 92], [233, 95], [236, 94], [236, 93], [237, 92], [235, 90], [231, 90]]",
+        "chosen_polygon": "[[230, 110], [230, 166], [299, 167], [299, 97], [255, 94], [264, 101], [260, 110]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -2662,7 +2676,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_acyvmyzypyuwnann.jpg",
         "chosen_item": "Cooking oil",
-        "chosen_polygon": "[[473, 294], [474, 303], [500, 310], [492, 318], [493, 351], [516, 358], [517, 303]]",
+        "chosen_polygon": "[[528, 135], [488, 141], [488, 230], [528, 227]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -2676,7 +2690,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_acyvmyzypyuwnann.jpg",
         "chosen_item": "Dish towels",
-        "chosen_polygon": "[[519, 288], [521, 302], [575, 311], [574, 295]]",
+        "chosen_polygon": "[[355, 259], [356, 278], [390, 286], [391, 263], [364, 257]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -2732,7 +2746,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_akjjfxpidxgkthco.jpg",
         "chosen_item": "Cutting board",
-        "chosen_polygon": "[[230, 74], [229, 111], [239, 112], [239, 74]]",
+        "chosen_polygon": "[[244, 116], [241, 119], [241, 134], [257, 135], [257, 117]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -2844,7 +2858,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_anleedlurkiswrjv.jpg",
         "chosen_item": "Pan",
-        "chosen_polygon": "[]",
+        "chosen_polygon": "[[228, 375], [228, 478], [278, 496], [279, 386]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -2858,7 +2872,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_anleedlurkiswrjv.jpg",
         "chosen_item": "Spoon",
-        "chosen_polygon": "[[213, 375], [167, 389], [169, 498], [215, 478]]",
+        "chosen_polygon": "[[282, 397], [282, 408], [282, 401], [283, 400]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -2900,7 +2914,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_althuptvuaxvjman.jpg",
         "chosen_item": "Pot",
-        "chosen_polygon": "[[191, 215], [191, 240], [268, 255], [268, 229]]",
+        "chosen_polygon": "[[142, 205], [146, 265], [188, 253], [189, 215]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -2942,7 +2956,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_afphfxkabyerpwkz.jpg",
         "chosen_item": "Cutting board",
-        "chosen_polygon": "[[652, 527], [656, 549], [721, 556], [717, 532]]",
+        "chosen_polygon": "[[1072, 519], [1072, 611], [1171, 630], [1170, 525]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -2956,7 +2970,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_afphfxkabyerpwkz.jpg",
         "chosen_item": "Pot",
-        "chosen_polygon": "[[994, 512], [994, 600], [1067, 612], [1066, 517]]",
+        "chosen_polygon": "[[1072, 519], [1072, 611], [1171, 630], [1170, 525]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -3166,7 +3180,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/16_segmented_sun_abwmjfnrmqjdltxn.jpg",
         "chosen_item": "Dish towels",
-        "chosen_polygon": "[[438, 409], [435, 391], [293, 393], [295, 413]]",
+        "chosen_polygon": "[[844, 384], [682, 383], [678, 411], [771, 413], [798, 401], [837, 410]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -3194,7 +3208,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/16_segmented_sun_abwmjfnrmqjdltxn.jpg",
         "chosen_item": "Spices",
-        "chosen_polygon": "[[438, 409], [435, 391], [293, 393], [295, 413]]",
+        "chosen_polygon": "[[422, 88], [295, 95], [298, 289], [433, 284]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -3236,7 +3250,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/4_segmented_sun_aitjzvdsvqtarrmr.jpg",
         "chosen_item": "Mug",
-        "chosen_polygon": "[[600, 341], [594, 459], [649, 486], [682, 477], [686, 364]]",
+        "chosen_polygon": "[]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -3278,7 +3292,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_ajpanclprxjlugfr.jpg",
         "chosen_item": "Dish towels",
-        "chosen_polygon": "[[229, 111], [228, 173], [255, 183], [255, 114]]",
+        "chosen_polygon": "[[193, 105], [192, 138], [218, 147], [220, 153], [207, 166], [226, 172], [226, 112]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -3404,7 +3418,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_avaaxiemmqbibywj.jpg",
         "chosen_item": "Mug",
-        "chosen_polygon": "[[178, 207]]",
+        "chosen_polygon": "[[0, 166], [0, 180], [35, 174], [35, 164], [3, 165], [3, 168]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -3418,7 +3432,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_avaaxiemmqbibywj.jpg",
         "chosen_item": "Pan",
-        "chosen_polygon": "[[178, 207]]",
+        "chosen_polygon": "[[66, 158], [40, 161], [39, 173], [67, 170]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -3544,7 +3558,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/8_segmented_sun_ahhrhzkyvzaqeark.jpg",
         "chosen_item": "Bowl",
-        "chosen_polygon": "[[107, 130], [31, 141], [32, 240], [60, 255], [111, 253]]",
+        "chosen_polygon": "[]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -3866,7 +3880,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/22_segmented_sun_aofyuejouqtbyooo.jpg",
         "chosen_item": "Tupperware containers",
-        "chosen_polygon": "[[446, 551], [568, 504], [567, 469], [445, 461]]",
+        "chosen_polygon": "[[1114, 339], [1117, 341], [1124, 341], [1125, 340], [1128, 340], [1129, 338], [1126, 337], [1116, 337]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -4006,7 +4020,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_ajuqshhjcubjzedh.jpg",
         "chosen_item": "Cutting board",
-        "chosen_polygon": "[[628, 494], [563, 505], [564, 546], [627, 531]]",
+        "chosen_polygon": "[[957, 498], [955, 645], [1087, 674], [1086, 508]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -4118,7 +4132,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/9_segmented_sun_awspbtmcoxakihbx.jpg",
         "chosen_item": "Cutting board",
-        "chosen_polygon": "[[156, 211], [149, 218], [154, 299], [220, 299], [220, 225]]",
+        "chosen_polygon": "[[223, 244], [223, 299], [299, 299], [299, 262]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -4174,7 +4188,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/22_segmented_sun_afkwbtipaeipuaer.jpg",
         "chosen_item": "Cutting board",
-        "chosen_polygon": "[[6, 187], [5, 188], [3, 188], [1, 190], [0, 190], [0, 191], [7, 191], [6, 190]]",
+        "chosen_polygon": "[[204, 194], [203, 217], [227, 219], [227, 194]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -4216,7 +4230,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/7_segmented_sun_auatsxdwxjotzqjr.jpg",
         "chosen_item": "Cooking oil",
-        "chosen_polygon": "[[478, 173], [477, 232], [500, 243], [495, 267], [556, 267], [558, 188], [527, 182], [542, 217], [511, 221], [505, 197], [521, 181]]",
+        "chosen_polygon": "[[560, 188], [559, 267], [607, 267], [608, 214], [596, 210], [594, 194]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -4258,7 +4272,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/7_segmented_sun_auatsxdwxjotzqjr.jpg",
         "chosen_item": "Spices",
-        "chosen_polygon": "[[560, 188], [559, 267], [607, 267], [608, 214], [596, 210], [594, 194]]",
+        "chosen_polygon": "[[734, 183], [699, 188], [703, 269], [715, 266], [715, 234], [734, 231]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -4272,7 +4286,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/18_segmented_sun_auhdmjbjkxwrixim.jpg",
         "chosen_item": "Bowl",
-        "chosen_polygon": "[[836, 80], [732, 83], [732, 248], [836, 245]]",
+        "chosen_polygon": "[[728, 83], [585, 88], [583, 187], [727, 188]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -4342,7 +4356,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/33_segmented_sun_awbppqusbpubsfeq.jpg",
         "chosen_item": "Cutting knife",
-        "chosen_polygon": "[[581, 329], [581, 342], [660, 377], [659, 356]]",
+        "chosen_polygon": "[[236, 326], [236, 341], [250, 341], [251, 326]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -4384,7 +4398,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/17_segmented_sun_aiolecljpamcnixg.jpg",
         "chosen_item": "Cooking oil",
-        "chosen_polygon": "[[746, 350], [745, 397], [799, 397], [799, 349]]",
+        "chosen_polygon": "[[276, 72], [280, 160], [255, 170], [255, 253], [316, 255], [314, 82]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -4650,7 +4664,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/17_segmented_sun_agorklincwxrdtga.jpg",
         "chosen_item": "Spices",
-        "chosen_polygon": "[[1510, 1939], [1202, 1988], [1207, 2417], [1513, 2334]]",
+        "chosen_polygon": "[[1693, 933], [1700, 1380], [1893, 1401], [1902, 962]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -4818,7 +4832,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/6_segmented_sun_aoqkmjxwlivgbkhq.jpg",
         "chosen_item": "Tupperware containers",
-        "chosen_polygon": "[[897, 792], [303, 790], [301, 873], [891, 877]]",
+        "chosen_polygon": "[[1185, 782], [914, 786], [910, 876], [1185, 878]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -4888,7 +4902,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_aucefajtdpoipkjt.jpg",
         "chosen_item": "Cutting knife",
-        "chosen_polygon": "[[704, 630], [695, 619], [545, 627], [543, 662], [702, 666]]",
+        "chosen_polygon": "[[705, 729], [547, 731], [547, 777], [702, 771]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -4930,7 +4944,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/14_segmented_sun_aucefajtdpoipkjt.jpg",
         "chosen_item": "Tupperware containers",
-        "chosen_polygon": "[[954, 208], [960, 407], [940, 442], [1097, 445], [1098, 214]]",
+        "chosen_polygon": "[[545, 683], [551, 724], [706, 712], [702, 678]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -5014,7 +5028,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/15_segmented_sun_avtqdvhwdfzykzby.jpg",
         "chosen_item": "Dish towels",
-        "chosen_polygon": "[[569, 752], [571, 789], [659, 799], [657, 759]]",
+        "chosen_polygon": "[[571, 668], [571, 705], [659, 712], [658, 671]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -5070,7 +5084,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/21_segmented_sun_abvefvntluoxopow.jpg",
         "chosen_item": "Cutting knife",
-        "chosen_polygon": "[[216, 120], [216, 129], [247, 133], [247, 125]]",
+        "chosen_polygon": "[[115, 126], [94, 130], [95, 141], [115, 136]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
@@ -5084,7 +5098,7 @@
     {
         "image_path": "https://michaelalr.github.io/thesis/images/kitchen/21_segmented_sun_abvefvntluoxopow.jpg",
         "chosen_item": "Mug",
-        "chosen_polygon": "[[76, 20], [75, 77], [95, 77], [97, 25]]",
+        "chosen_polygon": "[[120, 30], [119, 54], [135, 55], [135, 33]]",
         "info_columns": [
             "short_id",
             "above_or_below_countertop",
