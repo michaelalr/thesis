@@ -572,28 +572,28 @@ def describe_csv_row(row):
     except Exception as e:
         print(f"Error parsing anchor_neighbors: {e}")
 
-    if not has_anchor_neighbors_in_image:
-        try:
-            if isinstance(most_close_to_anchors, str):
-                most_close_to_anchors = ast.literal_eval(most_close_to_anchors)
-            if isinstance(angle_from_anchors, str):
-                angle_from_anchors = ast.literal_eval(angle_from_anchors)
-
-            anchor_list_text = format_anchor_list(most_close_to_anchors)
-            if len(anchor_list_text) > 0:
-                closest_phrase = f", the closest to the {anchor_list_text}"
-            # for anchor, rank in most_close_to_anchors.items():
-                # if rank in [1, 2]:
-                #     direction_deg = angle_from_anchors.get(anchor)
-                #     direction = angle_to_direction(direction_deg)
-                #     # phrase = f"{'Closest' if rank == 1 else 'Second closest'} to the {anchor} ({direction})"
-                #     phrase = f"', the closest to the {anchor}"
-                #     close_phrases.append(phrase)
-
-                description += closest_phrase + "."
-
-        except Exception as e:
-            print(f"Error parsing most_close_to_anchors or angle: {e}")
+    # if not has_anchor_neighbors_in_image:
+    #     try:
+    #         if isinstance(most_close_to_anchors, str):
+    #             most_close_to_anchors = ast.literal_eval(most_close_to_anchors)
+    #         if isinstance(angle_from_anchors, str):
+    #             angle_from_anchors = ast.literal_eval(angle_from_anchors)
+    #
+    #         anchor_list_text = format_anchor_list(most_close_to_anchors)
+    #         if len(anchor_list_text) > 0:
+    #             closest_phrase = f", the closest to the {anchor_list_text}"
+    #         # for anchor, rank in most_close_to_anchors.items():
+    #             # if rank in [1, 2]:
+    #             #     direction_deg = angle_from_anchors.get(anchor)
+    #             #     direction = angle_to_direction(direction_deg)
+    #             #     # phrase = f"{'Closest' if rank == 1 else 'Second closest'} to the {anchor} ({direction})"
+    #             #     phrase = f"', the closest to the {anchor}"
+    #             #     close_phrases.append(phrase)
+    #
+    #             description += closest_phrase + "."
+    #
+    #     except Exception as e:
+    #         print(f"Error parsing most_close_to_anchors or angle: {e}")
 
     # Handle most_close_to_anchors safely
     # try:
@@ -942,9 +942,14 @@ def load_anchor_json(json_path):
         anchors = []
         try:
             labeled_polygons = ast.literal_eval(entry['containers_mask_polygon_with_labels'])
+            best_anchors = {}  # key: label, value: (score, polygon)
+
             for label, score, poly in labeled_polygons:
-                # if len(poly) >= 3:
-                # Keep even if poly has < 3 points
+                if label not in best_anchors or score > best_anchors[label][0]:
+                    best_anchors[label] = (score, poly)
+
+            # Convert best_anchors dict to the desired list format
+            for label, (score, poly) in best_anchors.items():
                 anchors.append({'label': label, 'polygon': poly})
         except:
             continue
@@ -1555,7 +1560,7 @@ def filter_image_details_by_test_data(test_data_path, image_details_path, output
     # Create a set of (filename, chosen_item) pairs from test_data
     test_pairs = set()
     for entry in test_data:
-        filename = os.path.basename(entry["image_path_html"])
+        filename = os.path.basename(entry["image_path"])
         item = entry["chosen_item"]
         test_pairs.add((filename, item))
 
@@ -1566,7 +1571,7 @@ def filter_image_details_by_test_data(test_data_path, image_details_path, output
     # Filter image_details to only keep matching (filename, item) pairs
     filtered_data = []
     for entry in image_details:
-        filename = os.path.basename(entry["image_path_html"])
+        filename = os.path.basename(entry["image_path"])
         item = entry["chosen_item"]
         if (filename, item) in test_pairs:
             filtered_data.append(entry)
@@ -1586,39 +1591,39 @@ def build_test_df_from_start():
     image_details_countertop_output = "../image_details/image_details_test_countertop_output.json"
     image_details_with_anchors = "../image_details/image_details_test_anchors.json"
 
-    # classify_containers(image_details_json=image_details_json_path,
-    #                     image_details_with_labels_json=image_details_with_labels,
-    #                     csv_filename=csv_filename)
-    #
-    # add_ids_to_csv(csv_path=csv_filename, output_path=csv_filename)
-    # add_short_ids(csv_path=csv_filename, output_csv_path=csv_filename)
-    #
-    # add_image_path_html_match(image_details_countertop=image_details_countertop,
-    #                           image_details_json_path=image_details_json_path,
-    #                           output_path=image_details_countertop_output)
-    # add_countertop_min_y_fields(json_path=image_details_countertop_output)
-    # add_above_or_below_countertop(csv_path=csv_filename, countertop_json_path=image_details_countertop_output,
-    #                               output_csv_path=csv_filename)
-    # # plot_above_below_polygons(csv_filename, "../")
-    # add_height_width_ratio(csv_path=csv_filename, output_csv_path=csv_filename)
-    # add_neighbor_column_to_csv(info_csv_path=csv_filename, output_csv_path=csv_filename)
+    classify_containers(image_details_json=image_details_json_path,
+                        image_details_with_labels_json=image_details_with_labels,
+                        csv_filename=csv_filename)
+
+    add_ids_to_csv(csv_path=csv_filename, output_path=csv_filename)
+    add_short_ids(csv_path=csv_filename, output_csv_path=csv_filename)
+
+    add_image_path_html_match(image_details_countertop=image_details_countertop,
+                              image_details_json_path=image_details_json_path,
+                              output_path=image_details_countertop_output)
+    add_countertop_min_y_fields(json_path=image_details_countertop_output)
+    add_above_or_below_countertop(csv_path=csv_filename, countertop_json_path=image_details_countertop_output,
+                                  output_csv_path=csv_filename)
+    # plot_above_below_polygons(csv_filename, "../")
+    add_height_width_ratio(csv_path=csv_filename, output_csv_path=csv_filename)
+    add_neighbor_column_to_csv(info_csv_path=csv_filename, output_csv_path=csv_filename)
     add_anchor_neighbors_column_to_csv(
         info_csv_path=csv_filename,
         json_path=image_details_with_anchors,
         output_csv_path=csv_filename
     )
-    # add_anchor_distances_and_angles(containers_csv_path=csv_filename, anchors_json_path=image_details_with_anchors,
-    #                                 output_csv_path=csv_filename)
-    # analyze_labels(csv_path=csv_filename, output_csv_path=csv_filename)
-    # add_most_close_to_anchors_column(input_csv=csv_filename, output_csv=csv_filename)
+    add_anchor_distances_and_angles(containers_csv_path=csv_filename, anchors_json_path=image_details_with_anchors,
+                                    output_csv_path=csv_filename)
+    analyze_labels(csv_path=csv_filename, output_csv_path=csv_filename)
+    add_most_close_to_anchors_column(input_csv=csv_filename, output_csv=csv_filename)
 
-    plot_image_with_polygons(
-        df=pd.read_csv(csv_filename),
-        image_path_html="images/validation/20_segmented_Bottle_opener_39_a.jpg",  # adjust to match your local path
-        n=5
-    )
+    # plot_image_with_polygons(
+    #     df=pd.read_csv(csv_filename),
+    #     image_path_html="images/validation/20_segmented_Bottle_opener_39_a.jpg",  # adjust to match your local path
+    #     n=5
+    # )
 
-    # add_descriptions_to_csv(csv_path=csv_filename, output_path=csv_filename)
+    add_descriptions_to_csv(csv_path=csv_filename, output_path=csv_filename)
 
     # count_anchors_in_info_per_image_container(info_csv_path=csv_with_description)
     # count_anchors_in_response_per_image_container(csv_path="../models/chat_gpt/chatgpt_reasoning_results_2.csv")
@@ -1708,7 +1713,7 @@ def build_train_df_from_start():
     # )
 
 if __name__ == '__main__':
-    build_test_df_from_start()
+    # build_test_df_from_start()
     # build_train_df_from_start()
 
     # create_subset_image_to_items(keep_images_json_path=random_image_subset,
@@ -1718,6 +1723,6 @@ if __name__ == '__main__':
     # filter_dataset_by_pairs("../image_details/agreement_pairs.json", '../baselines/human/cleaned_responses.json', '../baselines/human/cleaned_responses_human_agreement.json')
 
     test_data_kitchen = "../data/test_data/test_data_kitchen.json"
-    image_path_validation = "../models/dino/dino_test_responses.json"
-    image_path_test_kitchen = "../models/dino/dino_test_responses_kitchen.json"
-    # filter_image_details_by_test_data(test_data_path=image_details_json_path, image_details_path=image_details_countertop, output_path=image_details_countertop)
+    image_path_validation = "../models/gemini/test_data_with_gemini_bboxes_as_strings.json"
+    image_path_test_kitchen = "../models/gemini/test_data_with_gemini_bboxes_as_strings_kitchen.json"
+    filter_image_details_by_test_data(test_data_path=test_data_kitchen, image_details_path=image_path_validation, output_path=image_path_test_kitchen)

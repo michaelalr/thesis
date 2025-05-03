@@ -1,0 +1,502 @@
+[
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/26_segmented_Bottle_opener_1_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[285, 480], [285, 618], [372, 618], [372, 480]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/19_segmented_Bottle_opener_2_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[155, 404], [155, 451], [255, 451], [255, 404]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/14_segmented_Bottle_opener_3_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[216, 640], [216, 849], [443, 849], [443, 640]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/9_segmented_Bottle_opener_4_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/13_segmented_Bottle_opener_5_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/3_segmented_Bottle_opener_6_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/18_segmented_Bottle_opener_7_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/18_segmented_Bottle_opener_8_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/2_segmented_Bottle_opener_9_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[254, 526], [390, 526], [390, 775], [254, 775]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/4_segmented_Bottle_opener_10_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/14_segmented_Bottle_opener_11_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[357, 711], [495, 711], [495, 824], [357, 824]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/8_segmented_Bottle_opener_12_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[134, 166], [134, 572], [333, 572], [333, 166]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/11_segmented_Bottle_opener_13_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[150, 500], [150, 650], [300, 650], [300, 500]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/19_segmented_Bottle_opener_14_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/6_segmented_Bottle_opener_15_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[264, 548], [264, 665], [774, 665], [774, 548]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/13_segmented_Bottle_opener_16_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[389, 505], [389, 639], [585, 639], [585, 505]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/21_segmented_Bottle_opener_17_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[259, 498], [259, 693], [503, 693], [503, 498]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/12_segmented_Bottle_opener_18_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[436, 689], [542, 689], [542, 801], [436, 801]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/18_segmented_Bottle_opener_19_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[227, 652], [451, 652], [451, 953], [227, 953]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/13_segmented_Bottle_opener_20_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[210, 510], [310, 510], [310, 660], [210, 660]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/15_segmented_Bottle_opener_21_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[444, 759], [444, 869], [687, 869], [687, 759]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/6_segmented_Bottle_opener_22_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[535, 400], [535, 490], [685, 490], [685, 400]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/10_segmented_Bottle_opener_23_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/13_segmented_Bottle_opener_24_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[402, 671], [402, 763], [600, 763], [600, 671]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/8_segmented_Bottle_opener_25_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[68, 259], [225, 259], [225, 625], [68, 625]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/19_segmented_Bottle_opener_26_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/29_segmented_Bottle_opener_27_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/25_segmented_Bottle_opener_29_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/33_segmented_Bottle_opener_30_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[160, 500], [160, 620], [280, 620], [280, 500]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/18_segmented_Bottle_opener_31_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[646, 711], [781, 711], [781, 955], [646, 955]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/6_segmented_Bottle_opener_32_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[621, 847], [744, 847], [744, 980], [621, 980]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/12_segmented_Bottle_opener_35_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[284, 833], [437, 833], [437, 1070], [284, 1070]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/5_segmented_Bottle_opener_37_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[320, 276], [320, 354], [560, 354], [560, 276]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/20_segmented_Bottle_opener_39_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/12_segmented_Bottle_opener_40_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[98, 533], [249, 533], [249, 655], [98, 655]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/6_segmented_Bottle_opener_41_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[818, 514], [818, 937], [1142, 937], [1142, 514]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/8_segmented_Bottle_opener_42_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/14_segmented_Bottle_opener_44_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[115, 431], [278, 431], [278, 682], [115, 682]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/24_segmented_Bottle_opener_45_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[465, 387], [465, 460], [558, 460], [558, 387]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/7_segmented_Bottle_opener_48_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[135, 478], [258, 478], [258, 647], [135, 647]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/17_segmented_Bottle_opener_47_a.jpeg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[752, 429], [927, 429], [927, 506], [752, 506]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/20_segmented_Bottle_opener_34_a.jpeg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/15_segmented_Bottle_opener_43_a.jpeg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[633, 388], [633, 424], [749, 424], [749, 388]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/9_segmented_Bottle_opener_33_a.jpeg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[55, 390], [269, 390], [269, 575], [55, 575]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/16_segmented_Food_containers__1_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[241, 365], [477, 365], [477, 703], [241, 703]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/18_segmented_Food_containers__2_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[481, 330], [481, 808], [637, 808], [637, 330]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/4_segmented_Food_containers__3_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/11_segmented_Food_containers__4_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[255, 732], [255, 848], [373, 848], [373, 732]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/18_segmented_Food_containers__5_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[139, 541], [139, 681], [385, 681], [385, 541]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/21_segmented_Food_containers__6_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[298, 457], [298, 564], [503, 564], [503, 457]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/18_segmented_Food_containers__7_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/16_segmented_Food_containers__8_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[65, 430], [65, 700], [275, 700], [275, 430]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/6_segmented_Food_containers__9_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[27, 222], [27, 636], [327, 636], [327, 222]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/10_segmented_Food_containers__10_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[264, 454], [264, 490], [367, 490], [367, 454]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/10_segmented_Food_containers__11_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[172, 579], [172, 738], [380, 738], [380, 579]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/14_segmented_Food_containers__12_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[465, 520], [465, 620], [580, 620], [580, 520]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/8_segmented_Food_containers__13_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[162, 589], [162, 680], [204, 680], [204, 589]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/16_segmented_Food_containers__14_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[229, 458], [229, 654], [366, 654], [366, 458]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/16_segmented_Food_containers__15_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[444, 224], [444, 422], [628, 422], [628, 224]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/8_segmented_Food_containers__16_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/14_segmented_Food_containers__17_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/19_segmented_Food_containers__18_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[328, 498], [328, 789], [499, 789], [499, 498]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/18_segmented_Food_containers__19_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/10_segmented_Food_containers__20_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[190, 300], [190, 600], [300, 600], [300, 300]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/22_segmented_Food_containers__21_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[255, 334], [255, 599], [385, 599], [385, 334]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/25_segmented_Food_containers__22_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[416, 407], [416, 508], [588, 508], [588, 407]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/10_segmented_Food_containers__23_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[694, 573], [847, 573], [847, 815], [694, 815]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/7_segmented_Food_containers__24_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[225, 490], [225, 720], [375, 720], [375, 490]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/18_segmented_Food_containers__28_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[625, 630], [625, 800], [740, 800], [740, 630]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/3_segmented_Food_containers__29_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[614, 280], [614, 494], [677, 494], [677, 280]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/21_segmented_Food_containers__33_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[235, 420], [235, 565], [394, 565], [394, 420]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/11_segmented_Food_containers__34_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[383, 457], [549, 457], [549, 810], [383, 810]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/6_segmented_Food_containers__35_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[230, 520], [450, 520], [450, 770], [230, 770]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/9_segmented_Food_containers__37_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[1342, 478], [1342, 793], [1607, 793], [1607, 478]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/20_segmented_Food_containers__39_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/12_segmented_Food_containers__40_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[434, 349], [434, 400], [542, 400], [542, 349]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/7_segmented_Food_containers__41_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[402, 523], [402, 718], [521, 718], [521, 523]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/15_segmented_Food_containers__36_a.jpeg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[222, 496], [222, 592], [326, 592], [326, 496]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/11_segmented_Food_containers__30_a.jpeg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[247, 541], [247, 753], [374, 753], [374, 541]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/9_segmented_Food_containers__25_a.jpeg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/17_segmented_Food_containers__31_a.jpeg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[437, 409], [437, 490], [536, 490], [536, 409]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/14_segmented_Random_5 - Candles_a.jpeg",
+    "chosen_item": "Candles",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/20_segmented_Random_15 - Cereals_a.jpg",
+    "chosen_item": "Cereals",
+    "chosen_polygon": "[[443, 271], [443, 338], [502, 338], [502, 271]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/18_segmented_Random_1 - Fork_a.jpg",
+    "chosen_item": "Fork",
+    "chosen_polygon": "[[711, 433], [809, 433], [809, 518], [711, 518]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/10_segmented_Random_12 - Fork_a.jpeg",
+    "chosen_item": "Fork",
+    "chosen_polygon": "[[254, 632], [254, 702], [403, 702], [403, 632]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/20_segmented_Random_7 - Peeler_a.jpeg",
+    "chosen_item": "Peeler",
+    "chosen_polygon": "[[430, 460], [540, 460], [540, 540], [430, 540]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/12_segmented_Random_14 - Pot_a.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/17_segmented_Random_22 - Pot_a.jpeg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[[790, 480], [790, 630], [985, 630], [985, 480]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/24_segmented_Random_21 - Rolling pin_a.jpg",
+    "chosen_item": "Rolling pin",
+    "chosen_polygon": "[[395, 710], [395, 831], [508, 831], [508, 710]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/6_segmented_Random_17 - Spices_a.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[547, 327], [780, 327], [780, 607], [547, 607]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/18_segmented_Screwdriver_1_a.jpg",
+    "chosen_item": "Screwdriver",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/20_segmented_Screwdriver_11_a.jpg",
+    "chosen_item": "Screwdriver",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/21_segmented_Screwdriver_16_a.jpg",
+    "chosen_item": "Screwdriver",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/15_segmented_Screwdriver_14_a.jpeg",
+    "chosen_item": "Screwdriver",
+    "chosen_polygon": "[[360, 530], [360, 620], [550, 620], [550, 530]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/11_segmented_Painkiller_1_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/18_segmented_Painkiller_4_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[[361, 416], [361, 539], [561, 539], [561, 416]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/21_segmented_Painkiller_5_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/6_segmented_Painkiller_19_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[[240, 740], [380, 740], [380, 1000], [240, 1000]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/20_segmented_Painkiller_23_a.jpeg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[[599, 703], [599, 841], [774, 841], [774, 703]]"
+  },
+  {
+    "image_path": "https://michaelalr.github.io/thesis/images/validation/15_segmented_Painkiller_29_a.jpeg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[[245, 470], [245, 525], [325, 525], [325, 470]]"
+  }
+]

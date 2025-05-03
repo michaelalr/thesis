@@ -1,0 +1,9 @@
+[
+  {
+    "user_id":1,
+    "correct_answers":38,
+    "total_attempts":100,
+    "accuracy (%)":38.0,
+    "average_IoU":0.38
+  }
+]

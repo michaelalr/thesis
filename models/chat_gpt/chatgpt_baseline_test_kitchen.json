@@ -1,0 +1,602 @@
+{
+  "../images/validation/26_segmented_Bottle_opener_1_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[285, 480, 372, 618]]"
+    }
+  ],
+  "../images/validation/19_segmented_Bottle_opener_2_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[155, 404, 255, 451]]"
+    }
+  ],
+  "../images/validation/14_segmented_Bottle_opener_3_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[216, 640, 443, 849]]"
+    }
+  ],
+  "../images/validation/9_segmented_Bottle_opener_4_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    }
+  ],
+  "../images/validation/13_segmented_Bottle_opener_5_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    }
+  ],
+  "../images/validation/3_segmented_Bottle_opener_6_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    }
+  ],
+  "../images/validation/18_segmented_Bottle_opener_7_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    }
+  ],
+  "../images/validation/18_segmented_Bottle_opener_8_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]\n"
+    }
+  ],
+  "../images/validation/2_segmented_Bottle_opener_9_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[254, 526], [390, 526], [390, 775], [254, 775]]"
+    }
+  ],
+  "../images/validation/4_segmented_Bottle_opener_10_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    }
+  ],
+  "../images/validation/14_segmented_Bottle_opener_11_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[357, 711], [495, 711], [495, 824], [357, 824]]"
+    }
+  ],
+  "../images/validation/8_segmented_Bottle_opener_12_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[134, 166, 333, 572]]"
+    }
+  ],
+  "../images/validation/11_segmented_Bottle_opener_13_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[150, 500, 300, 650]]"
+    }
+  ],
+  "../images/validation/19_segmented_Bottle_opener_14_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    }
+  ],
+  "../images/validation/6_segmented_Bottle_opener_15_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[264, 548, 774, 665]]"
+    }
+  ],
+  "../images/validation/13_segmented_Bottle_opener_16_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[389, 505, 585, 639]"
+    }
+  ],
+  "../images/validation/21_segmented_Bottle_opener_17_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[259, 498, 503, 693]]"
+    }
+  ],
+  "../images/validation/12_segmented_Bottle_opener_18_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[436, 689], [542, 689], [542, 801], [436, 801]]"
+    }
+  ],
+  "../images/validation/18_segmented_Bottle_opener_19_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[227, 652], [451, 652], [451, 953], [227, 953]]"
+    }
+  ],
+  "../images/validation/13_segmented_Bottle_opener_20_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[210, 510], [310, 510], [310, 660], [210, 660]]"
+    }
+  ],
+  "../images/validation/15_segmented_Bottle_opener_21_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[444, 759, 687, 869]]"
+    }
+  ],
+  "../images/validation/6_segmented_Bottle_opener_22_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[535, 400, 685, 490]]"
+    }
+  ],
+  "../images/validation/10_segmented_Bottle_opener_23_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    }
+  ],
+  "../images/validation/13_segmented_Bottle_opener_24_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[402, 671, 600, 763]]"
+    }
+  ],
+  "../images/validation/8_segmented_Bottle_opener_25_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[68, 259], [225, 259], [225, 625], [68, 625]]"
+    }
+  ],
+  "../images/validation/19_segmented_Bottle_opener_26_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]\n"
+    }
+  ],
+  "../images/validation/29_segmented_Bottle_opener_27_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    }
+  ],
+  "../images/validation/25_segmented_Bottle_opener_29_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": ""
+    }
+  ],
+  "../images/validation/33_segmented_Bottle_opener_30_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[160, 500, 280, 620]]"
+    }
+  ],
+  "../images/validation/18_segmented_Bottle_opener_31_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[646, 711], [781, 711], [781, 955], [646, 955]]"
+    }
+  ],
+  "../images/validation/6_segmented_Bottle_opener_32_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[621, 847], [744, 847], [744, 980], [621, 980]]"
+    }
+  ],
+  "../images/validation/12_segmented_Bottle_opener_35_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[284, 833], [437, 833], [437, 1070], [284, 1070]]"
+    }
+  ],
+  "../images/validation/5_segmented_Bottle_opener_37_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[320, 276, 560, 354]]"
+    }
+  ],
+  "../images/validation/20_segmented_Bottle_opener_39_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    }
+  ],
+  "../images/validation/12_segmented_Bottle_opener_40_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[98, 533], [249, 533], [249, 655], [98, 655]]"
+    }
+  ],
+  "../images/validation/6_segmented_Bottle_opener_41_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[818, 514, 1142, 937]]"
+    }
+  ],
+  "../images/validation/8_segmented_Bottle_opener_42_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    }
+  ],
+  "../images/validation/14_segmented_Bottle_opener_44_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[115, 431], [278, 431], [278, 682], [115, 682]]"
+    }
+  ],
+  "../images/validation/24_segmented_Bottle_opener_45_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[465, 387, 558, 460]]"
+    }
+  ],
+  "../images/validation/7_segmented_Bottle_opener_48_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[135, 478], [258, 478], [258, 647], [135, 647]]"
+    }
+  ],
+  "../images/validation/17_segmented_Bottle_opener_47_a.jpeg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[752, 429], [927, 429], [927, 506], [752, 506]]"
+    }
+  ],
+  "../images/validation/20_segmented_Bottle_opener_34_a.jpeg": [
+    {
+      "item": "Bottle opener",
+      "bbox": ""
+    }
+  ],
+  "../images/validation/15_segmented_Bottle_opener_43_a.jpeg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "```\n[633, 388, 749, 424]\n```"
+    }
+  ],
+  "../images/validation/9_segmented_Bottle_opener_33_a.jpeg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[55, 390], [269, 390], [269, 575], [55, 575]]"
+    }
+  ],
+  "../images/validation/16_segmented_Food_containers__1_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[241, 365], [477, 365], [477, 703], [241, 703]]"
+    }
+  ],
+  "../images/validation/18_segmented_Food_containers__2_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[481, 330, 637, 808]]"
+    }
+  ],
+  "../images/validation/4_segmented_Food_containers__3_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[]"
+    }
+  ],
+  "../images/validation/11_segmented_Food_containers__4_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[255, 732, 373, 848]]"
+    }
+  ],
+  "../images/validation/18_segmented_Food_containers__5_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "```\n[139, 541, 385, 681]\n```"
+    }
+  ],
+  "../images/validation/21_segmented_Food_containers__6_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[298, 457, 503, 564]]"
+    }
+  ],
+  "../images/validation/18_segmented_Food_containers__7_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[]"
+    }
+  ],
+  "../images/validation/16_segmented_Food_containers__8_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[65, 430, 275, 700]"
+    }
+  ],
+  "../images/validation/6_segmented_Food_containers__9_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[27, 222, 327, 636]]"
+    }
+  ],
+  "../images/validation/10_segmented_Food_containers__10_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[264, 454, 367, 490]]"
+    }
+  ],
+  "../images/validation/10_segmented_Food_containers__11_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[172, 579, 380, 738]]"
+    }
+  ],
+  "../images/validation/14_segmented_Food_containers__12_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[465, 520, 580, 620]]"
+    }
+  ],
+  "../images/validation/8_segmented_Food_containers__13_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[162, 589, 204, 680]"
+    }
+  ],
+  "../images/validation/16_segmented_Food_containers__14_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[229, 458, 366, 654]]"
+    }
+  ],
+  "../images/validation/16_segmented_Food_containers__15_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[444, 224, 628, 422]]"
+    }
+  ],
+  "../images/validation/8_segmented_Food_containers__16_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[]"
+    }
+  ],
+  "../images/validation/14_segmented_Food_containers__17_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": ""
+    }
+  ],
+  "../images/validation/19_segmented_Food_containers__18_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[328, 498, 499, 789]]"
+    }
+  ],
+  "../images/validation/18_segmented_Food_containers__19_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[]"
+    }
+  ],
+  "../images/validation/10_segmented_Food_containers__20_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[190, 300, 300, 600]]"
+    }
+  ],
+  "../images/validation/22_segmented_Food_containers__21_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[255, 334, 385, 599]]"
+    }
+  ],
+  "../images/validation/25_segmented_Food_containers__22_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[416, 407, 588, 508]]"
+    }
+  ],
+  "../images/validation/10_segmented_Food_containers__23_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[694, 573], [847, 573], [847, 815], [694, 815]]"
+    }
+  ],
+  "../images/validation/7_segmented_Food_containers__24_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "```json\n[[225, 490, 375, 720]]\n```"
+    }
+  ],
+  "../images/validation/18_segmented_Food_containers__28_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[\n    [625, 630, 740, 800]\n]"
+    }
+  ],
+  "../images/validation/3_segmented_Food_containers__29_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[614, 280, 677, 494]]"
+    }
+  ],
+  "../images/validation/21_segmented_Food_containers__33_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[235, 420, 394, 565]]"
+    }
+  ],
+  "../images/validation/11_segmented_Food_containers__34_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[383, 457], [549, 457], [549, 810], [383, 810]]"
+    }
+  ],
+  "../images/validation/6_segmented_Food_containers__35_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[230, 520], [450, 520], [450, 770], [230, 770]]"
+    }
+  ],
+  "../images/validation/9_segmented_Food_containers__37_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[1342, 478, 1607, 793]]"
+    }
+  ],
+  "../images/validation/20_segmented_Food_containers__39_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[(284, 572), (410, 572), (410, 829), (284, 829)]"
+    }
+  ],
+  "../images/validation/12_segmented_Food_containers__40_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[434, 349, 542, 400]]"
+    }
+  ],
+  "../images/validation/7_segmented_Food_containers__41_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[402, 523, 521, 718]]"
+    }
+  ],
+  "../images/validation/15_segmented_Food_containers__36_a.jpeg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[222, 496, 326, 592]]"
+    }
+  ],
+  "../images/validation/11_segmented_Food_containers__30_a.jpeg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[247, 541, 374, 753]]"
+    }
+  ],
+  "../images/validation/9_segmented_Food_containers__25_a.jpeg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": ""
+    }
+  ],
+  "../images/validation/17_segmented_Food_containers__31_a.jpeg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[437, 409, 536, 490]]"
+    }
+  ],
+  "../images/validation/14_segmented_Random_5 - Candles_a.jpeg": [
+    {
+      "item": "Candles",
+      "bbox": "[]\n"
+    }
+  ],
+  "../images/validation/20_segmented_Random_15 - Cereals_a.jpg": [
+    {
+      "item": "Cereals",
+      "bbox": "[[443, 271, 502, 338]]"
+    }
+  ],
+  "../images/validation/18_segmented_Random_1 - Fork_a.jpg": [
+    {
+      "item": "Fork",
+      "bbox": "[[711, 433], [809, 433], [809, 518], [711, 518]]"
+    }
+  ],
+  "../images/validation/10_segmented_Random_12 - Fork_a.jpeg": [
+    {
+      "item": "Fork",
+      "bbox": "[[254, 632, 403, 702]]"
+    }
+  ],
+  "../images/validation/20_segmented_Random_7 - Peeler_a.jpeg": [
+    {
+      "item": "Peeler",
+      "bbox": "[\n    [430, 460],\n    [540, 460],\n    [540, 540],\n    [430, 540]\n]"
+    }
+  ],
+  "../images/validation/12_segmented_Random_14 - Pot_a.jpg": [
+    {
+      "item": "Pot",
+      "bbox": "[]"
+    }
+  ],
+  "../images/validation/17_segmented_Random_22 - Pot_a.jpeg": [
+    {
+      "item": "Pot",
+      "bbox": "[[790, 480, 985, 630]]"
+    }
+  ],
+  "../images/validation/24_segmented_Random_21 - Rolling pin_a.jpg": [
+    {
+      "item": "Rolling pin",
+      "bbox": "[[395, 710, 508, 831]]"
+    }
+  ],
+  "../images/validation/6_segmented_Random_17 - Spices_a.jpg": [
+    {
+      "item": "Spices",
+      "bbox": "[[547, 327], [780, 327], [780, 607], [547, 607]]"
+    }
+  ],
+  "../images/validation/18_segmented_Screwdriver_1_a.jpg": [
+    {
+      "item": "Screwdriver",
+      "bbox": "[]"
+    }
+  ],
+  "../images/validation/20_segmented_Screwdriver_11_a.jpg": [
+    {
+      "item": "Screwdriver",
+      "bbox": "[]"
+    }
+  ],
+  "../images/validation/21_segmented_Screwdriver_16_a.jpg": [
+    {
+      "item": "Screwdriver",
+      "bbox": "[]"
+    }
+  ],
+  "../images/validation/15_segmented_Screwdriver_14_a.jpeg": [
+    {
+      "item": "Screwdriver",
+      "bbox": "[[360, 530, 550, 620]]"
+    }
+  ],
+  "../images/validation/11_segmented_Painkiller_1_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[]\n"
+    }
+  ],
+  "../images/validation/18_segmented_Painkiller_4_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[361, 416, 561, 539]"
+    }
+  ],
+  "../images/validation/21_segmented_Painkiller_5_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[]\n"
+    }
+  ],
+  "../images/validation/6_segmented_Painkiller_19_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[[240, 740], [380, 740], [380, 1000], [240, 1000]]"
+    }
+  ],
+  "../images/validation/20_segmented_Painkiller_23_a.jpeg": [
+    {
+      "item": "Painkiller",
+      "bbox": "```\n[599, 703, 774, 841]\n```"
+    }
+  ],
+  "../images/validation/15_segmented_Painkiller_29_a.jpeg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[[245, 470, 325, 525]]"
+    }
+  ]
+}

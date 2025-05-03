@@ -1,0 +1,9 @@
+[
+  {
+    "user_id":"gpt-4o",
+    "correct_answers":3,
+    "total_attempts":100,
+    "accuracy (%)":3.0,
+    "average_IoU":0.031
+  }
+]

@@ -1,0 +1,1302 @@
+[
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/17_segmented_Random_22 - Pot_a.jpeg",
+        "chosen_item": "Pot",
+        "chosen_polygon": "[[1024, 672], [1024, 674], [1025, 675], [1029, 675], [1030, 676], [1033, 675], [1033, 674], [1030, 672]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/24_segmented_Random_21 - Rolling pin_a.jpg",
+        "chosen_item": "Rolling pin",
+        "chosen_polygon": "[[1230, 1836], [525, 1858], [535, 2102], [1231, 2072]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/25_segmented_Bottle_opener_29_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[746, 817], [560, 840], [572, 977], [756, 951]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/14_segmented_Food_containers__17_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[118, 450], [138, 651], [394, 649], [382, 456]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/14_segmented_Random_5 - Candles_a.jpeg",
+        "chosen_item": "Candles",
+        "chosen_polygon": "[[152, 815], [0, 829], [0, 1197], [204, 1195]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/15_segmented_Bottle_opener_21_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[1660, 1657], [1289, 1682], [1291, 1910], [1660, 1870]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/19_segmented_Bottle_opener_26_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[1233, 689], [55, 780], [76, 1175], [1211, 923]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/13_segmented_Bottle_opener_20_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[945, 1104], [945, 1170], [1223, 1286], [1224, 1202]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/11_segmented_Painkiller_1_a.jpg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[[214, 171], [227, 600], [525, 621], [521, 227]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/6_segmented_Painkiller_19_a.jpg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/11_segmented_Food_containers__4_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[320, 1128], [320, 1221], [559, 1226], [557, 1132]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/6_segmented_Random_17 - Spices_a.jpg",
+        "chosen_item": "Spices",
+        "chosen_polygon": "[[491, 423], [506, 568], [871, 576], [885, 429]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/21_segmented_Food_containers__6_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[1531, 779], [1518, 1050], [1714, 1093], [1733, 801]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/26_segmented_Bottle_opener_1_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[1076, 668], [931, 711], [935, 819], [1077, 767]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/7_segmented_Food_containers__24_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[796, 1043], [793, 1096], [916, 1204], [922, 1124]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/15_segmented_Screwdriver_14_a.jpeg",
+        "chosen_item": "Screwdriver",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/20_segmented_Random_15 - Cereals_a.jpg",
+        "chosen_item": "Cereals",
+        "chosen_polygon": "[[207, 0], [220, 421], [325, 428], [330, 34]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/7_segmented_Bottle_opener_48_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[830, 461], [667, 495], [666, 582], [825, 534]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/16_segmented_Food_containers__14_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[1123, 669], [1126, 733], [1262, 770], [1263, 698]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/18_segmented_Screwdriver_1_a.jpg",
+        "chosen_item": "Screwdriver",
+        "chosen_polygon": "[[624, 868], [337, 892], [338, 981], [621, 949]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/13_segmented_Bottle_opener_5_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[600, 950], [0, 989], [0, 1084], [594, 1031]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/6_segmented_Bottle_opener_32_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[566, 1124], [565, 1123], [564, 1123], [563, 1124], [563, 1126], [565, 1126], [566, 1125]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/9_segmented_Food_containers__25_a.jpeg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[658, 470], [658, 471], [660, 471], [660, 470]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/2_segmented_Bottle_opener_9_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/20_segmented_Painkiller_23_a.jpeg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/10_segmented_Random_12 - Fork_a.jpeg",
+        "chosen_item": "Fork",
+        "chosen_polygon": "[[300, 916], [300, 971], [527, 1056], [526, 988]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/19_segmented_Bottle_opener_14_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[570, 350], [572, 375], [651, 393], [652, 365]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/8_segmented_Food_containers__13_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[189, 940], [94, 1036], [138, 1479], [192, 1363], [163, 1084]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/7_segmented_Food_containers__41_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[946, 653], [945, 649], [943, 648], [938, 651], [934, 651], [932, 649], [932, 651], [941, 654]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/15_segmented_Food_containers__36_a.jpeg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[436, 235], [469, 803], [849, 828], [837, 517], [754, 524], [835, 464], [822, 296]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/6_segmented_Bottle_opener_15_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[300, 708], [307, 798], [617, 790], [614, 705]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/24_segmented_Bottle_opener_45_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[1238, 2085], [545, 2118], [555, 2356], [1240, 2314]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/3_segmented_Food_containers__29_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[1763, 1821], [1743, 2005], [1775, 2025], [1786, 1979]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/16_segmented_Food_containers__15_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[193, 446], [32, 479], [39, 566], [199, 520]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/18_segmented_Food_containers__7_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[593, 893], [600, 952], [797, 991], [792, 922]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/18_segmented_Bottle_opener_19_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[1323, 911], [1150, 934], [1144, 1025], [1322, 986]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/18_segmented_Bottle_opener_8_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[201, 1092], [201, 1093], [206, 1093], [206, 1092], [205, 1092], [204, 1091], [202, 1091]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/20_segmented_Food_containers__39_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[330, 770], [200, 808], [205, 904], [332, 854]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/21_segmented_Food_containers__33_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[2971, 1451], [2204, 1459], [2162, 2382], [2875, 2348]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/13_segmented_Bottle_opener_16_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[636, 472], [640, 586], [938, 589], [936, 473]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/4_segmented_Bottle_opener_10_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[178, 839], [182, 884], [348, 888], [339, 839]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/21_segmented_Painkiller_5_a.jpg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[[1779, 176], [1635, 193], [1618, 491], [1758, 489]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/6_segmented_Bottle_opener_22_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[1147, 451], [992, 458], [986, 573], [1138, 561]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/20_segmented_Bottle_opener_39_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[330, 770], [200, 808], [205, 904], [332, 854]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/11_segmented_Food_containers__30_a.jpeg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[1053, 1500], [798, 1539], [797, 1699], [1051, 1650]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/17_segmented_Food_containers__31_a.jpeg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[1024, 672], [1024, 674], [1025, 675], [1029, 675], [1030, 676], [1033, 675], [1033, 674], [1030, 672]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/10_segmented_Food_containers__10_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[513, 627], [386, 671], [413, 746], [357, 788], [333, 779], [347, 854], [530, 763]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/11_segmented_Bottle_opener_13_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[533, 689], [68, 795], [83, 1005], [521, 870]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/16_segmented_Food_containers__8_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[553, 1023], [306, 1262], [320, 1371], [506, 1152], [496, 1113], [513, 1142], [555, 1090], [526, 1097]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/18_segmented_Bottle_opener_31_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[2509, 1714], [2498, 1947], [3136, 2274], [3190, 1954]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/18_segmented_Bottle_opener_7_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[1595, 1368], [1596, 1515], [1899, 1530], [1902, 1446]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/10_segmented_Food_containers__11_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[167, 471], [172, 556], [477, 554], [477, 473]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/20_segmented_Bottle_opener_34_a.jpeg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[2845, 2015], [2850, 2174], [3939, 2415], [3948, 2219]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/3_segmented_Bottle_opener_6_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[91, 797], [95, 828], [221, 825], [215, 793]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/8_segmented_Food_containers__16_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[602, 783], [604, 835], [739, 848], [737, 795], [721, 818], [676, 788]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/6_segmented_Bottle_opener_41_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[2583, 336], [2059, 540], [2075, 709], [2566, 486]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/19_segmented_Food_containers__18_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[507, 713], [132, 751], [143, 828], [512, 784]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/13_segmented_Bottle_opener_24_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[1513, 639], [1512, 732], [1977, 785], [1980, 676]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/21_segmented_Screwdriver_16_a.jpg",
+        "chosen_item": "Screwdriver",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/10_segmented_Bottle_opener_23_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[1579, 756], [1581, 800], [1882, 872], [1880, 810]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/18_segmented_Painkiller_4_a.jpg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/15_segmented_Bottle_opener_43_a.jpeg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[2381, 1784], [2399, 1902], [3104, 2130], [3105, 1983]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/5_segmented_Bottle_opener_37_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[1925, 696], [1928, 698], [1931, 698], [1934, 696]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/11_segmented_Food_containers__34_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[1133, 67], [1124, 300], [1354, 304], [1367, 71]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/18_segmented_Food_containers__28_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[2602, 0], [1586, 65], [1575, 1059], [2528, 1129]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/29_segmented_Bottle_opener_27_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[622, 712], [431, 772], [431, 856], [622, 785]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/19_segmented_Bottle_opener_2_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[331, 454], [195, 500], [209, 598], [341, 539]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/8_segmented_Bottle_opener_12_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[1063, 373], [1063, 435], [1312, 448], [1317, 386]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/12_segmented_Food_containers__40_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[306, 401], [293, 573], [462, 573], [469, 402]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/12_segmented_Bottle_opener_35_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[1563, 1679], [956, 1688], [962, 1853], [1559, 1852]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/6_segmented_Food_containers__35_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[663, 439], [645, 777], [922, 782], [1002, 445]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/18_segmented_Food_containers__19_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[1023, 930], [1025, 1009], [1304, 1058], [1301, 968]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/4_segmented_Food_containers__3_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[647, 264], [1165, 134], [1193, 0], [633, 0]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/17_segmented_Bottle_opener_47_a.jpeg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[804, 672], [804, 674], [806, 675], [821, 674], [819, 672]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/9_segmented_Bottle_opener_4_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[1107, 965], [887, 1000], [850, 1120], [1068, 1067]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/15_segmented_Painkiller_29_a.jpeg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[[436, 235], [469, 803], [849, 828], [837, 517], [754, 524], [835, 464], [822, 296]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/18_segmented_Food_containers__5_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[1323, 911], [1150, 934], [1144, 1025], [1322, 986]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/25_segmented_Food_containers__22_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[859, 464], [858, 531], [1000, 538], [1003, 470]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/8_segmented_Bottle_opener_25_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[415, 454], [187, 617], [209, 763], [422, 560]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/18_segmented_Random_1 - Fork_a.jpg",
+        "chosen_item": "Fork",
+        "chosen_polygon": "[[732, 1625], [703, 2521], [896, 2601], [894, 1667]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/12_segmented_Bottle_opener_18_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[1420, 948], [1424, 1011], [1867, 1088], [1866, 1012]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/22_segmented_Food_containers__21_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[803, 954], [805, 993], [928, 1005], [924, 963]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/9_segmented_Bottle_opener_33_a.jpeg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[1064, 437], [1065, 491], [1301, 614], [1309, 541]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/16_segmented_Food_containers__1_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[832, 986], [230, 1082], [230, 1288], [817, 1138]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/12_segmented_Bottle_opener_40_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[773, 463], [651, 465], [649, 527], [773, 525]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/9_segmented_Food_containers__37_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[2285, 1093], [1921, 1134], [1877, 1663], [2250, 1538]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/8_segmented_Bottle_opener_42_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[546, 613], [245, 670], [251, 759], [542, 692]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/33_segmented_Bottle_opener_30_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[584, 481], [460, 529], [470, 620], [588, 560]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/6_segmented_Food_containers__9_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[1370, 258], [1340, 226], [865, 289], [857, 462], [1376, 453]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/14_segmented_Bottle_opener_44_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[1458, 784], [1451, 1171], [1834, 1284], [1874, 829]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/21_segmented_Bottle_opener_17_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[1077, 737], [1078, 789], [1313, 880], [1315, 814]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/14_segmented_Bottle_opener_3_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[1403, 988], [1402, 988], [1401, 989], [1403, 989]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/12_segmented_Random_14 - Pot_a.jpg",
+        "chosen_item": "Pot",
+        "chosen_polygon": "[[306, 401], [293, 573], [462, 573], [469, 402]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/14_segmented_Bottle_opener_11_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[745, 829], [749, 867], [846, 873], [844, 832]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/14_segmented_Food_containers__12_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[1002, 916], [692, 926], [688, 1148], [1001, 1149]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/20_segmented_Screwdriver_11_a.jpg",
+        "chosen_item": "Screwdriver",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/20_segmented_Random_7 - Peeler_a.jpeg",
+        "chosen_item": "Peeler",
+        "chosen_polygon": "[[2845, 2015], [2850, 2174], [3939, 2415], [3948, 2219]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/18_segmented_Food_containers__2_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[624, 868], [337, 892], [338, 981], [621, 949]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/10_segmented_Food_containers__20_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[498, 557], [329, 568], [326, 647], [496, 633]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/10_segmented_Food_containers__23_a.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[96, 83], [151, 464], [599, 444], [563, 115]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    }
+]

@@ -1,23 +1,23 @@
 [
     {
+        "user_id":2,
+        "correct_answers":2316,
+        "total_attempts":2860,
+        "accuracy (%)":80.979020979,
+        "average_IoU":0.8828811945
+    },
+    {
         "user_id":3,
-        "correct_answers":172,
-        "total_attempts":172,
-        "accuracy (%)":100.0,
-        "average_IoU":1.0
+        "correct_answers":2041,
+        "total_attempts":2860,
+        "accuracy (%)":71.3636363636,
+        "average_IoU":0.8467318255
     },
     {
         "user_id":1,
-        "correct_answers":172,
-        "total_attempts":172,
-        "accuracy (%)":100.0,
-        "average_IoU":1.0
-    },
-    {
-        "user_id":2,
-        "correct_answers":172,
-        "total_attempts":172,
-        "accuracy (%)":100.0,
-        "average_IoU":1.0
+        "correct_answers":2001,
+        "total_attempts":2860,
+        "accuracy (%)":69.965034965,
+        "average_IoU":0.8540502193
     }
 ]

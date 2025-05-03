@@ -4,6 +4,7 @@ import random
 import re
 from ast import literal_eval
 from collections import defaultdict
+from pathlib import Path
 
 import cv2
 import firebase_admin
@@ -380,6 +381,7 @@ def give_score_on_data(data_json, users_responses_json, scores_json, response_ty
                 iou = compute_iou(correct_polygon, chosen_polygon)
             except Exception as e:
                 print(f"Error compute iou: {e}")
+                iou = 0.0
 
             iou_scores[user_id] = iou_scores.get(user_id, []) + [iou]
 
@@ -556,15 +558,19 @@ def give_score_on_data_fixed(data_json, users_responses_json, scores_json, respo
         iou_scores[user_id] = iou_scores.get(user_id, []) + [iou]
 
         # Count correct answers based on IoU thresholds
-        threshold = {
-            "human": 1.0,
-            "random": 1.0,
-            "chatgpt": 1.0,
-            "gpt-4o": 0.5,
-            "kosmos": 0.5,
-            "gemini": 0.5,
-            "dino": 1.0,
-        }.get(response_type, 1.0)
+        # Determine threshold
+        if isinstance(user_id, int):  # human
+            threshold = 1.0
+        else:
+            threshold = {
+                # "human": 1.0,
+                "random": 1.0,
+                "chatgpt": 1.0,
+                "gpt-4o": 0.2,
+                "kosmos": 0.2,
+                "gemini": 0.2,
+                "dino": 1.0,
+            }.get(response_type, 1.0)
 
         if iou >= threshold:
             user_scores[user_id] = user_scores.get(user_id, 0) + 1
@@ -595,6 +601,110 @@ def give_score_on_data_fixed(data_json, users_responses_json, scores_json, respo
     # Optional: save results to file
     if scores_json:
         df_scores.to_json(scores_json, orient="records", indent=2)
+
+
+def score_human_users(data_json, responses_json, output_json=None, mode="partial"):
+    """
+    Compute per-human-user accuracy and IoU from chosen polygons.
+
+    Args:
+        data_json (str): Path to JSON with correct polygons.
+        responses_json (str): Path to JSON with human responses.
+        output_json (str or None): If given, saves output as JSON.
+        mode (str): "partial" for checking only answered entries,
+                    "full" for checking all ground truth entries.
+
+    Returns:
+        pd.DataFrame: Scores per user.
+    """
+    # Load data
+    with open(data_json, "r") as f:
+        correct_data = json.load(f)
+    with open(responses_json, "r") as f:
+        responses = json.load(f)
+
+    # Create lookup for GT and Responses
+    gt_lookup = {
+        (d["image_path"], d["chosen_item"]): literal_eval(d["chosen_polygon"])
+        for d in correct_data
+    }
+
+    response_lookup = {}
+    for r in responses:
+        key = (r["image_path"], r["chosen_item"])
+        response_lookup.setdefault(key, []).append(r)
+
+    # Initialize tracking
+    user_scores = {}
+    user_attempts = {}
+    user_ious = {}
+
+    # Select items to iterate
+    if mode == "partial":
+        data_iter = responses
+    elif mode == "full":
+        data_iter = correct_data
+    else:
+        raise ValueError("mode must be 'partial' or 'full'")
+
+    # Iterate
+    for entry in data_iter:
+        image_path = entry["image_path"]
+        chosen_item = entry["chosen_item"]
+        key = (image_path, chosen_item)
+
+        if key not in gt_lookup:
+            continue  # skip unknown GT
+        correct_polygon = gt_lookup[key]
+
+        if mode == "partial":
+            responses_to_check = [entry]
+        else:  # full
+            responses_to_check = response_lookup.get(key, [])
+
+        for response in responses_to_check:
+            user_id = response["user_id"]
+            try:
+                chosen_polygon = literal_eval(response["chosen_polygon"])
+            except Exception as e:
+                print(f"Error parsing chosen_polygon for {key}: {e}")
+                continue
+
+            # Compute IoU
+            try:
+                iou = compute_iou(correct_polygon, chosen_polygon)
+            except Exception as e:
+                print(f"Error computing IoU for {key}: {e}")
+                iou = 0.0
+
+            # Track
+            user_attempts[user_id] = user_attempts.get(user_id, 0) + 1
+            user_ious[user_id] = user_ious.get(user_id, []) + [iou]
+            if iou == 1.0:
+                user_scores[user_id] = user_scores.get(user_id, 0) + 1
+
+    # Summarize
+    result = []
+    for user_id in user_attempts:
+        total = user_attempts[user_id]
+        correct = user_scores.get(user_id, 0)
+        avg_iou = sum(user_ious[user_id]) / total if total > 0 else 0
+        acc = (correct / total) * 100
+        result.append({
+            "user_id": user_id,
+            "correct_answers": correct,
+            "total_attempts": total,
+            "accuracy (%)": round(acc, 2),
+            "average_IoU": round(avg_iou, 3)
+        })
+
+    df = pd.DataFrame(result)
+    print(df)
+
+    if output_json:
+        df.to_json(output_json, orient="records", indent=2)
+
+    return df
 
 
 def create_random_baseline(train_or_test_data_json, train_or_test="train"):
@@ -726,13 +836,167 @@ def calculate_user_accuracy(train_data_json, user_responses_json):
         print(f"User {user_id} - Unbiased Accuracy (shared images only): {accuracy:.2%} ({correct}/{total})")
 
 
+def split_human_responses_by_user(test_data_json, user_responses_json):
+    # Load test data to keep
+    with open(test_data_json, "r") as f:
+        test_data = json.load(f)
+
+    # Build a set of valid (image_path, chosen_item) tuples
+    valid_cases = {
+        (entry["image_path"], entry["chosen_item"])
+        for entry in test_data
+    }
+
+    # Load user responses
+    with open(user_responses_json, "r") as f:
+        responses = json.load(f)
+
+    # Split by user and filter by valid cases
+    users_data = {1: [], 2: [], 3: []}
+    all_data = []
+
+    for entry in responses:
+        key = (entry["image_path"], entry["chosen_item"])
+        if key in valid_cases:
+            users_data[entry["user_id"]].append(entry)
+            all_data.append(entry)
+
+    with open(f"../baselines/human/test_responses_kitchen.json", "w") as f:
+        json.dump(all_data, f, indent=2)
+
+    for user_id, user_entries in users_data.items():
+        with open(f"../baselines/human/test_response_user_{user_id}_filtered.json", "w") as f:
+            json.dump(user_entries, f, indent=2)
+
+    print("Filtered files saved in 'filtered_responses/' directory.")
+
+
+def find_missing_responses_dino(test_data_json, responses_json):
+    # Load test data
+    with open(test_data_json, "r") as f:
+        test_data = json.load(f)
+
+    # Create a set of all required cases
+    required_cases = {
+        (entry["image_path"], entry["chosen_item"])
+        for entry in test_data
+    }
+
+    with open(responses_json, "r") as f:
+        user_data = json.load(f)
+
+    user_answered = {
+        (entry["image_path"], entry["chosen_item"])
+        for entry in user_data
+    }
+
+    missing_cases = required_cases - user_answered
+
+    # Print missing cases per user
+    print(f"\nMissing {len(missing_cases)} cases:")
+    for image_path, item in sorted(missing_cases):
+        print(f"  - {item} in {image_path}")
+
+
+def find_missing_responses_human_test(test_data_json):
+    # Load test data
+    with open(test_data_json, "r") as f:
+        test_data = json.load(f)
+
+    # Create a set of all required cases
+    required_cases = {
+        (entry["image_path"], entry["chosen_item"])
+        for entry in test_data
+    }
+
+    # Directory with filtered user responses
+    response_dir = Path("../baselines/human/")
+
+    # Track missing cases per user
+    missing_cases_per_user = {}
+
+    for user_id in [1, 2, 3]:
+        response_file = response_dir / f"test_response_user_{user_id}_filtered.json"
+        with open(response_file, "r") as f:
+            user_data = json.load(f)
+
+        user_answered = {
+            (entry["image_path"], entry["chosen_item"])
+            for entry in user_data
+        }
+
+        missing_cases = required_cases - user_answered
+        missing_cases_per_user[user_id] = missing_cases
+
+    # Print missing cases per user
+    for user_id, missing_cases in missing_cases_per_user.items():
+        print(f"\nUser {user_id} is missing {len(missing_cases)} cases:")
+        for image_path, item in sorted(missing_cases):
+            print(f"  - {item} in {image_path}")
+
+def compute_average_containers(data_json_path):
+    # Load your JSON file
+    with open(data_json_path, "r") as f:
+        json_data = json.load(f)
+
+    total_containers = 0
+    total_entries = 0
+
+    for entry in json_data:
+        if "containers_polygons" in entry:
+            try:
+                containers = json.loads(entry["containers_polygons"])
+                total_containers += len(containers)
+                total_entries += 1
+            except json.JSONDecodeError:
+                print(f"Skipping entry due to malformed JSON: {entry['image_path']}")
+
+    if total_entries == 0:
+        return 0  # avoid division by zero
+
+    average = total_containers / total_entries
+    print(f"Average containers per image: {average:.2f}")
+    return average
+
+
 if __name__ == "__main__":
-    give_score_on_data_fixed(data_json="../data/train_data/train_data.json",
-                             users_responses_json="../models/chat_gpt/chatgpt_train_short_id_pos_lab_anchrs_ratio_most.json",
-                             scores_json="../models/chat_gpt/scores_chatgpt_train_short_id_pos_lab_anchrs_ratio_most.json",
-                             response_type="chatgpt", mode="partial")
+    # data_json = "../data/train_data/train_data.json"
+    data_json = "../data/test_data/test_data_kitchen.json"
+    responses_json = "../baselines/human/cleaned_responses.json"
+    # responses_json = "../baselines/human/test_responses_kitchen.json"
+    output_json = "../baselines/human/scores_train_data.json"
+    # output_json = "../baselines/human/scores_test_data.json"
+    mode = "partial"
+    # mode = "full"
+    response_type = "human"
+    # give_score_on_data(data_json="../data/test_data/test_data_kitchen.json",
+    #                          users_responses_json="../baselines/human/test_responses_kitchen.json",
+    #                          scores_json="../baselines/human/scores_test_data.json",
+    #                          response_type="human")
+
+    # score_human_users(data_json=data_json,
+    #                   responses_json=responses_json,
+    #                   output_json=output_json, mode=mode)
+    # give_score_on_data_fixed(data_json=data_json,
+    #                    users_responses_json=responses_json,
+    #                    scores_json=output_json,
+    #                    response_type=response_type, mode=mode)
+    # give_score_on_data(data_json=data_json,
+    #                    users_responses_json=responses_json,
+    #                    scores_json=output_json,
+    #                    response_type=response_type)
+
+
     # give_score_on_data_fixed(data_json="../data/train_data/train_data.json", users_responses_json="../models/chat_gpt/chatgpt_baseline_parse.json",
     #                    scores_json="../models/chat_gpt/scores_chatgpt_baseline_parse.json", response_type="gpt-4o")
     # check_gemini_bbox()
     # calculate_user_accuracy(train_data_json="../data/train_data/train_data.json", user_responses_json="../baselines/human/cleaned_responses.json")
     # create_random_baseline(train_or_test_data_json="../data/test_data/test_data_kitchen.json", train_or_test="test")
+
+    # split_human_responses_by_user(test_data_json="../data/test_data/test_data_kitchen.json",
+    #                               user_responses_json="../data/upwork/test_cleaned_responses.json")
+    # find_missing_responses_human_test(test_data_json="../data/test_data/test_data_kitchen.json")
+    # find_missing_responses_dino(test_data_json="../data/test_data/test_data_kitchen.json",
+    #                             responses_json="../models/dino/dino_test_responses_kitchen.json")
+
+    compute_average_containers(data_json_path=data_json)
