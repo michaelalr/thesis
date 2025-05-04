@@ -1703,7 +1703,7 @@ def build_train_df_from_start():
     # add_most_close_to_anchors_column(input_csv=csv_with_similar_neighbors_unclear_label, output_csv=csv_with_most_close_to_anchors)
 
     subset_df = filter_csv_by_image_subset(csv_path=csv_with_most_close_to_anchors, json_path=random_image_subset)
-    csv_id = "../short_id_pos_lab_anchrs_ratio_most_with_description_2.csv"
+    csv_id = "../short_id_pos_lab_anchrs_ratio_most_with_description.csv"
     add_descriptions_to_csv(csv_path=csv_with_most_close_to_anchors, output_path=csv_id, subset_df=subset_df)
 
     # plot_image_with_polygons(

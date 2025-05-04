@@ -1,3 +1,4 @@
+import csv
 import json
 import os
 from collections import defaultdict
@@ -503,6 +504,38 @@ def full_human_agreement(cleaned_response_csv, agreement_pairs_json):
     print(f"Saved agreed pairs to {agreement_pairs_json}")
 
 
+def user_responses_common_pairs(responses_json, output_csv):
+    # Load the JSON file
+    data = load_json(responses_json)
+
+    # Group responses by (image_path, chosen_item)
+    grouped = defaultdict(dict)
+
+    for entry in data:
+        key = (entry["image_path"], entry["chosen_item"])
+        user_id = entry["user_id"]
+        chosen_polygon = entry["chosen_polygon"]
+        grouped[key][user_id] = chosen_polygon
+
+    # Filter for only common cases (all 3 users responded)
+    common_responses = {
+        key: users
+        for key, users in grouped.items()
+        if len(users) == 3
+    }
+
+    # Save to CSV
+    with open(output_csv, 'w', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerow(["image_path", "chosen_item", "user_1_polygon", "user_2_polygon", "user_3_polygon"])
+
+        for (image_path, item), responses in common_responses.items():
+            row = [image_path, item]
+            # Get responses in user_id order (assumes 1, 2, 3)
+            row += [responses.get(uid, "") for uid in [1, 2, 3]]
+            writer.writerow(row)
+
+
 if __name__ == '__main__':
     # List of response files for each user
     # user_files = [
@@ -523,4 +556,7 @@ if __name__ == '__main__':
     # agreement_human_random(human_responses_json='../baselines/human/cleaned_responses.json',
     #                        random_responses_json="../baselines/random/random_train_responses.json")
 
-    full_human_agreement(cleaned_response_csv='../baselines/human/cleaned_responses.csv', agreement_pairs_json='../baselines/human/agreement_pairs.json')
+    # full_human_agreement(cleaned_response_csv='../baselines/human/cleaned_responses.csv', agreement_pairs_json='../baselines/human/agreement_pairs.json')
+
+    user_responses_common_pairs(responses_json='../baselines/human/cleaned_responses.json',
+                                output_csv='../baselines/human/common_responses.csv')
