@@ -12,6 +12,7 @@ import matplotlib.patches as patches
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+import pingouin as pg
 import seaborn as sns
 from PIL import Image
 from firebase_admin import credentials, firestore
@@ -575,6 +576,18 @@ def give_score_on_data_fixed(data_json, users_responses_json, scores_json, respo
         if iou >= threshold:
             user_scores[user_id] = user_scores.get(user_id, 0) + 1
 
+        # --- Collect per-pair results for statistical testing ---
+        if "per_pair_results" not in locals():
+            per_pair_results = []
+
+        per_pair_results.append({
+            "image_path": image_path,
+            "item": chosen_item,
+            "user_id": user_id,
+            "iou": iou,
+            "accuracy": 1 if iou >= threshold else 0
+        })
+
     # Compute summary metrics
     user_percentages = {
         user: (user_scores.get(user, 0) / total_attempts[user]) * 100
@@ -601,6 +614,11 @@ def give_score_on_data_fixed(data_json, users_responses_json, scores_json, respo
     # Optional: save results to file
     if scores_json:
         df_scores.to_json(scores_json, orient="records", indent=2)
+
+    if "per_pair_results" in locals():
+        df_per_pair = pd.DataFrame(per_pair_results)
+        print(f"Collected {len(df_per_pair)} per-pair results.")
+        df_per_pair.to_csv(f"score_per_pair_{response_type}.csv", index=False)
 
 
 def score_human_users(data_json, responses_json, output_json=None, mode="partial"):
@@ -934,6 +952,7 @@ def find_missing_responses_human_test(test_data_json):
         for image_path, item in sorted(missing_cases):
             print(f"  - {item} in {image_path}")
 
+
 def compute_average_containers(data_json_path):
     # Load your JSON file
     with open(data_json_path, "r") as f:
@@ -959,16 +978,177 @@ def compute_average_containers(data_json_path):
     return average
 
 
+def t_test():
+    # Step 1: Model CSV paths (exclude human for now)
+    model_files = {
+        "gpt-4o": "score_per_pair_gpt-4o.csv",
+        "chatgpt": "score_per_pair_chatgpt.csv",
+        "random": "score_per_pair_random.csv",
+        "kosmos": "score_per_pair_kosmos.csv",
+        "gemini": "score_per_pair_gemini.csv",
+        "dino": "score_per_pair_dino.csv",
+    }
+
+    # Step 2: Load model data and add 'model' column
+    all_dfs = []
+    for model, file_path in model_files.items():
+        if not os.path.exists(file_path):
+            print(f"File not found: {file_path}")
+            continue
+        df = pd.read_csv(file_path)
+        df["model"] = model
+        all_dfs.append(df)
+
+    # Step 3: Handle human users (1, 2, 3 in same CSV)
+    human_path = "score_per_pair_human.csv"
+    if os.path.exists(human_path):
+        df_human = pd.read_csv(human_path)
+        for uid in [1, 2, 3]:
+            df_user = df_human[df_human["user_id"] == uid].copy()
+            df_user["model"] = f"human_{uid}"
+            all_dfs.append(df_user)
+    else:
+        print("Human scores file not found:", human_path)
+
+    # Step 4: Merge all
+    df_all = pd.concat(all_dfs, ignore_index=True)
+
+    # Step 5: Create trial ID from image and item
+    df_all["trial"] = df_all["image_path"] + " | " + df_all["item"]
+
+    # Step 6: Run repeated measures ANOVA on IoU
+    aov = pg.rm_anova(dv='iou', within='model', subject='trial', data=df_all, detailed=True)
+    print("🔍 Repeated Measures ANOVA:")
+    print(aov)
+
+    # Step 7: Pairwise t-tests with Bonferroni correction
+    posthoc = pg.pairwise_ttests(dv='iou', within='model', subject='trial', data=df_all, padjust='bonf')
+    print("\n📊 Post-hoc Pairwise t-tests (Bonferroni corrected):")
+    print(posthoc)
+
+    # Optional: Save results
+    aov.to_csv("anova_results.csv", index=False)
+    posthoc.to_csv("posthoc_pairwise_ttests.csv", index=False)
+    print("\n✅ Saved: 'anova_results.csv', 'posthoc_pairwise_ttests.csv'")
+
+    # Filter only comparisons involving "chatgpt"
+    # chatgpt_comparisons = posthoc[
+    #     (posthoc['A'] == 'chatgpt') | (posthoc['B'] == 'chatgpt')
+    #     ]
+    #
+    # # Show significant comparisons (Bonferroni-corrected)
+    # significant_vs_chatgpt = chatgpt_comparisons[chatgpt_comparisons['p-corr'] < 0.05]
+    #
+    # print("📊 Significant differences between 'chatgpt' and others:")
+    # print(significant_vs_chatgpt[['A', 'B', 'T', 'p-corr', 'hedges']])
+
+    # Define the models to compare with 'chatgpt'
+    models_to_compare = ['gpt-4o', 'random', 'kosmos', 'gemini', 'dino', 'human_1', 'human_2', 'human_3']
+
+    # Filter the results where chatgpt is being compared to the other models
+    chatgpt_comparisons = posthoc[
+        (posthoc['A'] == 'chatgpt') & (posthoc['B'].isin(models_to_compare))]
+
+    # Or vice versa if needed (models compared against chatgpt)
+    chatgpt_comparisons_reverse = posthoc[
+        (posthoc['B'] == 'chatgpt') & (posthoc['A'].isin(models_to_compare))]
+
+    # Combine both results
+    chatgpt_comparisons_all = pd.concat([chatgpt_comparisons, chatgpt_comparisons_reverse])
+
+    # Filter only significant results based on the corrected p-value
+    significant_comparisons = chatgpt_comparisons_all[chatgpt_comparisons_all['p-corr'] < 0.05]
+
+    # Display the significant comparisons
+    print("Significant comparisons (chatgpt vs other models):")
+    print(significant_comparisons[['A', 'B', 'T', 'p-corr', 'hedges']])
+    print(significant_comparisons)
+
+    # If needed, you can save this summary to a CSV
+    significant_comparisons.to_csv("significant_comparisons_chatgpt_vs_others.csv", index=False)
+
+    # Define significance threshold (usually 0.05)
+    significance_threshold = 0.05
+
+    # Create a new column to mark significant results
+    significant_comparisons['significant'] = significant_comparisons['p-corr'] < significance_threshold
+
+    # Plotting Dot Plot (scatter plot of t-values with significance highlighted)
+    plt.figure(figsize=(8, 6))
+    sns.scatterplot(data=significant_comparisons, x='B', y='T', hue='significant', palette={True: 'red', False: 'gray'},
+                    s=100)
+
+    # Add annotations for each point
+    for i, row in significant_comparisons.iterrows():
+        plt.text(row['B'], row['T'] + 0.1, f"T={row['T']:.2f}", ha='center', va='bottom', fontsize=10)
+
+    # Title and labels
+    plt.title('Dot Plot of T-Statistics (Significance Highlighted)', fontsize=14)
+    plt.xlabel('Model Comparison (B)', fontsize=12)
+    plt.ylabel('T-Statistic', fontsize=12)
+
+    # Manually define the legend
+    from matplotlib.lines import Line2D
+    legend_elements = [
+        Line2D([0], [0], marker='o', color='w', markerfacecolor='red', markersize=10, label='Significant'),
+        Line2D([0], [0], marker='o', color='w', markerfacecolor='gray', markersize=10, label='Not Significant')]
+
+    plt.legend(handles=legend_elements, title='Significance')
+
+    # Rotate x-ticks for better readability
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.show()
+
+    # Plotting Box Plot (distribution of t-values with significance marked)
+    plt.figure(figsize=(8, 6))
+    sns.boxplot(data=significant_comparisons, x='B', y='T', palette={True: 'red', False: 'gray'}, hue='significant')
+
+    # Title and labels
+    plt.title('Box Plot of T-Statistics with Significance Highlighted', fontsize=14)
+    plt.xlabel('Model Comparison (B)', fontsize=12)
+    plt.ylabel('T-Statistic', fontsize=12)
+
+    # Manually define the legend again for the boxplot
+    plt.legend(handles=legend_elements, title='Significance')
+
+    # Rotate x-ticks for better readability
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.show()
+
+    # Assuming you've already obtained the significant_comparisons DataFrame from previous code
+    # Prepare the data for plotting
+    significant_comparisons['Comparison'] = significant_comparisons.apply(
+        lambda row: f"{row['A']} vs {row['B']}", axis=1)
+
+    # Set up the plot
+    plt.figure(figsize=(10, 6))
+    sns.barplot(data=significant_comparisons, x='Comparison', y='T', palette="viridis")
+
+    # Rotate the x-axis labels for better readability
+    plt.xticks(rotation=45, ha='right')
+
+    # Add titles and labels
+    plt.title('Significant Differences: ChatGPT vs Other Models', fontsize=16)
+    plt.xlabel('Model Comparison', fontsize=12)
+    plt.ylabel('T-statistic', fontsize=12)
+
+    # Show the plot
+    plt.tight_layout()
+    plt.show()
+
+
 if __name__ == "__main__":
     # data_json = "../data/train_data/train_data.json"
     data_json = "../data/test_data/test_data_kitchen.json"
-    responses_json = "../baselines/human/cleaned_responses.json"
-    # responses_json = "../baselines/human/test_responses_kitchen.json"
-    output_json = "../baselines/human/scores_train_data.json"
-    # output_json = "../baselines/human/scores_test_data.json"
-    mode = "partial"
-    # mode = "full"
-    response_type = "human"
+    # responses_json = "../baselines/human/cleaned_responses.json"
+    responses_json = "../models/chat_gpt/chatgpt_test_short_id_pos_lab_anchrs_ratio_fixed.json"
+    # output_json = "../baselines/human/scores_train_data.json"
+    output_json = "../models/chat_gpt/scores_chatgpt_test_short_id_pos_lab_anchrs_ratio_fixed.json"
+    # mode = "partial"
+    mode = "full"
+    response_type = "chatgpt"
     # give_score_on_data(data_json="../data/test_data/test_data_kitchen.json",
     #                          users_responses_json="../baselines/human/test_responses_kitchen.json",
     #                          scores_json="../baselines/human/scores_test_data.json",
@@ -986,9 +1166,10 @@ if __name__ == "__main__":
     #                    scores_json=output_json,
     #                    response_type=response_type)
 
-
-    # give_score_on_data_fixed(data_json="../data/train_data/train_data.json", users_responses_json="../models/chat_gpt/chatgpt_baseline_parse.json",
-    #                    scores_json="../models/chat_gpt/scores_chatgpt_baseline_parse.json", response_type="gpt-4o")
+    # give_score_on_data_fixed(data_json="../data/test_data/test_data_kitchen.json",
+    #                          users_responses_json="../baselines/human/test_responses_kitchen.json",
+    #                          scores_json="../baselines/human/scores_test_data.json",
+    #                          response_type="human", mode="partial")
     # check_gemini_bbox()
     # calculate_user_accuracy(train_data_json="../data/train_data/train_data.json", user_responses_json="../baselines/human/cleaned_responses.json")
     # create_random_baseline(train_or_test_data_json="../data/test_data/test_data_kitchen.json", train_or_test="test")
@@ -999,4 +1180,6 @@ if __name__ == "__main__":
     # find_missing_responses_dino(test_data_json="../data/test_data/test_data_kitchen.json",
     #                             responses_json="../models/dino/dino_test_responses_kitchen.json")
 
-    compute_average_containers(data_json_path=data_json)
+    # compute_average_containers(data_json_path=data_json)
+
+    t_test()
