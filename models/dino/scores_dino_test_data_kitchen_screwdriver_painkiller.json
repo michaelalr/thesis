@@ -1,0 +1,9 @@
+[
+  {
+    "user_id":"dino",
+    "correct_answers":1,
+    "total_attempts":10,
+    "accuracy (%)":10.0,
+    "average_IoU":0.1
+  }
+]

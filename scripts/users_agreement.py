@@ -2,7 +2,7 @@ import csv
 import json
 import os
 from collections import defaultdict
-
+from ast import literal_eval
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -536,6 +536,36 @@ def user_responses_common_pairs(responses_json, output_csv):
             writer.writerow(row)
 
 
+def change_polygon_to_id(common_responses_csv, output_csv):
+    # Load your table
+    df = pd.read_csv(
+        common_responses_csv)  # columns: image_path, chosen_item, user_1_polygon, user_2_polygon, user_3_polygon
+
+    # User columns
+    user_cols = ["user_1_polygon", "user_2_polygon", "user_3_polygon"]
+
+    def polygon_to_first_nonzero_int(polygon_str):
+        polygon_str = polygon_str.strip()
+        if polygon_str == "[]" or polygon_str == "":
+            return 0
+        try:
+            coords = literal_eval(polygon_str)
+            for pair in coords:
+                for value in pair:
+                    if isinstance(value, int) and value != 0:
+                        return value
+        except Exception as e:
+            print(f"Error parsing polygon: {polygon_str} -> {e}")
+        return 0
+
+    # Apply to each user column
+    for col in user_cols:
+        df[col] = df[col].apply(polygon_to_first_nonzero_int)
+
+    # Save updated table
+    df.to_csv(output_csv, index=False)
+
+
 if __name__ == '__main__':
     # List of response files for each user
     # user_files = [
@@ -558,5 +588,7 @@ if __name__ == '__main__':
 
     # full_human_agreement(cleaned_response_csv='../baselines/human/cleaned_responses.csv', agreement_pairs_json='../baselines/human/agreement_pairs.json')
 
-    user_responses_common_pairs(responses_json='../baselines/human/cleaned_responses.json',
-                                output_csv='../baselines/human/common_responses.csv')
+    user_responses_common_pairs(responses_json='../baselines/human/test_responses_kitchen.json',
+                                output_csv='../baselines/human/common_responses_test_kitchen.csv')
+    change_polygon_to_id(common_responses_csv='../baselines/human/common_responses.csv',
+                         output_csv='../baselines/human/common_responses_int_ids.csv')

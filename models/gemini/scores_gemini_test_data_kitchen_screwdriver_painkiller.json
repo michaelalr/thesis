@@ -1,0 +1,9 @@
+[
+  {
+    "user_id":"gemini",
+    "correct_answers":2,
+    "total_attempts":10,
+    "accuracy (%)":20.0,
+    "average_IoU":0.2
+  }
+]
