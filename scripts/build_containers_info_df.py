@@ -397,8 +397,17 @@ def plot_above_below_polygons(csv_path, image_base_dir, num_images=30):
 
         plt.axis('off')
         plt.tight_layout()
+
+        # Save to file
+        # output_path = "../images/paper/10_segmented_Food_containers_10_a_countertop_area.jpg"  # or .jpg
+        # plt.savefig(output_path, bbox_inches='tight', pad_inches=0)
+
         plt.show()
         shown_images += 1
+
+        plt.close()  # Close the figure to free memory
+
+
 
 
 def add_height_width_ratio(csv_path, output_csv_path):
@@ -1372,7 +1381,7 @@ def update_label_based_on_neighbors(row, df):
 
 # --- Visualization Function ---
 def plot_image_with_polygons(df, image_path_html, n=5):
-    sampled_images = df["image_path_html"].drop_duplicates().sample(n)
+    # sampled_images = df["image_path_html"].drop_duplicates().sample(n)
     sampled_images = df[df["image_path_html"] == image_path_html]
 
     subset = sampled_images
@@ -1406,6 +1415,8 @@ def plot_image_with_polygons(df, image_path_html, n=5):
                 ha='center', va='center')
 
     plt.axis('off')
+    # output_path = "../images/paper/10_segmented_Food_containers_10_a_containers_id.jpg"  # or .jpg
+    # plt.savefig(output_path, bbox_inches='tight', pad_inches=0)
     plt.show()
 
 
@@ -1619,7 +1630,7 @@ def build_test_df_from_start():
 
     # plot_image_with_polygons(
     #     df=pd.read_csv(csv_filename),
-    #     image_path_html="images/validation/20_segmented_Bottle_opener_39_a.jpg",  # adjust to match your local path
+    #     image_path_html="images/validation/10_segmented_Food_containers__10_a.jpg",  # adjust to match your local path
     #     n=5
     # )
 
@@ -1713,7 +1724,7 @@ def build_train_df_from_start():
     # )
 
 if __name__ == '__main__':
-    # build_test_df_from_start()
+    build_test_df_from_start()
     # build_train_df_from_start()
 
     # create_subset_image_to_items(keep_images_json_path=random_image_subset,
@@ -1725,4 +1736,4 @@ if __name__ == '__main__':
     test_data_kitchen = "../data/test_data/test_data_kitchen.json"
     image_path_validation = "../models/gemini/test_data_with_gemini_bboxes_as_strings.json"
     image_path_test_kitchen = "../models/gemini/test_data_with_gemini_bboxes_as_strings_kitchen.json"
-    filter_image_details_by_test_data(test_data_path=test_data_kitchen, image_details_path=image_path_validation, output_path=image_path_test_kitchen)
+    # filter_image_details_by_test_data(test_data_path=test_data_kitchen, image_details_path=image_path_validation, output_path=image_path_test_kitchen)
