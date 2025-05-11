@@ -1597,7 +1597,7 @@ def filter_image_details_by_test_data(test_data_path, image_details_path, output
 def build_test_df_from_start():
     image_details_json_path = "../image_details/image_details_test_kitchen.json"
     image_details_with_labels = "../image_details/image_details_test_with_labels.json"
-    csv_filename = "../test_labeled_containers.csv"
+    csv_filename = "../containers_info_table/test_info_table_versions/test_labeled_containers.csv"
     image_details_countertop = "../image_details/image_details_test_countertop.json"
     image_details_countertop_output = "../image_details/image_details_test_countertop_output.json"
     image_details_with_anchors = "../image_details/image_details_test_anchors.json"
@@ -1643,7 +1643,7 @@ def build_test_df_from_start():
 def build_train_df_from_start():
     image_details_json_path = "../image_details/image_details.json"
     image_details_with_labels = "../image_details/image_details_with_labels.json"
-    csv_filename = "../labeled_containers.csv"
+    csv_filename = "../containers_info_table/train_info_table_versions/labeled_containers.csv"
 
     # df = classify_containers(image_details_json=image_details_json_path,
     #                          image_details_with_labels_json=image_details_with_labels,

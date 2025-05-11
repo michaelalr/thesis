@@ -1000,7 +1000,7 @@ def t_test():
         all_dfs.append(df)
 
     # Step 3: Handle human users (1, 2, 3 in same CSV)
-    human_path = "score_per_pair_human.csv"
+    human_path = "../t_test_results/score_per_pair_human.csv"
     if os.path.exists(human_path):
         df_human = pd.read_csv(human_path)
         for uid in [1, 2, 3]:

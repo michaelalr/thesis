@@ -128,9 +128,9 @@ def create_json_from_csvs(info_csv_path, response_csv_path, output_json_path, co
     print(f"Saved {len(results)} entries to {output_json_path}")
 
 if __name__ == '__main__':
-    info_csv_path = "../../test_labeled_containers.csv"
-    response_csv_path = "chatgpt_results_test_short_id_pos_lab_anchrs_ratio.csv"
-    output_json_path = "./chatgpt_test_short_id_pos_lab_anchrs_ratio.json"
+    info_csv_path = "../../containers_info_table/test_info_table_versions/test_labeled_containers.csv"
+    response_csv_path = "results/chatgpt_results_test_short_id_pos_lab_anchrs_ratio.csv"
+    output_json_path = "parse_results/chatgpt_test_short_id_pos_lab_anchrs_ratio.json"
     columns_in_description_1 = ["label", "above_or_below_countertop", "height_width_ratio"]
     columns_in_description_2 = ["label", "score", "above_or_below_countertop", "height_width_ratio", "neighbors", "anchor_neighbors"]
     columns_in_description_3 = ["label", "above_or_below_countertop", "height_width_ratio", "neighbors", "anchor_neighbors"]

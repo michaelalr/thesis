@@ -98,6 +98,6 @@ def fix_bboxes_format(input_json_path, output_json_path):
 
 
 if __name__ == '__main__':
-    input_json_path = "./chatgpt_baseline.json"
-    output_json_path = "./chatgpt_baseline_parse.json"
+    input_json_path = "chatgpt_baseline.json"
+    output_json_path = "chatgpt_baseline_parse.json"
     fix_bboxes_format(input_json_path=input_json_path, output_json_path=output_json_path)
