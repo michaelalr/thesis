@@ -302,6 +302,29 @@ def create_test_gt(image_details_json_path):
         json.dump(test_data, f, indent=4)
 
 
+def change_file_path_to_origin_filename(input_json, output_json):
+    # Load the JSON file
+    with open(input_json, "r") as f:
+        data = json.load(f)
+
+    # Modify the image_path field
+    for entry in data:
+        # Extract filename from full URL
+        filename = os.path.basename(entry["image_path"])
+
+        # Remove the "X_segmented_" prefix (e.g., "10_segmented_" -> "")
+        # Assumes the format is always "<prefix>_segmented_<filename>.jpg"
+        if "_segmented_" in filename:
+            filename = filename.split("_segmented_")[-1]
+
+        # Replace the image_path with the cleaned filename
+        entry["image_path"] = filename
+
+    # Save to a new JSON file
+    with open(output_json, "w") as f:
+        json.dump(data, f, indent=4)
+
+
 if __name__ == "__main__":
     json_filename = '../data/upwork/upwork_responses_rotate.json'
     # Load the JSON file
@@ -309,6 +332,10 @@ if __name__ == "__main__":
         all_responses = json.load(f)
 
     df_cleaned, test_df_cleaned = clean_data(all_responses)
-    train_df = create_final_train_df(cleaned_df=df_cleaned, image_details_json_path="../image_details/image_details.json")
+    train_df = create_final_train_df(cleaned_df=df_cleaned,
+                                     image_details_json_path="../image_details/image_details.json")
 
     create_test_gt(image_details_json_path="../image_details/image_details_validation_new.json")
+
+    # change_file_path_to_origin_filename(input_json="../data/test_data/test_data.json",
+    #                                     output_json="../data/test_data/test_data_origin_filenames.json")
