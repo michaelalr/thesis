@@ -107,6 +107,7 @@ def extract_filename(image_path):
 def compare_responses(responses):
     user_ids = list(responses.keys())
     results = {}
+    iou_scores = {}
 
     for i in range(len(user_ids)):
         for j in range(i + 1, len(user_ids)):
@@ -115,6 +116,7 @@ def compare_responses(responses):
 
             agreements = 0
             total_comparisons = 0
+            ious = []
 
             # Compare all responses for same image_path and chosen_item
             for response1 in user1_data:
@@ -126,12 +128,26 @@ def compare_responses(responses):
                         total_comparisons += 1
                         iou = compute_iou(json.loads(response1['chosen_polygon']),
                                           json.loads(response2['chosen_polygon']))
+                        ious.append(iou)
                         # if iou > 0.5:  # threshold for considering agreement
                         if iou >= 1:  # threshold for considering agreement
                             agreements += 1
 
             agreement_percentage = (agreements / total_comparisons) * 100 if total_comparisons > 0 else 0
+            avg_iou = (sum(ious) / len(ious)) if ious else 0
+
             results[(user_ids[i], user_ids[j])] = agreement_percentage
+            iou_scores[(user_ids[i], user_ids[j])] = avg_iou
+
+    # Print Agreement Percentage
+    print("\nAgreement Percentages Between User Pairs:")
+    for pair, agreement in results.items():
+        print(f"{pair[0]} vs {pair[1]}: {agreement:.2f}%")
+
+    # Print IoU results
+    print("\nAverage IoU between user pairs:")
+    for pair, avg_iou in iou_scores.items():
+        print(f"{pair[0]} vs {pair[1]}: {avg_iou:.3f}")
 
     return results
 
@@ -579,16 +595,16 @@ if __name__ == '__main__':
     #     'responses/user_responses_test_shabi.json'
     # ]
 
-    # user_files = ['../baselines/human/cleaned_responses.json']
-    # responses_df = pd.read_csv("../baselines/human/cleaned_responses.csv")
-    # main(user_files=user_files, responses_df=responses_df)
+    user_files = ['../baselines/human/cleaned_responses.json']
+    responses_df = pd.read_csv("../baselines/human/cleaned_responses.csv")
+    main(user_files=user_files, responses_df=responses_df)
 
     # agreement_human_random(human_responses_json='../baselines/human/cleaned_responses.json',
     #                        random_responses_json="../baselines/random/random_train_responses.json")
 
     # full_human_agreement(cleaned_response_csv='../baselines/human/cleaned_responses.csv', agreement_pairs_json='../baselines/human/agreement_pairs.json')
 
-    user_responses_common_pairs(responses_json='../baselines/human/test_responses_kitchen.json',
-                                output_csv='../baselines/human/common_responses_test_kitchen.csv')
-    change_polygon_to_id(common_responses_csv='../baselines/human/common_responses.csv',
-                         output_csv='../baselines/human/common_responses_int_ids.csv')
+    # user_responses_common_pairs(responses_json='../baselines/human/test_responses_kitchen.json',
+    #                             output_csv='../baselines/human/common_responses_test_kitchen.csv')
+    # change_polygon_to_id(common_responses_csv='../baselines/human/common_responses.csv',
+    #                      output_csv='../baselines/human/common_responses_int_ids.csv')
