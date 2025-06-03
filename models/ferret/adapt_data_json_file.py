@@ -31,10 +31,11 @@ def convert_to_finetune_json(
 
         # 3) Compute bbox [x1,y1,x2,y2]
         if poly and isinstance(poly, list) and all(isinstance(pt, (list,tuple)) for pt in poly):
-            xs = [pt[0] for pt in poly]
-            ys = [pt[1] for pt in poly]
-            bbox = [min(xs), min(ys), max(xs), max(ys)]
-            box_field = [[bbox], []]
+            # xs = [pt[0] for pt in poly]
+            # ys = [pt[1] for pt in poly]
+            # bbox = [min(xs), min(ys), max(xs), max(ys)]
+            # box_field = [[bbox], []]
+            box_field = [poly, []]  # leave bbox as the original polygon
         else:
             # no polygon → both lists empty
             box_field = [[], []]
@@ -66,7 +67,7 @@ def convert_to_finetune_json(
 if __name__ == "__main__":
     # Example usage:
     convert_to_finetune_json(
-        input_json_path   = "../../data/test_data/test_data_origin_filenames.json",
-        image_repo_dir    = "../../images/test_kitchen_images_original",
-        output_json_path  = "ferret_finetune_test_data.json"
+        input_json_path   = "../../data/train_data/train_data_origin_filenames.json",
+        image_repo_dir    = "../../images/sun_kitchen_images_original",
+        output_json_path  = "ferret_finetune_train_data.json"
     )
