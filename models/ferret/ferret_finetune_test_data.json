@@ -1,0 +1,4978 @@
+[
+  {
+    "id": 0,
+    "image": "Bottle_opener_1_a.jpg",
+    "image_h": 1080,
+    "image_w": 1920,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          931,
+          668,
+          1077,
+          819
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 1,
+    "image": "Bottle_opener_2_a.jpg",
+    "image_h": 900,
+    "image_w": 1600,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          186,
+          408,
+          330,
+          491
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 2,
+    "image": "Bottle_opener_3_a.jpg",
+    "image_h": 1536,
+    "image_w": 2048,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1040,
+          773,
+          1250,
+          850
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 3,
+    "image": "Bottle_opener_4_a.jpg",
+    "image_h": 1200,
+    "image_w": 1600,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          890,
+          863,
+          1141,
+          996
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 4,
+    "image": "Bottle_opener_5_a.jpg",
+    "image_h": 1536,
+    "image_w": 2048,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          0,
+          950,
+          600,
+          1084
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 5,
+    "image": "Bottle_opener_6_a.jpg",
+    "image_h": 1599,
+    "image_w": 899,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          224,
+          791,
+          355,
+          828
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 6,
+    "image": "Bottle_opener_7_a.jpg",
+    "image_h": 1536,
+    "image_w": 2048,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1599,
+          1065,
+          1919,
+          1269
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 7,
+    "image": "Bottle_opener_8_a.jpg",
+    "image_h": 1536,
+    "image_w": 2048,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [],
+      []
+    ]
+  },
+  {
+    "id": 8,
+    "image": "Bottle_opener_9_a.jpg",
+    "image_h": 1920,
+    "image_w": 1080,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          221,
+          1038,
+          287,
+          1521
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 9,
+    "image": "Bottle_opener_10_a.jpg",
+    "image_h": 1599,
+    "image_w": 899,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          51,
+          671,
+          107,
+          781
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 10,
+    "image": "Bottle_opener_11_a.jpg",
+    "image_h": 2048,
+    "image_w": 1536,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [],
+      []
+    ]
+  },
+  {
+    "id": 11,
+    "image": "Bottle_opener_12_a.jpg",
+    "image_h": 1080,
+    "image_w": 1920,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          516,
+          461,
+          866,
+          1075
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 12,
+    "image": "Bottle_opener_13_a.jpg",
+    "image_h": 1152,
+    "image_w": 2048,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          68,
+          689,
+          533,
+          1005
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 13,
+    "image": "Bottle_opener_14_a.jpg",
+    "image_h": 576,
+    "image_w": 1024,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          570,
+          350,
+          652,
+          393
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 14,
+    "image": "Bottle_opener_15_a.jpg",
+    "image_h": 1152,
+    "image_w": 2048,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [],
+      []
+    ]
+  },
+  {
+    "id": 15,
+    "image": "Bottle_opener_16_a.jpg",
+    "image_h": 739,
+    "image_w": 1600,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          944,
+          475,
+          1152,
+          535
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 16,
+    "image": "Bottle_opener_17_a.jpg",
+    "image_h": 1536,
+    "image_w": 2048,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1077,
+          737,
+          1315,
+          880
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 17,
+    "image": "Bottle_opener_18_a.jpg",
+    "image_h": 1536,
+    "image_w": 2048,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1101,
+          895,
+          1414,
+          1006
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 18,
+    "image": "Bottle_opener_19_a.jpg",
+    "image_h": 1500,
+    "image_w": 2000,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          65,
+          955,
+          633,
+          1096
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 19,
+    "image": "Bottle_opener_20_a.jpg",
+    "image_h": 2048,
+    "image_w": 1536,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          945,
+          1104,
+          1224,
+          1286
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 20,
+    "image": "Bottle_opener_21_a.jpg",
+    "image_h": 3024,
+    "image_w": 4032,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          2433,
+          1627,
+          2970,
+          1839
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 21,
+    "image": "Bottle_opener_22_a.jpg",
+    "image_h": 899,
+    "image_w": 1599,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          986,
+          451,
+          1147,
+          573
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 22,
+    "image": "Bottle_opener_23_a.jpg",
+    "image_h": 1152,
+    "image_w": 2048,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [],
+      []
+    ]
+  },
+  {
+    "id": 23,
+    "image": "Bottle_opener_24_a.jpg",
+    "image_h": 1125,
+    "image_w": 2000,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          830,
+          557,
+          939,
+          619
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 24,
+    "image": "Bottle_opener_25_a.jpg",
+    "image_h": 1600,
+    "image_w": 1200,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          187,
+          454,
+          422,
+          763
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 25,
+    "image": "Bottle_opener_26_a.jpg",
+    "image_h": 1200,
+    "image_w": 1600,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          55,
+          689,
+          1233,
+          1175
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 26,
+    "image": "Bottle_opener_27_a.jpg",
+    "image_h": 924,
+    "image_w": 2000,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          431,
+          712,
+          622,
+          856
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 27,
+    "image": "Bottle_opener_28_a.jpg",
+    "image_h": 2048,
+    "image_w": 1536,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [],
+      []
+    ]
+  },
+  {
+    "id": 28,
+    "image": "Bottle_opener_29_a.jpg",
+    "image_h": 1200,
+    "image_w": 1600,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1086,
+          661,
+          1240,
+          720
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 29,
+    "image": "Bottle_opener_30_a.jpg",
+    "image_h": 900,
+    "image_w": 1600,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          460,
+          481,
+          588,
+          620
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 30,
+    "image": "Bottle_opener_31_a.jpg",
+    "image_h": 3000,
+    "image_w": 4000,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          2498,
+          1714,
+          3190,
+          2274
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 31,
+    "image": "Bottle_opener_32_a.jpg",
+    "image_h": 2048,
+    "image_w": 1536,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          808,
+          1147,
+          889,
+          1410
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 32,
+    "image": "Bottle_opener_35_a.jpg",
+    "image_h": 3072,
+    "image_w": 4080,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          956,
+          1679,
+          1563,
+          1853
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 33,
+    "image": "Bottle_opener_36_a.jpg",
+    "image_h": 3024,
+    "image_w": 4032,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [],
+      []
+    ]
+  },
+  {
+    "id": 34,
+    "image": "Bottle_opener_37_a.jpg",
+    "image_h": 1756,
+    "image_w": 4000,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1265,
+          598,
+          2363,
+          1120
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 35,
+    "image": "Bottle_opener_39_a.jpg",
+    "image_h": 1600,
+    "image_w": 900,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          200,
+          770,
+          332,
+          904
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 36,
+    "image": "Bottle_opener_40_a.jpg",
+    "image_h": 576,
+    "image_w": 1280,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          649,
+          400,
+          772,
+          460
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 37,
+    "image": "Bottle_opener_41_a.jpg",
+    "image_h": 1800,
+    "image_w": 4000,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          2059,
+          336,
+          2583,
+          709
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 38,
+    "image": "Bottle_opener_42_a.jpg",
+    "image_h": 1600,
+    "image_w": 1200,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          245,
+          613,
+          546,
+          759
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 39,
+    "image": "Bottle_opener_44_a.jpg",
+    "image_h": 1500,
+    "image_w": 2000,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          675,
+          725,
+          943,
+          873
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 40,
+    "image": "Bottle_opener_45_a.jpg",
+    "image_h": 3024,
+    "image_w": 4032,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          3332,
+          1723,
+          3967,
+          2263
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 41,
+    "image": "Bottle_opener_46_a.jpg",
+    "image_h": 3024,
+    "image_w": 4032,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          2135,
+          2030,
+          2945,
+          2239
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 42,
+    "image": "Bottle_opener_48_a.jpg",
+    "image_h": 960,
+    "image_w": 1280,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          666,
+          415,
+          832,
+          489
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 43,
+    "image": "Bottle_opener_47_a.jpeg",
+    "image_h": 1530,
+    "image_w": 2040,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          322,
+          482,
+          518,
+          587
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 44,
+    "image": "Bottle_opener_34_a.jpeg",
+    "image_h": 3024,
+    "image_w": 4032,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          2109,
+          1871,
+          2829,
+          2161
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 45,
+    "image": "Bottle_opener_43_a.jpeg",
+    "image_h": 3000,
+    "image_w": 4000,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1240,
+          1442,
+          1464,
+          1589
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 46,
+    "image": "Bottle_opener_38_a.jpeg",
+    "image_h": 1920,
+    "image_w": 1080,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          365,
+          483,
+          625,
+          891
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 47,
+    "image": "Bottle_opener_33_a.jpeg",
+    "image_h": 1200,
+    "image_w": 1600,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bottle opener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          821,
+          433,
+          1044,
+          710
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 48,
+    "image": "Iron_1_a.jpg",
+    "image_h": 1600,
+    "image_w": 1200,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Iron stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          604,
+          366,
+          789,
+          1007
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 49,
+    "image": "Iron_2_a.jpg",
+    "image_h": 1599,
+    "image_w": 899,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Iron stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          511,
+          232,
+          627,
+          1112
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 50,
+    "image": "Food_containers_1_a.jpg",
+    "image_h": 2016,
+    "image_w": 1512,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          234,
+          1145,
+          815,
+          1671
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 51,
+    "image": "Food_containers_2_a.jpg",
+    "image_h": 1536,
+    "image_w": 2048,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1523,
+          68,
+          1738,
+          799
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 52,
+    "image": "Food_containers_3_a.jpg",
+    "image_h": 2048,
+    "image_w": 1537,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          692,
+          833,
+          1068,
+          1490
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 53,
+    "image": "Food_containers_4_a.jpg",
+    "image_h": 1600,
+    "image_w": 900,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          567,
+          160,
+          847,
+          667
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 54,
+    "image": "Food_containers_5_a.jpg",
+    "image_h": 1500,
+    "image_w": 2000,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [],
+      []
+    ]
+  },
+  {
+    "id": 55,
+    "image": "Food_containers_6_a.jpg",
+    "image_h": 1536,
+    "image_w": 2048,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          194,
+          1102,
+          589,
+          1440
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 56,
+    "image": "Food_containers_7_a.jpg",
+    "image_h": 2048,
+    "image_w": 1152,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          803,
+          926,
+          1025,
+          1368
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 57,
+    "image": "Food_containers_8_a.jpg",
+    "image_h": 2040,
+    "image_w": 1530,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          859,
+          760,
+          1017,
+          1379
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 58,
+    "image": "Food_containers_9_a.jpg",
+    "image_h": 1080,
+    "image_w": 1920,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          857,
+          226,
+          1376,
+          462
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 59,
+    "image": "Food_containers_10_a.jpg",
+    "image_h": 1080,
+    "image_w": 1920,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          809,
+          516,
+          1010,
+          849
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 60,
+    "image": "Food_containers_11_a.jpg",
+    "image_h": 900,
+    "image_w": 1600,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [],
+      []
+    ]
+  },
+  {
+    "id": 61,
+    "image": "Food_containers_12_a.jpg",
+    "image_h": 1152,
+    "image_w": 2048,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1156,
+          0,
+          1400,
+          460
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 62,
+    "image": "Food_containers_13_a.jpg",
+    "image_h": 1599,
+    "image_w": 899,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          364,
+          722,
+          385,
+          972
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 63,
+    "image": "Food_containers_14_a.jpg",
+    "image_h": 1200,
+    "image_w": 1600,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1281,
+          816,
+          1443,
+          1081
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 64,
+    "image": "Food_containers_15_a.jpg",
+    "image_h": 900,
+    "image_w": 1600,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          522,
+          624,
+          786,
+          771
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 65,
+    "image": "Food_containers_16_a.jpg",
+    "image_h": 1599,
+    "image_w": 899,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [],
+      []
+    ]
+  },
+  {
+    "id": 66,
+    "image": "Food_containers_17_a.jpg",
+    "image_h": 1536,
+    "image_w": 2048,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          96,
+          182,
+          381,
+          449
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 67,
+    "image": "Food_containers_18_a.jpg",
+    "image_h": 1537,
+    "image_w": 2048,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          183,
+          941,
+          551,
+          1151
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 68,
+    "image": "Food_containers_19_a.jpg",
+    "image_h": 1152,
+    "image_w": 2048,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          595,
+          0,
+          731,
+          606
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 69,
+    "image": "Food_containers_20_a.jpg",
+    "image_h": 900,
+    "image_w": 1600,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          326,
+          637,
+          500,
+          712
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 70,
+    "image": "Food_containers_21_a.jpg",
+    "image_h": 1600,
+    "image_w": 1200,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          704,
+          485,
+          813,
+          783
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 71,
+    "image": "Food_containers_22_a.jpg",
+    "image_h": 900,
+    "image_w": 1600,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          849,
+          537,
+          997,
+          775
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 72,
+    "image": "Food_containers_23_a.jpg",
+    "image_h": 1512,
+    "image_w": 2016,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1018,
+          783,
+          1351,
+          996
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 73,
+    "image": "Food_containers_24_a.jpg",
+    "image_h": 2048,
+    "image_w": 1536,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          784,
+          1167,
+          910,
+          1465
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 74,
+    "image": "Food_containers_27_a.jpg",
+    "image_h": 2252,
+    "image_w": 4000,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1553,
+          31,
+          1873,
+          1164
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 75,
+    "image": "Food_containers_28_a.jpg",
+    "image_h": 3472,
+    "image_w": 4624,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          2540,
+          0,
+          3283,
+          1184
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 76,
+    "image": "Food_containers_29_a.jpg",
+    "image_h": 3072,
+    "image_w": 4080,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1807,
+          1301,
+          2241,
+          2062
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 77,
+    "image": "Food_containers_32_a.jpg",
+    "image_h": 3024,
+    "image_w": 4032,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          586,
+          2092,
+          1263,
+          2650
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 78,
+    "image": "Food_containers_33_a.jpg",
+    "image_h": 3024,
+    "image_w": 4032,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          2162,
+          1451,
+          2971,
+          2382
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 79,
+    "image": "Food_containers_34_a.jpg",
+    "image_h": 1080,
+    "image_w": 1920,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1449,
+          637,
+          1653,
+          1002
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 80,
+    "image": "Food_containers_35_a.jpg",
+    "image_h": 1600,
+    "image_w": 1200,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          645,
+          439,
+          1002,
+          782
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 81,
+    "image": "Food_containers_37_a.jpg",
+    "image_h": 1800,
+    "image_w": 4000,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [],
+      []
+    ]
+  },
+  {
+    "id": 82,
+    "image": "Food_containers_38_a.jpg",
+    "image_h": 3024,
+    "image_w": 4032,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1150,
+          1170,
+          1871,
+          2338
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 83,
+    "image": "Food_containers_39_a.jpg",
+    "image_h": 1600,
+    "image_w": 900,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          334,
+          36,
+          434,
+          432
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 84,
+    "image": "Food_containers_40_a.jpg",
+    "image_h": 576,
+    "image_w": 1280,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          648,
+          529,
+          775,
+          575
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 85,
+    "image": "Food_containers_41_a.jpg",
+    "image_h": 960,
+    "image_w": 1280,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          666,
+          461,
+          830,
+          582
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 86,
+    "image": "Food_containers_36_a.jpeg",
+    "image_h": 3000,
+    "image_w": 4000,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1245,
+          1530,
+          1461,
+          1807
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 87,
+    "image": "Food_containers_30_a.jpeg",
+    "image_h": 2048,
+    "image_w": 1402,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          797,
+          1500,
+          1053,
+          1699
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 88,
+    "image": "Food_containers_25_a.jpeg",
+    "image_h": 1600,
+    "image_w": 1200,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          725,
+          489,
+          870,
+          1312
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 89,
+    "image": "Food_containers_31_a.jpeg",
+    "image_h": 1530,
+    "image_w": 2040,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1072,
+          793,
+          1843,
+          1269
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 90,
+    "image": "Food_containers_26_a.jpeg",
+    "image_h": 3024,
+    "image_w": 4032,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Tupperware containers stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          962,
+          0,
+          1959,
+          1437
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 91,
+    "image": "Random_4 - Air freshener _a.jpeg",
+    "image_h": 3024,
+    "image_w": 4032,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Air freshener stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1282,
+          0,
+          2504,
+          2229
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 92,
+    "image": "Random_16 - Bathrobe_a.jpg",
+    "image_h": 3024,
+    "image_w": 4032,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Bathrobe stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1624,
+          844,
+          2067,
+          3919
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 93,
+    "image": "Random_8 - Camera_a.jpg",
+    "image_h": 2252,
+    "image_w": 4000,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Camera stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1340,
+          487,
+          2332,
+          1807
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 94,
+    "image": "Random_5 - Candles_a.jpeg",
+    "image_h": 1200,
+    "image_w": 1600,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Candles stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1078,
+          523,
+          1352,
+          705
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 95,
+    "image": "Random_15 - Cereals_a.jpg",
+    "image_h": 1600,
+    "image_w": 900,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Cereals stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          334,
+          36,
+          434,
+          432
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 96,
+    "image": "Random_18 - Converter_a.jpg",
+    "image_h": 1800,
+    "image_w": 4000,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Converter stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1547,
+          1386,
+          2103,
+          1725
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 97,
+    "image": "Random_23 - Deodorant_a.jpg",
+    "image_h": 3024,
+    "image_w": 4032,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Deodorant stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1864,
+          1849,
+          2404,
+          3059
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 98,
+    "image": "Random_9 - Flash drive_a.jpg",
+    "image_h": 3072,
+    "image_w": 4080,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Flash drive stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1867,
+          1620,
+          2489,
+          1842
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 99,
+    "image": "Random_19 - Football ball_a.jpg",
+    "image_h": 1500,
+    "image_w": 2000,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Football ball stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          797,
+          266,
+          930,
+          1130
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 100,
+    "image": "Random_10 - Fork_a.jpg",
+    "image_h": 3000,
+    "image_w": 4000,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Fork stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          753,
+          2230,
+          2207,
+          3999
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 101,
+    "image": "Random_1 - Fork_a.jpg",
+    "image_h": 3472,
+    "image_w": 4624,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Fork stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          2370,
+          2212,
+          3056,
+          2630
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 102,
+    "image": "Random_12 - Fork_a.jpeg",
+    "image_h": 1920,
+    "image_w": 1080,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Fork stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          534,
+          994,
+          787,
+          1151
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 103,
+    "image": "Random_11 - Lemon glass_a.jpg",
+    "image_h": 3024,
+    "image_w": 4032,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Lemon glass stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1550,
+          908,
+          2772,
+          1594
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 104,
+    "image": "Random_7 - Peeler_a.jpeg",
+    "image_h": 3024,
+    "image_w": 4032,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Peeler stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          2845,
+          2015,
+          3948,
+          2415
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 105,
+    "image": "Random_3 - Plates_a.jpeg",
+    "image_h": 3024,
+    "image_w": 4032,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Plates stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          847,
+          371,
+          1602,
+          1155
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 106,
+    "image": "Random_14 - Pot_a.jpg",
+    "image_h": 576,
+    "image_w": 1280,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Pot stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          500,
+          41,
+          645,
+          159
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 107,
+    "image": "Random_22 - Pot_a.jpeg",
+    "image_h": 1530,
+    "image_w": 2040,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Pot stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          324,
+          482,
+          565,
+          830
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 108,
+    "image": "Random_21 - Rolling pin_a.jpg",
+    "image_h": 3024,
+    "image_w": 4032,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Rolling pin stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          512,
+          1691,
+          1225,
+          1837
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 109,
+    "image": "Random_17 - Spices_a.jpg",
+    "image_h": 1600,
+    "image_w": 1200,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Spices stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          432,
+          417,
+          507,
+          695
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 110,
+    "image": "Random_20 - Toilet paper_a.jpeg",
+    "image_h": 4000,
+    "image_w": 3000,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Toilet paper stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          893,
+          2598,
+          1127,
+          3679
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 111,
+    "image": "Random_6 - Toothpaste_a.jpg",
+    "image_h": 1512,
+    "image_w": 2016,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Toothpaste stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          407,
+          1029,
+          753,
+          1664
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 112,
+    "image": "Random_13 - Towel_a.jpg",
+    "image_h": 960,
+    "image_w": 1280,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Towel stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          410,
+          653,
+          562,
+          902
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 113,
+    "image": "Ear_toothpick_1_a.jpg",
+    "image_h": 2048,
+    "image_w": 1536,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Ear toothpick stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [],
+      []
+    ]
+  },
+  {
+    "id": 114,
+    "image": "Ear_toothpick_2_a.jpg",
+    "image_h": 2048,
+    "image_w": 1537,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Ear toothpick stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          0,
+          1357,
+          273,
+          1906
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 115,
+    "image": "Ear_toothpick_3_a.jpg",
+    "image_h": 1200,
+    "image_w": 1600,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Ear toothpick stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          468,
+          560,
+          768,
+          718
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 116,
+    "image": "Ear_toothpick_4_a.jpg",
+    "image_h": 1600,
+    "image_w": 1200,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Ear toothpick stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          691,
+          911,
+          888,
+          1119
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 117,
+    "image": "Ear_toothpick_5_a.jpg",
+    "image_h": 2048,
+    "image_w": 1152,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Ear toothpick stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          162,
+          1087,
+          857,
+          1583
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 118,
+    "image": "Ear_toothpick_6_a.jpg",
+    "image_h": 2048,
+    "image_w": 1536,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Ear toothpick stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [],
+      []
+    ]
+  },
+  {
+    "id": 119,
+    "image": "Ear_toothpick_7_a.jpg",
+    "image_h": 899,
+    "image_w": 1599,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Ear toothpick stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          705,
+          403,
+          989,
+          813
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 120,
+    "image": "Ear_toothpick_8_a.jpg",
+    "image_h": 1600,
+    "image_w": 1200,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Ear toothpick stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [],
+      []
+    ]
+  },
+  {
+    "id": 121,
+    "image": "Ear_toothpick_9_a.jpg",
+    "image_h": 1537,
+    "image_w": 2048,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Ear toothpick stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          429,
+          614,
+          1042,
+          1120
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 122,
+    "image": "Ear_toothpick_10_a.jpg",
+    "image_h": 2048,
+    "image_w": 1152,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Ear toothpick stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          78,
+          201,
+          506,
+          1384
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 123,
+    "image": "Ear_toothpick_11_a.jpg",
+    "image_h": 1600,
+    "image_w": 900,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Ear toothpick stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          96,
+          591,
+          659,
+          952
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 124,
+    "image": "Ear_toothpick_12_a.jpg",
+    "image_h": 899,
+    "image_w": 1599,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Ear toothpick stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          106,
+          371,
+          808,
+          835
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 125,
+    "image": "Ear_toothpick_15_a.jpg",
+    "image_h": 1756,
+    "image_w": 4000,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Ear toothpick stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [],
+      []
+    ]
+  },
+  {
+    "id": 126,
+    "image": "Ear_toothpick_17_a.jpg",
+    "image_h": 1280,
+    "image_w": 720,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Ear toothpick stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          323,
+          670,
+          570,
+          1069
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 127,
+    "image": "Ear_toothpick_18_a.jpg",
+    "image_h": 1600,
+    "image_w": 900,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Ear toothpick stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          32,
+          823,
+          219,
+          913
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 128,
+    "image": "Ear_toothpick_19_a.jpg",
+    "image_h": 3024,
+    "image_w": 4032,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Ear toothpick stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [],
+      []
+    ]
+  },
+  {
+    "id": 129,
+    "image": "Ear_toothpick_20_a.jpg",
+    "image_h": 2000,
+    "image_w": 1500,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Ear toothpick stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          803,
+          1057,
+          958,
+          1219
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 130,
+    "image": "Ear_toothpick_22_a.jpg",
+    "image_h": 1600,
+    "image_w": 1200,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Ear toothpick stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          300,
+          650,
+          768,
+          802
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 131,
+    "image": "Ear_toothpick_23_a.jpg",
+    "image_h": 4000,
+    "image_w": 1800,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Ear toothpick stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [],
+      []
+    ]
+  },
+  {
+    "id": 132,
+    "image": "Ear_toothpick_24_a.jpg",
+    "image_h": 3024,
+    "image_w": 4032,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Ear toothpick stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1665,
+          2881,
+          2402,
+          3341
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 133,
+    "image": "Ear_toothpick_25_a.jpg",
+    "image_h": 3024,
+    "image_w": 4032,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Ear toothpick stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          577,
+          2447,
+          2032,
+          3629
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 134,
+    "image": "Ear_toothpick_21_a.jpeg",
+    "image_h": 4000,
+    "image_w": 3000,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Ear toothpick stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1017,
+          366,
+          1632,
+          1364
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 135,
+    "image": "Ear_toothpick_16_a.jpeg",
+    "image_h": 1920,
+    "image_w": 1080,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Ear toothpick stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          117,
+          1047,
+          277,
+          1311
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 136,
+    "image": "Ear_toothpick_13_a.jpeg",
+    "image_h": 1200,
+    "image_w": 1600,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Ear toothpick stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          796,
+          842,
+          1205,
+          1059
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 137,
+    "image": "Ear_toothpick_14_a.jpeg",
+    "image_h": 3024,
+    "image_w": 4032,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Ear toothpick stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          0,
+          968,
+          1465,
+          1724
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 138,
+    "image": "Ear_toothpick_26_a.jpeg",
+    "image_h": 2040,
+    "image_w": 1530,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Ear toothpick stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1079,
+          114,
+          1353,
+          765
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 139,
+    "image": "Screwdriver_1_a.jpg",
+    "image_h": 1536,
+    "image_w": 2048,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Screwdriver stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1495,
+          803,
+          1681,
+          1152
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 140,
+    "image": "Screwdriver_2_a.jpg",
+    "image_h": 2048,
+    "image_w": 1152,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Screwdriver stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          421,
+          0,
+          774,
+          2047
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 141,
+    "image": "Screwdriver_3_a.jpg",
+    "image_h": 1599,
+    "image_w": 899,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Screwdriver stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          178,
+          207,
+          274,
+          434
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 142,
+    "image": "Screwdriver_4_a.jpg",
+    "image_h": 2016,
+    "image_w": 1512,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Screwdriver stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [],
+      []
+    ]
+  },
+  {
+    "id": 143,
+    "image": "Screwdriver_5_a.jpg",
+    "image_h": 3024,
+    "image_w": 4032,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Screwdriver stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          579,
+          320,
+          1445,
+          4031
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 144,
+    "image": "Screwdriver_7_a.jpg",
+    "image_h": 2252,
+    "image_w": 4000,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Screwdriver stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          2090,
+          1253,
+          2697,
+          1480
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 145,
+    "image": "Screwdriver_8_a.jpg",
+    "image_h": 1756,
+    "image_w": 4000,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Screwdriver stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          343,
+          1350,
+          1728,
+          2093
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 146,
+    "image": "Screwdriver_9_a.jpg",
+    "image_h": 3472,
+    "image_w": 4624,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Screwdriver stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          2452,
+          695,
+          2863,
+          1765
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 147,
+    "image": "Screwdriver_11_a.jpg",
+    "image_h": 1600,
+    "image_w": 900,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Screwdriver stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          200,
+          770,
+          332,
+          904
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 148,
+    "image": "Screwdriver_12_a.jpg",
+    "image_h": 3024,
+    "image_w": 4032,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Screwdriver stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          274,
+          3083,
+          1058,
+          3363
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 149,
+    "image": "Screwdriver_13_a.jpg",
+    "image_h": 4000,
+    "image_w": 1800,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Screwdriver stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1192,
+          2172,
+          1773,
+          2948
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 150,
+    "image": "Screwdriver_15_a.jpg",
+    "image_h": 1600,
+    "image_w": 1200,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Screwdriver stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          591,
+          583,
+          711,
+          719
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 151,
+    "image": "Screwdriver_16_a.jpg",
+    "image_h": 3024,
+    "image_w": 4032,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Screwdriver stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          3363,
+          1647,
+          3869,
+          2201
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 152,
+    "image": "Screwdriver_17_a.jpg",
+    "image_h": 3024,
+    "image_w": 4032,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Screwdriver stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          459,
+          2652,
+          1026,
+          3055
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 153,
+    "image": "Screwdriver_6_a.jpeg",
+    "image_h": 1200,
+    "image_w": 1600,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Screwdriver stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          346,
+          699,
+          666,
+          953
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 154,
+    "image": "Screwdriver_10_a.jpeg",
+    "image_h": 2016,
+    "image_w": 1512,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Screwdriver stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          205,
+          1311,
+          689,
+          1366
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 155,
+    "image": "Screwdriver_14_a.jpeg",
+    "image_h": 3000,
+    "image_w": 4000,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Screwdriver stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          2381,
+          1784,
+          3105,
+          2130
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 156,
+    "image": "Painkiller_1_a.jpg",
+    "image_h": 2048,
+    "image_w": 1536,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          882,
+          657,
+          1086,
+          1656
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 157,
+    "image": "Painkiller_2_a.jpg",
+    "image_h": 2016,
+    "image_w": 1512,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          455,
+          0,
+          1062,
+          1829
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 158,
+    "image": "Painkiller_3_a.jpg",
+    "image_h": 1600,
+    "image_w": 1200,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          741,
+          717,
+          812,
+          924
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 159,
+    "image": "Painkiller_4_a.jpg",
+    "image_h": 1500,
+    "image_w": 2000,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1481,
+          334,
+          1709,
+          510
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 160,
+    "image": "Painkiller_5_a.jpg",
+    "image_h": 1536,
+    "image_w": 2048,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          178,
+          997,
+          575,
+          1228
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 161,
+    "image": "Painkiller_6_a.jpg",
+    "image_h": 1600,
+    "image_w": 1200,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          400,
+          1013,
+          688,
+          1288
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 162,
+    "image": "Painkiller_7_a.jpg",
+    "image_h": 1600,
+    "image_w": 1200,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          385,
+          808,
+          560,
+          912
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 163,
+    "image": "Painkiller_8_a.jpg",
+    "image_h": 2048,
+    "image_w": 1536,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          477,
+          432,
+          711,
+          1146
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 164,
+    "image": "Painkiller_9_a.jpg",
+    "image_h": 1080,
+    "image_w": 1920,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1365,
+          100,
+          1564,
+          1075
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 165,
+    "image": "Painkiller_10_a.jpg",
+    "image_h": 900,
+    "image_w": 1600,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1149,
+          0,
+          1285,
+          202
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 166,
+    "image": "Painkiller_11_a.jpg",
+    "image_h": 900,
+    "image_w": 1600,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          499,
+          400,
+          642,
+          535
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 167,
+    "image": "Painkiller_12_a.jpg",
+    "image_h": 899,
+    "image_w": 1599,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          705,
+          403,
+          989,
+          813
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 168,
+    "image": "Painkiller_13_a.jpg",
+    "image_h": 2048,
+    "image_w": 1536,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          0,
+          1139,
+          714,
+          1762
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 169,
+    "image": "Painkiller_14_a.jpg",
+    "image_h": 2048,
+    "image_w": 1152,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          5,
+          0,
+          1078,
+          906
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 170,
+    "image": "Painkiller_15_a.jpg",
+    "image_h": 1600,
+    "image_w": 900,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          613,
+          811,
+          860,
+          1308
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 171,
+    "image": "Painkiller_16_a.jpg",
+    "image_h": 2048,
+    "image_w": 1152,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          426,
+          1264,
+          674,
+          1480
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 172,
+    "image": "Painkiller_17_a.jpg",
+    "image_h": 899,
+    "image_w": 1599,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          106,
+          371,
+          808,
+          835
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 173,
+    "image": "Painkiller_18_a.jpg",
+    "image_h": 900,
+    "image_w": 1600,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          410,
+          542,
+          658,
+          744
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 174,
+    "image": "Painkiller_19_a.jpg",
+    "image_h": 2048,
+    "image_w": 1536,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [],
+      []
+    ]
+  },
+  {
+    "id": 175,
+    "image": "Painkiller_21_a.jpg",
+    "image_h": 3024,
+    "image_w": 4032,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [],
+      []
+    ]
+  },
+  {
+    "id": 176,
+    "image": "Painkiller_22_a.jpg",
+    "image_h": 2252,
+    "image_w": 4000,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          2401,
+          7,
+          2899,
+          916
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 177,
+    "image": "Painkiller_24_a.jpg",
+    "image_h": 3472,
+    "image_w": 4624,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [],
+      []
+    ]
+  },
+  {
+    "id": 178,
+    "image": "Painkiller_26_a.jpg",
+    "image_h": 3024,
+    "image_w": 4032,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [],
+      []
+    ]
+  },
+  {
+    "id": 179,
+    "image": "Painkiller_27_a.jpg",
+    "image_h": 3024,
+    "image_w": 4032,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1649,
+          2520,
+          2446,
+          2936
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 180,
+    "image": "Painkiller_28_a.jpg",
+    "image_h": 1600,
+    "image_w": 1200,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          220,
+          663,
+          485,
+          794
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 181,
+    "image": "Painkiller_30_a.jpg",
+    "image_h": 1500,
+    "image_w": 2000,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          894,
+          630,
+          1119,
+          964
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 182,
+    "image": "Painkiller_31_a.jpg",
+    "image_h": 1600,
+    "image_w": 900,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          242,
+          994,
+          384,
+          1220
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 183,
+    "image": "Painkiller_33_a.jpg",
+    "image_h": 960,
+    "image_w": 1280,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          406,
+          431,
+          565,
+          547
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 184,
+    "image": "Painkiller_34_a.jpg",
+    "image_h": 4000,
+    "image_w": 1800,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          145,
+          45,
+          1173,
+          3999
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 185,
+    "image": "Painkiller_23_a.jpeg",
+    "image_h": 3024,
+    "image_w": 4032,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [],
+      []
+    ]
+  },
+  {
+    "id": 186,
+    "image": "Painkiller_25_a.jpeg",
+    "image_h": 1530,
+    "image_w": 2040,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          461,
+          958,
+          615,
+          1071
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 187,
+    "image": "Painkiller_29_a.jpeg",
+    "image_h": 3000,
+    "image_w": 4000,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          1891,
+          1915,
+          2356,
+          2236
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 188,
+    "image": "Painkiller_20_a.jpeg",
+    "image_h": 1200,
+    "image_w": 1600,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          297,
+          776,
+          496,
+          922
+        ]
+      ],
+      []
+    ]
+  },
+  {
+    "id": 189,
+    "image": "Painkiller_32_a.jpeg",
+    "image_h": 1920,
+    "image_w": 1080,
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIn which drawer or cabinet door is a Painkiller stored?"
+      },
+      {
+        "from": "gpt",
+        "value": "<bbox_location0>"
+      }
+    ],
+    "box_x1y1x2y2": [
+      [
+        [
+          134,
+          1040,
+          365,
+          1351
+        ]
+      ],
+      []
+    ]
+  }
+]
