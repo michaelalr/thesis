@@ -1142,13 +1142,13 @@ def t_test():
 if __name__ == "__main__":
     # data_json = "../data/train_data/train_data.json"
     data_json = "../data/test_data/test_data_kitchen.json"
-    # responses_json = "../baselines/human/cleaned_responses.json"
-    responses_json = "../models/chat_gpt/chatgpt_test_short_id_pos_lab_anchrs_ratio_fixed.json"
-    # output_json = "../baselines/human/scores_train_data.json"
-    output_json = "../models/chat_gpt/scores_chatgpt_test_short_id_pos_lab_anchrs_ratio_fixed.json"
+    # responses_json = "../models/chat_gpt/parse_results/chatgpt_test_short_id_pos_lab_anchrs_ratio.json"
+    responses_json = "../models/dino/dino_test_responses_kitchen_no_item.json"
+    # output_json = "../models/chat_gpt/scores/scores_chatgpt_test_short_id_pos_lab_anchrs_ratio.json"
+    output_json = "../models/dino/scores_dino_test_data_kitchen_no_item.json"
     # mode = "partial"
     mode = "full"
-    response_type = "chatgpt"
+    response_type = "dino"
     # give_score_on_data(data_json="../data/test_data/test_data_kitchen.json",
     #                          users_responses_json="../baselines/human/test_responses_kitchen.json",
     #                          scores_json="../baselines/human/scores_test_data.json",
@@ -1157,10 +1157,10 @@ if __name__ == "__main__":
     # score_human_users(data_json=data_json,
     #                   responses_json=responses_json,
     #                   output_json=output_json, mode=mode)
-    # give_score_on_data_fixed(data_json=data_json,
-    #                    users_responses_json=responses_json,
-    #                    scores_json=output_json,
-    #                    response_type=response_type, mode=mode)
+    give_score_on_data_fixed(data_json=data_json,
+                       users_responses_json=responses_json,
+                       scores_json=output_json,
+                       response_type=response_type, mode=mode)
     # give_score_on_data(data_json=data_json,
     #                    users_responses_json=responses_json,
     #                    scores_json=output_json,
@@ -1182,4 +1182,4 @@ if __name__ == "__main__":
 
     # compute_average_containers(data_json_path=data_json)
 
-    t_test()
+    # t_test()

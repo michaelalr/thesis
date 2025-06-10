@@ -19,6 +19,8 @@ def update_dino_json(dino_json_path, train_test_json_path, output_path):
             key = filename.split('_segmented_')[1]
             train_test_mapping[key] = entry
 
+    results = []
+
     # Now update DINO data
     for entry in dino_data:
         dino_img_path = entry['image_path_html']
@@ -29,6 +31,7 @@ def update_dino_json(dino_json_path, train_test_json_path, output_path):
             if matching_entry:
                 # Add the new 'image_path'
                 entry['image_path'] = matching_entry['image_path']
+                results.append(entry)
 
                 # Prepare the 'chosen_polygon'
                 # containers_mask_polygon = json.loads(entry['containers_mask_polygon'])
@@ -41,12 +44,12 @@ def update_dino_json(dino_json_path, train_test_json_path, output_path):
 
     # Save updated DINO JSON
     with open(output_path, 'w') as f:
-        json.dump(dino_data, f, indent=2)
+        json.dump(results, f, indent=2)
 
     print(f"Updated DINO JSON saved to {output_path}")
 
 if __name__ == '__main__':
-    dino_json_path = "./image_details_test_dino_and_sam.json"
-    train_test_json_path = "../../data/test_data/test_data.json"
-    output_path = "./dino_test_responses.json"
+    dino_json_path = "./image_details_test_dino_and_sam_no_item.json"
+    train_test_json_path = "../../data/test_data/test_data_kitchen.json"
+    output_path = "./dino_test_responses_kitchen_no_item.json"
     update_dino_json(dino_json_path, train_test_json_path, output_path)
