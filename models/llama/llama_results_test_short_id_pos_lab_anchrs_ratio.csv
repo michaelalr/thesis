@@ -1,0 +1,301 @@
+image_path,item,response
+images/validation/17_segmented_Random_22 - Pot_a.jpeg,Pot,"Item: Pot
+Best container: 2
+Reasoning: Pots are typically stored in cabinets below the countertop, and a wide and short cabinet door (Container 2) would provide ample space for storing pots of various sizes."
+images/validation/24_segmented_Random_21 - Rolling pin_a.jpg,Rolling pin,"Item: Rolling pin
+Best container: 3
+Reasoning: Rolling pins are typically stored in cabinets below the countertop, often near the stove or other baking equipment, which makes Container 3 a suitable choice as it is located below the coffee machine and to the left of the stove."
+images/validation/25_segmented_Bottle_opener_29_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 20
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often near other utensils or kitchen tools. Since drawers 20, 21, 22, and 24 are all described as narrow and tall and located below the countertop, any of these could be suitable, but without more specific information, drawer 20 is selected as a reasonable choice based on typical kitchen organization and accessibility."
+images/validation/14_segmented_Food_containers__17_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 11
+Reasoning: Tupperware containers are typically stored in a cabinet below the countertop, where they can be easily accessed but kept out of the way, and a wide and short cabinet can accommodate stacks of containers of various sizes."
+images/validation/14_segmented_Random_5 - Candles_a.jpeg,Candles,"Item: Candles
+Best container: None
+Reasoning: Candles are not typically stored in kitchen containers as they are not a food preparation or cooking item. They are often stored in living areas or on decorative surfaces. None of the provided containers seem specifically suitable for candle storage based on typical kitchen organization."
+images/validation/15_segmented_Bottle_opener_21_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 11
+Reasoning: Bottle openers are often stored in drawers near the stove or oven for convenience, as they are frequently used in food and drink preparation. Container 11, being a drawer located below the oven and at the bottom-left of the stove, is a likely candidate for storing a bottle opener due to its proximity to common cooking and food preparation areas."
+images/validation/19_segmented_Bottle_opener_26_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 15
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, and since Container 15 is a drawer located near the oven and sink, it's a likely place for storing utensils and gadgets like a bottle opener."
+images/validation/13_segmented_Bottle_opener_20_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 5
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, and Container 5 is a drawer located below the toaster and near the stove, which is a common area for utensils and tools like a bottle opener."
+images/validation/11_segmented_Painkiller_1_a.jpg,Painkiller,"Item: Painkiller
+Best container: None
+Reasoning: Painkillers are typically stored in a medicine cabinet, which is often located in a bathroom, not in a kitchen. Since all the provided containers are located in the kitchen, none of them are suitable for storing painkillers."
+images/validation/6_segmented_Painkiller_19_a.jpg,Painkiller,"Item: Painkiller
+Best container: None
+Reasoning: Painkillers are typically stored in a medicine cabinet, which is often located in a bathroom, not in the kitchen. The provided container options seem to be typical kitchen storage units, making none of them the most likely place to store painkillers."
+images/validation/11_segmented_Food_containers__4_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 8 or 10 
+Reasoning: Tupperware containers are usually stored in drawers or cabinets below the countertop for easy access and to maximize storage space. Given the options, drawers (Container 8 or 10) are more suitable due to their wide and short dimensions, which can accommodate the various sizes of Tupperware containers."
+images/validation/6_segmented_Random_17 - Spices_a.jpg,Spices,"Item: Spices
+Best container: 3
+Reasoning: Spices are often stored in a convenient and accessible location, and a wide and short drawer below the countertop, particularly one located below the stove, is a common place for spice storage as it allows for easy access while cooking."
+images/validation/21_segmented_Food_containers__6_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 9
+Reasoning: Tupperware containers are typically stored in cabinets below the countertop that are wider than tall, as this shape allows for easier stacking and access to the containers."
+images/validation/26_segmented_Bottle_opener_1_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 1
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often near the stove or other cooking areas, and Container 1 is a drawer below the countertop located below the stove, making it a likely location."
+images/validation/7_segmented_Food_containers__24_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 5
+Reasoning: Tupperware containers are typically stored in a drawer that can be easily accessed and has enough space to stack them, making a drawer below the countertop, such as Container 5, a suitable choice."
+images/validation/15_segmented_Screwdriver_14_a.jpeg,Screwdriver,"Item: Screwdriver
+Best container: 13
+Reasoning: Screwdrivers are typically stored in a designated area for tools, and a drawer below the countertop, especially one that is taller than wide, is a common place to store tools and utensils that are not used as frequently as kitchen essentials, keeping them organized and out of the way."
+images/validation/20_segmented_Random_15 - Cereals_a.jpg,Cereals,"Item: Cereals
+Best container: 14
+Reasoning: Cereals are typically stored in cabinets above the countertop, and being located above the refrigerator (Container 14) provides a convenient and dedicated space for food items, keeping them accessible yet out of the way of cooking areas."
+images/validation/7_segmented_Bottle_opener_48_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 5
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, and a wider than tall drawer is more likely to store utensils and gadgets like bottle openers."
+images/validation/16_segmented_Food_containers__14_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 7
+Reasoning: Tupperware containers are typically stored in cabinets below the countertop that are wide and short, allowing for easy stacking and access to the containers. This type of storage keeps them organized and out of the way while still being accessible for use."
+images/validation/18_segmented_Screwdriver_1_a.jpg,Screwdriver,"Item: Screwdriver
+Best container: 2 or 9 or 16
+Reasoning: Screwdrivers are typically stored in drawers below the countertop for easy access and organization, often with other tools. Containers 2, 9, and 16 are drawers, making them more suitable for storing a screwdriver compared to the cabinet doors. However, without more specific information about the contents or typical use of these drawers, it's difficult to pinpoint a single best container."
+images/validation/13_segmented_Bottle_opener_5_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 8
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often near the stove or sink where beverages are commonly consumed."
+images/validation/6_segmented_Bottle_opener_32_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 5
+Reasoning: Bottle openers are typically small and stored in easy-to-access locations, such as a square-like drawer below the countertop, where other utensils and gadgets are often kept."
+images/validation/9_segmented_Food_containers__25_a.jpeg,Tupperware containers,"Item: Tupperware containers
+Best container: 8 
+Reasoning: Tupperware containers are typically stored in cabinets below the countertop, as they are often bulky and stacking them in these areas keeps them organized and out of the way, while still being accessible."
+images/validation/2_segmented_Bottle_opener_9_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 2
+Reasoning: A bottle opener is a small kitchen gadget, and given the similar descriptions of Container 1 and Container 2, it's reasonable to consider typical kitchen layouts where utensils and gadgets are often stored near appliances they are used with, such as the electronic kettle. However, without specific common storage practices for bottle openers like can openers (often stored near food preparation areas or with other utensils), the choice between these two could be seen as arbitrary without additional context. Typically, gadgets like bottle openers might be stored in a drawer or a convenient, accessible location, but since those options aren't available, Container 2 is selected based on its proximity to common kitchen workflow areas, albeit with the acknowledgment that this choice leans on general kitchen organization principles rather than a specific rule for bottle openers."
+images/validation/20_segmented_Painkiller_23_a.jpeg,Painkiller,"Item: Painkiller
+Best container: None
+Reasoning: Painkillers are typically stored in a medicine cabinet, which is often located in a bathroom, not a kitchen. Since none of the provided containers are specifically described as a medicine cabinet, it's unlikely that a painkiller would be stored in any of these kitchen containers."
+images/validation/10_segmented_Random_12 - Fork_a.jpeg,Fork,"Item: Fork
+Best container: 3
+Reasoning: Forks are usually stored in drawers below the countertop for easy access, and Container 3 fits this description as a drawer located below the countertop."
+images/validation/19_segmented_Bottle_opener_14_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 13
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, and being located at the bottom-right of the sink places it near a common area for food and drink preparation."
+images/validation/8_segmented_Food_containers__13_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 8
+Reasoning: Tupperware containers are typically stored in drawers below the countertop for easy access and to maximize vertical storage space, keeping them organized and out of the way."
+images/validation/7_segmented_Food_containers__41_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 1
+Reasoning: Tupperware containers are usually stored in wide and short cabinets below the countertop, as this shape allows for easy stacking and access to the containers."
+images/validation/15_segmented_Food_containers__36_a.jpeg,Tupperware containers,"Item: Tupperware containers
+Best container: 7
+Reasoning: Tupperware containers are typically stored in cabinets below the countertop, where they can be stacked and easily accessed, and since Container 7 is wider than tall, it provides ample space for storing various sizes of Tupperware containers."
+images/validation/6_segmented_Bottle_opener_15_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 5
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often alongside other utensils or kitchen gadgets."
+images/validation/24_segmented_Bottle_opener_45_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 14
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often near the sink or other frequently used kitchen areas, making Container 14, a drawer located to the right of the toaster and at the bottom-right of the sink, a likely candidate."
+images/validation/3_segmented_Food_containers__29_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 1
+Reasoning: Tupperware containers are typically stored in cabinets below the countertop, as they often come in various sizes and shapes, and cabinets can provide more vertical storage space to stack them efficiently."
+images/validation/16_segmented_Food_containers__15_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 6
+Reasoning: Tupperware containers are typically stored in a wide and short cabinet or on a shelf to maximize storage space and allow for easy stacking, making Container 6 the most suitable option."
+images/validation/18_segmented_Food_containers__7_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 17
+Reasoning: Tupperware containers are typically stored in cabinets below the countertop, and a wider than tall cabinet is more suitable for storing containers of various sizes, making it easier to stack and access them."
+images/validation/18_segmented_Bottle_opener_19_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 9
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often near other utensils or kitchen tools, which is a common organization practice in kitchens."
+images/validation/18_segmented_Bottle_opener_8_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 16
+Reasoning: Bottle openers are often stored in drawers near the stove or cooking area for convenience, and since Container 16 is a drawer below the countertop located below the stove, it's a likely place for storing a bottle opener for easy access while cooking or preparing drinks."
+images/validation/20_segmented_Food_containers__39_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 10 or 11 or 12 
+Reasoning: Tupperware containers are typically stored in cabinets below the countertop, as they are often bulky and require more vertical space. Containers 10, 11, and 12 are all cabinet doors below the countertop and are described as square-like or wider than tall, which would provide ample space for storing Tupperware containers of various sizes."
+images/validation/21_segmented_Food_containers__33_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 2
+Reasoning: Tupperware containers are typically stored in cabinets below the countertop, and a square-like cabinet door (Container 2) would provide ample space for stacking and organizing the containers."
+images/validation/13_segmented_Bottle_opener_16_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 8
+Reasoning: Bottle openers are typically stored in drawers below the countertop near the stove or cooking area for easy access while preparing or cooking meals. Given the options, a drawer near the stove (Container 8) seems the most likely location."
+images/validation/4_segmented_Bottle_opener_10_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 2
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often near other utensils or kitchen tools, and Container 2 is a wide and short drawer which can accommodate various kitchen items, making it a suitable storage space."
+images/validation/21_segmented_Painkiller_5_a.jpg,Painkiller,"Item: Painkiller
+Best container: 8
+Reasoning: Painkillers are often stored in a medicine cabinet, which is typically a narrow and tall cabinet located above or below the sink, but since most of the above-the-countertop containers are described as narrow and tall without specific reference to being a medicine cabinet, and considering typical kitchen organization where medicines might be stored out of reach of children but still conveniently, a cabinet below the sink (Container 8) seems a plausible location for storing painkillers, assuming it's used as a medicine cabinet or for storing personal care items."
+images/validation/6_segmented_Bottle_opener_22_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 4
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often near other utensils or kitchen tools, making Container 4 a likely location."
+images/validation/20_segmented_Bottle_opener_39_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 2
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often near the sink or refrigerator where beverages are commonly consumed or stored."
+images/validation/11_segmented_Food_containers__30_a.jpeg,Tupperware containers,"Item: Tupperware containers
+Best container: 8
+Reasoning: Tupperware containers are typically stored in cabinets below the countertop, as they are often bulky and stacking them in a wider-than-tall space allows for efficient storage and easy access."
+images/validation/17_segmented_Food_containers__31_a.jpeg,Tupperware containers,"Item: Tupperware containers
+Best container: 2
+Reasoning: Tupperware containers are typically stored in cabinets below the countertop, and a wide and short cabinet door would provide easy access and sufficient space to stack them, making Container 2 a suitable choice."
+images/validation/10_segmented_Food_containers__10_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 2 or 3
+Reasoning: Tupperware containers are typically stored in cabinets below the countertop, as they are often bulky and not as frequently used as other kitchen items. Containers 2 and 3, being taller than wide, are more suitable for storing stacks of Tupperware containers."
+images/validation/11_segmented_Bottle_opener_13_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 1
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often near other utensils or kitchen tools, and Container 1 is a drawer that matches this description."
+images/validation/16_segmented_Food_containers__8_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 16
+Reasoning: Tupperware containers are typically stored in a drawer that is taller than wide, as this allows for easy stacking and access to the containers."
+images/validation/18_segmented_Bottle_opener_31_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 2
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often near other utensils or kitchen gadgets, and Container 2 is a drawer below the countertop, making it a likely candidate."
+images/validation/18_segmented_Bottle_opener_7_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 18
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often alongside other utensils or kitchen tools. Since Container 18 is a drawer below the countertop, it is the most suitable option for storing a bottle opener."
+images/validation/10_segmented_Food_containers__11_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: None
+Reasoning: Tupperware containers are typically stored in cabinets or on shelves, but the provided options are either cabinets above the countertop (which might be too high for frequent access) or drawers below the countertop (which are often used for utensils, knives, or other flat items). None of the options seem ideal for storing Tupperware containers, which are often bulky and require more vertical space."
+images/validation/20_segmented_Bottle_opener_34_a.jpeg,Bottle opener,"Item: Bottle opener
+Best container: 5
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often alongside other utensils or kitchen gadgets. A wide and short drawer is a suitable location for storing such items."
+images/validation/3_segmented_Bottle_opener_6_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 1
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often near the sink where beverages are commonly consumed."
+images/validation/8_segmented_Food_containers__16_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 8
+Reasoning: Tupperware containers are typically stored in cabinets below the countertop, as they can be stacked and stored out of the way, and Container 8 is described as a cabinet door below the countertop, which is a common location for storing such items."
+images/validation/6_segmented_Bottle_opener_41_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 1
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, and Container 1, being a drawer, fits this criterion. While multiple drawers are mentioned, the description of Container 1 as ""wider than tall"" suggests a utensil drawer, which is a common place to store small kitchen tools like bottle openers."
+images/validation/19_segmented_Food_containers__18_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 9
+Reasoning: Tupperware containers are typically stored in drawers below the countertop that are wide and short, as this allows for easy stacking and access to the containers."
+images/validation/13_segmented_Bottle_opener_24_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 1
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often near the stove or dishwasher where utensils and other kitchen tools are commonly stored. Container 1, being a drawer below the countertop located below the stove and to the right of the dishwasher, seems like a likely place for storing a bottle opener due to its accessibility and proximity to areas where food and drinks are prepared."
+images/validation/21_segmented_Screwdriver_16_a.jpg,Screwdriver,"Item: Screwdriver
+Best container: None
+Reasoning: Screwdrivers are typically stored in a toolbox or a designated area for tools, which is not commonly found in kitchen containers. The provided containers seem to be typical kitchen storage for dishes, utensils, and food, rather than tools like a screwdriver."
+images/validation/10_segmented_Bottle_opener_23_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 4
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often near the sink where beverages are commonly consumed."
+images/validation/18_segmented_Painkiller_4_a.jpg,Painkiller,"Item: Painkiller
+Best container: None
+Reasoning: Painkillers are typically stored in a medicine cabinet, which is usually located in a bathroom, not a kitchen. Since all the provided containers are located in the kitchen, none of them are a suitable place to store painkillers."
+images/validation/15_segmented_Bottle_opener_43_a.jpeg,Bottle opener,"Item: Bottle opener
+Best container: 5
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often near the sink where beverages are commonly consumed. Container 5, a drawer below the countertop located at the bottom-right of the sink, is a plausible location for storing a bottle opener due to its accessibility and proximity to areas where drinks are prepared or served."
+images/validation/5_segmented_Bottle_opener_37_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 2
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often alongside other utensils and tools."
+images/validation/11_segmented_Food_containers__34_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 1
+Reasoning: Tupperware containers are typically stored in cabinets below the countertop, where they can be stacked and easily accessed, and a square-like cabinet provides ample space for storing containers of various sizes."
+images/validation/18_segmented_Food_containers__28_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 5
+Reasoning: Tupperware containers are typically stored in cabinets above the countertop, and a wide and short cabinet (or in this case, wider than tall) would provide easy access and sufficient space to stack them."
+images/validation/29_segmented_Bottle_opener_27_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 1
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often alongside other utensils. Given the location and dimensions of Container 1, it seems like a suitable place for storing a bottle opener, as it is a drawer and located near the microwave, which could be near a common food preparation area."
+images/validation/19_segmented_Bottle_opener_2_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 5
+Reasoning: Bottle openers are typically stored in drawers for easy access, and since Container 5 is a drawer located to the left of the oven, it's a likely place for storing utensils and gadgets like a bottle opener."
+images/validation/8_segmented_Bottle_opener_12_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 2
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, and being near the sink (where drinks are often prepared) makes Container 2 a likely location."
+images/validation/12_segmented_Food_containers__40_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 6
+Reasoning: Tupperware containers are usually stored in drawers or cabinets below the countertop for easy access and to maximize storage space, given their often bulky nature. Among the provided options, a drawer below the countertop (Container 6) is a suitable choice for storing Tupperware containers, as it allows for easy access and can accommodate various sizes of containers."
+images/validation/12_segmented_Bottle_opener_35_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 8
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often near the stove or main cooking area where they are likely to be used. Drawer 8, being wider than tall and located below the stove, seems like a suitable location for storing utensils and gadgets like a bottle opener."
+images/validation/6_segmented_Food_containers__35_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 1
+Reasoning: Tupperware containers are typically stored in cabinets below the countertop, and a square-like cabinet door provides ample space for stacking and organizing them, making Container 1 a suitable choice."
+images/validation/18_segmented_Food_containers__19_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 15
+Reasoning: Tupperware containers are typically stored in cabinets below the countertop, where they can be stacked and easily accessed. Container 15, a cabinet door below the countertop that is square-like, seems like a suitable space for storing Tupperware containers of various sizes."
+images/validation/4_segmented_Food_containers__3_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 1
+Reasoning: Tupperware containers are often stored in wide and short cabinets, as they can be stacked horizontally and are easily accessible, making Container 1 a suitable choice."
+images/validation/17_segmented_Bottle_opener_47_a.jpeg,Bottle opener,"Item: Bottle opener
+Best container: 3
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, as they are frequently used utensils. Among the given options, Container 3, a drawer below the countertop, wide and short, seems like a suitable location for storing a bottle opener, given its accessibility and proximity to the countertop where bottles are often opened."
+images/validation/9_segmented_Bottle_opener_4_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 2
+Reasoning: Bottle openers are often stored in drawers below the countertop, particularly those located near the sink, as this allows for easy access while washing or preparing drinks."
+images/validation/15_segmented_Painkiller_29_a.jpeg,Painkiller,"Item: Painkiller
+Best container: None
+Reasoning: Painkillers are typically stored in a medicine cabinet, which is often located in a bathroom, not in a kitchen. Since none of the provided containers are specifically described as a medicine cabinet, it's unlikely that a painkiller would be stored in any of them."
+images/validation/18_segmented_Food_containers__5_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 11
+Reasoning: Tupperware containers are typically stored in cabinets below the countertop, where they can be easily accessed and stacked. A wide and short cabinet door below the countertop (Container 11) would provide ample space for storing Tupperware containers of various sizes."
+images/validation/25_segmented_Food_containers__22_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 20
+Reasoning: Tupperware containers are typically stored in drawers or cabinets below the countertop, where they can be easily accessed and stacked. A drawer that is wide and short (Container 20) would be a suitable storage space for Tupperware containers, allowing them to be stacked and organized efficiently."
+images/validation/8_segmented_Bottle_opener_25_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 4
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often alongside other utensils or kitchen gadgets."
+images/validation/18_segmented_Random_1 - Fork_a.jpg,Fork,"Item: Fork
+Best container: 10
+Reasoning: Forks are usually stored in drawers below the countertop for easy access. Although the description of Container 10 is ""narrow and tall"", it is the only drawer below the countertop, making it the most likely location for storing forks."
+images/validation/12_segmented_Bottle_opener_18_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 1
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often alongside other utensils or kitchen tools. Given the multiple similar drawer options, any of the wide and short drawers (Containers 1, 3, 4, 5) could be suitable, but Container 1 is selected as the best option due to its typical accessibility and the lack of more specific information about the other containers."
+images/validation/22_segmented_Food_containers__21_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 9 
+Reasoning: Tupperware containers are usually stored in cabinets below the countertop, and since Container 9 is described as ""taller than wide"", it is likely to be a pantry cabinet or a storage cabinet, which is a suitable place for storing Tupperware containers."
+images/validation/9_segmented_Bottle_opener_33_a.jpeg,Bottle opener,"Item: Bottle opener
+Best container: 4
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, and a drawer that is wider than tall is likely a utensil drawer, which is a common place to store small kitchen gadgets like bottle openers."
+images/validation/16_segmented_Food_containers__1_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 2
+Reasoning: Tupperware containers are typically stored in drawers below the countertop, where they can be easily accessed and stacked. A wider than tall drawer is more suitable for storing Tupperware containers of various sizes."
+images/validation/12_segmented_Bottle_opener_40_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 6
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often alongside other utensils."
+images/validation/9_segmented_Food_containers__37_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 8
+Reasoning: Tupperware containers are typically stored in cabinets below the countertop that are wider than tall, as this allows for easy stacking and access to the containers."
+images/validation/8_segmented_Bottle_opener_42_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 6
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, as they are frequently used utensils. Container 6, being a drawer, is the most likely location for a bottle opener due to its accessibility and common storage practice for such kitchen tools."
+images/validation/33_segmented_Bottle_opener_30_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 1
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often alongside other utensils and kitchen tools."
+images/validation/6_segmented_Food_containers__9_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 6
+Reasoning: Tupperware containers are typically stored in cabinets below the countertop, where they can be stacked and easily accessed, making Container 6 the most suitable option."
+images/validation/14_segmented_Bottle_opener_44_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 10
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often near the stove or cooking area where they are frequently used. Container 10, a drawer below the countertop located below the stove and above the toaster, seems like a suitable location for storing a bottle opener due to its accessibility and proximity to areas where food and drinks are prepared."
+images/validation/21_segmented_Bottle_opener_17_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 4
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often near the stove or other food preparation areas, making Container 4 a likely location due to its proximity to the stove."
+images/validation/14_segmented_Bottle_opener_3_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 11
+Reasoning: Bottle openers are typically small and stored in a designated utensil drawer, often a taller and narrower drawer that can accommodate various kitchen gadgets, making Container 11, a drawer below the countertop, taller than wide, a suitable choice."
+images/validation/12_segmented_Random_14 - Pot_a.jpg,Pot,"Item: Pot
+Best container: 6
+Reasoning: Pots are typically stored in drawers or cabinets below the countertop for easy access and to keep them out of the way, and since Container 6 is a drawer below the countertop, it is a suitable location for storing pots."
+images/validation/14_segmented_Bottle_opener_11_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 12
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often alongside other utensils or kitchen tools."
+images/validation/14_segmented_Food_containers__12_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 11
+Reasoning: Tupperware containers are typically stored in cabinets below the countertop, which are often wider than tall, allowing for easy stacking and access to the containers."
+images/validation/20_segmented_Screwdriver_11_a.jpg,Screwdriver,"Item: Screwdriver
+Best container: 2
+Reasoning: Screwdrivers are typically stored in a convenient and accessible location, often in a drawer. Given that Container 2 is a drawer below the countertop, it seems like a suitable place to store a screwdriver for easy access when needed for minor repairs or adjustments in the kitchen."
+images/validation/20_segmented_Random_7 - Peeler_a.jpeg,Peeler,"Item: Peeler
+Best container: 5
+Reasoning: Peelers are typically stored in drawers below the countertop for easy access, as they are frequently used in food preparation. A wide and short drawer is a suitable storage space for a peeler, allowing for organized storage of various kitchen utensils."
+images/validation/18_segmented_Food_containers__2_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 15
+Reasoning: Tupperware containers are typically stored in cabinets below the countertop, and a wide and short cabinet is more suitable for storing containers of various sizes, allowing for easier access and stacking."
+images/validation/10_segmented_Food_containers__20_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 2
+Reasoning: Tupperware containers are typically stored in cabinets below the countertop that are wider than tall, as this shape allows for easy stacking and storage of the containers."
+images/validation/10_segmented_Food_containers__23_a.jpg,Tupperware containers,"Item: Tupperware containers
+Best container: 1
+Reasoning: Tupperware containers are typically stored in cabinets below the countertop, where they can be stacked and stored out of the way but still accessible, and since Container 1 is described as taller than wide, it suggests a good space for stacking containers."
