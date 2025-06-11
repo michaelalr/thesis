@@ -47,9 +47,9 @@ except Exception as e:
     exit()
 
 # 4. File Paths
-INPUT_JSON_PATH = "../../data/train_data/train_data.json"
-OUTPUT_JSON_PATH = "train_data_with_gemini_bboxes_as_strings.json"  # Output file
-LOCAL_IMAGE_BASE_DIR = "../../images"  # Base directory for local images
+INPUT_JSON_PATH = "../../data/test_data/test_data_kitchen_origin_filenames.json"
+OUTPUT_JSON_PATH = "test_data_with_gemini_bboxes_as_strings_kitchen_origin.json"  # Output file
+LOCAL_IMAGE_BASE_DIR = "../../images/test_kitchen_images_original"  # Base directory for local images
 
 # 5. Processing & Reliability Settings
 PROCESS_LIMIT = None  # Set to None to process all 6500+ entries
@@ -214,7 +214,8 @@ def main():
             filename = os.path.basename(parsed_url.path)
             if not filename:
                 raise ValueError("Could not extract filename from URL")
-            local_image_path = os.path.join(LOCAL_IMAGE_BASE_DIR, room_type, filename)
+            # local_image_path = os.path.join(LOCAL_IMAGE_BASE_DIR, room_type, filename)
+            local_image_path = os.path.join(LOCAL_IMAGE_BASE_DIR, filename)
             logging.info(f"{current_entry_log_prefix}: Loading local image: {local_image_path}")
             image = Image.open(local_image_path)
             logging.info(f"{current_entry_log_prefix}: Image loaded successfully.")

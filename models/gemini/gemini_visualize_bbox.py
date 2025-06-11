@@ -7,10 +7,10 @@ import sys # To exit gracefully
 # --- Configuration ---
 
 # 1. Input JSON file (output from the UPDATED process_images.py script)
-JSON_INPUT_PATH = "train_data_with_gemini_bboxes_as_strings.json"
+JSON_INPUT_PATH = "test_data_with_gemini_bboxes_as_strings_kitchen_origin.json"
 
 # 2. Base directory for local images
-LOCAL_IMAGE_BASE_DIR = "../../images"
+LOCAL_IMAGE_BASE_DIR = "../../images/test_kitchen_images_original"
 
 # 3. Drawing settings
 RECTANGLE_OUTLINE_COLOR = "red" # For the simple list string "[x,y,x,y]"
@@ -69,7 +69,8 @@ def main():
             filename = os.path.basename(parsed_url.path)
             if not filename:
                  raise ValueError("Could not extract filename")
-            local_image_path = os.path.join(LOCAL_IMAGE_BASE_DIR, room_type, filename)
+            # local_image_path = os.path.join(LOCAL_IMAGE_BASE_DIR, room_type, filename)
+            local_image_path = os.path.join(LOCAL_IMAGE_BASE_DIR, filename)
             print(f"  Image Path: {local_image_path}")
             print(f"  Item: {chosen_item}")
         except Exception as e:
