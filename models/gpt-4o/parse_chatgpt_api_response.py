@@ -3,6 +3,7 @@ import re
 import os
 from urllib.parse import urljoin
 
+
 def convert_bbox_to_points(bbox):
     """Convert bbox [x_min, y_min, x_max, y_max] to rectangle polygon [(x1,y1), (x2,y2), (x3,y3), (x4,y4)]"""
 
@@ -15,6 +16,7 @@ def convert_bbox_to_points(bbox):
         [x_max, y_max],
         [x_max, y_min]
     ]
+
 
 def clean_bbox_string(bbox_str):
     if not bbox_str or not any(char.isdigit() for char in bbox_str):
@@ -59,7 +61,7 @@ def clean_bbox_string(bbox_str):
         return []
 
 
-def fix_bboxes_format(input_json_path, output_json_path):
+def fix_bboxes_format(input_json_path, output_json_path, leave_only_filename=False):
     # Load original data
     with open(input_json_path, "r") as f:
         data = json.load(f)
@@ -67,8 +69,11 @@ def fix_bboxes_format(input_json_path, output_json_path):
     base_url = "https://michaelalr.github.io/thesis/"
     fixed_data = []
     for image_path, items_list in data.items():
-        relative_path = image_path.lstrip("../")  # remove "../" from the beginning
-        full_image_path = urljoin(base_url, relative_path)
+        if leave_only_filename:
+            full_image_path = os.path.basename(image_path)
+        else:
+            relative_path = image_path.lstrip("../")  # remove "../" from the beginning
+            full_image_path = urljoin(base_url, relative_path)
         for item_data in items_list:
             item_name = item_data.get("item", "")
             bbox_str = item_data.get("bbox", "")
@@ -89,7 +94,6 @@ def fix_bboxes_format(input_json_path, output_json_path):
                 "chosen_polygon": json.dumps(cleaned_bbox)
             })
 
-
     # Save cleaned version
     with open(output_json_path, "w") as f:
         json.dump(fixed_data, f, indent=2)
@@ -98,6 +102,8 @@ def fix_bboxes_format(input_json_path, output_json_path):
 
 
 if __name__ == '__main__':
-    input_json_path = "chatgpt_baseline.json"
-    output_json_path = "chatgpt_baseline_parse.json"
-    fix_bboxes_format(input_json_path=input_json_path, output_json_path=output_json_path)
+    leave_only_filename = True
+    input_json_path = "chatgpt_baseline_subset_origin_images.json"
+    output_json_path = "chatgpt_baseline_subset_origin_images_parse.json"
+    fix_bboxes_format(input_json_path=input_json_path, output_json_path=output_json_path,
+                      leave_only_filename=leave_only_filename)

@@ -1,0 +1,54 @@
+[
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/5_segmented_sun_adkmgnqaiypcnhqy.jpg",
+        "chosen_item": "Tupperware containers",
+        "chosen_polygon": "[[124, 171], [124, 183], [134, 185], [138, 197], [155, 196], [157, 190], [173, 190], [173, 174]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_anfzulzazofakfhm.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[86, 138], [86, 150], [122, 147], [122, 136]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_anfzulzazofakfhm.jpg",
+        "chosen_item": "Cutting board",
+        "chosen_polygon": "[[86, 138], [86, 150], [122, 147], [122, 136]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/kitchen/12_segmented_sun_anfzulzazofakfhm.jpg",
+        "chosen_item": "Pan",
+        "chosen_polygon": "[[122, 150], [87, 152], [88, 175], [122, 171]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    }
+]

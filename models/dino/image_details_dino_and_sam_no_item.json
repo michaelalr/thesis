@@ -1,0 +1,2962 @@
+[
+    {
+        "image_path_html": "images/kitchen/34_segmented_sun_axpesxgsnxrsdqtr.jpg",
+        "num_detections": 34,
+        "containers_mask_polygon": "[[[212, 453], [141, 476], [138, 523], [211, 491]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.497, [[[212, 453], [141, 476], [138, 523], [211, 491]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/34_segmented_sun_axpesxgsnxrsdqtr.jpg",
+        "num_detections": 34,
+        "containers_mask_polygon": "[[[212, 453], [141, 476], [138, 523], [211, 491]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.497, [[[212, 453], [141, 476], [138, 523], [211, 491]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "image_path_html": "images/kitchen/34_segmented_sun_axpesxgsnxrsdqtr.jpg",
+        "num_detections": 34,
+        "containers_mask_polygon": "[[[212, 453], [141, 476], [138, 523], [211, 491]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.497, [[[212, 453], [141, 476], [138, 523], [211, 491]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/34_segmented_sun_axpesxgsnxrsdqtr.jpg",
+        "num_detections": 34,
+        "containers_mask_polygon": "[[[212, 453], [141, 476], [138, 523], [211, 491]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.497, [[[212, 453], [141, 476], [138, 523], [211, 491]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_advwcwduhfypopki.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[1062, 1406], [1057, 1536], [1133, 1574], [1121, 1534], [1155, 1455], [1138, 1432]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.458, [[[1062, 1406], [1057, 1536], [1133, 1574], [1121, 1534], [1155, 1455], [1138, 1432]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_advwcwduhfypopki.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[1062, 1406], [1057, 1536], [1133, 1574], [1121, 1534], [1155, 1455], [1138, 1432]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.458, [[[1062, 1406], [1057, 1536], [1133, 1574], [1121, 1534], [1155, 1455], [1138, 1432]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_advwcwduhfypopki.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[1062, 1406], [1057, 1536], [1133, 1574], [1121, 1534], [1155, 1455], [1138, 1432]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.458, [[[1062, 1406], [1057, 1536], [1133, 1574], [1121, 1534], [1155, 1455], [1138, 1432]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_advwcwduhfypopki.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[1062, 1406], [1057, 1536], [1133, 1574], [1121, 1534], [1155, 1455], [1138, 1432]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.458, [[[1062, 1406], [1057, 1536], [1133, 1574], [1121, 1534], [1155, 1455], [1138, 1432]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/15_segmented_sun_avdeakyjwzxtynyf.jpg",
+        "num_detections": 15,
+        "containers_mask_polygon": "[[[272, 178], [230, 187], [234, 276], [274, 259]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.497, [[[272, 178], [230, 187], [234, 276], [274, 259]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/15_segmented_sun_avdeakyjwzxtynyf.jpg",
+        "num_detections": 15,
+        "containers_mask_polygon": "[[[272, 178], [230, 187], [234, 276], [274, 259]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.497, [[[272, 178], [230, 187], [234, 276], [274, 259]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "image_path_html": "images/kitchen/15_segmented_sun_avdeakyjwzxtynyf.jpg",
+        "num_detections": 15,
+        "containers_mask_polygon": "[[[272, 178], [230, 187], [234, 276], [274, 259]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.497, [[[272, 178], [230, 187], [234, 276], [274, 259]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/15_segmented_sun_avdeakyjwzxtynyf.jpg",
+        "num_detections": 15,
+        "containers_mask_polygon": "[[[272, 178], [230, 187], [234, 276], [274, 259]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.497, [[[272, 178], [230, 187], [234, 276], [274, 259]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/17_segmented_sun_agorklincwxrdtga.jpg",
+        "num_detections": 17,
+        "containers_mask_polygon": "[[[2845, 1626], [2814, 1614], [2630, 1639], [2625, 1722], [2840, 1697]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.525, [[[2845, 1626], [2814, 1614], [2630, 1639], [2625, 1722], [2840, 1697]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cooking oil"
+    },
+    {
+        "image_path_html": "images/kitchen/17_segmented_sun_agorklincwxrdtga.jpg",
+        "num_detections": 17,
+        "containers_mask_polygon": "[[[2845, 1626], [2814, 1614], [2630, 1639], [2625, 1722], [2840, 1697]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.525, [[[2845, 1626], [2814, 1614], [2630, 1639], [2625, 1722], [2840, 1697]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Dish towels"
+    },
+    {
+        "image_path_html": "images/kitchen/17_segmented_sun_agorklincwxrdtga.jpg",
+        "num_detections": 17,
+        "containers_mask_polygon": "[[[2845, 1626], [2814, 1614], [2630, 1639], [2625, 1722], [2840, 1697]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.525, [[[2845, 1626], [2814, 1614], [2630, 1639], [2625, 1722], [2840, 1697]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pot"
+    },
+    {
+        "image_path_html": "images/kitchen/17_segmented_sun_agorklincwxrdtga.jpg",
+        "num_detections": 17,
+        "containers_mask_polygon": "[[[2845, 1626], [2814, 1614], [2630, 1639], [2625, 1722], [2840, 1697]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.525, [[[2845, 1626], [2814, 1614], [2630, 1639], [2625, 1722], [2840, 1697]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/kitchen/10_segmented_sun_afjofbpiualrfwlz.jpg",
+        "num_detections": 10,
+        "containers_mask_polygon": "[[[1204, 88], [971, 199], [936, 767], [1148, 802]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.481, [[[1204, 88], [971, 199], [936, 767], [1148, 802]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/10_segmented_sun_afjofbpiualrfwlz.jpg",
+        "num_detections": 10,
+        "containers_mask_polygon": "[[[1204, 88], [971, 199], [936, 767], [1148, 802]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.481, [[[1204, 88], [971, 199], [936, 767], [1148, 802]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "image_path_html": "images/kitchen/10_segmented_sun_afjofbpiualrfwlz.jpg",
+        "num_detections": 10,
+        "containers_mask_polygon": "[[[1204, 88], [971, 199], [936, 767], [1148, 802]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.481, [[[1204, 88], [971, 199], [936, 767], [1148, 802]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/10_segmented_sun_afjofbpiualrfwlz.jpg",
+        "num_detections": 10,
+        "containers_mask_polygon": "[[[1204, 88], [971, 199], [936, 767], [1148, 802]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.481, [[[1204, 88], [971, 199], [936, 767], [1148, 802]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spoon"
+    },
+    {
+        "image_path_html": "images/kitchen/9_segmented_sun_aawzwijpmowksmpn.jpg",
+        "num_detections": 9,
+        "containers_mask_polygon": "[[[681, 215], [665, 209], [611, 218], [611, 310], [681, 308]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.462, [[[681, 215], [665, 209], [611, 218], [611, 310], [681, 308]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/9_segmented_sun_aawzwijpmowksmpn.jpg",
+        "num_detections": 9,
+        "containers_mask_polygon": "[[[681, 215], [665, 209], [611, 218], [611, 310], [681, 308]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.462, [[[681, 215], [665, 209], [611, 218], [611, 310], [681, 308]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "image_path_html": "images/kitchen/9_segmented_sun_aawzwijpmowksmpn.jpg",
+        "num_detections": 9,
+        "containers_mask_polygon": "[[[681, 215], [665, 209], [611, 218], [611, 310], [681, 308]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.462, [[[681, 215], [665, 209], [611, 218], [611, 310], [681, 308]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/9_segmented_sun_aawzwijpmowksmpn.jpg",
+        "num_detections": 9,
+        "containers_mask_polygon": "[[[681, 215], [665, 209], [611, 218], [611, 310], [681, 308]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.462, [[[681, 215], [665, 209], [611, 218], [611, 310], [681, 308]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/10_segmented_sun_avfsqwoiantddppx.jpg",
+        "num_detections": 10,
+        "containers_mask_polygon": "[[[109, 160], [108, 214], [150, 213], [147, 162]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.407, [[[109, 160], [108, 214], [150, 213], [147, 162]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/10_segmented_sun_avfsqwoiantddppx.jpg",
+        "num_detections": 10,
+        "containers_mask_polygon": "[[[109, 160], [108, 214], [150, 213], [147, 162]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.407, [[[109, 160], [108, 214], [150, 213], [147, 162]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/10_segmented_sun_avfsqwoiantddppx.jpg",
+        "num_detections": 10,
+        "containers_mask_polygon": "[[[109, 160], [108, 214], [150, 213], [147, 162]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.407, [[[109, 160], [108, 214], [150, 213], [147, 162]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/10_segmented_sun_avfsqwoiantddppx.jpg",
+        "num_detections": 10,
+        "containers_mask_polygon": "[[[109, 160], [108, 214], [150, 213], [147, 162]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.407, [[[109, 160], [108, 214], [150, 213], [147, 162]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/11_segmented_sun_awmwrrktzbyokpcr.jpg",
+        "num_detections": 11,
+        "containers_mask_polygon": "[[[367, 4], [374, 147], [536, 136], [532, 0]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.435, [[[367, 4], [374, 147], [536, 136], [532, 0]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/11_segmented_sun_awmwrrktzbyokpcr.jpg",
+        "num_detections": 11,
+        "containers_mask_polygon": "[[[367, 4], [374, 147], [536, 136], [532, 0]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.435, [[[367, 4], [374, 147], [536, 136], [532, 0]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/11_segmented_sun_awmwrrktzbyokpcr.jpg",
+        "num_detections": 11,
+        "containers_mask_polygon": "[[[367, 4], [374, 147], [536, 136], [532, 0]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.435, [[[367, 4], [374, 147], [536, 136], [532, 0]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/11_segmented_sun_awmwrrktzbyokpcr.jpg",
+        "num_detections": 11,
+        "containers_mask_polygon": "[[[367, 4], [374, 147], [536, 136], [532, 0]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.435, [[[367, 4], [374, 147], [536, 136], [532, 0]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/4_segmented_sun_aohalqjxiodeyhwm.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[538, 129], [530, 295], [701, 340], [710, 198]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.448, [[[538, 129], [530, 295], [701, 340], [710, 198]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/4_segmented_sun_aohalqjxiodeyhwm.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[538, 129], [530, 295], [701, 340], [710, 198]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.448, [[[538, 129], [530, 295], [701, 340], [710, 198]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/4_segmented_sun_aohalqjxiodeyhwm.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[538, 129], [530, 295], [701, 340], [710, 198]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.448, [[[538, 129], [530, 295], [701, 340], [710, 198]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/4_segmented_sun_aohalqjxiodeyhwm.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[538, 129], [530, 295], [701, 340], [710, 198]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.448, [[[538, 129], [530, 295], [701, 340], [710, 198]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_aojmogpsfirohkai.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[135, 421], [136, 558], [156, 574], [159, 429]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.389, [[[135, 421], [136, 558], [156, 574], [159, 429]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cooking oil"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_aojmogpsfirohkai.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[135, 421], [136, 558], [156, 574], [159, 429]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.389, [[[135, 421], [136, 558], [156, 574], [159, 429]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Dish towels"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_aojmogpsfirohkai.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[135, 421], [136, 558], [156, 574], [159, 429]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.389, [[[135, 421], [136, 558], [156, 574], [159, 429]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pot"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_aojmogpsfirohkai.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[135, 421], [136, 558], [156, 574], [159, 429]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.389, [[[135, 421], [136, 558], [156, 574], [159, 429]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/kitchen/19_segmented_sun_anrbnligfknyblpd.jpg",
+        "num_detections": 19,
+        "containers_mask_polygon": "[[[843, 120], [730, 126], [725, 405], [840, 409]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.544, [[[843, 120], [730, 126], [725, 405], [840, 409]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/19_segmented_sun_anrbnligfknyblpd.jpg",
+        "num_detections": 19,
+        "containers_mask_polygon": "[[[843, 120], [730, 126], [725, 405], [840, 409]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.544, [[[843, 120], [730, 126], [725, 405], [840, 409]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "image_path_html": "images/kitchen/19_segmented_sun_anrbnligfknyblpd.jpg",
+        "num_detections": 19,
+        "containers_mask_polygon": "[[[843, 120], [730, 126], [725, 405], [840, 409]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.544, [[[843, 120], [730, 126], [725, 405], [840, 409]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/19_segmented_sun_anrbnligfknyblpd.jpg",
+        "num_detections": 19,
+        "containers_mask_polygon": "[[[843, 120], [730, 126], [725, 405], [840, 409]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.544, [[[843, 120], [730, 126], [725, 405], [840, 409]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/9_segmented_sun_abdzsryntppucwqi.jpg",
+        "num_detections": 9,
+        "containers_mask_polygon": "[[[267, 167], [269, 250], [320, 256], [318, 169]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.501, [[[267, 167], [269, 250], [320, 256], [318, 169]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/9_segmented_sun_abdzsryntppucwqi.jpg",
+        "num_detections": 9,
+        "containers_mask_polygon": "[[[267, 167], [269, 250], [320, 256], [318, 169]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.501, [[[267, 167], [269, 250], [320, 256], [318, 169]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Dish towels"
+    },
+    {
+        "image_path_html": "images/kitchen/9_segmented_sun_abdzsryntppucwqi.jpg",
+        "num_detections": 9,
+        "containers_mask_polygon": "[[[267, 167], [269, 250], [320, 256], [318, 169]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.501, [[[267, 167], [269, 250], [320, 256], [318, 169]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/9_segmented_sun_abdzsryntppucwqi.jpg",
+        "num_detections": 9,
+        "containers_mask_polygon": "[[[267, 167], [269, 250], [320, 256], [318, 169]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.501, [[[267, 167], [269, 250], [320, 256], [318, 169]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/kitchen/20_segmented_sun_aasmevtpkslccptd.jpg",
+        "num_detections": 20,
+        "containers_mask_polygon": "[[[269, 20], [286, 410], [450, 408], [446, 46]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.501, [[[269, 20], [286, 410], [450, 408], [446, 46]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/20_segmented_sun_aasmevtpkslccptd.jpg",
+        "num_detections": 20,
+        "containers_mask_polygon": "[[[269, 20], [286, 410], [450, 408], [446, 46]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.501, [[[269, 20], [286, 410], [450, 408], [446, 46]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/20_segmented_sun_aasmevtpkslccptd.jpg",
+        "num_detections": 20,
+        "containers_mask_polygon": "[[[269, 20], [286, 410], [450, 408], [446, 46]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.501, [[[269, 20], [286, 410], [450, 408], [446, 46]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/20_segmented_sun_aasmevtpkslccptd.jpg",
+        "num_detections": 20,
+        "containers_mask_polygon": "[[[269, 20], [286, 410], [450, 408], [446, 46]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.501, [[[269, 20], [286, 410], [450, 408], [446, 46]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_aawsixgpgwqanatu.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[67, 124], [1, 125], [1, 254], [67, 245]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.497, [[[67, 124], [1, 125], [1, 254], [67, 245]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_aawsixgpgwqanatu.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[67, 124], [1, 125], [1, 254], [67, 245]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.497, [[[67, 124], [1, 125], [1, 254], [67, 245]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_aawsixgpgwqanatu.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[67, 124], [1, 125], [1, 254], [67, 245]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.497, [[[67, 124], [1, 125], [1, 254], [67, 245]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_aawsixgpgwqanatu.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[67, 124], [1, 125], [1, 254], [67, 245]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.497, [[[67, 124], [1, 125], [1, 254], [67, 245]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_avaaxiemmqbibywj.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[0, 166], [0, 180], [35, 174], [35, 164], [3, 165], [3, 168]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.485, [[[0, 166], [0, 180], [35, 174], [35, 164], [3, 165], [3, 168]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_avaaxiemmqbibywj.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[0, 166], [0, 180], [35, 174], [35, 164], [3, 165], [3, 168]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.485, [[[0, 166], [0, 180], [35, 174], [35, 164], [3, 165], [3, 168]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_avaaxiemmqbibywj.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[0, 166], [0, 180], [35, 174], [35, 164], [3, 165], [3, 168]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.485, [[[0, 166], [0, 180], [35, 174], [35, 164], [3, 165], [3, 168]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_avaaxiemmqbibywj.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[0, 166], [0, 180], [35, 174], [35, 164], [3, 165], [3, 168]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.485, [[[0, 166], [0, 180], [35, 174], [35, 164], [3, 165], [3, 168]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_agdxrnaqlzlannbk.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[122, 29], [121, 68], [146, 69], [147, 31]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.597, [[[122, 29], [121, 68], [146, 69], [147, 31]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_agdxrnaqlzlannbk.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[122, 29], [121, 68], [146, 69], [147, 31]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.597, [[[122, 29], [121, 68], [146, 69], [147, 31]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_agdxrnaqlzlannbk.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[122, 29], [121, 68], [146, 69], [147, 31]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.597, [[[122, 29], [121, 68], [146, 69], [147, 31]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_agdxrnaqlzlannbk.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[122, 29], [121, 68], [146, 69], [147, 31]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.597, [[[122, 29], [121, 68], [146, 69], [147, 31]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/10_segmented_sun_ayzwrfmejwnjncpp.jpg",
+        "num_detections": 10,
+        "containers_mask_polygon": "[[[201, 398], [28, 449], [28, 488], [201, 426]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.42, [[[201, 398], [28, 449], [28, 488], [201, 426]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cooking oil"
+    },
+    {
+        "image_path_html": "images/kitchen/10_segmented_sun_ayzwrfmejwnjncpp.jpg",
+        "num_detections": 10,
+        "containers_mask_polygon": "[[[201, 398], [28, 449], [28, 488], [201, 426]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.42, [[[201, 398], [28, 449], [28, 488], [201, 426]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Dish towels"
+    },
+    {
+        "image_path_html": "images/kitchen/10_segmented_sun_ayzwrfmejwnjncpp.jpg",
+        "num_detections": 10,
+        "containers_mask_polygon": "[[[201, 398], [28, 449], [28, 488], [201, 426]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.42, [[[201, 398], [28, 449], [28, 488], [201, 426]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/10_segmented_sun_ayzwrfmejwnjncpp.jpg",
+        "num_detections": 10,
+        "containers_mask_polygon": "[[[201, 398], [28, 449], [28, 488], [201, 426]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.42, [[[201, 398], [28, 449], [28, 488], [201, 426]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_aopqdojqibxivqgu.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[419, 373], [421, 397], [520, 405], [518, 379]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.505, [[[419, 373], [421, 397], [520, 405], [518, 379]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cooking oil"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_aopqdojqibxivqgu.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[419, 373], [421, 397], [520, 405], [518, 379]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.505, [[[419, 373], [421, 397], [520, 405], [518, 379]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Dish towels"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_aopqdojqibxivqgu.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[419, 373], [421, 397], [520, 405], [518, 379]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.505, [[[419, 373], [421, 397], [520, 405], [518, 379]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pot"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_aopqdojqibxivqgu.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[419, 373], [421, 397], [520, 405], [518, 379]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.505, [[[419, 373], [421, 397], [520, 405], [518, 379]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spoon"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_aglwoufpxbtxqecp.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[1141, 63], [1025, 84], [1029, 341], [1144, 337]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.403, [[[1141, 63], [1025, 84], [1029, 341], [1144, 337]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_aglwoufpxbtxqecp.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[1141, 63], [1025, 84], [1029, 341], [1144, 337]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.403, [[[1141, 63], [1025, 84], [1029, 341], [1144, 337]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Dish towels"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_aglwoufpxbtxqecp.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[1141, 63], [1025, 84], [1029, 341], [1144, 337]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.403, [[[1141, 63], [1025, 84], [1029, 341], [1144, 337]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_aglwoufpxbtxqecp.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[1141, 63], [1025, 84], [1029, 341], [1144, 337]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.403, [[[1141, 63], [1025, 84], [1029, 341], [1144, 337]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_axuroipjldepebje.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[54, 163], [54, 166], [54, 165], [55, 164]], [[54, 158], [54, 161]], [[5, 158], [6, 158]], [[54, 153], [54, 156]], [[50, 152]], [[51, 156], [45, 152], [8, 159], [9, 176], [51, 167]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.456, [[[54, 163], [54, 166], [54, 165], [55, 164]], [[54, 158], [54, 161]], [[5, 158], [6, 158]], [[54, 153], [54, 156]], [[50, 152]], [[51, 156], [45, 152], [8, 159], [9, 176], [51, 167]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_axuroipjldepebje.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[54, 163], [54, 166], [54, 165], [55, 164]], [[54, 158], [54, 161]], [[5, 158], [6, 158]], [[54, 153], [54, 156]], [[50, 152]], [[51, 156], [45, 152], [8, 159], [9, 176], [51, 167]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.456, [[[54, 163], [54, 166], [54, 165], [55, 164]], [[54, 158], [54, 161]], [[5, 158], [6, 158]], [[54, 153], [54, 156]], [[50, 152]], [[51, 156], [45, 152], [8, 159], [9, 176], [51, 167]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_axuroipjldepebje.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[54, 163], [54, 166], [54, 165], [55, 164]], [[54, 158], [54, 161]], [[5, 158], [6, 158]], [[54, 153], [54, 156]], [[50, 152]], [[51, 156], [45, 152], [8, 159], [9, 176], [51, 167]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.456, [[[54, 163], [54, 166], [54, 165], [55, 164]], [[54, 158], [54, 161]], [[5, 158], [6, 158]], [[54, 153], [54, 156]], [[50, 152]], [[51, 156], [45, 152], [8, 159], [9, 176], [51, 167]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_axuroipjldepebje.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[54, 163], [54, 166], [54, 165], [55, 164]], [[54, 158], [54, 161]], [[5, 158], [6, 158]], [[54, 153], [54, 156]], [[50, 152]], [[51, 156], [45, 152], [8, 159], [9, 176], [51, 167]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.456, [[[54, 163], [54, 166], [54, 165], [55, 164]], [[54, 158], [54, 161]], [[5, 158], [6, 158]], [[54, 153], [54, 156]], [[50, 152]], [[51, 156], [45, 152], [8, 159], [9, 176], [51, 167]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/7_segmented_sun_aufggmchclraycgm.jpg",
+        "num_detections": 7,
+        "containers_mask_polygon": "[[[941, 41], [739, 53], [745, 257], [945, 254]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.395, [[[941, 41], [739, 53], [745, 257], [945, 254]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/7_segmented_sun_aufggmchclraycgm.jpg",
+        "num_detections": 7,
+        "containers_mask_polygon": "[[[941, 41], [739, 53], [745, 257], [945, 254]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.395, [[[941, 41], [739, 53], [745, 257], [945, 254]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "image_path_html": "images/kitchen/7_segmented_sun_aufggmchclraycgm.jpg",
+        "num_detections": 7,
+        "containers_mask_polygon": "[[[941, 41], [739, 53], [745, 257], [945, 254]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.395, [[[941, 41], [739, 53], [745, 257], [945, 254]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/7_segmented_sun_aufggmchclraycgm.jpg",
+        "num_detections": 7,
+        "containers_mask_polygon": "[[[941, 41], [739, 53], [745, 257], [945, 254]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.395, [[[941, 41], [739, 53], [745, 257], [945, 254]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_afphfxkabyerpwkz.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[1180, 491], [1181, 631], [1239, 642], [1237, 496]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.506, [[[1180, 491], [1181, 631], [1239, 642], [1237, 496]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_afphfxkabyerpwkz.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[1180, 491], [1181, 631], [1239, 642], [1237, 496]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.506, [[[1180, 491], [1181, 631], [1239, 642], [1237, 496]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_afphfxkabyerpwkz.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[1180, 491], [1181, 631], [1239, 642], [1237, 496]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.506, [[[1180, 491], [1181, 631], [1239, 642], [1237, 496]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pot"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_afphfxkabyerpwkz.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[1180, 491], [1181, 631], [1239, 642], [1237, 496]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.506, [[[1180, 491], [1181, 631], [1239, 642], [1237, 496]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spoon"
+    },
+    {
+        "image_path_html": "images/kitchen/17_segmented_sun_ahqykyyouxkgmdnq.jpg",
+        "num_detections": 17,
+        "containers_mask_polygon": "[[[1974, 286], [1970, 286], [1968, 287], [1968, 291], [1970, 292], [1973, 291], [1975, 289], [1975, 287]], [[2160, 242], [1982, 279], [1954, 313], [1961, 487], [2165, 449]], [[2116, 241], [2119, 244], [2122, 244], [2129, 239], [2126, 237], [2119, 237], [2116, 239]], [[2162, 226], [2160, 224], [2150, 225], [2144, 229], [2148, 233], [2159, 233]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.422, [[[1974, 286], [1970, 286], [1968, 287], [1968, 291], [1970, 292], [1973, 291], [1975, 289], [1975, 287]], [[2160, 242], [1982, 279], [1954, 313], [1961, 487], [2165, 449]], [[2116, 241], [2119, 244], [2122, 244], [2129, 239], [2126, 237], [2119, 237], [2116, 239]], [[2162, 226], [2160, 224], [2150, 225], [2144, 229], [2148, 233], [2159, 233]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/17_segmented_sun_ahqykyyouxkgmdnq.jpg",
+        "num_detections": 17,
+        "containers_mask_polygon": "[[[1974, 286], [1970, 286], [1968, 287], [1968, 291], [1970, 292], [1973, 291], [1975, 289], [1975, 287]], [[2160, 242], [1982, 279], [1954, 313], [1961, 487], [2165, 449]], [[2116, 241], [2119, 244], [2122, 244], [2129, 239], [2126, 237], [2119, 237], [2116, 239]], [[2162, 226], [2160, 224], [2150, 225], [2144, 229], [2148, 233], [2159, 233]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.422, [[[1974, 286], [1970, 286], [1968, 287], [1968, 291], [1970, 292], [1973, 291], [1975, 289], [1975, 287]], [[2160, 242], [1982, 279], [1954, 313], [1961, 487], [2165, 449]], [[2116, 241], [2119, 244], [2122, 244], [2129, 239], [2126, 237], [2119, 237], [2116, 239]], [[2162, 226], [2160, 224], [2150, 225], [2144, 229], [2148, 233], [2159, 233]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/17_segmented_sun_ahqykyyouxkgmdnq.jpg",
+        "num_detections": 17,
+        "containers_mask_polygon": "[[[1974, 286], [1970, 286], [1968, 287], [1968, 291], [1970, 292], [1973, 291], [1975, 289], [1975, 287]], [[2160, 242], [1982, 279], [1954, 313], [1961, 487], [2165, 449]], [[2116, 241], [2119, 244], [2122, 244], [2129, 239], [2126, 237], [2119, 237], [2116, 239]], [[2162, 226], [2160, 224], [2150, 225], [2144, 229], [2148, 233], [2159, 233]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.422, [[[1974, 286], [1970, 286], [1968, 287], [1968, 291], [1970, 292], [1973, 291], [1975, 289], [1975, 287]], [[2160, 242], [1982, 279], [1954, 313], [1961, 487], [2165, 449]], [[2116, 241], [2119, 244], [2122, 244], [2129, 239], [2126, 237], [2119, 237], [2116, 239]], [[2162, 226], [2160, 224], [2150, 225], [2144, 229], [2148, 233], [2159, 233]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/kitchen/17_segmented_sun_ahqykyyouxkgmdnq.jpg",
+        "num_detections": 17,
+        "containers_mask_polygon": "[[[1974, 286], [1970, 286], [1968, 287], [1968, 291], [1970, 292], [1973, 291], [1975, 289], [1975, 287]], [[2160, 242], [1982, 279], [1954, 313], [1961, 487], [2165, 449]], [[2116, 241], [2119, 244], [2122, 244], [2129, 239], [2126, 237], [2119, 237], [2116, 239]], [[2162, 226], [2160, 224], [2150, 225], [2144, 229], [2148, 233], [2159, 233]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.422, [[[1974, 286], [1970, 286], [1968, 287], [1968, 291], [1970, 292], [1973, 291], [1975, 289], [1975, 287]], [[2160, 242], [1982, 279], [1954, 313], [1961, 487], [2165, 449]], [[2116, 241], [2119, 244], [2122, 244], [2129, 239], [2126, 237], [2119, 237], [2116, 239]], [[2162, 226], [2160, 224], [2150, 225], [2144, 229], [2148, 233], [2159, 233]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_afstlyyibsjscpbm.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[117, 53], [80, 55], [81, 121], [118, 120]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.501, [[[117, 53], [80, 55], [81, 121], [118, 120]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cooking oil"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_afstlyyibsjscpbm.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[117, 53], [80, 55], [81, 121], [118, 120]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.501, [[[117, 53], [80, 55], [81, 121], [118, 120]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Dish towels"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_afstlyyibsjscpbm.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[117, 53], [80, 55], [81, 121], [118, 120]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.501, [[[117, 53], [80, 55], [81, 121], [118, 120]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pot"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_afstlyyibsjscpbm.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[117, 53], [80, 55], [81, 121], [118, 120]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.501, [[[117, 53], [80, 55], [81, 121], [118, 120]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/kitchen/4_segmented_sun_aitjzvdsvqtarrmr.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[215, 456], [61, 488], [91, 704], [118, 740], [243, 703]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.372, [[[215, 456], [61, 488], [91, 704], [118, 740], [243, 703]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/4_segmented_sun_aitjzvdsvqtarrmr.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[215, 456], [61, 488], [91, 704], [118, 740], [243, 703]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.372, [[[215, 456], [61, 488], [91, 704], [118, 740], [243, 703]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/4_segmented_sun_aitjzvdsvqtarrmr.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[215, 456], [61, 488], [91, 704], [118, 740], [243, 703]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.372, [[[215, 456], [61, 488], [91, 704], [118, 740], [243, 703]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/4_segmented_sun_aitjzvdsvqtarrmr.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[215, 456], [61, 488], [91, 704], [118, 740], [243, 703]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.372, [[[215, 456], [61, 488], [91, 704], [118, 740], [243, 703]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_akgdlzofsznnznzs.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[164, 167], [163, 234], [224, 234], [224, 176]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.422, [[[164, 167], [163, 234], [224, 234], [224, 176]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cooking oil"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_akgdlzofsznnznzs.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[164, 167], [163, 234], [224, 234], [224, 176]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.422, [[[164, 167], [163, 234], [224, 234], [224, 176]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Dish towels"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_akgdlzofsznnznzs.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[164, 167], [163, 234], [224, 234], [224, 176]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.422, [[[164, 167], [163, 234], [224, 234], [224, 176]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pot"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_akgdlzofsznnznzs.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[164, 167], [163, 234], [224, 234], [224, 176]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.422, [[[164, 167], [163, 234], [224, 234], [224, 176]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/kitchen/33_segmented_sun_awbppqusbpubsfeq.jpg",
+        "num_detections": 33,
+        "containers_mask_polygon": "[[[561, 262], [560, 262], [557, 266], [552, 266], [552, 267], [559, 267], [560, 268], [562, 267]], [[563, 177], [563, 180], [564, 180], [564, 178]], [[566, 157], [503, 156], [500, 270], [536, 269], [536, 163], [559, 162], [564, 175]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.422, [[[561, 262], [560, 262], [557, 266], [552, 266], [552, 267], [559, 267], [560, 268], [562, 267]], [[563, 177], [563, 180], [564, 180], [564, 178]], [[566, 157], [503, 156], [500, 270], [536, 269], [536, 163], [559, 162], [564, 175]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/33_segmented_sun_awbppqusbpubsfeq.jpg",
+        "num_detections": 33,
+        "containers_mask_polygon": "[[[561, 262], [560, 262], [557, 266], [552, 266], [552, 267], [559, 267], [560, 268], [562, 267]], [[563, 177], [563, 180], [564, 180], [564, 178]], [[566, 157], [503, 156], [500, 270], [536, 269], [536, 163], [559, 162], [564, 175]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.422, [[[561, 262], [560, 262], [557, 266], [552, 266], [552, 267], [559, 267], [560, 268], [562, 267]], [[563, 177], [563, 180], [564, 180], [564, 178]], [[566, 157], [503, 156], [500, 270], [536, 269], [536, 163], [559, 162], [564, 175]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/33_segmented_sun_awbppqusbpubsfeq.jpg",
+        "num_detections": 33,
+        "containers_mask_polygon": "[[[561, 262], [560, 262], [557, 266], [552, 266], [552, 267], [559, 267], [560, 268], [562, 267]], [[563, 177], [563, 180], [564, 180], [564, 178]], [[566, 157], [503, 156], [500, 270], [536, 269], [536, 163], [559, 162], [564, 175]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.422, [[[561, 262], [560, 262], [557, 266], [552, 266], [552, 267], [559, 267], [560, 268], [562, 267]], [[563, 177], [563, 180], [564, 180], [564, 178]], [[566, 157], [503, 156], [500, 270], [536, 269], [536, 163], [559, 162], [564, 175]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/33_segmented_sun_awbppqusbpubsfeq.jpg",
+        "num_detections": 33,
+        "containers_mask_polygon": "[[[561, 262], [560, 262], [557, 266], [552, 266], [552, 267], [559, 267], [560, 268], [562, 267]], [[563, 177], [563, 180], [564, 180], [564, 178]], [[566, 157], [503, 156], [500, 270], [536, 269], [536, 163], [559, 162], [564, 175]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.422, [[[561, 262], [560, 262], [557, 266], [552, 266], [552, 267], [559, 267], [560, 268], [562, 267]], [[563, 177], [563, 180], [564, 180], [564, 178]], [[566, 157], [503, 156], [500, 270], [536, 269], [536, 163], [559, 162], [564, 175]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_ajkrefpvgtunjiyi.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[881, 1053], [883, 1058], [885, 1058], [889, 1055], [891, 1055], [895, 1058], [897, 1056], [897, 1052]], [[1052, 1024], [966, 1052], [951, 1112], [965, 1196], [1000, 1195]], [[908, 1021], [906, 1022], [906, 1024], [904, 1026], [901, 1026], [901, 1028], [902, 1029], [908, 1026], [908, 1023], [909, 1022]], [[927, 977], [925, 979], [926, 988], [923, 996], [933, 997], [939, 989], [939, 984], [936, 978]], [[1131, 889], [981, 958], [1106, 968], [1060, 1195], [1142, 1123]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.347, [[[881, 1053], [883, 1058], [885, 1058], [889, 1055], [891, 1055], [895, 1058], [897, 1056], [897, 1052]], [[1052, 1024], [966, 1052], [951, 1112], [965, 1196], [1000, 1195]], [[908, 1021], [906, 1022], [906, 1024], [904, 1026], [901, 1026], [901, 1028], [902, 1029], [908, 1026], [908, 1023], [909, 1022]], [[927, 977], [925, 979], [926, 988], [923, 996], [933, 997], [939, 989], [939, 984], [936, 978]], [[1131, 889], [981, 958], [1106, 968], [1060, 1195], [1142, 1123]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_ajkrefpvgtunjiyi.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[881, 1053], [883, 1058], [885, 1058], [889, 1055], [891, 1055], [895, 1058], [897, 1056], [897, 1052]], [[1052, 1024], [966, 1052], [951, 1112], [965, 1196], [1000, 1195]], [[908, 1021], [906, 1022], [906, 1024], [904, 1026], [901, 1026], [901, 1028], [902, 1029], [908, 1026], [908, 1023], [909, 1022]], [[927, 977], [925, 979], [926, 988], [923, 996], [933, 997], [939, 989], [939, 984], [936, 978]], [[1131, 889], [981, 958], [1106, 968], [1060, 1195], [1142, 1123]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.347, [[[881, 1053], [883, 1058], [885, 1058], [889, 1055], [891, 1055], [895, 1058], [897, 1056], [897, 1052]], [[1052, 1024], [966, 1052], [951, 1112], [965, 1196], [1000, 1195]], [[908, 1021], [906, 1022], [906, 1024], [904, 1026], [901, 1026], [901, 1028], [902, 1029], [908, 1026], [908, 1023], [909, 1022]], [[927, 977], [925, 979], [926, 988], [923, 996], [933, 997], [939, 989], [939, 984], [936, 978]], [[1131, 889], [981, 958], [1106, 968], [1060, 1195], [1142, 1123]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_ajkrefpvgtunjiyi.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[881, 1053], [883, 1058], [885, 1058], [889, 1055], [891, 1055], [895, 1058], [897, 1056], [897, 1052]], [[1052, 1024], [966, 1052], [951, 1112], [965, 1196], [1000, 1195]], [[908, 1021], [906, 1022], [906, 1024], [904, 1026], [901, 1026], [901, 1028], [902, 1029], [908, 1026], [908, 1023], [909, 1022]], [[927, 977], [925, 979], [926, 988], [923, 996], [933, 997], [939, 989], [939, 984], [936, 978]], [[1131, 889], [981, 958], [1106, 968], [1060, 1195], [1142, 1123]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.347, [[[881, 1053], [883, 1058], [885, 1058], [889, 1055], [891, 1055], [895, 1058], [897, 1056], [897, 1052]], [[1052, 1024], [966, 1052], [951, 1112], [965, 1196], [1000, 1195]], [[908, 1021], [906, 1022], [906, 1024], [904, 1026], [901, 1026], [901, 1028], [902, 1029], [908, 1026], [908, 1023], [909, 1022]], [[927, 977], [925, 979], [926, 988], [923, 996], [933, 997], [939, 989], [939, 984], [936, 978]], [[1131, 889], [981, 958], [1106, 968], [1060, 1195], [1142, 1123]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_ajkrefpvgtunjiyi.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[881, 1053], [883, 1058], [885, 1058], [889, 1055], [891, 1055], [895, 1058], [897, 1056], [897, 1052]], [[1052, 1024], [966, 1052], [951, 1112], [965, 1196], [1000, 1195]], [[908, 1021], [906, 1022], [906, 1024], [904, 1026], [901, 1026], [901, 1028], [902, 1029], [908, 1026], [908, 1023], [909, 1022]], [[927, 977], [925, 979], [926, 988], [923, 996], [933, 997], [939, 989], [939, 984], [936, 978]], [[1131, 889], [981, 958], [1106, 968], [1060, 1195], [1142, 1123]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.347, [[[881, 1053], [883, 1058], [885, 1058], [889, 1055], [891, 1055], [895, 1058], [897, 1056], [897, 1052]], [[1052, 1024], [966, 1052], [951, 1112], [965, 1196], [1000, 1195]], [[908, 1021], [906, 1022], [906, 1024], [904, 1026], [901, 1026], [901, 1028], [902, 1029], [908, 1026], [908, 1023], [909, 1022]], [[927, 977], [925, 979], [926, 988], [923, 996], [933, 997], [939, 989], [939, 984], [936, 978]], [[1131, 889], [981, 958], [1106, 968], [1060, 1195], [1142, 1123]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spoon"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_axwfwkibvzamixmp.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[88, 46], [87, 80], [90, 83], [105, 83], [107, 48]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.395, [[[88, 46], [87, 80], [90, 83], [105, 83], [107, 48]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_axwfwkibvzamixmp.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[88, 46], [87, 80], [90, 83], [105, 83], [107, 48]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.395, [[[88, 46], [87, 80], [90, 83], [105, 83], [107, 48]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_axwfwkibvzamixmp.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[88, 46], [87, 80], [90, 83], [105, 83], [107, 48]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.395, [[[88, 46], [87, 80], [90, 83], [105, 83], [107, 48]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_axwfwkibvzamixmp.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[88, 46], [87, 80], [90, 83], [105, 83], [107, 48]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.395, [[[88, 46], [87, 80], [90, 83], [105, 83], [107, 48]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_adwiyvylmsqaomcb.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[152, 143], [150, 238], [206, 238], [211, 147]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.456, [[[152, 143], [150, 238], [206, 238], [211, 147]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cooking oil"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_adwiyvylmsqaomcb.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[152, 143], [150, 238], [206, 238], [211, 147]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.456, [[[152, 143], [150, 238], [206, 238], [211, 147]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Dish towels"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_adwiyvylmsqaomcb.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[152, 143], [150, 238], [206, 238], [211, 147]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.456, [[[152, 143], [150, 238], [206, 238], [211, 147]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_adwiyvylmsqaomcb.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[152, 143], [150, 238], [206, 238], [211, 147]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.456, [[[152, 143], [150, 238], [206, 238], [211, 147]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_akjjfxpidxgkthco.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[230, 74], [229, 111], [239, 112], [239, 74]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.356, [[[230, 74], [229, 111], [239, 112], [239, 74]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cooking oil"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_akjjfxpidxgkthco.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[230, 74], [229, 111], [239, 112], [239, 74]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.356, [[[230, 74], [229, 111], [239, 112], [239, 74]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_akjjfxpidxgkthco.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[230, 74], [229, 111], [239, 112], [239, 74]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.356, [[[230, 74], [229, 111], [239, 112], [239, 74]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pot"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_akjjfxpidxgkthco.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[230, 74], [229, 111], [239, 112], [239, 74]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.356, [[[230, 74], [229, 111], [239, 112], [239, 74]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spoon"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_arddicicgsnredyc.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[238, 1], [235, 48], [299, 50], [299, 0]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.499, [[[238, 1], [235, 48], [299, 50], [299, 0]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_arddicicgsnredyc.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[238, 1], [235, 48], [299, 50], [299, 0]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.499, [[[238, 1], [235, 48], [299, 50], [299, 0]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_arddicicgsnredyc.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[238, 1], [235, 48], [299, 50], [299, 0]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.499, [[[238, 1], [235, 48], [299, 50], [299, 0]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_arddicicgsnredyc.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[238, 1], [235, 48], [299, 50], [299, 0]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.499, [[[238, 1], [235, 48], [299, 50], [299, 0]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_adkmgnqaiypcnhqy.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[124, 171], [124, 183], [134, 185], [138, 197], [155, 196], [157, 190], [173, 190], [173, 174]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.417, [[[124, 171], [124, 183], [134, 185], [138, 197], [155, 196], [157, 190], [173, 190], [173, 174]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_adkmgnqaiypcnhqy.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[124, 171], [124, 183], [134, 185], [138, 197], [155, 196], [157, 190], [173, 190], [173, 174]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.417, [[[124, 171], [124, 183], [134, 185], [138, 197], [155, 196], [157, 190], [173, 190], [173, 174]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_adkmgnqaiypcnhqy.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[124, 171], [124, 183], [134, 185], [138, 197], [155, 196], [157, 190], [173, 190], [173, 174]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.417, [[[124, 171], [124, 183], [134, 185], [138, 197], [155, 196], [157, 190], [173, 190], [173, 174]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_adkmgnqaiypcnhqy.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[124, 171], [124, 183], [134, 185], [138, 197], [155, 196], [157, 190], [173, 190], [173, 174]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.417, [[[124, 171], [124, 183], [134, 185], [138, 197], [155, 196], [157, 190], [173, 190], [173, 174]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_atdfrsodpyskmywe.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[723, 402], [546, 411], [543, 526], [722, 494]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.414, [[[723, 402], [546, 411], [543, 526], [722, 494]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_atdfrsodpyskmywe.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[723, 402], [546, 411], [543, 526], [722, 494]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.414, [[[723, 402], [546, 411], [543, 526], [722, 494]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_atdfrsodpyskmywe.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[723, 402], [546, 411], [543, 526], [722, 494]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.414, [[[723, 402], [546, 411], [543, 526], [722, 494]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_atdfrsodpyskmywe.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[723, 402], [546, 411], [543, 526], [722, 494]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.414, [[[723, 402], [546, 411], [543, 526], [722, 494]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_afwaivvfezladsbj.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[709, 506], [712, 546], [799, 558], [802, 516]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.457, [[[709, 506], [712, 546], [799, 558], [802, 516]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_afwaivvfezladsbj.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[709, 506], [712, 546], [799, 558], [802, 516]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.457, [[[709, 506], [712, 546], [799, 558], [802, 516]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_afwaivvfezladsbj.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[709, 506], [712, 546], [799, 558], [802, 516]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.457, [[[709, 506], [712, 546], [799, 558], [802, 516]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_afwaivvfezladsbj.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[709, 506], [712, 546], [799, 558], [802, 516]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.457, [[[709, 506], [712, 546], [799, 558], [802, 516]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_afkaeizmulcsokfj.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[145, 30], [101, 35], [103, 116], [147, 113]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.497, [[[145, 30], [101, 35], [103, 116], [147, 113]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_afkaeizmulcsokfj.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[145, 30], [101, 35], [103, 116], [147, 113]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.497, [[[145, 30], [101, 35], [103, 116], [147, 113]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_afkaeizmulcsokfj.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[145, 30], [101, 35], [103, 116], [147, 113]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.497, [[[145, 30], [101, 35], [103, 116], [147, 113]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_afkaeizmulcsokfj.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[145, 30], [101, 35], [103, 116], [147, 113]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.497, [[[145, 30], [101, 35], [103, 116], [147, 113]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/14_segmented_sun_axlhgujigbdqvdzl.jpg",
+        "num_detections": 14,
+        "containers_mask_polygon": "[[[247, 32], [213, 48], [215, 125], [247, 125]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.55, [[[247, 32], [213, 48], [215, 125], [247, 125]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/14_segmented_sun_axlhgujigbdqvdzl.jpg",
+        "num_detections": 14,
+        "containers_mask_polygon": "[[[247, 32], [213, 48], [215, 125], [247, 125]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.55, [[[247, 32], [213, 48], [215, 125], [247, 125]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/14_segmented_sun_axlhgujigbdqvdzl.jpg",
+        "num_detections": 14,
+        "containers_mask_polygon": "[[[247, 32], [213, 48], [215, 125], [247, 125]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.55, [[[247, 32], [213, 48], [215, 125], [247, 125]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/14_segmented_sun_axlhgujigbdqvdzl.jpg",
+        "num_detections": 14,
+        "containers_mask_polygon": "[[[247, 32], [213, 48], [215, 125], [247, 125]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.55, [[[247, 32], [213, 48], [215, 125], [247, 125]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/13_segmented_sun_aehkkaenyyjnewst.jpg",
+        "num_detections": 13,
+        "containers_mask_polygon": "[[[908, 33], [892, 441], [1056, 450], [1074, 39]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.553, [[[908, 33], [892, 441], [1056, 450], [1074, 39]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/13_segmented_sun_aehkkaenyyjnewst.jpg",
+        "num_detections": 13,
+        "containers_mask_polygon": "[[[908, 33], [892, 441], [1056, 450], [1074, 39]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.553, [[[908, 33], [892, 441], [1056, 450], [1074, 39]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/13_segmented_sun_aehkkaenyyjnewst.jpg",
+        "num_detections": 13,
+        "containers_mask_polygon": "[[[908, 33], [892, 441], [1056, 450], [1074, 39]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.553, [[[908, 33], [892, 441], [1056, 450], [1074, 39]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/13_segmented_sun_aehkkaenyyjnewst.jpg",
+        "num_detections": 13,
+        "containers_mask_polygon": "[[[908, 33], [892, 441], [1056, 450], [1074, 39]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.553, [[[908, 33], [892, 441], [1056, 450], [1074, 39]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/22_segmented_sun_afkwbtipaeipuaer.jpg",
+        "num_detections": 22,
+        "containers_mask_polygon": "[[[94, 87], [94, 138], [122, 140], [122, 87]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.522, [[[94, 87], [94, 138], [122, 140], [122, 87]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/22_segmented_sun_afkwbtipaeipuaer.jpg",
+        "num_detections": 22,
+        "containers_mask_polygon": "[[[94, 87], [94, 138], [122, 140], [122, 87]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.522, [[[94, 87], [94, 138], [122, 140], [122, 87]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "image_path_html": "images/kitchen/22_segmented_sun_afkwbtipaeipuaer.jpg",
+        "num_detections": 22,
+        "containers_mask_polygon": "[[[94, 87], [94, 138], [122, 140], [122, 87]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.522, [[[94, 87], [94, 138], [122, 140], [122, 87]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/22_segmented_sun_afkwbtipaeipuaer.jpg",
+        "num_detections": 22,
+        "containers_mask_polygon": "[[[94, 87], [94, 138], [122, 140], [122, 87]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.522, [[[94, 87], [94, 138], [122, 140], [122, 87]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_acyvmyzypyuwnann.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[472, 279], [472, 291], [517, 300], [515, 286]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.465, [[[472, 279], [472, 291], [517, 300], [515, 286]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cooking oil"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_acyvmyzypyuwnann.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[472, 279], [472, 291], [517, 300], [515, 286]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.465, [[[472, 279], [472, 291], [517, 300], [515, 286]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Dish towels"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_acyvmyzypyuwnann.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[472, 279], [472, 291], [517, 300], [515, 286]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.465, [[[472, 279], [472, 291], [517, 300], [515, 286]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_acyvmyzypyuwnann.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[472, 279], [472, 291], [517, 300], [515, 286]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.465, [[[472, 279], [472, 291], [517, 300], [515, 286]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/kitchen/13_segmented_sun_asymyduxvrjpcvzg.jpg",
+        "num_detections": 13,
+        "containers_mask_polygon": "[[[1445, 1224], [1082, 1388], [1142, 2267], [1448, 2084]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.601, [[[1445, 1224], [1082, 1388], [1142, 2267], [1448, 2084]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/13_segmented_sun_asymyduxvrjpcvzg.jpg",
+        "num_detections": 13,
+        "containers_mask_polygon": "[[[1445, 1224], [1082, 1388], [1142, 2267], [1448, 2084]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.601, [[[1445, 1224], [1082, 1388], [1142, 2267], [1448, 2084]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/13_segmented_sun_asymyduxvrjpcvzg.jpg",
+        "num_detections": 13,
+        "containers_mask_polygon": "[[[1445, 1224], [1082, 1388], [1142, 2267], [1448, 2084]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.601, [[[1445, 1224], [1082, 1388], [1142, 2267], [1448, 2084]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/13_segmented_sun_asymyduxvrjpcvzg.jpg",
+        "num_detections": 13,
+        "containers_mask_polygon": "[[[1445, 1224], [1082, 1388], [1142, 2267], [1448, 2084]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.601, [[[1445, 1224], [1082, 1388], [1142, 2267], [1448, 2084]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_amvpxkryxaldzmdv.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[65, 174], [63, 251], [121, 244], [125, 174]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.386, [[[65, 174], [63, 251], [121, 244], [125, 174]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_amvpxkryxaldzmdv.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[65, 174], [63, 251], [121, 244], [125, 174]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.386, [[[65, 174], [63, 251], [121, 244], [125, 174]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_amvpxkryxaldzmdv.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[65, 174], [63, 251], [121, 244], [125, 174]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.386, [[[65, 174], [63, 251], [121, 244], [125, 174]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_amvpxkryxaldzmdv.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[65, 174], [63, 251], [121, 244], [125, 174]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.386, [[[65, 174], [63, 251], [121, 244], [125, 174]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_alqlmxgzxpeuaciw.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[60, 51], [60, 80], [82, 81], [83, 51]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.483, [[[60, 51], [60, 80], [82, 81], [83, 51]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_alqlmxgzxpeuaciw.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[60, 51], [60, 80], [82, 81], [83, 51]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.483, [[[60, 51], [60, 80], [82, 81], [83, 51]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_alqlmxgzxpeuaciw.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[60, 51], [60, 80], [82, 81], [83, 51]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.483, [[[60, 51], [60, 80], [82, 81], [83, 51]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_alqlmxgzxpeuaciw.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[60, 51], [60, 80], [82, 81], [83, 51]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.483, [[[60, 51], [60, 80], [82, 81], [83, 51]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/14_segmented_sun_adswmdfkombffqhi.jpg",
+        "num_detections": 14,
+        "containers_mask_polygon": "[[[856, 6], [717, 17], [728, 311], [870, 294]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.55, [[[856, 6], [717, 17], [728, 311], [870, 294]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/14_segmented_sun_adswmdfkombffqhi.jpg",
+        "num_detections": 14,
+        "containers_mask_polygon": "[[[856, 6], [717, 17], [728, 311], [870, 294]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.55, [[[856, 6], [717, 17], [728, 311], [870, 294]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "image_path_html": "images/kitchen/14_segmented_sun_adswmdfkombffqhi.jpg",
+        "num_detections": 14,
+        "containers_mask_polygon": "[[[856, 6], [717, 17], [728, 311], [870, 294]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.55, [[[856, 6], [717, 17], [728, 311], [870, 294]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/14_segmented_sun_adswmdfkombffqhi.jpg",
+        "num_detections": 14,
+        "containers_mask_polygon": "[[[856, 6], [717, 17], [728, 311], [870, 294]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.55, [[[856, 6], [717, 17], [728, 311], [870, 294]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/19_segmented_sun_alyqyulcvigwjdyc.jpg",
+        "num_detections": 19,
+        "containers_mask_polygon": "[[[71, 168], [30, 177], [31, 255], [75, 255]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.505, [[[71, 168], [30, 177], [31, 255], [75, 255]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/19_segmented_sun_alyqyulcvigwjdyc.jpg",
+        "num_detections": 19,
+        "containers_mask_polygon": "[[[71, 168], [30, 177], [31, 255], [75, 255]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.505, [[[71, 168], [30, 177], [31, 255], [75, 255]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/19_segmented_sun_alyqyulcvigwjdyc.jpg",
+        "num_detections": 19,
+        "containers_mask_polygon": "[[[71, 168], [30, 177], [31, 255], [75, 255]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.505, [[[71, 168], [30, 177], [31, 255], [75, 255]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/19_segmented_sun_alyqyulcvigwjdyc.jpg",
+        "num_detections": 19,
+        "containers_mask_polygon": "[[[71, 168], [30, 177], [31, 255], [75, 255]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.505, [[[71, 168], [30, 177], [31, 255], [75, 255]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/15_segmented_sun_amstpwyljnixuvqh.jpg",
+        "num_detections": 15,
+        "containers_mask_polygon": "[[[172, 175], [171, 213], [199, 213], [200, 175]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.442, [[[172, 175], [171, 213], [199, 213], [200, 175]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cooking oil"
+    },
+    {
+        "image_path_html": "images/kitchen/15_segmented_sun_amstpwyljnixuvqh.jpg",
+        "num_detections": 15,
+        "containers_mask_polygon": "[[[172, 175], [171, 213], [199, 213], [200, 175]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.442, [[[172, 175], [171, 213], [199, 213], [200, 175]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Dish towels"
+    },
+    {
+        "image_path_html": "images/kitchen/15_segmented_sun_amstpwyljnixuvqh.jpg",
+        "num_detections": 15,
+        "containers_mask_polygon": "[[[172, 175], [171, 213], [199, 213], [200, 175]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.442, [[[172, 175], [171, 213], [199, 213], [200, 175]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pot"
+    },
+    {
+        "image_path_html": "images/kitchen/15_segmented_sun_amstpwyljnixuvqh.jpg",
+        "num_detections": 15,
+        "containers_mask_polygon": "[[[172, 175], [171, 213], [199, 213], [200, 175]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.442, [[[172, 175], [171, 213], [199, 213], [200, 175]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spoon"
+    },
+    {
+        "image_path_html": "images/kitchen/11_segmented_sun_andzglcqubvbzfhz.jpg",
+        "num_detections": 11,
+        "containers_mask_polygon": "[[[429, 352], [427, 455], [456, 462], [457, 367]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.412, [[[429, 352], [427, 455], [456, 462], [457, 367]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cooking oil"
+    },
+    {
+        "image_path_html": "images/kitchen/11_segmented_sun_andzglcqubvbzfhz.jpg",
+        "num_detections": 11,
+        "containers_mask_polygon": "[[[429, 352], [427, 455], [456, 462], [457, 367]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.412, [[[429, 352], [427, 455], [456, 462], [457, 367]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Dish towels"
+    },
+    {
+        "image_path_html": "images/kitchen/11_segmented_sun_andzglcqubvbzfhz.jpg",
+        "num_detections": 11,
+        "containers_mask_polygon": "[[[429, 352], [427, 455], [456, 462], [457, 367]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.412, [[[429, 352], [427, 455], [456, 462], [457, 367]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/11_segmented_sun_andzglcqubvbzfhz.jpg",
+        "num_detections": 11,
+        "containers_mask_polygon": "[[[429, 352], [427, 455], [456, 462], [457, 367]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.412, [[[429, 352], [427, 455], [456, 462], [457, 367]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/kitchen/11_segmented_sun_apdjgezcekdmxeow.jpg",
+        "num_detections": 11,
+        "containers_mask_polygon": "[[[142, 111], [130, 112], [127, 120], [128, 188], [142, 174]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.392, [[[142, 111], [130, 112], [127, 120], [128, 188], [142, 174]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/11_segmented_sun_apdjgezcekdmxeow.jpg",
+        "num_detections": 11,
+        "containers_mask_polygon": "[[[142, 111], [130, 112], [127, 120], [128, 188], [142, 174]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.392, [[[142, 111], [130, 112], [127, 120], [128, 188], [142, 174]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/11_segmented_sun_apdjgezcekdmxeow.jpg",
+        "num_detections": 11,
+        "containers_mask_polygon": "[[[142, 111], [130, 112], [127, 120], [128, 188], [142, 174]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.392, [[[142, 111], [130, 112], [127, 120], [128, 188], [142, 174]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/kitchen/11_segmented_sun_apdjgezcekdmxeow.jpg",
+        "num_detections": 11,
+        "containers_mask_polygon": "[[[142, 111], [130, 112], [127, 120], [128, 188], [142, 174]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.392, [[[142, 111], [130, 112], [127, 120], [128, 188], [142, 174]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_aamjqvjnuxklyagf.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[20, 0], [20, 68], [89, 73], [91, 0]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.539, [[[20, 0], [20, 68], [89, 73], [91, 0]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_aamjqvjnuxklyagf.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[20, 0], [20, 68], [89, 73], [91, 0]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.539, [[[20, 0], [20, 68], [89, 73], [91, 0]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_aamjqvjnuxklyagf.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[20, 0], [20, 68], [89, 73], [91, 0]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.539, [[[20, 0], [20, 68], [89, 73], [91, 0]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_aamjqvjnuxklyagf.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[20, 0], [20, 68], [89, 73], [91, 0]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.539, [[[20, 0], [20, 68], [89, 73], [91, 0]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spoon"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_aunbvudubwlyozvt.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[470, 345], [469, 479], [514, 529], [512, 360]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.389, [[[470, 345], [469, 479], [514, 529], [512, 360]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_aunbvudubwlyozvt.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[470, 345], [469, 479], [514, 529], [512, 360]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.389, [[[470, 345], [469, 479], [514, 529], [512, 360]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_aunbvudubwlyozvt.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[470, 345], [469, 479], [514, 529], [512, 360]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.389, [[[470, 345], [469, 479], [514, 529], [512, 360]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_aunbvudubwlyozvt.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[470, 345], [469, 479], [514, 529], [512, 360]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.389, [[[470, 345], [469, 479], [514, 529], [512, 360]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/4_segmented_sun_afnyuyhhwgifatsk.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[88, 171], [61, 177], [61, 220], [89, 207]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.337, [[[88, 171], [61, 177], [61, 220], [89, 207]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cooking oil"
+    },
+    {
+        "image_path_html": "images/kitchen/4_segmented_sun_afnyuyhhwgifatsk.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[88, 171], [61, 177], [61, 220], [89, 207]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.337, [[[88, 171], [61, 177], [61, 220], [89, 207]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Dish towels"
+    },
+    {
+        "image_path_html": "images/kitchen/4_segmented_sun_afnyuyhhwgifatsk.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[88, 171], [61, 177], [61, 220], [89, 207]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.337, [[[88, 171], [61, 177], [61, 220], [89, 207]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pot"
+    },
+    {
+        "image_path_html": "images/kitchen/4_segmented_sun_afnyuyhhwgifatsk.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[88, 171], [61, 177], [61, 220], [89, 207]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.337, [[[88, 171], [61, 177], [61, 220], [89, 207]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/kitchen/11_segmented_sun_axdfhsszzzqksxnx.jpg",
+        "num_detections": 11,
+        "containers_mask_polygon": "[[[66, 188], [66, 237], [99, 240], [100, 191]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.516, [[[66, 188], [66, 237], [99, 240], [100, 191]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/11_segmented_sun_axdfhsszzzqksxnx.jpg",
+        "num_detections": 11,
+        "containers_mask_polygon": "[[[66, 188], [66, 237], [99, 240], [100, 191]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.516, [[[66, 188], [66, 237], [99, 240], [100, 191]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/11_segmented_sun_axdfhsszzzqksxnx.jpg",
+        "num_detections": 11,
+        "containers_mask_polygon": "[[[66, 188], [66, 237], [99, 240], [100, 191]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.516, [[[66, 188], [66, 237], [99, 240], [100, 191]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/11_segmented_sun_axdfhsszzzqksxnx.jpg",
+        "num_detections": 11,
+        "containers_mask_polygon": "[[[66, 188], [66, 237], [99, 240], [100, 191]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.516, [[[66, 188], [66, 237], [99, 240], [100, 191]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/14_segmented_sun_aucefajtdpoipkjt.jpg",
+        "num_detections": 14,
+        "containers_mask_polygon": "[[[1108, 211], [1102, 443], [1227, 449], [1229, 216]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.495, [[[1108, 211], [1102, 443], [1227, 449], [1229, 216]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/14_segmented_sun_aucefajtdpoipkjt.jpg",
+        "num_detections": 14,
+        "containers_mask_polygon": "[[[1108, 211], [1102, 443], [1227, 449], [1229, 216]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.495, [[[1108, 211], [1102, 443], [1227, 449], [1229, 216]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/14_segmented_sun_aucefajtdpoipkjt.jpg",
+        "num_detections": 14,
+        "containers_mask_polygon": "[[[1108, 211], [1102, 443], [1227, 449], [1229, 216]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.495, [[[1108, 211], [1102, 443], [1227, 449], [1229, 216]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/kitchen/14_segmented_sun_aucefajtdpoipkjt.jpg",
+        "num_detections": 14,
+        "containers_mask_polygon": "[[[1108, 211], [1102, 443], [1227, 449], [1229, 216]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.495, [[[1108, 211], [1102, 443], [1227, 449], [1229, 216]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/16_segmented_sun_amtngujfdqlygigl.jpg",
+        "num_detections": 16,
+        "containers_mask_polygon": "[[[701, 157], [701, 330], [778, 330], [783, 160]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.534, [[[701, 157], [701, 330], [778, 330], [783, 160]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/16_segmented_sun_amtngujfdqlygigl.jpg",
+        "num_detections": 16,
+        "containers_mask_polygon": "[[[701, 157], [701, 330], [778, 330], [783, 160]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.534, [[[701, 157], [701, 330], [778, 330], [783, 160]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "image_path_html": "images/kitchen/16_segmented_sun_amtngujfdqlygigl.jpg",
+        "num_detections": 16,
+        "containers_mask_polygon": "[[[701, 157], [701, 330], [778, 330], [783, 160]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.534, [[[701, 157], [701, 330], [778, 330], [783, 160]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/16_segmented_sun_amtngujfdqlygigl.jpg",
+        "num_detections": 16,
+        "containers_mask_polygon": "[[[701, 157], [701, 330], [778, 330], [783, 160]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.534, [[[701, 157], [701, 330], [778, 330], [783, 160]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spoon"
+    },
+    {
+        "image_path_html": "images/kitchen/19_segmented_sun_ahljzhgcdpomplvg.jpg",
+        "num_detections": 19,
+        "containers_mask_polygon": "[[[908, 78], [813, 96], [814, 247], [911, 238]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.587, [[[908, 78], [813, 96], [814, 247], [911, 238]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/19_segmented_sun_ahljzhgcdpomplvg.jpg",
+        "num_detections": 19,
+        "containers_mask_polygon": "[[[908, 78], [813, 96], [814, 247], [911, 238]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.587, [[[908, 78], [813, 96], [814, 247], [911, 238]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/19_segmented_sun_ahljzhgcdpomplvg.jpg",
+        "num_detections": 19,
+        "containers_mask_polygon": "[[[908, 78], [813, 96], [814, 247], [911, 238]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.587, [[[908, 78], [813, 96], [814, 247], [911, 238]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/19_segmented_sun_ahljzhgcdpomplvg.jpg",
+        "num_detections": 19,
+        "containers_mask_polygon": "[[[908, 78], [813, 96], [814, 247], [911, 238]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.587, [[[908, 78], [813, 96], [814, 247], [911, 238]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/15_segmented_sun_anleedlurkiswrjv.jpg",
+        "num_detections": 15,
+        "containers_mask_polygon": "[[[263, 93], [215, 101], [216, 229], [264, 230]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.504, [[[263, 93], [215, 101], [216, 229], [264, 230]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/15_segmented_sun_anleedlurkiswrjv.jpg",
+        "num_detections": 15,
+        "containers_mask_polygon": "[[[263, 93], [215, 101], [216, 229], [264, 230]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.504, [[[263, 93], [215, 101], [216, 229], [264, 230]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "image_path_html": "images/kitchen/15_segmented_sun_anleedlurkiswrjv.jpg",
+        "num_detections": 15,
+        "containers_mask_polygon": "[[[263, 93], [215, 101], [216, 229], [264, 230]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.504, [[[263, 93], [215, 101], [216, 229], [264, 230]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/15_segmented_sun_anleedlurkiswrjv.jpg",
+        "num_detections": 15,
+        "containers_mask_polygon": "[[[263, 93], [215, 101], [216, 229], [264, 230]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.504, [[[263, 93], [215, 101], [216, 229], [264, 230]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spoon"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_abnipsthatveonrh.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[169, 56], [169, 117], [208, 117], [208, 56]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.501, [[[169, 56], [169, 117], [208, 117], [208, 56]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_abnipsthatveonrh.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[169, 56], [169, 117], [208, 117], [208, 56]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.501, [[[169, 56], [169, 117], [208, 117], [208, 56]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_abnipsthatveonrh.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[169, 56], [169, 117], [208, 117], [208, 56]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.501, [[[169, 56], [169, 117], [208, 117], [208, 56]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_abnipsthatveonrh.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[169, 56], [169, 117], [208, 117], [208, 56]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.501, [[[169, 56], [169, 117], [208, 117], [208, 56]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_ayeksgxvkxbdgqil.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[222, 31], [184, 37], [185, 112], [221, 113]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.468, [[[222, 31], [184, 37], [185, 112], [221, 113]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_ayeksgxvkxbdgqil.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[222, 31], [184, 37], [185, 112], [221, 113]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.468, [[[222, 31], [184, 37], [185, 112], [221, 113]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_ayeksgxvkxbdgqil.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[222, 31], [184, 37], [185, 112], [221, 113]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.468, [[[222, 31], [184, 37], [185, 112], [221, 113]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_ayeksgxvkxbdgqil.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[222, 31], [184, 37], [185, 112], [221, 113]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.468, [[[222, 31], [184, 37], [185, 112], [221, 113]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spoon"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_aqtnebfegavdqvzg.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[253, 509], [254, 509]], [[307, 463], [251, 471], [250, 502], [270, 500], [264, 505], [306, 498]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.58, [[[253, 509], [254, 509]], [[307, 463], [251, 471], [250, 502], [270, 500], [264, 505], [306, 498]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_aqtnebfegavdqvzg.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[253, 509], [254, 509]], [[307, 463], [251, 471], [250, 502], [270, 500], [264, 505], [306, 498]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.58, [[[253, 509], [254, 509]], [[307, 463], [251, 471], [250, 502], [270, 500], [264, 505], [306, 498]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_aqtnebfegavdqvzg.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[253, 509], [254, 509]], [[307, 463], [251, 471], [250, 502], [270, 500], [264, 505], [306, 498]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.58, [[[253, 509], [254, 509]], [[307, 463], [251, 471], [250, 502], [270, 500], [264, 505], [306, 498]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pot"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_aqtnebfegavdqvzg.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[253, 509], [254, 509]], [[307, 463], [251, 471], [250, 502], [270, 500], [264, 505], [306, 498]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.58, [[[253, 509], [254, 509]], [[307, 463], [251, 471], [250, 502], [270, 500], [264, 505], [306, 498]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spoon"
+    },
+    {
+        "image_path_html": "images/kitchen/3_segmented_sun_aobtqmsjotgsxppu.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[697, 100], [632, 115], [630, 228], [693, 228]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.494, [[[697, 100], [632, 115], [630, 228], [693, 228]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/3_segmented_sun_aobtqmsjotgsxppu.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[697, 100], [632, 115], [630, 228], [693, 228]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.494, [[[697, 100], [632, 115], [630, 228], [693, 228]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/3_segmented_sun_aobtqmsjotgsxppu.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[697, 100], [632, 115], [630, 228], [693, 228]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.494, [[[697, 100], [632, 115], [630, 228], [693, 228]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/3_segmented_sun_aobtqmsjotgsxppu.jpg",
+        "num_detections": 3,
+        "containers_mask_polygon": "[[[697, 100], [632, 115], [630, 228], [693, 228]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.494, [[[697, 100], [632, 115], [630, 228], [693, 228]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/16_segmented_sun_abwmjfnrmqjdltxn.jpg",
+        "num_detections": 16,
+        "containers_mask_polygon": "[[[844, 384], [682, 383], [678, 411], [771, 413], [798, 401], [837, 410]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.53, [[[844, 384], [682, 383], [678, 411], [771, 413], [798, 401], [837, 410]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/16_segmented_sun_abwmjfnrmqjdltxn.jpg",
+        "num_detections": 16,
+        "containers_mask_polygon": "[[[844, 384], [682, 383], [678, 411], [771, 413], [798, 401], [837, 410]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.53, [[[844, 384], [682, 383], [678, 411], [771, 413], [798, 401], [837, 410]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Dish towels"
+    },
+    {
+        "image_path_html": "images/kitchen/16_segmented_sun_abwmjfnrmqjdltxn.jpg",
+        "num_detections": 16,
+        "containers_mask_polygon": "[[[844, 384], [682, 383], [678, 411], [771, 413], [798, 401], [837, 410]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.53, [[[844, 384], [682, 383], [678, 411], [771, 413], [798, 401], [837, 410]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/16_segmented_sun_abwmjfnrmqjdltxn.jpg",
+        "num_detections": 16,
+        "containers_mask_polygon": "[[[844, 384], [682, 383], [678, 411], [771, 413], [798, 401], [837, 410]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.53, [[[844, 384], [682, 383], [678, 411], [771, 413], [798, 401], [837, 410]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/kitchen/14_segmented_sun_amcseadaqamjvkpr.jpg",
+        "num_detections": 14,
+        "containers_mask_polygon": "[[[1277, 0], [1271, 379], [1497, 381], [1504, 7]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.493, [[[1277, 0], [1271, 379], [1497, 381], [1504, 7]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/14_segmented_sun_amcseadaqamjvkpr.jpg",
+        "num_detections": 14,
+        "containers_mask_polygon": "[[[1277, 0], [1271, 379], [1497, 381], [1504, 7]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.493, [[[1277, 0], [1271, 379], [1497, 381], [1504, 7]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/14_segmented_sun_amcseadaqamjvkpr.jpg",
+        "num_detections": 14,
+        "containers_mask_polygon": "[[[1277, 0], [1271, 379], [1497, 381], [1504, 7]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.493, [[[1277, 0], [1271, 379], [1497, 381], [1504, 7]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/14_segmented_sun_amcseadaqamjvkpr.jpg",
+        "num_detections": 14,
+        "containers_mask_polygon": "[[[1277, 0], [1271, 379], [1497, 381], [1504, 7]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.493, [[[1277, 0], [1271, 379], [1497, 381], [1504, 7]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/15_segmented_sun_avtqdvhwdfzykzby.jpg",
+        "num_detections": 15,
+        "containers_mask_polygon": "[[[828, 734], [829, 895], [950, 915], [950, 745]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.492, [[[828, 734], [829, 895], [950, 915], [950, 745]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cooking oil"
+    },
+    {
+        "image_path_html": "images/kitchen/15_segmented_sun_avtqdvhwdfzykzby.jpg",
+        "num_detections": 15,
+        "containers_mask_polygon": "[[[828, 734], [829, 895], [950, 915], [950, 745]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.492, [[[828, 734], [829, 895], [950, 915], [950, 745]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Dish towels"
+    },
+    {
+        "image_path_html": "images/kitchen/15_segmented_sun_avtqdvhwdfzykzby.jpg",
+        "num_detections": 15,
+        "containers_mask_polygon": "[[[828, 734], [829, 895], [950, 915], [950, 745]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.492, [[[828, 734], [829, 895], [950, 915], [950, 745]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/15_segmented_sun_avtqdvhwdfzykzby.jpg",
+        "num_detections": 15,
+        "containers_mask_polygon": "[[[828, 734], [829, 895], [950, 915], [950, 745]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.492, [[[828, 734], [829, 895], [950, 915], [950, 745]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_adglbgauiayicwkm.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[117, 188], [114, 188], [110, 191], [109, 195], [112, 200], [119, 194]], [[96, 140], [96, 211], [105, 207], [107, 177], [122, 179], [130, 206], [155, 207], [169, 193], [168, 138]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.384, [[[117, 188], [114, 188], [110, 191], [109, 195], [112, 200], [119, 194]], [[96, 140], [96, 211], [105, 207], [107, 177], [122, 179], [130, 206], [155, 207], [169, 193], [168, 138]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cooking oil"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_adglbgauiayicwkm.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[117, 188], [114, 188], [110, 191], [109, 195], [112, 200], [119, 194]], [[96, 140], [96, 211], [105, 207], [107, 177], [122, 179], [130, 206], [155, 207], [169, 193], [168, 138]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.384, [[[117, 188], [114, 188], [110, 191], [109, 195], [112, 200], [119, 194]], [[96, 140], [96, 211], [105, 207], [107, 177], [122, 179], [130, 206], [155, 207], [169, 193], [168, 138]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Dish towels"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_adglbgauiayicwkm.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[117, 188], [114, 188], [110, 191], [109, 195], [112, 200], [119, 194]], [[96, 140], [96, 211], [105, 207], [107, 177], [122, 179], [130, 206], [155, 207], [169, 193], [168, 138]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.384, [[[117, 188], [114, 188], [110, 191], [109, 195], [112, 200], [119, 194]], [[96, 140], [96, 211], [105, 207], [107, 177], [122, 179], [130, 206], [155, 207], [169, 193], [168, 138]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_adglbgauiayicwkm.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[117, 188], [114, 188], [110, 191], [109, 195], [112, 200], [119, 194]], [[96, 140], [96, 211], [105, 207], [107, 177], [122, 179], [130, 206], [155, 207], [169, 193], [168, 138]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.384, [[[117, 188], [114, 188], [110, 191], [109, 195], [112, 200], [119, 194]], [[96, 140], [96, 211], [105, 207], [107, 177], [122, 179], [130, 206], [155, 207], [169, 193], [168, 138]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_avtqpxlipvlcrsge.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[240, 434], [239, 511], [307, 511], [308, 483]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.422, [[[240, 434], [239, 511], [307, 511], [308, 483]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_avtqpxlipvlcrsge.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[240, 434], [239, 511], [307, 511], [308, 483]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.422, [[[240, 434], [239, 511], [307, 511], [308, 483]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_avtqpxlipvlcrsge.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[240, 434], [239, 511], [307, 511], [308, 483]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.422, [[[240, 434], [239, 511], [307, 511], [308, 483]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_avtqpxlipvlcrsge.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[240, 434], [239, 511], [307, 511], [308, 483]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.422, [[[240, 434], [239, 511], [307, 511], [308, 483]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_ajpanclprxjlugfr.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[229, 111], [228, 173], [255, 183], [255, 114]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.461, [[[229, 111], [228, 173], [255, 183], [255, 114]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cooking oil"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_ajpanclprxjlugfr.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[229, 111], [228, 173], [255, 183], [255, 114]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.461, [[[229, 111], [228, 173], [255, 183], [255, 114]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Dish towels"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_ajpanclprxjlugfr.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[229, 111], [228, 173], [255, 183], [255, 114]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.461, [[[229, 111], [228, 173], [255, 183], [255, 114]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/5_segmented_sun_ajpanclprxjlugfr.jpg",
+        "num_detections": 5,
+        "containers_mask_polygon": "[[[229, 111], [228, 173], [255, 183], [255, 114]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.461, [[[229, 111], [228, 173], [255, 183], [255, 114]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/kitchen/21_segmented_sun_aklijrkocvkcmsfg.jpg",
+        "num_detections": 21,
+        "containers_mask_polygon": "[[[686, 529], [690, 529]], [[710, 527], [710, 528]], [[685, 523], [686, 523]], [[685, 449], [686, 500], [795, 528], [794, 475]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.515, [[[686, 529], [690, 529]], [[710, 527], [710, 528]], [[685, 523], [686, 523]], [[685, 449], [686, 500], [795, 528], [794, 475]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/21_segmented_sun_aklijrkocvkcmsfg.jpg",
+        "num_detections": 21,
+        "containers_mask_polygon": "[[[686, 529], [690, 529]], [[710, 527], [710, 528]], [[685, 523], [686, 523]], [[685, 449], [686, 500], [795, 528], [794, 475]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.515, [[[686, 529], [690, 529]], [[710, 527], [710, 528]], [[685, 523], [686, 523]], [[685, 449], [686, 500], [795, 528], [794, 475]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/21_segmented_sun_aklijrkocvkcmsfg.jpg",
+        "num_detections": 21,
+        "containers_mask_polygon": "[[[686, 529], [690, 529]], [[710, 527], [710, 528]], [[685, 523], [686, 523]], [[685, 449], [686, 500], [795, 528], [794, 475]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.515, [[[686, 529], [690, 529]], [[710, 527], [710, 528]], [[685, 523], [686, 523]], [[685, 449], [686, 500], [795, 528], [794, 475]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/kitchen/21_segmented_sun_aklijrkocvkcmsfg.jpg",
+        "num_detections": 21,
+        "containers_mask_polygon": "[[[686, 529], [690, 529]], [[710, 527], [710, 528]], [[685, 523], [686, 523]], [[685, 449], [686, 500], [795, 528], [794, 475]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.515, [[[686, 529], [690, 529]], [[710, 527], [710, 528]], [[685, 523], [686, 523]], [[685, 449], [686, 500], [795, 528], [794, 475]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/18_segmented_sun_auhdmjbjkxwrixim.jpg",
+        "num_detections": 18,
+        "containers_mask_polygon": "[[[483, 388], [480, 570], [561, 577], [565, 392]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.519, [[[483, 388], [480, 570], [561, 577], [565, 392]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/18_segmented_sun_auhdmjbjkxwrixim.jpg",
+        "num_detections": 18,
+        "containers_mask_polygon": "[[[483, 388], [480, 570], [561, 577], [565, 392]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.519, [[[483, 388], [480, 570], [561, 577], [565, 392]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/18_segmented_sun_auhdmjbjkxwrixim.jpg",
+        "num_detections": 18,
+        "containers_mask_polygon": "[[[483, 388], [480, 570], [561, 577], [565, 392]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.519, [[[483, 388], [480, 570], [561, 577], [565, 392]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/18_segmented_sun_auhdmjbjkxwrixim.jpg",
+        "num_detections": 18,
+        "containers_mask_polygon": "[[[483, 388], [480, 570], [561, 577], [565, 392]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.519, [[[483, 388], [480, 570], [561, 577], [565, 392]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/22_segmented_sun_augjvuygusrwlxqz.jpg",
+        "num_detections": 22,
+        "containers_mask_polygon": "[[[806, 1424], [806, 1952], [1267, 2174], [1275, 1487]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.472, [[[806, 1424], [806, 1952], [1267, 2174], [1275, 1487]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/22_segmented_sun_augjvuygusrwlxqz.jpg",
+        "num_detections": 22,
+        "containers_mask_polygon": "[[[806, 1424], [806, 1952], [1267, 2174], [1275, 1487]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.472, [[[806, 1424], [806, 1952], [1267, 2174], [1275, 1487]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/22_segmented_sun_augjvuygusrwlxqz.jpg",
+        "num_detections": 22,
+        "containers_mask_polygon": "[[[806, 1424], [806, 1952], [1267, 2174], [1275, 1487]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.472, [[[806, 1424], [806, 1952], [1267, 2174], [1275, 1487]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/22_segmented_sun_augjvuygusrwlxqz.jpg",
+        "num_detections": 22,
+        "containers_mask_polygon": "[[[806, 1424], [806, 1952], [1267, 2174], [1275, 1487]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.472, [[[806, 1424], [806, 1952], [1267, 2174], [1275, 1487]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/24_segmented_sun_aczchqarcsdhjfsg.jpg",
+        "num_detections": 24,
+        "containers_mask_polygon": "[[[299, 421], [211, 433], [211, 541], [299, 516]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.53, [[[299, 421], [211, 433], [211, 541], [299, 516]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cooking oil"
+    },
+    {
+        "image_path_html": "images/kitchen/24_segmented_sun_aczchqarcsdhjfsg.jpg",
+        "num_detections": 24,
+        "containers_mask_polygon": "[[[299, 421], [211, 433], [211, 541], [299, 516]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.53, [[[299, 421], [211, 433], [211, 541], [299, 516]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Dish towels"
+    },
+    {
+        "image_path_html": "images/kitchen/24_segmented_sun_aczchqarcsdhjfsg.jpg",
+        "num_detections": 24,
+        "containers_mask_polygon": "[[[299, 421], [211, 433], [211, 541], [299, 516]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.53, [[[299, 421], [211, 433], [211, 541], [299, 516]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pot"
+    },
+    {
+        "image_path_html": "images/kitchen/24_segmented_sun_aczchqarcsdhjfsg.jpg",
+        "num_detections": 24,
+        "containers_mask_polygon": "[[[299, 421], [211, 433], [211, 541], [299, 516]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.53, [[[299, 421], [211, 433], [211, 541], [299, 516]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spoon"
+    },
+    {
+        "image_path_html": "images/kitchen/15_segmented_sun_apnxsgbjjdleuhdu.jpg",
+        "num_detections": 15,
+        "containers_mask_polygon": "[[[148, 438], [147, 400], [76, 413]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.449, [[[148, 438], [147, 400], [76, 413]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cooking oil"
+    },
+    {
+        "image_path_html": "images/kitchen/15_segmented_sun_apnxsgbjjdleuhdu.jpg",
+        "num_detections": 15,
+        "containers_mask_polygon": "[[[148, 438], [147, 400], [76, 413]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.449, [[[148, 438], [147, 400], [76, 413]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Dish towels"
+    },
+    {
+        "image_path_html": "images/kitchen/15_segmented_sun_apnxsgbjjdleuhdu.jpg",
+        "num_detections": 15,
+        "containers_mask_polygon": "[[[148, 438], [147, 400], [76, 413]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.449, [[[148, 438], [147, 400], [76, 413]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/15_segmented_sun_apnxsgbjjdleuhdu.jpg",
+        "num_detections": 15,
+        "containers_mask_polygon": "[[[148, 438], [147, 400], [76, 413]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.449, [[[148, 438], [147, 400], [76, 413]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_aoqkmjxwlivgbkhq.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[0, 0], [0, 453], [270, 445], [267, 3]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.625, [[[0, 0], [0, 453], [270, 445], [267, 3]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_aoqkmjxwlivgbkhq.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[0, 0], [0, 453], [270, 445], [267, 3]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.625, [[[0, 0], [0, 453], [270, 445], [267, 3]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_aoqkmjxwlivgbkhq.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[0, 0], [0, 453], [270, 445], [267, 3]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.625, [[[0, 0], [0, 453], [270, 445], [267, 3]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_aoqkmjxwlivgbkhq.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[0, 0], [0, 453], [270, 445], [267, 3]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.625, [[[0, 0], [0, 453], [270, 445], [267, 3]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_anfzulzazofakfhm.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[81, 17], [81, 84], [132, 81], [131, 17]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.539, [[[81, 17], [81, 84], [132, 81], [131, 17]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_anfzulzazofakfhm.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[81, 17], [81, 84], [132, 81], [131, 17]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.539, [[[81, 17], [81, 84], [132, 81], [131, 17]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_anfzulzazofakfhm.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[81, 17], [81, 84], [132, 81], [131, 17]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.539, [[[81, 17], [81, 84], [132, 81], [131, 17]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_anfzulzazofakfhm.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[81, 17], [81, 84], [132, 81], [131, 17]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.539, [[[81, 17], [81, 84], [132, 81], [131, 17]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spoon"
+    },
+    {
+        "image_path_html": "images/kitchen/16_segmented_sun_alqafgyfzsctxwtt.jpg",
+        "num_detections": 16,
+        "containers_mask_polygon": "[[[307, 394], [219, 398], [219, 428], [305, 422]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.564, [[[307, 394], [219, 398], [219, 428], [305, 422]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cooking oil"
+    },
+    {
+        "image_path_html": "images/kitchen/16_segmented_sun_alqafgyfzsctxwtt.jpg",
+        "num_detections": 16,
+        "containers_mask_polygon": "[[[307, 394], [219, 398], [219, 428], [305, 422]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.564, [[[307, 394], [219, 398], [219, 428], [305, 422]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Dish towels"
+    },
+    {
+        "image_path_html": "images/kitchen/16_segmented_sun_alqafgyfzsctxwtt.jpg",
+        "num_detections": 16,
+        "containers_mask_polygon": "[[[307, 394], [219, 398], [219, 428], [305, 422]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.564, [[[307, 394], [219, 398], [219, 428], [305, 422]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/16_segmented_sun_alqafgyfzsctxwtt.jpg",
+        "num_detections": 16,
+        "containers_mask_polygon": "[[[307, 394], [219, 398], [219, 428], [305, 422]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.564, [[[307, 394], [219, 398], [219, 428], [305, 422]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/kitchen/4_segmented_sun_axzmxlymdvjqqfpk.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[138, 156], [91, 159], [94, 254], [143, 249]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.53, [[[138, 156], [91, 159], [94, 254], [143, 249]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/4_segmented_sun_axzmxlymdvjqqfpk.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[138, 156], [91, 159], [94, 254], [143, 249]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.53, [[[138, 156], [91, 159], [94, 254], [143, 249]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "image_path_html": "images/kitchen/4_segmented_sun_axzmxlymdvjqqfpk.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[138, 156], [91, 159], [94, 254], [143, 249]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.53, [[[138, 156], [91, 159], [94, 254], [143, 249]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pot"
+    },
+    {
+        "image_path_html": "images/kitchen/4_segmented_sun_axzmxlymdvjqqfpk.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[138, 156], [91, 159], [94, 254], [143, 249]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.53, [[[138, 156], [91, 159], [94, 254], [143, 249]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spoon"
+    },
+    {
+        "image_path_html": "images/kitchen/10_segmented_sun_aaslbwtcdcwjukuo.jpg",
+        "num_detections": 10,
+        "containers_mask_polygon": "[[[1720, 1141], [1695, 1636], [2012, 1642], [2043, 1149]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.44, [[[1720, 1141], [1695, 1636], [2012, 1642], [2043, 1149]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "image_path_html": "images/kitchen/10_segmented_sun_aaslbwtcdcwjukuo.jpg",
+        "num_detections": 10,
+        "containers_mask_polygon": "[[[1720, 1141], [1695, 1636], [2012, 1642], [2043, 1149]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.44, [[[1720, 1141], [1695, 1636], [2012, 1642], [2043, 1149]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pot"
+    },
+    {
+        "image_path_html": "images/kitchen/10_segmented_sun_aaslbwtcdcwjukuo.jpg",
+        "num_detections": 10,
+        "containers_mask_polygon": "[[[1720, 1141], [1695, 1636], [2012, 1642], [2043, 1149]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.44, [[[1720, 1141], [1695, 1636], [2012, 1642], [2043, 1149]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spoon"
+    },
+    {
+        "image_path_html": "images/kitchen/21_segmented_sun_abvefvntluoxopow.jpg",
+        "num_detections": 21,
+        "containers_mask_polygon": "[[[101, 25], [100, 53], [117, 54], [117, 29]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.483, [[[101, 25], [100, 53], [117, 54], [117, 29]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/21_segmented_sun_abvefvntluoxopow.jpg",
+        "num_detections": 21,
+        "containers_mask_polygon": "[[[101, 25], [100, 53], [117, 54], [117, 29]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.483, [[[101, 25], [100, 53], [117, 54], [117, 29]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/21_segmented_sun_abvefvntluoxopow.jpg",
+        "num_detections": 21,
+        "containers_mask_polygon": "[[[101, 25], [100, 53], [117, 54], [117, 29]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.483, [[[101, 25], [100, 53], [117, 54], [117, 29]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/21_segmented_sun_abvefvntluoxopow.jpg",
+        "num_detections": 21,
+        "containers_mask_polygon": "[[[101, 25], [100, 53], [117, 54], [117, 29]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.483, [[[101, 25], [100, 53], [117, 54], [117, 29]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/4_segmented_sun_abqsxcyxnovlihxy.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[230, 110], [230, 166], [299, 167], [299, 97], [255, 94], [264, 101], [260, 110]], [[230, 91], [230, 92], [233, 95], [236, 94], [236, 93], [237, 92], [235, 90], [231, 90]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.383, [[[230, 110], [230, 166], [299, 167], [299, 97], [255, 94], [264, 101], [260, 110]], [[230, 91], [230, 92], [233, 95], [236, 94], [236, 93], [237, 92], [235, 90], [231, 90]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/4_segmented_sun_abqsxcyxnovlihxy.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[230, 110], [230, 166], [299, 167], [299, 97], [255, 94], [264, 101], [260, 110]], [[230, 91], [230, 92], [233, 95], [236, 94], [236, 93], [237, 92], [235, 90], [231, 90]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.383, [[[230, 110], [230, 166], [299, 167], [299, 97], [255, 94], [264, 101], [260, 110]], [[230, 91], [230, 92], [233, 95], [236, 94], [236, 93], [237, 92], [235, 90], [231, 90]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "image_path_html": "images/kitchen/4_segmented_sun_abqsxcyxnovlihxy.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[230, 110], [230, 166], [299, 167], [299, 97], [255, 94], [264, 101], [260, 110]], [[230, 91], [230, 92], [233, 95], [236, 94], [236, 93], [237, 92], [235, 90], [231, 90]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.383, [[[230, 110], [230, 166], [299, 167], [299, 97], [255, 94], [264, 101], [260, 110]], [[230, 91], [230, 92], [233, 95], [236, 94], [236, 93], [237, 92], [235, 90], [231, 90]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/4_segmented_sun_abqsxcyxnovlihxy.jpg",
+        "num_detections": 4,
+        "containers_mask_polygon": "[[[230, 110], [230, 166], [299, 167], [299, 97], [255, 94], [264, 101], [260, 110]], [[230, 91], [230, 92], [233, 95], [236, 94], [236, 93], [237, 92], [235, 90], [231, 90]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.383, [[[230, 110], [230, 166], [299, 167], [299, 97], [255, 94], [264, 101], [260, 110]], [[230, 91], [230, 92], [233, 95], [236, 94], [236, 93], [237, 92], [235, 90], [231, 90]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spoon"
+    },
+    {
+        "image_path_html": "images/kitchen/18_segmented_sun_agfmsmojwptjoava.jpg",
+        "num_detections": 18,
+        "containers_mask_polygon": "[[[465, 86], [460, 238], [526, 239], [529, 98]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.598, [[[465, 86], [460, 238], [526, 239], [529, 98]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cooking oil"
+    },
+    {
+        "image_path_html": "images/kitchen/18_segmented_sun_agfmsmojwptjoava.jpg",
+        "num_detections": 18,
+        "containers_mask_polygon": "[[[465, 86], [460, 238], [526, 239], [529, 98]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.598, [[[465, 86], [460, 238], [526, 239], [529, 98]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Dish towels"
+    },
+    {
+        "image_path_html": "images/kitchen/18_segmented_sun_agfmsmojwptjoava.jpg",
+        "num_detections": 18,
+        "containers_mask_polygon": "[[[465, 86], [460, 238], [526, 239], [529, 98]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.598, [[[465, 86], [460, 238], [526, 239], [529, 98]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pot"
+    },
+    {
+        "image_path_html": "images/kitchen/18_segmented_sun_agfmsmojwptjoava.jpg",
+        "num_detections": 18,
+        "containers_mask_polygon": "[[[465, 86], [460, 238], [526, 239], [529, 98]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.598, [[[465, 86], [460, 238], [526, 239], [529, 98]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spoon"
+    },
+    {
+        "image_path_html": "images/kitchen/13_segmented_sun_arerafgvufvljolx.jpg",
+        "num_detections": 13,
+        "containers_mask_polygon": "[[[0, 57], [2, 164], [15, 155], [15, 61]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.502, [[[0, 57], [2, 164], [15, 155], [15, 61]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "image_path_html": "images/kitchen/13_segmented_sun_arerafgvufvljolx.jpg",
+        "num_detections": 13,
+        "containers_mask_polygon": "[[[0, 57], [2, 164], [15, 155], [15, 61]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.502, [[[0, 57], [2, 164], [15, 155], [15, 61]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pot"
+    },
+    {
+        "image_path_html": "images/kitchen/13_segmented_sun_arerafgvufvljolx.jpg",
+        "num_detections": 13,
+        "containers_mask_polygon": "[[[0, 57], [2, 164], [15, 155], [15, 61]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.502, [[[0, 57], [2, 164], [15, 155], [15, 61]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spoon"
+    },
+    {
+        "image_path_html": "images/kitchen/9_segmented_sun_afdefsrtlbtfdhxq.jpg",
+        "num_detections": 9,
+        "containers_mask_polygon": "[[[234, 472], [74, 485], [77, 673], [235, 635]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.57, [[[234, 472], [74, 485], [77, 673], [235, 635]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/9_segmented_sun_afdefsrtlbtfdhxq.jpg",
+        "num_detections": 9,
+        "containers_mask_polygon": "[[[234, 472], [74, 485], [77, 673], [235, 635]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.57, [[[234, 472], [74, 485], [77, 673], [235, 635]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "image_path_html": "images/kitchen/9_segmented_sun_afdefsrtlbtfdhxq.jpg",
+        "num_detections": 9,
+        "containers_mask_polygon": "[[[234, 472], [74, 485], [77, 673], [235, 635]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.57, [[[234, 472], [74, 485], [77, 673], [235, 635]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/9_segmented_sun_afdefsrtlbtfdhxq.jpg",
+        "num_detections": 9,
+        "containers_mask_polygon": "[[[234, 472], [74, 485], [77, 673], [235, 635]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.57, [[[234, 472], [74, 485], [77, 673], [235, 635]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_ajuqshhjcubjzedh.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[1101, 202], [988, 218], [990, 357], [1103, 352]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.542, [[[1101, 202], [988, 218], [990, 357], [1103, 352]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_ajuqshhjcubjzedh.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[1101, 202], [988, 218], [990, 357], [1103, 352]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.542, [[[1101, 202], [988, 218], [990, 357], [1103, 352]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_ajuqshhjcubjzedh.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[1101, 202], [988, 218], [990, 357], [1103, 352]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.542, [[[1101, 202], [988, 218], [990, 357], [1103, 352]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/12_segmented_sun_ajuqshhjcubjzedh.jpg",
+        "num_detections": 12,
+        "containers_mask_polygon": "[[[1101, 202], [988, 218], [990, 357], [1103, 352]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.542, [[[1101, 202], [988, 218], [990, 357], [1103, 352]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spoon"
+    },
+    {
+        "image_path_html": "images/kitchen/7_segmented_sun_auatsxdwxjotzqjr.jpg",
+        "num_detections": 7,
+        "containers_mask_polygon": "[[[560, 188], [559, 267], [607, 267], [608, 214], [596, 210], [594, 194]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.411, [[[560, 188], [559, 267], [607, 267], [608, 214], [596, 210], [594, 194]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cooking oil"
+    },
+    {
+        "image_path_html": "images/kitchen/7_segmented_sun_auatsxdwxjotzqjr.jpg",
+        "num_detections": 7,
+        "containers_mask_polygon": "[[[560, 188], [559, 267], [607, 267], [608, 214], [596, 210], [594, 194]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.411, [[[560, 188], [559, 267], [607, 267], [608, 214], [596, 210], [594, 194]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Dish towels"
+    },
+    {
+        "image_path_html": "images/kitchen/7_segmented_sun_auatsxdwxjotzqjr.jpg",
+        "num_detections": 7,
+        "containers_mask_polygon": "[[[560, 188], [559, 267], [607, 267], [608, 214], [596, 210], [594, 194]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.411, [[[560, 188], [559, 267], [607, 267], [608, 214], [596, 210], [594, 194]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pot"
+    },
+    {
+        "image_path_html": "images/kitchen/7_segmented_sun_auatsxdwxjotzqjr.jpg",
+        "num_detections": 7,
+        "containers_mask_polygon": "[[[560, 188], [559, 267], [607, 267], [608, 214], [596, 210], [594, 194]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.411, [[[560, 188], [559, 267], [607, 267], [608, 214], [596, 210], [594, 194]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/kitchen/9_segmented_sun_awspbtmcoxakihbx.jpg",
+        "num_detections": 9,
+        "containers_mask_polygon": "[[[156, 211], [149, 218], [154, 299], [220, 299], [220, 225]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.485, [[[156, 211], [149, 218], [154, 299], [220, 299], [220, 225]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bottle opener"
+    },
+    {
+        "image_path_html": "images/kitchen/9_segmented_sun_awspbtmcoxakihbx.jpg",
+        "num_detections": 9,
+        "containers_mask_polygon": "[[[156, 211], [149, 218], [154, 299], [220, 299], [220, 225]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.485, [[[156, 211], [149, 218], [154, 299], [220, 299], [220, 225]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting board"
+    },
+    {
+        "image_path_html": "images/kitchen/9_segmented_sun_awspbtmcoxakihbx.jpg",
+        "num_detections": 9,
+        "containers_mask_polygon": "[[[156, 211], [149, 218], [154, 299], [220, 299], [220, 225]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.485, [[[156, 211], [149, 218], [154, 299], [220, 299], [220, 225]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pan"
+    },
+    {
+        "image_path_html": "images/kitchen/9_segmented_sun_awspbtmcoxakihbx.jpg",
+        "num_detections": 9,
+        "containers_mask_polygon": "[[[156, 211], [149, 218], [154, 299], [220, 299], [220, 225]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.485, [[[156, 211], [149, 218], [154, 299], [220, 299], [220, 225]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spoon"
+    },
+    {
+        "image_path_html": "images/kitchen/22_segmented_sun_aofyuejouqtbyooo.jpg",
+        "num_detections": 22,
+        "containers_mask_polygon": "[[[1114, 339], [1117, 341], [1124, 341], [1125, 340], [1128, 340], [1129, 338], [1126, 337], [1116, 337]], [[1094, 339], [1096, 340], [1106, 340], [1107, 339], [1105, 337], [1098, 337]], [[1088, 338], [1080, 337], [1079, 338], [1071, 339], [1087, 340]], [[1159, 339], [1154, 335], [1145, 336], [1142, 338], [1134, 338], [1134, 340], [1156, 342]], [[1151, 113], [1013, 112], [1013, 331], [1154, 333]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.508, [[[1114, 339], [1117, 341], [1124, 341], [1125, 340], [1128, 340], [1129, 338], [1126, 337], [1116, 337]], [[1094, 339], [1096, 340], [1106, 340], [1107, 339], [1105, 337], [1098, 337]], [[1088, 338], [1080, 337], [1079, 338], [1071, 339], [1087, 340]], [[1159, 339], [1154, 335], [1145, 336], [1142, 338], [1134, 338], [1134, 340], [1156, 342]], [[1151, 113], [1013, 112], [1013, 331], [1154, 333]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/22_segmented_sun_aofyuejouqtbyooo.jpg",
+        "num_detections": 22,
+        "containers_mask_polygon": "[[[1114, 339], [1117, 341], [1124, 341], [1125, 340], [1128, 340], [1129, 338], [1126, 337], [1116, 337]], [[1094, 339], [1096, 340], [1106, 340], [1107, 339], [1105, 337], [1098, 337]], [[1088, 338], [1080, 337], [1079, 338], [1071, 339], [1087, 340]], [[1159, 339], [1154, 335], [1145, 336], [1142, 338], [1134, 338], [1134, 340], [1156, 342]], [[1151, 113], [1013, 112], [1013, 331], [1154, 333]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.508, [[[1114, 339], [1117, 341], [1124, 341], [1125, 340], [1128, 340], [1129, 338], [1126, 337], [1116, 337]], [[1094, 339], [1096, 340], [1106, 340], [1107, 339], [1105, 337], [1098, 337]], [[1088, 338], [1080, 337], [1079, 338], [1071, 339], [1087, 340]], [[1159, 339], [1154, 335], [1145, 336], [1142, 338], [1134, 338], [1134, 340], [1156, 342]], [[1151, 113], [1013, 112], [1013, 331], [1154, 333]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/22_segmented_sun_aofyuejouqtbyooo.jpg",
+        "num_detections": 22,
+        "containers_mask_polygon": "[[[1114, 339], [1117, 341], [1124, 341], [1125, 340], [1128, 340], [1129, 338], [1126, 337], [1116, 337]], [[1094, 339], [1096, 340], [1106, 340], [1107, 339], [1105, 337], [1098, 337]], [[1088, 338], [1080, 337], [1079, 338], [1071, 339], [1087, 340]], [[1159, 339], [1154, 335], [1145, 336], [1142, 338], [1134, 338], [1134, 340], [1156, 342]], [[1151, 113], [1013, 112], [1013, 331], [1154, 333]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.508, [[[1114, 339], [1117, 341], [1124, 341], [1125, 340], [1128, 340], [1129, 338], [1126, 337], [1116, 337]], [[1094, 339], [1096, 340], [1106, 340], [1107, 339], [1105, 337], [1098, 337]], [[1088, 338], [1080, 337], [1079, 338], [1071, 339], [1087, 340]], [[1159, 339], [1154, 335], [1145, 336], [1142, 338], [1134, 338], [1134, 340], [1156, 342]], [[1151, 113], [1013, 112], [1013, 331], [1154, 333]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/22_segmented_sun_aofyuejouqtbyooo.jpg",
+        "num_detections": 22,
+        "containers_mask_polygon": "[[[1114, 339], [1117, 341], [1124, 341], [1125, 340], [1128, 340], [1129, 338], [1126, 337], [1116, 337]], [[1094, 339], [1096, 340], [1106, 340], [1107, 339], [1105, 337], [1098, 337]], [[1088, 338], [1080, 337], [1079, 338], [1071, 339], [1087, 340]], [[1159, 339], [1154, 335], [1145, 336], [1142, 338], [1134, 338], [1134, 340], [1156, 342]], [[1151, 113], [1013, 112], [1013, 331], [1154, 333]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.508, [[[1114, 339], [1117, 341], [1124, 341], [1125, 340], [1128, 340], [1129, 338], [1126, 337], [1116, 337]], [[1094, 339], [1096, 340], [1106, 340], [1107, 339], [1105, 337], [1098, 337]], [[1088, 338], [1080, 337], [1079, 338], [1071, 339], [1087, 340]], [[1159, 339], [1154, 335], [1145, 336], [1142, 338], [1134, 338], [1134, 340], [1156, 342]], [[1151, 113], [1013, 112], [1013, 331], [1154, 333]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/15_segmented_sun_apuaydbvdodzgqrh.jpg",
+        "num_detections": 15,
+        "containers_mask_polygon": "[[[126, 46], [92, 47], [94, 114], [126, 112]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.49, [[[126, 46], [92, 47], [94, 114], [126, 112]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/15_segmented_sun_apuaydbvdodzgqrh.jpg",
+        "num_detections": 15,
+        "containers_mask_polygon": "[[[126, 46], [92, 47], [94, 114], [126, 112]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.49, [[[126, 46], [92, 47], [94, 114], [126, 112]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/15_segmented_sun_apuaydbvdodzgqrh.jpg",
+        "num_detections": 15,
+        "containers_mask_polygon": "[[[126, 46], [92, 47], [94, 114], [126, 112]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.49, [[[126, 46], [92, 47], [94, 114], [126, 112]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/kitchen/15_segmented_sun_apuaydbvdodzgqrh.jpg",
+        "num_detections": 15,
+        "containers_mask_polygon": "[[[126, 46], [92, 47], [94, 114], [126, 112]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.49, [[[126, 46], [92, 47], [94, 114], [126, 112]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_ahhrhzkyvzaqeark.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[0, 0], [0, 83], [15, 84], [15, 0]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.465, [[[0, 0], [0, 83], [15, 84], [15, 0]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_ahhrhzkyvzaqeark.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[0, 0], [0, 83], [15, 84], [15, 0]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.465, [[[0, 0], [0, 83], [15, 84], [15, 0]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_ahhrhzkyvzaqeark.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[0, 0], [0, 83], [15, 84], [15, 0]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.465, [[[0, 0], [0, 83], [15, 84], [15, 0]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Mug"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_ahhrhzkyvzaqeark.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[0, 0], [0, 83], [15, 84], [15, 0]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.465, [[[0, 0], [0, 83], [15, 84], [15, 0]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/25_segmented_sun_aaxxjlsuzvqlgylf.jpg",
+        "num_detections": 25,
+        "containers_mask_polygon": "[[[899, 33], [791, 68], [795, 337], [899, 346], [840, 322], [899, 319]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.472, [[[899, 33], [791, 68], [795, 337], [899, 346], [840, 322], [899, 319]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/25_segmented_sun_aaxxjlsuzvqlgylf.jpg",
+        "num_detections": 25,
+        "containers_mask_polygon": "[[[899, 33], [791, 68], [795, 337], [899, 346], [840, 322], [899, 319]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.472, [[[899, 33], [791, 68], [795, 337], [899, 346], [840, 322], [899, 319]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/25_segmented_sun_aaxxjlsuzvqlgylf.jpg",
+        "num_detections": 25,
+        "containers_mask_polygon": "[[[899, 33], [791, 68], [795, 337], [899, 346], [840, 322], [899, 319]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.472, [[[899, 33], [791, 68], [795, 337], [899, 346], [840, 322], [899, 319]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/25_segmented_sun_aaxxjlsuzvqlgylf.jpg",
+        "num_detections": 25,
+        "containers_mask_polygon": "[[[899, 33], [791, 68], [795, 337], [899, 346], [840, 322], [899, 319]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.472, [[[899, 33], [791, 68], [795, 337], [899, 346], [840, 322], [899, 319]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_awuawixsfaurzuaa.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[106, 1], [108, 78], [195, 77], [196, 1]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.593, [[[106, 1], [108, 78], [195, 77], [196, 1]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cooking oil"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_awuawixsfaurzuaa.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[106, 1], [108, 78], [195, 77], [196, 1]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.593, [[[106, 1], [108, 78], [195, 77], [196, 1]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Dish towels"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_awuawixsfaurzuaa.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[106, 1], [108, 78], [195, 77], [196, 1]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.593, [[[106, 1], [108, 78], [195, 77], [196, 1]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/8_segmented_sun_awuawixsfaurzuaa.jpg",
+        "num_detections": 8,
+        "containers_mask_polygon": "[[[106, 1], [108, 78], [195, 77], [196, 1]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.593, [[[106, 1], [108, 78], [195, 77], [196, 1]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/kitchen/26_segmented_sun_apslowdohuttdlkk.jpg",
+        "num_detections": 26,
+        "containers_mask_polygon": "[[[560, 373], [562, 373]], [[556, 319], [556, 349], [587, 372], [600, 374], [600, 341]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.498, [[[560, 373], [562, 373]], [[556, 319], [556, 349], [587, 372], [600, 374], [600, 341]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cooking oil"
+    },
+    {
+        "image_path_html": "images/kitchen/26_segmented_sun_apslowdohuttdlkk.jpg",
+        "num_detections": 26,
+        "containers_mask_polygon": "[[[560, 373], [562, 373]], [[556, 319], [556, 349], [587, 372], [600, 374], [600, 341]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.498, [[[560, 373], [562, 373]], [[556, 319], [556, 349], [587, 372], [600, 374], [600, 341]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Dish towels"
+    },
+    {
+        "image_path_html": "images/kitchen/26_segmented_sun_apslowdohuttdlkk.jpg",
+        "num_detections": 26,
+        "containers_mask_polygon": "[[[560, 373], [562, 373]], [[556, 319], [556, 349], [587, 372], [600, 374], [600, 341]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.498, [[[560, 373], [562, 373]], [[556, 319], [556, 349], [587, 372], [600, 374], [600, 341]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pot"
+    },
+    {
+        "image_path_html": "images/kitchen/26_segmented_sun_apslowdohuttdlkk.jpg",
+        "num_detections": 26,
+        "containers_mask_polygon": "[[[560, 373], [562, 373]], [[556, 319], [556, 349], [587, 372], [600, 374], [600, 341]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.498, [[[560, 373], [562, 373]], [[556, 319], [556, 349], [587, 372], [600, 374], [600, 341]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/kitchen/17_segmented_sun_aiolecljpamcnixg.jpg",
+        "num_detections": 17,
+        "containers_mask_polygon": "[[[746, 350], [745, 397], [799, 397], [799, 349]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.433, [[[746, 350], [745, 397], [799, 397], [799, 349]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cooking oil"
+    },
+    {
+        "image_path_html": "images/kitchen/17_segmented_sun_aiolecljpamcnixg.jpg",
+        "num_detections": 17,
+        "containers_mask_polygon": "[[[746, 350], [745, 397], [799, 397], [799, 349]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.433, [[[746, 350], [745, 397], [799, 397], [799, 349]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Dish towels"
+    },
+    {
+        "image_path_html": "images/kitchen/17_segmented_sun_aiolecljpamcnixg.jpg",
+        "num_detections": 17,
+        "containers_mask_polygon": "[[[746, 350], [745, 397], [799, 397], [799, 349]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.433, [[[746, 350], [745, 397], [799, 397], [799, 349]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/17_segmented_sun_aiolecljpamcnixg.jpg",
+        "num_detections": 17,
+        "containers_mask_polygon": "[[[746, 350], [745, 397], [799, 397], [799, 349]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.433, [[[746, 350], [745, 397], [799, 397], [799, 349]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spices"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_aqzschgwftpwisen.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[127, 135], [128, 146], [157, 145], [156, 134]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.47, [[[127, 135], [128, 146], [157, 145], [156, 134]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Bowl"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_aqzschgwftpwisen.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[127, 135], [128, 146], [157, 145], [156, 134]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.47, [[[127, 135], [128, 146], [157, 145], [156, 134]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cutting knife"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_aqzschgwftpwisen.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[127, 135], [128, 146], [157, 145], [156, 134]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.47, [[[127, 135], [128, 146], [157, 145], [156, 134]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Plate"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_aqzschgwftpwisen.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[127, 135], [128, 146], [157, 145], [156, 134]]]",
+        "containers_mask_polygon_with_labels": "[\"drawer\", 0.47, [[[127, 135], [128, 146], [157, 145], [156, 134]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Tupperware containers"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_althuptvuaxvjman.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[212, 2], [217, 91], [332, 89], [333, 0]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.438, [[[212, 2], [217, 91], [332, 89], [333, 0]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Cooking oil"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_althuptvuaxvjman.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[212, 2], [217, 91], [332, 89], [333, 0]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.438, [[[212, 2], [217, 91], [332, 89], [333, 0]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Dish towels"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_althuptvuaxvjman.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[212, 2], [217, 91], [332, 89], [333, 0]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.438, [[[212, 2], [217, 91], [332, 89], [333, 0]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Pot"
+    },
+    {
+        "image_path_html": "images/kitchen/6_segmented_sun_althuptvuaxvjman.jpg",
+        "num_detections": 6,
+        "containers_mask_polygon": "[[[212, 2], [217, 91], [332, 89], [333, 0]]]",
+        "containers_mask_polygon_with_labels": "[\"cabinet door\", 0.438, [[[212, 2], [217, 91], [332, 89], [333, 0]]]]",
+        "room_type": "kitchen",
+        "chosen_item": "Spoon"
+    }
+]
