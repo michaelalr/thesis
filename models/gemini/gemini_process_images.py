@@ -38,7 +38,9 @@ except Exception as e:
     exit()
 
 # 3. Model Selection
-MODEL_NAME = "gemini-1.5-flash-latest"
+# MODEL_NAME = "gemini-1.5-flash-latest"
+# MODEL_NAME = "gemini-2.5-flash"
+MODEL_NAME = "gemini-2.5-pro"
 try:
     model = genai.GenerativeModel(MODEL_NAME)
     logging.info(f"Using model: {MODEL_NAME}")
