@@ -1,6 +1,6 @@
 [
   {
-    "user_id":"chatgpt",
+    "user_id":"llama",
     "correct_answers":23,
     "total_attempts":100,
     "accuracy (%)":23.0,

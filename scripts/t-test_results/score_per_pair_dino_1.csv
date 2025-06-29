@@ -1,0 +1,101 @@
+image_path,item,user_id,iou,accuracy
+https://michaelalr.github.io/thesis/images/validation/26_segmented_Bottle_opener_1_a.jpg,Bottle opener,dino_1,1.0,1
+https://michaelalr.github.io/thesis/images/validation/19_segmented_Bottle_opener_2_a.jpg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/14_segmented_Bottle_opener_3_a.jpg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/9_segmented_Bottle_opener_4_a.jpg,Bottle opener,dino_1,0.9853762667475533,0
+https://michaelalr.github.io/thesis/images/validation/13_segmented_Bottle_opener_5_a.jpg,Bottle opener,dino_1,1.0,1
+https://michaelalr.github.io/thesis/images/validation/3_segmented_Bottle_opener_6_a.jpg,Bottle opener,dino_1,0.9836725945256483,0
+https://michaelalr.github.io/thesis/images/validation/18_segmented_Bottle_opener_7_a.jpg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/18_segmented_Bottle_opener_8_a.jpg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/2_segmented_Bottle_opener_9_a.jpg,Bottle opener,dino_1,0.49118818842277945,0
+https://michaelalr.github.io/thesis/images/validation/4_segmented_Bottle_opener_10_a.jpg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/14_segmented_Bottle_opener_11_a.jpg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/8_segmented_Bottle_opener_12_a.jpg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/11_segmented_Bottle_opener_13_a.jpg,Bottle opener,dino_1,1.0,1
+https://michaelalr.github.io/thesis/images/validation/19_segmented_Bottle_opener_14_a.jpg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/6_segmented_Bottle_opener_15_a.jpg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/13_segmented_Bottle_opener_16_a.jpg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/21_segmented_Bottle_opener_17_a.jpg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/12_segmented_Bottle_opener_18_a.jpg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/18_segmented_Bottle_opener_19_a.jpg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/13_segmented_Bottle_opener_20_a.jpg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/15_segmented_Bottle_opener_21_a.jpg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/6_segmented_Bottle_opener_22_a.jpg,Bottle opener,dino_1,1.0,1
+https://michaelalr.github.io/thesis/images/validation/10_segmented_Bottle_opener_23_a.jpg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/13_segmented_Bottle_opener_24_a.jpg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/8_segmented_Bottle_opener_25_a.jpg,Bottle opener,dino_1,1.0,1
+https://michaelalr.github.io/thesis/images/validation/19_segmented_Bottle_opener_26_a.jpg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/29_segmented_Bottle_opener_27_a.jpg,Bottle opener,dino_1,1.0,1
+https://michaelalr.github.io/thesis/images/validation/25_segmented_Bottle_opener_29_a.jpg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/33_segmented_Bottle_opener_30_a.jpg,Bottle opener,dino_1,1.0,1
+https://michaelalr.github.io/thesis/images/validation/18_segmented_Bottle_opener_31_a.jpg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/6_segmented_Bottle_opener_32_a.jpg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/12_segmented_Bottle_opener_35_a.jpg,Bottle opener,dino_1,1.0,1
+https://michaelalr.github.io/thesis/images/validation/5_segmented_Bottle_opener_37_a.jpg,Bottle opener,dino_1,0.5233254293459797,0
+https://michaelalr.github.io/thesis/images/validation/20_segmented_Bottle_opener_39_a.jpg,Bottle opener,dino_1,1.0,1
+https://michaelalr.github.io/thesis/images/validation/12_segmented_Bottle_opener_40_a.jpg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/6_segmented_Bottle_opener_41_a.jpg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/8_segmented_Bottle_opener_42_a.jpg,Bottle opener,dino_1,1.0,1
+https://michaelalr.github.io/thesis/images/validation/14_segmented_Bottle_opener_44_a.jpg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/24_segmented_Bottle_opener_45_a.jpg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/7_segmented_Bottle_opener_48_a.jpg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/17_segmented_Bottle_opener_47_a.jpeg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/20_segmented_Bottle_opener_34_a.jpeg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/15_segmented_Bottle_opener_43_a.jpeg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/9_segmented_Bottle_opener_33_a.jpeg,Bottle opener,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/16_segmented_Food_containers__1_a.jpg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/18_segmented_Food_containers__2_a.jpg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/4_segmented_Food_containers__3_a.jpg,Tupperware containers,dino_1,0.9982479541546802,0
+https://michaelalr.github.io/thesis/images/validation/11_segmented_Food_containers__4_a.jpg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/18_segmented_Food_containers__5_a.jpg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/21_segmented_Food_containers__6_a.jpg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/18_segmented_Food_containers__7_a.jpg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/16_segmented_Food_containers__8_a.jpg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/6_segmented_Food_containers__9_a.jpg,Tupperware containers,dino_1,1.0,1
+https://michaelalr.github.io/thesis/images/validation/10_segmented_Food_containers__10_a.jpg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/10_segmented_Food_containers__11_a.jpg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/14_segmented_Food_containers__12_a.jpg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/8_segmented_Food_containers__13_a.jpg,Tupperware containers,dino_1,0.0798802772137543,0
+https://michaelalr.github.io/thesis/images/validation/16_segmented_Food_containers__14_a.jpg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/16_segmented_Food_containers__15_a.jpg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/8_segmented_Food_containers__16_a.jpg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/14_segmented_Food_containers__17_a.jpg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/19_segmented_Food_containers__18_a.jpg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/18_segmented_Food_containers__19_a.jpg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/10_segmented_Food_containers__20_a.jpg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/22_segmented_Food_containers__21_a.jpg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/25_segmented_Food_containers__22_a.jpg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/10_segmented_Food_containers__23_a.jpg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/7_segmented_Food_containers__24_a.jpg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/18_segmented_Food_containers__28_a.jpg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/3_segmented_Food_containers__29_a.jpg,Tupperware containers,dino_1,0.7548248183271852,0
+https://michaelalr.github.io/thesis/images/validation/21_segmented_Food_containers__33_a.jpg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/11_segmented_Food_containers__34_a.jpg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/6_segmented_Food_containers__35_a.jpg,Tupperware containers,dino_1,1.0,1
+https://michaelalr.github.io/thesis/images/validation/9_segmented_Food_containers__37_a.jpg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/20_segmented_Food_containers__39_a.jpg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/12_segmented_Food_containers__40_a.jpg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/7_segmented_Food_containers__41_a.jpg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/15_segmented_Food_containers__36_a.jpeg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/11_segmented_Food_containers__30_a.jpeg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/9_segmented_Food_containers__25_a.jpeg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/17_segmented_Food_containers__31_a.jpeg,Tupperware containers,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/14_segmented_Random_5 - Candles_a.jpeg,Candles,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/20_segmented_Random_15 - Cereals_a.jpg,Cereals,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/18_segmented_Random_1 - Fork_a.jpg,Fork,dino_1,0.9948767958352931,0
+https://michaelalr.github.io/thesis/images/validation/10_segmented_Random_12 - Fork_a.jpeg,Fork,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/20_segmented_Random_7 - Peeler_a.jpeg,Peeler,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/12_segmented_Random_14 - Pot_a.jpg,Pot,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/17_segmented_Random_22 - Pot_a.jpeg,Pot,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/24_segmented_Random_21 - Rolling pin_a.jpg,Rolling pin,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/6_segmented_Random_17 - Spices_a.jpg,Spices,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/18_segmented_Screwdriver_1_a.jpg,Screwdriver,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/20_segmented_Screwdriver_11_a.jpg,Screwdriver,dino_1,1.0,1
+https://michaelalr.github.io/thesis/images/validation/21_segmented_Screwdriver_16_a.jpg,Screwdriver,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/15_segmented_Screwdriver_14_a.jpeg,Screwdriver,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/11_segmented_Painkiller_1_a.jpg,Painkiller,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/18_segmented_Painkiller_4_a.jpg,Painkiller,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/21_segmented_Painkiller_5_a.jpg,Painkiller,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/6_segmented_Painkiller_19_a.jpg,Painkiller,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/20_segmented_Painkiller_23_a.jpeg,Painkiller,dino_1,0.0,0
+https://michaelalr.github.io/thesis/images/validation/15_segmented_Painkiller_29_a.jpeg,Painkiller,dino_1,0.0,0

@@ -1,1 +1,2 @@
 Contrast,A,B,Paired,Parametric,T,dof,alternative,p-unc,p-corr,p-adjust,BF10,hedges
+model,chatgpt,kosmos,True,True,3.893847972671175,99.0,two-sided,0.00017923076815956732,0.013800769148286684,bonf,107.279,0.5689247429791958

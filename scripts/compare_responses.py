@@ -16,6 +16,8 @@ import pingouin as pg
 import seaborn as sns
 from PIL import Image
 from firebase_admin import credentials, firestore
+from matplotlib.cm import ScalarMappable
+from matplotlib.colors import Normalize
 
 from scripts.users_agreement import compute_iou
 
@@ -303,149 +305,6 @@ def simplify_bbox(complex_polygon):
     return simplified_bbox
 
 
-def give_score_on_data(data_json, users_responses_json, scores_json, response_type="human"):
-    # Load correct annotations
-    with open(data_json, "r") as f:
-        correct_annotations = json.load(f)
-
-    # Load user responses
-    with open(users_responses_json, "r") as f:
-        user_responses = json.load(f)
-
-    print(len(user_responses))
-
-    # Convert correct annotations to a dictionary for quick lookup
-    correct_lookup = {
-        (entry["image_path"], entry["chosen_item"]): literal_eval(entry["chosen_polygon"])
-        for entry in correct_annotations
-    }
-
-    # Count correct responses per user
-    user_scores = {}
-    total_attempts = {}
-    iou_scores = {}
-
-    for response in user_responses:
-        if response_type == "human":
-            user_id = response["user_id"]
-        elif response_type == "kosmos":
-            user_id = "kosmos"
-        elif response_type == "chatgpt":
-            user_id = "chatgpt"
-        elif response_type == "gpt-4o":
-            user_id = "gpt-4o"
-        elif response_type == "gemini":
-            user_id = "gemini"
-        elif response_type == "dino":
-            user_id = "dino"
-        else:
-            user_id = "random"
-        image_path = response["image_path"]
-        chosen_item = response["chosen_item"]
-
-        if response_type == "kosmos":
-            entities = literal_eval(response["entities"])
-            if len(entities) > 0:
-                chosen_bbox = entities[0][2][0]  # Assuming you only want the first bbox
-                suffix_image_path = clean_image_path(image_path=response["image_path"], is_test=("test" in data_json))
-                chosen_polygon = denormalize_bbox_to_polygon(chosen_bbox, suffix_image_path)
-            else:
-                chosen_polygon = []  # or None if no bbox was found
-        elif response_type == "gemini":
-            if response["gemini_bbox_polygon_string"] == "[[0, 0], [0, 0], [0, 0], [0, 0]]":
-                chosen_polygon = []
-            else:
-                chosen_polygon = literal_eval(response["gemini_bbox_polygon_string"])
-        elif response_type == "dino":
-            if response["containers_mask_polygon"] == "[]":
-                chosen_polygon = []
-            else:
-                containers_mask_polygon = json.loads(response['containers_mask_polygon'])
-                # chosen_polygon = literal_eval(response["containers_mask_polygon"])
-                if isinstance(containers_mask_polygon, list) and len(containers_mask_polygon) > 1:
-                    chosen_polygon = simplify_bbox(containers_mask_polygon)
-                elif isinstance(containers_mask_polygon, list) and len(containers_mask_polygon) == 1:
-                    chosen_polygon = containers_mask_polygon[0]
-                else:
-                    print(f"Unexpected containers_mask_polygon format in {image_path}")
-        else:
-            chosen_polygon = literal_eval(response["chosen_polygon"])
-
-        # Total attempts per user
-        total_attempts[user_id] = total_attempts.get(user_id, 0) + 1  # todo
-
-        # Check if the chosen polygon matches the correct one
-        correct_polygon = correct_lookup.get((image_path, chosen_item))
-        if correct_polygon:
-            # Compute IoU score
-            try:
-                iou = compute_iou(correct_polygon, chosen_polygon)
-            except Exception as e:
-                print(f"Error compute iou: {e}")
-                iou = 0.0
-
-            iou_scores[user_id] = iou_scores.get(user_id, []) + [iou]
-
-            # In Random or human cases - if IoU is 1, count it as a correct response
-            if response_type == "human" or response_type == "random" or response_type == "chatgpt":
-                if iou == 1.0:
-                    user_scores[user_id] = user_scores.get(user_id, 0) + 1
-            # In other models like kosmos - if IoU >= 0.5, count it as a correct response
-            elif response_type == "kosmos":
-                if iou >= 0.2:
-                    user_scores[user_id] = user_scores.get(user_id, 0) + 1
-            elif response_type == "gemini":
-                if iou >= 0.2:
-                    user_scores[user_id] = user_scores.get(user_id, 0) + 1
-            elif response_type == "dino":
-                if iou == 1:
-                    user_scores[user_id] = user_scores.get(user_id, 0) + 1
-            elif response_type == "gpt-4o":
-                if iou >= 0.2:
-                    user_scores[user_id] = user_scores.get(user_id, 0) + 1
-
-    # Compute percentage scores
-    user_percentages = {
-        user: (user_scores.get(user, 0) / total_attempts[user]) * 100
-        for user in total_attempts
-    }
-
-    # Compute average IoU per user
-    user_iou_avg = {
-        user: sum(iou_scores[user]) / len(iou_scores[user]) if user in iou_scores else 0.0
-        for user in total_attempts
-    }
-
-    # Convert to DataFrame for better visualization
-    df_scores = pd.DataFrame([
-        {"user_id": user, "correct_answers": user_scores.get(user, 0),
-         "total_attempts": total_attempts[user], "accuracy (%)": user_percentages[user],
-         "average_IoU": user_iou_avg[user]}
-        for user in total_attempts
-    ])
-
-    # Print results
-    print(df_scores)
-
-    # Save to a JSON file if needed
-    df_scores.to_json(scores_json, orient="records", indent=4)
-
-    # ---- PLOT ----
-    plt.figure(figsize=(10, 6))
-    sns.barplot(x=df_scores["user_id"], y=df_scores["accuracy (%)"], palette="viridis")
-
-    # Customize plot
-    plt.xlabel("User ID", fontsize=12)
-    plt.ylabel("Accuracy (%)", fontsize=12)
-    plt.title("User Accuracy in Choosing the Correct Annotation", fontsize=14)
-    plt.ylim(0, 100)
-    plt.xticks(rotation=45)
-    plt.grid(axis="y", linestyle="--", alpha=0.7)
-
-    # Show plot
-    plt.show()
-
-
 def extract_chosen_polygon(response, image_path, response_type, data_json):
     if response_type == "kosmos":
         entities = literal_eval(response.get("entities", "[]"))
@@ -567,6 +426,7 @@ def give_score_on_data_fixed(data_json, users_responses_json, scores_json, respo
                 # "human": 1.0,
                 "random": 1.0,
                 "chatgpt": 1.0,
+                "llama": 1.0,
                 "gpt-4o": 0.2,
                 "kosmos": 0.2,
                 "gemini": 0.2,
@@ -978,15 +838,73 @@ def compute_average_containers(data_json_path):
     return average
 
 
+def remove_prefix_from_image_path(path):
+    filename = os.path.basename(path)
+    filename = re.sub(r"^\d+_segmented_", "", filename)
+    filename = filename.replace("Food_containers__", "Food_containers_")
+    return filename
+
+
+def plot_posthoc_pairwise(df):
+    df.set_index('B', inplace=True)
+    df.sort_values('hedges', ascending=False, inplace=True)
+
+    # --- Normalize colors based on Hedges' g ---
+    norm = Normalize(vmin=df['hedges'].min(), vmax=df['hedges'].max())
+    colors = plt.cm.coolwarm(norm(df['hedges'].values))
+
+    # --- Create plot ---
+    fig, ax = plt.subplots(figsize=(10, 5))
+    bar = sns.barplot(
+        x=df.index,
+        y=df['hedges'],
+        palette=colors,
+        edgecolor='black',
+        ax=ax
+    )
+
+    # --- Annotate significance ---
+    for i, (p, h) in enumerate(zip(df['p-corr'], df['hedges'])):
+        significance = '*' if p < 0.05 else ''
+        offset = 0.02 if h >= 0 else -0.02
+        ax.text(i, h + offset, significance, ha='center', va='bottom', fontsize=12, color='black')
+
+    # --- Labels and styles ---
+    ax.axhline(0, color='gray', linestyle='--')
+    ax.set_ylabel("Hedges' g (Effect Size)")
+    ax.set_xlabel("Comparison: NOAM GPT-4 vs.")
+    ax.set_title("Effect Sizes of NOAM GPT-4 Compared to Other Models\n(Significant differences marked with *)")
+    ax.set_xticklabels(ax.get_xticklabels(), rotation=45)
+
+    # --- Adjust ylim to keep * inside ---
+    ymin, ymax = df['hedges'].min(), df['hedges'].max()
+    ax.set_ylim(ymin - 0.1, ymax + 0.1)
+
+    # --- Optional: Add colorbar legend ---
+    sm = ScalarMappable(cmap="coolwarm", norm=norm)
+    sm.set_array([])  # Required to avoid error
+    cbar = plt.colorbar(sm, ax=ax)
+    cbar.set_label("Effect Size (Hedges' g)")
+
+    plt.tight_layout()
+    plt.savefig("hedges_effect_sizes.png", dpi=300, bbox_inches='tight')
+    plt.show()
+
+
 def t_test():
     # Step 1: Model CSV paths (exclude human for now)
     model_files = {
-        "gpt-4o": "score_per_pair_gpt-4o.csv",
-        "chatgpt": "score_per_pair_chatgpt.csv",
-        "random": "score_per_pair_random.csv",
-        "kosmos": "score_per_pair_kosmos.csv",
-        "gemini": "score_per_pair_gemini.csv",
-        "dino": "score_per_pair_dino.csv",
+        "gpt-4o": "./t-test_results/score_per_pair_gpt-4o.csv",
+        "chatgpt": "./t-test_results/score_per_pair_chatgpt.csv",
+        "llama": "./t-test_results/score_per_pair_llama.csv",
+        "random": "./t-test_results/score_per_pair_random.csv",
+        "kosmos": "./t-test_results/score_per_pair_kosmos.csv",
+        "gemini_1.5": "./t-test_results/score_per_pair_gemini_1.5.csv",
+        "gemini_2.5": "./t-test_results/score_per_pair_gemini_2.5.csv",
+        "dino_1": "./t-test_results/score_per_pair_dino_1.csv",
+        "dino_0.95": "./t-test_results/score_per_pair_dino_0.95.csv",
+        "dino_no_item": "./t-test_results/score_per_pair_dino_no_item.csv",
+        # "human": "./t-test_results/score_per_pair_human.csv",
     }
 
     # Step 2: Load model data and add 'model' column
@@ -1000,7 +918,7 @@ def t_test():
         all_dfs.append(df)
 
     # Step 3: Handle human users (1, 2, 3 in same CSV)
-    human_path = "../t_test_results/score_per_pair_human.csv"
+    human_path = "./t-test_results/score_per_pair_human.csv"
     if os.path.exists(human_path):
         df_human = pd.read_csv(human_path)
         for uid in [1, 2, 3]:
@@ -1012,6 +930,8 @@ def t_test():
 
     # Step 4: Merge all
     df_all = pd.concat(all_dfs, ignore_index=True)
+
+    df_all['image_path'] = df_all['image_path'].apply(remove_prefix_from_image_path)
 
     # Step 5: Create trial ID from image and item
     df_all["trial"] = df_all["image_path"] + " | " + df_all["item"]
@@ -1027,11 +947,11 @@ def t_test():
     print(posthoc)
 
     # Optional: Save results
-    aov.to_csv("anova_results.csv", index=False)
-    posthoc.to_csv("posthoc_pairwise_ttests.csv", index=False)
-    print("\n✅ Saved: 'anova_results.csv', 'posthoc_pairwise_ttests.csv'")
+    aov.to_csv("./t-test_results/anova_results.csv", index=False)
+    posthoc.to_csv("./t-test_results/posthoc_pairwise_ttests.csv", index=False)
+    print("\n✅ Saved: './t-test_results/anova_results.csv', './t-test_results/posthoc_pairwise_ttests.csv'")
 
-    # Filter only comparisons involving "chatgpt"
+    # # Filter only comparisons involving "chatgpt"
     # chatgpt_comparisons = posthoc[
     #     (posthoc['A'] == 'chatgpt') | (posthoc['B'] == 'chatgpt')
     #     ]
@@ -1043,7 +963,8 @@ def t_test():
     # print(significant_vs_chatgpt[['A', 'B', 'T', 'p-corr', 'hedges']])
 
     # Define the models to compare with 'chatgpt'
-    models_to_compare = ['gpt-4o', 'random', 'kosmos', 'gemini', 'dino', 'human_1', 'human_2', 'human_3']
+    models_to_compare = ['llama', 'gpt-4o', 'random', 'kosmos', 'gemini-1.5', 'gemini-2.5', 'dino-1', 'dino-0.95',
+                         'dino_no_item', 'human_1', 'human_2', 'human_3']
 
     # Filter the results where chatgpt is being compared to the other models
     chatgpt_comparisons = posthoc[
@@ -1065,78 +986,11 @@ def t_test():
     print(significant_comparisons)
 
     # If needed, you can save this summary to a CSV
-    significant_comparisons.to_csv("significant_comparisons_chatgpt_vs_others.csv", index=False)
+    significant_comparisons.to_csv("./t-test_results/significant_comparisons_chatgpt_vs_others.csv", index=False)
 
-    # Define significance threshold (usually 0.05)
-    significance_threshold = 0.05
-
-    # Create a new column to mark significant results
-    significant_comparisons['significant'] = significant_comparisons['p-corr'] < significance_threshold
-
-    # Plotting Dot Plot (scatter plot of t-values with significance highlighted)
-    plt.figure(figsize=(8, 6))
-    sns.scatterplot(data=significant_comparisons, x='B', y='T', hue='significant', palette={True: 'red', False: 'gray'},
-                    s=100)
-
-    # Add annotations for each point
-    for i, row in significant_comparisons.iterrows():
-        plt.text(row['B'], row['T'] + 0.1, f"T={row['T']:.2f}", ha='center', va='bottom', fontsize=10)
-
-    # Title and labels
-    plt.title('Dot Plot of T-Statistics (Significance Highlighted)', fontsize=14)
-    plt.xlabel('Model Comparison (B)', fontsize=12)
-    plt.ylabel('T-Statistic', fontsize=12)
-
-    # Manually define the legend
-    from matplotlib.lines import Line2D
-    legend_elements = [
-        Line2D([0], [0], marker='o', color='w', markerfacecolor='red', markersize=10, label='Significant'),
-        Line2D([0], [0], marker='o', color='w', markerfacecolor='gray', markersize=10, label='Not Significant')]
-
-    plt.legend(handles=legend_elements, title='Significance')
-
-    # Rotate x-ticks for better readability
-    plt.xticks(rotation=45)
-    plt.tight_layout()
-    plt.show()
-
-    # Plotting Box Plot (distribution of t-values with significance marked)
-    plt.figure(figsize=(8, 6))
-    sns.boxplot(data=significant_comparisons, x='B', y='T', palette={True: 'red', False: 'gray'}, hue='significant')
-
-    # Title and labels
-    plt.title('Box Plot of T-Statistics with Significance Highlighted', fontsize=14)
-    plt.xlabel('Model Comparison (B)', fontsize=12)
-    plt.ylabel('T-Statistic', fontsize=12)
-
-    # Manually define the legend again for the boxplot
-    plt.legend(handles=legend_elements, title='Significance')
-
-    # Rotate x-ticks for better readability
-    plt.xticks(rotation=45)
-    plt.tight_layout()
-    plt.show()
-
-    # Assuming you've already obtained the significant_comparisons DataFrame from previous code
-    # Prepare the data for plotting
-    significant_comparisons['Comparison'] = significant_comparisons.apply(
-        lambda row: f"{row['A']} vs {row['B']}", axis=1)
-
-    # Set up the plot
-    plt.figure(figsize=(10, 6))
-    sns.barplot(data=significant_comparisons, x='Comparison', y='T', palette="viridis")
-
-    # Rotate the x-axis labels for better readability
-    plt.xticks(rotation=45, ha='right')
-
-    # Add titles and labels
-    plt.title('Significant Differences: ChatGPT vs Other Models', fontsize=16)
-    plt.xlabel('Model Comparison', fontsize=12)
-    plt.ylabel('T-statistic', fontsize=12)
-
-    # Show the plot
-    plt.tight_layout()
-    plt.show()
+    # Assuming `posthoc` is your full pairwise comparison DataFrame
+    df = posthoc[posthoc['A'] == 'chatgpt'].copy()
+    plot_posthoc_pairwise(df=df)
 
 
 if __name__ == "__main__":
