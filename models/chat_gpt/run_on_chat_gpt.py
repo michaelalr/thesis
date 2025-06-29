@@ -1,9 +1,9 @@
 import json
+import os
+import time
 from collections import defaultdict
 
-import openai
 import pandas as pd
-import os
 from openai import OpenAI
 
 # Set your API key using the new client
@@ -11,6 +11,7 @@ client = OpenAI(
     # This is the default and can be omitted
     api_key=os.environ.get("OPENAI_API_KEY"),
 )
+
 
 # Prepare and call ChatGPT API
 def ask_chatgpt(containers, item):
@@ -138,8 +139,11 @@ def run_queries_in_chat_gpt(csv_path, json_path, chatgpt_output):
 
 
 if __name__ == '__main__':
+    start_time = time.time()
     # Load data
     csv_path = "../../containers_info_table/train_info_table_versions/short_id_pos_lab_anchrs_ratio_most_with_description_2.csv"
     json_path = "../../image_details/image_to_items_dict.json"
     chatgpt_output = "./chatgpt_results_short_id_pos_lab_anchrs_ratio_most_2.csv"
     run_queries_in_chat_gpt(csv_path=csv_path, json_path=json_path, chatgpt_output=chatgpt_output)
+    end_time = time.time()
+    print(f"Execution time: {end_time - start_time:.2f} seconds")

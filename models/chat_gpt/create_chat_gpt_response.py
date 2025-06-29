@@ -1,8 +1,11 @@
-import pandas as pd
 import json
 import random
 import re
+import time
 from typing import Optional
+
+import pandas as pd
+
 
 def parse_best_container_line(line):
     """Extracts the best container IDs from a line like 'Best container: 5 or 6' or 'None'"""
@@ -39,7 +42,9 @@ def extract_container_id(response: str, mode: str = "first") -> Optional[int]:
         return random.choice(container_ids)
     return container_ids[0]
 
-def create_json_from_csvs(info_csv_path, response_csv_path, output_json_path, columns_in_description, story_prompt=False):
+
+def create_json_from_csvs(info_csv_path, response_csv_path, output_json_path, columns_in_description,
+                          story_prompt=False):
     # Load the CSVs
     info_df = pd.read_csv(info_csv_path)
     response_df = pd.read_csv(response_csv_path)
@@ -127,13 +132,16 @@ def create_json_from_csvs(info_csv_path, response_csv_path, output_json_path, co
 
     print(f"Saved {len(results)} entries to {output_json_path}")
 
+
 if __name__ == '__main__':
     info_csv_path = "../../containers_info_table/test_info_table_versions/test_labeled_containers.csv"
     response_csv_path = "results/chatgpt_results_test_short_id_pos_lab_anchrs_ratio.csv"
     output_json_path = "parse_results/chatgpt_test_short_id_pos_lab_anchrs_ratio.json"
     columns_in_description_1 = ["label", "above_or_below_countertop", "height_width_ratio"]
-    columns_in_description_2 = ["label", "score", "above_or_below_countertop", "height_width_ratio", "neighbors", "anchor_neighbors"]
-    columns_in_description_3 = ["label", "above_or_below_countertop", "height_width_ratio", "neighbors", "anchor_neighbors"]
+    columns_in_description_2 = ["label", "score", "above_or_below_countertop", "height_width_ratio", "neighbors",
+                                "anchor_neighbors"]
+    columns_in_description_3 = ["label", "above_or_below_countertop", "height_width_ratio", "neighbors",
+                                "anchor_neighbors"]
     columns_in_description_4 = ["id"]
     columns_in_description_5 = ["id", "label"]
     columns_in_description_6 = ["id", "above_or_below_countertop"]
@@ -146,10 +154,13 @@ if __name__ == '__main__':
     columns_in_description_13 = ["id", "above_or_below_countertop", "label", "neighbors"]
     columns_in_description_14 = ["id", "above_or_below_countertop", "label", "anchor_neighbors", "neighbors"]
     columns_in_description_15 = ["short_id", "above_or_below_countertop", "label", "anchor_neighbors"]
-    columns_in_description_16 = ["short_id", "above_or_below_countertop", "label", "anchor_neighbors", "most_close_to_anchors"]
+    columns_in_description_16 = ["short_id", "above_or_below_countertop", "label", "anchor_neighbors",
+                                 "most_close_to_anchors"]
     columns_in_description_17 = ["short_id", "above_or_below_countertop", "label", "most_close_to_anchors"]
-    columns_in_description_18 = ["short_id", "above_or_below_countertop", "label", "anchor_neighbors", "height_width_ratio"]
-    columns_in_description_19 = ["short_id", "above_or_below_countertop", "label", "anchor_neighbors", "height_width_ratio", "most_close_to_anchors"]
+    columns_in_description_18 = ["short_id", "above_or_below_countertop", "label", "anchor_neighbors",
+                                 "height_width_ratio"]
+    columns_in_description_19 = ["short_id", "above_or_below_countertop", "label", "anchor_neighbors",
+                                 "height_width_ratio", "most_close_to_anchors"]
 
     create_json_from_csvs(
         info_csv_path=info_csv_path,
@@ -158,3 +169,5 @@ if __name__ == '__main__':
         columns_in_description=columns_in_description_18,
         # story_prompt=True
     )
+    end_time = time.time()
+    print(f"Execution time: {end_time - start_time:.2f} seconds")

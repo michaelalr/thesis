@@ -3,6 +3,7 @@ import json
 import math
 import os
 import random
+import time
 from collections import defaultdict
 
 import matplotlib.patches as patches
@@ -408,8 +409,6 @@ def plot_above_below_polygons(csv_path, image_base_dir, num_images=30):
         plt.close()  # Close the figure to free memory
 
 
-
-
 def add_height_width_ratio(csv_path, output_csv_path):
     df = pd.read_csv(csv_path)
 
@@ -456,6 +455,7 @@ def add_ids_to_csv(csv_path, output_path):
     print(f"Saved CSV with IDs to {output_path}")
     return df
 
+
 def ratio_to_shape_description(ratio):
     try:
         ratio = float(ratio)
@@ -472,6 +472,7 @@ def ratio_to_shape_description(ratio):
         return "taller than wide"
     else:
         return "narrow and tall"
+
 
 def angle_to_direction(deg):
     if deg is None:
@@ -495,6 +496,7 @@ def angle_to_direction(deg):
         return "to the left of"
     elif 292.5 <= deg < 337.5:
         return "top-left"
+
 
 def format_anchor_list(anchor_dict):
     anchors = list(anchor_dict.keys())
@@ -1454,6 +1456,7 @@ def add_most_close_to_anchors_column(input_csv, output_csv):
     df.to_csv(output_csv, index=False)
     print(f"Saved updated CSV with ranked proximity to anchors at: {output_csv}")
 
+
 def add_anchor_neighbor_flags(df):
     df['has_anchor_neighbors_in_image'] = False
     for image_path, group in df.groupby('image_path_html'):
@@ -1468,6 +1471,7 @@ def add_anchor_neighbor_flags(df):
                 continue
         df.loc[group.index, 'has_anchor_neighbors_in_image'] = has_anchors
     return df
+
 
 def create_random_image_subset(csv_path, json_path, sample_size=100, seed=42):
     # Load the full CSV
@@ -1723,9 +1727,14 @@ def build_train_df_from_start():
     #     n=5
     # )
 
+
 if __name__ == '__main__':
+    start_time = time.time()
     build_test_df_from_start()
     # build_train_df_from_start()
+
+    end_time = time.time()
+    print(f"Execution time: {end_time - start_time:.2f} seconds")
 
     # create_subset_image_to_items(keep_images_json_path=random_image_subset,
     #                              full_mapping_json_path="../image_details/image_to_items_dict.json",

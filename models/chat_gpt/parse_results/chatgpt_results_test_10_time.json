@@ -1,0 +1,132 @@
+[
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/6_segmented_Bottle_opener_15_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[300, 708], [307, 798], [617, 790], [614, 705]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/4_segmented_Bottle_opener_10_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[178, 839], [182, 884], [348, 888], [339, 839]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/21_segmented_Bottle_opener_17_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[1077, 737], [1078, 789], [1313, 880], [1315, 814]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/14_segmented_Bottle_opener_11_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[745, 829], [749, 867], [846, 873], [844, 832]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/11_segmented_Bottle_opener_13_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[533, 689], [68, 795], [83, 1005], [521, 870]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/8_segmented_Bottle_opener_12_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[1063, 373], [1063, 435], [1312, 448], [1317, 386]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/19_segmented_Bottle_opener_14_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[570, 350], [572, 375], [651, 393], [652, 365]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/12_segmented_Bottle_opener_18_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[1420, 948], [1424, 1011], [1867, 1088], [1866, 1012]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/18_segmented_Bottle_opener_19_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[1323, 911], [1150, 934], [1144, 1025], [1322, 986]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/13_segmented_Bottle_opener_16_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[636, 472], [640, 586], [938, 589], [936, 473]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    }
+]
