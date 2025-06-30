@@ -1,0 +1,10 @@
+model,top_k_count
+human_avg,5
+NOAM GPT-4,4
+NOAM LLaMA-3.3,4
+dino_0.95,3
+dino_1,1
+gemini_2.5,1
+gemini_1.5,1
+kosmos-2,1
+gpt-4o,1

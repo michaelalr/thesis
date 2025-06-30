@@ -1,0 +1,111 @@
+item,accuracy (%),average IoU,total samples,model,rank,top_k
+Bottle opener,6.82,0.073,44,random,7.0,False
+Candles,0.0,0.0,1,random,,False
+Cereals,0.0,0.0,1,random,,False
+Fork,0.0,0.0,2,random,,False
+Painkiller,0.0,0.0,6,random,,False
+Peeler,0.0,0.0,1,random,,False
+Pot,0.0,0.0,2,random,,False
+Rolling pin,0.0,0.0,1,random,,False
+Screwdriver,0.0,0.0,4,random,,False
+Spices,0.0,0.0,1,random,,False
+Tupperware containers,8.11,0.081,37,random,4.0,False
+Bottle opener,36.36,0.364,44,NOAM GPT-4,1.0,True
+Candles,0.0,0.0,1,NOAM GPT-4,,False
+Cereals,0.0,0.0,1,NOAM GPT-4,,False
+Fork,0.0,0.0,2,NOAM GPT-4,,False
+Painkiller,33.33,0.333,6,NOAM GPT-4,1.0,True
+Peeler,100.0,1.0,1,NOAM GPT-4,1.0,True
+Pot,0.0,0.0,2,NOAM GPT-4,,False
+Rolling pin,0.0,0.0,1,NOAM GPT-4,,False
+Screwdriver,0.0,0.0,4,NOAM GPT-4,,False
+Spices,0.0,0.0,1,NOAM GPT-4,,False
+Tupperware containers,10.81,0.108,37,NOAM GPT-4,2.0,True
+Bottle opener,22.73,0.295,44,dino_1,4.0,False
+Candles,0.0,0.0,1,dino_1,,False
+Cereals,0.0,0.0,1,dino_1,,False
+Fork,0.0,0.497,2,dino_1,,False
+Painkiller,0.0,0.0,6,dino_1,,False
+Peeler,0.0,0.0,1,dino_1,,False
+Pot,0.0,0.0,2,dino_1,,False
+Rolling pin,0.0,0.0,1,dino_1,,False
+Screwdriver,25.0,0.25,4,dino_1,2.0,True
+Spices,0.0,0.0,1,dino_1,,False
+Tupperware containers,5.41,0.104,37,dino_1,7.0,False
+Bottle opener,27.27,0.295,44,dino_0.95,3.0,True
+Candles,0.0,0.0,1,dino_0.95,,False
+Cereals,0.0,0.0,1,dino_0.95,,False
+Fork,50.0,0.497,2,dino_0.95,1.0,True
+Painkiller,0.0,0.0,6,dino_0.95,,False
+Peeler,0.0,0.0,1,dino_0.95,,False
+Pot,0.0,0.0,2,dino_0.95,,False
+Rolling pin,0.0,0.0,1,dino_0.95,,False
+Screwdriver,25.0,0.25,4,dino_0.95,2.0,True
+Spices,0.0,0.0,1,dino_0.95,,False
+Tupperware containers,8.11,0.104,37,dino_0.95,4.0,False
+Bottle opener,2.27,0.026,44,gemini_1.5,8.0,False
+Candles,0.0,0.0,1,gemini_1.5,,False
+Cereals,0.0,0.0,1,gemini_1.5,,False
+Fork,0.0,0.0,2,gemini_1.5,,False
+Painkiller,33.33,0.333,6,gemini_1.5,1.0,True
+Peeler,0.0,0.0,1,gemini_1.5,,False
+Pot,0.0,0.064,2,gemini_1.5,,False
+Rolling pin,0.0,0.0,1,gemini_1.5,,False
+Screwdriver,0.0,0.0,4,gemini_1.5,,False
+Spices,0.0,0.028,1,gemini_1.5,,False
+Tupperware containers,0.0,0.003,37,gemini_1.5,,False
+Bottle opener,2.27,0.01,44,gemini_2.5,8.0,False
+Candles,0.0,0.0,1,gemini_2.5,,False
+Cereals,100.0,0.332,1,gemini_2.5,1.0,True
+Fork,0.0,0.0,2,gemini_2.5,,False
+Painkiller,16.67,0.189,6,gemini_2.5,5.0,False
+Peeler,0.0,0.0,1,gemini_2.5,,False
+Pot,0.0,0.005,2,gemini_2.5,,False
+Rolling pin,0.0,0.088,1,gemini_2.5,,False
+Screwdriver,0.0,0.0,4,gemini_2.5,,False
+Spices,0.0,0.0,1,gemini_2.5,,False
+Tupperware containers,5.41,0.019,37,gemini_2.5,7.0,False
+Bottle opener,9.09,0.092,44,gpt-4o,6.0,False
+Candles,0.0,0.0,1,gpt-4o,,False
+Cereals,0.0,0.0,1,gpt-4o,,False
+Fork,0.0,0.0,2,gpt-4o,,False
+Painkiller,33.33,0.333,6,gpt-4o,1.0,True
+Peeler,0.0,0.0,1,gpt-4o,,False
+Pot,0.0,0.0,2,gpt-4o,,False
+Rolling pin,0.0,0.0,1,gpt-4o,,False
+Screwdriver,0.0,0.0,4,gpt-4o,,False
+Spices,0.0,0.046,1,gpt-4o,,False
+Tupperware containers,5.41,0.056,37,gpt-4o,7.0,False
+Bottle opener,0.0,0.003,44,kosmos-2,,False
+Candles,0.0,0.0,1,kosmos-2,,False
+Cereals,0.0,0.0,1,kosmos-2,,False
+Fork,0.0,0.004,2,kosmos-2,,False
+Painkiller,0.0,0.0,6,kosmos-2,,False
+Peeler,0.0,0.0,1,kosmos-2,,False
+Pot,0.0,0.0,2,kosmos-2,,False
+Rolling pin,0.0,0.0,1,kosmos-2,,False
+Screwdriver,0.0,0.0,4,kosmos-2,,False
+Spices,0.0,0.0,1,kosmos-2,,False
+Tupperware containers,10.81,0.108,37,kosmos-2,2.0,True
+Bottle opener,36.36,0.369,44,NOAM LLaMA-3.3,1.0,True
+Candles,0.0,0.0,1,NOAM LLaMA-3.3,,False
+Cereals,0.0,0.0,1,NOAM LLaMA-3.3,,False
+Fork,0.0,0.0,2,NOAM LLaMA-3.3,,False
+Painkiller,33.33,0.333,6,NOAM LLaMA-3.3,1.0,True
+Peeler,100.0,1.0,1,NOAM LLaMA-3.3,1.0,True
+Pot,0.0,0.0,2,NOAM LLaMA-3.3,,False
+Rolling pin,0.0,0.0,1,NOAM LLaMA-3.3,,False
+Screwdriver,25.0,0.25,4,NOAM LLaMA-3.3,2.0,True
+Spices,0.0,0.0,1,NOAM LLaMA-3.3,,False
+Tupperware containers,8.11,0.081,37,NOAM LLaMA-3.3,4.0,False
+Bottle opener,14.556666666666667,0.516,44,human_avg,5.0,False
+Candles,23.423333333333336,0.0,1,human_avg,1.0,True
+Cereals,0.0,0.0,1,human_avg,,False
+Fork,0.0,0.5,2,human_avg,,False
+Painkiller,8.333333333333334,0.05566666666666667,6,human_avg,6.0,False
+Peeler,50.0,0.0,1,human_avg,3.0,True
+Pot,0.0,0.0,2,human_avg,,False
+Rolling pin,0.0,0.3333333333333333,1,human_avg,,False
+Screwdriver,33.333333333333336,0.08333333333333333,4,human_avg,1.0,True
+Spices,33.333333333333336,0.3333333333333333,1,human_avg,1.0,True
+Tupperware containers,51.51666666666666,0.23399999999999999,37,human_avg,1.0,True

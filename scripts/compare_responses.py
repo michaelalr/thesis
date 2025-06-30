@@ -18,6 +18,8 @@ from PIL import Image
 from firebase_admin import credentials, firestore
 from matplotlib.cm import ScalarMappable
 from matplotlib.colors import Normalize
+from statsmodels.stats.anova import AnovaRM
+from statsmodels.stats.multicomp import pairwise_tukeyhsd
 
 from scripts.users_agreement import compute_iou
 
@@ -370,6 +372,9 @@ def give_score_on_data_fixed(data_json, users_responses_json, scores_json, respo
     total_attempts = {}
     iou_scores = {}
 
+    # Add a dictionary to track per-item stats
+    item_stats = {}
+
     # Evaluate
     data_to_iterate = (
         user_responses if mode == "partial" else correct_annotations
@@ -433,8 +438,16 @@ def give_score_on_data_fixed(data_json, users_responses_json, scores_json, respo
                 "dino": 1.0,
             }.get(response_type, 1.0)
 
-        if iou >= threshold:
+        is_correct = iou >= threshold
+        if is_correct:
             user_scores[user_id] = user_scores.get(user_id, 0) + 1
+
+        # Update per-item stats
+        if chosen_item not in item_stats:
+            item_stats[chosen_item] = {"correct": 0, "total": 0, "ious": []}
+        item_stats[chosen_item]["correct"] += int(is_correct)
+        item_stats[chosen_item]["total"] += 1
+        item_stats[chosen_item]["ious"].append(iou)
 
         # --- Collect per-pair results for statistical testing ---
         if "per_pair_results" not in locals():
@@ -471,9 +484,23 @@ def give_score_on_data_fixed(data_json, users_responses_json, scores_json, respo
 
     print(df_scores)
 
+    # Create per-item stats DataFrame
+    df_item_stats = pd.DataFrame([
+        {
+            "item": item,
+            "accuracy (%)": round(100 * v["correct"] / v["total"], 2),
+            "average IoU": round(sum(v["ious"]) / len(v["ious"]), 3),
+            "total samples": v["total"]
+        }
+        for item, v in item_stats.items()
+    ]).sort_values(by="item")
+
+    print("\nPer-item stats:\n", df_item_stats)
+
     # Optional: save results to file
     if scores_json:
         df_scores.to_json(scores_json, orient="records", indent=2)
+        df_item_stats.to_csv(scores_json.replace(".json", "_per_item.csv"), index=False)
 
     if "per_pair_results" in locals():
         df_per_pair = pd.DataFrame(per_pair_results)
@@ -481,7 +508,7 @@ def give_score_on_data_fixed(data_json, users_responses_json, scores_json, respo
         df_per_pair.to_csv(f"score_per_pair_{response_type}.csv", index=False)
 
 
-def score_human_users(data_json, responses_json, output_json=None, mode="partial"):
+def score_human_users(data_json, responses_json, output_json=None, mode="partial", return_per_item=False):
     """
     Compute per-human-user accuracy and IoU from chosen polygons.
 
@@ -516,6 +543,11 @@ def score_human_users(data_json, responses_json, output_json=None, mode="partial
     user_scores = {}
     user_attempts = {}
     user_ious = {}
+
+    # NEW: Per-user-per-item tracking
+    user_item_scores = defaultdict(lambda: defaultdict(int))
+    user_item_attempts = defaultdict(lambda: defaultdict(int))
+    user_item_ious = defaultdict(lambda: defaultdict(list))
 
     # Select items to iterate
     if mode == "partial":
@@ -561,6 +593,12 @@ def score_human_users(data_json, responses_json, output_json=None, mode="partial
             if iou == 1.0:
                 user_scores[user_id] = user_scores.get(user_id, 0) + 1
 
+            # NEW: Per-user-per-item tracking
+            user_item_attempts[user_id][chosen_item] += 1
+            user_item_ious[user_id][chosen_item].append(iou)
+            if iou == 1.0:
+                user_item_scores[user_id][chosen_item] += 1
+
     # Summarize
     result = []
     for user_id in user_attempts:
@@ -581,6 +619,27 @@ def score_human_users(data_json, responses_json, output_json=None, mode="partial
 
     if output_json:
         df.to_json(output_json, orient="records", indent=2)
+
+    # Optional per-user-per-item DataFrame
+    if return_per_item:
+        item_records = []
+        for user_id in user_item_attempts:
+            for item in user_item_attempts[user_id]:
+                total = user_item_attempts[user_id][item]
+                correct = user_item_scores[user_id][item]
+                avg_iou = sum(user_item_ious[user_id][item]) / total if total > 0 else 0
+                item_records.append({
+                    "user_id": f"human_{user_id}",
+                    "item": item,
+                    "accuracy (%)": round(acc, 2),
+                    "average IoU": round(avg_iou, 3),
+                    "total samples": total,
+                })
+                acc = (correct / total) * 100
+        df_user_item = pd.DataFrame(item_records)
+        print(df_user_item)
+        if output_json:
+            df_user_item.to_csv(output_json.replace(".json", "_per_item.csv"), index=False)
 
     return df
 
@@ -993,37 +1052,257 @@ def t_test():
     plot_posthoc_pairwise(df=df)
 
 
+def summarize_item_difficulty(combined_df, output_dir, metric):
+    summary_df = (
+        combined_df.groupby("item")[metric]
+        .agg(["mean", "std", "min", "max"])
+        .rename(columns={"mean": "mean_accuracy", "std": "std_dev", "min": "min_accuracy", "max": "max_accuracy"})
+        .sort_values("mean_accuracy", ascending=False)
+    )
+
+    plt.figure(figsize=(14, 6))
+    plt.bar(summary_df.index, summary_df["mean_accuracy"], yerr=summary_df["std_dev"], capsize=4, color='skyblue')
+    plt.xticks(rotation=45, fontsize=14, ha='right')
+    plt.ylabel(metric, fontsize=14)
+    plt.title(f"{metric} Across Items (Mean ± Std Dev)", fontsize=14)
+    plt.tight_layout()
+    plt.savefig(f"{output_dir}/item_difficulty_accuracy.png")
+    plt.close()
+
+    summary_df.to_csv(f"{output_dir}/item_difficulty_summary.csv")
+
+    return summary_df
+
+
+def run_anova_posthoc_per_item(comparison_df, output_dir, metric):
+    # Melt back to long format for AnovaRM
+    long_df = comparison_df.melt(id_vars=["item"], var_name="model", value_name=metric).dropna()
+
+    # statsmodels AnovaRM requires columns: depvar, subject, within-subject factor(s)
+    # Here:
+    # depvar = metric (accuracy or IoU)
+    # subject = item (repeated measure unit)
+    # within = model (factor: different models + human)
+    aovrm = AnovaRM(long_df, depvar=metric, subject="item", within=["model"])
+    res = aovrm.fit()
+
+    print(res)
+    with open(
+            os.path.join(output_dir, f"anova_summary_{metric.replace(' ', '_').replace('(', '').replace(')', '')}.txt"),
+            "w") as f:
+        f.write(str(res))
+
+    # Tukey post-hoc (pairwise comparisons)
+    posthoc = pairwise_tukeyhsd(long_df[metric], long_df["model"])
+    print(posthoc.summary())
+
+    # Save Tukey summary to CSV
+    tukey_df = pd.DataFrame(data=posthoc._results_table.data[1:], columns=posthoc._results_table.data[0])
+    tukey_df.to_csv(
+        os.path.join(output_dir, f"tukey_posthoc_{metric.replace(' ', '_').replace('(', '').replace(')', '')}.csv"),
+        index=False)
+
+    print(f"ANOVA and post-hoc results saved in {output_dir}")
+
+
+def plot_scores_per_item(combined, output_dir, metric):
+    # Keep only relevant columns
+    combined = combined[["item", metric, "source"]].dropna()
+
+    # Sort items alphabetically for consistent ordering
+    combined["item"] = combined["item"].astype(str)
+    combined = combined.sort_values("item")
+
+    # Compute mean metric per item (averaged over all models)
+    item_mean = combined.groupby("item")[metric].mean().sort_values(ascending=False)
+    ordered_items = item_mean.index.tolist()
+
+    plt.figure(figsize=(16, 8))
+    sns.barplot(data=combined, x="item", y=metric, hue="source", order=ordered_items)
+    plt.xticks(rotation=45, ha="right")
+    plt.title(f"Per-Item {metric} for Each Model and Human")
+    plt.xlabel("Item")
+    plt.ylabel(metric)
+    plt.legend(title="Model / Human", bbox_to_anchor=(1.05, 1), loc='upper left')
+    plt.tight_layout()
+
+    plt.savefig(os.path.join(output_dir, f"per_item_{metric.replace(' ', '_').replace('(', '').replace(')', '')}.png"))
+    plt.close()
+
+
+def compare_solution_models_per_item(named_model_csvs, human_csv_path, output_dir, metric='accuracy (%)', top_k=3):
+    output_dir = Path(output_dir)
+    output_dir.mkdir(exist_ok=True, parents=True)
+
+    # 1. Load all model CSVs and concatenate
+    model_dfs = []
+    for path, model_name in named_model_csvs:
+        df = pd.read_csv(path)
+        df['model'] = model_name
+        model_dfs.append(df)
+    models_df = pd.concat(model_dfs, ignore_index=True)
+
+    # 2. Load human CSV and compute average human scores per item
+    human_df = pd.read_csv(human_csv_path)
+
+    # Average human scores per item (mean across user_id)
+    human_avg_df = human_df.groupby('item').agg({
+        metric: 'mean',
+        'average IoU': 'mean',
+        'total samples': 'max'  # assuming total samples is same per item, just take max
+    }).reset_index()
+    human_avg_df['model'] = 'human_avg'
+
+    # 3. Combine models_df with human_avg_df
+    combined_df = pd.concat([models_df, human_avg_df], ignore_index=True)
+
+    # 4. Validate total samples per item are consistent
+    samples_per_item = combined_df.groupby('item')['total samples'].max()
+
+    # Filter for only rows where accuracy > 0
+    combined_df_nonzero = combined_df[combined_df[metric] > 0].copy()
+
+    # Rank only among models with non-zero accuracy
+    combined_df_nonzero['rank'] = combined_df_nonzero.groupby('item')[metric].rank(method='min', ascending=False)
+
+    # Mark top-k
+    combined_df_nonzero['top_k'] = combined_df_nonzero['rank'] <= top_k
+
+    # Merge rank and top_k back into the original df (with NaN for zero-accuracy models)
+    combined_df = combined_df.merge(
+        combined_df_nonzero[['item', 'model', 'rank', 'top_k']],
+        on=['item', 'model'],
+        how='left'
+    )
+
+    # Prevent boolean indexing error
+    combined_df['top_k'] = combined_df['top_k'].fillna(False)
+
+    sum_item_difficulty = summarize_item_difficulty(combined_df=combined_df, output_dir=output_dir, metric=metric)
+
+    # # 5. Calculate ranking of models per item (descending order, higher is better)
+    # # We'll add a column 'rank' per item group
+    # combined_df['rank'] = combined_df.groupby('item')[metric].rank(method='min', ascending=False)
+    #
+    # # 6. Find top_k models per item
+    # combined_df['top_k'] = combined_df['rank'] <= top_k
+
+    # 7. Create summary table: for each item, list models ordered by score
+    item_model_order = (
+        combined_df
+        .sort_values(['item', metric], ascending=[True, False])
+        .groupby('item')['model']
+        .apply(list)
+        .reset_index(name='models_ranked')
+    )
+
+    # 8. Summary of how many times each model appears in top_k across items
+    top_models = combined_df[combined_df['top_k']]
+    top_model_counts = top_models['model'].value_counts().reset_index()
+    top_model_counts.columns = ['model', 'top_k_count']
+
+    # Save combined results and summary tables
+    combined_df.to_csv(output_dir / 'combined_model_scores.csv', index=False)
+    item_model_order.to_csv(output_dir / 'item_model_order.csv', index=False)
+    top_model_counts.to_csv(output_dir / 'top_model_counts_across_items.csv', index=False)
+
+    # 9. Plot top_k counts (best models across items)
+    plt.figure(figsize=(10, 6))
+    sns.barplot(data=top_model_counts, x='model', y='top_k_count', palette='viridis')
+    plt.xticks(rotation=45, ha='right')
+    plt.title(f'Number of times each model appeared in top {top_k} across items')
+    plt.tight_layout()
+    plt.savefig(output_dir / f'top_{top_k}_model_counts.png')
+    plt.close()
+
+    # 10. Plot accuracy per item for each model (heatmap style)
+    pivot = combined_df.pivot(index='item', columns='model', values=metric).fillna(0)
+    plt.figure(figsize=(12, max(6, len(pivot) * 0.3)))
+    sns.heatmap(pivot, annot=True, fmt=".1f", cmap='YlGnBu')
+    plt.title(f'{metric} per item per model')
+    plt.tight_layout()
+    plt.savefig(output_dir / f'{metric.replace(" ", "_")}_heatmap_per_item.png')
+    plt.close()
+
+    print(f"Analysis done. Results saved to: {output_dir}")
+    return combined_df, item_model_order, top_model_counts
+
+
+def results_per_item_stat(named_model_csvs, human_csv_path, output_dir, metric="accuracy (%)"):
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Load model data
+    model_dfs = []
+    for path, name in named_model_csvs:
+        df = pd.read_csv(path)
+        df["source"] = name
+        model_dfs.append(df)
+    model_all = pd.concat(model_dfs, ignore_index=True)
+
+    # Load human data
+    human_df_ = pd.read_csv(human_csv_path)
+    human_df_["source"] = human_df_["user_id"]
+
+    # Keep only needed columns and unify
+    model_all = model_all[["item", metric, "source", "total samples"]]
+    human_df_ = human_df_[["item", metric, "source", "total samples"]]
+
+    # Combine all
+    combined = pd.concat([model_all, human_df_], ignore_index=True)
+
+    # Pivot the combined long-format df into wide format (for comparison_df)
+    comparison_df = combined.pivot(index="item", columns="source", values="accuracy (%)").reset_index()
+
+    # item difficulty
+    # sum_item_difficulty = summarize_item_difficulty(combined_df=combined, output_dir=output_dir, metric=metric)
+
+    # ANOVA and PostHoc stat
+    # run_anova_posthoc_per_item(comparison_df=comparison_df, output_dir=output_dir, metric=metric)
+
+    # scores per item
+    # plot_scores_per_item(combined=combined, output_dir=output_dir, metric=metric)
+
+    compare_solution_models_per_item(named_model_csvs=named_model_csvs, human_csv_path=human_csv_path,
+                                     output_dir=output_dir, metric=metric)
+
+
 if __name__ == "__main__":
-    # data_json = "../data/train_data/train_data.json"
+    # data_json = "../data/test_data/test_data_kitchen_origin_filenames.json"
     data_json = "../data/test_data/test_data_kitchen.json"
-    # responses_json = "../models/chat_gpt/parse_results/chatgpt_test_short_id_pos_lab_anchrs_ratio.json"
-    responses_json = "../models/dino/dino_test_responses_kitchen_no_item.json"
-    # output_json = "../models/chat_gpt/scores/scores_chatgpt_test_short_id_pos_lab_anchrs_ratio.json"
-    output_json = "../models/dino/scores_dino_test_data_kitchen_no_item.json"
+    responses_json = "../baselines/human/test_responses_kitchen.json"
+    output_json = "../baselines/human/scores_test_data.json"
     # mode = "partial"
     mode = "full"
-    response_type = "dino"
-    # give_score_on_data(data_json="../data/test_data/test_data_kitchen.json",
-    #                          users_responses_json="../baselines/human/test_responses_kitchen.json",
-    #                          scores_json="../baselines/human/scores_test_data.json",
-    #                          response_type="human")
+    response_type = "human"
+
+    # give_score_on_data_fixed(data_json=data_json,
+    #                    users_responses_json=responses_json,
+    #                    scores_json=output_json,
+    #                    response_type=response_type, mode=mode)
 
     # score_human_users(data_json=data_json,
     #                   responses_json=responses_json,
-    #                   output_json=output_json, mode=mode)
-    give_score_on_data_fixed(data_json=data_json,
-                       users_responses_json=responses_json,
-                       scores_json=output_json,
-                       response_type=response_type, mode=mode)
-    # give_score_on_data(data_json=data_json,
-    #                    users_responses_json=responses_json,
-    #                    scores_json=output_json,
-    #                    response_type=response_type)
+    #                   output_json=output_json, mode=mode,
+    #                   return_per_item=True)
 
-    # give_score_on_data_fixed(data_json="../data/test_data/test_data_kitchen.json",
-    #                          users_responses_json="../baselines/human/test_responses_kitchen.json",
-    #                          scores_json="../baselines/human/scores_test_data.json",
-    #                          response_type="human", mode="partial")
+    named_model_csvs = [("../baselines/random/scores_random_test_data_kitchen_per_item.csv", "random"),
+                        ("../models/chat_gpt/scores/scores_chatgpt_test_short_id_pos_lab_anchrs_ratio_per_item.csv",
+                         "NOAM GPT-4"),
+                        ("../models/dino/scores_dino_1_test_data_kitchen_per_item.csv", "dino_1"),
+                        ("../models/dino/scores_dino_0.95_test_data_kitchen_per_item.csv", "dino_0.95"),
+                        ("../models/gemini/scores_gemini_flash_1.5_test_data_kitchen_origin_per_item.csv",
+                         "gemini_1.5"),
+                        ("../models/gemini/scores_gemini_flash_2.5_test_data_kitchen_origin_per_item.csv",
+                         "gemini_2.5"),
+                        ("../models/gpt-4o/scores_chatgpt_baseline_test_kitchen_origin_images_parse_per_item.csv",
+                         "gpt-4o"),
+                        ("../models/kosmos2/scores_kosmos_test_data_kitchen_per_item.csv", "kosmos-2"),
+                        ("../models/llama/scores_llama_test_short_id_pos_lab_anchrs_ratio_per_item.csv", "NOAM LLaMA-3.3")]
+    human_csv_path = "../baselines/human/scores_human_test_data_per_item.csv"
+    output_dir = "stat_plots_per_item"
+    results_per_item_stat(named_model_csvs=named_model_csvs, human_csv_path=human_csv_path, output_dir=output_dir,
+                          metric="accuracy (%)")
+
     # check_gemini_bbox()
     # calculate_user_accuracy(train_data_json="../data/train_data/train_data.json", user_responses_json="../baselines/human/cleaned_responses.json")
     # create_random_baseline(train_or_test_data_json="../data/test_data/test_data_kitchen.json", train_or_test="test")

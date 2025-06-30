@@ -1,12 +1,5 @@
 [
   {
-    "user_id":2,
-    "correct_answers":27,
-    "total_attempts":100,
-    "accuracy (%)":27.0,
-    "average_IoU":0.271
-  },
-  {
     "user_id":3,
     "correct_answers":36,
     "total_attempts":100,
@@ -19,5 +12,12 @@
     "total_attempts":100,
     "accuracy (%)":38.0,
     "average_IoU":0.38
+  },
+  {
+    "user_id":2,
+    "correct_answers":27,
+    "total_attempts":100,
+    "accuracy (%)":27.0,
+    "average_IoU":0.271
   }
 ]

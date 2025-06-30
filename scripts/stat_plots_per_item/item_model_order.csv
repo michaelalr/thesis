@@ -1,0 +1,12 @@
+item,models_ranked
+Bottle opener,"['NOAM GPT-4', 'NOAM LLaMA-3.3', 'dino_0.95', 'dino_1', 'human_avg', 'gpt-4o', 'random', 'gemini_1.5', 'gemini_2.5', 'kosmos-2']"
+Candles,"['human_avg', 'random', 'NOAM GPT-4', 'dino_1', 'dino_0.95', 'gemini_1.5', 'gemini_2.5', 'gpt-4o', 'kosmos-2', 'NOAM LLaMA-3.3']"
+Cereals,"['gemini_2.5', 'random', 'NOAM GPT-4', 'dino_1', 'dino_0.95', 'gemini_1.5', 'gpt-4o', 'kosmos-2', 'NOAM LLaMA-3.3', 'human_avg']"
+Fork,"['dino_0.95', 'random', 'NOAM GPT-4', 'dino_1', 'gemini_1.5', 'gemini_2.5', 'gpt-4o', 'kosmos-2', 'NOAM LLaMA-3.3', 'human_avg']"
+Painkiller,"['NOAM GPT-4', 'gemini_1.5', 'gpt-4o', 'NOAM LLaMA-3.3', 'gemini_2.5', 'human_avg', 'random', 'dino_1', 'dino_0.95', 'kosmos-2']"
+Peeler,"['NOAM GPT-4', 'NOAM LLaMA-3.3', 'human_avg', 'random', 'dino_1', 'dino_0.95', 'gemini_1.5', 'gemini_2.5', 'gpt-4o', 'kosmos-2']"
+Pot,"['random', 'NOAM GPT-4', 'dino_1', 'dino_0.95', 'gemini_1.5', 'gemini_2.5', 'gpt-4o', 'kosmos-2', 'NOAM LLaMA-3.3', 'human_avg']"
+Rolling pin,"['random', 'NOAM GPT-4', 'dino_1', 'dino_0.95', 'gemini_1.5', 'gemini_2.5', 'gpt-4o', 'kosmos-2', 'NOAM LLaMA-3.3', 'human_avg']"
+Screwdriver,"['human_avg', 'dino_1', 'dino_0.95', 'NOAM LLaMA-3.3', 'random', 'NOAM GPT-4', 'gemini_1.5', 'gemini_2.5', 'gpt-4o', 'kosmos-2']"
+Spices,"['human_avg', 'random', 'NOAM GPT-4', 'dino_1', 'dino_0.95', 'gemini_1.5', 'gemini_2.5', 'gpt-4o', 'kosmos-2', 'NOAM LLaMA-3.3']"
+Tupperware containers,"['human_avg', 'NOAM GPT-4', 'kosmos-2', 'random', 'dino_0.95', 'NOAM LLaMA-3.3', 'dino_1', 'gemini_2.5', 'gpt-4o', 'gemini_1.5']"
