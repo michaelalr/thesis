@@ -308,7 +308,7 @@ def simplify_bbox(complex_polygon):
 
 
 def extract_chosen_polygon(response, image_path, response_type, data_json):
-    if response_type == "kosmos":
+    if "kosmos" in response_type.lower():
         entities = literal_eval(response.get("entities", "[]"))
         if len(entities) > 0:
             chosen_bbox = entities[0][2][0]  # Only first bbox
@@ -316,12 +316,12 @@ def extract_chosen_polygon(response, image_path, response_type, data_json):
             return denormalize_bbox_to_polygon(chosen_bbox, suffix_image_path)
         return []
 
-    elif response_type == "gemini":
+    elif "gemini" in response_type.lower():
         if response.get("gemini_bbox_polygon_string") == "[[0, 0], [0, 0], [0, 0], [0, 0]]":
             return []
         return literal_eval(response.get("gemini_bbox_polygon_string", "[]"))
 
-    elif response_type == "dino":
+    elif "dino" in response_type.lower():
         containers_mask_polygon = json.loads(response.get("containers_mask_polygon", "[]"))
         if isinstance(containers_mask_polygon, list) and len(containers_mask_polygon) > 1:
             return simplify_bbox(containers_mask_polygon)
@@ -432,12 +432,15 @@ def give_score_on_data_fixed(data_json, users_responses_json, scores_json, respo
                 "random": 1.0,
                 "chatgpt": 1.0,
                 "llama_3.3": 1.0,
-                "llama_4": 0.2,
-                "qwen": 0.2,
-                "gpt-4o": 0.2,
-                "kosmos": 0.2,
-                "gemini": 0.2,
-                "dino": 1.0,
+                "llama_4": 0.5,
+                "qwen": 0.5,
+                "gpt-4o": 0.5,
+                "kosmos": 0.5,
+                "gemini_1.5": 0.5,
+                "gemini_2.5": 0.5,
+                "dino_1": 1.0,
+                "dino_0.95": 0.95,
+                "dino_no_item": 1.0,
             }.get(response_type, 1.0)
 
         is_correct = iou >= threshold
@@ -646,7 +649,7 @@ def score_human_users(data_json, responses_json, output_json=None, mode="partial
     return df
 
 
-def create_random_baseline(train_or_test_data_json, train_or_test="train"):
+def create_random_baseline(train_or_test_data_json, output_filename=None, train_or_test="train"):
     # Load image details
     with open(train_or_test_data_json, "r") as f:
         image_details = json.load(f)
@@ -679,7 +682,7 @@ def create_random_baseline(train_or_test_data_json, train_or_test="train"):
             random_responses.append(response_entry)
 
     # Save to JSON file
-    file_name = "../baselines/random/random_" + train_or_test + "_responses.json"
+    file_name = output_filename if output_filename else "../baselines/random/random_" + train_or_test + "_responses.json"
     with open(file_name, "w") as f:
         json.dump(random_responses, f, indent=4)
 
@@ -1026,7 +1029,7 @@ def t_test():
     # print(significant_vs_chatgpt[['A', 'B', 'T', 'p-corr', 'hedges']])
 
     # Define the models to compare with 'chatgpt'
-    models_to_compare = ['llama_3.3', 'llama_4', 'qwen', 'gpt-4o', 'random', 'kosmos', 'gemini-1.5', 'gemini-2.5', 'dino-1', 'dino-0.95',
+    models_to_compare = ['llama_3.3', 'llama_4', 'qwen', 'gpt-4o', 'random', 'kosmos', 'gemini_1.5', 'gemini_2.5', 'dino_1', 'dino_0.95',
                          'dino_no_item', 'human_1', 'human_2', 'human_3']
 
     # Filter the results where chatgpt is being compared to the other models
@@ -1279,10 +1282,10 @@ if __name__ == "__main__":
     mode = "full"
     response_type = "human"
 
-    # give_score_on_data_fixed(data_json=data_json,
-    #                    users_responses_json=responses_json,
-    #                    scores_json=output_json,
-    #                    response_type=response_type, mode=mode)
+    give_score_on_data_fixed(data_json=data_json,
+                       users_responses_json=responses_json,
+                       scores_json=output_json,
+                       response_type=response_type, mode=mode)
 
     # score_human_users(data_json=data_json,
     #                   responses_json=responses_json,
@@ -1304,12 +1307,12 @@ if __name__ == "__main__":
                         ("../models/llama_3.3/scores_llama_test_short_id_pos_lab_anchrs_ratio_per_item.csv", "NOAM LLaMA-3.3")]
     human_csv_path = "../baselines/human/scores_human_test_data_per_item.csv"
     output_dir = "stat_plots_per_item"
-    results_per_item_stat(named_model_csvs=named_model_csvs, human_csv_path=human_csv_path, output_dir=output_dir,
-                          metric="accuracy (%)")
+    # results_per_item_stat(named_model_csvs=named_model_csvs, human_csv_path=human_csv_path, output_dir=output_dir,
+    #                       metric="accuracy (%)")
 
     # check_gemini_bbox()
     # calculate_user_accuracy(train_data_json="../data/train_data/train_data.json", user_responses_json="../baselines/human/cleaned_responses.json")
-    # create_random_baseline(train_or_test_data_json="../data/test_data/test_data_kitchen.json", train_or_test="test")
+    # create_random_baseline(train_or_test_data_json="../data/test_data/test_data_no_kitchen.json", output_filename="../baselines/random/random_test_responses_no_kitchen.json", train_or_test="test")
 
     # split_human_responses_by_user(test_data_json="../data/test_data/test_data_kitchen.json",
     #                               user_responses_json="../data/upwork/test_cleaned_responses.json")

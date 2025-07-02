@@ -13,6 +13,8 @@ def create_image_to_items_dict(input_json_path, output_json_path):
 
     for entry in data:
         image_path = clean_image_path(entry["image_path"], is_test=True)
+        # image_path = clean_image_path(entry["image_path_html"], is_test=True)
+        # image_path = "../images/test_no_kitchen_original/" + entry["image_path"]
         chosen_item = entry["chosen_item"]
         image_to_items[image_path].append(chosen_item)
 
@@ -41,10 +43,13 @@ def create_subset_data_based_on_dict(image_details_dict_json, data_json, data_su
     # Create the filtered subset
     subset = []
     for entry in train_data:
-        train_filename = entry["image_path"]
+        train_file_path = entry["image_path"]
         chosen_item = entry["chosen_item"]
 
+        # if train_file_path in image_items:
+        train_filename = os.path.basename(train_file_path)
         if train_filename in image_items:
+            # if chosen_item in image_items[train_file_path]:
             if chosen_item in image_items[train_filename]:
                 subset.append(entry)
 

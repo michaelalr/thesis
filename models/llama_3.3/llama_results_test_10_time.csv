@@ -1,0 +1,31 @@
+image_path,item,response
+images/validation/6_segmented_Bottle_opener_15_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 5
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often alongside other utensils and kitchen tools."
+images/validation/4_segmented_Bottle_opener_10_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 2
+Reasoning: Bottle openers are often stored in drawers below the countertop for easy access, and a wide and short drawer is more likely to store a variety of utensils, including a bottle opener."
+images/validation/21_segmented_Bottle_opener_17_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 6
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often near the stove or sink where beverages are commonly consumed. Container 6 is a drawer below the countertop, wider than tall, and located to the left of the coffee machine, at the bottom-right of the stove, and at the bottom-left of the sink, making it a likely candidate for storing a bottle opener due to its accessible location."
+images/validation/14_segmented_Bottle_opener_11_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 12
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often alongside other utensils or kitchen gadgets."
+images/validation/11_segmented_Bottle_opener_13_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 1
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often near other utensils or kitchen tools, and Container 1 is a drawer that matches this description."
+images/validation/8_segmented_Bottle_opener_12_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 2
+Reasoning: Bottle openers are often stored in drawers near the sink or countertops where beverages are typically prepared or consumed, making a drawer below the countertop near the sink a likely location."
+images/validation/19_segmented_Bottle_opener_14_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 13
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, and being located at the bottom-right of the sink places it near a common area for food and drink preparation."
+images/validation/12_segmented_Bottle_opener_18_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 1
+Reasoning: Bottle openers are typically small utensils and are often stored in drawers below the countertop for easy access, along with other frequently used items like knives, forks, and spoons."
+images/validation/18_segmented_Bottle_opener_19_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 9
+Reasoning: Bottle openers are typically stored in drawers below the countertop for easy access, often near other utensils or kitchen tools, and Container 9 is a drawer below the countertop, which is a common location for storing such items."
+images/validation/13_segmented_Bottle_opener_16_a.jpg,Bottle opener,"Item: Bottle opener
+Best container: 8
+Reasoning: Bottle openers are typically stored in drawers below the countertop near the stove or cooking area for easy access while preparing or cooking meals. Since Container 8 is a drawer located at the bottom-right of the stove, it is a likely location for storing a bottle opener, given its proximity to the cooking area."

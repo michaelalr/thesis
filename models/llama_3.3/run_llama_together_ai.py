@@ -1,11 +1,11 @@
-from together import Together
-
 import json
-from collections import defaultdict
-from openai import OpenAI
-import pandas as pd
 import os
-import re
+import time
+from collections import defaultdict
+
+import pandas as pd
+from openai import OpenAI
+from together import Together
 
 
 # Prepare and call Together API
@@ -141,6 +141,7 @@ def run_queries_in_together(csv_path, json_path, together_output):
 
 
 if __name__ == '__main__':
+    start_time = time.time()
     model = "llama"
 
     if model == "llama":
@@ -158,3 +159,5 @@ if __name__ == '__main__':
     json_path = "../../image_details/image_to_items_dict_missing_llama.json"
     together_output = f"./{model}_results_missing_llama.csv"
     run_queries_in_together(csv_path=csv_path, json_path=json_path, together_output=together_output)
+    end_time = time.time()
+    print(f"Execution time: {end_time - start_time:.2f} seconds")

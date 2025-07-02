@@ -1,0 +1,79 @@
+image_path,item,user_id,iou,accuracy
+https://michaelalr.github.io/thesis/images/validation/1_segmented_Bottle_opener_28_a.jpg,Bottle opener,llama_3.3,1.0,1
+https://michaelalr.github.io/thesis/images/validation/8_segmented_Bottle_opener_38_a.jpeg,Bottle opener,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/15_segmented_Iron_1_a.jpg,Iron,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/6_segmented_Iron_2_a.jpg,Iron,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/5_segmented_Random_4 - Air freshener _a.jpeg,Air freshener,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/5_segmented_Random_16 - Bathrobe_a.jpg,Bathrobe,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/2_segmented_Random_8 - Camera_a.jpg,Camera,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/4_segmented_Random_18 - Converter_a.jpg,Converter,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/3_segmented_Random_23 - Deodorant_a.jpg,Deodorant,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/4_segmented_Random_9 - Flash drive_a.jpg,Flash drive,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/8_segmented_Random_19 - Football ball_a.jpg,Football ball,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/7_segmented_Random_20 - Toilet paper_a.jpeg,Toilet paper,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/2_segmented_Random_6 - Toothpaste_a.jpg,Toothpaste,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/8_segmented_Random_13 - Towel_a.jpg,Towel,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/4_segmented_Ear_toothpick_1_a.jpg,Ear toothpick,llama_3.3,1.0,1
+https://michaelalr.github.io/thesis/images/validation/5_segmented_Ear_toothpick_2_a.jpg,Ear toothpick,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/4_segmented_Ear_toothpick_3_a.jpg,Ear toothpick,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/7_segmented_Ear_toothpick_4_a.jpg,Ear toothpick,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/3_segmented_Ear_toothpick_5_a.jpg,Ear toothpick,llama_3.3,1.0,1
+https://michaelalr.github.io/thesis/images/validation/4_segmented_Ear_toothpick_6_a.jpg,Ear toothpick,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/2_segmented_Ear_toothpick_7_a.jpg,Ear toothpick,llama_3.3,0.0003559080740288794,0
+https://michaelalr.github.io/thesis/images/validation/1_segmented_Ear_toothpick_8_a.jpg,Ear toothpick,llama_3.3,1.0,1
+https://michaelalr.github.io/thesis/images/validation/2_segmented_Ear_toothpick_9_a.jpg,Ear toothpick,llama_3.3,1.0,1
+https://michaelalr.github.io/thesis/images/validation/3_segmented_Ear_toothpick_10_a.jpg,Ear toothpick,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/3_segmented_Ear_toothpick_11_a.jpg,Ear toothpick,llama_3.3,1.0,1
+https://michaelalr.github.io/thesis/images/validation/3_segmented_Ear_toothpick_12_a.jpg,Ear toothpick,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/1_segmented_Ear_toothpick_15_a.jpg,Ear toothpick,llama_3.3,1.0,1
+https://michaelalr.github.io/thesis/images/validation/3_segmented_Ear_toothpick_17_a.jpg,Ear toothpick,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/5_segmented_Ear_toothpick_18_a.jpg,Ear toothpick,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/2_segmented_Ear_toothpick_19_a.jpg,Ear toothpick,llama_3.3,1.0,1
+https://michaelalr.github.io/thesis/images/validation/5_segmented_Ear_toothpick_20_a.jpg,Ear toothpick,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/12_segmented_Ear_toothpick_22_a.jpg,Ear toothpick,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/3_segmented_Ear_toothpick_23_a.jpg,Ear toothpick,llama_3.3,1.0,1
+https://michaelalr.github.io/thesis/images/validation/6_segmented_Ear_toothpick_24_a.jpg,Ear toothpick,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/1_segmented_Ear_toothpick_25_a.jpg,Ear toothpick,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/7_segmented_Ear_toothpick_21_a.jpeg,Ear toothpick,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/9_segmented_Ear_toothpick_16_a.jpeg,Ear toothpick,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/8_segmented_Ear_toothpick_13_a.jpeg,Ear toothpick,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/4_segmented_Ear_toothpick_14_a.jpeg,Ear toothpick,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/13_segmented_Ear_toothpick_26_a.jpeg,Ear toothpick,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/7_segmented_Screwdriver_2_a.jpg,Screwdriver,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/1_segmented_Screwdriver_4_a.jpg,Screwdriver,llama_3.3,1.0,1
+https://michaelalr.github.io/thesis/images/validation/3_segmented_Screwdriver_5_a.jpg,Screwdriver,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/3_segmented_Screwdriver_8_a.jpg,Screwdriver,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/14_segmented_Screwdriver_9_a.jpg,Screwdriver,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/7_segmented_Screwdriver_12_a.jpg,Screwdriver,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/13_segmented_Screwdriver_13_a.jpg,Screwdriver,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/7_segmented_Screwdriver_15_a.jpg,Screwdriver,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/6_segmented_Screwdriver_17_a.jpg,Screwdriver,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/3_segmented_Screwdriver_6_a.jpeg,Screwdriver,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/2_segmented_Screwdriver_10_a.jpeg,Screwdriver,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/2_segmented_Painkiller_2_a.jpg,Painkiller,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/6_segmented_Painkiller_3_a.jpg,Painkiller,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/7_segmented_Painkiller_6_a.jpg,Painkiller,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/7_segmented_Painkiller_7_a.jpg,Painkiller,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/4_segmented_Painkiller_8_a.jpg,Painkiller,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/7_segmented_Painkiller_9_a.jpg,Painkiller,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/3_segmented_Painkiller_10_a.jpg,Painkiller,llama_3.3,1.0,1
+https://michaelalr.github.io/thesis/images/validation/4_segmented_Painkiller_11_a.jpg,Painkiller,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/2_segmented_Painkiller_12_a.jpg,Painkiller,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/3_segmented_Painkiller_13_a.jpg,Painkiller,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/3_segmented_Painkiller_14_a.jpg,Painkiller,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/3_segmented_Painkiller_15_a.jpg,Painkiller,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/10_segmented_Painkiller_16_a.jpg,Painkiller,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/3_segmented_Painkiller_17_a.jpg,Painkiller,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/4_segmented_Painkiller_18_a.jpg,Painkiller,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/1_segmented_Painkiller_21_a.jpg,Painkiller,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/5_segmented_Painkiller_24_a.jpg,Painkiller,llama_3.3,1.0,1
+https://michaelalr.github.io/thesis/images/validation/1_segmented_Painkiller_26_a.jpg,Painkiller,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/6_segmented_Painkiller_27_a.jpg,Painkiller,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/10_segmented_Painkiller_28_a.jpg,Painkiller,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/5_segmented_Painkiller_30_a.jpg,Painkiller,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/4_segmented_Painkiller_31_a.jpg,Painkiller,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/8_segmented_Painkiller_33_a.jpg,Painkiller,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/2_segmented_Painkiller_34_a.jpg,Painkiller,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/21_segmented_Painkiller_25_a.jpeg,Painkiller,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/5_segmented_Painkiller_20_a.jpeg,Painkiller,llama_3.3,0.0,0
+https://michaelalr.github.io/thesis/images/validation/8_segmented_Painkiller_32_a.jpeg,Painkiller,llama_3.3,0.0,0

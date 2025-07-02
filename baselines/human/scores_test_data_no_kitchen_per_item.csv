@@ -1,0 +1,46 @@
+user_id,item,accuracy (%),average IoU,total samples
+human_2,Bottle opener,41.03,0.5,2
+human_2,Iron,50.0,0.5,2
+human_2,Air freshener,50.0,0.0,1
+human_2,Bathrobe,0.0,1.0,1
+human_2,Camera,100.0,1.0,1
+human_2,Converter,100.0,0.0,1
+human_2,Deodorant,0.0,1.0,1
+human_2,Flash drive,100.0,1.0,1
+human_2,Football ball,100.0,0.0,1
+human_2,Toilet paper,0.0,1.0,1
+human_2,Toothpaste,100.0,1.0,1
+human_2,Towel,100.0,0.0,1
+human_2,Ear toothpick,0.0,0.353,26
+human_2,Screwdriver,34.62,0.455,11
+human_2,Painkiller,45.45,0.427,27
+human_1,Bottle opener,40.74,0.0,2
+human_1,Iron,0.0,0.5,2
+human_1,Air freshener,50.0,0.0,1
+human_1,Bathrobe,0.0,1.0,1
+human_1,Camera,100.0,1.0,1
+human_1,Converter,100.0,1.0,1
+human_1,Deodorant,100.0,0.0,1
+human_1,Flash drive,0.0,1.0,1
+human_1,Football ball,100.0,0.0,1
+human_1,Toilet paper,0.0,1.0,1
+human_1,Toothpaste,100.0,1.0,1
+human_1,Towel,100.0,0.0,1
+human_1,Ear toothpick,0.0,0.5,26
+human_1,Screwdriver,50.0,0.52,11
+human_1,Painkiller,45.45,0.242,27
+human_3,Bottle opener,18.52,0.5,2
+human_3,Iron,50.0,0.0,2
+human_3,Air freshener,0.0,1.0,1
+human_3,Bathrobe,100.0,1.0,1
+human_3,Camera,100.0,1.0,1
+human_3,Converter,100.0,0.0,1
+human_3,Deodorant,0.0,0.0,1
+human_3,Flash drive,0.0,1.0,1
+human_3,Football ball,100.0,0.0,1
+human_3,Toilet paper,0.0,1.0,1
+human_3,Toothpaste,100.0,1.0,1
+human_3,Towel,100.0,1.0,1
+human_3,Ear toothpick,100.0,0.506,26
+human_3,Screwdriver,50.0,0.611,11
+human_3,Painkiller,54.55,0.185,27

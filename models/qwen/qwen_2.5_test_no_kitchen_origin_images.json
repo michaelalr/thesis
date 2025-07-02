@@ -1,0 +1,470 @@
+{
+  "../images/test_kitchen_images_original/Bottle_opener_28_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_38_a.jpeg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[365,1175,626,1553]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Iron_1_a.jpg": [
+    {
+      "item": "Iron",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Iron_2_a.jpg": [
+    {
+      "item": "Iron",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Random_4 - Air freshener _a.jpeg": [
+    {
+      "item": "Air freshener",
+      "bbox": "[[17, 517, 2249, 2795]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Random_16 - Bathrobe_a.jpg": [
+    {
+      "item": "Bathrobe",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Random_8 - Camera_a.jpg": [
+    {
+      "item": "Camera",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Random_18 - Converter_a.jpg": [
+    {
+      "item": "Converter",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Random_23 - Deodorant_a.jpg": [
+    {
+      "item": "Deodorant",
+      "bbox": "[[1178, 539, 3863, 2140], [1196, 1371, 3863, 2524], [2125, 714, 2660, 1271], [1889, 1228, 2152, 2072]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Random_9 - Flash drive_a.jpg": [
+    {
+      "item": "Flash drive",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Random_19 - Football ball_a.jpg": [
+    {
+      "item": "Football ball",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Random_20 - Toilet paper_a.jpeg": [
+    {
+      "item": "Toilet paper",
+      "bbox": "[]."
+    }
+  ],
+  "../images/test_kitchen_images_original/Random_6 - Toothpaste_a.jpg": [
+    {
+      "item": "Toothpaste",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Random_13 - Towel_a.jpg": [
+    {
+      "item": "Towel",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Ear_toothpick_1_a.jpg": [
+    {
+      "item": "Ear toothpick",
+      "bbox": "[529,1482,1299,2043]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Ear_toothpick_2_a.jpg": [
+    {
+      "item": "Ear toothpick",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Ear_toothpick_3_a.jpg": [
+    {
+      "item": "Ear toothpick",
+      "bbox": "[[2, 584, 525, 1039]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Ear_toothpick_4_a.jpg": [
+    {
+      "item": "Ear toothpick",
+      "bbox": "[[90,1151,393,1402]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Ear_toothpick_5_a.jpg": [
+    {
+      "item": "Ear toothpick",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Ear_toothpick_6_a.jpg": [
+    {
+      "item": "Ear toothpick",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Ear_toothpick_7_a.jpg": [
+    {
+      "item": "Ear toothpick",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Ear_toothpick_8_a.jpg": [
+    {
+      "item": "Ear toothpick",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Ear_toothpick_9_a.jpg": [
+    {
+      "item": "Ear toothpick",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Ear_toothpick_10_a.jpg": [
+    {
+      "item": "Ear toothpick",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Ear_toothpick_11_a.jpg": [
+    {
+      "item": "Ear toothpick",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Ear_toothpick_12_a.jpg": [
+    {
+      "item": "Ear toothpick",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Ear_toothpick_15_a.jpg": [
+    {
+      "item": "Ear toothpick",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Ear_toothpick_17_a.jpg": [
+    {
+      "item": "Ear toothpick",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Ear_toothpick_18_a.jpg": [
+    {
+      "item": "Ear toothpick",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Ear_toothpick_19_a.jpg": [
+    {
+      "item": "Ear toothpick",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Ear_toothpick_20_a.jpg": [
+    {
+      "item": "Ear toothpick",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Ear_toothpick_22_a.jpg": [
+    {
+      "item": "Ear toothpick",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Ear_toothpick_23_a.jpg": [
+    {
+      "item": "Ear toothpick",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Ear_toothpick_24_a.jpg": [
+    {
+      "item": "Ear toothpick",
+      "bbox": "[[2484,543,3242,1418], [3501,442,4030,1617], [3370,1356,3984,2028], [494,0,1541,376]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Ear_toothpick_25_a.jpg": [
+    {
+      "item": "Ear toothpick",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Ear_toothpick_21_a.jpeg": [
+    {
+      "item": "Ear toothpick",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Ear_toothpick_16_a.jpeg": [
+    {
+      "item": "Ear toothpick",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Ear_toothpick_13_a.jpeg": [
+    {
+      "item": "Ear toothpick",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Ear_toothpick_14_a.jpeg": [
+    {
+      "item": "Ear toothpick",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Ear_toothpick_26_a.jpeg": [
+    {
+      "item": "Ear toothpick",
+      "bbox": "[[121,1449,1164,2008]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Screwdriver_2_a.jpg": [
+    {
+      "item": "Screwdriver",
+      "bbox": "```json\n[]\n```"
+    }
+  ],
+  "../images/test_kitchen_images_original/Screwdriver_4_a.jpg": [
+    {
+      "item": "Screwdriver",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Screwdriver_5_a.jpg": [
+    {
+      "item": "Screwdriver",
+      "bbox": "[[2655,1587,3870,1889], [1275, 1987, 3864, 2447], [1275, 2125, 3864, 2468]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Screwdriver_8_a.jpg": [
+    {
+      "item": "Screwdriver",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Screwdriver_9_a.jpg": [
+    {
+      "item": "Screwdriver",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Screwdriver_12_a.jpg": [
+    {
+      "item": "Screwdriver",
+      "bbox": "[[2847,1917,3936,2853]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Screwdriver_13_a.jpg": [
+    {
+      "item": "Screwdriver",
+      "bbox": "```json\n[]\n```"
+    }
+  ],
+  "../images/test_kitchen_images_original/Screwdriver_15_a.jpg": [
+    {
+      "item": "Screwdriver",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Screwdriver_17_a.jpg": [
+    {
+      "item": "Screwdriver",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Screwdriver_6_a.jpeg": [
+    {
+      "item": "Screwdriver",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Screwdriver_10_a.jpeg": [
+    {
+      "item": "Screwdriver",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_2_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_3_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_6_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[[100,1148,388,1487]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_7_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "```json\n[\n\t{\"bbox_2d\": [152, 764, 600, 928], \"label\": \"drawers and cabinet doors\"}\n]\n```"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_8_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "```json\n[]\n```"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_9_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_10_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_11_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_12_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_13_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "```json\n[]\n```"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_14_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_15_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_16_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[0, 1252, 1130, 1503]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_17_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[[145,403,819,587]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_18_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "```json\n[]\n```"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_21_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_24_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "```json\n[]\n```"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_26_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_27_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_28_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_30_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_31_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_33_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "```json\n[\n\t{\"bbox_2d\": [0, 501, 409, 951], \"label\": \"item\"}\n]\n```"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_34_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[708,2270,1060,3500]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_25_a.jpeg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[1109,928,1439,1313]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_20_a.jpeg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_32_a.jpeg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[]"
+    }
+  ]
+}

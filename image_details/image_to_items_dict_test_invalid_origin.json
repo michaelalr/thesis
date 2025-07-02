@@ -1,0 +1,41 @@
+{
+    "../images/test_invalid_images_original/Bottle_opener_36_a.jpg": [
+    "Bottle opener"
+  ],
+  "../images/test_invalid_images_original/Bottle_opener_46_a.jpg": [
+    "Bottle opener"
+  ],
+    "../images/test_invalid_images_original/Food_containers_27_a.jpg": [
+    "Tupperware containers"
+  ],
+  "../images/test_invalid_images_original/Food_containers_32_a.jpg": [
+    "Tupperware containers"
+  ],
+  "../images/test_invalid_images_original/Food_containers_38_a.jpg": [
+    "Tupperware containers"
+  ],
+  "../images/test_invalid_images_original/Food_containers_26_a.jpeg": [
+    "Tupperware containers"
+  ],
+  "../images/test_invalid_images_original/Random_10 - Fork_a.jpg": [
+    "Fork"
+  ],
+  "../images/test_invalid_images_original/Random_11 - Lemon glass_a.jpg": [
+    "Lemon glass"
+  ],
+  "../images/test_invalid_images_original/Random_3 - Plates_a.jpeg": [
+    "Plates"
+  ],
+  "../images/test_invalid_images_original/Screwdriver_3_a.jpg": [
+    "Screwdriver"
+  ],
+  "../images/test_invalid_images_original/Screwdriver_7_a.jpg": [
+    "Screwdriver"
+  ],
+  "../images/test_invalid_images_original/Painkiller_22_a.jpg": [
+    "Painkiller"
+  ],
+  "../images/test_invalid_images_original/Random_2 - Kippa_a": [
+    "Kippa"
+  ]
+}

@@ -1,0 +1,235 @@
+image_path,item,response
+images/validation/3_segmented_Random_23 - Deodorant_a.jpg,Deodorant,"Item: Deodorant  
+Best container: None  
+Reasoning: Deodorant is a personal hygiene product and is typically not stored in the kitchen. It is more likely to be found in a bathroom or bedroom."
+images/validation/4_segmented_Ear_toothpick_1_a.jpg,Ear_toothpick,"Item: Ear_toothpick  
+Best container: 1  
+Reasoning: Small items such as ear toothpicks are commonly stored in a small drawer below the countertop for easy access."
+images/validation/3_segmented_Screwdriver_8_a.jpg,Screwdriver,"Item: Screwdriver  
+Best container: None  
+Reasoning: A screwdriver is not typically stored in a kitchen. It's usually kept in a toolbox or a utility drawer elsewhere in the house."
+images/validation/3_segmented_Ear_toothpick_17_a.jpg,Ear_toothpick,"Item: Ear_toothpick
+Best container: 3
+Reasoning: Ear_toothpicks, due to their small size, are typically stored in a drawer for easy access and to prevent them from getting lost among larger items in a cabinet."
+images/validation/1_segmented_Painkiller_26_a.jpg,Painkiller,"Item: Painkiller  
+Best container: 1  
+Reasoning: Medicine like painkillers are typically stored in cabinets that are out of reach from children. It's common to place them in a kitchen cabinet, especially if it's wide and short."
+images/validation/10_segmented_Painkiller_28_a.jpg,Painkiller,"Item: Painkiller  
+Best container: None  
+Reasoning: Painkillers, or any type of medication, should not be stored in the kitchen due to the potential of heat and humidity affecting their effectiveness. They are typically stored in a cool, dry place such as a medicine cabinet or drawer in the bathroom."
+images/validation/7_segmented_Painkiller_9_a.jpg,Painkiller,"Item: Painkiller  
+Best container: None  
+Reasoning: Painkillers are typically stored in a medicine cabinet in the bathroom or in a pantry away from heat and moisture, not typically in a kitchen."
+images/validation/2_segmented_Random_8 - Camera_a.jpg,Camera,"Item: Camera  
+Best container: None  
+Reasoning: A camera is not a typical item found in a kitchen. It should be stored in a safe, dry place away from kitchen items to avoid damage."
+images/validation/8_segmented_Ear_toothpick_13_a.jpeg,Ear_toothpick,"Item: Ear_toothpick  
+Best container: 1  
+Reasoning: Ear toothpicks are typically small and are usually stored in drawers below the countertop for easy access. Since all containers are described similarly, Container 1 is selected."
+images/validation/3_segmented_Ear_toothpick_11_a.jpg,Ear_toothpick,"Item: Ear_toothpick  
+Best container: 3  
+Reasoning: Small items like ear toothpicks are typically stored in drawers for easy access and to prevent them from getting lost among larger items in a cabinet. The location near the sink is also common for personal hygiene items."
+images/validation/4_segmented_Painkiller_8_a.jpg,Painkiller,"Item: Painkiller  
+Best container: 3  
+Reasoning: Painkillers and other medications are typically stored in cabinets above the countertop to keep them out of reach of children and away from heat and moisture."
+images/validation/5_segmented_Painkiller_30_a.jpg,Painkiller,"Item: Painkiller  
+Best container: None  
+Reasoning: Painkillers are typically stored in a medicine cabinet or a safe place out of the reach of children, not in a kitchen container."
+images/validation/6_segmented_Painkiller_27_a.jpg,Painkiller,"Item: Painkiller  
+Best container: 1  
+Reasoning: Medicines like painkillers are typically stored in cabinets above the countertop and out of reach of children. It is not usually stored in the drawers."
+images/validation/6_segmented_Screwdriver_17_a.jpg,Screwdriver,"Item: Screwdriver  
+Best container: 1  
+Reasoning: A screwdriver, if stored in the kitchen, is likely to be in a drawer for easy access and because its shape fits well in a drawer."
+images/validation/13_segmented_Screwdriver_13_a.jpg,Screwdriver,"Item: Screwdriver  
+Best container: 1  
+Reasoning: A screwdriver, not being a typical kitchen item, would likely be kept in a drawer for miscellaneous items. Container 1, being a drawer, seems a suitable place."
+images/validation/12_segmented_Ear_toothpick_22_a.jpg,Ear_toothpick,"Item: Ear_toothpick  
+Best container: 3  
+Reasoning: Ear toothpicks are typically small and are commonly stored in a drawer below the countertop for easy access."
+images/validation/7_segmented_Screwdriver_12_a.jpg,Screwdriver,"Item: Screwdriver  
+Best container: 1  
+Reasoning: A screwdriver, though not a typical kitchen item, would most likely be stored in a drawer for easy access and safety. A wider drawer would provide enough space for tool storage."
+images/validation/7_segmented_Ear_toothpick_4_a.jpg,Ear_toothpick,"Item: Ear_toothpick  
+Best container: 3  
+Reasoning: Ear toothpicks are commonly stored in a drawer close to the sink for accessibility after using the sink."
+images/validation/6_segmented_Iron_2_a.jpg,Iron,"Item: Iron  
+Best container: None  
+Reasoning: An iron is not typically stored in the kitchen. It is usually found in a laundry room or closet."
+images/validation/8_segmented_Painkiller_32_a.jpeg,Painkiller,"Item: Painkiller  
+Best container: 4  
+Reasoning: Medicines like painkillers are usually stored in upper cabinets away from heat and moisture. A square-like cabinet above the countertop is a suitable place."
+images/validation/8_segmented_Random_19 - Football ball_a.jpg,Football ball,"Item: Football ball  
+Best container: None  
+Reasoning: A football ball is not typically stored in a kitchen. It is usually stored in a garage, basement, or a sports equipment storage area."
+images/validation/5_segmented_Painkiller_20_a.jpeg,Painkiller,"Item: Painkiller  
+Best container: None  
+Reasoning: Painkillers and other medicines are typically not stored in the kitchen but in the bathroom or bedroom for safety and to avoid exposure to heat and moisture."
+images/validation/7_segmented_Painkiller_6_a.jpg,Painkiller,"Item: Painkiller  
+Best container: None  
+Reasoning: Painkillers or any other medications are typically not stored in the kitchen. They are usually kept in the bathroom or bedroom, in a medicine cabinet or drawer."
+images/validation/2_segmented_Ear_toothpick_7_a.jpg,Ear_toothpick,"Item: Ear_toothpick  
+Best container: 1  
+Reasoning: Ear toothpicks are smaller items that are usually stored in a drawer for easy access and to prevent them from getting lost."
+images/validation/15_segmented_Iron_1_a.jpg,Iron,"Item: Iron  
+Best container: None  
+Reasoning: An iron is not typically stored in the kitchen. It is usually found in a laundry room or a closet."
+images/validation/4_segmented_Painkiller_31_a.jpg,Painkiller,"Item: Painkiller  
+Best container: None  
+Reasoning: Painkillers are typically not stored in the kitchen. They are usually found in a medicine cabinet in a bathroom or bedroom."
+images/validation/10_segmented_Painkiller_16_a.jpg,Painkiller,"Item: Painkiller  
+Best container: None  
+Reasoning: Painkillers, and other medications, are typically stored in a medicine cabinet in the bathroom, not in a kitchen. It's important to keep them out of reach of children and away from heat and humidity, which can degrade them."
+images/validation/14_segmented_Screwdriver_9_a.jpg,Screwdriver,"Item: Screwdriver  
+Best container: 1  
+Reasoning: Screwdrivers and other tools are often stored in a kitchen drawer for easy access."
+images/validation/7_segmented_Screwdriver_2_a.jpg,Screwdriver,"Item: Screwdriver  
+Best container: None  
+Reasoning: A screwdriver is not a typical kitchen item and it is not usually stored in the kitchen. It should be stored in a toolbox or a utility drawer, none of which are described in the provided containers."
+images/validation/1_segmented_Ear_toothpick_8_a.jpg,Ear_toothpick,"Item: Ear_toothpick  
+Best container: 1  
+Reasoning: The ear toothpick is typically stored in containers under the countertop for convenience and easy access. There is only one container provided in this case, hence it is selected as the most suitable."
+images/validation/3_segmented_Painkiller_13_a.jpg,Painkiller,"Item: Painkiller  
+Best container: None  
+Reasoning: Painkillers, being medications, are not typically stored in the kitchen. They are best kept in a medicine cabinet in the bathroom or other suitable location away from heat and moisture."
+images/validation/4_segmented_Ear_toothpick_6_a.jpg,Ear_toothpick,"Item: Ear_toothpick  
+Best container: 2  
+Reasoning: Small items such as ear toothpicks are typically stored in drawers below the countertop for easy access."
+images/validation/6_segmented_Painkiller_3_a.jpg,Painkiller,"Item: Painkiller  
+Best container: None  
+Reasoning: Painkillers and other medicines should not be stored in the kitchen due to heat and humidity. They are usually stored in a medicine cabinet in the bathroom or another cool, dry place."
+images/validation/2_segmented_Painkiller_34_a.jpg,Painkiller,"Item: Painkiller  
+Best container: None  
+Reasoning: Painkillers are typically stored in a medicine cabinet or other safe, dry place outside the kitchen. They are not usually stored in kitchen containers."
+images/validation/2_segmented_Ear_toothpick_9_a.jpg,Ear_toothpick,"Item: Ear_toothpick  
+Best container: 1  
+Reasoning: Small items like ear toothpicks are usually stored in a drawer for easy access and to prevent them from getting lost."
+images/validation/3_segmented_Painkiller_15_a.jpg,Painkiller,"Item: Painkiller  
+Best container: None  
+Reasoning: Painkillers are typically stored in a medicine cabinet or a high, secure location, not in typical kitchen cabinets or drawers."
+images/validation/7_segmented_Ear_toothpick_21_a.jpeg,Ear_toothpick,"Item: Ear_toothpick  
+Best container: 5  
+Reasoning: Ear toothpicks are small and often kept in a drawer near the sink for easy access."
+images/validation/5_segmented_Ear_toothpick_2_a.jpg,Ear_toothpick,"Item: Ear_toothpick  
+Best container: 2  
+Reasoning: Ear toothpicks are usually small and can be stored in a kitchen drawer for easy access. The wider drawer would likely have dividers or compartments that could keep such small items organized."
+images/validation/3_segmented_Ear_toothpick_10_a.jpg,Ear_toothpick,"Item: Ear_toothpick  
+Best container: 2  
+Reasoning: Small items like ear toothpicks are typically stored in drawers below the countertop for easy access."
+images/validation/7_segmented_Screwdriver_15_a.jpg,Screwdriver,"Item: Screwdriver  
+Best container: None  
+Reasoning: A screwdriver is not a typical kitchen item and there is no standard place for it in a kitchen. It's usually stored in a toolbox or a workshop."
+images/validation/5_segmented_Ear_toothpick_20_a.jpg,Ear_toothpick,"Item: Ear_toothpick  
+Best container: 3  
+Reasoning: Ear_toothpick is a small item that is typically stored in a drawer below the countertop for easy access. It would be less likely to be in a cabinet because it could get lost among larger items."
+images/validation/3_segmented_Painkiller_17_a.jpg,Painkiller,"Item: Painkiller  
+Best container: 1  
+Reasoning: Painkillers and other medicines are typically stored in drawers or cabinets that are not easily accessed by children for safety reasons. A drawer below the countertop would be an appropriate place."
+images/validation/4_segmented_Painkiller_18_a.jpg,Painkiller,"Item: Painkiller  
+Best container: None  
+Reasoning: Painkillers and other medications are typically not stored in the kitchen. They are usually stored in a medicine cabinet located in a bathroom or bedroom for safety and to avoid heat and humidity which can degrade the medication."
+images/validation/8_segmented_Bottle_opener_38_a.jpeg,Bottle opener,"Item: Bottle opener  
+Best container: 7  
+Reasoning: Bottle openers are often stored in drawers below the countertop for easy access."
+images/validation/4_segmented_Ear_toothpick_3_a.jpg,Ear_toothpick,"Item: Ear_toothpick
+Best container: 1
+Reasoning: Ear toothpicks are often stored in the first drawer below the countertop for easy access."
+images/validation/4_segmented_Painkiller_11_a.jpg,Painkiller,"Item: Painkiller  
+Best container: None  
+Reasoning: Painkillers are typically stored in a medicine cabinet or other safe location, not in a kitchen container."
+images/validation/2_segmented_Painkiller_2_a.jpg,Painkiller,"Item: Painkiller  
+Best container: 1  
+Reasoning: Painkillers, which are a type of medication, are typically stored in a square-like cabinet above the countertop. This is usually where a kitchen's medicine cabinet is located. Narrow and tall cabinets are typically used for storing items like cooking oils and spices."
+images/validation/21_segmented_Painkiller_25_a.jpeg,Painkiller,"Item: Painkiller  
+Best container: None  
+Reasoning: Painkillers, and medication in general, are typically not stored in the kitchen. They are usually kept in a bathroom or bedroom medicine cabinet out of reach of children and away from heat and moisture."
+images/validation/3_segmented_Screwdriver_5_a.jpg,Screwdriver,"Item: Screwdriver  
+Best container: 1  
+Reasoning: A screwdriver, though not a typical kitchen item, is usually stored in a drawer. The square-like drawer below the countertop is a good fit."
+images/validation/3_segmented_Ear_toothpick_5_a.jpg,Ear_toothpick,"Item: Ear_toothpick  
+Best container: 1  
+Reasoning: Ear toothpicks, similar to regular toothpicks, are typically stored in drawers below the countertop for easy access and to keep them clean and dry."
+images/validation/5_segmented_Ear_toothpick_18_a.jpg,Ear_toothpick,"Item: Ear_toothpick  
+Best container: 1  
+Reasoning: Ear toothpicks are small and usually stored in shallow drawers for easy access."
+images/validation/3_segmented_Ear_toothpick_23_a.jpg,Ear_toothpick,"Item: Ear_toothpick  
+Best container: 1  
+Reasoning: Ear_toothpicks are small items and typically stored in a drawer below the countertop for easy access. They are not typically stored behind a cabinet door."
+images/validation/1_segmented_Painkiller_21_a.jpg,Painkiller,"Item: Painkiller  
+Best container: None  
+Reasoning: Painkillers are generally not stored in the kitchen. They are more likely to be found in a bathroom or bedroom medicine cabinet."
+images/validation/5_segmented_Random_16 - Bathrobe_a.jpg,Bathrobe,"Item: Bathrobe  
+Best container: None  
+Reasoning: A bathrobe is not usually stored in the kitchen. It's typically kept in a bedroom or bathroom."
+images/validation/8_segmented_Random_13 - Towel_a.jpg,Towel,"Item: Towel  
+Best container: 1  
+Reasoning: Towels are most often stored in a drawer located just below the sink for easy access when needed."
+images/validation/9_segmented_Ear_toothpick_16_a.jpeg,Ear_toothpick,"Item: Ear_toothpick  
+Best container: 4  
+Reasoning: Ear toothpicks, being small and slender, are typically stored in narrow drawers for easy access and organization."
+images/validation/7_segmented_Random_20 - Toilet paper_a.jpeg,Toilet paper,"Item: Toilet paper
+Best container: None
+Reasoning: Toilet paper is not typically stored in the kitchen. It is more commonly found in a bathroom storage area."
+images/validation/4_segmented_Ear_toothpick_14_a.jpeg,Ear_toothpick,"Item: Ear_toothpick  
+Best container: 1  
+Reasoning: Ear toothpicks, being small items, are usually stored in a drawer below the countertop for easy access and to prevent them from getting lost. The wide and short drawer (Container 1) would be suitable."
+images/validation/5_segmented_Random_4 - Air freshener _a.jpeg,Air freshener ,"Item: Air freshener  
+Best container: 2  
+Reasoning: Air fresheners are commonly stored in cabinets below the countertop for easy access when needed."
+images/validation/13_segmented_Ear_toothpick_26_a.jpeg,Ear_toothpick,"Item: Ear_toothpick  
+Best container: None  
+Reasoning: Ear toothpicks are not typically a kitchen item. They are usually found in bathrooms or personal hygiene areas."
+images/validation/3_segmented_Screwdriver_6_a.jpeg,Screwdriver,"Item: Screwdriver
+Best container: None
+Reasoning: Screwdrivers are not typically stored in the kitchen. They are usually found in a toolbox or a utility room."
+images/validation/7_segmented_Painkiller_7_a.jpg,Painkiller,"Item: Painkiller  
+Best container: 7  
+Reasoning: Painkillers, being a type of medicine, are often stored in drawers that are away from heat and moisture. The drawer at the top-left of the sink would be a convenient and typical place to store these."
+images/validation/4_segmented_Random_18 - Converter_a.jpg,Converter,"Item: Converter  
+Best container: 2  
+Reasoning: A converter, if it refers to an electrical converter, is usually stored in a drawer for safety and ease of access."
+images/validation/2_segmented_Painkiller_12_a.jpg,Painkiller,"Item: Painkiller  
+Best container: 1  
+Reasoning: Medications like painkillers are typically stored in drawers, often in the kitchen, to keep them out of reach of children and to maintain organization."
+images/validation/2_segmented_Random_6 - Toothpaste_a.jpg,Toothpaste,"Item: Toothpaste  
+Best container: None  
+Reasoning: Typically, toothpaste is stored in the bathroom, not the kitchen. None of these containers would be a typical place to store toothpaste in a kitchen."
+images/validation/1_segmented_Screwdriver_4_a.jpg,Screwdriver,"Item: Screwdriver  
+Best container: 1  
+Reasoning: Although a screwdriver is not a typical kitchen item, if it is stored in the kitchen, it would likely be in a cabinet for safekeeping."
+images/validation/3_segmented_Ear_toothpick_12_a.jpg,Ear_toothpick,"Item: Ear_toothpick  
+Best container: 1  
+Reasoning: Small items like ear toothpicks are typically stored in drawers for easy access and to prevent them from getting lost."
+images/validation/4_segmented_Random_9 - Flash drive_a.jpg,Flash drive,"Item: Flash drive  
+Best container: None  
+Reasoning: A flash drive is not a typical kitchen item and therefore would not be stored in a typical kitchen container. It would be more commonly found in an office or personal space."
+images/validation/2_segmented_Screwdriver_10_a.jpeg,Screwdriver,"Item: Screwdriver  
+Best container: 1  
+Reasoning: While not a typical kitchen item, a screwdriver might be stored in a wide and short drawer below the countertop for convenience."
+images/validation/2_segmented_Ear_toothpick_19_a.jpg,Ear_toothpick,"Item: Ear_toothpick  
+Best container: None  
+Reasoning: Ear toothpicks are not typically stored in a kitchen. They are usually found in the bathroom or bedroom, in a drawer or medicine cabinet."
+images/validation/1_segmented_Ear_toothpick_15_a.jpg,Ear_toothpick,"Item: Ear_toothpick  
+Best container: None  
+Reasoning: An ear toothpick is not a common household item and doesn't typically belong in the kitchen. It's more likely to be found in a bathroom or bedroom."
+images/validation/5_segmented_Painkiller_24_a.jpg,Painkiller,"Item: Painkiller  
+Best container: None  
+Reasoning: Painkillers and other medications are typically not stored in the kitchen as they should be kept in a cool, dry place away from food and heat sources. They are usually stored in a medicine cabinet in the bathroom or in a first aid kit."
+images/validation/3_segmented_Painkiller_14_a.jpg,Painkiller,"Item: Painkiller  
+Best container: 1  
+Reasoning: Medicines like painkillers are typically stored in drawers for easy access and to be out of reach of children. It's less common to store them in kitchen cabinets."
+images/validation/8_segmented_Painkiller_33_a.jpg,Painkiller,"Item: Painkiller  
+Best container: None  
+Reasoning: Typically, painkillers and other medications are not stored in the kitchen. They are usually kept in a bathroom or bedroom, within a medicine cabinet or drawer for safety and to keep them out of reach of children."
+images/validation/6_segmented_Ear_toothpick_24_a.jpg,Ear_toothpick,"Item: Ear_toothpick  
+Best container: 2  
+Reasoning: Small items like ear toothpicks are often kept in a drawer for easy access and to prevent them from getting lost. A drawer above the countertop is a typical location."
+images/validation/1_segmented_Bottle_opener_28_a.jpg,Bottle opener,"Item: Bottle opener  
+Best container: 1  
+Reasoning: Bottle openers are typically stored in drawers or cabinets below the countertop for easy access. Since there's only one container mentioned, it's the most suitable."
+images/validation/3_segmented_Painkiller_10_a.jpg,Painkiller,"Item: Painkiller  
+Best container: 2  
+Reasoning: Painkillers are usually stored in a medicine cabinet, which is typically above the countertop and out of reach of children."
+images/validation/1_segmented_Ear_toothpick_25_a.jpg,Ear_toothpick,"Item: Ear_toothpick  
+Best container: 1  
+Reasoning: Ear toothpicks are small items typically stored in drawers or containers below the countertop for easy access. Since there is only one container provided in this scenario, it is the most suitable one by default."

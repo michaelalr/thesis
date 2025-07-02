@@ -1,0 +1,16 @@
+item,accuracy (%),average IoU,total samples
+Air freshener,0.0,0.0,1
+Bathrobe,0.0,0.0,1
+Bottle opener,50.0,0.5,2
+Camera,0.0,0.0,1
+Converter,0.0,0.0,1
+Deodorant,0.0,0.0,1
+Ear toothpick,30.77,0.308,26
+Flash drive,0.0,0.0,1
+Football ball,0.0,0.0,1
+Iron,0.0,0.0,2
+Painkiller,7.41,0.074,27
+Screwdriver,9.09,0.091,11
+Toilet paper,0.0,0.0,1
+Toothpaste,0.0,0.0,1
+Towel,0.0,0.0,1

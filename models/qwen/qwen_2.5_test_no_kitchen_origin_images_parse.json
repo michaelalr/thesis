@@ -1,0 +1,392 @@
+[
+  {
+    "image_path": "Bottle_opener_28_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Bottle_opener_38_a.jpeg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[365, 1175], [365, 1553], [626, 1553], [626, 1175]]"
+  },
+  {
+    "image_path": "Iron_1_a.jpg",
+    "chosen_item": "Iron",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Iron_2_a.jpg",
+    "chosen_item": "Iron",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Random_4 - Air freshener _a.jpeg",
+    "chosen_item": "Air freshener",
+    "chosen_polygon": "[[17, 517], [17, 2795], [2249, 2795], [2249, 517]]"
+  },
+  {
+    "image_path": "Random_16 - Bathrobe_a.jpg",
+    "chosen_item": "Bathrobe",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Random_8 - Camera_a.jpg",
+    "chosen_item": "Camera",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Random_18 - Converter_a.jpg",
+    "chosen_item": "Converter",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Random_23 - Deodorant_a.jpg",
+    "chosen_item": "Deodorant",
+    "chosen_polygon": "[[1178, 539], [1178, 2140], [3863, 2140], [3863, 539]]"
+  },
+  {
+    "image_path": "Random_9 - Flash drive_a.jpg",
+    "chosen_item": "Flash drive",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Random_19 - Football ball_a.jpg",
+    "chosen_item": "Football ball",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Random_20 - Toilet paper_a.jpeg",
+    "chosen_item": "Toilet paper",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Random_6 - Toothpaste_a.jpg",
+    "chosen_item": "Toothpaste",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Random_13 - Towel_a.jpg",
+    "chosen_item": "Towel",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Ear_toothpick_1_a.jpg",
+    "chosen_item": "Ear toothpick",
+    "chosen_polygon": "[[529, 1482], [529, 2043], [1299, 2043], [1299, 1482]]"
+  },
+  {
+    "image_path": "Ear_toothpick_2_a.jpg",
+    "chosen_item": "Ear toothpick",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Ear_toothpick_3_a.jpg",
+    "chosen_item": "Ear toothpick",
+    "chosen_polygon": "[[2, 584], [2, 1039], [525, 1039], [525, 584]]"
+  },
+  {
+    "image_path": "Ear_toothpick_4_a.jpg",
+    "chosen_item": "Ear toothpick",
+    "chosen_polygon": "[[90, 1151], [90, 1402], [393, 1402], [393, 1151]]"
+  },
+  {
+    "image_path": "Ear_toothpick_5_a.jpg",
+    "chosen_item": "Ear toothpick",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Ear_toothpick_6_a.jpg",
+    "chosen_item": "Ear toothpick",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Ear_toothpick_7_a.jpg",
+    "chosen_item": "Ear toothpick",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Ear_toothpick_8_a.jpg",
+    "chosen_item": "Ear toothpick",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Ear_toothpick_9_a.jpg",
+    "chosen_item": "Ear toothpick",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Ear_toothpick_10_a.jpg",
+    "chosen_item": "Ear toothpick",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Ear_toothpick_11_a.jpg",
+    "chosen_item": "Ear toothpick",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Ear_toothpick_12_a.jpg",
+    "chosen_item": "Ear toothpick",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Ear_toothpick_15_a.jpg",
+    "chosen_item": "Ear toothpick",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Ear_toothpick_17_a.jpg",
+    "chosen_item": "Ear toothpick",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Ear_toothpick_18_a.jpg",
+    "chosen_item": "Ear toothpick",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Ear_toothpick_19_a.jpg",
+    "chosen_item": "Ear toothpick",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Ear_toothpick_20_a.jpg",
+    "chosen_item": "Ear toothpick",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Ear_toothpick_22_a.jpg",
+    "chosen_item": "Ear toothpick",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Ear_toothpick_23_a.jpg",
+    "chosen_item": "Ear toothpick",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Ear_toothpick_24_a.jpg",
+    "chosen_item": "Ear toothpick",
+    "chosen_polygon": "[[2484, 543], [2484, 1418], [3242, 1418], [3242, 543]]"
+  },
+  {
+    "image_path": "Ear_toothpick_25_a.jpg",
+    "chosen_item": "Ear toothpick",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Ear_toothpick_21_a.jpeg",
+    "chosen_item": "Ear toothpick",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Ear_toothpick_16_a.jpeg",
+    "chosen_item": "Ear toothpick",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Ear_toothpick_13_a.jpeg",
+    "chosen_item": "Ear toothpick",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Ear_toothpick_14_a.jpeg",
+    "chosen_item": "Ear toothpick",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Ear_toothpick_26_a.jpeg",
+    "chosen_item": "Ear toothpick",
+    "chosen_polygon": "[[121, 1449], [121, 2008], [1164, 2008], [1164, 1449]]"
+  },
+  {
+    "image_path": "Screwdriver_2_a.jpg",
+    "chosen_item": "Screwdriver",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Screwdriver_4_a.jpg",
+    "chosen_item": "Screwdriver",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Screwdriver_5_a.jpg",
+    "chosen_item": "Screwdriver",
+    "chosen_polygon": "[[2655, 1587], [2655, 1889], [3870, 1889], [3870, 1587]]"
+  },
+  {
+    "image_path": "Screwdriver_8_a.jpg",
+    "chosen_item": "Screwdriver",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Screwdriver_9_a.jpg",
+    "chosen_item": "Screwdriver",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Screwdriver_12_a.jpg",
+    "chosen_item": "Screwdriver",
+    "chosen_polygon": "[[2847, 1917], [2847, 2853], [3936, 2853], [3936, 1917]]"
+  },
+  {
+    "image_path": "Screwdriver_13_a.jpg",
+    "chosen_item": "Screwdriver",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Screwdriver_15_a.jpg",
+    "chosen_item": "Screwdriver",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Screwdriver_17_a.jpg",
+    "chosen_item": "Screwdriver",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Screwdriver_6_a.jpeg",
+    "chosen_item": "Screwdriver",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Screwdriver_10_a.jpeg",
+    "chosen_item": "Screwdriver",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Painkiller_2_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Painkiller_3_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Painkiller_6_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[[100, 1148], [100, 1487], [388, 1487], [388, 1148]]"
+  },
+  {
+    "image_path": "Painkiller_7_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[[152, 764], [152, 928], [600, 928], [600, 764]]"
+  },
+  {
+    "image_path": "Painkiller_8_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Painkiller_9_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Painkiller_10_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Painkiller_11_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Painkiller_12_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Painkiller_13_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Painkiller_14_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Painkiller_15_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Painkiller_16_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[[0, 1252], [0, 1503], [1130, 1503], [1130, 1252]]"
+  },
+  {
+    "image_path": "Painkiller_17_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[[145, 403], [145, 587], [819, 587], [819, 403]]"
+  },
+  {
+    "image_path": "Painkiller_18_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Painkiller_21_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Painkiller_24_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Painkiller_26_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Painkiller_27_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Painkiller_28_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Painkiller_30_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Painkiller_31_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Painkiller_33_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[[0, 501], [0, 951], [409, 951], [409, 501]]"
+  },
+  {
+    "image_path": "Painkiller_34_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[[708, 2270], [708, 3500], [1060, 3500], [1060, 2270]]"
+  },
+  {
+    "image_path": "Painkiller_25_a.jpeg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[[1109, 928], [1109, 1313], [1439, 1313], [1439, 928]]"
+  },
+  {
+    "image_path": "Painkiller_20_a.jpeg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Painkiller_32_a.jpeg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[]"
+  }
+]

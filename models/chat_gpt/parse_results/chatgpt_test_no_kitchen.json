@@ -1,0 +1,1016 @@
+[
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/3_segmented_Random_23 - Deodorant_a.jpg",
+        "chosen_item": "Deodorant",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/4_segmented_Ear_toothpick_1_a.jpg",
+        "chosen_item": "Ear toothpick",
+        "chosen_polygon": "[[536, 1725], [548, 1950], [682, 2047], [1183, 2047]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/3_segmented_Screwdriver_8_a.jpg",
+        "chosen_item": "Screwdriver",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/3_segmented_Ear_toothpick_17_a.jpg",
+        "chosen_item": "Ear toothpick",
+        "chosen_polygon": "[[501, 613], [502, 614], [503, 614], [504, 613], [505, 613], [504, 613], [503, 612], [502, 612]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/1_segmented_Painkiller_26_a.jpg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[[1112, 2053], [1099, 2046], [1071, 2053], [1077, 2057], [1089, 2059], [1107, 2057]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/10_segmented_Painkiller_28_a.jpg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/7_segmented_Painkiller_9_a.jpg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/2_segmented_Random_8 - Camera_a.jpg",
+        "chosen_item": "Camera",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/8_segmented_Ear_toothpick_13_a.jpeg",
+        "chosen_item": "Ear toothpick",
+        "chosen_polygon": "[[622, 797], [625, 800], [649, 798], [646, 796], [633, 797], [630, 795], [624, 795]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/3_segmented_Ear_toothpick_11_a.jpg",
+        "chosen_item": "Ear toothpick",
+        "chosen_polygon": "[[659, 591], [96, 830], [102, 952], [647, 672]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/4_segmented_Painkiller_8_a.jpg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[[0, 0], [43, 812], [325, 815], [288, 212]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/5_segmented_Painkiller_30_a.jpg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/6_segmented_Painkiller_27_a.jpg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[[47, 28], [46, 202], [1419, 358], [1425, 0]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/6_segmented_Screwdriver_17_a.jpg",
+        "chosen_item": "Screwdriver",
+        "chosen_polygon": "[[3049, 1958], [2394, 2037], [2238, 2256], [2352, 2673], [2656, 2752], [3304, 2512]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/13_segmented_Screwdriver_13_a.jpg",
+        "chosen_item": "Screwdriver",
+        "chosen_polygon": "[[552, 1669], [567, 1859], [798, 2064], [786, 1853]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/12_segmented_Ear_toothpick_22_a.jpg",
+        "chosen_item": "Ear toothpick",
+        "chosen_polygon": "[[212, 908], [4, 948], [0, 1050], [221, 994]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/7_segmented_Screwdriver_12_a.jpg",
+        "chosen_item": "Screwdriver",
+        "chosen_polygon": "[[3962, 1924], [2892, 1946], [2978, 2815], [4031, 2656]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/7_segmented_Ear_toothpick_4_a.jpg",
+        "chosen_item": "Ear toothpick",
+        "chosen_polygon": "[[688, 1013], [400, 1152], [402, 1288], [675, 1133]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/6_segmented_Iron_2_a.jpg",
+        "chosen_item": "Iron",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/8_segmented_Painkiller_32_a.jpeg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[[351, 422], [347, 783], [735, 775], [751, 458]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/8_segmented_Random_19 - Football ball_a.jpg",
+        "chosen_item": "Football ball",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/5_segmented_Painkiller_20_a.jpeg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/7_segmented_Painkiller_6_a.jpg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/2_segmented_Ear_toothpick_7_a.jpg",
+        "chosen_item": "Ear toothpick",
+        "chosen_polygon": "[[753, 672], [749, 675], [748, 675], [747, 677], [752, 679], [754, 677], [754, 674]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/15_segmented_Iron_1_a.jpg",
+        "chosen_item": "Iron",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/4_segmented_Painkiller_31_a.jpg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/10_segmented_Painkiller_16_a.jpg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/14_segmented_Screwdriver_9_a.jpg",
+        "chosen_item": "Screwdriver",
+        "chosen_polygon": "[[4111, 2737], [4088, 2946], [4623, 3321], [4623, 3058]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/7_segmented_Screwdriver_2_a.jpg",
+        "chosen_item": "Screwdriver",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/1_segmented_Ear_toothpick_8_a.jpg",
+        "chosen_item": "Ear toothpick",
+        "chosen_polygon": "[[827, 1238], [823, 1241], [826, 1244], [826, 1245], [828, 1246], [831, 1244], [832, 1240], [831, 1239], [828, 1239]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/3_segmented_Painkiller_13_a.jpg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/4_segmented_Ear_toothpick_6_a.jpg",
+        "chosen_item": "Ear toothpick",
+        "chosen_polygon": "[[749, 1154], [757, 1293], [1236, 1388], [1247, 1282], [1171, 1273], [1185, 1219]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/6_segmented_Painkiller_3_a.jpg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/2_segmented_Painkiller_34_a.jpg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/2_segmented_Ear_toothpick_9_a.jpg",
+        "chosen_item": "Ear toothpick",
+        "chosen_polygon": "[[1042, 614], [429, 870], [480, 1120], [1042, 800]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/3_segmented_Painkiller_15_a.jpg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/7_segmented_Ear_toothpick_21_a.jpeg",
+        "chosen_item": "Ear toothpick",
+        "chosen_polygon": "[[1103, 2393], [890, 2740], [896, 2969], [1112, 2553]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/5_segmented_Ear_toothpick_2_a.jpg",
+        "chosen_item": "Ear toothpick",
+        "chosen_polygon": "[[847, 1216], [619, 1267], [618, 1376], [839, 1323]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/3_segmented_Ear_toothpick_10_a.jpg",
+        "chosen_item": "Ear toothpick",
+        "chosen_polygon": "[[71, 1804], [74, 2047], [364, 2047], [370, 2006], [378, 2047], [430, 2047], [431, 1944]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/7_segmented_Screwdriver_15_a.jpg",
+        "chosen_item": "Screwdriver",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/5_segmented_Ear_toothpick_20_a.jpg",
+        "chosen_item": "Ear toothpick",
+        "chosen_polygon": "[[535, 1238], [94, 1419], [103, 1594], [529, 1369]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/3_segmented_Painkiller_17_a.jpg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[[271, 882], [272, 883], [273, 882]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/4_segmented_Painkiller_18_a.jpg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/8_segmented_Bottle_opener_38_a.jpeg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[1017, 1137], [778, 1077], [150, 1110], [89, 1519], [986, 1388]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/4_segmented_Ear_toothpick_3_a.jpg",
+        "chosen_item": "Ear toothpick",
+        "chosen_polygon": "[[770, 703], [496, 724], [515, 845], [770, 823]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/4_segmented_Painkiller_11_a.jpg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/2_segmented_Painkiller_2_a.jpg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[[513, 1781], [512, 1782], [512, 1783], [515, 1786], [516, 1786], [518, 1784], [518, 1782], [517, 1782], [516, 1781]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/21_segmented_Painkiller_25_a.jpeg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/3_segmented_Screwdriver_5_a.jpg",
+        "chosen_item": "Screwdriver",
+        "chosen_polygon": "[[530, 1630], [524, 1632], [523, 1640], [518, 1644], [519, 1646], [526, 1646], [532, 1632]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/3_segmented_Ear_toothpick_5_a.jpg",
+        "chosen_item": "Ear toothpick",
+        "chosen_polygon": "[[857, 1087], [162, 1364], [178, 1583], [835, 1255]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/5_segmented_Ear_toothpick_18_a.jpg",
+        "chosen_item": "Ear toothpick",
+        "chosen_polygon": "[[218, 762], [26, 789], [28, 851], [218, 819]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/3_segmented_Ear_toothpick_23_a.jpg",
+        "chosen_item": "Ear toothpick",
+        "chosen_polygon": "[[1177, 3200], [1172, 3645], [1622, 3999], [1637, 3518]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/1_segmented_Painkiller_21_a.jpg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/5_segmented_Random_16 - Bathrobe_a.jpg",
+        "chosen_item": "Bathrobe",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/8_segmented_Random_13 - Towel_a.jpg",
+        "chosen_item": "Towel",
+        "chosen_polygon": "[[386, 468], [2, 539], [0, 658], [384, 555]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/9_segmented_Ear_toothpick_16_a.jpeg",
+        "chosen_item": "Ear toothpick",
+        "chosen_polygon": "[[117, 1047], [128, 1202], [277, 1311], [274, 1140]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/7_segmented_Random_20 - Toilet paper_a.jpeg",
+        "chosen_item": "Toilet paper",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/4_segmented_Ear_toothpick_14_a.jpeg",
+        "chosen_item": "Ear toothpick",
+        "chosen_polygon": "[[255, 1172], [255, 1175], [258, 1177], [267, 1177], [273, 1175], [273, 1171], [265, 1169], [260, 1169]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/5_segmented_Random_4 - Air freshener _a.jpeg",
+        "chosen_item": "Air freshener",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/13_segmented_Ear_toothpick_26_a.jpeg",
+        "chosen_item": "Ear toothpick",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/3_segmented_Screwdriver_6_a.jpeg",
+        "chosen_item": "Screwdriver",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/7_segmented_Painkiller_7_a.jpg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[[152, 715], [158, 802], [473, 910], [587, 845]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/4_segmented_Random_18 - Converter_a.jpg",
+        "chosen_item": "Converter",
+        "chosen_polygon": "[[2662, 1373], [2559, 1261], [1337, 1373], [1069, 1285], [982, 1730], [2634, 1710]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/2_segmented_Painkiller_12_a.jpg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[[753, 672], [749, 675], [748, 675], [747, 677], [752, 679], [754, 677], [754, 674]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/2_segmented_Random_6 - Toothpaste_a.jpg",
+        "chosen_item": "Toothpaste",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/1_segmented_Screwdriver_4_a.jpg",
+        "chosen_item": "Screwdriver",
+        "chosen_polygon": "[[642, 554], [650, 972], [792, 1052], [788, 539]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/3_segmented_Ear_toothpick_12_a.jpg",
+        "chosen_item": "Ear toothpick",
+        "chosen_polygon": "[[271, 882], [272, 883], [273, 882]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/4_segmented_Random_9 - Flash drive_a.jpg",
+        "chosen_item": "Flash drive",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/2_segmented_Screwdriver_10_a.jpeg",
+        "chosen_item": "Screwdriver",
+        "chosen_polygon": "[[475, 1312], [476, 1313], [478, 1313], [479, 1312]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/2_segmented_Ear_toothpick_19_a.jpg",
+        "chosen_item": "Ear toothpick",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/1_segmented_Ear_toothpick_15_a.jpg",
+        "chosen_item": "Ear toothpick",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/5_segmented_Painkiller_24_a.jpg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/3_segmented_Painkiller_14_a.jpg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[[606, 1349], [405, 1359], [403, 1489], [601, 1477]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/8_segmented_Painkiller_33_a.jpg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/6_segmented_Ear_toothpick_24_a.jpg",
+        "chosen_item": "Ear toothpick",
+        "chosen_polygon": "[[2518, 581], [2561, 1379], [3727, 1390], [3597, 698]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/1_segmented_Bottle_opener_28_a.jpg",
+        "chosen_item": "Bottle opener",
+        "chosen_polygon": "[[935, 1134], [698, 1136], [696, 1353], [922, 1339]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/3_segmented_Painkiller_10_a.jpg",
+        "chosen_item": "Painkiller",
+        "chosen_polygon": "[[1162, 0], [1149, 202], [1270, 201], [1285, 0]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    },
+    {
+        "image_path": "https://michaelalr.github.io/thesis/images/validation/1_segmented_Ear_toothpick_25_a.jpg",
+        "chosen_item": "Ear toothpick",
+        "chosen_polygon": "[[2447, 992], [2505, 2447], [3629, 2303], [3581, 1065]]",
+        "info_columns": [
+            "short_id",
+            "above_or_below_countertop",
+            "label",
+            "anchor_neighbors",
+            "height_width_ratio"
+        ],
+        "room_type": "kitchen"
+    }
+]
