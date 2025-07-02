@@ -1,0 +1,12 @@
+item,accuracy (%),average IoU,total samples
+Bottle opener,6.82,0.101,44
+Candles,0.0,0.0,1
+Cereals,0.0,0.205,1
+Fork,0.0,0.056,2
+Painkiller,33.33,0.323,6
+Peeler,0.0,0.0,1
+Pot,0.0,0.0,2
+Rolling pin,0.0,0.0,1
+Screwdriver,0.0,0.068,4
+Spices,0.0,0.003,1
+Tupperware containers,0.0,0.058,37

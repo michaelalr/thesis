@@ -1,0 +1,602 @@
+{
+  "../images/test_kitchen_images_original/Bottle_opener_1_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[929,802,1090,1012]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_2_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[183,393,335,695]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_3_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[112,1113,532,1208]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_4_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_5_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "```json\n[\n    [303, 0, 907, 572],\n    [913, 105, 1436, 345],\n    [918, 330, 1406, 572],\n    [2, 947, 608, 1133]\n]\n```"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_6_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_7_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[785,930,925,1531]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_8_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[1381,275,1684,1032]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_9_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[216,908,373,1582]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_10_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[691,810,893,1593]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_11_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_12_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[564,332,782,429]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_13_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[491,511,1497,1099]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_14_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[322,358,417,403]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_15_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_16_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[431,458,635,602]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_17_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[427,670,898,1044]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_18_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[1094,920,1464,1230]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_19_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[1139,885,1321,1055], [623,964,871,1280], [38,442,791,1470], [795,667,987,1165]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_20_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[784,1078,945,1510]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_21_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[835,1655,2361,2819]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_22_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_23_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[1573,741,1885,1036]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_24_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[814,594,947,834]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_25_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_26_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[635,751,816,1031]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_27_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_29_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[413,683,753,997]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_30_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[454,461,605,891]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_31_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_32_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[538,1037,587,1380]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_35_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[2005,207,2490,1016]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_37_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[1346,646,2347,1187]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_39_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[450,695,640,1050]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_40_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[652,428,782,475]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_41_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[2035,320,2590,1386]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_42_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[241,595,558,901]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_44_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[406,734,948,985]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_45_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[515,1552,1230,1695]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_48_a.jpg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[655,408,857,703]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_47_a.jpeg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[[0,456,357,779]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_34_a.jpeg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[2796,1891,3157,2241]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_43_a.jpeg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Bottle_opener_33_a.jpeg": [
+    {
+      "item": "Bottle opener",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_1_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_2_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[333,820,657,1299]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_3_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[687,1036,1075,1505]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_4_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_5_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[56,932,636,1487]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_6_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[162,430,857,1534]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_7_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[0,866,293,1181]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_8_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_9_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[1453,34,1932,374]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_10_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[518,531,839,942]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_11_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[480,0,1134,255]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_12_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_13_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[87,934,247,1511]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_14_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[1108,666,1288,1006]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_15_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[393,433,780,778]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_16_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[592,748,742,879]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_17_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_18_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[114,718,555,1199]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_19_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[1022,942,1308,1147]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_20_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[316,518,506,707]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_21_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[550,498,702,796]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_22_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_23_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[1004,698,1373,863], [428,792,1034,1145], [1006,835,1384,953], [1007,950,1391,1064]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_24_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_28_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[2320,1674,2929,2346]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_29_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_33_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[937,1444,1584,2445], [1578,1439,2169,2445], [944,2445,1584,2504], [1587,2445,2176,2506]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_34_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[533,638,1006,1020]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_35_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_37_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[2300, 1105, 3146, 1558]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_39_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[195,423,646,1243]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_40_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[646,406,784,587]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_41_a.jpg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[298,388,671,879]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_36_a.jpeg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[[1246, 1419, 1470, 1906], [1888, 1744, 2459, 2197], [2392, 1758, 2810, 2272], [2866, 1775, 3104, 2314]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_30_a.jpeg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[793,1377,1054,1571]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_25_a.jpeg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Food_containers_31_a.jpeg": [
+    {
+      "item": "Tupperware containers",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Random_5 - Candles_a.jpeg": [
+    {
+      "item": "Candles",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Random_15 - Cereals_a.jpg": [
+    {
+      "item": "Cereals",
+      "bbox": "[[320,0,672,349]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Random_1 - Fork_a.jpg": [
+    {
+      "item": "Fork",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Random_12 - Fork_a.jpeg": [
+    {
+      "item": "Fork",
+      "bbox": "[304,924,770,1277]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Random_7 - Peeler_a.jpeg": [
+    {
+      "item": "Peeler",
+      "bbox": "[1240,1724,1469,2335]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Random_14 - Pot_a.jpg": [
+    {
+      "item": "Pot",
+      "bbox": "[1,400,778,588]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Random_22 - Pot_a.jpeg": [
+    {
+      "item": "Pot",
+      "bbox": "[1066,533,1908,1340]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Random_21 - Rolling pin_a.jpg": [
+    {
+      "item": "Rolling pin",
+      "bbox": "[[3041,1529,3355,2115]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Random_17 - Spices_a.jpg": [
+    {
+      "item": "Spices",
+      "bbox": "[[500,419,887,719]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Screwdriver_1_a.jpg": [
+    {
+      "item": "Screwdriver",
+      "bbox": "[[334,847,633,944], [334,939,629,1067], [334,1047,629,1173], [632,812,1461,1238]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Screwdriver_11_a.jpg": [
+    {
+      "item": "Screwdriver",
+      "bbox": "[[201,796,340,1066]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Screwdriver_16_a.jpg": [
+    {
+      "item": "Screwdriver",
+      "bbox": "[976,1482,1589,2474]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Screwdriver_14_a.jpeg": [
+    {
+      "item": "Screwdriver",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_1_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "```json\n[\n  [889, 652, 1101, 1665]\n]\n```"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_4_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[[51,962,634,1506]]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_5_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[182,1099,605,1540]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_19_a.jpg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[808,1168,1481,1739]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_23_a.jpeg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[]"
+    }
+  ],
+  "../images/test_kitchen_images_original/Painkiller_29_a.jpeg": [
+    {
+      "item": "Painkiller",
+      "bbox": "[2427,23,3233,1157]"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+item,accuracy (%),average IoU,total samples
+Bottle opener,15.62,0.189,32
+Bowl,3.33,0.043,30
+Cooking oil,4.17,0.075,24
+Cutting board,6.9,0.103,29
+Cutting knife,9.09,0.102,33
+Dish towels,0.0,0.03,26
+Mug,12.12,0.14,33
+Pan,16.13,0.149,31
+Plate,12.5,0.12,32
+Pot,5.56,0.089,18
+Spices,0.0,0.041,29
+Spoon,4.76,0.128,21
+Tupperware containers,3.12,0.055,32

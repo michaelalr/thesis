@@ -1,0 +1,1852 @@
+[
+  {
+    "image_path": "sun_axpesxgsnxrsdqtr.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[0, 438], [0, 669], [291, 669], [291, 438]]"
+  },
+  {
+    "image_path": "sun_axpesxgsnxrsdqtr.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[847, 418], [847, 672], [1035, 672], [1035, 418]]"
+  },
+  {
+    "image_path": "sun_axpesxgsnxrsdqtr.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[1, 438], [1, 672], [222, 672], [222, 438]]"
+  },
+  {
+    "image_path": "sun_axpesxgsnxrsdqtr.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[871, 568], [871, 672], [1026, 672], [1026, 568]]"
+  },
+  {
+    "image_path": "sun_advwcwduhfypopki.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_advwcwduhfypopki.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_advwcwduhfypopki.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_advwcwduhfypopki.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_avdeakyjwzxtynyf.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[275, 194], [275, 226], [358, 226], [358, 194]]"
+  },
+  {
+    "image_path": "sun_avdeakyjwzxtynyf.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[282, 188], [282, 234], [364, 234], [364, 188]]"
+  },
+  {
+    "image_path": "sun_avdeakyjwzxtynyf.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[274, 184], [274, 279], [353, 279], [353, 184]]"
+  },
+  {
+    "image_path": "sun_avdeakyjwzxtynyf.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[152, 172], [152, 328], [232, 328], [232, 172]]"
+  },
+  {
+    "image_path": "sun_agorklincwxrdtga.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[1156, 920], [1156, 1374], [1402, 1374], [1402, 920]]"
+  },
+  {
+    "image_path": "sun_agorklincwxrdtga.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[1134, 1715], [1134, 2475], [2229, 2475], [2229, 1715]]"
+  },
+  {
+    "image_path": "sun_agorklincwxrdtga.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[[1161, 867], [1161, 1395], [1392, 1395], [1392, 867]]"
+  },
+  {
+    "image_path": "sun_agorklincwxrdtga.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[1516, 879], [1516, 1418], [1912, 1418], [1912, 879]]"
+  },
+  {
+    "image_path": "sun_afjofbpiualrfwlz.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[647, 1157], [647, 1327], [790, 1327], [790, 1157]]"
+  },
+  {
+    "image_path": "sun_afjofbpiualrfwlz.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[632, 1179], [632, 1608], [798, 1608], [798, 1179]]"
+  },
+  {
+    "image_path": "sun_afjofbpiualrfwlz.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[628, 1183], [628, 1600], [794, 1600], [794, 1183]]"
+  },
+  {
+    "image_path": "sun_afjofbpiualrfwlz.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[639, 1167], [639, 1599], [787, 1599], [787, 1167]]"
+  },
+  {
+    "image_path": "sun_aawzwijpmowksmpn.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[709, 347], [709, 433], [834, 433], [834, 347]]"
+  },
+  {
+    "image_path": "sun_aawzwijpmowksmpn.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[832, 295], [832, 336], [974, 336], [974, 295]]"
+  },
+  {
+    "image_path": "sun_aawzwijpmowksmpn.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[614, 207], [614, 307], [690, 307], [690, 207]]"
+  },
+  {
+    "image_path": "sun_aawzwijpmowksmpn.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_avfsqwoiantddppx.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[72, 144], [72, 231], [108, 231], [108, 144]]"
+  },
+  {
+    "image_path": "sun_avfsqwoiantddppx.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[75, 159], [75, 189], [104, 189], [104, 159]]"
+  },
+  {
+    "image_path": "sun_avfsqwoiantddppx.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[72, 154], [72, 183], [106, 183], [106, 154]]"
+  },
+  {
+    "image_path": "sun_avfsqwoiantddppx.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[74, 161], [74, 218], [107, 218], [107, 161]]"
+  },
+  {
+    "image_path": "sun_awmwrrktzbyokpcr.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_awmwrrktzbyokpcr.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[388, 391], [388, 469], [560, 469], [560, 391]]"
+  },
+  {
+    "image_path": "sun_awmwrrktzbyokpcr.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[56, 0], [56, 167], [378, 167], [378, 0]]"
+  },
+  {
+    "image_path": "sun_awmwrrktzbyokpcr.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[156, 416], [156, 472], [548, 472], [548, 416]]"
+  },
+  {
+    "image_path": "sun_aohalqjxiodeyhwm.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[282, 119], [282, 485], [527, 485], [527, 119]]"
+  },
+  {
+    "image_path": "sun_aohalqjxiodeyhwm.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[286, 48], [286, 485], [526, 485], [526, 48]]"
+  },
+  {
+    "image_path": "sun_aohalqjxiodeyhwm.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[395, 67], [395, 477], [525, 477], [525, 67]]"
+  },
+  {
+    "image_path": "sun_aohalqjxiodeyhwm.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[299, 107], [299, 479], [533, 479], [533, 107]]"
+  },
+  {
+    "image_path": "sun_aojmogpsfirohkai.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[0, 326], [0, 392], [46, 392], [46, 326]]"
+  },
+  {
+    "image_path": "sun_aojmogpsfirohkai.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[0, 335], [0, 379], [47, 379], [47, 335]]"
+  },
+  {
+    "image_path": "sun_aojmogpsfirohkai.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_aojmogpsfirohkai.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[1, 198], [1, 379], [44, 379], [44, 198]]"
+  },
+  {
+    "image_path": "sun_anrbnligfknyblpd.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_anrbnligfknyblpd.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_anrbnligfknyblpd.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_anrbnligfknyblpd.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_abdzsryntppucwqi.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[185, 43], [185, 117], [251, 117], [251, 43]]"
+  },
+  {
+    "image_path": "sun_abdzsryntppucwqi.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[221, 168], [221, 255], [268, 255], [268, 168]]"
+  },
+  {
+    "image_path": "sun_abdzsryntppucwqi.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[227, 169], [227, 263], [321, 263], [321, 169]]"
+  },
+  {
+    "image_path": "sun_abdzsryntppucwqi.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[247, 32], [247, 118], [322, 118], [322, 32]]"
+  },
+  {
+    "image_path": "sun_aasmevtpkslccptd.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[1080, 559], [1080, 598], [1126, 598], [1126, 559]]"
+  },
+  {
+    "image_path": "sun_aasmevtpkslccptd.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_aasmevtpkslccptd.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_aasmevtpkslccptd.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_aawsixgpgwqanatu.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[69, 67], [69, 244], [165, 244], [165, 67]]"
+  },
+  {
+    "image_path": "sun_aawsixgpgwqanatu.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_aawsixgpgwqanatu.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_aawsixgpgwqanatu.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_avaaxiemmqbibywj.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[24, 170], [24, 197], [78, 197], [78, 170]]"
+  },
+  {
+    "image_path": "sun_avaaxiemmqbibywj.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[141, 132], [141, 149], [155, 149], [155, 132]]"
+  },
+  {
+    "image_path": "sun_avaaxiemmqbibywj.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[7, 152], [7, 166], [78, 166], [78, 152]]"
+  },
+  {
+    "image_path": "sun_avaaxiemmqbibywj.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[0, 155], [0, 172], [69, 172], [69, 155]]"
+  },
+  {
+    "image_path": "sun_agdxrnaqlzlannbk.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_agdxrnaqlzlannbk.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[107, 19], [107, 66], [147, 66], [147, 19]]"
+  },
+  {
+    "image_path": "sun_agdxrnaqlzlannbk.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[119, 103], [119, 126], [151, 126], [151, 103]]"
+  },
+  {
+    "image_path": "sun_agdxrnaqlzlannbk.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[90, 157], [90, 192], [116, 192], [116, 157]]"
+  },
+  {
+    "image_path": "sun_ayzwrfmejwnjncpp.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[165, 0], [165, 155], [309, 155], [309, 0]]"
+  },
+  {
+    "image_path": "sun_ayzwrfmejwnjncpp.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[20, 378], [20, 531], [216, 531], [216, 378]]"
+  },
+  {
+    "image_path": "sun_ayzwrfmejwnjncpp.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_ayzwrfmejwnjncpp.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[22, 395], [22, 532], [215, 532], [215, 395]]"
+  },
+  {
+    "image_path": "sun_aopqdojqibxivqgu.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[418, 381], [418, 521], [527, 521], [527, 381]]"
+  },
+  {
+    "image_path": "sun_aopqdojqibxivqgu.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[421, 387], [421, 521], [532, 521], [532, 387]]"
+  },
+  {
+    "image_path": "sun_aopqdojqibxivqgu.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[[1, 370], [1, 700], [275, 700], [275, 370]]"
+  },
+  {
+    "image_path": "sun_aopqdojqibxivqgu.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[420, 374], [420, 406], [527, 406], [527, 374]]"
+  },
+  {
+    "image_path": "sun_aglwoufpxbtxqecp.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_aglwoufpxbtxqecp.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[0, 510], [0, 769], [93, 769], [93, 510]]"
+  },
+  {
+    "image_path": "sun_aglwoufpxbtxqecp.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[1022, 46], [1022, 363], [1188, 363], [1188, 46]]"
+  },
+  {
+    "image_path": "sun_aglwoufpxbtxqecp.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[956, 487], [956, 690], [1204, 690], [1204, 487]]"
+  },
+  {
+    "image_path": "sun_axuroipjldepebje.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[0, 129], [0, 137], [96, 137], [96, 129]]"
+  },
+  {
+    "image_path": "sun_axuroipjldepebje.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_axuroipjldepebje.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[5, 151], [5, 172], [53, 172], [53, 151]]"
+  },
+  {
+    "image_path": "sun_axuroipjldepebje.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[11, 158], [11, 183], [58, 183], [58, 158]]"
+  },
+  {
+    "image_path": "sun_aufggmchclraycgm.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_aufggmchclraycgm.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[745, 40], [745, 260], [953, 260], [953, 40]]"
+  },
+  {
+    "image_path": "sun_aufggmchclraycgm.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_aufggmchclraycgm.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[403, 73], [403, 260], [573, 260], [573, 73]]"
+  },
+  {
+    "image_path": "sun_afphfxkabyerpwkz.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_afphfxkabyerpwkz.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[660, 522], [660, 714], [733, 714], [733, 522]]"
+  },
+  {
+    "image_path": "sun_afphfxkabyerpwkz.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[[999, 482], [999, 626], [1181, 626], [1181, 482]]"
+  },
+  {
+    "image_path": "sun_afphfxkabyerpwkz.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[652, 514], [652, 743], [807, 743], [807, 514]]"
+  },
+  {
+    "image_path": "sun_ahqykyyouxkgmdnq.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_ahqykyyouxkgmdnq.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_ahqykyyouxkgmdnq.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[2010, 1077], [2010, 1674], [2525, 1674], [2525, 1077]]"
+  },
+  {
+    "image_path": "sun_ahqykyyouxkgmdnq.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[2010, 1074], [2010, 1652], [2533, 1652], [2533, 1074]]"
+  },
+  {
+    "image_path": "sun_afstlyyibsjscpbm.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[80, 47], [80, 105], [117, 105], [117, 47]]"
+  },
+  {
+    "image_path": "sun_afstlyyibsjscpbm.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[131, 160], [131, 237], [225, 237], [225, 160]]"
+  },
+  {
+    "image_path": "sun_afstlyyibsjscpbm.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_afstlyyibsjscpbm.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[2, 153], [2, 247], [111, 247], [111, 153]]"
+  },
+  {
+    "image_path": "sun_aitjzvdsvqtarrmr.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[194, 309], [194, 755], [1025, 755], [1025, 309]]"
+  },
+  {
+    "image_path": "sun_aitjzvdsvqtarrmr.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[724, 354], [724, 440], [833, 440], [833, 354]]"
+  },
+  {
+    "image_path": "sun_aitjzvdsvqtarrmr.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[317, 341], [317, 486], [473, 486], [473, 341]]"
+  },
+  {
+    "image_path": "sun_aitjzvdsvqtarrmr.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_akgdlzofsznnznzs.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[173, 156], [173, 167], [229, 167], [229, 156]]"
+  },
+  {
+    "image_path": "sun_akgdlzofsznnznzs.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[167, 66], [167, 280], [230, 280], [230, 66]]"
+  },
+  {
+    "image_path": "sun_akgdlzofsznnznzs.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[[100, 133], [100, 217], [159, 217], [159, 133]]"
+  },
+  {
+    "image_path": "sun_akgdlzofsznnznzs.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[168, 127], [168, 147], [233, 147], [233, 127]]"
+  },
+  {
+    "image_path": "sun_awbppqusbpubsfeq.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[238, 320], [238, 348], [327, 348], [327, 320]]"
+  },
+  {
+    "image_path": "sun_awbppqusbpubsfeq.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[141, 144], [141, 208], [243, 208], [243, 144]]"
+  },
+  {
+    "image_path": "sun_awbppqusbpubsfeq.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[347, 153], [347, 224], [505, 224], [505, 153]]"
+  },
+  {
+    "image_path": "sun_awbppqusbpubsfeq.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[239, 334], [239, 346], [328, 346], [328, 334]]"
+  },
+  {
+    "image_path": "sun_ajkrefpvgtunjiyi.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_ajkrefpvgtunjiyi.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_ajkrefpvgtunjiyi.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_ajkrefpvgtunjiyi.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[702, 810], [702, 936], [873, 936], [873, 810]]"
+  },
+  {
+    "image_path": "sun_axwfwkibvzamixmp.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_axwfwkibvzamixmp.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[132, 48], [132, 80], [155, 80], [155, 48]]"
+  },
+  {
+    "image_path": "sun_axwfwkibvzamixmp.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[110, 45], [110, 89], [193, 89], [193, 45]]"
+  },
+  {
+    "image_path": "sun_axwfwkibvzamixmp.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[91, 72], [91, 126], [122, 126], [122, 72]]"
+  },
+  {
+    "image_path": "sun_adwiyvylmsqaomcb.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[132, 152], [132, 277], [270, 277], [270, 152]]"
+  },
+  {
+    "image_path": "sun_adwiyvylmsqaomcb.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_adwiyvylmsqaomcb.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[141, 149], [141, 277], [265, 277], [265, 149]]"
+  },
+  {
+    "image_path": "sun_adwiyvylmsqaomcb.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[0, 1], [0, 66], [93, 66], [93, 1]]"
+  },
+  {
+    "image_path": "sun_akjjfxpidxgkthco.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[240, 135], [240, 150], [256, 150], [256, 135]]"
+  },
+  {
+    "image_path": "sun_akjjfxpidxgkthco.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[216, 111], [216, 135], [231, 135], [231, 111]]"
+  },
+  {
+    "image_path": "sun_akjjfxpidxgkthco.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[[227, 106], [227, 126], [255, 126], [255, 106]]"
+  },
+  {
+    "image_path": "sun_akjjfxpidxgkthco.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[98, 36], [98, 107], [167, 107], [167, 36]]"
+  },
+  {
+    "image_path": "sun_arddicicgsnredyc.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_arddicicgsnredyc.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[128, 146], [128, 224], [308, 224], [308, 146]]"
+  },
+  {
+    "image_path": "sun_arddicicgsnredyc.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[113, 152], [113, 203], [244, 203], [244, 152]]"
+  },
+  {
+    "image_path": "sun_arddicicgsnredyc.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_adkmgnqaiypcnhqy.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[175, 112], [175, 132], [252, 132], [252, 112]]"
+  },
+  {
+    "image_path": "sun_adkmgnqaiypcnhqy.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_adkmgnqaiypcnhqy.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[162, 113], [162, 173], [274, 173], [274, 113]]"
+  },
+  {
+    "image_path": "sun_adkmgnqaiypcnhqy.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[160, 105], [160, 130], [218, 130], [218, 105]]"
+  },
+  {
+    "image_path": "sun_atdfrsodpyskmywe.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_atdfrsodpyskmywe.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[443, 395], [443, 521], [737, 521], [737, 395]]"
+  },
+  {
+    "image_path": "sun_atdfrsodpyskmywe.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[213, 221], [213, 372], [307, 372], [307, 221]]"
+  },
+  {
+    "image_path": "sun_atdfrsodpyskmywe.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[420, 381], [420, 545], [473, 545], [473, 381]]"
+  },
+  {
+    "image_path": "sun_afwaivvfezladsbj.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[0, 505], [0, 848], [376, 848], [376, 505]]"
+  },
+  {
+    "image_path": "sun_afwaivvfezladsbj.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_afwaivvfezladsbj.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[407, 497], [407, 687], [790, 687], [790, 497]]"
+  },
+  {
+    "image_path": "sun_afwaivvfezladsbj.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[1, 533], [1, 848], [50, 848], [50, 533]]"
+  },
+  {
+    "image_path": "sun_afkaeizmulcsokfj.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_afkaeizmulcsokfj.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[35, 203], [35, 298], [154, 298], [154, 203]]"
+  },
+  {
+    "image_path": "sun_afkaeizmulcsokfj.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_afkaeizmulcsokfj.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_axlhgujigbdqvdzl.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[28, 160], [28, 221], [94, 221], [94, 160]]"
+  },
+  {
+    "image_path": "sun_axlhgujigbdqvdzl.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[24, 152], [24, 219], [78, 219], [78, 152]]"
+  },
+  {
+    "image_path": "sun_axlhgujigbdqvdzl.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[29, 154], [29, 200], [131, 200], [131, 154]]"
+  },
+  {
+    "image_path": "sun_axlhgujigbdqvdzl.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[27, 158], [27, 225], [77, 225], [77, 158]]"
+  },
+  {
+    "image_path": "sun_aehkkaenyyjnewst.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[730, 761], [730, 1039], [961, 1039], [961, 761]]"
+  },
+  {
+    "image_path": "sun_aehkkaenyyjnewst.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_aehkkaenyyjnewst.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[[349, 33], [510, 463]], [[349, 33], [885, 1091]], [[686, 452], [885, 1091]], [[686, 452], [510, 463]]]"
+  },
+  {
+    "image_path": "sun_aehkkaenyyjnewst.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[426, 767], [426, 1045], [720, 1045], [720, 767]]"
+  },
+  {
+    "image_path": "sun_afkwbtipaeipuaer.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[69, 189], [69, 246], [129, 246], [129, 189]]"
+  },
+  {
+    "image_path": "sun_afkwbtipaeipuaer.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[0, 172], [0, 223], [80, 223], [80, 172]]"
+  },
+  {
+    "image_path": "sun_afkwbtipaeipuaer.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_afkwbtipaeipuaer.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[120, 78], [120, 139], [199, 139], [199, 78]]"
+  },
+  {
+    "image_path": "sun_acyvmyzypyuwnann.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[486, 287], [486, 399], [584, 399], [584, 287]]"
+  },
+  {
+    "image_path": "sun_acyvmyzypyuwnann.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[350, 265], [350, 300], [391, 300], [391, 265]]"
+  },
+  {
+    "image_path": "sun_acyvmyzypyuwnann.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[348, 266], [348, 296], [389, 296], [389, 266]]"
+  },
+  {
+    "image_path": "sun_acyvmyzypyuwnann.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[348, 263], [348, 297], [392, 297], [392, 263]]"
+  },
+  {
+    "image_path": "sun_asymyduxvrjpcvzg.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[122, 1205], [122, 2296], [1487, 2296], [1487, 1205]]"
+  },
+  {
+    "image_path": "sun_asymyduxvrjpcvzg.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[77, 1177], [77, 2302], [1552, 2302], [1552, 1177]]"
+  },
+  {
+    "image_path": "sun_asymyduxvrjpcvzg.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[0, 1199], [0, 2272], [1468, 2272], [1468, 1199]]"
+  },
+  {
+    "image_path": "sun_asymyduxvrjpcvzg.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[2, 1227], [2, 2295], [1992, 2295], [1992, 1227]]"
+  },
+  {
+    "image_path": "sun_amvpxkryxaldzmdv.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[76, 174], [76, 248], [126, 248], [126, 174]]"
+  },
+  {
+    "image_path": "sun_amvpxkryxaldzmdv.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[83, 177], [83, 250], [129, 250], [129, 177]]"
+  },
+  {
+    "image_path": "sun_amvpxkryxaldzmdv.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[152, 181], [152, 200], [210, 200], [210, 181]]"
+  },
+  {
+    "image_path": "sun_amvpxkryxaldzmdv.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[131, 185], [131, 251], [162, 251], [162, 185]]"
+  },
+  {
+    "image_path": "sun_alqlmxgzxpeuaciw.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_alqlmxgzxpeuaciw.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_alqlmxgzxpeuaciw.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_alqlmxgzxpeuaciw.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_adswmdfkombffqhi.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_adswmdfkombffqhi.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_adswmdfkombffqhi.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[723, 474], [723, 754], [893, 754], [893, 474]]"
+  },
+  {
+    "image_path": "sun_adswmdfkombffqhi.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_alyqyulcvigwjdyc.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[79, 168], [79, 241], [109, 241], [109, 168]]"
+  },
+  {
+    "image_path": "sun_alyqyulcvigwjdyc.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[0, 158], [0, 249], [111, 249], [111, 158]]"
+  },
+  {
+    "image_path": "sun_alyqyulcvigwjdyc.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[168, 70], [168, 115], [219, 115], [219, 70]]"
+  },
+  {
+    "image_path": "sun_alyqyulcvigwjdyc.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[105, 48], [105, 117], [170, 117], [170, 48]]"
+  },
+  {
+    "image_path": "sun_amstpwyljnixuvqh.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[137, 154], [137, 250], [238, 250], [238, 154]]"
+  },
+  {
+    "image_path": "sun_amstpwyljnixuvqh.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[82, 171], [82, 229], [214, 229], [214, 171]]"
+  },
+  {
+    "image_path": "sun_amstpwyljnixuvqh.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_amstpwyljnixuvqh.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[178, 177], [178, 232], [207, 232], [207, 177]]"
+  },
+  {
+    "image_path": "sun_andzglcqubvbzfhz.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[433, 99], [433, 233], [467, 233], [467, 99]]"
+  },
+  {
+    "image_path": "sun_andzglcqubvbzfhz.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[390, 303], [390, 476], [441, 476], [441, 303]]"
+  },
+  {
+    "image_path": "sun_andzglcqubvbzfhz.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[389, 305], [389, 371], [429, 371], [429, 305]]"
+  },
+  {
+    "image_path": "sun_andzglcqubvbzfhz.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[404, 305], [404, 404], [443, 404], [443, 305]]"
+  },
+  {
+    "image_path": "sun_apdjgezcekdmxeow.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[76, 106], [76, 218], [150, 218], [150, 106]]"
+  },
+  {
+    "image_path": "sun_apdjgezcekdmxeow.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[151, 114], [151, 178], [165, 178], [165, 114]]"
+  },
+  {
+    "image_path": "sun_apdjgezcekdmxeow.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[87, 133], [87, 224], [149, 224], [149, 133]]"
+  },
+  {
+    "image_path": "sun_apdjgezcekdmxeow.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[106, 119], [106, 172], [155, 172], [155, 119]]"
+  },
+  {
+    "image_path": "sun_aamjqvjnuxklyagf.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[112, 36], [112, 119], [153, 119], [153, 36]]"
+  },
+  {
+    "image_path": "sun_aamjqvjnuxklyagf.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[112, 179], [112, 257], [152, 257], [152, 179]]"
+  },
+  {
+    "image_path": "sun_aamjqvjnuxklyagf.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[15, 0], [15, 75], [90, 75], [90, 0]]"
+  },
+  {
+    "image_path": "sun_aamjqvjnuxklyagf.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[107, 169], [107, 258], [152, 258], [152, 169]]"
+  },
+  {
+    "image_path": "sun_aunbvudubwlyozvt.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[63, 351], [63, 531], [258, 531], [258, 351]]"
+  },
+  {
+    "image_path": "sun_aunbvudubwlyozvt.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[0, 1], [0, 219], [140, 219], [140, 1]]"
+  },
+  {
+    "image_path": "sun_aunbvudubwlyozvt.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[616, 341], [616, 532], [781, 532], [781, 341]]"
+  },
+  {
+    "image_path": "sun_aunbvudubwlyozvt.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[74, 338], [74, 532], [267, 532], [267, 338]]"
+  },
+  {
+    "image_path": "sun_afnyuyhhwgifatsk.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[15, 151], [15, 205], [113, 205], [113, 151]]"
+  },
+  {
+    "image_path": "sun_afnyuyhhwgifatsk.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[38, 55], [38, 125], [70, 125], [70, 55]]"
+  },
+  {
+    "image_path": "sun_afnyuyhhwgifatsk.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[[30, 158], [30, 204], [94, 204], [94, 158]]"
+  },
+  {
+    "image_path": "sun_afnyuyhhwgifatsk.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[60, 157], [60, 205], [97, 205], [97, 157]]"
+  },
+  {
+    "image_path": "sun_axdfhsszzzqksxnx.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[57, 161], [57, 248], [147, 248], [147, 161]]"
+  },
+  {
+    "image_path": "sun_axdfhsszzzqksxnx.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[132, 203], [132, 243], [155, 243], [155, 203]]"
+  },
+  {
+    "image_path": "sun_axdfhsszzzqksxnx.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[50, 164], [50, 225], [141, 225], [141, 164]]"
+  },
+  {
+    "image_path": "sun_axdfhsszzzqksxnx.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[16, 155], [16, 214], [53, 214], [53, 155]]"
+  },
+  {
+    "image_path": "sun_aucefajtdpoipkjt.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[534, 618], [534, 901], [709, 901], [709, 618]]"
+  },
+  {
+    "image_path": "sun_aucefajtdpoipkjt.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_aucefajtdpoipkjt.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[499, 187], [499, 455], [936, 455], [936, 187]]"
+  },
+  {
+    "image_path": "sun_aucefajtdpoipkjt.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_amtngujfdqlygigl.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[232, 389], [232, 487], [298, 487], [298, 389]]"
+  },
+  {
+    "image_path": "sun_amtngujfdqlygigl.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[653, 412], [653, 556], [730, 556], [730, 412]]"
+  },
+  {
+    "image_path": "sun_amtngujfdqlygigl.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[449, 399], [449, 523], [508, 523], [508, 399]]"
+  },
+  {
+    "image_path": "sun_amtngujfdqlygigl.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[229, 384], [229, 508], [299, 508], [299, 384]]"
+  },
+  {
+    "image_path": "sun_ahljzhgcdpomplvg.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[930, 400], [930, 602], [1036, 602], [1036, 400]]"
+  },
+  {
+    "image_path": "sun_ahljzhgcdpomplvg.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[585, 323], [585, 376], [608, 376], [608, 323]]"
+  },
+  {
+    "image_path": "sun_ahljzhgcdpomplvg.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[708, 393], [708, 435], [924, 435], [924, 393]]"
+  },
+  {
+    "image_path": "sun_ahljzhgcdpomplvg.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[165, 383], [165, 503], [311, 503], [311, 383]]"
+  },
+  {
+    "image_path": "sun_anleedlurkiswrjv.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_anleedlurkiswrjv.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[212, 356], [212, 534], [338, 534], [338, 356]]"
+  },
+  {
+    "image_path": "sun_anleedlurkiswrjv.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_anleedlurkiswrjv.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[217, 350], [217, 551], [330, 551], [330, 350]]"
+  },
+  {
+    "image_path": "sun_abnipsthatveonrh.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[104, 67], [104, 134], [162, 134], [162, 67]]"
+  },
+  {
+    "image_path": "sun_abnipsthatveonrh.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[166, 58], [166, 123], [244, 123], [244, 58]]"
+  },
+  {
+    "image_path": "sun_abnipsthatveonrh.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[129, 56], [129, 110], [223, 110], [223, 56]]"
+  },
+  {
+    "image_path": "sun_abnipsthatveonrh.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[160, 50], [160, 117], [307, 117], [307, 50]]"
+  },
+  {
+    "image_path": "sun_ayeksgxvkxbdgqil.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[121, 59], [121, 100], [157, 100], [157, 59]]"
+  },
+  {
+    "image_path": "sun_ayeksgxvkxbdgqil.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[62, 152], [62, 232], [101, 232], [101, 152]]"
+  },
+  {
+    "image_path": "sun_ayeksgxvkxbdgqil.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[53, 155], [53, 228], [80, 228], [80, 155]]"
+  },
+  {
+    "image_path": "sun_ayeksgxvkxbdgqil.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[50, 156], [50, 222], [82, 222], [82, 156]]"
+  },
+  {
+    "image_path": "sun_aqtnebfegavdqvzg.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[115, 62], [115, 164], [218, 164], [218, 62]]"
+  },
+  {
+    "image_path": "sun_aqtnebfegavdqvzg.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[248, 449], [248, 666], [317, 666], [317, 449]]"
+  },
+  {
+    "image_path": "sun_aqtnebfegavdqvzg.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[[73, 24], [73, 161], [217, 161], [217, 24]]"
+  },
+  {
+    "image_path": "sun_aqtnebfegavdqvzg.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_aobtqmsjotgsxppu.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_aobtqmsjotgsxppu.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[639, 83], [639, 230], [811, 230], [811, 83]]"
+  },
+  {
+    "image_path": "sun_aobtqmsjotgsxppu.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_aobtqmsjotgsxppu.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_abwmjfnrmqjdltxn.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_abwmjfnrmqjdltxn.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[152, 383], [152, 418], [322, 418], [322, 383]]"
+  },
+  {
+    "image_path": "sun_abwmjfnrmqjdltxn.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[300, 85], [300, 296], [439, 296], [439, 85]]"
+  },
+  {
+    "image_path": "sun_abwmjfnrmqjdltxn.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[658, 371], [658, 414], [854, 414], [854, 371]]"
+  },
+  {
+    "image_path": "sun_amcseadaqamjvkpr.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_amcseadaqamjvkpr.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[1056, 507], [1056, 683], [1184, 683], [1184, 507]]"
+  },
+  {
+    "image_path": "sun_amcseadaqamjvkpr.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_amcseadaqamjvkpr.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_avtqdvhwdfzykzby.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[826, 667], [826, 937], [1112, 937], [1112, 667]]"
+  },
+  {
+    "image_path": "sun_avtqdvhwdfzykzby.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[830, 675], [830, 941], [1109, 941], [1109, 675]]"
+  },
+  {
+    "image_path": "sun_avtqdvhwdfzykzby.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[794, 681], [794, 933], [1099, 933], [1099, 681]]"
+  },
+  {
+    "image_path": "sun_avtqdvhwdfzykzby.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[429, 690], [429, 845], [568, 845], [568, 690]]"
+  },
+  {
+    "image_path": "sun_adglbgauiayicwkm.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[95, 129], [95, 191], [249, 191], [249, 129]]"
+  },
+  {
+    "image_path": "sun_adglbgauiayicwkm.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[96, 161], [96, 224], [175, 224], [175, 161]]"
+  },
+  {
+    "image_path": "sun_adglbgauiayicwkm.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_adglbgauiayicwkm.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_avtqpxlipvlcrsge.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[193, 405], [193, 490], [246, 490], [246, 405]]"
+  },
+  {
+    "image_path": "sun_avtqpxlipvlcrsge.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_avtqpxlipvlcrsge.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_avtqpxlipvlcrsge.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[188, 343], [188, 474], [246, 474], [246, 343]]"
+  },
+  {
+    "image_path": "sun_ajpanclprxjlugfr.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[171, 18], [171, 76], [215, 76], [215, 18]]"
+  },
+  {
+    "image_path": "sun_ajpanclprxjlugfr.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[108, 100], [108, 122], [134, 122], [134, 100]]"
+  },
+  {
+    "image_path": "sun_ajpanclprxjlugfr.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_ajpanclprxjlugfr.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[167, 17], [167, 76], [216, 76], [216, 17]]"
+  },
+  {
+    "image_path": "sun_aklijrkocvkcmsfg.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[476, 361], [476, 532], [810, 532], [810, 361]]"
+  },
+  {
+    "image_path": "sun_aklijrkocvkcmsfg.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[696, 449], [696, 531], [811, 531], [811, 449]]"
+  },
+  {
+    "image_path": "sun_aklijrkocvkcmsfg.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[692, 446], [692, 531], [812, 531], [812, 446]]"
+  },
+  {
+    "image_path": "sun_aklijrkocvkcmsfg.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[338, 368], [338, 531], [422, 531], [422, 368]]"
+  },
+  {
+    "image_path": "sun_auhdmjbjkxwrixim.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[721, 489], [721, 594], [843, 594], [843, 489]]"
+  },
+  {
+    "image_path": "sun_auhdmjbjkxwrixim.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[718, 391], [718, 599], [841, 599], [841, 391]]"
+  },
+  {
+    "image_path": "sun_auhdmjbjkxwrixim.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[713, 393], [713, 599], [847, 599], [847, 393]]"
+  },
+  {
+    "image_path": "sun_auhdmjbjkxwrixim.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[717, 388], [717, 597], [852, 597], [852, 388]]"
+  },
+  {
+    "image_path": "sun_augjvuygusrwlxqz.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[274, 1257], [274, 1991], [806, 1991], [806, 1257]]"
+  },
+  {
+    "image_path": "sun_augjvuygusrwlxqz.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[275, 1260], [275, 1735], [400, 1735], [400, 1260]]"
+  },
+  {
+    "image_path": "sun_augjvuygusrwlxqz.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[281, 1260], [281, 2001], [808, 2001], [808, 1260]]"
+  },
+  {
+    "image_path": "sun_augjvuygusrwlxqz.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[275, 1268], [275, 1697], [394, 1697], [394, 1268]]"
+  },
+  {
+    "image_path": "sun_aczchqarcsdhjfsg.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[381, 415], [381, 494], [485, 494], [485, 415]]"
+  },
+  {
+    "image_path": "sun_aczchqarcsdhjfsg.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[345, 412], [345, 671], [619, 671], [619, 412]]"
+  },
+  {
+    "image_path": "sun_aczchqarcsdhjfsg.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[[188, 397], [188, 545], [351, 545], [351, 397]]"
+  },
+  {
+    "image_path": "sun_aczchqarcsdhjfsg.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[48, 501], [48, 580], [171, 580], [171, 501]]"
+  },
+  {
+    "image_path": "sun_apnxsgbjjdleuhdu.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_apnxsgbjjdleuhdu.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[0, 17], [0, 488], [436, 488], [436, 17]]"
+  },
+  {
+    "image_path": "sun_apnxsgbjjdleuhdu.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[354, 329], [354, 497], [500, 497], [500, 329]]"
+  },
+  {
+    "image_path": "sun_apnxsgbjjdleuhdu.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[425, 335], [425, 364], [489, 364], [489, 335]]"
+  },
+  {
+    "image_path": "sun_aoqkmjxwlivgbkhq.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_aoqkmjxwlivgbkhq.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[0, 0], [0, 440], [281, 440], [281, 0]]"
+  },
+  {
+    "image_path": "sun_aoqkmjxwlivgbkhq.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_aoqkmjxwlivgbkhq.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[287, 763], [287, 868], [893, 868], [893, 763]]"
+  },
+  {
+    "image_path": "sun_anfzulzazofakfhm.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[87, 134], [87, 204], [127, 204], [127, 134]]"
+  },
+  {
+    "image_path": "sun_anfzulzazofakfhm.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[86, 136], [86, 206], [125, 206], [125, 136]]"
+  },
+  {
+    "image_path": "sun_anfzulzazofakfhm.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[88, 137], [88, 207], [127, 207], [127, 137]]"
+  },
+  {
+    "image_path": "sun_anfzulzazofakfhm.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[86, 140], [86, 195], [125, 195], [125, 140]]"
+  },
+  {
+    "image_path": "sun_alqafgyfzsctxwtt.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[484, 150], [484, 298], [616, 298], [616, 150]]"
+  },
+  {
+    "image_path": "sun_alqafgyfzsctxwtt.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[493, 153], [493, 301], [616, 301], [616, 153]]"
+  },
+  {
+    "image_path": "sun_alqafgyfzsctxwtt.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[664, 145], [664, 249], [762, 249], [762, 145]]"
+  },
+  {
+    "image_path": "sun_alqafgyfzsctxwtt.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[393, 363], [393, 392], [641, 392], [641, 363]]"
+  },
+  {
+    "image_path": "sun_axzmxlymdvjqqfpk.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[29, 151], [29, 263], [91, 263], [91, 151]]"
+  },
+  {
+    "image_path": "sun_axzmxlymdvjqqfpk.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[27, 149], [27, 262], [99, 262], [99, 149]]"
+  },
+  {
+    "image_path": "sun_axzmxlymdvjqqfpk.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[[27, 150], [27, 264], [89, 264], [89, 150]]"
+  },
+  {
+    "image_path": "sun_axzmxlymdvjqqfpk.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[31, 155], [31, 262], [89, 262], [89, 155]]"
+  },
+  {
+    "image_path": "sun_aaslbwtcdcwjukuo.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_aaslbwtcdcwjukuo.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[[282, 980], [282, 1707], [801, 1707], [801, 980]]"
+  },
+  {
+    "image_path": "sun_aaslbwtcdcwjukuo.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[1323, 1091], [1323, 1681], [2079, 1681], [2079, 1091]]"
+  },
+  {
+    "image_path": "sun_abvefvntluoxopow.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[75, 46], [75, 77], [116, 77], [116, 46]]"
+  },
+  {
+    "image_path": "sun_abvefvntluoxopow.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_abvefvntluoxopow.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[220, 130], [220, 158], [226, 158], [226, 130]]"
+  },
+  {
+    "image_path": "sun_abvefvntluoxopow.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[77, 148], [77, 196], [121, 196], [121, 148]]"
+  },
+  {
+    "image_path": "sun_abqsxcyxnovlihxy.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_abqsxcyxnovlihxy.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[57, 256], [57, 490], [754, 490], [754, 256]]"
+  },
+  {
+    "image_path": "sun_abqsxcyxnovlihxy.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[60, 283], [60, 490], [779, 490], [779, 283]]"
+  },
+  {
+    "image_path": "sun_abqsxcyxnovlihxy.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_agfmsmojwptjoava.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[19, 45], [19, 247], [166, 247], [166, 45]]"
+  },
+  {
+    "image_path": "sun_agfmsmojwptjoava.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[60, 404], [60, 707], [272, 707], [272, 404]]"
+  },
+  {
+    "image_path": "sun_agfmsmojwptjoava.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[[14, 45], [14, 251], [171, 251], [171, 45]]"
+  },
+  {
+    "image_path": "sun_agfmsmojwptjoava.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[127, 421], [127, 669], [262, 669], [262, 421]]"
+  },
+  {
+    "image_path": "sun_arerafgvufvljolx.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_arerafgvufvljolx.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[[1, 80], [1, 225], [95, 225], [95, 80]]"
+  },
+  {
+    "image_path": "sun_arerafgvufvljolx.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[152, 166], [152, 249], [249, 249], [249, 166]]"
+  },
+  {
+    "image_path": "sun_afdefsrtlbtfdhxq.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_afdefsrtlbtfdhxq.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[232, 441], [232, 630], [346, 630], [346, 441]]"
+  },
+  {
+    "image_path": "sun_afdefsrtlbtfdhxq.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[58, 443], [58, 680], [260, 680], [260, 443]]"
+  },
+  {
+    "image_path": "sun_afdefsrtlbtfdhxq.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[0, 453], [0, 784], [248, 784], [248, 453]]"
+  },
+  {
+    "image_path": "sun_ajuqshhjcubjzedh.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[1100, 501], [1100, 553], [1216, 553], [1216, 501]]"
+  },
+  {
+    "image_path": "sun_ajuqshhjcubjzedh.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[682, 253], [682, 366], [766, 366], [766, 253]]"
+  },
+  {
+    "image_path": "sun_ajuqshhjcubjzedh.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[550, 484], [550, 623], [642, 623], [642, 484]]"
+  },
+  {
+    "image_path": "sun_ajuqshhjcubjzedh.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[555, 478], [555, 544], [638, 544], [638, 478]]"
+  },
+  {
+    "image_path": "sun_auatsxdwxjotzqjr.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[509, 170], [509, 260], [560, 260], [560, 170]]"
+  },
+  {
+    "image_path": "sun_auatsxdwxjotzqjr.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_auatsxdwxjotzqjr.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_auatsxdwxjotzqjr.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[731, 178], [731, 216], [816, 216], [816, 178]]"
+  },
+  {
+    "image_path": "sun_awspbtmcoxakihbx.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[2, 180], [2, 308], [308, 308], [308, 180]]"
+  },
+  {
+    "image_path": "sun_awspbtmcoxakihbx.jpg",
+    "chosen_item": "Cutting board",
+    "chosen_polygon": "[[6, 230], [6, 308], [164, 308], [164, 230]]"
+  },
+  {
+    "image_path": "sun_awspbtmcoxakihbx.jpg",
+    "chosen_item": "Pan",
+    "chosen_polygon": "[[0, 191], [0, 308], [154, 308], [154, 191]]"
+  },
+  {
+    "image_path": "sun_awspbtmcoxakihbx.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[10, 231], [10, 305], [163, 305], [163, 231]]"
+  },
+  {
+    "image_path": "sun_aofyuejouqtbyooo.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[300, 651], [300, 951], [554, 951], [554, 651]]"
+  },
+  {
+    "image_path": "sun_aofyuejouqtbyooo.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[311, 654], [311, 782], [551, 782], [551, 654]]"
+  },
+  {
+    "image_path": "sun_aofyuejouqtbyooo.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[303, 650], [303, 781], [556, 781], [556, 650]]"
+  },
+  {
+    "image_path": "sun_aofyuejouqtbyooo.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[872, 714], [872, 946], [1204, 946], [1204, 714]]"
+  },
+  {
+    "image_path": "sun_apuaydbvdodzgqrh.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_apuaydbvdodzgqrh.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[180, 95], [180, 140], [232, 140], [232, 95]]"
+  },
+  {
+    "image_path": "sun_apuaydbvdodzgqrh.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_apuaydbvdodzgqrh.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[211, 157], [211, 186], [252, 186], [252, 157]]"
+  },
+  {
+    "image_path": "sun_ahhrhzkyvzaqeark.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_ahhrhzkyvzaqeark.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[47, 143], [47, 175], [106, 175], [106, 143]]"
+  },
+  {
+    "image_path": "sun_ahhrhzkyvzaqeark.jpg",
+    "chosen_item": "Mug",
+    "chosen_polygon": "[[43, 129], [43, 161], [73, 161], [73, 129]]"
+  },
+  {
+    "image_path": "sun_ahhrhzkyvzaqeark.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[106, 148], [106, 164], [115, 164], [115, 148]]"
+  },
+  {
+    "image_path": "sun_aaxxjlsuzvqlgylf.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[556, 454], [556, 587], [631, 587], [631, 454]]"
+  },
+  {
+    "image_path": "sun_aaxxjlsuzvqlgylf.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[511, 413], [511, 583], [563, 583], [563, 413]]"
+  },
+  {
+    "image_path": "sun_aaxxjlsuzvqlgylf.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[153, 164], [153, 462], [228, 462], [228, 164]]"
+  },
+  {
+    "image_path": "sun_aaxxjlsuzvqlgylf.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[147, 170], [147, 466], [226, 466], [226, 170]]"
+  },
+  {
+    "image_path": "sun_awuawixsfaurzuaa.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_awuawixsfaurzuaa.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_awuawixsfaurzuaa.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[202, 0], [202, 89], [280, 89], [280, 0]]"
+  },
+  {
+    "image_path": "sun_awuawixsfaurzuaa.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "sun_apslowdohuttdlkk.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[533, 135], [533, 192], [608, 192], [608, 135]]"
+  },
+  {
+    "image_path": "sun_apslowdohuttdlkk.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[268, 292], [268, 382], [447, 382], [447, 292]]"
+  },
+  {
+    "image_path": "sun_apslowdohuttdlkk.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[[187, 285], [187, 381], [263, 381], [263, 285]]"
+  },
+  {
+    "image_path": "sun_apslowdohuttdlkk.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[187, 272], [187, 381], [267, 381], [267, 272]]"
+  },
+  {
+    "image_path": "sun_aiolecljpamcnixg.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[321, 61], [321, 479], [487, 479], [487, 61]]"
+  },
+  {
+    "image_path": "sun_aiolecljpamcnixg.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[474, 334], [474, 501], [812, 501], [812, 334]]"
+  },
+  {
+    "image_path": "sun_aiolecljpamcnixg.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[346, 334], [346, 474], [458, 474], [458, 334]]"
+  },
+  {
+    "image_path": "sun_aiolecljpamcnixg.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[332, 58], [332, 481], [489, 481], [489, 58]]"
+  },
+  {
+    "image_path": "sun_aqzschgwftpwisen.jpg",
+    "chosen_item": "Bowl",
+    "chosen_polygon": "[[131, 125], [131, 138], [157, 138], [157, 125]]"
+  },
+  {
+    "image_path": "sun_aqzschgwftpwisen.jpg",
+    "chosen_item": "Cutting knife",
+    "chosen_polygon": "[[134, 139], [134, 161], [204, 161], [204, 139]]"
+  },
+  {
+    "image_path": "sun_aqzschgwftpwisen.jpg",
+    "chosen_item": "Plate",
+    "chosen_polygon": "[[131, 128], [131, 139], [188, 139], [188, 128]]"
+  },
+  {
+    "image_path": "sun_aqzschgwftpwisen.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[130, 133], [130, 196], [198, 196], [198, 133]]"
+  },
+  {
+    "image_path": "sun_althuptvuaxvjman.jpg",
+    "chosen_item": "Cooking oil",
+    "chosen_polygon": "[[107, 0], [107, 98], [483, 98], [483, 0]]"
+  },
+  {
+    "image_path": "sun_althuptvuaxvjman.jpg",
+    "chosen_item": "Dish towels",
+    "chosen_polygon": "[[83, 194], [83, 276], [139, 276], [139, 194]]"
+  },
+  {
+    "image_path": "sun_althuptvuaxvjman.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[[85, 204], [85, 278], [141, 278], [141, 204]]"
+  },
+  {
+    "image_path": "sun_althuptvuaxvjman.jpg",
+    "chosen_item": "Spoon",
+    "chosen_polygon": "[[194, 216], [194, 266], [271, 266], [271, 216]]"
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "image_path": "Bottle_opener_1_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[929, 802], [929, 1012], [1090, 1012], [1090, 802]]"
+  },
+  {
+    "image_path": "Bottle_opener_2_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[183, 393], [183, 695], [335, 695], [335, 393]]"
+  },
+  {
+    "image_path": "Bottle_opener_3_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[112, 1113], [112, 1208], [532, 1208], [532, 1113]]"
+  },
+  {
+    "image_path": "Bottle_opener_4_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Bottle_opener_5_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[303, 0], [303, 572], [907, 572], [907, 0]]"
+  },
+  {
+    "image_path": "Bottle_opener_6_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Bottle_opener_7_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[785, 930], [785, 1531], [925, 1531], [925, 930]]"
+  },
+  {
+    "image_path": "Bottle_opener_8_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[1381, 275], [1381, 1032], [1684, 1032], [1684, 275]]"
+  },
+  {
+    "image_path": "Bottle_opener_9_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[216, 908], [216, 1582], [373, 1582], [373, 908]]"
+  },
+  {
+    "image_path": "Bottle_opener_10_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[691, 810], [691, 1593], [893, 1593], [893, 810]]"
+  },
+  {
+    "image_path": "Bottle_opener_11_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Bottle_opener_12_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[564, 332], [564, 429], [782, 429], [782, 332]]"
+  },
+  {
+    "image_path": "Bottle_opener_13_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[491, 511], [491, 1099], [1497, 1099], [1497, 511]]"
+  },
+  {
+    "image_path": "Bottle_opener_14_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[322, 358], [322, 403], [417, 403], [417, 358]]"
+  },
+  {
+    "image_path": "Bottle_opener_15_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Bottle_opener_16_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[431, 458], [431, 602], [635, 602], [635, 458]]"
+  },
+  {
+    "image_path": "Bottle_opener_17_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[427, 670], [427, 1044], [898, 1044], [898, 670]]"
+  },
+  {
+    "image_path": "Bottle_opener_18_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[1094, 920], [1094, 1230], [1464, 1230], [1464, 920]]"
+  },
+  {
+    "image_path": "Bottle_opener_19_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[1139, 885], [1139, 1055], [1321, 1055], [1321, 885]]"
+  },
+  {
+    "image_path": "Bottle_opener_20_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[784, 1078], [784, 1510], [945, 1510], [945, 1078]]"
+  },
+  {
+    "image_path": "Bottle_opener_21_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[835, 1655], [835, 2819], [2361, 2819], [2361, 1655]]"
+  },
+  {
+    "image_path": "Bottle_opener_22_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Bottle_opener_23_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[1573, 741], [1573, 1036], [1885, 1036], [1885, 741]]"
+  },
+  {
+    "image_path": "Bottle_opener_24_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[814, 594], [814, 834], [947, 834], [947, 594]]"
+  },
+  {
+    "image_path": "Bottle_opener_25_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Bottle_opener_26_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[635, 751], [635, 1031], [816, 1031], [816, 751]]"
+  },
+  {
+    "image_path": "Bottle_opener_27_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Bottle_opener_29_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[413, 683], [413, 997], [753, 997], [753, 683]]"
+  },
+  {
+    "image_path": "Bottle_opener_30_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[454, 461], [454, 891], [605, 891], [605, 461]]"
+  },
+  {
+    "image_path": "Bottle_opener_31_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Bottle_opener_32_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[538, 1037], [538, 1380], [587, 1380], [587, 1037]]"
+  },
+  {
+    "image_path": "Bottle_opener_35_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[2005, 207], [2005, 1016], [2490, 1016], [2490, 207]]"
+  },
+  {
+    "image_path": "Bottle_opener_37_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[1346, 646], [1346, 1187], [2347, 1187], [2347, 646]]"
+  },
+  {
+    "image_path": "Bottle_opener_39_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[450, 695], [450, 1050], [640, 1050], [640, 695]]"
+  },
+  {
+    "image_path": "Bottle_opener_40_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[652, 428], [652, 475], [782, 475], [782, 428]]"
+  },
+  {
+    "image_path": "Bottle_opener_41_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[2035, 320], [2035, 1386], [2590, 1386], [2590, 320]]"
+  },
+  {
+    "image_path": "Bottle_opener_42_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[241, 595], [241, 901], [558, 901], [558, 595]]"
+  },
+  {
+    "image_path": "Bottle_opener_44_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[406, 734], [406, 985], [948, 985], [948, 734]]"
+  },
+  {
+    "image_path": "Bottle_opener_45_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[515, 1552], [515, 1695], [1230, 1695], [1230, 1552]]"
+  },
+  {
+    "image_path": "Bottle_opener_48_a.jpg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[655, 408], [655, 703], [857, 703], [857, 408]]"
+  },
+  {
+    "image_path": "Bottle_opener_47_a.jpeg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[0, 456], [0, 779], [357, 779], [357, 456]]"
+  },
+  {
+    "image_path": "Bottle_opener_34_a.jpeg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[[2796, 1891], [2796, 2241], [3157, 2241], [3157, 1891]]"
+  },
+  {
+    "image_path": "Bottle_opener_43_a.jpeg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Bottle_opener_33_a.jpeg",
+    "chosen_item": "Bottle opener",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Food_containers_1_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Food_containers_2_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[333, 820], [333, 1299], [657, 1299], [657, 820]]"
+  },
+  {
+    "image_path": "Food_containers_3_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[687, 1036], [687, 1505], [1075, 1505], [1075, 1036]]"
+  },
+  {
+    "image_path": "Food_containers_4_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Food_containers_5_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[56, 932], [56, 1487], [636, 1487], [636, 932]]"
+  },
+  {
+    "image_path": "Food_containers_6_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[162, 430], [162, 1534], [857, 1534], [857, 430]]"
+  },
+  {
+    "image_path": "Food_containers_7_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[0, 866], [0, 1181], [293, 1181], [293, 866]]"
+  },
+  {
+    "image_path": "Food_containers_8_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Food_containers_9_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[1453, 34], [1453, 374], [1932, 374], [1932, 34]]"
+  },
+  {
+    "image_path": "Food_containers_10_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[518, 531], [518, 942], [839, 942], [839, 531]]"
+  },
+  {
+    "image_path": "Food_containers_11_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[480, 0], [480, 255], [1134, 255], [1134, 0]]"
+  },
+  {
+    "image_path": "Food_containers_12_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Food_containers_13_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[87, 934], [87, 1511], [247, 1511], [247, 934]]"
+  },
+  {
+    "image_path": "Food_containers_14_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[1108, 666], [1108, 1006], [1288, 1006], [1288, 666]]"
+  },
+  {
+    "image_path": "Food_containers_15_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[393, 433], [393, 778], [780, 778], [780, 433]]"
+  },
+  {
+    "image_path": "Food_containers_16_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[592, 748], [592, 879], [742, 879], [742, 748]]"
+  },
+  {
+    "image_path": "Food_containers_17_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Food_containers_18_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[114, 718], [114, 1199], [555, 1199], [555, 718]]"
+  },
+  {
+    "image_path": "Food_containers_19_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[1022, 942], [1022, 1147], [1308, 1147], [1308, 942]]"
+  },
+  {
+    "image_path": "Food_containers_20_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[316, 518], [316, 707], [506, 707], [506, 518]]"
+  },
+  {
+    "image_path": "Food_containers_21_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[550, 498], [550, 796], [702, 796], [702, 498]]"
+  },
+  {
+    "image_path": "Food_containers_22_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Food_containers_23_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[1004, 698], [1004, 863], [1373, 863], [1373, 698]]"
+  },
+  {
+    "image_path": "Food_containers_24_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Food_containers_28_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[2320, 1674], [2320, 2346], [2929, 2346], [2929, 1674]]"
+  },
+  {
+    "image_path": "Food_containers_29_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Food_containers_33_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[937, 1444], [937, 2445], [1584, 2445], [1584, 1444]]"
+  },
+  {
+    "image_path": "Food_containers_34_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[533, 638], [533, 1020], [1006, 1020], [1006, 638]]"
+  },
+  {
+    "image_path": "Food_containers_35_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Food_containers_37_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[2300, 1105], [2300, 1558], [3146, 1558], [3146, 1105]]"
+  },
+  {
+    "image_path": "Food_containers_39_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[195, 423], [195, 1243], [646, 1243], [646, 423]]"
+  },
+  {
+    "image_path": "Food_containers_40_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[646, 406], [646, 587], [784, 587], [784, 406]]"
+  },
+  {
+    "image_path": "Food_containers_41_a.jpg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[298, 388], [298, 879], [671, 879], [671, 388]]"
+  },
+  {
+    "image_path": "Food_containers_36_a.jpeg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[1246, 1419], [1246, 1906], [1470, 1906], [1470, 1419]]"
+  },
+  {
+    "image_path": "Food_containers_30_a.jpeg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[[793, 1377], [793, 1571], [1054, 1571], [1054, 1377]]"
+  },
+  {
+    "image_path": "Food_containers_25_a.jpeg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Food_containers_31_a.jpeg",
+    "chosen_item": "Tupperware containers",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Random_5 - Candles_a.jpeg",
+    "chosen_item": "Candles",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Random_15 - Cereals_a.jpg",
+    "chosen_item": "Cereals",
+    "chosen_polygon": "[[320, 0], [320, 349], [672, 349], [672, 0]]"
+  },
+  {
+    "image_path": "Random_1 - Fork_a.jpg",
+    "chosen_item": "Fork",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Random_12 - Fork_a.jpeg",
+    "chosen_item": "Fork",
+    "chosen_polygon": "[[304, 924], [304, 1277], [770, 1277], [770, 924]]"
+  },
+  {
+    "image_path": "Random_7 - Peeler_a.jpeg",
+    "chosen_item": "Peeler",
+    "chosen_polygon": "[[1240, 1724], [1240, 2335], [1469, 2335], [1469, 1724]]"
+  },
+  {
+    "image_path": "Random_14 - Pot_a.jpg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[[1, 400], [1, 588], [778, 588], [778, 400]]"
+  },
+  {
+    "image_path": "Random_22 - Pot_a.jpeg",
+    "chosen_item": "Pot",
+    "chosen_polygon": "[[1066, 533], [1066, 1340], [1908, 1340], [1908, 533]]"
+  },
+  {
+    "image_path": "Random_21 - Rolling pin_a.jpg",
+    "chosen_item": "Rolling pin",
+    "chosen_polygon": "[[3041, 1529], [3041, 2115], [3355, 2115], [3355, 1529]]"
+  },
+  {
+    "image_path": "Random_17 - Spices_a.jpg",
+    "chosen_item": "Spices",
+    "chosen_polygon": "[[500, 419], [500, 719], [887, 719], [887, 419]]"
+  },
+  {
+    "image_path": "Screwdriver_1_a.jpg",
+    "chosen_item": "Screwdriver",
+    "chosen_polygon": "[[334, 847], [334, 944], [633, 944], [633, 847]]"
+  },
+  {
+    "image_path": "Screwdriver_11_a.jpg",
+    "chosen_item": "Screwdriver",
+    "chosen_polygon": "[[201, 796], [201, 1066], [340, 1066], [340, 796]]"
+  },
+  {
+    "image_path": "Screwdriver_16_a.jpg",
+    "chosen_item": "Screwdriver",
+    "chosen_polygon": "[[976, 1482], [976, 2474], [1589, 2474], [1589, 1482]]"
+  },
+  {
+    "image_path": "Screwdriver_14_a.jpeg",
+    "chosen_item": "Screwdriver",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Painkiller_1_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[[889, 652], [889, 1665], [1101, 1665], [1101, 652]]"
+  },
+  {
+    "image_path": "Painkiller_4_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[[51, 962], [51, 1506], [634, 1506], [634, 962]]"
+  },
+  {
+    "image_path": "Painkiller_5_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[[182, 1099], [182, 1540], [605, 1540], [605, 1099]]"
+  },
+  {
+    "image_path": "Painkiller_19_a.jpg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[[808, 1168], [808, 1739], [1481, 1739], [1481, 1168]]"
+  },
+  {
+    "image_path": "Painkiller_23_a.jpeg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[]"
+  },
+  {
+    "image_path": "Painkiller_29_a.jpeg",
+    "chosen_item": "Painkiller",
+    "chosen_polygon": "[[2427, 23], [2427, 1157], [3233, 1157], [3233, 23]]"
+  }
+]

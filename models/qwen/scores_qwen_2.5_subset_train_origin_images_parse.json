@@ -1,0 +1,9 @@
+[
+  {
+    "user_id":"qwen",
+    "correct_answers":28,
+    "total_attempts":370,
+    "accuracy (%)":7.57,
+    "average_IoU":0.099
+  }
+]
