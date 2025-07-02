@@ -1,0 +1,9 @@
+[
+  {
+    "user_id":"llama_4",
+    "correct_answers":12,
+    "total_attempts":370,
+    "accuracy (%)":3.24,
+    "average_IoU":0.071
+  }
+]

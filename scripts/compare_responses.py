@@ -431,7 +431,9 @@ def give_score_on_data_fixed(data_json, users_responses_json, scores_json, respo
                 # "human": 1.0,
                 "random": 1.0,
                 "chatgpt": 1.0,
-                "llama": 1.0,
+                "llama_3.3": 1.0,
+                "llama_4": 0.2,
+                "qwen": 0.2,
                 "gpt-4o": 0.2,
                 "kosmos": 0.2,
                 "gemini": 0.2,
@@ -955,7 +957,9 @@ def t_test():
     model_files = {
         "gpt-4o": "./t-test_results/score_per_pair_gpt-4o.csv",
         "chatgpt": "./t-test_results/score_per_pair_chatgpt.csv",
-        "llama": "./t-test_results/score_per_pair_llama.csv",
+        "llama_3.3": "./t-test_results/score_per_pair_llama.csv",
+        "llama_4": "./t-test_results/score_per_pair_llama_4.csv",
+        "qwen": "./t-test_results/score_per_pair_qwen.csv",
         "random": "./t-test_results/score_per_pair_random.csv",
         "kosmos": "./t-test_results/score_per_pair_kosmos.csv",
         "gemini_1.5": "./t-test_results/score_per_pair_gemini_1.5.csv",
@@ -1022,7 +1026,7 @@ def t_test():
     # print(significant_vs_chatgpt[['A', 'B', 'T', 'p-corr', 'hedges']])
 
     # Define the models to compare with 'chatgpt'
-    models_to_compare = ['llama', 'gpt-4o', 'random', 'kosmos', 'gemini-1.5', 'gemini-2.5', 'dino-1', 'dino-0.95',
+    models_to_compare = ['llama_3.3', 'llama_4', 'qwen', 'gpt-4o', 'random', 'kosmos', 'gemini-1.5', 'gemini-2.5', 'dino-1', 'dino-0.95',
                          'dino_no_item', 'human_1', 'human_2', 'human_3']
 
     # Filter the results where chatgpt is being compared to the other models
@@ -1297,7 +1301,7 @@ if __name__ == "__main__":
                         ("../models/gpt-4o/scores_chatgpt_baseline_test_kitchen_origin_images_parse_per_item.csv",
                          "gpt-4o"),
                         ("../models/kosmos2/scores_kosmos_test_data_kitchen_per_item.csv", "kosmos-2"),
-                        ("../models/llama/scores_llama_test_short_id_pos_lab_anchrs_ratio_per_item.csv", "NOAM LLaMA-3.3")]
+                        ("../models/llama_3.3/scores_llama_test_short_id_pos_lab_anchrs_ratio_per_item.csv", "NOAM LLaMA-3.3")]
     human_csv_path = "../baselines/human/scores_human_test_data_per_item.csv"
     output_dir = "stat_plots_per_item"
     results_per_item_stat(named_model_csvs=named_model_csvs, human_csv_path=human_csv_path, output_dir=output_dir,

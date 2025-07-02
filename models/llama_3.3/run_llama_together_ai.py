@@ -154,7 +154,7 @@ if __name__ == '__main__':
         model_to_run = "gpt-4"
 
     # Load data
-    csv_path = "../../containers_info_table/test_info_table_versions/test_labeled_containers.csv"
-    json_path = "../../image_details/image_to_items_dict_test_kitchen.json"
-    together_output = f"./{model}_results_test_short_id_pos_lab_anchrs_ratio.csv"
+    csv_path = "../../containers_info_table/train_info_table_versions/short_id_pos_lab_anchrs_ratio_with_description.csv"
+    json_path = "../../image_details/image_to_items_dict_missing_llama.json"
+    together_output = f"./{model}_results_missing_llama.csv"
     run_queries_in_together(csv_path=csv_path, json_path=json_path, together_output=together_output)
