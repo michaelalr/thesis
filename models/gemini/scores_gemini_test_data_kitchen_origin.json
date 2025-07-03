@@ -1,6 +1,6 @@
 [
   {
-    "user_id":"gemini",
+    "user_id":"gemini_1.5",
     "correct_answers":3,
     "total_attempts":100,
     "accuracy (%)":3.0,

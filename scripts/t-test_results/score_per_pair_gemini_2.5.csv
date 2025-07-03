@@ -28,7 +28,7 @@ Bottle_opener_26_a.jpg,Bottle opener,gemini_2.5,0.0,0
 Bottle_opener_27_a.jpg,Bottle opener,gemini_2.5,0.0,0
 Bottle_opener_29_a.jpg,Bottle opener,gemini_2.5,0.0,0
 Bottle_opener_30_a.jpg,Bottle opener,gemini_2.5,0.0,0
-Bottle_opener_31_a.jpg,Bottle opener,gemini_2.5,0.3857937561200991,1
+Bottle_opener_31_a.jpg,Bottle opener,gemini_2.5,0.3857937561200991,0
 Bottle_opener_32_a.jpg,Bottle opener,gemini_2.5,0.0,0
 Bottle_opener_35_a.jpg,Bottle opener,gemini_2.5,0.0,0
 Bottle_opener_37_a.jpg,Bottle opener,gemini_2.5,0.0,0
@@ -61,9 +61,9 @@ Food_containers_15_a.jpg,Tupperware containers,gemini_2.5,0.0,0
 Food_containers_16_a.jpg,Tupperware containers,gemini_2.5,0.0,0
 Food_containers_17_a.jpg,Tupperware containers,gemini_2.5,0.0,0
 Food_containers_18_a.jpg,Tupperware containers,gemini_2.5,0.0,0
-Food_containers_19_a.jpg,Tupperware containers,gemini_2.5,0.2455248829008309,1
+Food_containers_19_a.jpg,Tupperware containers,gemini_2.5,0.2455248829008309,0
 Food_containers_20_a.jpg,Tupperware containers,gemini_2.5,0.1250672360335613,0
-Food_containers_21_a.jpg,Tupperware containers,gemini_2.5,0.24956337720981112,1
+Food_containers_21_a.jpg,Tupperware containers,gemini_2.5,0.24956337720981112,0
 Food_containers_22_a.jpg,Tupperware containers,gemini_2.5,0.0,0
 Food_containers_23_a.jpg,Tupperware containers,gemini_2.5,0.0,0
 Food_containers_24_a.jpg,Tupperware containers,gemini_2.5,0.0,0
@@ -81,7 +81,7 @@ Food_containers_30_a.jpeg,Tupperware containers,gemini_2.5,0.0,0
 Food_containers_25_a.jpeg,Tupperware containers,gemini_2.5,0.0,0
 Food_containers_31_a.jpeg,Tupperware containers,gemini_2.5,0.0,0
 Random_5 - Candles_a.jpeg,Candles,gemini_2.5,0.0,0
-Random_15 - Cereals_a.jpg,Cereals,gemini_2.5,0.3316335740072202,1
+Random_15 - Cereals_a.jpg,Cereals,gemini_2.5,0.3316335740072202,0
 Random_1 - Fork_a.jpg,Fork,gemini_2.5,0.0,0
 Random_12 - Fork_a.jpeg,Fork,gemini_2.5,0.0,0
 Random_7 - Peeler_a.jpeg,Peeler,gemini_2.5,0.0,0

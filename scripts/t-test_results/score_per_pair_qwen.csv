@@ -1,371 +1,101 @@
 image_path,item,user_id,iou,accuracy
-sun_aaslbwtcdcwjukuo.jpg,Cutting board,qwen,0.0,0
-sun_aaslbwtcdcwjukuo.jpg,Pot,qwen,0.0,0
-sun_aaslbwtcdcwjukuo.jpg,Spoon,qwen,0.0,0
-sun_afjofbpiualrfwlz.jpg,Bottle opener,qwen,0.4380070377184911,0
-sun_afjofbpiualrfwlz.jpg,Cutting board,qwen,0.0,0
-sun_afjofbpiualrfwlz.jpg,Pan,qwen,0.6189141563189661,1
-sun_afjofbpiualrfwlz.jpg,Spoon,qwen,0.19941950267280983,0
-sun_avfsqwoiantddppx.jpg,Bowl,qwen,0.0,0
-sun_avfsqwoiantddppx.jpg,Mug,qwen,0.0,0
-sun_avfsqwoiantddppx.jpg,Pan,qwen,0.0,0
-sun_avfsqwoiantddppx.jpg,Tupperware containers,qwen,0.0,0
-sun_ayzwrfmejwnjncpp.jpg,Cooking oil,qwen,0.0,0
-sun_ayzwrfmejwnjncpp.jpg,Dish towels,qwen,0.0,0
-sun_ayzwrfmejwnjncpp.jpg,Plate,qwen,1.0,1
-sun_ayzwrfmejwnjncpp.jpg,Spices,qwen,0.0,0
-sun_andzglcqubvbzfhz.jpg,Cooking oil,qwen,0.0,0
-sun_andzglcqubvbzfhz.jpg,Dish towels,qwen,0.0341153802561487,0
-sun_andzglcqubvbzfhz.jpg,Plate,qwen,0.0,0
-sun_andzglcqubvbzfhz.jpg,Spices,qwen,0.0,0
-sun_apdjgezcekdmxeow.jpg,Cutting knife,qwen,0.0,0
-sun_apdjgezcekdmxeow.jpg,Plate,qwen,0.0,0
-sun_apdjgezcekdmxeow.jpg,Spices,qwen,0.0,0
-sun_apdjgezcekdmxeow.jpg,Tupperware containers,qwen,0.0,0
-sun_awmwrrktzbyokpcr.jpg,Bottle opener,qwen,0.0,0
-sun_awmwrrktzbyokpcr.jpg,Bowl,qwen,0.0,0
-sun_awmwrrktzbyokpcr.jpg,Mug,qwen,0.014208105483204813,0
-sun_awmwrrktzbyokpcr.jpg,Pan,qwen,0.0,0
-sun_axdfhsszzzqksxnx.jpg,Bowl,qwen,0.0,0
-sun_axdfhsszzzqksxnx.jpg,Cutting knife,qwen,0.0,0
-sun_axdfhsszzzqksxnx.jpg,Mug,qwen,0.0,0
-sun_axdfhsszzzqksxnx.jpg,Tupperware containers,qwen,0.0,0
-sun_acyvmyzypyuwnann.jpg,Cooking oil,qwen,0.0,0
-sun_acyvmyzypyuwnann.jpg,Dish towels,qwen,0.0,0
-sun_acyvmyzypyuwnann.jpg,Plate,qwen,0.0,0
-sun_acyvmyzypyuwnann.jpg,Spices,qwen,0.0,0
-sun_afphfxkabyerpwkz.jpg,Bottle opener,qwen,0.0,0
-sun_afphfxkabyerpwkz.jpg,Cutting board,qwen,0.0,0
-sun_afphfxkabyerpwkz.jpg,Pot,qwen,0.0,0
-sun_afphfxkabyerpwkz.jpg,Spoon,qwen,0.0,0
-sun_afwaivvfezladsbj.jpg,Bowl,qwen,0.0,0
-sun_afwaivvfezladsbj.jpg,Mug,qwen,1.0,1
-sun_afwaivvfezladsbj.jpg,Pan,qwen,0.0,0
-sun_afwaivvfezladsbj.jpg,Tupperware containers,qwen,0.0,0
-sun_agdxrnaqlzlannbk.jpg,Bottle opener,qwen,0.0,0
-sun_agdxrnaqlzlannbk.jpg,Bowl,qwen,0.0,0
-sun_agdxrnaqlzlannbk.jpg,Mug,qwen,0.0,0
-sun_agdxrnaqlzlannbk.jpg,Pan,qwen,0.20117245160474043,0
-sun_aglwoufpxbtxqecp.jpg,Cutting knife,qwen,0.0,0
-sun_aglwoufpxbtxqecp.jpg,Dish towels,qwen,0.0,0
-sun_aglwoufpxbtxqecp.jpg,Plate,qwen,0.5835772110524116,1
-sun_aglwoufpxbtxqecp.jpg,Spices,qwen,0.0,0
-sun_ajuqshhjcubjzedh.jpg,Bottle opener,qwen,0.0,0
-sun_ajuqshhjcubjzedh.jpg,Cutting board,qwen,0.0,0
-sun_ajuqshhjcubjzedh.jpg,Pan,qwen,0.0,0
-sun_ajuqshhjcubjzedh.jpg,Spoon,qwen,0.45339915107911094,0
-sun_alqlmxgzxpeuaciw.jpg,Bottle opener,qwen,1.0,1
-sun_alqlmxgzxpeuaciw.jpg,Cutting board,qwen,1.0,1
-sun_alqlmxgzxpeuaciw.jpg,Mug,qwen,0.0,0
-sun_alqlmxgzxpeuaciw.jpg,Pan,qwen,1.0,1
-sun_anfzulzazofakfhm.jpg,Bottle opener,qwen,0.1429643934941198,0
-sun_anfzulzazofakfhm.jpg,Cutting board,qwen,0.2785714285714286,0
-sun_anfzulzazofakfhm.jpg,Pan,qwen,0.7527485884387284,1
-sun_anfzulzazofakfhm.jpg,Spoon,qwen,0.13581890812250333,0
-sun_aopqdojqibxivqgu.jpg,Cooking oil,qwen,0.0,0
-sun_aopqdojqibxivqgu.jpg,Dish towels,qwen,0.0,0
-sun_aopqdojqibxivqgu.jpg,Pot,qwen,0.27599535500995354,0
-sun_aopqdojqibxivqgu.jpg,Spoon,qwen,0.0,0
-sun_aehkkaenyyjnewst.jpg,Bowl,qwen,0.0,0
-sun_aehkkaenyyjnewst.jpg,Cutting knife,qwen,0.0,0
-sun_aehkkaenyyjnewst.jpg,Plate,qwen,0.0,0
-sun_aehkkaenyyjnewst.jpg,Tupperware containers,qwen,0.0,0
-sun_arerafgvufvljolx.jpg,Cutting board,qwen,0.0,0
-sun_arerafgvufvljolx.jpg,Pot,qwen,0.0,0
-sun_arerafgvufvljolx.jpg,Spoon,qwen,0.0,0
-sun_asymyduxvrjpcvzg.jpg,Bowl,qwen,0.0,0
-sun_asymyduxvrjpcvzg.jpg,Cutting knife,qwen,0.0,0
-sun_asymyduxvrjpcvzg.jpg,Mug,qwen,0.0,0
-sun_asymyduxvrjpcvzg.jpg,Tupperware containers,qwen,0.1813840209135949,0
-sun_adswmdfkombffqhi.jpg,Bottle opener,qwen,0.0,0
-sun_adswmdfkombffqhi.jpg,Cutting board,qwen,0.0,0
-sun_adswmdfkombffqhi.jpg,Mug,qwen,0.0,0
-sun_adswmdfkombffqhi.jpg,Pan,qwen,0.0,0
-sun_amcseadaqamjvkpr.jpg,Bowl,qwen,0.0,0
-sun_amcseadaqamjvkpr.jpg,Cutting knife,qwen,0.0,0
-sun_amcseadaqamjvkpr.jpg,Mug,qwen,0.0,0
-sun_amcseadaqamjvkpr.jpg,Tupperware containers,qwen,0.0,0
-sun_aucefajtdpoipkjt.jpg,Cutting knife,qwen,0.11898031297324584,0
-sun_aucefajtdpoipkjt.jpg,Plate,qwen,0.0,0
-sun_aucefajtdpoipkjt.jpg,Spices,qwen,0.0,0
-sun_aucefajtdpoipkjt.jpg,Tupperware containers,qwen,0.0,0
-sun_axlhgujigbdqvdzl.jpg,Bowl,qwen,0.0,0
-sun_axlhgujigbdqvdzl.jpg,Cutting knife,qwen,0.07117191818684356,0
-sun_axlhgujigbdqvdzl.jpg,Mug,qwen,0.0,0
-sun_axlhgujigbdqvdzl.jpg,Tupperware containers,qwen,0.0,0
-sun_amstpwyljnixuvqh.jpg,Cooking oil,qwen,0.0,0
-sun_amstpwyljnixuvqh.jpg,Dish towels,qwen,0.013669134235078303,0
-sun_amstpwyljnixuvqh.jpg,Pot,qwen,0.0,0
-sun_amstpwyljnixuvqh.jpg,Spoon,qwen,0.0,0
-sun_anleedlurkiswrjv.jpg,Bottle opener,qwen,0.0,0
-sun_anleedlurkiswrjv.jpg,Cutting board,qwen,0.0,0
-sun_anleedlurkiswrjv.jpg,Pan,qwen,0.0,0
-sun_anleedlurkiswrjv.jpg,Spoon,qwen,0.1265552415356539,0
-sun_apnxsgbjjdleuhdu.jpg,Cooking oil,qwen,0.0,0
-sun_apnxsgbjjdleuhdu.jpg,Dish towels,qwen,0.031262782679834046,0
-sun_apnxsgbjjdleuhdu.jpg,Plate,qwen,0.0,0
-sun_apnxsgbjjdleuhdu.jpg,Spices,qwen,0.0,0
-sun_apuaydbvdodzgqrh.jpg,Cutting knife,qwen,0.0,0
-sun_apuaydbvdodzgqrh.jpg,Plate,qwen,0.0,0
-sun_apuaydbvdodzgqrh.jpg,Spices,qwen,0.0,0
-sun_apuaydbvdodzgqrh.jpg,Tupperware containers,qwen,0.0,0
-sun_avdeakyjwzxtynyf.jpg,Bottle opener,qwen,0.21591225950367135,0
-sun_avdeakyjwzxtynyf.jpg,Cutting board,qwen,0.16291092258748674,0
-sun_avdeakyjwzxtynyf.jpg,Mug,qwen,0.0,0
-sun_avdeakyjwzxtynyf.jpg,Pan,qwen,0.002815237191565925,0
-sun_avtqdvhwdfzykzby.jpg,Cooking oil,qwen,0.0,0
-sun_avtqdvhwdfzykzby.jpg,Dish towels,qwen,0.0,0
-sun_avtqdvhwdfzykzby.jpg,Plate,qwen,0.0,0
-sun_avtqdvhwdfzykzby.jpg,Spices,qwen,0.0,0
-sun_abwmjfnrmqjdltxn.jpg,Cutting knife,qwen,0.0,0
-sun_abwmjfnrmqjdltxn.jpg,Dish towels,qwen,0.0,0
-sun_abwmjfnrmqjdltxn.jpg,Plate,qwen,0.0,0
-sun_abwmjfnrmqjdltxn.jpg,Spices,qwen,0.0,0
-sun_alqafgyfzsctxwtt.jpg,Cooking oil,qwen,0.29957514332514334,0
-sun_alqafgyfzsctxwtt.jpg,Dish towels,qwen,0.0,0
-sun_alqafgyfzsctxwtt.jpg,Plate,qwen,0.0,0
-sun_alqafgyfzsctxwtt.jpg,Spices,qwen,0.0,0
-sun_amtngujfdqlygigl.jpg,Bottle opener,qwen,0.18529684601113172,0
-sun_amtngujfdqlygigl.jpg,Cutting board,qwen,0.0,0
-sun_amtngujfdqlygigl.jpg,Pan,qwen,0.5741621620639304,1
-sun_amtngujfdqlygigl.jpg,Spoon,qwen,0.13807603686635944,0
-sun_agorklincwxrdtga.jpg,Cooking oil,qwen,0.8678387056505383,1
-sun_agorklincwxrdtga.jpg,Dish towels,qwen,0.041783826003364576,0
-sun_agorklincwxrdtga.jpg,Pot,qwen,0.0,0
-sun_agorklincwxrdtga.jpg,Spices,qwen,0.0,0
-sun_ahqykyyouxkgmdnq.jpg,Cutting knife,qwen,0.0,0
-sun_ahqykyyouxkgmdnq.jpg,Plate,qwen,0.0,0
-sun_ahqykyyouxkgmdnq.jpg,Spices,qwen,0.0,0
-sun_ahqykyyouxkgmdnq.jpg,Tupperware containers,qwen,0.0,0
-sun_aiolecljpamcnixg.jpg,Cooking oil,qwen,0.0,0
-sun_aiolecljpamcnixg.jpg,Dish towels,qwen,0.0262197498494136,0
-sun_aiolecljpamcnixg.jpg,Plate,qwen,0.0,0
-sun_aiolecljpamcnixg.jpg,Spices,qwen,0.0,0
-sun_agfmsmojwptjoava.jpg,Cooking oil,qwen,0.0,0
-sun_agfmsmojwptjoava.jpg,Dish towels,qwen,0.0,0
-sun_agfmsmojwptjoava.jpg,Pot,qwen,0.0,0
-sun_agfmsmojwptjoava.jpg,Spoon,qwen,0.1172341696535245,0
-sun_auhdmjbjkxwrixim.jpg,Bowl,qwen,0.0,0
-sun_auhdmjbjkxwrixim.jpg,Cutting knife,qwen,0.18724782182025804,0
-sun_auhdmjbjkxwrixim.jpg,Mug,qwen,0.0,0
-sun_auhdmjbjkxwrixim.jpg,Tupperware containers,qwen,0.0,0
-sun_ahljzhgcdpomplvg.jpg,Bowl,qwen,0.0,0
-sun_ahljzhgcdpomplvg.jpg,Cutting knife,qwen,0.0,0
-sun_ahljzhgcdpomplvg.jpg,Mug,qwen,0.0,0
-sun_ahljzhgcdpomplvg.jpg,Tupperware containers,qwen,0.0,0
-sun_alyqyulcvigwjdyc.jpg,Bowl,qwen,0.0,0
-sun_alyqyulcvigwjdyc.jpg,Cutting knife,qwen,0.03232353232353232,0
-sun_alyqyulcvigwjdyc.jpg,Plate,qwen,0.0,0
-sun_alyqyulcvigwjdyc.jpg,Tupperware containers,qwen,0.0,0
-sun_anrbnligfknyblpd.jpg,Bottle opener,qwen,0.0,0
-sun_anrbnligfknyblpd.jpg,Cutting board,qwen,0.0,0
-sun_anrbnligfknyblpd.jpg,Mug,qwen,0.0,0
-sun_anrbnligfknyblpd.jpg,Pan,qwen,0.0,0
-sun_aasmevtpkslccptd.jpg,Bowl,qwen,0.0,0
-sun_aasmevtpkslccptd.jpg,Cutting knife,qwen,0.0,0
-sun_aasmevtpkslccptd.jpg,Plate,qwen,0.0,0
-sun_aasmevtpkslccptd.jpg,Tupperware containers,qwen,1.0,1
-sun_abvefvntluoxopow.jpg,Bowl,qwen,0.35758749253458694,0
-sun_abvefvntluoxopow.jpg,Cutting knife,qwen,1.0,1
-sun_abvefvntluoxopow.jpg,Mug,qwen,0.0,0
-sun_abvefvntluoxopow.jpg,Tupperware containers,qwen,0.0,0
-sun_aklijrkocvkcmsfg.jpg,Cutting knife,qwen,0.09876737752565046,0
-sun_aklijrkocvkcmsfg.jpg,Plate,qwen,0.0,0
-sun_aklijrkocvkcmsfg.jpg,Spices,qwen,0.0,0
-sun_aklijrkocvkcmsfg.jpg,Tupperware containers,qwen,0.0,0
-sun_afkwbtipaeipuaer.jpg,Bottle opener,qwen,0.034359341445955614,0
-sun_afkwbtipaeipuaer.jpg,Cutting board,qwen,0.0,0
-sun_afkwbtipaeipuaer.jpg,Mug,qwen,0.0,0
-sun_afkwbtipaeipuaer.jpg,Pan,qwen,0.0,0
-sun_aofyuejouqtbyooo.jpg,Bowl,qwen,0.0,0
-sun_aofyuejouqtbyooo.jpg,Cutting knife,qwen,0.0,0
-sun_aofyuejouqtbyooo.jpg,Plate,qwen,0.0,0
-sun_aofyuejouqtbyooo.jpg,Tupperware containers,qwen,0.0,0
-sun_augjvuygusrwlxqz.jpg,Bowl,qwen,0.0,0
-sun_augjvuygusrwlxqz.jpg,Cutting knife,qwen,0.0,0
-sun_augjvuygusrwlxqz.jpg,Plate,qwen,0.0,0
-sun_augjvuygusrwlxqz.jpg,Tupperware containers,qwen,0.0,0
-sun_aczchqarcsdhjfsg.jpg,Cooking oil,qwen,0.0,0
-sun_aczchqarcsdhjfsg.jpg,Dish towels,qwen,0.09404503565087506,0
-sun_aczchqarcsdhjfsg.jpg,Pot,qwen,0.3702536892720942,0
-sun_aczchqarcsdhjfsg.jpg,Spoon,qwen,0.0,0
-sun_aaxxjlsuzvqlgylf.jpg,Bowl,qwen,0.0,0
-sun_aaxxjlsuzvqlgylf.jpg,Cutting knife,qwen,0.0,0
-sun_aaxxjlsuzvqlgylf.jpg,Plate,qwen,0.0,0
-sun_aaxxjlsuzvqlgylf.jpg,Tupperware containers,qwen,0.0,0
-sun_apslowdohuttdlkk.jpg,Cooking oil,qwen,0.0,0
-sun_apslowdohuttdlkk.jpg,Dish towels,qwen,0.1644009931719429,0
-sun_apslowdohuttdlkk.jpg,Pot,qwen,0.0,0
-sun_apslowdohuttdlkk.jpg,Spices,qwen,0.0,0
-sun_awbppqusbpubsfeq.jpg,Bowl,qwen,0.0,0
-sun_awbppqusbpubsfeq.jpg,Cutting knife,qwen,0.0,0
-sun_awbppqusbpubsfeq.jpg,Plate,qwen,0.0,0
-sun_awbppqusbpubsfeq.jpg,Tupperware containers,qwen,0.0,0
-sun_axpesxgsnxrsdqtr.jpg,Bottle opener,qwen,0.0,0
-sun_axpesxgsnxrsdqtr.jpg,Cutting board,qwen,0.02574521055303484,0
-sun_axpesxgsnxrsdqtr.jpg,Mug,qwen,0.0,0
-sun_axpesxgsnxrsdqtr.jpg,Pan,qwen,0.0,0
-sun_aobtqmsjotgsxppu.jpg,Bottle opener,qwen,1.0,1
-sun_aobtqmsjotgsxppu.jpg,Bowl,qwen,0.25883544898573496,0
-sun_aobtqmsjotgsxppu.jpg,Mug,qwen,0.0,0
-sun_aobtqmsjotgsxppu.jpg,Pan,qwen,1.0,1
-sun_abqsxcyxnovlihxy.jpg,Bottle opener,qwen,1.0,1
-sun_abqsxcyxnovlihxy.jpg,Cutting board,qwen,0.0,0
-sun_abqsxcyxnovlihxy.jpg,Pan,qwen,0.0,0
-sun_abqsxcyxnovlihxy.jpg,Spoon,qwen,1.0,1
-sun_afnyuyhhwgifatsk.jpg,Cooking oil,qwen,0.1542611438732557,0
-sun_afnyuyhhwgifatsk.jpg,Dish towels,qwen,0.0,0
-sun_afnyuyhhwgifatsk.jpg,Pot,qwen,0.0,0
-sun_afnyuyhhwgifatsk.jpg,Spices,qwen,0.0,0
-sun_aitjzvdsvqtarrmr.jpg,Bottle opener,qwen,0.0,0
-sun_aitjzvdsvqtarrmr.jpg,Bowl,qwen,0.0,0
-sun_aitjzvdsvqtarrmr.jpg,Mug,qwen,0.0,0
-sun_aitjzvdsvqtarrmr.jpg,Pan,qwen,0.0,0
-sun_aohalqjxiodeyhwm.jpg,Bottle opener,qwen,0.0,0
-sun_aohalqjxiodeyhwm.jpg,Bowl,qwen,0.0,0
-sun_aohalqjxiodeyhwm.jpg,Mug,qwen,0.49976956863756433,0
-sun_aohalqjxiodeyhwm.jpg,Pan,qwen,0.0,0
-sun_axzmxlymdvjqqfpk.jpg,Bottle opener,qwen,0.0,0
-sun_axzmxlymdvjqqfpk.jpg,Cutting board,qwen,0.0,0
-sun_axzmxlymdvjqqfpk.jpg,Pot,qwen,0.77246221756166,1
-sun_axzmxlymdvjqqfpk.jpg,Spoon,qwen,0.0,0
-sun_aamjqvjnuxklyagf.jpg,Bottle opener,qwen,0.0,0
-sun_aamjqvjnuxklyagf.jpg,Cutting board,qwen,0.5430237640167254,1
-sun_aamjqvjnuxklyagf.jpg,Pan,qwen,0.0,0
-sun_aamjqvjnuxklyagf.jpg,Spoon,qwen,0.10071185391519653,0
-sun_aawsixgpgwqanatu.jpg,Bowl,qwen,0.0,0
-sun_aawsixgpgwqanatu.jpg,Cutting knife,qwen,0.0,0
-sun_aawsixgpgwqanatu.jpg,Mug,qwen,1.0,1
-sun_aawsixgpgwqanatu.jpg,Tupperware containers,qwen,0.0,0
-sun_adglbgauiayicwkm.jpg,Cooking oil,qwen,0.0,0
-sun_adglbgauiayicwkm.jpg,Dish towels,qwen,0.0,0
-sun_adglbgauiayicwkm.jpg,Plate,qwen,1.0,1
-sun_adglbgauiayicwkm.jpg,Spices,qwen,0.0,0
-sun_adkmgnqaiypcnhqy.jpg,Bowl,qwen,0.051207116170287094,0
-sun_adkmgnqaiypcnhqy.jpg,Cutting knife,qwen,0.0,0
-sun_adkmgnqaiypcnhqy.jpg,Plate,qwen,0.020765472312703582,0
-sun_adkmgnqaiypcnhqy.jpg,Tupperware containers,qwen,0.0,0
-sun_ajkrefpvgtunjiyi.jpg,Bottle opener,qwen,0.0,0
-sun_ajkrefpvgtunjiyi.jpg,Cutting board,qwen,0.0,0
-sun_ajkrefpvgtunjiyi.jpg,Pan,qwen,0.0,0
-sun_ajkrefpvgtunjiyi.jpg,Spoon,qwen,0.06256668153058255,0
-sun_ajpanclprxjlugfr.jpg,Cooking oil,qwen,0.23471786833855798,0
-sun_ajpanclprxjlugfr.jpg,Dish towels,qwen,0.0,0
-sun_ajpanclprxjlugfr.jpg,Plate,qwen,1.0,1
-sun_ajpanclprxjlugfr.jpg,Spices,qwen,0.20719474230370113,0
-sun_akgdlzofsznnznzs.jpg,Cooking oil,qwen,0.0,0
-sun_akgdlzofsznnznzs.jpg,Dish towels,qwen,0.08044601095076592,0
-sun_akgdlzofsznnznzs.jpg,Pot,qwen,0.0,0
-sun_akgdlzofsznnznzs.jpg,Spices,qwen,0.0,0
-sun_aqtnebfegavdqvzg.jpg,Bottle opener,qwen,0.0,0
-sun_aqtnebfegavdqvzg.jpg,Cutting board,qwen,0.12756294663728043,0
-sun_aqtnebfegavdqvzg.jpg,Pot,qwen,0.0,0
-sun_aqtnebfegavdqvzg.jpg,Spoon,qwen,0.0,0
-sun_aunbvudubwlyozvt.jpg,Bowl,qwen,0.0,0
-sun_aunbvudubwlyozvt.jpg,Cutting knife,qwen,0.0,0
-sun_aunbvudubwlyozvt.jpg,Mug,qwen,0.0,0
-sun_aunbvudubwlyozvt.jpg,Tupperware containers,qwen,0.0,0
-sun_avaaxiemmqbibywj.jpg,Bottle opener,qwen,0.023917259211376857,0
-sun_avaaxiemmqbibywj.jpg,Cutting board,qwen,0.0,0
-sun_avaaxiemmqbibywj.jpg,Mug,qwen,0.0,0
-sun_avaaxiemmqbibywj.jpg,Pan,qwen,0.0,0
-sun_avtqpxlipvlcrsge.jpg,Bowl,qwen,0.6158576506934665,1
-sun_avtqpxlipvlcrsge.jpg,Cutting knife,qwen,0.0,0
-sun_avtqpxlipvlcrsge.jpg,Mug,qwen,1.0,1
-sun_avtqpxlipvlcrsge.jpg,Tupperware containers,qwen,0.021672046298374745,0
-sun_axwfwkibvzamixmp.jpg,Cutting knife,qwen,1.0,1
-sun_axwfwkibvzamixmp.jpg,Plate,qwen,0.033852178081438304,0
-sun_axwfwkibvzamixmp.jpg,Spices,qwen,0.3309145673603505,0
-sun_axwfwkibvzamixmp.jpg,Tupperware containers,qwen,0.0,0
-sun_advwcwduhfypopki.jpg,Bottle opener,qwen,0.0,0
-sun_advwcwduhfypopki.jpg,Cutting board,qwen,0.0,0
-sun_advwcwduhfypopki.jpg,Mug,qwen,0.0,0
-sun_advwcwduhfypopki.jpg,Pan,qwen,0.0,0
-sun_afstlyyibsjscpbm.jpg,Cooking oil,qwen,0.0,0
-sun_afstlyyibsjscpbm.jpg,Dish towels,qwen,0.2856199905704856,0
-sun_afstlyyibsjscpbm.jpg,Pot,qwen,0.0,0
-sun_afstlyyibsjscpbm.jpg,Spices,qwen,0.0,0
-sun_akjjfxpidxgkthco.jpg,Cooking oil,qwen,0.0,0
-sun_akjjfxpidxgkthco.jpg,Cutting board,qwen,0.0,0
-sun_akjjfxpidxgkthco.jpg,Pot,qwen,0.18321844032744508,0
-sun_akjjfxpidxgkthco.jpg,Spoon,qwen,0.0,0
-sun_althuptvuaxvjman.jpg,Cooking oil,qwen,0.23280775075987842,0
-sun_althuptvuaxvjman.jpg,Dish towels,qwen,0.0,0
-sun_althuptvuaxvjman.jpg,Pot,qwen,0.0,0
-sun_althuptvuaxvjman.jpg,Spoon,qwen,0.0,0
-sun_aoqkmjxwlivgbkhq.jpg,Bowl,qwen,0.0,0
-sun_aoqkmjxwlivgbkhq.jpg,Cutting knife,qwen,0.0,0
-sun_aoqkmjxwlivgbkhq.jpg,Plate,qwen,0.0,0
-sun_aoqkmjxwlivgbkhq.jpg,Tupperware containers,qwen,0.0,0
-sun_aqzschgwftpwisen.jpg,Bowl,qwen,0.0,0
-sun_aqzschgwftpwisen.jpg,Cutting knife,qwen,0.08485447419736153,0
-sun_aqzschgwftpwisen.jpg,Plate,qwen,0.0,0
-sun_aqzschgwftpwisen.jpg,Tupperware containers,qwen,0.3238795518207283,0
-sun_arddicicgsnredyc.jpg,Cutting knife,qwen,0.0,0
-sun_arddicicgsnredyc.jpg,Plate,qwen,0.0,0
-sun_arddicicgsnredyc.jpg,Spices,qwen,0.0,0
-sun_arddicicgsnredyc.jpg,Tupperware containers,qwen,0.0,0
-sun_atdfrsodpyskmywe.jpg,Bottle opener,qwen,1.0,1
-sun_atdfrsodpyskmywe.jpg,Cutting board,qwen,0.4934149823837885,0
-sun_atdfrsodpyskmywe.jpg,Mug,qwen,0.30611525996900096,0
-sun_atdfrsodpyskmywe.jpg,Pan,qwen,0.0,0
-sun_auatsxdwxjotzqjr.jpg,Cooking oil,qwen,0.0,0
-sun_auatsxdwxjotzqjr.jpg,Dish towels,qwen,0.0,0
-sun_auatsxdwxjotzqjr.jpg,Pot,qwen,0.0,0
-sun_auatsxdwxjotzqjr.jpg,Spices,qwen,0.018985509244578036,0
-sun_aufggmchclraycgm.jpg,Bottle opener,qwen,0.0,0
-sun_aufggmchclraycgm.jpg,Cutting board,qwen,0.0,0
-sun_aufggmchclraycgm.jpg,Mug,qwen,0.0,0
-sun_aufggmchclraycgm.jpg,Pan,qwen,0.0,0
-sun_abnipsthatveonrh.jpg,Cutting knife,qwen,0.0,0
-sun_abnipsthatveonrh.jpg,Plate,qwen,0.002199834860602921,0
-sun_abnipsthatveonrh.jpg,Spices,qwen,0.3199548740572133,0
-sun_abnipsthatveonrh.jpg,Tupperware containers,qwen,0.0,0
-sun_adwiyvylmsqaomcb.jpg,Cooking oil,qwen,0.0,0
-sun_adwiyvylmsqaomcb.jpg,Dish towels,qwen,0.0,0
-sun_adwiyvylmsqaomcb.jpg,Plate,qwen,0.0,0
-sun_adwiyvylmsqaomcb.jpg,Spices,qwen,0.0,0
-sun_afkaeizmulcsokfj.jpg,Bottle opener,qwen,1.0,1
-sun_afkaeizmulcsokfj.jpg,Bowl,qwen,0.0,0
-sun_afkaeizmulcsokfj.jpg,Mug,qwen,0.0,0
-sun_afkaeizmulcsokfj.jpg,Pan,qwen,0.0,0
-sun_ahhrhzkyvzaqeark.jpg,Bowl,qwen,0.0,0
-sun_ahhrhzkyvzaqeark.jpg,Cutting knife,qwen,0.20953332223517007,0
-sun_ahhrhzkyvzaqeark.jpg,Mug,qwen,0.0,0
-sun_ahhrhzkyvzaqeark.jpg,Tupperware containers,qwen,0.0032360051907946667,0
-sun_amvpxkryxaldzmdv.jpg,Bowl,qwen,0.0,0
-sun_amvpxkryxaldzmdv.jpg,Cutting knife,qwen,0.5609621562855501,1
-sun_amvpxkryxaldzmdv.jpg,Mug,qwen,0.0,0
-sun_amvpxkryxaldzmdv.jpg,Tupperware containers,qwen,0.23589174585039552,0
-sun_aojmogpsfirohkai.jpg,Cooking oil,qwen,0.0,0
-sun_aojmogpsfirohkai.jpg,Dish towels,qwen,0.0,0
-sun_aojmogpsfirohkai.jpg,Pot,qwen,0.0,0
-sun_aojmogpsfirohkai.jpg,Spices,qwen,0.0,0
-sun_awuawixsfaurzuaa.jpg,Cooking oil,qwen,0.0,0
-sun_awuawixsfaurzuaa.jpg,Dish towels,qwen,0.0,0
-sun_awuawixsfaurzuaa.jpg,Plate,qwen,0.20684185971152094,0
-sun_awuawixsfaurzuaa.jpg,Spices,qwen,0.0,0
-sun_axuroipjldepebje.jpg,Bottle opener,qwen,0.0,0
-sun_axuroipjldepebje.jpg,Cutting board,qwen,0.0,0
-sun_axuroipjldepebje.jpg,Mug,qwen,0.0,0
-sun_axuroipjldepebje.jpg,Pan,qwen,0.0,0
-sun_ayeksgxvkxbdgqil.jpg,Bottle opener,qwen,0.0,0
-sun_ayeksgxvkxbdgqil.jpg,Cutting board,qwen,0.0,0
-sun_ayeksgxvkxbdgqil.jpg,Pan,qwen,0.0,0
-sun_ayeksgxvkxbdgqil.jpg,Spoon,qwen,0.0,0
-sun_aawzwijpmowksmpn.jpg,Bottle opener,qwen,0.0,0
-sun_aawzwijpmowksmpn.jpg,Cutting board,qwen,0.0,0
-sun_aawzwijpmowksmpn.jpg,Mug,qwen,0.7868939464893384,1
-sun_aawzwijpmowksmpn.jpg,Pan,qwen,0.0,0
-sun_abdzsryntppucwqi.jpg,Cutting knife,qwen,0.0,0
-sun_abdzsryntppucwqi.jpg,Dish towels,qwen,0.0023536789102692386,0
-sun_abdzsryntppucwqi.jpg,Plate,qwen,0.0,0
-sun_abdzsryntppucwqi.jpg,Spices,qwen,0.3025581395348837,0
-sun_afdefsrtlbtfdhxq.jpg,Bottle opener,qwen,0.0,0
-sun_afdefsrtlbtfdhxq.jpg,Cutting board,qwen,0.0,0
-sun_afdefsrtlbtfdhxq.jpg,Mug,qwen,0.0,0
-sun_afdefsrtlbtfdhxq.jpg,Pan,qwen,0.0,0
-sun_awspbtmcoxakihbx.jpg,Bottle opener,qwen,0.0,0
-sun_awspbtmcoxakihbx.jpg,Cutting board,qwen,0.34497508782021336,0
-sun_awspbtmcoxakihbx.jpg,Pan,qwen,0.48099574289368685,0
-sun_awspbtmcoxakihbx.jpg,Spoon,qwen,0.3578555886558864,0
+Bottle_opener_1_a.jpg,Bottle opener,qwen,0.008266624829594636,0
+Bottle_opener_2_a.jpg,Bottle opener,qwen,0.13748257232485186,0
+Bottle_opener_3_a.jpg,Bottle opener,qwen,0.0,0
+Bottle_opener_4_a.jpg,Bottle opener,qwen,0.0,0
+Bottle_opener_5_a.jpg,Bottle opener,qwen,0.0,0
+Bottle_opener_6_a.jpg,Bottle opener,qwen,0.0,0
+Bottle_opener_7_a.jpg,Bottle opener,qwen,0.0,0
+Bottle_opener_8_a.jpg,Bottle opener,qwen,0.0,0
+Bottle_opener_9_a.jpg,Bottle opener,qwen,0.19806649152318132,0
+Bottle_opener_10_a.jpg,Bottle opener,qwen,0.0,0
+Bottle_opener_11_a.jpg,Bottle opener,qwen,1.0,1
+Bottle_opener_12_a.jpg,Bottle opener,qwen,0.0,0
+Bottle_opener_13_a.jpg,Bottle opener,qwen,0.009581910523549746,0
+Bottle_opener_14_a.jpg,Bottle opener,qwen,0.0,0
+Bottle_opener_15_a.jpg,Bottle opener,qwen,1.0,1
+Bottle_opener_16_a.jpg,Bottle opener,qwen,0.0,0
+Bottle_opener_17_a.jpg,Bottle opener,qwen,0.0,0
+Bottle_opener_18_a.jpg,Bottle opener,qwen,0.1409206780555673,0
+Bottle_opener_19_a.jpg,Bottle opener,qwen,0.0,0
+Bottle_opener_20_a.jpg,Bottle opener,qwen,0.0,0
+Bottle_opener_21_a.jpg,Bottle opener,qwen,0.0,0
+Bottle_opener_22_a.jpg,Bottle opener,qwen,0.0,0
+Bottle_opener_23_a.jpg,Bottle opener,qwen,0.0,0
+Bottle_opener_24_a.jpg,Bottle opener,qwen,0.03438366638576371,0
+Bottle_opener_25_a.jpg,Bottle opener,qwen,0.0,0
+Bottle_opener_26_a.jpg,Bottle opener,qwen,0.136470864001722,0
+Bottle_opener_27_a.jpg,Bottle opener,qwen,0.0,0
+Bottle_opener_29_a.jpg,Bottle opener,qwen,0.0,0
+Bottle_opener_30_a.jpg,Bottle opener,qwen,0.16422300939473278,0
+Bottle_opener_31_a.jpg,Bottle opener,qwen,0.0,0
+Bottle_opener_32_a.jpg,Bottle opener,qwen,0.0,0
+Bottle_opener_35_a.jpg,Bottle opener,qwen,0.0,0
+Bottle_opener_37_a.jpg,Bottle opener,qwen,0.515702688412733,1
+Bottle_opener_39_a.jpg,Bottle opener,qwen,0.0,0
+Bottle_opener_40_a.jpg,Bottle opener,qwen,0.3956068387318086,0
+Bottle_opener_41_a.jpg,Bottle opener,qwen,0.1366386085898281,0
+Bottle_opener_42_a.jpg,Bottle opener,qwen,0.2569637739428053,0
+Bottle_opener_44_a.jpg,Bottle opener,qwen,0.14822056473745845,0
+Bottle_opener_45_a.jpg,Bottle opener,qwen,0.0,0
+Bottle_opener_48_a.jpg,Bottle opener,qwen,0.12364490686356772,0
+Bottle_opener_47_a.jpeg,Bottle opener,qwen,0.010892239170131468,0
+Bottle_opener_34_a.jpeg,Bottle opener,qwen,0.022713638712964997,0
+Bottle_opener_43_a.jpeg,Bottle opener,qwen,0.0,0
+Bottle_opener_33_a.jpeg,Bottle opener,qwen,0.0,0
+Food_containers_1_a.jpg,Tupperware containers,qwen,0.0,0
+Food_containers_2_a.jpg,Tupperware containers,qwen,0.0,0
+Food_containers_3_a.jpg,Tupperware containers,qwen,0.442668921770072,0
+Food_containers_4_a.jpg,Tupperware containers,qwen,0.0,0
+Food_containers_5_a.jpg,Tupperware containers,qwen,0.0,0
+Food_containers_6_a.jpg,Tupperware containers,qwen,0.09173313523094567,0
+Food_containers_7_a.jpg,Tupperware containers,qwen,0.0,0
+Food_containers_8_a.jpg,Tupperware containers,qwen,0.0,0
+Food_containers_9_a.jpg,Tupperware containers,qwen,0.0,0
+Food_containers_10_a.jpg,Tupperware containers,qwen,0.022026259982785304,0
+Food_containers_11_a.jpg,Tupperware containers,qwen,0.0,0
+Food_containers_12_a.jpg,Tupperware containers,qwen,0.0,0
+Food_containers_13_a.jpg,Tupperware containers,qwen,0.0,0
+Food_containers_14_a.jpg,Tupperware containers,qwen,0.005679607595107446,0
+Food_containers_15_a.jpg,Tupperware containers,qwen,0.21026690019314778,0
+Food_containers_16_a.jpg,Tupperware containers,qwen,0.0,0
+Food_containers_17_a.jpg,Tupperware containers,qwen,0.0,0
+Food_containers_18_a.jpg,Tupperware containers,qwen,0.24478481621338763,0
+Food_containers_19_a.jpg,Tupperware containers,qwen,0.0,0
+Food_containers_20_a.jpg,Tupperware containers,qwen,0.21257388272493125,0
+Food_containers_21_a.jpg,Tupperware containers,qwen,0.0,0
+Food_containers_22_a.jpg,Tupperware containers,qwen,0.0,0
+Food_containers_23_a.jpg,Tupperware containers,qwen,0.15977643718949605,0
+Food_containers_24_a.jpg,Tupperware containers,qwen,0.0,0
+Food_containers_28_a.jpg,Tupperware containers,qwen,0.0,0
+Food_containers_29_a.jpg,Tupperware containers,qwen,0.0,0
+Food_containers_33_a.jpg,Tupperware containers,qwen,0.0,0
+Food_containers_34_a.jpg,Tupperware containers,qwen,0.0,0
+Food_containers_35_a.jpg,Tupperware containers,qwen,0.0,0
+Food_containers_37_a.jpg,Tupperware containers,qwen,0.0,0
+Food_containers_39_a.jpg,Tupperware containers,qwen,0.001278894785861512,0
+Food_containers_40_a.jpg,Tupperware containers,qwen,0.21859236127792459,0
+Food_containers_41_a.jpg,Tupperware containers,qwen,0.001991682891080148,0
+Food_containers_36_a.jpeg,Tupperware containers,qwen,0.37444863722139576,0
+Food_containers_30_a.jpeg,Tupperware containers,qwen,0.1703486284272417,0
+Food_containers_25_a.jpeg,Tupperware containers,qwen,0.0,0
+Food_containers_31_a.jpeg,Tupperware containers,qwen,0.0,0
+Random_5 - Candles_a.jpeg,Candles,qwen,0.0,0
+Random_15 - Cereals_a.jpg,Cereals,qwen,0.20507110998175507,0
+Random_1 - Fork_a.jpg,Fork,qwen,0.0,0
+Random_12 - Fork_a.jpeg,Fork,qwen,0.11144345062688958,0
+Random_7 - Peeler_a.jpeg,Peeler,qwen,0.0,0
+Random_14 - Pot_a.jpg,Pot,qwen,0.0,0
+Random_22 - Pot_a.jpeg,Pot,qwen,0.0,0
+Random_21 - Rolling pin_a.jpg,Rolling pin,qwen,0.0,0
+Random_17 - Spices_a.jpg,Spices,qwen,0.002697530113719568,0
+Screwdriver_1_a.jpg,Screwdriver,qwen,0.0,0
+Screwdriver_11_a.jpg,Screwdriver,qwen,0.27244885767596844,0
+Screwdriver_16_a.jpg,Screwdriver,qwen,0.0,0
+Screwdriver_14_a.jpeg,Screwdriver,qwen,0.0,0
+Painkiller_1_a.jpg,Painkiller,qwen,0.818519470535338,1
+Painkiller_4_a.jpg,Painkiller,qwen,0.0,0
+Painkiller_5_a.jpg,Painkiller,qwen,0.1164836239414497,0
+Painkiller_19_a.jpg,Painkiller,qwen,0.0,0
+Painkiller_23_a.jpeg,Painkiller,qwen,1.0,1
+Painkiller_29_a.jpeg,Painkiller,qwen,0.0,0

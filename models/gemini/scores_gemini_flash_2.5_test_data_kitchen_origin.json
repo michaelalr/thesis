@@ -1,9 +1,9 @@
 [
   {
-    "user_id":"gemini",
-    "correct_answers":5,
+    "user_id":"gemini_2.5",
+    "correct_answers":1,
     "total_attempts":100,
-    "accuracy (%)":5.0,
+    "accuracy (%)":1.0,
     "average_IoU":0.027
   }
 ]

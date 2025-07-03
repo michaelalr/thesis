@@ -960,7 +960,7 @@ def t_test():
     model_files = {
         "gpt-4o": "./t-test_results/score_per_pair_gpt-4o.csv",
         "chatgpt": "./t-test_results/score_per_pair_chatgpt.csv",
-        "llama_3.3": "./t-test_results/score_per_pair_llama.csv",
+        "llama_3.3": "./t-test_results/score_per_pair_llama_3.3.csv",
         "llama_4": "./t-test_results/score_per_pair_llama_4.csv",
         "qwen": "./t-test_results/score_per_pair_qwen.csv",
         "random": "./t-test_results/score_per_pair_random.csv",
@@ -1297,6 +1297,7 @@ if __name__ == "__main__":
                          "NOAM GPT-4"),
                         ("../models/dino/scores_dino_1_test_data_kitchen_per_item.csv", "dino_1"),
                         ("../models/dino/scores_dino_0.95_test_data_kitchen_per_item.csv", "dino_0.95"),
+                        ("../models/dino/scores_dino_no_item_test_data_kitchen_per_item.csv", "dino_no_item"),
                         ("../models/gemini/scores_gemini_flash_1.5_test_data_kitchen_origin_per_item.csv",
                          "gemini_1.5"),
                         ("../models/gemini/scores_gemini_flash_2.5_test_data_kitchen_origin_per_item.csv",
@@ -1304,7 +1305,9 @@ if __name__ == "__main__":
                         ("../models/gpt-4o/scores_chatgpt_baseline_test_kitchen_origin_images_parse_per_item.csv",
                          "gpt-4o"),
                         ("../models/kosmos2/scores_kosmos_test_data_kitchen_per_item.csv", "kosmos-2"),
-                        ("../models/llama_3.3/scores_llama_test_short_id_pos_lab_anchrs_ratio_per_item.csv", "NOAM LLaMA-3.3")]
+                        ("../models/llama_3.3/scores_llama_test_short_id_pos_lab_anchrs_ratio_per_item.csv", "NOAM LLaMA-3.3"),
+                        ("../models/llama_4/scores_llama_4_test_origin_images_parse_per_item.csv", "LLaMA-4"),
+                        ("../models/qwen/scores_qwen_2.5_test_origin_images_parse_per_item.csv", "Qwen-2.5")]
     human_csv_path = "../baselines/human/scores_human_test_data_per_item.csv"
     output_dir = "stat_plots_per_item"
     # results_per_item_stat(named_model_csvs=named_model_csvs, human_csv_path=human_csv_path, output_dir=output_dir,
